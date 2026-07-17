@@ -1,0 +1,119 @@
+/* ==========================================================================
+   Geo Hound "Layered Paper" design tokens
+   Copied VERBATIM from the extension's theme.css (source of truth).
+   The website must use these exact values so product and site read as one.
+
+   Aesthetic: warm cartographic paper, dark-green ink, near-square corners,
+   2px structural borders, uppercase letter-spaced labels, flat (border-led,
+   not shadow-led). Dark mode is a "night survey instrument" inversion with
+   a lime accent.
+   ========================================================================== */
+
+:root {
+  /* --- surfaces --- */
+  --gh-bg: #f6f1e4;         /* page / primary paper            */
+  --gh-surface: #f6f1e4;    /* cards, dialogs                  */
+  --gh-surface-2: #f0ead9;  /* rail, insets, secondary panels  */
+  --gh-surface-3: #efe9da;  /* map ground, deep insets         */
+  --gh-inset: #ffffff;      /* code/url wells                  */
+
+  /* --- text --- */
+  --gh-text: #16240f;       /* primary                         */
+  --gh-text-2: #293a1f;     /* body                            */
+  --gh-text-muted: #4b5a40; /* secondary / labels              */
+  --gh-text-faint: #6b7563; /* tertiary / captions             */
+
+  /* --- lines --- */
+  --gh-border: #16240f;             /* major 2px structural    */
+  --gh-border-soft: rgba(22,36,15,.28);
+  --gh-hair: rgba(22,36,15,.15);    /* table rows, faint       */
+
+  /* --- interactive --- */
+  --gh-active: #dce8c8;      /* selected/active row tint        */
+  --gh-active-edge: #16240f; /* active border-left              */
+  --gh-hover: rgba(22,36,15,.06);
+
+  /* --- primary button (filled) --- */
+  --gh-btn-bg: #16240f;
+  --gh-btn-fg: #f6f1e4;
+
+  /* --- accent (brand green) --- */
+  --gh-accent: #4c9f1a;
+  --gh-accent-strong: #3c8213;
+  --gh-accent-fg: #0c210a;
+  --gh-accent-tint: #dce8c8;
+
+  /* --- semantic data colours --- */
+  --gh-purple: #5c4a80;     /* analysis / result               */
+  --gh-purple-tint: #e7e0f0;
+  --gh-orange: #b5601c;     /* selection / warning             */
+  --gh-orange-tint: #f6e6d3;
+  --gh-blue: #3f5a8f;       /* raster / info                   */
+  --gh-blue-tint: #dfe6f2;
+  --gh-danger: #a3301f;
+  --gh-danger-tint: #f4ddd7;
+  --gh-ok: #2f6d1e;
+  --gh-ok-tint: #dff0d2;
+
+  --gh-focus: #4c9f1a;
+  --gh-shadow: 0 12px 30px -18px rgba(22,36,15,.45);
+
+  /* --- shape --- */
+  --gh-r: 2px;
+  --gh-r-md: 4px;
+  --gh-r-lg: 6px;
+
+  /* --- type --- */
+  --gh-font: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --gh-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace;
+}
+
+[data-theme="dark"] {
+  --gh-bg: #1b1f15;
+  --gh-surface: #1b1f15;
+  --gh-surface-2: #20241a;
+  --gh-surface-3: #171a12;
+  --gh-inset: #12140f;
+
+  --gh-text: #f0ead9;
+  --gh-text-2: #dcd6c5;
+  --gh-text-muted: #a3ab97;
+  --gh-text-faint: #8b9480;
+
+  --gh-border: rgba(240,234,217,.4);
+  --gh-border-soft: rgba(240,234,217,.2);
+  --gh-hair: rgba(240,234,217,.12);
+
+  --gh-active: rgba(128,204,40,.14);
+  --gh-active-edge: #80cc28;
+  --gh-hover: rgba(240,234,217,.06);
+
+  --gh-btn-bg: #80cc28;
+  --gh-btn-fg: #0c210a;
+
+  --gh-accent: #9ee83f;
+  --gh-accent-strong: #b6f25e;
+  --gh-accent-fg: #0c210a;
+  --gh-accent-tint: rgba(128,204,40,.14);
+
+  --gh-purple: #b79bdb;
+  --gh-purple-tint: rgba(183,155,219,.16);
+  --gh-orange: #e8a13c;
+  --gh-orange-tint: rgba(232,161,60,.16);
+  --gh-blue: #7c9cd6;
+  --gh-blue-tint: rgba(124,156,214,.16);
+  --gh-danger: #e57a6a;
+  --gh-danger-tint: rgba(229,122,106,.16);
+  --gh-ok: #9ee83f;
+  --gh-ok-tint: rgba(158,232,63,.16);
+
+  --gh-focus: #9ee83f;
+  --gh-shadow: 0 12px 34px -16px rgba(0,0,0,.7);
+}
+
+/* Button idiom (from the extension) for reference:
+   .gh-btn  - 11px, weight 700, letter-spacing .05em, UPPERCASE,
+              1.5px solid border, radius 2px, transparent bg
+   .gh-btn--primary - filled ink (light) / filled lime (dark)
+   .gh-label - 10px, weight 700, letter-spacing .1em, UPPERCASE, muted colour
+*/

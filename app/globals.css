@@ -1,0 +1,454 @@
+/* ==========================================================================
+   Geo Hound website - base layer
+   Layered Paper. Border-led, flat, near-square, warm cartographic paper.
+
+   Rules this file obeys:
+   - styles/tokens.css is byte-identical to the extension's export and is never
+     edited here. Everything below consumes those variables.
+   - The .gh-btn and .gh-label idioms are copied from the extension's theme.css
+     so the site and the product are literally the same object.
+   - No emoji, no dingbats. Icons are inline SVG on a 24px grid.
+   - Structure comes from borders, never from shadows.
+   ========================================================================== */
+
+@import url('../styles/tokens.css');
+
+/* --------------------------------------------------------------------------
+   Font wiring
+
+   tokens.css names the families ('Be Vietnam Pro', 'JetBrains Mono'). next/font
+   self-hosts them under generated family names, so the token stacks cannot
+   resolve them by name. These two declarations point the token variables at the
+   self-hosted faces and keep the original stacks as fallbacks. This is the only
+   place token values are extended, and it does not change the typefaces.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --gh-font: var(--font-gh-sans), 'Be Vietnam Pro', system-ui, -apple-system,
+    'Segoe UI', Roboto, sans-serif;
+  --gh-mono: var(--font-gh-mono), 'JetBrains Mono', ui-monospace,
+    'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Layout rhythm. Not in tokens.css because the extension has no page canvas. */
+  --gh-measure: 68ch;
+  --gh-gutter: 24px;
+  --gh-max: 1180px;
+  --gh-max-narrow: 760px;
+
+  /* Marketing type scale. Editorial, not billboard. */
+  --gh-step-hero: clamp(2.25rem, 1.2rem + 3.6vw, 3.75rem);
+  --gh-step-h2: clamp(1.5rem, 1.1rem + 1.4vw, 2rem);
+  --gh-step-h3: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+  --gh-step-body: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   Reset
+   -------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--gh-bg);
+  color: var(--gh-text-2);
+  font-family: var(--gh-font);
+  font-size: var(--gh-step-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* --------------------------------------------------------------------------
+   Typography
+   Sentence case throughout. Uppercase is reserved for the micro-label idiom.
+   -------------------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--gh-text);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--gh-step-hero);
+}
+
+h2 {
+  font-size: var(--gh-step-h2);
+}
+
+h3 {
+  font-size: var(--gh-step-h3);
+  font-weight: 700;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--gh-border-soft);
+  text-underline-offset: 3px;
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--gh-mono);
+  font-size: 0.875em;
+}
+
+/* --------------------------------------------------------------------------
+   Focus. 2px accent ring, always visible, never removed.
+   -------------------------------------------------------------------------- */
+
+:focus-visible {
+  outline: 2px solid var(--gh-focus);
+  outline-offset: 2px;
+  border-radius: var(--gh-r);
+}
+
+.gh-skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--gh-btn-bg);
+  color: var(--gh-btn-fg);
+  padding: 10px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.gh-skip:focus {
+  left: 8px;
+  top: 8px;
+}
+
+/* --------------------------------------------------------------------------
+   Micro-label. Copied from the extension's theme.css .gh-label.
+   -------------------------------------------------------------------------- */
+
+.gh-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gh-text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   Buttons. Copied from the extension's theme.css .gh-btn, with a --lg size
+   added for marketing pages. The idiom is otherwise unchanged.
+   -------------------------------------------------------------------------- */
+
+.gh-btn {
+  font-family: var(--gh-font);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 7px 14px;
+  border: 1.5px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: transparent;
+  color: var(--gh-text);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  line-height: 1;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s, border-color 0.15s, opacity 0.15s;
+}
+
+.gh-btn:hover {
+  background: var(--gh-hover);
+}
+
+.gh-btn--primary {
+  background: var(--gh-btn-bg);
+  color: var(--gh-btn-fg);
+  border-color: var(--gh-btn-bg);
+}
+
+.gh-btn--primary:hover {
+  opacity: 0.92;
+  background: var(--gh-btn-bg);
+}
+
+.gh-btn--lg {
+  font-size: 12px;
+  padding: 13px 22px;
+}
+
+.gh-btn:disabled,
+.gh-btn[aria-disabled='true'] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.gh-icon-btn {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: transparent;
+  color: var(--gh-text);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.gh-icon-btn:hover {
+  background: var(--gh-hover);
+}
+
+/* --------------------------------------------------------------------------
+   Layout
+   -------------------------------------------------------------------------- */
+
+.gh-wrap {
+  width: 100%;
+  max-width: var(--gh-max);
+  margin-inline: auto;
+  padding-inline: var(--gh-gutter);
+}
+
+.gh-wrap--narrow {
+  max-width: var(--gh-max-narrow);
+}
+
+.gh-section {
+  padding-block: clamp(48px, 7vw, 88px);
+  border-bottom: 1.5px solid var(--gh-hair);
+}
+
+.gh-eyebrow {
+  display: block;
+  margin-bottom: 14px;
+}
+
+/* --------------------------------------------------------------------------
+   Cartographic garnish
+   Three motifs, used consistently: graticule ground, corner registration
+   ticks, mono figure captions. Nothing else.
+   -------------------------------------------------------------------------- */
+
+.gh-graticule {
+  background-image: linear-gradient(to right, var(--gh-hair) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--gh-hair) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-position: center center;
+}
+
+.gh-ticks {
+  position: relative;
+}
+
+.gh-ticks::before,
+.gh-ticks::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  pointer-events: none;
+  border-color: var(--gh-border);
+}
+
+.gh-ticks::before {
+  top: -1.5px;
+  left: -1.5px;
+  border-top: 1.5px solid;
+  border-left: 1.5px solid;
+}
+
+.gh-ticks::after {
+  bottom: -1.5px;
+  right: -1.5px;
+  border-bottom: 1.5px solid;
+  border-right: 1.5px solid;
+}
+
+/* --------------------------------------------------------------------------
+   Plate. The primary imagery idiom: a screenshot presented as a figure in a
+   survey document. 2px ink border, corner ticks, mono caption beneath.
+   Fixed 1280x800 aspect so a placeholder and a real capture swap with zero
+   layout shift.
+   -------------------------------------------------------------------------- */
+
+.gh-plate {
+  margin: 0;
+}
+
+.gh-plate__frame {
+  position: relative;
+  border: 2px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: var(--gh-surface-3);
+  aspect-ratio: 1280 / 800;
+  overflow: hidden;
+}
+
+.gh-plate__frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.gh-plate__caption {
+  margin-top: 10px;
+  font-family: var(--gh-mono);
+  font-size: 11px;
+  color: var(--gh-text-faint);
+  letter-spacing: 0.02em;
+}
+
+/* Placeholder state, used until a real capture is dropped in. Deliberately
+   reads as a blank survey plate rather than pretending to be product UI. */
+.gh-plate__pending {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  gap: 6px;
+  text-align: center;
+  padding: 16px;
+  background-image: linear-gradient(to right, var(--gh-hair) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--gh-hair) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* --------------------------------------------------------------------------
+   Card
+   -------------------------------------------------------------------------- */
+
+.gh-card {
+  border: 1.5px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: var(--gh-surface);
+  padding: 22px;
+}
+
+.gh-card--inset {
+  background: var(--gh-surface-2);
+}
+
+/* --------------------------------------------------------------------------
+   Mono data wells (URLs, service types, coordinates)
+   -------------------------------------------------------------------------- */
+
+.gh-mono {
+  font-family: var(--gh-mono);
+}
+
+.gh-well {
+  font-family: var(--gh-mono);
+  font-size: 12px;
+  background: var(--gh-inset);
+  border: 1.5px solid var(--gh-border-soft);
+  border-radius: var(--gh-r);
+  padding: 10px 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+  color: var(--gh-text);
+}
+
+/* --------------------------------------------------------------------------
+   Utilities
+   -------------------------------------------------------------------------- */
+
+.gh-vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.gh-muted {
+  color: var(--gh-text-muted);
+}
+
+.gh-faint {
+  color: var(--gh-text-faint);
+}
+
+.gh-measure {
+  max-width: var(--gh-measure);
+}

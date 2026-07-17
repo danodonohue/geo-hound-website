@@ -1,0 +1,185 @@
+.head {
+  padding-block: clamp(40px, 5vw, 64px);
+  border-bottom: 1.5px solid var(--gh-border);
+}
+
+.lede {
+  font-size: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  color: var(--gh-text-2);
+  max-width: 60ch;
+  margin-top: 16px;
+}
+
+/* --- the two free tiers --- */
+
+.tiers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.tier {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tierPrice {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--gh-text);
+  line-height: 1;
+}
+
+.tierQualifier {
+  font-size: 13px;
+  color: var(--gh-text-muted);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 2px;
+}
+
+.list li {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 10px;
+  align-items: start;
+  font-size: 14px;
+  color: var(--gh-text-2);
+}
+
+.list svg {
+  color: var(--gh-accent);
+  margin-top: 3px;
+}
+
+/* --- credit packs --- */
+
+.packs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+  align-items: start;
+}
+
+.pack {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+}
+
+/* The featured pack carries a 2px ink border against the others' 1.5px
+   hairline. Emphasis by line weight, not by shadow or colour wash. */
+.packFeatured {
+  border-width: 2px;
+  border-color: var(--gh-border);
+}
+
+.packFlag {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background: var(--gh-btn-bg);
+  color: var(--gh-btn-fg);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+}
+
+.packPrice {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--gh-text);
+  line-height: 1;
+}
+
+.packQuestions {
+  font-family: var(--gh-mono);
+  font-size: 13px;
+  color: var(--gh-text);
+}
+
+.packUnit {
+  font-family: var(--gh-mono);
+  font-size: 11px;
+  color: var(--gh-text-faint);
+  margin-top: 2px;
+}
+
+.packNote {
+  font-size: 13px;
+  color: var(--gh-text-muted);
+  margin-top: 8px;
+  padding-top: 12px;
+  border-top: 1.5px solid var(--gh-hair);
+}
+
+/* --- how credits work --- */
+
+.mechanics {
+  background: var(--gh-surface-2);
+}
+
+.mechanicsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.rule {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ruleBody {
+  font-size: 14px;
+  color: var(--gh-text-2);
+}
+
+/* --- faq --- */
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  border-top: 1.5px solid var(--gh-hair);
+}
+
+.faqItem {
+  border-bottom: 1.5px solid var(--gh-hair);
+  padding-block: 18px;
+}
+
+.faqQ {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--gh-text);
+  margin-bottom: 7px;
+}
+
+.faqA {
+  font-size: 14px;
+  color: var(--gh-text-2);
+  max-width: 70ch;
+}
+
+@media (max-width: 900px) {
+  .tiers,
+  .packs,
+  .mechanicsGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

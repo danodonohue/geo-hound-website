@@ -1,0 +1,100 @@
+.footer {
+  margin-top: auto;
+  border-top: 2px solid var(--gh-border);
+  background: var(--gh-surface-2);
+  padding-block: 48px 28px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.about {
+  max-width: 34ch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wordmark {
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--gh-text);
+}
+
+.blurb {
+  font-size: 13px;
+  color: var(--gh-text-muted);
+  line-height: 1.55;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.link {
+  font-size: 13px;
+  color: var(--gh-text-2);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.link:hover {
+  color: var(--gh-accent);
+  text-decoration: underline;
+}
+
+.imprint {
+  margin-top: 40px;
+  padding-top: 18px;
+  border-top: 1.5px solid var(--gh-hair);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 26px;
+  font-size: 12px;
+  color: var(--gh-text-muted);
+}
+
+.mapscaping {
+  margin-inline-start: auto;
+}
+
+/* An unconfirmed seller name must look wrong on the page, not blend in.
+   This block is a legal identity; a plausible-looking placeholder shipping to
+   production is the failure mode worth designing against. */
+.pending {
+  font-family: var(--gh-mono);
+  color: var(--gh-danger);
+  background: var(--gh-danger-tint);
+  padding: 1px 6px;
+  border-radius: var(--gh-r);
+}
+
+@media (max-width: 860px) {
+  .columns {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 520px) {
+  .mapscaping {
+    margin-inline-start: 0;
+  }
+}

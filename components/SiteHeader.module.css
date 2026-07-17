@@ -1,0 +1,122 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--gh-bg);
+  border-bottom: 1.5px solid var(--gh-border);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 60px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--gh-text);
+  text-decoration: none;
+  flex: 0 0 auto;
+}
+
+.wordmark {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-inline-start: auto;
+}
+
+.link {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gh-text-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+
+.link:hover {
+  color: var(--gh-accent);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+/* --- narrow-screen menu --- */
+
+.menu {
+  display: none;
+  position: relative;
+}
+
+.menuButton {
+  list-style: none;
+  /* Safari renders a disclosure triangle without this. */
+}
+
+.menuButton::-webkit-details-marker {
+  display: none;
+}
+
+.menuPanel {
+  position: absolute;
+  top: calc(100% + 9px);
+  right: 0;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  background: var(--gh-surface);
+  border: 1.5px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  padding: 6px;
+}
+
+.menuLink {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--gh-text-2);
+  text-decoration: none;
+  padding: 10px 12px;
+  border-radius: var(--gh-r);
+  transition: background 0.15s, color 0.15s;
+}
+
+.menuLink:hover {
+  background: var(--gh-hover);
+  color: var(--gh-text);
+}
+
+/* The nav collapses into the menu before the CTA does: on a narrow screen the
+   install action outranks the section links. */
+@media (max-width: 860px) {
+  .nav {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .actions {
+    margin-inline-start: auto;
+  }
+}
+
+@media (max-width: 520px) {
+  .headerCta {
+    display: none;
+  }
+}

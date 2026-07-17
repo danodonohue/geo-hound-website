@@ -1,0 +1,110 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to find the WMS URL behind a web map',
+  description:
+    'Three ways to find the WMS service URL powering a web map: read the capabilities document, dig through the browser network tab, or let a detector catch it automatically.',
+  alternates: { canonical: '/guides/find-wms-url-behind-web-map' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to find the WMS URL behind a web map
+
+**The short answer:** the map already fetched it, so the URL is in your browser's network
+traffic. Open DevTools, filter the requests for `GetMap` or `WMS`, and the service URL is
+the part before the `?`. Everything below is the detail, plus two faster ways.
+
+A web map viewer almost never tells you where its data comes from. There is no "copy
+service URL" button, because the people who built the viewer were building a viewer, not
+a data portal. But the map cannot draw itself without asking a server for pixels, and
+that request is visible to you.
+
+## Method 1: the network tab
+
+This is the method everyone learns first, and it always works.
+
+1. Open the web map and let it finish loading.
+2. Press F12 to open developer tools, and click the **Network** tab.
+3. Reload the page. You need the requests that happen *during* load, and the panel only
+   records while it is open.
+4. In the filter box, type `GetMap`. A WMS layer draws itself by calling `GetMap`, so
+   this cuts hundreds of requests down to a handful.
+5. Click one and look at its URL.
+
+You are looking at something like this:
+
+```
+https://maps.example.govt.nz/services/wms?SERVICE=WMS&VERSION=1.3.0
+  &REQUEST=GetMap&LAYERS=flood_zones&CRS=EPSG:3857
+  &BBOX=19430000,-5000000,19440000,-4990000&WIDTH=256&HEIGHT=256&FORMAT=image/png
+```
+
+**The service URL is everything before the `?`.** In this case:
+`https://maps.example.govt.nz/services/wms`. The rest is just this particular request:
+which layer, which area, how big. Throw it away.
+
+The other thing worth noting is `LAYERS=flood_zones`. That is the layer name you will
+need later, and it is frequently different from the friendly label the viewer showed you.
+
+**If `GetMap` finds nothing,** the map is probably not WMS. Try filtering for `WMTS`,
+`FeatureServer`, `MapServer`, or `.pbf`. See
+[how to get data out of an ArcGIS web map](/guides/get-data-from-arcgis-web-map) and
+[how to find the XYZ tile URL](/guides/find-xyz-tile-url).
+
+## Method 2: ask the service what it has
+
+Once you have the service URL, ask it to describe itself:
+
+```
+https://maps.example.govt.nz/services/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0
+```
+
+You get an XML document listing every layer the service publishes, the projections it
+supports, the bounding boxes, and the image formats. This is the difference between
+having one layer and having the whole service.
+
+It is worth knowing that this often reveals layers the public viewer never displayed. A
+council viewer might show you three layers while the service publishes forty. That is
+not a security hole: the service publishes them deliberately. It just means the viewer
+was curated.
+
+There is [a guide to reading a GetCapabilities document](/guides/what-is-getcapabilities)
+if the XML looks impenetrable.
+
+## Method 3: let something watch for you
+
+The network tab works, but it is tedious, and it is not something you want to do on
+every map you look at. That is what [Geo Hound](/) does: it watches the traffic while
+you browse, recognises WMS, WFS, WMTS, WCS, OGC API, and the Esri REST family, and saves
+each one with its title, provider, layer list, coordinate systems, and bounding box
+already fetched from the capabilities document.
+
+Then it hands you the URL already formatted for QGIS, so you skip the cleanup step
+entirely.
+
+## Getting it into QGIS
+
+With the service URL in hand:
+
+1. In QGIS, open the **Browser** panel.
+2. Right-click **WMS/WMTS** and choose **New Connection**.
+3. Paste the service URL, the bit before the `?`. Give it a name.
+4. Click **OK**, then expand the connection to see the layers.
+
+If QGIS says it cannot connect, the usual suspects are: you pasted the whole `GetMap`
+URL rather than trimming it, the service needs a version parameter, or the service is
+behind a login your browser had and QGIS does not.
+
+## A note on being a good citizen
+
+Finding a service URL is not hacking. You are reading a request your own browser made to
+a public server, and that server answered because it was configured to answer anyone.
+
+That said, being *able* to fetch the data is not the same as being *allowed* to use it.
+Public map services usually carry a licence, and the terms are typically on the portal
+that hosts the viewer. Check before you republish, and cache what you need rather than
+hammering someone's server with automated requests. These are frequently small
+organisations paying for their own bandwidth.
+
+<GuideFooter slug="find-wms-url-behind-web-map" />

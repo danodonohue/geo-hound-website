@@ -124,11 +124,17 @@ export default function PricingPage() {
                 </li>
                 <li>
                   <CheckIcon size={16} />
-                  <span>Buffer, spatial join, nearest distance, overlays, field calculator.</span>
+                  <span>
+                    Buffer, spatial join, nearest distance, select by location, split
+                    multipart.
+                  </span>
                 </li>
                 <li>
                   <CheckIcon size={16} />
-                  <span>Symbology, labels, annotations, and every export format.</span>
+                  <span>
+                    Symbology, labels, annotations, and every export format: GeoJSON, KML,
+                    CSV, XLSX, shapefile, PNG, and a PDF map report.
+                  </span>
                 </li>
               </ul>
             </article>

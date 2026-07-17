@@ -1,0 +1,107 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to open an ArcGIS FeatureServer in QGIS',
+  description:
+    'Step by step: add an ArcGIS FeatureServer or MapServer layer to QGIS using the ArcGIS REST Servers connection, including what to do when the URL will not load.',
+  alternates: { canonical: '/guides/open-featureserver-in-qgis' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to open an ArcGIS FeatureServer in QGIS
+
+**The short answer:** Browser panel, right-click **ArcGIS REST Servers**, **New
+Connection**, and paste the URL up to and including `FeatureServer`, with no layer number
+and no query string.
+
+QGIS speaks ArcGIS REST natively. You do not need a plugin, and you do not need to
+download anything first. Most of the trouble people hit is giving it the wrong slice of
+the URL.
+
+## Which part of the URL
+
+You probably have something like this:
+
+```
+https://services.arcgis.com/AbCdEf123/arcgis/rest/services/Parcels/FeatureServer/0/query?where=1%3D1&outFields=*&f=json
+```
+
+Cut it back to the service:
+
+```
+https://services.arcgis.com/AbCdEf123/arcgis/rest/services/Parcels/FeatureServer
+```
+
+**Stop at `FeatureServer`.** No `/0`, no `/query`, no `?`. QGIS wants the service, and it
+will find the layers inside it for you.
+
+If you do not have a URL yet,
+[how to get data out of an ArcGIS web map](/guides/get-data-from-arcgis-web-map) covers
+finding one.
+
+## Adding the connection
+
+1. Open QGIS. If the **Browser** panel is not visible, turn it on under **View**,
+   **Panels**, **Browser**.
+2. Scroll to **ArcGIS REST Servers**. Right-click it and choose **New Connection**.
+3. Give it a name you will recognise later. "Parcels" beats "Untitled connection 3".
+4. Paste the URL into **URL**.
+5. Leave authentication empty for a public service. Click **OK**.
+6. Expand your new connection. The layers appear. Double-click one, or drag it onto the
+   map.
+
+That is it. The layer is live: QGIS fetches features from the server as you pan.
+
+## Making it usable
+
+A live REST layer is convenient and slow. Every pan is a round trip, and it is at the
+mercy of somebody else's server.
+
+If you are going to do real work on it, right-click the layer, choose **Export**, then
+**Save Features As**, and write it to a GeoPackage. Now it is local, fast, and still there
+when the service has an outage. Do this before any serious analysis.
+
+Two things to set while you are there: pick a sensible CRS rather than accepting whatever
+turned up, and only export the fields you need if the layer has ninety of them.
+
+## When it will not load
+
+**"Connection failed" or nothing appears.** Paste the URL into a browser first. If the
+browser shows the ArcGIS REST page, the URL is fine and the problem is QGIS. If the
+browser shows an error too, the URL is wrong or the service is down.
+
+**You included the layer number.** Very common. `FeatureServer/0` is a layer;
+`FeatureServer` is the service. QGIS wants the service.
+
+**It is a MapServer, not a FeatureServer.** MapServers often serve images only. QGIS will
+add it, and you will get a picture with nothing to click. Check whether the service lists
+**Query** under Supported Operations.
+[The difference between the two](/guides/featureserver-vs-mapserver) is worth five
+minutes.
+
+**It needs a token.** If the original URL had `token=` on it, that token came from the
+website's session and is not yours. It will expire, and it may be tied to their domain.
+The data is not public in the way you assumed.
+
+**It loads but only shows some features.** That is the server's maximum record count,
+usually 1000 or 2000. QGIS pages through it as you zoom, but for the whole dataset use
+**Export**, **Save Features As**, which requests it properly.
+
+**It works in a browser but not in a web app you are building.** Different problem
+entirely: that is [CORS](/guides/why-wont-service-load-cors). QGIS does not care about
+CORS; browsers do.
+
+## Skipping the URL surgery
+
+Trimming the URL correctly is the fiddly part, and it is different for QGIS and ArcGIS
+Pro: Pro wants `?f=json` on the end, and tile services want their placeholders rewritten
+entirely.
+
+[Geo Hound](/) does that for you. It catches the service while you are looking at the map,
+then gives you a **QGIS** button and an **ArcGIS** button on the card. One click puts the
+correctly-formatted URL on your clipboard, ready to paste into the connection dialog. It
+also tests whether the service supports CORS, so you know in advance whether it will work
+in a browser app as well as in QGIS.
+
+<GuideFooter slug="open-featureserver-in-qgis" />

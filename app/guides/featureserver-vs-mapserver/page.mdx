@@ -1,0 +1,105 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'FeatureServer vs MapServer: which one gives you the data?',
+  description:
+    'The practical difference between an ArcGIS FeatureServer, MapServer, and ImageServer, and which of them will actually hand you the underlying features.',
+  alternates: { canonical: '/guides/featureserver-vs-mapserver' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# FeatureServer vs MapServer: which one gives you the data?
+
+**The short answer:** a FeatureServer serves features. A MapServer serves pictures of
+features, and *sometimes* the features too. An ImageServer serves rasters. If you want
+data, look for FeatureServer first.
+
+Knowing which one you are looking at, before you start, saves the hour spent trying to
+extract geometry from something that only has pixels.
+
+## The three you will meet
+
+### FeatureServer
+
+Serves the actual features: geometry and attributes. Built for exactly what you want.
+
+- Its `/query` endpoint returns GeoJSON or Esri JSON.
+- Each layer describes its own fields, types, and extent.
+- It may support editing, if the publisher enabled it. You will not have permission.
+
+If a public web map is backed by a FeatureServer, you can almost always get the data.
+
+### MapServer
+
+Serves rendered images. You give it a bounding box and a size; it gives you a PNG with
+the data drawn on it. The cartography happens on the server.
+
+The catch, and it is the useful one: **a MapServer often also supports Query.** Many are
+published from the same source data with query enabled, in which case the same
+`/query?where=1=1&outFields=*&f=geojson` trick works exactly as it does on a
+FeatureServer.
+
+So do not write off a MapServer. Check it.
+
+### ImageServer
+
+Serves raster data: imagery, elevation, and the like. There are no vector features to
+extract. You can get pixels, sometimes with real values behind them (an elevation
+ImageServer will tell you heights), but there are no polygons in there.
+
+## How to tell in ten seconds
+
+Paste the service URL into a browser. ArcGIS REST endpoints describe themselves in
+readable HTML.
+
+Look for **Supported Operations** near the bottom:
+
+- **Query** present: you can extract features. This is the one that matters.
+- **Export Map** but no Query: images only.
+- **Export Image**, **Identify**: an ImageServer.
+
+Then look at **Max Record Count**, usually 1000 or 2000. That is how many features you
+get per request, and it tells you whether you need to page.
+
+If you would rather not check by hand, [Geo Hound](/) labels each service with its exact
+type as it detects it, and reads the same description automatically, so a card tells you
+what you are dealing with before you click anything.
+
+## The decision, in practice
+
+| You see | Do this |
+| --- | --- |
+| **FeatureServer** | Query it, or add it to QGIS. You are done |
+| **MapServer with Query** | Same as above. Treat it as a FeatureServer |
+| **MapServer without Query** | Images only. Go looking for the source data elsewhere |
+| **ImageServer** | Raster. Fine as a layer, no features to extract |
+| **VectorTileServer** | Geometry, but tile-clipped and simplified. See [finding tile URLs](/guides/find-xyz-tile-url) |
+
+## When there is no Query
+
+You are not stuck yet. Try these, in order:
+
+1. **Drop back to `/rest/services`.** Many servers list their whole directory. The same
+   data is often published a second time as a FeatureServer for exactly this reason.
+2. **Look for an open data portal.** Search the organisation's site for the layer name.
+   Councils and agencies routinely publish downloads alongside their viewers, and the
+   download is better than anything you would extract.
+3. **Check for a WFS.** Some organisations run both, and a WFS gives you features.
+   [Finding the WMS URL](/guides/find-wms-url-behind-web-map) applies: WMS and WFS often
+   live on the same server.
+4. **Ask.** Genuinely. Email whoever publishes it. Public sector GIS teams are frequently
+   delighted that somebody wants their data and will hand you a file. Nobody tries this,
+   and it works more often than it has any right to.
+
+## Why the whole family matters
+
+Esri publishes seven REST service types: MapServer, FeatureServer, ImageServer, GPServer,
+GeometryServer, GeocodeServer, and VectorTileServer. Three of them hold data you might
+want; the rest are machinery.
+
+[Geo Hound](/) detects all seven, alongside the OGC and OGC API families, so what is
+behind a viewer is named for you rather than guessed at. Then it hands you the URL
+formatted for [QGIS](/guides/open-featureserver-in-qgis) or ArcGIS Pro.
+
+<GuideFooter slug="featureserver-vs-mapserver" />

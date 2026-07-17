@@ -426,6 +426,155 @@ pre {
 }
 
 /* --------------------------------------------------------------------------
+   Prose. What MDX renders into: guides, docs, and the legal pages.
+   A single-column reading measure, generous vertical rhythm, no marketing
+   furniture. This is a document, so it should read like one.
+   -------------------------------------------------------------------------- */
+
+.gh-prose {
+  max-width: var(--gh-measure);
+}
+
+.gh-prose > * + * {
+  margin-top: 1.1em;
+}
+
+.gh-prose h2 {
+  font-size: var(--gh-step-h3);
+  margin-top: 2em;
+  padding-top: 0.9em;
+  border-top: 1.5px solid var(--gh-hair);
+}
+
+.gh-prose h3 {
+  font-size: 1.0625rem;
+  margin-top: 1.6em;
+}
+
+.gh-prose p,
+.gh-prose li {
+  color: var(--gh-text-2);
+}
+
+.gh-prose ul,
+.gh-prose ol {
+  padding-inline-start: 1.3em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.gh-prose li::marker {
+  color: var(--gh-text-faint);
+}
+
+/* Numbered steps carry the mono numeral idiom: these are instructions, and
+   the numeral is data.
+
+   The numeral is absolutely positioned rather than sitting in a grid column.
+   A grid list-item promotes every inline child (code, strong, em) to a grid
+   item, which shatters the sentence: inline code ends up one letter per line
+   in the numeral column. Keep the li in normal flow so prose stays prose. */
+.gh-prose ol {
+  counter-reset: step;
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.gh-prose ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-inline-start: 38px;
+}
+
+.gh-prose ol > li::before {
+  content: counter(step, decimal-leading-zero);
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+  font-family: var(--gh-mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gh-accent);
+  line-height: 1.9;
+}
+
+.gh-prose a {
+  color: var(--gh-accent);
+  text-decoration: underline;
+  text-decoration-color: var(--gh-border-soft);
+}
+
+.gh-prose a:hover {
+  text-decoration-color: currentColor;
+}
+
+.gh-prose strong {
+  color: var(--gh-text);
+  font-weight: 700;
+}
+
+.gh-prose code {
+  background: var(--gh-inset);
+  border: 1.5px solid var(--gh-border-soft);
+  border-radius: var(--gh-r);
+  padding: 1px 5px;
+  color: var(--gh-text);
+  overflow-wrap: anywhere;
+}
+
+.gh-prose pre {
+  background: var(--gh-inset);
+  border: 1.5px solid var(--gh-border-soft);
+  border-radius: var(--gh-r);
+  padding: 14px;
+  overflow-x: auto;
+}
+
+.gh-prose pre code {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.gh-prose blockquote {
+  border-inline-start: 2px solid var(--gh-accent);
+  padding-inline-start: 16px;
+  color: var(--gh-text-muted);
+}
+
+.gh-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  display: block;
+  overflow-x: auto;
+}
+
+.gh-prose th,
+.gh-prose td {
+  text-align: start;
+  padding: 9px 12px;
+  border-bottom: 1.5px solid var(--gh-hair);
+}
+
+.gh-prose th {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gh-text-muted);
+  border-bottom-color: var(--gh-border-soft);
+  white-space: nowrap;
+}
+
+.gh-prose hr {
+  border: 0;
+  border-top: 1.5px solid var(--gh-hair);
+  margin-block: 2em;
+}
+
+/* --------------------------------------------------------------------------
    Utilities
    -------------------------------------------------------------------------- */
 

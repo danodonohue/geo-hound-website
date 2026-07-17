@@ -1,0 +1,125 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to extract GIS data from a website',
+  description:
+    'A practical guide to extracting geospatial data from a website: what is actually possible, which formats you can get, and where the legal and technical limits are.',
+  alternates: { canonical: '/guides/extract-gis-data-from-website' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to extract GIS data from a website
+
+**The short answer:** find out what kind of service the map is using, because that
+decides everything. Vector services hand you real features. Image and tile services hand
+you pictures. No amount of cleverness turns one into the other.
+
+Most "how do I scrape this map" questions are really this question, asked before knowing
+which situation you are in. So start there.
+
+## First, work out what you are looking at
+
+Open the map, press F12, go to the **Network** tab, and reload the page. Then look at
+what the map is asking for.
+
+| What you see in the requests | What it is | What you can get |
+| --- | --- | --- |
+| `GetMap`, `SERVICE=WMS` | WMS | Images. Sometimes features via WFS on the same server |
+| `GetFeature`, `SERVICE=WFS` | WFS | Real features |
+| `/FeatureServer/0/query` | Esri FeatureServer | Real features |
+| `/MapServer/export` | Esri MapServer | Images, sometimes features |
+| `/collections/.../items` | OGC API Features | Real features |
+| `.png` or `.jpg` at `/12/4021/2578.png` | XYZ tiles | Pictures of data |
+| `.pbf` or `.mvt` | Vector tiles | Geometry, but chopped up per tile |
+| A single `.geojson` or `.json` | A static file | The whole thing, immediately |
+
+The good outcome is any row that says "real features". The awkward one is tiles.
+
+## The easy case: a service that serves features
+
+If the map is backed by WFS, a FeatureServer, or OGC API Features, you can just ask for
+the data.
+
+For WFS:
+
+```
+https://example.com/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature
+  &TYPENAMES=parcels&OUTPUTFORMAT=application/json&COUNT=1000
+```
+
+For Esri, see
+[getting data out of an ArcGIS web map](/guides/get-data-from-arcgis-web-map).
+
+In both cases the practical advice is the same: ask for a bounding box rather than the
+whole dataset, page through it rather than demanding 50,000 features at once, and check
+the count before you start.
+
+## The easy case you might miss: a file sitting right there
+
+A surprising number of web maps are a static GeoJSON file and a bit of JavaScript. If
+you see a single request pulling `data.geojson` or `layers.json`, that is the whole
+dataset, and you can just save it. Right-click the request, **Open in new tab**, and save
+the page.
+
+Same for KML. Same for a `.zip` that turns out to be a shapefile.
+[Downloading GeoJSON or KML from a web map](/guides/download-geojson-from-web-map) covers
+this in more detail.
+
+## The hard case: tiles
+
+If the map is drawing raster tiles, there is no underlying data to extract. Each tile is
+a 256x256 picture. Stitching a few hundred together gets you a big picture, not a
+dataset. You cannot recover the parcel boundaries from a photograph of the parcel
+boundaries, and attempting it with automated tracing produces a worse dataset than
+whoever published it already has.
+
+Vector tiles (`.pbf`, `.mvt`) are more hopeful, because they contain real geometry. But
+that geometry has been simplified for display at each zoom level, clipped at every tile
+boundary, and often stripped of most of its attributes. You can extract it, and the
+result is a mangled, tile-shredded approximation. It is fine for a background layer and
+wrong for anything you would measure.
+
+**When you hit tiles, the better move is to stop and look for the source.** Search the
+organisation's open data portal for the layer name. Very often the same data is published
+properly as a download, and you have been trying to reverse-engineer something that was
+available all along.
+
+## The one that surprises people
+
+Look at the capabilities document, not just the layer the viewer showed you:
+
+```
+https://example.com/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0
+```
+
+Viewers are curated. Services frequently publish far more than the map exposes, and it is
+all equally public. [What GetCapabilities tells you](/guides/what-is-getcapabilities) is
+the guide for reading it.
+
+## Doing all of this automatically
+
+This entire process, working out what service is behind a map, cleaning up its URL,
+reading its capabilities, and checking whether it will load in a browser, is what
+[Geo Hound](/) does while you browse. It recognises OGC, OGC API, Esri REST, tiles, and
+linked files, and saves each with its metadata already fetched.
+
+It will not turn a raster tile into a dataset, because nothing can.
+
+## Where the limits actually are
+
+**Technical:** you can get what the browser can get. If a service requires a session, an
+API key, or a signed URL, Geo Hound and DevTools alike only see it while you are logged
+in, and it will stop working outside that session.
+
+**Legal:** this is the one that matters. Public does not mean unlicensed. Most government
+data carries an open licence requiring attribution, but plenty is more restrictive, and
+some viewers show data the host does not have redistribution rights over. The terms are
+usually on the portal.
+
+The reasonable test: are you using data the way its publisher would recognise as
+reasonable? Downloading a suburb's parcels to answer a question is what the service is
+for. Scraping the national dataset overnight to resell it is not, and it is also how
+services end up behind logins for everybody else.
+
+<GuideFooter slug="extract-gis-data-from-website" />

@@ -1,0 +1,123 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'What GetCapabilities tells you about a WMS or WFS',
+  description:
+    'How to read a GetCapabilities document: finding the layer names, supported projections, bounding box, and output formats a WMS or WFS will give you.',
+  alternates: { canonical: '/guides/what-is-getcapabilities' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# What GetCapabilities tells you about a WMS or WFS
+
+**The short answer:** it is the service's own menu. Append
+`?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0` to the service URL and you get an
+XML document listing every layer, projection, and format it will give you.
+
+It looks intimidating, and it is usually thousands of lines. But there are only four
+things in it worth reading.
+
+## Asking for it
+
+```
+https://example.com/geoserver/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0
+https://example.com/geoserver/wfs?SERVICE=WFS&REQUEST=GetCapabilities&VERSION=2.0.0
+https://example.com/wmts?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0
+```
+
+Three parameters, always: what kind of service, what you want, and which version. Get the
+version wrong and some servers argue, so those are the safe ones.
+
+Open it in a browser. Every browser will pretty-print XML and let you collapse the
+branches, which makes it far more manageable than it first looks.
+
+## The four things worth reading
+
+### 1. The layer names
+
+This is why you came. Inside each `<Layer>` there are two things that matter:
+
+```xml
+<Layer queryable="1">
+  <Name>council:flood_zones_2024</Name>
+  <Title>Flood Hazard Zones (2024)</Title>
+```
+
+**`<Name>` is what you pass to the server. `<Title>` is what humans read.** They are
+almost never the same, and the viewer showed you the Title. If you have been trying to
+request `Flood Hazard Zones (2024)` and getting errors, this is why.
+
+`queryable="1"` means you can click a feature and get its attributes back via
+`GetFeatureInfo`. Worth noting: it tells you the service knows more than it is drawing.
+
+### 2. What projections it will give you
+
+```xml
+<CRS>EPSG:4326</CRS>
+<CRS>EPSG:3857</CRS>
+<CRS>EPSG:2193</CRS>
+```
+
+Ask for one that is not on this list and you get an error. If you need data in a local
+projection and the service only offers web mercator, you reproject it yourself
+afterwards, which is fine but worth knowing before you start.
+
+### 3. Where the data actually is
+
+```xml
+<EX_GeographicBoundingBox>
+  <westBoundLongitude>166.4</westBoundLongitude>
+  <eastBoundLongitude>178.6</eastBoundLongitude>
+  <southBoundLatitude>-47.3</southBoundLatitude>
+  <northBoundLatitude>-34.4</northBoundLatitude>
+</EX_GeographicBoundingBox>
+```
+
+The bounding box saves you the classic twenty minutes of staring at an empty map
+wondering why nothing is drawing, when in fact you are looking at the wrong hemisphere.
+
+### 4. What formats you can have
+
+For WMS, the `GetMap` section lists image formats. For WFS, the `GetFeature` section
+lists output formats, and this is the important one:
+
+```xml
+<Operation name="GetFeature">
+  <Parameter name="outputFormat">
+    <Value>application/json</Value>
+    <Value>application/gml+xml; version=3.2</Value>
+    <Value>SHAPE-ZIP</Value>
+```
+
+If `application/json` is there, you can have GeoJSON, and life is easy. If it is GML
+only, you get GML, and QGIS will read it happily even though you would rather it did not.
+`SHAPE-ZIP` means the server will build you a shapefile on demand, which is a nice thing
+to discover.
+
+## The bit people miss
+
+**The capabilities document routinely lists layers the public viewer never showed you.**
+
+A council viewer might expose three layers. The service behind it publishes forty:
+historic aerials, zoning, contours, the stormwater network. All equally public, all
+equally fetchable, none of them linked from anywhere.
+
+That is not a security hole. The service was configured to publish them; the viewer was
+just curated for a particular audience. But it does mean the capabilities document is
+frequently a far better catalogue of an organisation's data than its actual data portal.
+
+## Why you rarely need to read one by hand
+
+The document exists so software can read it. QGIS reads it when you add a connection,
+which is why the layer list appears.
+
+[Geo Hound](/) reads it too, automatically, the moment it detects a service while you
+browse. The title, provider, abstract, layer list, keywords, coordinate systems, and
+bounding box on a service card all come straight out of the capabilities document, which
+means you get the useful four things without opening the XML at all.
+
+Then it hands you the URL with the right `GetCapabilities` request and version already
+attached, formatted for [QGIS](/guides/open-featureserver-in-qgis) or ArcGIS Pro.
+
+<GuideFooter slug="what-is-getcapabilities" />

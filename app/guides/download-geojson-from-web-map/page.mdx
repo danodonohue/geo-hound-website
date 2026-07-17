@@ -1,0 +1,147 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to download GeoJSON or KML from a web map',
+  description:
+    'How to get GeoJSON, KML, or a shapefile out of a public web map, including how to export only the area you care about instead of the whole dataset.',
+  alternates: { canonical: '/guides/download-geojson-from-web-map' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to download GeoJSON or KML from a web map
+
+**The short answer:** if the map is backed by a WFS, a FeatureServer, or OGC API
+Features, ask it for GeoJSON directly. If it is backed by a static file, save the file. If
+it is tiles, you cannot, and you should go looking for the source instead.
+
+## Check for the easy one first
+
+Before anything clever: open the network tab (F12, **Network**, reload) and look for a
+single request pulling a `.geojson`, `.json`, `.kml`, `.kmz`, or `.zip`.
+
+A lot of web maps are one static file and some JavaScript. If you see one, that is the
+entire dataset in a single request. Right-click it, **Open in new tab**, and save the
+page. You are finished.
+
+This is the case people skip past on their way to something more complicated.
+
+## Asking a service for GeoJSON
+
+### From a WFS
+
+```
+https://example.com/wfs?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature
+  &TYPENAMES=council:parcels&OUTPUTFORMAT=application/json&COUNT=1000
+```
+
+`TYPENAMES` is the layer's `<Name>` from the capabilities document, not the friendly
+title. [What GetCapabilities tells you](/guides/what-is-getcapabilities) covers finding
+it, and also whether the service will give you JSON at all: check the `outputFormat` list
+first. Some only offer GML, which QGIS reads fine.
+
+### From an Esri FeatureServer
+
+```
+https://services.arcgis.com/AbC/arcgis/rest/services/Parcels/FeatureServer/0/query
+  ?where=1=1&outFields=*&f=geojson
+```
+
+Swap `f=geojson` for `f=json` if you want Esri JSON.
+[Getting data out of an ArcGIS web map](/guides/get-data-from-arcgis-web-map) has the
+full parameter list.
+
+### From OGC API Features
+
+```
+https://example.com/collections/parcels/items?limit=1000&f=json
+```
+
+The newest and the tidiest of the three: it speaks GeoJSON natively.
+
+## Getting only the bit you want
+
+This is the part worth learning, because "download everything then clip it" is how you
+end up waiting twenty minutes for a national dataset to answer a question about one
+suburb, while somebody else's server carries the cost.
+
+**By bounding box.** Every service takes one:
+
+- WFS: `&BBOX=166.4,-47.3,178.6,-34.4,EPSG:4326`
+- Esri: `&geometry=166.4,-47.3,178.6,-34.4&geometryType=esriGeometryEnvelope&inSR=4326`
+- OGC API: `&bbox=166.4,-47.3,178.6,-34.4`
+
+**By attribute.** Esri takes real SQL in `where`:
+
+```
+&where=SUBURB='Thorndon' AND AREA_HA > 2
+```
+
+WFS takes a CQL filter, if the server supports it:
+
+```
+&CQL_FILTER=suburb='Thorndon'
+```
+
+**Count first.** On Esri, `&returnCountOnly=true` tells you what you are about to ask for
+before you ask for it. Worth doing every time.
+
+## Paging, when there is a lot
+
+Servers cap what they return: typically 1000 or 2000 features. Ask for 40,000 and you
+silently get 1000, which is the failure mode that ruins an analysis quietly rather than
+loudly.
+
+Esri:
+
+```
+&resultRecordCount=1000&resultOffset=0
+&resultRecordCount=1000&resultOffset=1000
+```
+
+WFS:
+
+```
+&COUNT=1000&STARTINDEX=0
+&COUNT=1000&STARTINDEX=1000
+```
+
+Increment until you get a short page back. **Always check the count against what you
+expected.** A round number like exactly 1000 is a truncation, not a coincidence.
+
+## Getting KML or a shapefile
+
+GeoJSON is what services speak. For anything else, convert:
+
+- **QGIS**: add the layer, right-click, **Export**, **Save Features As**, and pick KML,
+  shapefile, GeoPackage, or whatever you need.
+- **ogr2ogr**, if you would rather: `ogr2ogr -f KML out.kml in.geojson`.
+
+Some WFS servers will do it for you: check the capabilities for `SHAPE-ZIP` in the
+`outputFormat` list, and if it is there you can have a shapefile built on demand.
+
+## Doing it without the URL surgery
+
+Handling bounding boxes, paging, and format parameters by hand is fine once and tedious
+after that.
+
+[Geo Hound](/) has a download dialog on any service that supports it: pick a layer, draw
+a bounding box on a small map rather than working out coordinates, add attribute filters
+with a builder, and it tells you the feature count before you commit. You get GeoJSON out.
+
+For WMS, which serves pictures rather than features, the same dialog exports an image for
+your drawn area instead, at a size and format you choose.
+
+And once a layer is in the [workbench](/docs/workbench), every layer card has a download
+menu: GeoJSON, KML, CSV, Excel, or a zipped shapefile, straight out of the browser.
+
+## When the answer is no
+
+If the map is drawing raster tiles, there is no data to download. Each tile is a picture.
+See [how to find the XYZ tile URL](/guides/find-xyz-tile-url) for what that does and does
+not get you, and [extracting GIS data from a website](/guides/extract-gis-data-from-website)
+for what to do instead.
+
+Whatever you do get: check the licence on the portal before you republish it.
+
+<GuideFooter slug="download-geojson-from-web-map" />

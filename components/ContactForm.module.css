@@ -1,0 +1,101 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input,
+.textarea {
+  font-family: var(--gh-font);
+  font-size: 14px;
+  color: var(--gh-text);
+  background: var(--gh-inset);
+  border: 1.5px solid var(--gh-border-soft);
+  border-radius: var(--gh-r);
+  padding: 10px 12px;
+  width: 100%;
+  transition: border-color 0.15s;
+}
+
+.input:hover,
+.textarea:hover {
+  border-color: var(--gh-border);
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.5;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--gh-text-faint);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.or {
+  font-size: 13px;
+  color: var(--gh-text-muted);
+}
+
+.error {
+  font-size: 13px;
+  color: var(--gh-danger);
+  background: var(--gh-danger-tint);
+  border: 1.5px solid var(--gh-danger);
+  border-radius: var(--gh-r);
+  padding: 10px 12px;
+}
+
+/* Off-screen rather than display:none, which some bots detect and skip. */
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-width: 2px;
+}
+
+.doneTitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--gh-text);
+}
+
+.doneBody {
+  font-size: 14px;
+  color: var(--gh-text-2);
+}
+
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

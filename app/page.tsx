@@ -105,7 +105,7 @@ export default function LandingPage() {
               </Link>
             </div>
             <p className={styles.heroNote}>
-              Free to install. The detector and workbench are free. The assistant gives you{' '}
+              Free to install. The detector and workbench are free. The assistant gives you up to{' '}
               {FREE_QUESTIONS_PER_MONTH} free questions a month.
             </p>
           </div>
@@ -181,7 +181,7 @@ export default function LandingPage() {
                   <CheckIcon size={16} />
                   <span>
                     Detects {SERVICE_TYPE_COUNT} service and file types, from WMS and
-                    FeatureServer to GeoPackage and FlatGeobuf.
+                    FeatureServer to OGC API and GeoPackage.
                   </span>
                 </li>
                 <li>
@@ -230,8 +230,8 @@ export default function LandingPage() {
                 <li>
                   <CheckIcon size={16} />
                   <span>
-                    Buffer, spatial join, nearest distance, overlays, field calculator.
-                    Results chain into further analysis.
+                    Buffer, spatial join, nearest distance, select by location, split
+                    multipart. Result layers chain into further analysis.
                   </span>
                 </li>
                 <li>
@@ -254,7 +254,7 @@ export default function LandingPage() {
               <span className={styles.layerNum}>
                 <ChatIcon size={22} className={styles.layerIcon} />
                 <span className="gh-label">Layer 3 / Assistant</span>
-                <span className={styles.priceTag}>{FREE_QUESTIONS_PER_MONTH} free a month</span>
+                <span className={styles.priceTag}>up to {FREE_QUESTIONS_PER_MONTH} free a month</span>
               </span>
               <h3 className={styles.layerTitle}>
                 GIS analysis for people who do not know GIS software.
@@ -416,7 +416,7 @@ export default function LandingPage() {
               <li>
                 <CheckIcon size={16} />
                 <span>
-                  The assistant gives everyone {FREE_QUESTIONS_PER_MONTH} free questions a
+                  The assistant gives everyone up to {FREE_QUESTIONS_PER_MONTH} free questions a
                   month.
                 </span>
               </li>

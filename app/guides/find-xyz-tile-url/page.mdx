@@ -1,0 +1,104 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to find the XYZ tile URL a map is using',
+  description:
+    'How to identify the XYZ or vector tile template behind a slippy map, what the z/x/y placeholders mean, and how to add the tile layer to QGIS.',
+  alternates: { canonical: '/guides/find-xyz-tile-url' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to find the XYZ tile URL a map is using
+
+**The short answer:** find any tile request in the network tab, then replace the three
+numbers in its path with `{z}`, `{x}`, and `{y}`. That is the template, and it is all
+QGIS needs.
+
+## What you are looking for
+
+A slippy map draws itself out of square images fetched one at a time. Every tile request
+looks like this:
+
+```
+https://tiles.example.com/basemap/12/4021/2578.png
+```
+
+Those three numbers are always the same three things, in this order:
+
+- **12** is the zoom level. 0 is the whole world; 19 or so is a building.
+- **4021** is the column, counting east from the left edge of the world.
+- **2578** is the row, counting south from the top.
+
+So the template is:
+
+```
+https://tiles.example.com/basemap/{z}/{x}/{y}.png
+```
+
+That is the whole trick. One request gives you every tile in the set.
+
+## Finding one
+
+1. Open the map and press F12.
+2. Go to the **Network** tab and click the **Img** filter, or type `.png` in the filter
+   box. For vector tiles, filter for `.pbf` or `.mvt`.
+3. Reload, then pan the map a little. Tiles will pour in.
+4. Click any one and copy its URL.
+5. Replace the three numbers with `{z}`, `{x}`, and `{y}`.
+
+Sanity-check yourself by looking at two or three requests side by side. The number that
+stays the same while you pan is the zoom; the two that change are x and y.
+
+## The gotchas
+
+**TMS row order.** Some services count rows from the *bottom* instead of the top. If your
+layer appears vertically mirrored, that is why. In QGIS, use `{-y}` instead of `{y}`.
+
+**Subdomains.** You might see `a.tiles`, `b.tiles`, and `c.tiles` in different requests.
+That is an old trick to work around browser connection limits. QGIS accepts
+`{s}` in some contexts, but picking one subdomain and hard-coding it works fine.
+
+**API keys.** If the URL has a `key=`, `token=`, or `access_token=` on it, that key
+belongs to whoever built the site, and it is theirs, not yours. It is quite likely
+restricted to their domain, so it will not work for you anyway, and using it is billing
+someone else for your tiles. Get your own.
+
+**Retina tiles.** An `@2x` in the path means double-resolution tiles.
+
+## Adding it to QGIS
+
+1. In the **Browser** panel, right-click **XYZ Tiles**.
+2. Choose **New Connection**.
+3. Paste the template with the placeholders intact.
+4. Set the maximum zoom to match the service, usually 18 or 19.
+5. Click **OK** and drag the new entry onto your map.
+
+## What you can and cannot do with it
+
+A tile layer is a picture. It is genuinely useful as a backdrop: a custom basemap, an
+aerial layer, someone's beautifully cartographed topo sheet.
+
+It is not data. You cannot query it, join to it, or measure from it, because there is
+nothing in it but colour. If the tiles are showing you parcels and you need parcel
+boundaries, you need the service behind the tiles, not the tiles. Try
+[finding the WMS URL](/guides/find-wms-url-behind-web-map) or
+[the ArcGIS REST endpoint](/guides/get-data-from-arcgis-web-map) on the same site.
+
+**Vector tiles are different**, but less different than you would hope. A `.pbf` tile
+does contain real geometry, so you can add one to QGIS as a Vector Tiles connection and
+get lines and polygons. But that geometry has been simplified for the zoom level and
+clipped at each tile edge, and most attributes are gone. Fine to look at, wrong to
+measure with.
+
+## Letting something find it for you
+
+[Geo Hound](/) recognises XYZ tiles, vector tiles, and vector tile styles as you browse,
+alongside the OGC and Esri services. It hands you the template with the placeholders
+already in place, and formats it for ArcGIS Pro too, which uses `{level}`, `{col}`, and
+`{row}` instead.
+
+It deliberately ignores the big commercial basemaps. Nobody needs another copy of the
+Google tile URL, and you would not be allowed to use it anyway.
+
+<GuideFooter slug="find-xyz-tile-url" />

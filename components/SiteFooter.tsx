@@ -20,12 +20,21 @@ const COLUMNS = [
     ],
   },
   {
+    heading: 'Learn',
+    links: [
+      { href: '/guides', label: 'Guides' },
+      { href: '/docs/faq', label: 'FAQ' },
+      { href: '/guides/find-wms-url-behind-web-map', label: 'Find a WMS URL' },
+      { href: '/guides/get-data-from-arcgis-web-map', label: 'Get ArcGIS map data' },
+      { href: '/guides/browser-gis-analysis-without-qgis', label: 'GIS without QGIS' },
+    ],
+  },
+  {
     heading: 'Company',
     links: [
       { href: '/about', label: 'About' },
       { href: '/services', label: 'Custom work' },
       { href: '/support', label: 'Support' },
-      { href: '/docs/faq', label: 'FAQ' },
     ],
   },
   {

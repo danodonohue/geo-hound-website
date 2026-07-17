@@ -1,0 +1,189 @@
+import { GuideFooter } from '@/components/GuideFooter'
+import { Plate } from '@/components/Plate'
+
+export const metadata = {
+  title: 'Using the assistant',
+  description:
+    'How the Geo Hound assistant works: a prompt cookbook of things you can ask, what data leaves your browser, how credits are spent, buying packs, and restoring your balance on a new machine.',
+  alternates: { canonical: '/docs/assistant' },
+}
+
+<span className="gh-label gh-eyebrow">Documentation</span>
+
+# Using the assistant
+
+The assistant is a chat that drives the workbench for you. You describe what you want in
+plain English and it carries out the GIS operations, using the same tools the interface
+exposes, plus a few it does not.
+
+It is for people who know what they want to know but not which button produces it.
+
+## Where it lives
+
+Open the workbench and the **Assistant** tab is already there in the rail. It is the tab
+that is open when the workbench loads.
+
+The first time, you get a consent notice explaining what gets sent. Click
+**Got it, enable chat** and it stays enabled.
+
+Once you have asked something, a pill appears showing how many questions you have left,
+such as **7 questions left**. That number is your remaining free questions plus any
+credits you have bought, added together. Hover it for the breakdown.
+
+<Plate fig="A1" caption="ASSISTANT / FRESH TAB WITH QUESTIONS-LEFT PILL" pendingNote="A1: assistant fresh state" />
+
+## The prompt cookbook
+
+The assistant has 26 tools. Rather than list them, here is what people actually type.
+
+### Finding out what you have
+
+- "What layers do I have?"
+- "Search my saved services for anything with parcels in it."
+- "What fields does the flood zones layer have?"
+- "How many features are in the wells layer?"
+
+### Asking questions of the data
+
+- "Which suburb has the most building consents?"
+- "How many parcels are bigger than two hectares?"
+- "Show me the average depth of the wells."
+- "List the ten largest polygons by area."
+
+### Styling and labelling
+
+- "Make the flood zones orange and label them by name."
+- "Colour the parcels by zoning."
+- "Symbolize the wells by depth."
+- "Turn the labels off."
+- "Add a satellite basemap and zoom to my selection."
+
+### Analysis
+
+- "Buffer the wells by 500 metres and tell me how many parcels fall inside."
+- "Join the soil types onto my imported paddock boundaries."
+- "How far is each school from the nearest fire station?"
+- "Clip the vegetation layer to my property boundary."
+- "Give me the centroid of each parcel."
+- "Add a hectares column calculated from the area."
+
+### Selection and export
+
+- "Select everything inside this polygon and export it as a shapefile."
+- "Select the parcels that intersect the flood zone."
+- "Save that selection as a layer."
+- "Export the result as XLSX."
+
+### Chaining
+
+The useful trick is that results feed into the next question:
+
+1. "Buffer the streams by 20 metres."
+2. "Now select the parcels that intersect that buffer."
+3. "Save those as a layer and colour them red."
+4. "Export it as a shapefile."
+
+That whole sequence is four questions, so four credits, regardless of how many
+operations it triggers.
+
+<Plate fig="A3" caption="ASSISTANT / ANALYSIS CHAIN WITH TOOL STEPS" pendingNote="A3: buffer and count chain" />
+
+## Things only the assistant can do
+
+Two capabilities have no buttons in the workbench and are reachable only by asking:
+
+- **Overlay**: clipping a layer to a polygon, or erasing the part inside one.
+- **The field calculator**: adding, setting, renaming, or deleting a column, including
+  calculating one from an expression.
+
+It can also transform layers in ways the interface does not offer: centroids, bounding
+boxes, dissolve, simplify, and chopping lines into chunks.
+
+Field calculations affect only your local copy of the data. The service you got it from
+is never modified. Geo Hound never writes to anybody's service.
+
+## What leaves your browser
+
+This is the one part of Geo Hound that sends your data anywhere, so it is worth being
+precise.
+
+**Sent with every question:** a summary of your workbench. Layer names, geometry types
+as words (`Polygon`, not coordinates), feature counts, field names and their types, and
+how many features you have selected.
+
+**Sent as the assistant works:** the results of its tool steps, tightly capped. At most
+20 attribute rows from a query, at most 10 sample values per field when it reads a
+schema, every value truncated at 200 characters, and about 8 KB per result.
+
+**Never sent:** geometry, and whole datasets. The tools run in your browser against the
+live map; only their summarised results go back to the model.
+
+The route is: your browser, to our server, to **OpenRouter**, which routes it on to a
+third-party model provider. Your identifier is not passed to OpenRouter.
+
+**Your conversations are not stored on our servers.** We count messages and tokens for
+billing, and that is all. Zero data retention is enabled on our OpenRouter account. The
+transcript lives in your browser's memory only, and **New chat** or **New session**
+wipes it.
+
+The full picture is in the [privacy policy](/privacy).
+
+## How credits are spent
+
+- **1 credit is 1 question.** You are charged when you send it.
+- **Tool steps are free.** A question that takes fifteen operations costs one credit.
+- **Free questions go first.** Your monthly free allowance is used before any credits
+  you have bought.
+- **Stopping does not refund.** Press **Stop** part way through a reply and the credit
+  is still spent, because it was spent when you asked.
+- **Failures do refund.** If our provider is unreachable or errors before replying, the
+  credit is returned automatically.
+
+Everyone gets up to 10 free questions per calendar month, resetting at the start of the
+month. It is a ceiling rather than a promise: free questions are also pooled per network
+address to stop abuse, so several people on one office connection may each get fewer.
+Credits are not affected by that.
+
+There is a five-second minimum between questions. Ask faster and you get asked to wait.
+
+## Buying credits
+
+Click **Buy credits** in the assistant, or wait until you hit zero and the panel opens
+itself. Three packs: **250 for $10**, **550 for $20**, **1,200 for $40**.
+
+Payment opens in a new tab and is handled by Stripe. Credits appear on your balance
+after checkout, and they never expire. See [pricing](/pricing) for the full picture.
+
+Your balance updates on your next question. There is no refresh button.
+
+<Plate fig="A4" caption="ASSISTANT / CREDIT PACKS" pendingNote="A4: buy credits panel" />
+
+## Restoring credits on a new machine
+
+Your credits sit against an identifier your browser generated, so a new computer or a
+fresh install starts empty. Your purchase email is the anchor that moves them.
+
+1. Open the workbench chat and click **Buy credits**, then **Restore purchases**.
+2. Enter the email you used at checkout and click **Send code**.
+3. Check your email for a six-digit code. It expires in ten minutes.
+4. Enter it and click **Restore**. Your balance moves across.
+
+You get five attempts per code and can request three codes an hour. The message is the
+same whether or not that email has purchases, which is deliberate: it stops anyone
+fishing for who has bought.
+
+Restoring **moves** the balance rather than copying it.
+
+If you bought credits and they never arrived, this is also the fix: a purchase that
+could not be matched to your install is waiting under your email.
+
+<Plate fig="A5" caption="ASSISTANT / RESTORE CREDITS" pendingNote="A5: restore flow" />
+
+## What it is not
+
+The assistant is a tool that runs GIS operations. It can misread a question or pick the
+wrong field, particularly when column names are cryptic. Look at the result before you
+rely on it. It is not a surveyor, not a lawyer, and not a substitute for checking the
+data provider's terms.
+
+<GuideFooter slug="ai-gis-assistant-talk-to-your-map" />

@@ -1,0 +1,9 @@
+.pending {
+  font-family: var(--gh-mono);
+  font-size: 0.875em;
+  color: var(--gh-danger);
+  background: var(--gh-danger-tint);
+  border: 1.5px solid var(--gh-danger);
+  border-radius: var(--gh-r);
+  padding: 1px 6px;
+}

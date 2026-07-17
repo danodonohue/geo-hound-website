@@ -1,0 +1,111 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to get the data out of an ArcGIS web map',
+  description:
+    'How to find the FeatureServer or MapServer URL behind an ArcGIS web map or Experience Builder app, and pull the underlying data into QGIS or ArcGIS Pro.',
+  alternates: { canonical: '/guides/get-data-from-arcgis-web-map' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to get the data out of an ArcGIS web map
+
+**The short answer:** find the `/rest/services/.../FeatureServer/0` URL in the network
+tab, then append `/query?where=1=1&outFields=*&f=geojson` to download the features. If it
+says MapServer instead of FeatureServer, you may only get pictures.
+
+ArcGIS viewers, Experience Builder apps, and ArcGIS Online web maps all sit on top of
+the same thing: the ArcGIS REST API. Once you find that endpoint, everything else is
+straightforward.
+
+## Step 1: find the REST endpoint
+
+Open the map, press F12, go to **Network**, and reload. Filter for `rest/services`.
+
+You are looking for a URL shaped like this:
+
+```
+https://services.arcgis.com/AbCdEf123/arcgis/rest/services/Parcels/FeatureServer/0/query?...
+```
+
+The important part is everything up to the layer number:
+
+```
+https://services.arcgis.com/AbCdEf123/arcgis/rest/services/Parcels/FeatureServer/0
+```
+
+That trailing `0` is the layer index. A service can hold many layers, numbered from zero.
+
+## Step 2: look at it in a browser
+
+Paste that URL straight into a browser tab. ArcGIS REST endpoints are self-describing:
+you get a human-readable page listing the fields, the geometry type, the extent, the
+maximum record count, and the supported operations.
+
+Add `?f=json` for the machine-readable version.
+
+Two things on that page matter enormously:
+
+- **`Max Record Count`**, usually 1000 or 2000. This is how many features the server will
+  give you in one request. If the layer has 40,000 features, you will need to page through
+  it.
+- **`Supported Operations`**. If **Query** is there, you can extract features. If it is
+  not, the service is serving images only.
+
+Drop the layer number to see the whole service and every layer in it. Drop back to
+`/rest/services` and some servers will show you the entire directory of everything they
+publish. That is often a far richer catalogue than the viewer exposed.
+
+## Step 3: pull the data
+
+The `query` operation is the one that hands you features:
+
+```
+https://services.arcgis.com/AbCdEf123/arcgis/rest/services/Parcels/FeatureServer/0/query
+  ?where=1=1&outFields=*&f=geojson
+```
+
+Piece by piece:
+
+- `where=1=1` means "everything". It is SQL, so `where=SUBURB='Thorndon'` works too.
+- `outFields=*` means every attribute column. Naming the two you need is faster.
+- `f=geojson` asks for GeoJSON. `f=json` gives Esri JSON; `f=html` gives a readable page.
+
+Add `&resultRecordCount=1000&resultOffset=0` and increment the offset to page through a
+big layer. Add `&returnCountOnly=true` first to find out how many there are.
+
+Add `&geometry=<xmin>,<ymin>,<xmax>,<ymax>&geometryType=esriGeometryEnvelope&inSR=4326`
+to fetch only a bounding box, which is usually what you actually want.
+
+## Step 4: or skip it and use QGIS
+
+QGIS speaks ArcGIS REST natively, so you often do not need any of the above. See
+[how to open a FeatureServer in QGIS](/guides/open-featureserver-in-qgis).
+
+## When you only get pictures
+
+If the URL says **MapServer** and the service has no Query operation, you are looking at
+a service that renders images server-side. There are no features to extract, only a
+picture of them.
+
+Sometimes a MapServer does support Query, in which case the same `/query` trick works.
+It is worth checking rather than assuming, and
+[the difference between FeatureServer, MapServer, and ImageServer](/guides/featureserver-vs-mapserver)
+explains what you can expect from each.
+
+## Doing it the quick way
+
+All of the above is finding a URL, cleaning it up, and remembering the query syntax.
+[Geo Hound](/) does that while you browse: it recognises every ArcGIS REST service type,
+saves each with its metadata already read from `?f=json`, and gives you the URL formatted
+for QGIS or ArcGIS Pro with one click. It will also download a layer for an area you draw
+on a small map, which saves working out the envelope parameters by hand.
+
+## The usual caveats
+
+The data is public because someone published it deliberately. It is not therefore
+unlicensed. Check the portal's terms, attribute the source, and do not page through a
+40,000-feature layer once a minute on someone's server.
+
+<GuideFooter slug="get-data-from-arcgis-web-map" />

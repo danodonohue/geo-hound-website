@@ -1,0 +1,218 @@
+import { LegalHeader } from '@/components/LegalHeader'
+
+export const metadata = {
+  title: 'Privacy policy',
+  description:
+    'What Geo Hound inspects while you browse, what stays on your machine, what is sent to our server, and every third party involved. Written against the actual behaviour of the extension.',
+  alternates: { canonical: '/privacy' },
+}
+
+<LegalHeader kind="privacy" />
+
+Geo Hound is a Chrome extension that detects GIS services on the pages you visit and
+lets you map and analyse them. This policy describes exactly what it inspects, what it
+keeps, what it sends anywhere, and who else is involved.
+
+It is written against what the code actually does. Where something is a limitation
+rather than a promise, it says so.
+
+## The short version
+
+- Almost everything stays on your computer. Detected services, your folders, your
+  workbench session, and your imported files never leave your machine.
+- There is **no account and no login**. You are identified only by a random identifier
+  your browser generates locally.
+- There is **no analytics, telemetry, or tracking of any kind** in the extension.
+- Your browsing history is **not** uploaded. The extension looks at request URLs as
+  they happen, keeps the ones that are GIS services, and discards the rest.
+- The AI assistant is the one feature that sends your data off your machine, it asks
+  for your consent before it does, and it sends schemas and small samples rather than
+  your datasets.
+
+## What the extension inspects while you browse
+
+Geo Hound uses Chrome's `webRequest` API to watch requests your browser has already
+completed, so that it can spot GIS services without you opening developer tools. This
+is the entire point of the product.
+
+**It sees request URLs only.** It does not read request or response bodies, and it does
+not read headers. Technically: it listens on `onCompleted` without requesting any
+additional information, which is the narrowest form of the API. Bodies are not
+available to that listener at all.
+
+For each request it also reads the URL of the tab that made it, so it can record where
+a service was found.
+
+**The overwhelming majority of what it sees is thrown away immediately.** URLs are
+discarded, unexamined and unstored, if they are not successful requests, if they belong
+to a known basemap provider, if they are obvious noise, if they point at localhost or a
+private network, if you have disabled them, or if they are simply not a GIS service.
+Discarded URLs live in memory for at most about two seconds and are never written
+anywhere.
+
+**Only URLs positively identified as a GIS service are kept**, along with the page URL
+where the service was found. Those are stored on your machine.
+
+### Why the extension asks to read data on all websites
+
+GIS services are hosted on arbitrary domains: a council, a ministry, a utility, a
+university, a consultancy. There is no list of them to permit in advance, so the
+extension has to be able to observe requests on any site and fetch metadata from any
+host. That is what the "read your data on all websites" warning describes.
+
+Detection is passive. Nothing is sold, nothing is profiled, and there is no advertising
+of any kind.
+
+If a site is noisy or sensitive, you can silence it: open the popup, click **Settings**,
+and add it under **Disabled URLs** as an exact pattern, a domain, or a wildcard. Those
+sites are then skipped before anything is recorded.
+
+## What is stored on your machine
+
+All of this lives in your browser's local extension storage and never syncs anywhere.
+The extension does not use Chrome's sync storage, so nothing is copied to your Google
+account.
+
+- The GIS services detected, with their metadata and the page URL where each was found.
+- Your folders, custom names, and notes.
+- Your disabled-URL settings.
+- A random identifier (a UUID) generated on your machine. It is not derived from you or
+  your device, and it identifies a browser profile, not a person.
+- The workbench session: your layers and their loaded features, styling, annotations,
+  basemap, and map position.
+- Whether you have consented to using the AI assistant.
+- A cache of the MapScaping podcast feed.
+
+Newly detected services are held in session storage and disappear when you restart your
+browser, unless you keep them. Saved services are capped at 500, after which the oldest
+auto-detected ones are trimmed. Services you have filed into your own folders are never
+trimmed automatically.
+
+**To delete any of it:** use **Clear All** in the popup, remove individual services or
+folders, click **New session** in the workbench, or uninstall the extension, which
+removes everything.
+
+## What leaves your machine
+
+### To the GIS services you are looking at
+
+When the extension finds a service, it asks that service to describe itself: a
+capabilities document, an Esri service description, an OGC API landing page. When you
+add a layer in the workbench, it fetches the features and tiles for your map view.
+
+These requests go directly to the service, the same way your browser would. Geo Hound
+adds no credentials.
+
+### To our server, for the shared service directory
+
+Geo Hound maintains a public directory of GIS services so that services other people
+have found can be recognised and described.
+
+When a service passes validation, its **public metadata** is submitted: the URL, the
+service type, titles, abstracts, keywords, layer names, bounding box, formats, CRS, and
+whether it supports CORS. **No identifier of yours and no page URL are included in that
+submission.** Services whose URL contains an API key or token, services on non-production
+hosts, dead endpoints, and services behind authentication are excluded and never
+submitted.
+
+**One thing worth stating plainly:** when you open the popup, the extension asks our
+server whether it knows about services on the site you currently have open. That request
+contains the **hostname** of that site. It is a single hostname, not a URL, not a path,
+and it is not stored against you, but it is information about where you are browsing
+leaving your machine, and you should know about it.
+
+### To our server, for the AI assistant
+
+Only if you use the assistant, and only after you have consented in the workbench.
+
+Each question sends: your random identifier, your conversation so far, and a summary of
+your workbench. The summary contains layer names, geometry types, feature counts, field
+names and their types, and selection counts.
+
+As the assistant works, the results of its tool steps are sent back into the
+conversation. Those results are capped and trimmed, and they **do include sampled
+attribute values** from your layers, up to strict limits: at most 20 rows, values
+truncated at 200 characters, and about 8 KB of data per result. Raw geometry and whole
+datasets are never sent.
+
+Our server forwards this to **OpenRouter**, an AI gateway that routes the request on to
+a third-party model provider. Your identifier is **not** forwarded to OpenRouter.
+
+**Your conversations are not stored on our servers.** We record only the number of
+messages and tokens you have used in the current month, for billing and quota. The
+message content is not written to any database. Zero data retention is enabled on our
+OpenRouter account.
+
+### To Stripe, when you buy credits
+
+Buying a credit pack opens a Stripe-hosted payment page in a new tab, carrying only your
+random identifier so we know which balance to credit.
+
+**Geo Hound never sees your card details.** They are entered on Stripe's own page. There
+is no card handling code anywhere in the extension.
+
+Stripe tells our server the payment succeeded, and passes on your email address, the
+amount, and the pack you bought.
+
+## Third parties
+
+| Who | What they get | Why |
+| --- | --- | --- |
+| **Supabase** | The service directory; your random identifier; usage counts; your email and credit balance if you buy | Our database and server functions |
+| **OpenRouter** | Assistant conversations, layer schemas, sampled values. Not your identifier | Routes the request to the model provider |
+| **Stripe** | Your card details, email, and random identifier | Processes payments |
+| **Resend** | Your email address | Sends purchase confirmations and restore codes |
+
+Basemap and GIS service requests go to their own hosts (OpenStreetMap, Esri, and
+whatever service you are using), which will see your IP address like any website does.
+
+## If you buy credits
+
+Your **email address is stored in plain text** alongside your credit balance and your
+purchase records, so we can restore your balance when you change machines.
+
+Restore codes are hashed and expire after ten minutes. Your IP address is never stored
+raw: it is hashed into a short bucket value used to stop one person minting unlimited
+free questions.
+
+**There is no self-service way to delete your purchase data today, and no automatic
+expiry on it.** If you want it removed, email us and we will do it by hand. We would
+rather say that than imply a delete button exists.
+
+## Retention
+
+- On your machine: until you delete it or uninstall.
+- The service directory: indefinitely. It contains no personal data.
+- Usage counts, email, and credit balance: until you ask us to remove them.
+- Conversations: not retained.
+
+## Security
+
+Everything between the extension, our server, Stripe, Resend, and OpenRouter travels
+over HTTPS. Services you browse are fetched over whatever scheme the site uses, so an
+`http://` GIS endpoint is fetched over `http://`.
+
+Our data is held in Supabase's managed Postgres, which encrypts data at rest at the
+platform level. Access is locked down so that the key shipped inside the extension can
+only read the public service directory and nothing else. Secrets for OpenRouter, Stripe,
+and Resend exist only on the server.
+
+## No remote code
+
+Every library the extension uses is bundled inside it. Nothing is downloaded and
+executed at runtime, and the extension's content security policy blocks it regardless.
+Network responses are treated as data, never as code.
+
+## Changes to this policy
+
+If we change what we do with your data, we will say so prominently in the product before
+the change takes effect, not quietly in this document.
+
+## Limited use
+
+Geo Hound's use of information received from Chrome APIs adheres to the Chrome Web Store
+User Data Policy, including the Limited Use requirements.
+
+## Contact
+
+Questions, or a request to delete your data: see the [support page](/support).

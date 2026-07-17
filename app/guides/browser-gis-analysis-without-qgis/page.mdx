@@ -1,0 +1,112 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to do GIS analysis without installing QGIS',
+  description:
+    'Buffers, spatial joins, and attribute queries on public map data, done in a browser tab. What browser GIS can do, and where you still need a desktop package.',
+  alternates: { canonical: '/guides/browser-gis-analysis-without-qgis' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to do GIS analysis without installing QGIS
+
+**The short answer:** a browser can genuinely do buffers, spatial joins, attribute
+queries, nearest-distance, and exports on datasets up to tens of thousands of features.
+It cannot do rasters, projections, big data, or reproducible workflows. Pick accordingly.
+
+QGIS is free, excellent, and a cliff. If your question is "how many parcels are within
+500 m of this", learning a desktop GIS package is a disproportionate response. But the
+honest version of this article has to say where the browser runs out, so here it is.
+
+## What a browser can actually do
+
+More than people expect, because the hard parts of GIS analysis are geometry algorithms,
+and those run perfectly well in JavaScript.
+
+**Attribute work.** Filtering with real AND/OR conditions, sorting, column statistics
+(count, min, max, mean, sum), value frequencies, exporting to CSV. This is most of what
+most people need and it is not really analysis, it is asking the table a question.
+
+**Selection.** Click, box, lasso. Select by attribute. Select by location, which is the
+one that matters: features from layer A that intersect layer B.
+
+**Real geometry operations.** Buffer. Spatial join with counts and sums. Nearest distance.
+Centroids, dissolve, simplify. Clip and erase. These are exact, not approximations.
+
+**Symbology and output.** Categorical and graduated classification, labels, legends, PNG
+export, a PDF map report, and export to GeoJSON, KML, CSV, Excel, or shapefile.
+
+That covers a large share of the questions people bring to a web map.
+
+## Where it stops
+
+Be realistic about these, because finding out late is expensive.
+
+**Raster analysis.** No. Slope, viewshed, watershed, raster algebra, NDVI: not happening
+in a browser tab. If your question involves a DEM or satellite imagery in any serious way,
+you want QGIS.
+
+**Big data.** A browser holds tens of thousands of features comfortably. A national
+parcel dataset of two million is not going to work. There is no spatial index behind you
+and no database doing the heavy lifting.
+
+**Projections.** Browser tools generally work in WGS84 and web mercator. If you need to
+reproject to a local grid, or your data arrives in one, you will be doing that elsewhere.
+Distance and area calculations still work correctly, but the coordinate handling is not
+what a desktop GIS gives you.
+
+**Reproducibility.** No model builder, no processing scripts, no Python. If you need to
+run the same analysis every month and prove what you did, you need a real toolchain. This
+is the one people underestimate: a browser session is a session, not a method.
+
+**Topology and editing.** Snapping, validation, geometry repair. No.
+
+## The honest decision
+
+| Your situation | Use |
+| --- | --- |
+| One question, public data, need an answer today | Browser |
+| You do not have QGIS and are not going to install it | Browser |
+| Working on someone else's machine | Browser |
+| The data is a web map you are looking at right now | Browser |
+| Rasters, elevation, imagery | QGIS |
+| Hundreds of thousands of features | QGIS or PostGIS |
+| Repeatable, auditable, monthly | QGIS with a model, or code |
+| It is going in a report someone will challenge | QGIS |
+
+The browser is not a QGIS replacement. It is the thing for the ninety percent of
+questions that never justified opening QGIS in the first place, and which therefore
+mostly went unanswered.
+
+## Doing it
+
+[Geo Hound](/) does this in a Chrome tab. The workflow it is built around:
+
+1. Browse to a public web map. Geo Hound catches the services behind it automatically.
+2. Open the workbench and add a saved service as a layer, or drag in your own GeoJSON,
+   CSV, KML, KMZ, GPX, or zipped shapefile.
+3. Filter the attribute table, select what you care about, and run the tools: buffer,
+   spatial join, nearest distance, select by location.
+4. Symbolize it, label it, annotate it, and export the result or a PDF map report.
+
+Results chain: buffer something, then select against the buffer, then join onto that,
+then export. Each result is a normal layer.
+
+It is free, there is no account, and the [workbench documentation](/docs/workbench) is the
+detail.
+
+## If you would rather not learn the buttons either
+
+There is a second cliff after installing QGIS, which is knowing that the thing you want is
+called a spatial join.
+
+Geo Hound's [assistant](/docs/assistant) closes that gap: you type "buffer the wells by
+500 metres and tell me how many parcels fall inside" and it runs the operations. Ten free
+questions a month, then credits you buy once.
+
+That is the real argument for browser GIS. Not that it is more powerful than QGIS,
+because it is not, but that it is available to people for whom QGIS was never going to
+happen.
+
+<GuideFooter slug="browser-gis-analysis-without-qgis" />

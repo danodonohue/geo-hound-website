@@ -13,10 +13,41 @@
    thinks about them, not the way the code detects them.
    -------------------------------------------------------------------------- */
 
+/**
+ * VERIFIED against the extension source on 2026-07-17, not copied from the
+ * brief. These are the exact type strings detectServiceType() emits
+ * (lib/service-detection.js:21-98, lib/ogc-api-detection.js) and the five file
+ * types background.js:444-466 assigns.
+ *
+ * The brief listed GML, MBTiles, and FlatGeobuf as detected file types. They
+ * are not. The content script scans links for those extensions, but the
+ * background script drops anything that is not one of the five below, so
+ * advertising them would be a false capability claim. Do not add a type here
+ * without finding it in the source first.
+ *
+ * Generic fallbacks ("OGC Service", "ESRI Service", "OGC API - Common") are
+ * omitted: they are what the detector reports when it cannot be more specific,
+ * not capabilities worth advertising.
+ */
 export const SERVICE_GROUPS = [
   {
     heading: 'OGC services',
-    items: ['WMS', 'WFS', 'WMTS', 'WCS', 'OGC API - Features', 'OGC API - Tiles'],
+    items: ['WMS', 'WFS', 'WMTS', 'WCS'],
+  },
+  {
+    heading: 'OGC API',
+    items: [
+      'Features',
+      'Tiles',
+      'Maps',
+      'Coverages',
+      'Processes',
+      'Records',
+      'Styles',
+      'EDR',
+      'Routes',
+      '3D GeoVolumes',
+    ],
   },
   {
     heading: 'Esri ArcGIS REST',
@@ -31,21 +62,16 @@ export const SERVICE_GROUPS = [
     ],
   },
   {
-    heading: 'Tile endpoints',
-    items: ['XYZ tiles', 'Vector tiles', 'Vector tile styles'],
-  },
-  {
-    heading: 'File links',
+    heading: 'Tiles and files',
     items: [
-      'KML',
-      'KMZ',
+      'XYZ Tiles',
+      'Vector Tiles',
+      'Vector Tile Style',
       'GeoJSON',
+      'KML/KMZ',
       'Shapefile',
-      'GeoPackage',
-      'GML',
-      'MBTiles',
-      'FlatGeobuf',
       'GeoTIFF',
+      'GeoPackage',
     ],
   },
 ] as const;

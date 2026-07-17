@@ -1,0 +1,160 @@
+.head {
+  padding-block: clamp(44px, 6vw, 72px);
+  border-bottom: 1.5px solid var(--gh-border);
+}
+
+.lede {
+  font-size: clamp(1rem, 0.95rem + 0.35vw, 1.1875rem);
+  color: var(--gh-text-2);
+  max-width: 60ch;
+  margin-top: 18px;
+}
+
+.ledeSmall {
+  font-size: 14px;
+  color: var(--gh-text-muted);
+  margin-top: 10px;
+}
+
+.headActions {
+  margin-top: 26px;
+}
+
+/* --- what we do --- */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.icon {
+  color: var(--gh-accent);
+}
+
+.cardTitle {
+  font-size: 1rem;
+}
+
+.cardBody {
+  font-size: 14px;
+  color: var(--gh-text-2);
+}
+
+/* --- why us --- */
+
+.why {
+  background: var(--gh-surface-2);
+}
+
+.whyGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 56px);
+  align-items: start;
+}
+
+.whyBody {
+  color: var(--gh-text-2);
+  margin-top: 14px;
+  max-width: 54ch;
+}
+
+.whyList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.whyList li {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  gap: 11px;
+  align-items: start;
+  font-size: 14px;
+  color: var(--gh-text-2);
+}
+
+.whyList svg {
+  color: var(--gh-accent);
+  margin-top: 3px;
+}
+
+/* --- process --- */
+
+.process {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 30px;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.stepNum {
+  font-size: 12px;
+  color: var(--gh-accent);
+  padding-top: 3px;
+}
+
+.stepTitle {
+  font-size: 0.9375rem;
+  margin-bottom: 6px;
+}
+
+.stepBody {
+  font-size: 14px;
+  color: var(--gh-text-2);
+}
+
+/* --- enquire --- */
+
+.enquire {
+  border-bottom: 0;
+  background: var(--gh-surface-2);
+}
+
+.enquireGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  gap: clamp(28px, 4vw, 56px);
+  align-items: start;
+}
+
+.enquireBody {
+  color: var(--gh-text-2);
+  margin-top: 14px;
+  max-width: 44ch;
+}
+
+.enquireNote {
+  font-size: 13px;
+  color: var(--gh-text-muted);
+  margin-top: 16px;
+  max-width: 44ch;
+}
+
+@media (max-width: 900px) {
+  .grid,
+  .whyGrid,
+  .process,
+  .enquireGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

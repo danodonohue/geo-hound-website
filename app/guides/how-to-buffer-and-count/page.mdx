@@ -1,0 +1,113 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'How to buffer features and count what falls inside',
+  description:
+    'The most common GIS question there is: draw a buffer around some features and count what falls within it. Three ways to do it, in QGIS and in the browser.',
+  alternates: { canonical: '/guides/how-to-buffer-and-count' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# How to buffer features and count what falls inside
+
+**The short answer:** buffer the source features by your distance, then select the target
+features that intersect the buffer, then read the count. Three steps, in every tool that
+has ever existed.
+
+"How many X are within Y metres of Z" is the question GIS gets asked more than any other.
+Everything else is a variation.
+
+## Getting the question right first
+
+Two things decide whether your answer is right, and neither is about software.
+
+**"Within 500 m" of what part?** Of the centre of each parcel, or of its boundary? A
+10-hectare block whose edge is 400 m away but whose centroid is 900 m away is either in or
+out depending on an answer nobody stated. Buffering the polygons and intersecting handles
+this properly: measuring centroid to centroid does not.
+
+**Intersects, or is contained by?** A parcel half inside the buffer intersects it, but is
+not within it. These give different numbers, and the difference is often large. Decide
+which one your question means before you run anything, because both are defensible and
+only one is what you were asked.
+
+## In QGIS
+
+1. **Vector**, **Geoprocessing Tools**, **Buffer**. Input is your source layer, distance
+   is your number, and check **Dissolve result** if overlapping buffers should merge into
+   one, which they usually should for counting.
+2. **Vector**, **Research Tools**, **Select by Location**. Select from your target layer,
+   where features **intersect**, comparing to the buffer layer.
+3. Read the count off the layer panel, or open the attribute table and look at the
+   selected total.
+
+**The trap:** if your layer is in degrees (EPSG:4326), a buffer distance of 500 means 500
+*degrees*, which is nonsense. QGIS may not stop you. Reproject to a metric CRS first, or
+use the buffer tool's ellipsoidal measurement option. This is the single most common way
+this analysis goes silently wrong.
+
+## In the browser
+
+Same three steps, no install. In the [Geo Hound workbench](/docs/workbench):
+
+1. Select the source features. Buffer works on the selection, so use Identify, Box, or
+   **By attribute** to pick them first.
+2. Open the **Buffer** tool, set the distance and unit (m, km, ft, mi), and click **Buffer
+   selection**. You get a new result layer.
+3. Open **By location**, select from your target layer, intersecting the buffer layer,
+   and click **Select by location**. The selection status tells you how many.
+
+The dock opens with the selected features in a table, and **CSV** exports them.
+
+Units are metric or imperial explicitly, so the degrees trap does not arise.
+
+## By asking
+
+The version that needs neither the tool names nor the sequence. In the
+[assistant](/docs/assistant):
+
+> "Buffer the wells by 500 metres and tell me how many parcels fall inside."
+
+It runs the same three operations on the same geometry and gives you the number, the
+buffer as a layer, and the parcels selected on the map so you can look at them. One
+credit, three operations.
+
+The reason to trust it is that it is not the model doing arithmetic: it is the model
+choosing to call buffer, then select-by-location, then count, and the geometry library
+doing the work. [More on why that distinction matters](/guides/ai-gis-assistant-talk-to-your-map).
+
+## Checking your answer
+
+Whichever way you did it, before you report the number:
+
+**Look at the map.** Buffers are the easiest thing in GIS to eyeball. If the rings look
+too big or too small against a scale bar, they are.
+
+**Check you have all the features.** This is the one that ruins analyses quietly. Web
+services cap what they return, typically at 1000 or 2000 features. If you loaded a layer
+from a service and it only fetched your current view, you just counted the parcels in your
+current view. In Geo Hound, that is what the **Fetch all** button on a layer card is for;
+in QGIS, export the layer to a GeoPackage first.
+
+A count that comes back as exactly 1000 is not a coincidence. It is a truncation.
+
+**Check the CRS.** If the number is wildly off, this or the point above is why, roughly
+always.
+
+**Ask whether overlapping buffers double-counted.** If two wells are 200 m apart and you
+buffered each by 500 m without dissolving, a parcel between them may be counted twice
+depending on how you counted. Dissolve, or count distinct targets rather than
+intersections.
+
+## Where to go from here
+
+Buffer-and-count is the first move. The follow-up is usually a
+[spatial join](/docs/workbench), to get *which* ones and their attributes rather than just
+how many, or a nearest-distance to ask how far rather than how many.
+
+If the data you want to do this to is sitting in a public web map right now,
+[Geo Hound](/) catches the service behind it while you browse, so you can go from looking
+at somebody's map to having buffered its data in about a minute.
+
+<GuideFooter slug="how-to-buffer-and-count" />

@@ -1,0 +1,85 @@
+.wrap {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.cta {
+  border: 2px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: var(--gh-surface-2);
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ctaTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--gh-text);
+  line-height: 1.2;
+}
+
+.ctaBody {
+  font-size: 14px;
+  color: var(--gh-text-2);
+  max-width: 62ch;
+}
+
+.ctaActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding-top: 26px;
+  border-top: 1.5px solid var(--gh-hair);
+}
+
+.linkGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.link {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 9px;
+  align-items: start;
+  font-size: 14px;
+  color: var(--gh-text-2);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.link svg {
+  margin-top: 4px;
+  color: var(--gh-accent);
+}
+
+.link:hover {
+  color: var(--gh-accent);
+  text-decoration: underline;
+}
+
+@media (max-width: 720px) {
+  .links {
+    grid-template-columns: 1fr;
+  }
+}

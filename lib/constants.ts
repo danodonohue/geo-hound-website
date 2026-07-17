@@ -66,7 +66,16 @@ export const ASSISTANT_TOOL_COUNT = 26;
 /** Extension version from manifest.json. */
 export const EXTENSION_VERSION = '1.9';
 
-/** chat-proxy CHAT_FREE_QUOTA default. */
+/**
+ * chat-proxy CHAT_FREE_QUOTA default: free questions per user per calendar
+ * month, reset at 00:00 UTC on the 1st.
+ *
+ * Always describe this as "up to N", never a flat promise. A second gate,
+ * CHAT_FREE_QUOTA_PER_IP (default 30), pools free questions across every
+ * device sharing a source IP, and BOTH pools must have room or the question
+ * falls through to paid credits. Several people behind one office NAT can
+ * therefore get fewer than N each. The number below is a ceiling.
+ */
 export const FREE_QUESTIONS_PER_MONTH = 10;
 
 /** chat-proxy CHAT_CREDITS_PER_QUESTION default. */

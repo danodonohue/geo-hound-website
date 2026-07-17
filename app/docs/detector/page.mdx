@@ -1,0 +1,186 @@
+import { GuideFooter } from '@/components/GuideFooter'
+import { Plate } from '@/components/Plate'
+
+export const metadata = {
+  title: 'Finding and saving GIS services',
+  description:
+    'How the Geo Hound detector works: what it catches as you browse, what a service card shows, testing CORS, copying URLs for QGIS and ArcGIS Pro, folders, search, silencing noisy sites, and downloading data for an area of interest.',
+  alternates: { canonical: '/docs/detector' },
+}
+
+<span className="gh-label gh-eyebrow">Documentation</span>
+
+# Finding and saving GIS services
+
+The detector is the part of Geo Hound that watches your browsing and catches the GIS
+services behind the maps you look at. You do not have to do anything to make it work.
+
+## Install, then browse
+
+Install the extension, then open any site with a web map on it: a council viewer, a
+government portal, a hazard map. As the page loads its data, the number on the Geo
+Hound toolbar icon starts counting.
+
+That badge counts the services in your Default folder plus the ones just found in this
+browser session. Services you have filed into your own folders are not counted.
+
+<Plate fig="D1" caption="TOOLBAR / BADGE COUNTING DETECTIONS" pendingNote="D1: badge on a live page" />
+
+## What it catches
+
+The detector recognises OGC services (WMS, WFS, WMTS, WCS), the newer OGC API family
+(Features, Tiles, Maps, Coverages, Processes, Records, Styles, EDR, Routes, and 3D
+GeoVolumes), the Esri ArcGIS REST family (MapServer, FeatureServer, ImageServer,
+GPServer, GeometryServer, GeocodeServer, VectorTileServer), and tile endpoints (XYZ
+tiles, vector tiles, and vector tile styles).
+
+It also picks up geospatial files linked on the page: GeoJSON, KML and KMZ, shapefiles,
+GeoTIFF, and GeoPackage.
+
+Beyond watching network traffic, it reads links and text on the page, and inspects live
+Leaflet and MapLibre maps directly to see what layers they have registered.
+
+Some things are deliberately ignored so the list stays useful: the big commercial
+basemap providers, localhost and private network addresses, and internal-only hostnames.
+
+## Opening the popup
+
+Click the toolbar icon. Each service found appears as a card showing its name, its type,
+and a preview of its metadata: the title, the provider, how many layers, how many
+coordinate systems, a **CORS** chip if it supports cross-origin requests, and its
+keywords.
+
+Newly detected services are marked **Temporary**. They live in session storage and
+disappear when you restart your browser unless you keep them. Click **Keep** on a card
+to make it permanent, or **Save all...** to move the whole batch into a folder.
+
+<Plate fig="D2" caption="POPUP / DETECTED SERVICES WITH SEARCH AND FOLDERS" pendingNote="D2: popup service list" />
+
+## What a service card shows
+
+Click **Details** on any card for the full record. Under **Service Metadata** you get
+the title, provider, description, the layer list behind a **Show Layers** button,
+keywords, supported formats, and supported coordinate systems (the first ten, then a
+count of the rest). Geographic coverage shows the bounding box.
+
+Metadata is fetched automatically when a service is found, by asking the service to
+describe itself. Tile services get no metadata: there is nothing to ask.
+
+## The CORS test
+
+CORS decides whether a service will load in a browser-based map. A service can work
+perfectly in QGIS and still refuse to load in a web app, and this test tells you which
+you are dealing with before you waste an afternoon.
+
+Click **Test CORS** in the details dialog. The result appears as a badge:
+
+| Badge | Meaning |
+| --- | --- |
+| `Not Tested` | No test has been run yet |
+| `Enabled` | The service sends the header a browser app needs |
+| `Disabled` | It does not |
+| `Fully Compatible` | A tile service with CORS enabled |
+| `Web Map Compatible` | A tile service that works for web maps |
+| `Test Failed` | The test could not complete |
+
+Once tested, the dialog also shows the allowed origin, the allowed methods, and when it
+was last checked. **Re-test CORS** runs it again.
+
+One subtlety worth knowing: the extension holds permission to read all sites, which
+means its own requests are not subject to CORS. So a request succeeding proves nothing.
+The verdict is based purely on whether the service returns the
+`access-control-allow-origin` header a real web app would need.
+
+## Copying for QGIS and ArcGIS Pro
+
+Every card has three buttons: **Copy URL**, **QGIS**, and **ArcGIS**. One click puts the
+right form of the URL on your clipboard. The same URLs are in the details dialog under
+**Normalized URLs**, each with its own **Copy** button.
+
+They differ because the two applications want different things:
+
+- **QGIS** gets an Esri URL trimmed back to the server endpoint, or an OGC URL with the
+  right `GetCapabilities` request and version already on it (WMS 1.3.0, WFS 2.0.0,
+  WCS 2.0.1, WMTS 1.0.0). Tile templates keep their `{z}/{x}/{y}` placeholders.
+- **ArcGIS Pro** gets an Esri URL with `?f=json`, and tile templates rewritten to Pro's
+  own syntax: `{level}`, `{col}`, `{row}`.
+
+To use one in QGIS: copy with the **QGIS** button, then in QGIS open the Browser panel,
+right-click the matching connection type (WMS/WMTS, WFS, or ArcGIS REST Servers), choose
+**New Connection**, and paste.
+
+<Plate fig="D3" caption="DETECTOR / DETAILS DIALOG, CORS AND NORMALIZED URLS" pendingNote="D3: service details dialog" />
+
+## Folders and search
+
+Services start in **Default**. Make more with **New Folder**, rename or delete them from
+the folder chips, and move a service with **Move to Folder** in its details dialog.
+
+The search box matches, case-insensitively, across a service's name, type, URL, your
+notes, its title, its provider, its keywords, and its layer names. So searching
+`parcels` finds a service whose layer is called parcels even if its title says something
+else entirely.
+
+## Silencing noisy sites
+
+Some sites will fill your list with services you do not care about. Click **Settings**
+in the popup, then add an entry under **Disabled URLs**. There are three kinds:
+
+- **Exact Pattern** matches anywhere in the whole URL, as a substring. Despite the name
+  it is not an exact match: `maps.internal-company.com/arcgis` will silence anything
+  containing that text.
+- **Domain** matches the hostname, including subdomains. Enter it bare, with no
+  `http://` and no `www`.
+- **Wildcard Pattern** matches the hostname with `*` standing in for anything, such as
+  `*.internal.company.com`. A wildcard containing a path will never match, because only
+  the hostname is tested.
+
+Anything matching is skipped before it is recorded at all.
+
+<Plate fig="D4" caption="SETTINGS / DISABLED URL PATTERNS" pendingNote="D4: disabled URL patterns" />
+
+## Copying and exporting the lot
+
+**Copy All URLs** puts every service in the current folder on the clipboard, one per
+line, in its QGIS form. **Export JSON** downloads them as
+`gis-services-<folder>.json`, each record carrying the type, the original URL, the
+normalized URL, your custom name and notes, the timestamp, where it was discovered, and
+both the QGIS and ArcGIS forms.
+
+Both work on the folder you are looking at. On Default, they include the temporary
+session services too.
+
+## Downloading data for an area of interest
+
+Some services will hand you their data directly. In the details dialog, a **Download...**
+button appears for WFS, WMS, OGC API services, and Esri FeatureServer and MapServer
+layers. Other types have no download button, because there is nothing to download.
+
+1. Click **Details**, then **Download...**.
+2. Pick a **Layer**, if the service has more than one.
+3. Choose an **Output CRS**. The default is EPSG:4326.
+4. Click **Draw bbox** to open a small map, then **Click & drag on map to draw** and drag
+   out a rectangle. The bounding box appears underneath as `BBOX · W, S, E, N`. **Clear**
+   removes it.
+5. For vector services, narrow it further with the filter builder, or write a WHERE
+   clause by hand with **Edit manually**. The count line tells you how many features you
+   are about to get, and **Refresh** recounts.
+6. Click **Start Download**. You get a GeoJSON file.
+
+WMS is the exception, because it serves pictures rather than features. The dialog swaps
+the filters for image format and size controls, and the button becomes **Export image**.
+A bounding box is required.
+
+OGC API Features services use the bounding box only: the WHERE clause is disabled.
+
+<Plate fig="D5" caption="DOWNLOAD / AREA OF INTEREST SELECTOR" pendingNote="D5: download dialog with AOI" />
+
+## The 500 limit
+
+Geo Hound keeps at most 500 auto-detected services. Past that, the oldest are quietly
+trimmed to make room, and they can be found again later if you revisit the site.
+
+**Services you have filed into your own folders are never trimmed.** If you care about
+something, put it in a folder and it will not be touched.
+
+<GuideFooter slug="find-wms-url-behind-web-map" />

@@ -1,0 +1,128 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'Why a map service will not load in a browser app (CORS)',
+  description:
+    'What CORS is, why a WMS or FeatureServer that works fine in QGIS fails in a browser app, how to test it, and what your options are when a service blocks you.',
+  alternates: { canonical: '/guides/why-wont-service-load-cors' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# Why a map service will not load in a browser app (CORS)
+
+**The short answer:** the service works. Your browser is refusing to let JavaScript read
+the response, because the server did not send a header saying that is allowed. The server
+has to fix it. You cannot fix it from your side, and no amount of code will make it work.
+
+This one wastes a great deal of time, because everything looks like it should work.
+
+## The symptom
+
+The service is fine in QGIS. It is fine when you paste the URL into a browser tab. But
+your Leaflet, OpenLayers, or MapLibre app shows nothing, and the console says:
+
+```
+Access to fetch at 'https://maps.example.com/wfs?...' from origin
+'https://myapp.example' has been blocked by CORS policy: No
+'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+
+Everything about that message sounds like you did something wrong. You did not.
+
+## What is actually happening
+
+Browsers enforce the same-origin policy: JavaScript on your page cannot read a response
+from another domain unless that domain explicitly agrees.
+
+The agreement is one HTTP header:
+
+```
+Access-Control-Allow-Origin: *
+```
+
+That is the whole mechanism. If the server sends it, your app works. If not, the browser
+fetches the response, looks at the headers, decides your JavaScript is not allowed to see
+it, and throws it away. **The request succeeded. The browser is refusing to hand you the
+result.**
+
+Which is exactly why it works everywhere else:
+
+- **QGIS** is not a browser. No same-origin policy. It does not care.
+- **Pasting the URL in a tab** is not cross-origin. You are the origin.
+- **curl** does not care either.
+
+Only JavaScript running on a page from a different domain is affected. That is the one
+case CORS exists for.
+
+## Why you cannot fix it
+
+The header comes from the server. Not from your fetch call, not from your headers, not
+from a library option. There is no client-side flag for this, because the entire point is
+that the client does not get to decide.
+
+Things that do not work, all of which you will find suggested somewhere:
+
+- Setting `Access-Control-Allow-Origin` on your own request. It is a *response* header.
+- `mode: 'no-cors'`. This does not disable CORS: it gives you an opaque response you
+  cannot read. It is worse than the error.
+- Disabling web security in Chrome. This works on your machine and nobody else's, so it
+  is a debugging trick, not a solution.
+- A browser extension that strips CORS headers. Same problem: your machine only.
+
+## Testing it before you commit
+
+The header is the only thing that matters, so check for it:
+
+```
+curl -I -H "Origin: https://example.com" "https://maps.example.com/wfs?SERVICE=WFS&REQUEST=GetCapabilities"
+```
+
+If `access-control-allow-origin` is in the response, you are fine. If not, that service
+will never work in a browser app.
+
+[Geo Hound](/) does this test for you on any service it detects. Open the service details
+and click **Test CORS**: it builds the right request for the service type and reports
+`Enabled` or `Disabled`, along with the allowed origin and methods.
+
+There is a subtlety worth knowing about, and it is the reason the test is written the way
+it is. A browser extension holds permission to read all sites, which means *its* requests
+are not subject to CORS at all. So a request succeeding proves nothing. The verdict has
+to come from whether the header is actually present, which is what a real web app would
+need. A tool that just tried a fetch and reported success would tell you the opposite of
+the truth.
+
+## What to do about it
+
+**If it is your service**, fix it. On GeoServer, install the CORS filter in
+`web.xml`. On ArcGIS Server, add allowed origins in the admin directory. On MapServer,
+set the header in your web server config. It is fifteen minutes of work, and it is the
+difference between data that people can build on and data they cannot.
+
+**If it is somebody else's service:**
+
+1. **Email them.** Really. This is a config change, it costs them nothing, and the person
+   who runs the service often does not know it is blocking anyone. It is the single
+   highest-return email in GIS.
+2. **Proxy it.** Run a small server that fetches the service and re-serves it with the
+   header. This works and it makes you responsible for the uptime, the caching, and the
+   bandwidth. Do not proxy someone's service at scale without telling them.
+3. **Download it instead.** If the data does not change often, take a copy and serve it
+   yourself as GeoJSON or a vector tile set. Faster for your users, kinder to their
+   server. See
+   [downloading GeoJSON from a web map](/guides/download-geojson-from-web-map).
+4. **Use it in QGIS and forget the browser.** If the browser was not essential, this is
+   the five-second fix. [Open it in QGIS](/guides/open-featureserver-in-qgis) instead.
+
+## Why we care about this so much
+
+Geo Hound's [workbench](/docs/workbench) is a browser app, so it runs into exactly this
+wall as any other browser app would. That is why every service card carries a CORS verdict
+before you try to use it: so you find out in a second rather than after twenty minutes of
+wondering what you did wrong.
+
+If a service says `Disabled`, copy it for QGIS and move on. That is not a Geo Hound
+limitation. No browser-based map will load it, ever, until whoever runs it adds one line
+to a config file.
+
+<GuideFooter slug="why-wont-service-load-cors" />

@@ -1,0 +1,117 @@
+import { GuideFooter } from '@/components/GuideFooter'
+
+export const metadata = {
+  title: 'Talking to a map: what an AI GIS assistant can actually do',
+  description:
+    'What it means to ask a map a question in plain English, which GIS operations an AI assistant can carry out for you, and what it cannot do.',
+  alternates: { canonical: '/guides/ai-gis-assistant-talk-to-your-map' },
+}
+
+<span className="gh-label gh-eyebrow">Guide</span>
+
+# Talking to a map: what an AI GIS assistant can actually do
+
+**The short answer:** it is not the model looking at your data and guessing. It is the
+model choosing which GIS operation to run, running it on the real geometry, and telling
+you the result. That distinction is everything.
+
+"Talk to your map" is a phrase doing a lot of work in marketing at the moment, so it is
+worth being precise about what the useful version is.
+
+## The two designs, and why only one works
+
+**Design one: send the data to the model and ask.** Upload your features, ask "how many
+parcels are within 500 m of a well", let the model work it out.
+
+This does not work. Models do not do geometry. It will produce a confident number that is
+not right, and you will have no way of knowing. It also means shipping your entire dataset
+to somebody else's server.
+
+**Design two: give the model tools.** The model never sees the geometry. It sees a
+description of your layers, and a list of operations it can invoke. You ask a question; it
+decides "this is a buffer, then a select-by-location, then a count"; the software runs
+those, on the real data; the model reports what came back.
+
+The arithmetic is done by the same geometry library that a desktop GIS would use. The
+model is a translator between your English and the operations, not a calculator. When it
+gets something wrong, it gets the *choice of operation* wrong, which is visible and
+checkable, rather than the number wrong, which is not.
+
+Geo Hound's [assistant](/docs/assistant) is the second design: 26 tools, all executed in
+your browser.
+
+## What it can carry out
+
+**Questions of the data.** "Which suburb has the most building consents?" "How many
+parcels are over two hectares?" "What is the average depth of the wells?"
+
+**Styling, which is the surprising one.** "Make the flood zones orange and label them by
+name." "Colour the parcels by zoning." Everyone expects the analysis and nobody expects
+that you can just say what you want the map to look like. It turns out to be what people
+use most.
+
+**Real analysis.** "Buffer the wells by 500 metres and tell me how many parcels fall
+inside." "Join the soil types onto my paddock boundaries." "How far is each school from
+the nearest fire station?" "Clip the vegetation layer to my property."
+
+**Chains.** This is where it earns its keep:
+
+1. "Buffer the streams by 20 metres."
+2. "Select the parcels that intersect that buffer."
+3. "Save those as a layer and colour them red."
+4. "Export it as a shapefile."
+
+Four sentences. In a desktop GIS that is four dialogs, each with parameters you need to
+know the meaning of.
+
+**Things with no buttons.** Geo Hound's assistant can clip, erase, and run the field
+calculator, none of which have an interface in the workbench. Asking is the only way to
+reach them.
+
+## What it cannot do
+
+**It cannot fix bad column names.** If your fields are `F1`, `F2`, and `VAL_3`, the
+assistant has the same problem you do. It will read the schema and sample values and
+sometimes work it out, but ask it about "the depth field" when there is no depth field
+and it will pick something. Look at what it chose.
+
+**It cannot do rasters, or scale.** Same limits as any
+[browser GIS](/guides/browser-gis-analysis-without-qgis): no elevation analysis, no
+imagery, not hundreds of thousands of features.
+
+**It cannot know your intent.** "Near the river" is not a distance. It will pick one. If
+it matters, say the number.
+
+**It cannot be trusted blind.** It is a competent operator who has never seen your data
+before and cannot ask a colleague. Look at the result on the map. If a buffer count looks
+wrong, it probably is, and usually because it grabbed the wrong layer or your layer only
+had the features in the current view loaded.
+
+## What leaves your browser
+
+Worth being blunt, since this is the part people should ask about.
+
+The model gets: your layer names, geometry types as words, feature counts, field names
+and types, and the results of the operations it runs. Those results are capped hard, at
+most 20 attribute rows from a query, 10 sample values per field, values truncated at 200
+characters.
+
+The model never gets: geometry, or whole datasets. It cannot, because the tools run in
+your browser and only their summaries go back.
+
+In Geo Hound's case the route is your browser, to our server, to OpenRouter, which routes
+on to a model provider. Conversations are not stored on our servers. The
+[privacy policy](/privacy) has the full detail, including what is stored and what is not.
+
+If you are evaluating any other tool that offers this, that is the question to ask:
+**does my data go to the model, or do tool results go to the model?** The answer tells you
+both how private it is and how accurate it can be, because they are the same design
+decision.
+
+## Try it
+
+The assistant lives in the Geo Hound workbench, on top of whatever public map data you
+were already looking at. Up to ten free questions a month, then credits you buy once that
+never expire. One credit per question you ask, however many operations it takes to answer.
+
+<GuideFooter slug="ai-gis-assistant-talk-to-your-map" />

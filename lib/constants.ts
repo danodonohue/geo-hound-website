@@ -32,11 +32,18 @@ export const SELLER_NAME = 'SELLER_NAME_PENDING';
 export const SELLER_NAME_CONFIRMED = false;
 
 /**
- * The extension is not published yet. While this is null every install CTA
- * renders its coming-soon state. Set it to the store URL and every CTA on the
- * site flips to a real link with no other edit.
+ * Live on the Chrome Web Store as of 2026-07-17.
+ *
+ * Deliberately stored without the authuser and hl query parameters the owner's
+ * dashboard link carried: authuser=0 is specific to a signed-in Google profile
+ * and misroutes anyone whose default profile differs. The canonical detail URL
+ * is the one to publish.
  */
-export const CHROME_STORE_URL: string | null = null;
+export const CHROME_STORE_URL: string | null =
+  'https://chromewebstore.google.com/detail/geo-hound/nooldeimgcodenhncjkjagbmppdinhfe';
+
+/** Assigned by the Chrome Web Store. Useful for support instructions. */
+export const CHROME_EXTENSION_ID = 'nooldeimgcodenhncjkjagbmppdinhfe';
 
 /**
  * PENDING. Google Analytics measurement ID (format G-XXXXXXXXXX). While null,

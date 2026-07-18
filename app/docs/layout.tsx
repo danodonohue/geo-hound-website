@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import styles from './layout.module.css';
 
 const DOCS_NAV = [
@@ -29,7 +30,10 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
             ))}
           </ul>
         </nav>
-        <article className="gh-prose">{children}</article>
+        <div>
+          <Breadcrumbs />
+          <article className="gh-prose">{children}</article>
+        </div>
       </div>
     </div>
   );

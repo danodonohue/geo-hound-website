@@ -11,7 +11,7 @@ import styles from './page.module.css';
 export const metadata: Metadata = {
   title: 'How Geo Hound works',
   description:
-    'The whole workflow in one page: install the extension, browse a web map, and Geo Hound catches the GIS services behind it. Then map, query, and analyse them in the browser, or copy them straight into QGIS.',
+    'Install the extension, browse a web map, and Geo Hound catches the GIS services behind it. Then map and analyse them in the browser, or copy them into QGIS.',
   alternates: { canonical: '/how-it-works' },
 };
 

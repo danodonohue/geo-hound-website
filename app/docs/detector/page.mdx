@@ -4,7 +4,7 @@ import { Plate } from '@/components/Plate'
 export const metadata = {
   title: 'Finding and saving GIS services',
   description:
-    'How the Geo Hound detector works: what it catches as you browse, what a service card shows, testing CORS, copying URLs for QGIS and ArcGIS Pro, folders, search, silencing noisy sites, and downloading data for an area of interest.',
+    'How the Geo Hound detector catches GIS services as you browse: service cards, CORS tests, copying URLs for QGIS and ArcGIS Pro, and downloading data.',
   alternates: { canonical: '/docs/detector' },
 }
 
@@ -177,8 +177,9 @@ OGC API Features services use the bounding box only: the WHERE clause is disable
 
 ## The 500 limit
 
-Geo Hound keeps at most 500 auto-detected services. Past that, the oldest are quietly
-trimmed to make room, and they can be found again later if you revisit the site.
+Geo Hound keeps at most 500 saved services in total. Past that, the oldest
+auto-detected ones are quietly trimmed to make room, and they can be found again later
+if you revisit the site.
 
 **Services you have filed into your own folders are never trimmed.** If you care about
 something, put it in a folder and it will not be touched.

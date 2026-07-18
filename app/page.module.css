@@ -324,6 +324,23 @@
   white-space: nowrap;
 }
 
+.wallLink {
+  margin-top: 28px;
+  font-size: 14px;
+  color: var(--gh-text-muted);
+  max-width: 62ch;
+}
+
+.wallLink a {
+  color: var(--gh-accent);
+  text-decoration: underline;
+  text-decoration-color: var(--gh-border-soft);
+}
+
+.wallLink a:hover {
+  text-decoration-color: currentColor;
+}
+
 /* --- pricing teaser --- */
 
 .teaser {

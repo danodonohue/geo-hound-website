@@ -3,7 +3,7 @@ import { LegalHeader } from '@/components/LegalHeader'
 export const metadata = {
   title: 'Privacy policy',
   description:
-    'What Geo Hound inspects while you browse, what stays on your machine, what is sent to our server, and every third party involved. Written against the actual behaviour of the extension.',
+    'What Geo Hound inspects while you browse, what stays on your machine, what is sent to our server, and every third party involved.',
   alternates: { canonical: '/privacy' },
 }
 
@@ -31,17 +31,23 @@ rather than a promise, it says so.
 
 ## What the extension inspects while you browse
 
-Geo Hound uses Chrome's `webRequest` API to watch requests your browser has already
-completed, so that it can spot GIS services without you opening developer tools. This
-is the entire point of the product.
+Geo Hound spots GIS services two ways: by watching your browser's network requests, and
+by reading the page itself. Both happen on every site, and both are described here.
 
-**It sees request URLs only.** It does not read request or response bodies, and it does
-not read headers. Technically: it listens on `onCompleted` without requesting any
-additional information, which is the narrowest form of the API. Bodies are not
-available to that listener at all.
+**Network requests.** Geo Hound uses Chrome's `webRequest` API to watch requests your
+browser has already completed. It sees the **request URL only**. It does not read request
+or response bodies, and it does not read headers. Technically it listens on `onCompleted`
+without requesting any additional information, which is the narrowest form of the API;
+bodies are not available to that listener at all. For each request it also reads the URL
+of the tab that made it, so it can record where a service was found.
 
-For each request it also reads the URL of the tab that made it, so it can record where
-a service was found.
+**Page content.** A content script also reads the page you are on, to catch services the
+network watcher would miss. Specifically it reads the link addresses (`href` values) and
+the visible text of the page, to find links to geospatial files, and it inspects any live
+Leaflet or MapLibre map on the page to see which layers it has loaded. It does not read
+form inputs, passwords, or personal content, and none of the page text is stored or sent
+anywhere: it is scanned in memory for service and file references and then discarded. What
+is kept is the same as for network requests, the identified services and file links.
 
 **The overwhelming majority of what it sees is thrown away immediately.** URLs are
 discarded, unexamined and unstored, if they are not successful requests, if they belong
@@ -57,8 +63,8 @@ where the service was found. Those are stored on your machine.
 
 GIS services are hosted on arbitrary domains: a council, a ministry, a utility, a
 university, a consultancy. There is no list of them to permit in advance, so the
-extension has to be able to observe requests on any site and fetch metadata from any
-host. That is what the "read your data on all websites" warning describes.
+extension has to be able to watch requests, read the page, and fetch metadata on any
+site. That is what the "read your data on all websites" warning describes.
 
 Detection is passive. Nothing is sold, nothing is profiled, and there is no advertising
 of any kind.

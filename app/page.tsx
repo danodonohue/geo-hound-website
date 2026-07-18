@@ -30,8 +30,11 @@ import {
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'Geo Hound: find the GIS data behind any web map',
-  description: `Geo Hound detects WMS, WFS, ArcGIS FeatureServer and other GIS service and file types on any page as you browse, then lets you map, query, and analyse them in your browser. Free to install.`,
+  /* absolute so the homepage title is not double-branded by the "| Geo Hound"
+     template in the root layout. */
+  title: { absolute: 'Geo Hound: find the GIS data behind any web map' },
+  description:
+    'Free Chrome extension that detects the WMS, WFS, and ArcGIS services behind any web map as you browse, then maps and analyses them in your browser.',
   alternates: { canonical: '/' },
 };
 
@@ -399,6 +402,10 @@ export default function LandingPage() {
               </div>
             ))}
           </div>
+          <p className={styles.wallLink}>
+            New to any of these? The <Link href="/guides">guides</Link> explain how to find
+            each one behind a web map and get it into QGIS or the workbench.
+          </p>
         </div>
       </section>
 

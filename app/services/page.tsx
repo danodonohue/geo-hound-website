@@ -8,7 +8,7 @@ import styles from './page.module.css';
 export const metadata: Metadata = {
   title: 'Custom work: talk-to-your-map for your own portal',
   description:
-    'The team that built Geo Hound takes custom work: chat interfaces for your own web maps, custom GIS tools, data pipelines, and consulting on making your public map data actually usable.',
+    'The team behind Geo Hound takes custom work: chat interfaces for your own web maps, custom GIS tools, data pipelines, and open-data consulting.',
   alternates: { canonical: '/services' },
 };
 

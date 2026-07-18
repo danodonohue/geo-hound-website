@@ -7,7 +7,7 @@ import styles from './page.module.css';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Geo Hound is a MapScaping product, built by a GIS specialist who got tired of digging through network requests to find the data behind a web map. This is how it grew from a detector into a browser GIS.',
+    'Geo Hound is a MapScaping product, built by a GIS specialist tired of digging through network requests to find the data behind a web map. Here is the story.',
   alternates: { canonical: '/about' },
 };
 

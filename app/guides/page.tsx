@@ -7,7 +7,7 @@ import styles from './hub.module.css';
 export const metadata: Metadata = {
   title: 'Guides: finding and using the data behind web maps',
   description:
-    'Practical guides to finding the WMS, WFS, and ArcGIS REST services behind public web maps, loading them into QGIS or ArcGIS Pro, and analysing them without desktop GIS.',
+    'Practical guides to finding the WMS, WFS, and ArcGIS services behind public web maps, loading them into QGIS, and analysing them without desktop GIS.',
   alternates: { canonical: '/guides' },
 };
 

@@ -3,8 +3,33 @@ import { Be_Vietnam_Pro, JetBrains_Mono } from 'next/font/google';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { THEME_INIT_SCRIPT } from '@/lib/theme';
-import { SITE_URL } from '@/lib/constants';
+import { MAPSCALING_URL, SITE_URL } from '@/lib/constants';
 import './globals.css';
+
+/* Sitewide entity graph: the Organization that publishes Geo Hound and the
+   WebSite itself. Establishes the brand as a known entity and links it to
+   MapScaping. Emitted once, in the root, so every page carries it. */
+const ORG_ID = `${SITE_URL}/#organization`;
+const SITE_GRAPH = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': ORG_ID,
+      name: 'Geo Hound',
+      url: SITE_URL,
+      parentOrganization: { '@type': 'Organization', name: 'MapScaping', url: MAPSCALING_URL },
+    },
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      name: 'Geo Hound',
+      url: SITE_URL,
+      publisher: { '@id': ORG_ID },
+      inLanguage: 'en',
+    },
+  ],
+};
 
 /* next/font downloads and self-hosts these at build time. Nothing is fetched
    from Google at runtime, per the brief. The variables are consumed by
@@ -31,13 +56,22 @@ export const metadata: Metadata = {
     template: '%s | Geo Hound',
   },
   description:
-    'Geo Hound is a Chrome extension that detects the map services on any page as you browse, then lets you map, query, and analyse them in your browser. No DevTools. No desktop GIS required.',
+    'Chrome extension that detects the map services on any page as you browse, then maps, queries, and analyses them in your browser. No DevTools, no desktop GIS.',
+  applicationName: 'Geo Hound',
   openGraph: {
     type: 'website',
     siteName: 'Geo Hound',
+    locale: 'en',
     url: SITE_URL,
   },
-  robots: { index: true, follow: true },
+  twitter: {
+    card: 'summary_large_image',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -48,6 +82,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${sans.variable} ${mono.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(SITE_GRAPH) }}
+        />
       </head>
       <body>
         <a href="#main" className="gh-skip">

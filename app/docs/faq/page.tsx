@@ -7,7 +7,7 @@ import styles from './faq.module.css';
 export const metadata: Metadata = {
   title: 'Frequently asked questions',
   description:
-    'Does Geo Hound slow down browsing? Why does it need to read data on all websites? Where is my data stored? Do credits expire? Does it work in Edge and Brave? Answers, verified against what the extension does.',
+    'Does Geo Hound slow browsing? Why read all websites? Where is my data stored? Do credits expire? Does it work in Edge or Brave? Answered honestly.',
   alternates: { canonical: '/docs/faq' },
 };
 
@@ -30,25 +30,28 @@ type FaqItem = {
 const FAQ: FaqItem[] = [
   {
     q: 'Does it slow my browsing down?',
-    text: 'No. Geo Hound looks at the URLs of requests your browser has already finished. It does not intercept, delay, or modify anything, and it cannot slow a page down. It reads request URLs only, never page content or response bodies.',
+    text: 'No. Geo Hound watches the URLs of requests your browser has already finished, and scans the page for links to geospatial files. It does not intercept, delay, or modify any request, so it cannot slow a page down. It never reads request or response bodies, and what it scans on the page is discarded immediately unless it identifies a service or file.',
     body: (
       <>
-        No. Geo Hound looks at the URLs of requests your browser has <em>already finished</em>.
-        It does not intercept, delay, or modify anything, so it cannot slow a page down. It
-        reads request URLs only, never page content or response bodies.
+        No. Geo Hound watches the URLs of requests your browser has <em>already finished</em>,
+        and scans the page for links to geospatial files. It does not intercept, delay, or
+        modify any request, so it cannot slow a page down. It never reads request or response
+        bodies, and what it scans on the page is discarded immediately unless it identifies a
+        service or file.
       </>
     ),
   },
   {
     q: 'Why does it need to read data on all websites?',
-    text: 'Because GIS services live on arbitrary domains: a council, a ministry, a utility, a university. There is no list to permit in advance, so the extension has to be able to observe requests on any site and fetch service metadata from any host. Detection is passive: it reads request URLs, keeps the ones that are GIS services, and discards everything else within about two seconds. Nothing is sold and nobody is profiled.',
+    text: 'Because GIS services live on arbitrary domains: a council, a ministry, a utility, a university. There is no list to permit in advance, so the extension has to be able to observe requests on any site, read the page for file links, and fetch service metadata from any host. Detection is passive: it keeps the URLs that are GIS services or geospatial files and discards everything else within about two seconds. Nothing is sold and nobody is profiled.',
     body: (
       <>
         Because GIS services live on arbitrary domains: a council, a ministry, a utility, a
         university. There is no list to permit in advance, so the extension has to be able to
-        observe requests on any site and fetch service metadata from any host. Detection is
-        passive: it reads request URLs, keeps the ones that are GIS services, and discards
-        everything else within about two seconds. Nothing is sold and nobody is profiled. The{' '}
+        observe requests on any site, read the page for file links, and fetch service metadata
+        from any host. Detection is passive: it keeps the URLs that are GIS services or
+        geospatial files and discards everything else within about two seconds. Nothing is
+        sold and nobody is profiled. The{' '}
         <Link href="/privacy">privacy policy</Link> spells out exactly what is inspected.
       </>
     ),

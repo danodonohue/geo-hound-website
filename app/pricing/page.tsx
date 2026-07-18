@@ -15,7 +15,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: 'Pricing',
-  description: `Geo Hound is free to install. The detector and workbench are free forever. The assistant gives you ${FREE_QUESTIONS_PER_MONTH} free questions a month, then credit packs from ${formatPrice(CREDIT_PACKS[0].price)}. Pay once, credits never expire.`,
+  description: `Free to install. The detector and workbench are free; the assistant gives up to ${FREE_QUESTIONS_PER_MONTH} free questions a month, then credit packs from ${formatPrice(CREDIT_PACKS[0].price)} that never expire.`,
   alternates: { canonical: '/pricing' },
 };
 

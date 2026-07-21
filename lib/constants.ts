@@ -21,15 +21,14 @@ export const SITE_URL = `https://${SITE_DOMAIN}`;
 export const CONTACT_EMAIL = 'geohound@mapscaping.com';
 
 /**
- * PENDING OWNER CONFIRMATION. The MapScaping business entity as it appears on
- * the Stripe account and on the store listing's EU trader disclosure. The site
- * imprint and /terms must match the store listing exactly, so this must be set
- * before launch. Rendered literally, so a placeholder is visibly wrong on page.
+ * Confirmed by the owner 2026-07-22. The MapScaping business entity as it
+ * appears on the Stripe account and must appear on the store listing's EU
+ * trader disclosure. The site imprint and /terms match this exactly.
  */
-export const SELLER_NAME = 'SELLER_NAME_PENDING';
+export const SELLER_NAME = 'MapScaping Limited';
 
 /** True once the owner has confirmed the legal seller identity. Gates a build check. */
-export const SELLER_NAME_CONFIRMED = false;
+export const SELLER_NAME_CONFIRMED = true;
 
 /**
  * Live on the Chrome Web Store as of 2026-07-17.

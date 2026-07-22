@@ -120,7 +120,8 @@ export default function HowItWorksPage() {
             <Plate
               fig="H1"
               caption="POPUP / A SERVICE CARD, METADATA ALREADY FETCHED"
-              pendingNote="L5: service card detail"
+              src="/shots/service-metadata.jpg"
+              alt="A service metadata panel in the Geo Hound popup showing the title, provider, description, layer count, and keywords already fetched for a detected map service."
             />
           </div>
         </div>

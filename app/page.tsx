@@ -117,7 +117,8 @@ export default function LandingPage() {
             fig="01"
             caption="WORKBENCH / SAVED SERVICE AS A LIVE LAYER"
             priority
-            pendingNote="L2: workbench hero, light theme"
+            src="/shots/workbench-hero.jpg"
+            alt="The Geo Hound workbench with several styled council layers drawn over satellite imagery of Auckland, the assistant panel open on the left and a legend on the right."
           />
         </div>
       </section>
@@ -153,7 +154,8 @@ export default function LandingPage() {
               <Plate
                 fig="02b"
                 caption="GEO HOUND / POPUP WITH DETECTED SERVICES"
-                pendingNote="L1: popup, light theme"
+                src="/shots/popup-detected-services.jpg"
+                alt="The Geo Hound popup over a street map, listing the GIS services detected on the page in a folder with a count of twenty-one services and a search box."
               />
             </div>
           </div>
@@ -205,7 +207,8 @@ export default function LandingPage() {
             <Plate
               fig="03"
               caption="DETECTOR / SERVICE CARD, METADATA AND CORS BADGE"
-              pendingNote="L5: service card detail"
+              src="/shots/service-metadata.jpg"
+              alt="A service metadata panel in the Geo Hound popup showing the title, provider, description, layer count, and keywords for a detected map service, with save and cancel actions."
             />
           </div>
 
@@ -288,7 +291,8 @@ export default function LandingPage() {
             <Plate
               fig="05"
               caption="ASSISTANT / A QUESTION AND THE MAP THAT ANSWERED IT"
-              pendingNote="L4: assistant mid-conversation"
+              src="/shots/workbench-assistant.jpg"
+              alt="The Geo Hound assistant mid-conversation, summarising the layers it has loaded and their feature counts, beside a map of styled layers over satellite imagery with a legend."
             />
           </div>
         </div>

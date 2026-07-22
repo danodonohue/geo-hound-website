@@ -141,7 +141,8 @@ export default function LandingPage() {
               <Plate
                 fig="02a"
                 caption="DEVTOOLS / NETWORK TAB ON A PUBLIC MAP VIEWER"
-                pendingNote="O2: owner capture, the old way"
+                src="/shots/devtools-network.jpg"
+                alt="A public map viewer with the browser DevTools Network tab open beside it, showing a hundred-plus tile and export requests you would have to scroll through and decode by hand to find the service URL."
               />
             </div>
             <div>

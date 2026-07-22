@@ -17,7 +17,7 @@ export default function AboutPage() {
       <div className={`gh-wrap ${styles.inner}`}>
         <article className="gh-prose">
           <span className="gh-label gh-eyebrow">About</span>
-          <h1>Built because the old way was daft.</h1>
+          <h1>You have better things to do than read network requests.</h1>
 
           <p className={styles.lede}>
             Finding the data behind a public web map was a pain even for me, and I do this

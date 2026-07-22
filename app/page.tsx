@@ -251,8 +251,9 @@ export default function LandingPage() {
             </div>
             <Plate
               fig="04"
-              caption="WORKBENCH / ATTRIBUTE TABLE AND FILTER BUILDER"
-              pendingNote="L3 or W3: dark theme workbench"
+              caption="WORKBENCH / A BUFFER RESULT OVER IMAGERY"
+              src="/shots/workbench-buffer.jpg"
+              alt="The Geo Hound workbench with the analysis tools open on the left and a buffer result drawn as red rings around features over satellite imagery, labelled in the legend as a thirty-metre buffer."
             />
           </div>
 

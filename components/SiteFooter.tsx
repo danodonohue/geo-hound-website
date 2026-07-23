@@ -17,6 +17,7 @@ const COLUMNS = [
       { href: '/docs/workbench', label: 'Workbench' },
       { href: '/docs/assistant', label: 'Assistant' },
       { href: '/pricing', label: 'Pricing' },
+      { href: '/billing', label: 'Billing and teams' },
     ],
   },
   {

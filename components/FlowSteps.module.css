@@ -1,0 +1,104 @@
+.flow {
+  border: 1.5px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: var(--gh-surface);
+  padding: 22px 24px 24px;
+}
+
+.list {
+  list-style: none;
+  margin: 16px 0 0;
+  padding: 0;
+}
+
+.step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  gap: 16px;
+  padding-bottom: 22px;
+  align-items: start;
+}
+
+.step:last-child {
+  padding-bottom: 0;
+}
+
+/* The connector: a hairline from the bottom of each node to the next node. */
+.step:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 17px;
+  top: 34px;
+  bottom: 0;
+  width: 1.5px;
+  background: var(--gh-border);
+  transform: translateX(-50%);
+}
+
+.node {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1.5px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: var(--gh-surface);
+  color: var(--gh-text-2);
+}
+
+.num {
+  font-family: var(--gh-mono);
+  font-size: 13px;
+  line-height: 1;
+}
+
+/* An emailed step: accent border and the mail glyph pick it out of the run. */
+.nodeEmail {
+  border-color: var(--gh-accent);
+  color: var(--gh-accent);
+}
+
+/* The outcome the flow arrives at: filled, so the end reads as an end. */
+.nodeDone {
+  border-color: var(--gh-btn-bg);
+  background: var(--gh-btn-bg);
+  color: var(--gh-btn-fg);
+}
+
+.content {
+  padding-top: 5px;
+}
+
+.title {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-family: var(--gh-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gh-accent);
+  border: 1px solid var(--gh-accent);
+  border-radius: var(--gh-r);
+  padding: 1px 6px;
+  font-weight: 400;
+}
+
+.body {
+  font-size: 14px;
+  color: var(--gh-text-2);
+  margin-top: 5px;
+}
+
+.stepDone .title {
+  color: var(--gh-accent);
+}

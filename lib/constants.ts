@@ -111,6 +111,19 @@ export const CREDIT_PACKS: readonly CreditPack[] = [
   { id: 'bulk', price: 40, questions: 1200 },
 ] as const;
 
+/**
+ * Team top-up packs. A team buys these once and every member draws from the
+ * shared pool. Mirrors ORG_PACKS in the extension's lib/chat-billing.js: the
+ * credits shown are display only; the mapping that actually pays out lives
+ * server-side, keyed by each Stripe Payment Link. As with personal packs, 1
+ * credit is 1 question and prices are expected to rise, so they live here and
+ * are never baked into copy or imagery.
+ */
+export const TEAM_PACKS: readonly CreditPack[] = [
+  { id: 'team-100', price: 100, questions: 2600 },
+  { id: 'team-300', price: 300, questions: 9000, featured: true },
+] as const;
+
 export const CURRENCY = 'USD';
 export const CURRENCY_SYMBOL = '$';
 

@@ -7,6 +7,7 @@ import {
   CREDIT_PACKS,
   CREDITS_PER_QUESTION,
   FREE_QUESTIONS_PER_MONTH,
+  TEAM_PACKS,
   formatPrice,
   type CreditPack,
 } from '@/lib/constants';
@@ -200,6 +201,25 @@ export default function PricingPage() {
             <Link href="/terms">terms of sale</Link> for the refund policy and the seller
             identity.
           </p>
+        </div>
+      </section>
+
+      {/* Teams */}
+      <section className="gh-section">
+        <div className="gh-wrap">
+          <span className="gh-label gh-eyebrow">Teams</span>
+          <h2 className="gh-measure">Paying once for a whole team.</h2>
+          <p className="gh-muted" style={{ marginTop: 12, fontSize: 15, maxWidth: '72ch' }}>
+            A team is a shared prepaid pool of credits: one person pays, everyone draws from
+            it. No per-seat billing and no subscription. Members join with a code, and their
+            questions come out of the pool first. Team packs start at{' '}
+            {formatPrice(TEAM_PACKS[0].price)}.
+          </p>
+          <div style={{ marginTop: 22 }}>
+            <Link href="/billing" className="gh-btn gh-btn--lg">
+              How teams and payment work
+            </Link>
+          </div>
         </div>
       </section>
 

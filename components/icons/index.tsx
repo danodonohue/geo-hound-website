@@ -104,6 +104,14 @@ export const MagnifyingGlassIcon = (p: IconProps) => (
   </Icon>
 );
 
+/** An emailed step: a code or confirmation lands in the inbox. */
+export const MailIcon = (p: IconProps) => (
+  <Icon {...p}>
+    <path d="M3.25 6.5h17.5v11a1.5 1.5 0 0 1-1.5 1.5H4.75a1.5 1.5 0 0 1-1.5-1.5v-11Z" />
+    <path d="m3.75 7 8.25 6 8.25-6" />
+  </Icon>
+);
+
 export const DownloadIcon = (p: IconProps) => (
   <Icon {...p}>
     <path d="M12 3.5v11M7.5 10.5 12 15l4.5-4.5" />

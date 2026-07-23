@@ -7,6 +7,7 @@ import styles from './SiteHeader.module.css';
 export const NAV = [
   { href: '/how-it-works', label: 'How it works' },
   { href: '/pricing', label: 'Pricing' },
+  { href: '/billing', label: 'Billing' },
   { href: '/services', label: 'Custom work' },
   { href: '/about', label: 'About' },
 ] as const;

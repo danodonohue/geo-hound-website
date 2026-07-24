@@ -1,0 +1,96 @@
+.eyebrowRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.providerLine {
+  color: var(--gh-text-muted);
+  margin-top: 0.25rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0;
+}
+
+.tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 1.5px solid var(--gh-border);
+  padding: 0.2rem 0.55rem;
+  color: var(--gh-text);
+  text-decoration: none;
+}
+
+.tag:hover {
+  background: var(--gh-hover);
+}
+
+.mapRow {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 900px) {
+  .mapRow {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+.section {
+  margin: 2.5rem 0;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.snippetGrid {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .snippetGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.relatedGrid {
+  display: grid;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 900px) {
+  .relatedGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.footerStrip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border-top: 2px solid var(--gh-border);
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+}
+
+.reportLink {
+  color: var(--gh-text-muted);
+  font-size: 0.85rem;
+}

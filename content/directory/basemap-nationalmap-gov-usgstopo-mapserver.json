@@ -1,0 +1,54 @@
+{
+  "slug": "basemap-nationalmap-gov-usgstopo-mapserver",
+  "service_key": "ESRI MapServer:https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer",
+  "title": "USGSTopo",
+  "description": "USGS Topo is a tile cache base map service that combines the most current data in The National Map (TNM), and other public-domain data, into a multi-scale topographic reference map.",
+  "abstract": "USGS Topo is a tile cache base map service that combines the most current data in The National Map (TNM), and other public-domain data, into a multi-scale topographic reference map. Data themes included are Boundaries, Geographic Names, Transportation, Contours, Hydrography, Land Cover, Shaded Relief, and Bathymetry. This service is designed to provide a seamless view of TNM data in a geographic information system (GIS) accessible format.",
+  "place": {
+    "country": "United States",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "USGSTopo",
+      "title": "USGSTopo",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": null,
+  "response_ms": 767,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.7,
+  "enrichment": {
+    "model": null,
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

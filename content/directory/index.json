@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "basemap-nationalmap-gov-usgstopo-mapserver",
+    "title": "USGSTopo",
+    "type": "ESRI MapServer",
+    "provider": null,
+    "place": {
+      "country": "United States",
+      "state": null
+    },
+    "themes": [],
+    "description": "USGS Topo is a tile cache base map service that combines the most current data in The National Map (TNM), and other public-domain data, into a multi-scale topographic reference map."
+  },
+  {
+    "slug": "ows-terrestris-de-openstreetmap-wms-wms",
+    "title": "OpenStreetMap WMS",
+    "type": "OGC WMS",
+    "provider": null,
+    "place": null,
+    "themes": [],
+    "description": "OpenStreetMap WMS, bereitgestellt durch terrestris GmbH und Co."
+  },
+  {
+    "slug": "mesonet-agron-iastate-edu-iem-wms-service-wms",
+    "title": "IEM WMS Service",
+    "type": "OGC WMS",
+    "provider": null,
+    "place": null,
+    "themes": [],
+    "description": "IEM generated CONUS composite of NWS WSR-88D level III base reflectivity."
+  },
+  {
+    "slug": "sampleserver6-arcgisonline-com-layers-mapserver",
+    "title": "Layers",
+    "type": "ESRI MapServer",
+    "provider": null,
+    "place": null,
+    "themes": [],
+    "description": "This service presents various population statistics from Census 2000, including total population, population density, racial counts, and more."
+  },
+  {
+    "slug": "elevation-nationalmap-gov-3depelevation-imageserver",
+    "title": "3DEPElevation",
+    "type": "ESRI ImageServer",
+    "provider": null,
+    "place": {
+      "country": "United States",
+      "state": null
+    },
+    "themes": [],
+    "description": "The USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service is based on multi-resolution USGS DEM sources and provides dynamic functions for visualization."
+  },
+  {
+    "slug": "carto-nationalmap-gov-structures-mapserver",
+    "title": "structures",
+    "type": "ESRI MapServer",
+    "provider": null,
+    "place": {
+      "country": "United States",
+      "state": null
+    },
+    "themes": [],
+    "description": "USGS Structures from The National Map consists of data to include the name, function, location, and other core information and characteristics of selected manmade facilities."
+  },
+  {
+    "slug": "tigerweb-geo-census-gov-states-and-counties-mapserver",
+    "title": "States and Counties",
+    "type": "ESRI MapServer",
+    "provider": null,
+    "place": {
+      "country": "United States",
+      "state": null
+    },
+    "themes": [],
+    "description": "States and Counties (or statistically equivalent entities)"
+  }
+]

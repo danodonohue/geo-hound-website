@@ -1,0 +1,10 @@
+[
+  "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer",
+  "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "https://sampleserver6.arcgisonline.com/arcgis/rest/services/Census/MapServer",
+  "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Counties_Generalized_Boundaries/FeatureServer",
+  "https://ows.terrestris.de/osm/service?SERVICE=WMS&REQUEST=GetCapabilities",
+  "https://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi?SERVICE=WMS&REQUEST=GetCapabilities",
+  "https://carto.nationalmap.gov/arcgis/rest/services/structures/MapServer",
+  "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer"
+]

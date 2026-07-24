@@ -1,0 +1,230 @@
+{
+  "slug": "mesonet-agron-iastate-edu-iem-wms-service-wms",
+  "service_key": "OGC WMS:https://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi?SERVICE=WMS&REQUEST=GetCapabilities",
+  "type": "OGC WMS",
+  "url": "https://mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi?SERVICE=WMS&REQUEST=GetCapabilities",
+  "title": "IEM WMS Service",
+  "description": "IEM generated CONUS composite of NWS WSR-88D level III base reflectivity.",
+  "abstract": "IEM generated CONUS composite of NWS WSR-88D level III base reflectivity.",
+  "place": null,
+  "themes": [],
+  "bbox": [
+    -126,
+    24,
+    -66,
+    50
+  ],
+  "layers": [
+    {
+      "id": "nexrad_base_reflect",
+      "name": "nexrad_base_reflect",
+      "title": "IEM WMS Service",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r",
+      "name": "nexrad-n0r",
+      "title": "NEXRAD BASE REFLECT CURRENT",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913",
+      "name": "nexrad-n0r-900913",
+      "title": "NEXRAD BASE REFLECT (GOOGLE)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m05m",
+      "name": "nexrad-n0r-900913-m05m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M5 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m10m",
+      "name": "nexrad-n0r-900913-m10m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M10 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m15m",
+      "name": "nexrad-n0r-900913-m15m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M15 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m20m",
+      "name": "nexrad-n0r-900913-m20m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M20 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m25m",
+      "name": "nexrad-n0r-900913-m25m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M25 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m30m",
+      "name": "nexrad-n0r-900913-m30m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M30 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m35m",
+      "name": "nexrad-n0r-900913-m35m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M35 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m40m",
+      "name": "nexrad-n0r-900913-m40m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M40 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m45m",
+      "name": "nexrad-n0r-900913-m45m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M45 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-900913-m50m",
+      "name": "nexrad-n0r-900913-m50m",
+      "title": "NEXRAD BASE REFLECT (GOOGLE) M50 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m05m",
+      "name": "nexrad-n0r-m05m",
+      "title": "NEXRAD BASE REFLECT M5 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m10m",
+      "name": "nexrad-n0r-m10m",
+      "title": "NEXRAD BASE REFLECT M10 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m15m",
+      "name": "nexrad-n0r-m15m",
+      "title": "NEXRAD BASE REFLECT M15 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m20m",
+      "name": "nexrad-n0r-m20m",
+      "title": "NEXRAD BASE REFLECT M20 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m25m",
+      "name": "nexrad-n0r-m25m",
+      "title": "NEXRAD BASE REFLECT M25 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m30m",
+      "name": "nexrad-n0r-m30m",
+      "title": "NEXRAD BASE REFLECT M30 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m35m",
+      "name": "nexrad-n0r-m35m",
+      "title": "NEXRAD BASE REFLECT M35 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m40m",
+      "name": "nexrad-n0r-m40m",
+      "title": "NEXRAD BASE REFLECT M40 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m45m",
+      "name": "nexrad-n0r-m45m",
+      "title": "NEXRAD BASE REFLECT M45 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nexrad-n0r-m50m",
+      "name": "nexrad-n0r-m50m",
+      "title": "NEXRAD BASE REFLECT M50 MINS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "image/png",
+    "image/jpeg",
+    "image/png; mode=8bit",
+    "image/vnd.jpeg-png",
+    "image/vnd.jpeg-png8",
+    "application/x-pdf",
+    "image/svg+xml",
+    "image/tiff",
+    "application/json"
+  ],
+  "crs": [
+    "EPSG:4326",
+    "epsg:900913",
+    "EPSG:102100",
+    "EPSG:3857"
+  ],
+  "cors_enabled": null,
+  "response_ms": 806,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.6,
+  "enrichment": {
+    "model": null,
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

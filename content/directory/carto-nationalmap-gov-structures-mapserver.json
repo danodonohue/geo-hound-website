@@ -1,0 +1,1738 @@
+{
+  "slug": "carto-nationalmap-gov-structures-mapserver",
+  "service_key": "ESRI MapServer:https://carto.nationalmap.gov/arcgis/rest/services/structures/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://carto.nationalmap.gov/arcgis/rest/services/structures/MapServer",
+  "title": "structures",
+  "description": "USGS Structures from The National Map consists of data to include the name, function, location, and other core information and characteristics of selected manmade facilities.",
+  "abstract": "USGS Structures from The National Map consists of data to include the name, function, location, and other core information and characteristics of selected manmade facilities. The types of structures collected are largely determined by the needs of disaster planning and emergency response, and homeland security organizations. Structures currently being collected are: School, Technical/Trade School, College/University, Fire Station/EMS Station, Law Enforcement/Police Station, Prison/Correctional Facility, State Capitol, Hospital/Medical Center, Ambulance Service, Cemetery, Post Office, Campground, Trailhead, and Visitor/Information Center. Structures data are designed to be used in general mapping and in the analysis of structure related activities using geographic information system technology. The National Map structures data is commonly combined with other data themes, such as boundaries, elevation, hydrography, and transportation, to produce general reference base maps. The National Map download client allows free downloads of public domain structures data in either Esri File Geodatabase or Shapefile formats. For additional information on the structures data model, go to https://www.usgs.gov/core-science-systems/ngp/tnm-corps/structures. See https://apps.nationalmap.gov/help/ for assistance with The National Map viewer, download client, services, or metadata.",
+  "place": {
+    "country": "United States",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Landmarks & Government Buildings",
+      "title": "Landmarks & Government Buildings",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Cemeteries",
+      "title": "Cemeteries",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Post Offices",
+      "title": "Post Offices",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "City/Town Halls",
+      "title": "City/Town Halls",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Courthouses",
+      "title": "Courthouses",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "State Capitols",
+      "title": "State Capitols",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "State Supreme Courts",
+      "title": "State Supreme Courts",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "The White House",
+      "title": "The White House",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "U.S. Capitol",
+      "title": "U.S. Capitol",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "U.S. Supreme Court",
+      "title": "U.S. Supreme Court",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Historic Sites/Points of Interest",
+      "title": "Historic Sites/Points of Interest",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "National Symbols/Monuments",
+      "title": "National Symbols/Monuments",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Medical & Emergency Response",
+      "title": "Medical & Emergency Response",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Hospitals/Medical Centers",
+      "title": "Hospitals/Medical Centers",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PERMANENT_IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMANENT_IDENTIFIER"
+        },
+        {
+          "name": "SOURCE_FEATUREID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_FEATUREID"
+        },
+        {
+          "name": "SOURCE_DATASETID",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATASETID"
+        },
+        {
+          "name": "SOURCE_DATADESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_DATADESC"
+        },
+        {
+          "name": "SOURCE_ORIGINATOR",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_ORIGINATOR"
+        },
+        {
+          "name": "LOADDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FType"
+        },
+        {
+          "name": "FCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "FCode"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POINTLOCATIONTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PointLocationType"
+        },
+        {
+          "name": "ADMINTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "AdminType"
+        },
+        {
+          "name": "ADDRESSBUILDINGNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESSBUILDINGNAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIPCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIPCODE"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Ambulance Services",
+      "title": "Ambulance Services",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Fire Stations/EMS Stations",
+      "title": "Fire Stations/EMS Stations",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Law Enforcement",
+      "title": "Law Enforcement",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Police Stations",
+      "title": "Police Stations",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Prisons/Correctional Facilities",
+      "title": "Prisons/Correctional Facilities",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Education",
+      "title": "Education",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Colleges/Universities",
+      "title": "Colleges/Universities",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Technical/Trade Schools",
+      "title": "Technical/Trade Schools",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Schools",
+      "title": "Schools",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Recreation",
+      "title": "Recreation",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Campgrounds",
+      "title": "Campgrounds",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Trailheads",
+      "title": "Trailheads",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Cabins",
+      "title": "Cabins",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Shelters",
+      "title": "Shelters",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Picnic Areas",
+      "title": "Picnic Areas",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Headquarters",
+      "title": "Headquarters",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Visitor/Information Centers",
+      "title": "Visitor/Information Centers",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Ranger Stations",
+      "title": "Ranger Stations",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Energy",
+      "title": "Energy",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Alaska Pipeline",
+      "title": "Alaska Pipeline",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Features",
+      "title": "Features",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Landmarks & Government Buildings",
+      "title": "Landmarks & Government Buildings",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Cemeteries",
+      "title": "Cemeteries",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Post Offices",
+      "title": "Post Offices",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "City/Town Halls",
+      "title": "City/Town Halls",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Courthouses",
+      "title": "Courthouses",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "State Capitols",
+      "title": "State Capitols",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "State Supreme Courts",
+      "title": "State Supreme Courts",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "The White House",
+      "title": "The White House",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "U.S. Capitol",
+      "title": "U.S. Capitol",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "U.S. Supreme Court",
+      "title": "U.S. Supreme Court",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Historic Sites/Points of Interest",
+      "title": "Historic Sites/Points of Interest",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "National Symbols/Monuments",
+      "title": "National Symbols/Monuments",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Medical & Emergency Response",
+      "title": "Medical & Emergency Response",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Hospitals/Medical Centers",
+      "title": "Hospitals/Medical Centers",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Ambulance Services",
+      "title": "Ambulance Services",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Fire Stations/EMS Stations",
+      "title": "Fire Stations/EMS Stations",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "Law Enforcement",
+      "title": "Law Enforcement",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Police Stations",
+      "title": "Police Stations",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "Prisons/Correctional Facilities",
+      "title": "Prisons/Correctional Facilities",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "Education",
+      "title": "Education",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "Colleges/Universities",
+      "title": "Colleges/Universities",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "Technical/Trade Schools",
+      "title": "Technical/Trade Schools",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Schools",
+      "title": "Schools",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "Recreation",
+      "title": "Recreation",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": null,
+  "response_ms": 631,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.9,
+  "enrichment": {
+    "model": null,
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

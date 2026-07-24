@@ -33,6 +33,10 @@ anything here. `COMPLIANCE-CHROME-WEB-STORE.md` governs /privacy and /terms.
    FeatureServer. Numbers over adjectives. No startup hype. Claims must be
    substantiable: the extension is unpublished, so no popularity or testimonial
    claims of any kind.
+7. **`content/directory/` is generated, not authored.** It is produced by
+   `scripts/build-directory/` and committed after human review; edit records by
+   re-running the pipeline, never by hand. Removals: delete the file and list
+   its slug or service_key in `content/directory/removed.json`.
 
 ## Product facts, verified against the extension source
 

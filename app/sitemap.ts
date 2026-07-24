@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/constants';
 import { GUIDES } from '@/lib/guides';
+import { getAllServices, placeHubs, themeHubs } from '@/lib/directory';
 
 /**
  * The sitemap is generated from the same registry the pages render from, so a
@@ -50,6 +51,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const data: MetadataRoute.Sitemap = [
+    { url: `${SITE_URL}/data`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    ...getAllServices().map((s) => ({
+      url: `${SITE_URL}/data/${s.slug}`,
+      lastModified: new Date(s.last_verified),
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    })),
+    ...placeHubs().map((h) => ({
+      url: `${SITE_URL}/data/place/${h.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    })),
+    ...themeHubs().map((h) => ({
+      url: `${SITE_URL}/data/theme/${h.slug}`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.7,
+    })),
+  ];
+
   const legal: MetadataRoute.Sitemap = ['/privacy', '/terms'].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: now,
@@ -57,5 +80,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.3,
   }));
 
-  return [...core, ...docs, ...guides, ...legal];
+  return [...core, ...docs, ...guides, ...data, ...legal];
 }

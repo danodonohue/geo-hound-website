@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# directory pipeline intermediate files
+scripts/build-directory/.work/

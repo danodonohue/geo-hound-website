@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "directory:harvest": "node scripts/build-directory/harvest.mjs",
+    "directory:enrich": "node scripts/build-directory/enrich.mjs",
+    "directory:emit": "node scripts/build-directory/emit.mjs",
+    "directory:validate": "node scripts/build-directory/validate.mjs",
+    "directory:test": "node --test scripts/build-directory/lib/"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

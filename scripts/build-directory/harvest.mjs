@@ -18,22 +18,27 @@ const COLS = 'normalized_url,service_type,service_title,service_abstract,provide
 const SLICE_LIMIT = 1000;
 
 async function fetchSlice(base, headers, filter, label) {
-  try {
-    const res = await fetch(
-      `${base}/rest/v1/global_service_directory?select=${COLS}&${filter}&limit=${SLICE_LIMIT}`,
-      { headers, signal: AbortSignal.timeout(30_000) },
-    );
-    if (!res.ok) {
-      console.warn(`slice ${label}: HTTP ${res.status}, skipped`);
-      return [];
+  // Transient failures happen (truncated bodies, occasional 500s), so each
+  // slice gets three attempts before it is skipped.
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(
+        `${base}/rest/v1/global_service_directory?select=${COLS}&${filter}&limit=${SLICE_LIMIT}`,
+        { headers, signal: AbortSignal.timeout(30_000) },
+      );
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const rows = await res.json();
+      console.log(`slice ${label}: ${rows.length} rows`);
+      return rows;
+    } catch (err) {
+      if (attempt === 3) {
+        console.warn(`slice ${label}: ${err.message ?? err.name}, skipped after 3 attempts`);
+        return [];
+      }
+      await new Promise((r) => setTimeout(r, 1500 * attempt));
     }
-    const rows = await res.json();
-    console.log(`slice ${label}: ${rows.length} rows`);
-    return rows;
-  } catch (err) {
-    console.warn(`slice ${label}: ${err.name}, skipped`);
-    return [];
   }
+  return [];
 }
 
 async function loadRows() {

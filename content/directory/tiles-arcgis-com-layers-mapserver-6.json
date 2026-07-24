@@ -1,0 +1,48 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver-6",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/Ga5PFntoooL0Dlwu/arcgis/rest/services/2023_FBCAD_AerialImagery_CoSclip/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/Ga5PFntoooL0Dlwu/arcgis/rest/services/2023_FBCAD_AerialImagery_CoSclip/MapServer",
+  "title": "Layers",
+  "description": "December 2023 aerial imagery for City of Stafford.",
+  "abstract": "FBCAD aerial imagery (captured by Nearmap, Dec. 2023) of the City of Stafford, clipped to the city boundary. Acquired by W. Bennett from Fort Bend County Appraisal District in 6/2024. ",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "cos_cl_d23.tif",
+      "title": "cos_cl_d23.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 468,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

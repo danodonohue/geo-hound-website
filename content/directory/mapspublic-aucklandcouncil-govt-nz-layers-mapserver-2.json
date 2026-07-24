@@ -1,0 +1,960 @@
+{
+  "slug": "mapspublic-aucklandcouncil-govt-nz-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/LiveMaps/DevelopmentRestrictions/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/LiveMaps/DevelopmentRestrictions/MapServer",
+  "title": "Layers",
+  "description": "GIS service providing parcels, coastal, flood data.",
+  "abstract": "Development Restrictions",
+  "provider": "mapspublic.aucklandcouncil.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Auckland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 14,
+      "name": "Auckland Council managed closed landfill locations",
+      "title": "Auckland Council managed closed landfill locations",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SITEID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Site ID"
+        },
+        {
+          "name": "SITENAME",
+          "type": "esriFieldTypeString",
+          "alias": "Site name"
+        },
+        {
+          "name": "SiteManagementPriority",
+          "type": "esriFieldTypeString",
+          "alias": "Site management priority"
+        },
+        {
+          "name": "GasGenerationPotential",
+          "type": "esriFieldTypeString",
+          "alias": "Gas generation potential"
+        },
+        {
+          "name": "CONTACTEMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Contact email"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Areas Susceptible to Coastal Instability and Erosion",
+      "title": "Areas Susceptible to Coastal Instability and Erosion",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Level A (Regional)",
+      "title": "Level A (Regional)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "ASCIE 2050 (RCP8.5)",
+      "title": "ASCIE 2050 (RCP8.5)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Cell",
+          "type": "esriFieldTypeInteger",
+          "alias": "Cell"
+        },
+        {
+          "name": "CoastType",
+          "type": "esriFieldTypeString",
+          "alias": "CoastType"
+        },
+        {
+          "name": "Timeframe",
+          "type": "esriFieldTypeInteger",
+          "alias": "Timeframe"
+        },
+        {
+          "name": "ResourceConcentrationPathway",
+          "type": "esriFieldTypeString",
+          "alias": "ResourceConcentrationPathway"
+        },
+        {
+          "name": "Scenario",
+          "type": "esriFieldTypeString",
+          "alias": "Scenario"
+        },
+        {
+          "name": "Geology",
+          "type": "esriFieldTypeString",
+          "alias": "Geology"
+        },
+        {
+          "name": "DistanceFromCoastline",
+          "type": "esriFieldTypeString",
+          "alias": "DistanceFromCoastline"
+        },
+        {
+          "name": "ToeOffset",
+          "type": "esriFieldTypeInteger",
+          "alias": "ToeOffset"
+        },
+        {
+          "name": "StableAngle",
+          "type": "esriFieldTypeInteger",
+          "alias": "StableAngle"
+        },
+        {
+          "name": "RCPSource",
+          "type": "esriFieldTypeString",
+          "alias": "RCPSource"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeDouble",
+          "alias": "SeaLevelRise"
+        },
+        {
+          "name": "SeaLevelRiseSource",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelRiseSource"
+        },
+        {
+          "name": "SeaLevelBaseline",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelBaseline"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "AssessmentLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Level"
+        },
+        {
+          "name": "ASCIEAssessmentSource",
+          "type": "esriFieldTypeString",
+          "alias": "ASCIEAssessmentSource"
+        },
+        {
+          "name": "URLLink",
+          "type": "esriFieldTypeString",
+          "alias": "URLLink"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "ASCIE 2080 (RCP8.5)",
+      "title": "ASCIE 2080 (RCP8.5)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Cell",
+          "type": "esriFieldTypeInteger",
+          "alias": "Cell"
+        },
+        {
+          "name": "CoastType",
+          "type": "esriFieldTypeString",
+          "alias": "CoastType"
+        },
+        {
+          "name": "Timeframe",
+          "type": "esriFieldTypeInteger",
+          "alias": "Timeframe"
+        },
+        {
+          "name": "ResourceConcentrationPathway",
+          "type": "esriFieldTypeString",
+          "alias": "ResourceConcentrationPathway"
+        },
+        {
+          "name": "Scenario",
+          "type": "esriFieldTypeString",
+          "alias": "Scenario"
+        },
+        {
+          "name": "Geology",
+          "type": "esriFieldTypeString",
+          "alias": "Geology"
+        },
+        {
+          "name": "DistanceFromCoastline",
+          "type": "esriFieldTypeString",
+          "alias": "DistanceFromCoastline"
+        },
+        {
+          "name": "ToeOffset",
+          "type": "esriFieldTypeInteger",
+          "alias": "ToeOffset"
+        },
+        {
+          "name": "StableAngle",
+          "type": "esriFieldTypeInteger",
+          "alias": "StableAngle"
+        },
+        {
+          "name": "RCPSource",
+          "type": "esriFieldTypeString",
+          "alias": "RCPSource"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeDouble",
+          "alias": "SeaLevelRise"
+        },
+        {
+          "name": "SeaLevelRiseSource",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelRiseSource"
+        },
+        {
+          "name": "SeaLevelBaseline",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelBaseline"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "AssessmentLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Level"
+        },
+        {
+          "name": "ASCIEAssessmentSource",
+          "type": "esriFieldTypeString",
+          "alias": "ASCIEAssessmentSource"
+        },
+        {
+          "name": "URLLink",
+          "type": "esriFieldTypeString",
+          "alias": "URLLink"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "ASCIE 2130 (RCP8.5)",
+      "title": "ASCIE 2130 (RCP8.5)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Cell",
+          "type": "esriFieldTypeInteger",
+          "alias": "Cell"
+        },
+        {
+          "name": "CoastType",
+          "type": "esriFieldTypeString",
+          "alias": "CoastType"
+        },
+        {
+          "name": "Timeframe",
+          "type": "esriFieldTypeInteger",
+          "alias": "Timeframe"
+        },
+        {
+          "name": "ResourceConcentrationPathway",
+          "type": "esriFieldTypeString",
+          "alias": "ResourceConcentrationPathway"
+        },
+        {
+          "name": "Scenario",
+          "type": "esriFieldTypeString",
+          "alias": "Scenario"
+        },
+        {
+          "name": "Geology",
+          "type": "esriFieldTypeString",
+          "alias": "Geology"
+        },
+        {
+          "name": "DistanceFromCoastline",
+          "type": "esriFieldTypeString",
+          "alias": "DistanceFromCoastline"
+        },
+        {
+          "name": "ToeOffset",
+          "type": "esriFieldTypeInteger",
+          "alias": "ToeOffset"
+        },
+        {
+          "name": "StableAngle",
+          "type": "esriFieldTypeInteger",
+          "alias": "StableAngle"
+        },
+        {
+          "name": "RCPSource",
+          "type": "esriFieldTypeString",
+          "alias": "RCPSource"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeDouble",
+          "alias": "SeaLevelRise"
+        },
+        {
+          "name": "SeaLevelRiseSource",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelRiseSource"
+        },
+        {
+          "name": "SeaLevelBaseline",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelBaseline"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "AssessmentLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Level"
+        },
+        {
+          "name": "ASCIEAssessmentSource",
+          "type": "esriFieldTypeString",
+          "alias": "ASCIEAssessmentSource"
+        },
+        {
+          "name": "URLLink",
+          "type": "esriFieldTypeString",
+          "alias": "URLLink"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "ASCIE 2130 (RCP8.5+)",
+      "title": "ASCIE 2130 (RCP8.5+)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Cell",
+          "type": "esriFieldTypeInteger",
+          "alias": "Cell"
+        },
+        {
+          "name": "CoastType",
+          "type": "esriFieldTypeString",
+          "alias": "CoastType"
+        },
+        {
+          "name": "Timeframe",
+          "type": "esriFieldTypeInteger",
+          "alias": "Timeframe"
+        },
+        {
+          "name": "ResourceConcentrationPathway",
+          "type": "esriFieldTypeString",
+          "alias": "ResourceConcentrationPathway"
+        },
+        {
+          "name": "Scenario",
+          "type": "esriFieldTypeString",
+          "alias": "Scenario"
+        },
+        {
+          "name": "Geology",
+          "type": "esriFieldTypeString",
+          "alias": "Geology"
+        },
+        {
+          "name": "DistanceFromCoastline",
+          "type": "esriFieldTypeString",
+          "alias": "DistanceFromCoastline"
+        },
+        {
+          "name": "ToeOffset",
+          "type": "esriFieldTypeInteger",
+          "alias": "ToeOffset"
+        },
+        {
+          "name": "StableAngle",
+          "type": "esriFieldTypeInteger",
+          "alias": "StableAngle"
+        },
+        {
+          "name": "RCPSource",
+          "type": "esriFieldTypeString",
+          "alias": "RCPSource"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeDouble",
+          "alias": "SeaLevelRise"
+        },
+        {
+          "name": "SeaLevelRiseSource",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelRiseSource"
+        },
+        {
+          "name": "SeaLevelBaseline",
+          "type": "esriFieldTypeString",
+          "alias": "SeaLevelBaseline"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "AssessmentLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Level"
+        },
+        {
+          "name": "ASCIEAssessmentSource",
+          "type": "esriFieldTypeString",
+          "alias": "ASCIEAssessmentSource"
+        },
+        {
+          "name": "URLLink",
+          "type": "esriFieldTypeString",
+          "alias": "URLLink"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Liquefaction Vulnerability Areas",
+      "title": "Liquefaction Vulnerability Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Liquefaction Vulnerability - Calibrated Assessment",
+      "title": "Liquefaction Vulnerability - Calibrated Assessment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LiquefactionAssessmentLevel",
+          "type": "esriFieldTypeString",
+          "alias": "LiquefactionAssessmentLevel"
+        },
+        {
+          "name": "Vulnerability",
+          "type": "esriFieldTypeString",
+          "alias": "Vulnerability"
+        },
+        {
+          "name": "VulnerabilityDescription",
+          "type": "esriFieldTypeString",
+          "alias": "VulnerabilityDescription"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "RecordStatus",
+          "type": "esriFieldTypeString",
+          "alias": "RecordStatus"
+        },
+        {
+          "name": "MaintenanceComment",
+          "type": "esriFieldTypeString",
+          "alias": "MaintenanceComment"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Liquefaction Vulnerability - Basic Assessment",
+      "title": "Liquefaction Vulnerability - Basic Assessment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LiquefactionAssessmentLevel",
+          "type": "esriFieldTypeString",
+          "alias": "LiquefactionAssessmentLevel"
+        },
+        {
+          "name": "Vulnerability",
+          "type": "esriFieldTypeString",
+          "alias": "Vulnerability"
+        },
+        {
+          "name": "VulnerabilityDescription",
+          "type": "esriFieldTypeString",
+          "alias": "VulnerabilityDescription"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "RecordStatus",
+          "type": "esriFieldTypeString",
+          "alias": "RecordStatus"
+        },
+        {
+          "name": "MaintenanceComment",
+          "type": "esriFieldTypeString",
+          "alias": "MaintenanceComment"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Wind Area",
+      "title": "Wind Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "WINDAREA",
+          "type": "esriFieldTypeString",
+          "alias": "WINDAREA"
+        },
+        {
+          "name": "RECORDSTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "RECORDSTATUS"
+        },
+        {
+          "name": "DOCUMENTREFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "DOCUMENTREFERENCE"
+        },
+        {
+          "name": "SOURCEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SOURCEDATE"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 100,
+      "name": "Watercare Network Capacity Areas",
+      "title": "Watercare Network Capacity Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROJECTAREA",
+          "type": "esriFieldTypeString",
+          "alias": "Project Area"
+        },
+        {
+          "name": "CONSTRAINTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Constraint"
+        },
+        {
+          "name": "SOLUTION",
+          "type": "esriFieldTypeString",
+          "alias": "Solution"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "KEY",
+          "type": "esriFieldTypeString",
+          "alias": "KEY"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 33,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

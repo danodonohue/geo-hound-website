@@ -1,0 +1,154 @@
+{
+  "slug": "mapspublic-aklc-govt-nz-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://mapspublic.aklc.govt.nz/arcgis/rest/services/UnitaryPlan/UnitaryPlanAppealsandModifications/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aklc.govt.nz/arcgis/rest/services/UnitaryPlan/UnitaryPlanAppealsandModifications/MapServer",
+  "title": "Layers",
+  "description": "Auckland planning appeals and plan change modifications.",
+  "abstract": "Unitary Plan Appeals and Modifications",
+  "provider": "mapspublic.aklc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 4,
+      "name": "Notices of Requirement",
+      "title": "Notices of Requirement",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "MAPLAYER",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAPLAYER"
+        },
+        {
+          "name": "DATENOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATENOTIFIED"
+        },
+        {
+          "name": "DOCUMENTURL",
+          "type": "esriFieldTypeString",
+          "alias": "DOCUMENTURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "STATUS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Plan Changes",
+      "title": "Plan Changes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "MAPLAYER",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAPLAYER"
+        },
+        {
+          "name": "DATENOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATENOTIFIED"
+        },
+        {
+          "name": "DOCUMENTURL",
+          "type": "esriFieldTypeString",
+          "alias": "DOCUMENTURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "STATUS"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 30,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

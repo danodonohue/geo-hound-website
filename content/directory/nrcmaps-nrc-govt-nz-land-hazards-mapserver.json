@@ -1,0 +1,218 @@
+{
+  "slug": "nrcmaps-nrc-govt-nz-land-hazards-mapserver",
+  "service_key": "ESRI MapServer:https://nrcmaps.nrc.govt.nz/imagery/rest/services/Land_Hazards/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://nrcmaps.nrc.govt.nz/imagery/rest/services/Land_Hazards/MapServer",
+  "title": "Land Hazards",
+  "description": "Flood-susceptible land, erosion-prone areas, and earthworks since 2007.",
+  "abstract": "<p style='margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; padding: 0px; font-size: 12px; color: rgb(0, 0, 0); font-family: &quot;Avenir Light&quot;, Verdana, Geneva, sans-serif;'><b>Flood Susceptible Land 2009</b></p><p style='margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; padding: 0px; font-size: 12px; color: rgb(0, 0, 0); font-family: &quot;Avenir Light&quot;, Verdana, Geneva, sans-serif;'>For the purpose of the Regional Water and Soil Plan, this layer identifies areas of floodplain, alluvial soil and peat basins that are considered susceptible to flooding.</p><br /><p style='margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; padding: 0px; font-size: 12px; color: rgb(0, 0, 0); font-family: &quot;Avenir Light&quot;, Verdana, Geneva, sans-serif;'>The data does not attempt to differentiate on the grounds of probability of the land being flooded, that is, the data does not distinguish between land that is likely to flood frequently and land that may only flood on rare occasions. That sort of detail is the subject of ongoing investigation and where the information is available it will be held in the relevant District Council’s Hazards Database.</p><p style='margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; padding: 0px; font-size: 12px; color: rgb(0, 0, 0); font-family: &quot;Avenir Light&quot;, Verdana, Geneva, sans-serif;'><b><br />Erosion Prone Land 2008</b><br /></p><p style='margin-top: 0px; margin-bottom: 0px; box-sizing: border-box; padding: 0px; font-size: 12px; color: rgb(0, 0, 0); font-family: &quot;Avenir Light&quot;, Verdana, Geneva, sans-serif;'>For the purpose of the Regional Water and Soil Plan, erosion prone land is defined as Class VIIe, VIIIe and VIIIs1 land use capability units generally depicted on the 1:50,000 New Zealand Resource Inventory, Northland Region, Second Edition.</p>",
+  "provider": "nrcmaps.nrc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Flood Susceptible Land",
+      "title": "Flood Susceptible Land",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FLOOD_SUSC",
+          "type": "esriFieldTypeString",
+          "alias": "FLOOD_SUSC"
+        },
+        {
+          "name": "Soils",
+          "type": "esriFieldTypeString",
+          "alias": "Soils"
+        },
+        {
+          "name": "Shape_STArea__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STArea__"
+        },
+        {
+          "name": "Shape_STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLength__"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Erosion Prone Land",
+      "title": "Erosion Prone Land",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREAH",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREAH"
+        },
+        {
+          "name": "Shape_STArea__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STArea__"
+        },
+        {
+          "name": "Shape_STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLength__"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Earthworks since 2007",
+      "title": "Earthworks since 2007",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PAR_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAR_ID"
+        },
+        {
+          "name": "NONSURVEY_DEF",
+          "type": "esriFieldTypeString",
+          "alias": "NONSURVEY_DEF"
+        },
+        {
+          "name": "LEGAL",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "FEATCODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATCODE"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 110,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

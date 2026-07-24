@@ -1,0 +1,125 @@
+{
+  "slug": "gis-cpkcr-com-cpkc-holiday-train-mapserver",
+  "service_key": "ESRI MapServer:https://gis.cpkcr.com/arcgis/rest/services/HolidayTrain/CPKC_Holiday_Train/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.cpkcr.com/arcgis/rest/services/HolidayTrain/CPKC_Holiday_Train/MapServer",
+  "title": "CPKC_Holiday_Train",
+  "description": "Scheduled stops and performers for Canadian Pacific KC Holiday Train annual route.",
+  "abstract": "CPKC Holiday Train stops and performers.",
+  "provider": "gis.cpkcr.com",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "CPKC_Holiday_Train_Stop",
+      "title": "CPKC_Holiday_Train_Stop",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "StopOID",
+          "type": "esriFieldTypeInteger",
+          "alias": "StopOID"
+        },
+        {
+          "name": "Country",
+          "type": "esriFieldTypeString",
+          "alias": "Country"
+        },
+        {
+          "name": "StopName",
+          "type": "esriFieldTypeString",
+          "alias": "Stop Name"
+        },
+        {
+          "name": "Arrival_Day",
+          "type": "esriFieldTypeDate",
+          "alias": "Arrival Day"
+        },
+        {
+          "name": "TrainRoute",
+          "type": "esriFieldTypeString",
+          "alias": "Train Route"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Event_Time_Range",
+          "type": "esriFieldTypeString",
+          "alias": "Event Time Range"
+        },
+        {
+          "name": "TimeZone",
+          "type": "esriFieldTypeString",
+          "alias": "Local Time Zone"
+        },
+        {
+          "name": "Google_Map_Url",
+          "type": "esriFieldTypeString",
+          "alias": "Google Map Url"
+        },
+        {
+          "name": "PubliclyVisible",
+          "type": "esriFieldTypeString",
+          "alias": "PubliclyVisible"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 770,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

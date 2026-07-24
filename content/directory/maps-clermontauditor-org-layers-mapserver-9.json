@@ -1,0 +1,1301 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-9",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/Parcels/ParcelLabelsWMAS/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/Parcels/ParcelLabelsWMAS/MapServer",
+  "title": "Layers",
+  "description": "Clermont County parcel dimension and label annotations.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Parcel Dimensions",
+      "title": "Parcel Dimensions",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Parcel_Dims_1K",
+      "title": "Parcel_Dims_1K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATUREID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZORDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "ANNOTATIONCLASSID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SYMBOLID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TEXTSTRING",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FONTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FONTSIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "BOLD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "ITALIC",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VERTICALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HORIZONTALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FONTLEADING",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WORDSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CHARACTERWIDTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CHARACTERSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FLIPANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "OVERRIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL_"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "1",
+      "title": "1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Parcel_Dims_600FT",
+      "title": "Parcel_Dims_600FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATUREID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZORDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "ANNOTATIONCLASSID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SYMBOLID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TEXTSTRING",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FONTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FONTSIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "BOLD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "ITALIC",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VERTICALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HORIZONTALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FONTLEADING",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WORDSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CHARACTERWIDTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CHARACTERSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FLIPANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "OVERRIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL_"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "1",
+      "title": "1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Parcel_Dims_300FT",
+      "title": "Parcel_Dims_300FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATUREID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZORDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "ANNOTATIONCLASSID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SYMBOLID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TEXTSTRING",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FONTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FONTSIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "BOLD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "ITALIC",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VERTICALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HORIZONTALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FONTLEADING",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WORDSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CHARACTERWIDTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CHARACTERSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FLIPANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "OVERRIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL_"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "1",
+      "title": "1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Lots Anno",
+      "title": "Lots Anno",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Lots_Anno_2K",
+      "title": "Lots_Anno_2K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATUREID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZORDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "ANNOTATIONCLASSID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SYMBOLID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TEXTSTRING",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FONTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FONTSIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "BOLD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "ITALIC",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VERTICALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HORIZONTALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FONTLEADING",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WORDSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CHARACTERWIDTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CHARACTERSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FLIPANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "OVERRIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL_"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "1",
+      "title": "1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Lots_Anno_1K",
+      "title": "Lots_Anno_1K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATUREID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZORDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "ANNOTATIONCLASSID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SYMBOLID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TEXTSTRING",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FONTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FONTSIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "BOLD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "ITALIC",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VERTICALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HORIZONTALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FONTLEADING",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WORDSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CHARACTERWIDTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CHARACTERSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FLIPANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "OVERRIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL_"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "1",
+      "title": "1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Lots_Anno_600FT",
+      "title": "Lots_Anno_600FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATUREID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZORDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "ANNOTATIONCLASSID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SYMBOLID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TEXTSTRING",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FONTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FONTSIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "BOLD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "ITALIC",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VERTICALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HORIZONTALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FONTLEADING",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WORDSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CHARACTERWIDTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CHARACTERSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FLIPANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "OVERRIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL_"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "1",
+      "title": "1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Lots_Anno_300FT",
+      "title": "Lots_Anno_300FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATUREID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZORDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "ANNOTATIONCLASSID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SYMBOLID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TEXTSTRING",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FONTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FONTSIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "BOLD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "ITALIC",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "UNDERLINE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VERTICALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HORIZONTALALIGNMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FONTLEADING",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WORDSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CHARACTERWIDTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CHARACTERSPACING",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FLIPANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "OVERRIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "LEVEL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEVEL_"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "1",
+      "title": "1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Parcel Labels",
+      "title": "Parcel Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Parcel Labels_18K",
+      "title": "Parcel Labels_18K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Parcel Labels_9K",
+      "title": "Parcel Labels_9K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Parcel Labels_4K",
+      "title": "Parcel Labels_4K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Parcel Labels_2K",
+      "title": "Parcel Labels_2K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Parcel Labels_1K",
+      "title": "Parcel Labels_1K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Parcel Labels_600FT",
+      "title": "Parcel Labels_600FT",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Parcel Labels_300FT",
+      "title": "Parcel Labels_300FT",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 224,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

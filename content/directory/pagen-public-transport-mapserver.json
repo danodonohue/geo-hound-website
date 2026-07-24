@@ -1,0 +1,349 @@
+{
+  "slug": "pagen-public-transport-mapserver",
+  "service_key": "ESRI MapServer:https://mapping1.gw.govt.nz/arcgis/rest/services/GW/Public_Transport_P/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapping1.gw.govt.nz/arcgis/rest/services/GW/Public_Transport_P/MapServer",
+  "title": "Public Transport",
+  "description": "GIS service providing recreation, transport, boundaries data.",
+  "abstract": "The service published from this template for deployment to the GW Public Website. It includes current Public Transport Routes as extracted and processed from the Google Transit Feed available on the Metlink website and current Public Transport Stops as extracted and processed from the Metlink Database.",
+  "provider": "pagen",
+  "place": {
+    "country": "New Zealand",
+    "state": "Wellington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Park and Ride Sites",
+      "title": "Park and Ride Sites",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LINE",
+          "type": "esriFieldTypeString",
+          "alias": "LINE"
+        },
+        {
+          "name": "SPACES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SPACES"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "PT Stops",
+      "title": "PT Stops",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Service",
+          "type": "esriFieldTypeString",
+          "alias": "Service"
+        },
+        {
+          "name": "Mode",
+          "type": "esriFieldTypeString",
+          "alias": "Mode"
+        },
+        {
+          "name": "Stop",
+          "type": "esriFieldTypeString",
+          "alias": "Stop"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Public Transport Routes",
+      "title": "Public Transport Routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "SERVICE"
+        },
+        {
+          "name": "DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTION"
+        },
+        {
+          "name": "ServiceType",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceType"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Park_and_Ride_Areas",
+      "title": "Park_and_Ride_Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Line",
+          "type": "esriFieldTypeString",
+          "alias": "Line"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "Spaces",
+          "type": "esriFieldTypeInteger",
+          "alias": "Spaces"
+        },
+        {
+          "name": "Fare_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Fare_Zone"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Managing_Agency",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_Agency"
+        },
+        {
+          "name": "Lot_name",
+          "type": "esriFieldTypeString",
+          "alias": "Lot_name"
+        },
+        {
+          "name": "Off_street",
+          "type": "esriFieldTypeString",
+          "alias": "Off_Street"
+        },
+        {
+          "name": "CCTV",
+          "type": "esriFieldTypeString",
+          "alias": "CCTV"
+        },
+        {
+          "name": "More_spaces",
+          "type": "esriFieldTypeString",
+          "alias": "More_spaces"
+        },
+        {
+          "name": "Size",
+          "type": "esriFieldTypeString",
+          "alias": "Size"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_STArea_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STArea_1"
+        },
+        {
+          "name": "Shape_STLength_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLength_1"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Fare_Zone_Boundary_Polygons_Outlines",
+      "title": "Fare_Zone_Boundary_Polygons_Outlines",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZONE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Fare_Zone_Boundary_Polygons",
+      "title": "Fare_Zone_Boundary_Polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZONE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 17,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

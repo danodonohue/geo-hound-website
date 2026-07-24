@@ -1,0 +1,448 @@
+{
+  "slug": "march-2020-includes-all-layers-for-e-plan-operativedp-eplanlabels-mapserver",
+  "service_key": "ESRI MapServer:https://gismaps.hdc.govt.nz/server/rest/services/DistrictPlan/OperativeDP_EPlanLabels/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gismaps.hdc.govt.nz/server/rest/services/DistrictPlan/OperativeDP_EPlanLabels/MapServer",
+  "title": "OperativeDP_EPlanLabels",
+  "description": "Heritage features, notable trees and landscape designations for district planning.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><DIV><P><SPAN>Operative District Plan Labels. Created for Operative District Plan (partially operative from March 2020) Includes all layers for E-Plan.</SPAN></P></DIV></DIV>",
+  "provider": "March 2020) Includes all layers for E-Plan",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Cultural / Heritage",
+      "title": "Cultural / Heritage",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Notable Trees",
+      "title": "Notable Trees",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CommonName",
+          "type": "esriFieldTypeString",
+          "alias": "CommonName"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "TreeSignificance",
+          "type": "esriFieldTypeString",
+          "alias": "TreeSignificance"
+        },
+        {
+          "name": "Designation",
+          "type": "esriFieldTypeString",
+          "alias": "Designation"
+        },
+        {
+          "name": "Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Accuracy"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Wāhi Taonga",
+      "title": "Wāhi Taonga",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Designation",
+          "type": "esriFieldTypeString",
+          "alias": "Designation"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "SiteType"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Significance",
+          "type": "esriFieldTypeString",
+          "alias": "Significance"
+        },
+        {
+          "name": "Confidential",
+          "type": "esriFieldTypeString",
+          "alias": "Confidential"
+        },
+        {
+          "name": "AltRef",
+          "type": "esriFieldTypeString",
+          "alias": "AltRef"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Heritage Features",
+      "title": "Heritage Features",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Building_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Building_Name"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OrderField",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "OrderField"
+        },
+        {
+          "name": "PropertyNo",
+          "type": "esriFieldTypeInteger",
+          "alias": "PropertyNo"
+        },
+        {
+          "name": "HeritageNZRef",
+          "type": "esriFieldTypeString",
+          "alias": "HeritageNZRef"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreatedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "ModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ModifiedDate"
+        },
+        {
+          "name": "ModifiedBy",
+          "type": "esriFieldTypeString",
+          "alias": "ModifiedBy"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Landscape Areas / Features",
+      "title": "Landscape Areas / Features",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Landscape Review",
+      "title": "Landscape Review",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "T12012_Typ",
+          "type": "esriFieldTypeString",
+          "alias": "T12012_Typ"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AreaName",
+          "type": "esriFieldTypeString",
+          "alias": "Area"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Other",
+      "title": "Other",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Scheduled Activities",
+      "title": "Scheduled Activities",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "PermittedActivities",
+          "type": "esriFieldTypeString",
+          "alias": "PermittedActivities"
+        },
+        {
+          "name": "OrderField",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "OrderField"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Designations",
+      "title": "Designations",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Designation",
+          "type": "esriFieldTypeString",
+          "alias": "Designation"
+        },
+        {
+          "name": "DesignatingAuthority",
+          "type": "esriFieldTypeString",
+          "alias": "DesignatingAuthority"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "DesignationPurpose",
+          "type": "esriFieldTypeString",
+          "alias": "DesignationPurpose"
+        },
+        {
+          "name": "OrderField",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "OrderField"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "OldRefID",
+          "type": "esriFieldTypeString",
+          "alias": "OldRefID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Contaminated Sites",
+      "title": "Contaminated Sites",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "TAG"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Designation",
+          "type": "esriFieldTypeString",
+          "alias": "Designation"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 30,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-47",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Learning_School/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Learning_School/MapServer",
+  "title": "Layers",
+  "description": "School locations with catchment and demographic information.",
+  "abstract": "Schools  - Layer associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "demographics",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 9,
+      "name": "Learning - School",
+      "title": "Learning - School",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "School_Name",
+          "type": "esriFieldTypeString",
+          "alias": "School name"
+        },
+        {
+          "name": "URN",
+          "type": "esriFieldTypeInteger",
+          "alias": "URN"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "Phase",
+          "type": "esriFieldTypeString",
+          "alias": "Phase"
+        },
+        {
+          "name": "Gender",
+          "type": "esriFieldTypeString",
+          "alias": "Gender"
+        },
+        {
+          "name": "Closure_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Closure status"
+        },
+        {
+          "name": "Main_Site_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Main Site ID"
+        },
+        {
+          "name": "Site_Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Site_Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "main_site_name",
+          "type": "esriFieldTypeString",
+          "alias": "main_site_name"
+        },
+        {
+          "name": "main_site_Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "main_site_postcode"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "DFE",
+          "type": "esriFieldTypeInteger",
+          "alias": "DFE Number"
+        },
+        {
+          "name": "Address1234Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "School_Type",
+          "type": "esriFieldTypeString",
+          "alias": "School type"
+        },
+        {
+          "name": "Entry_Age",
+          "type": "esriFieldTypeInteger",
+          "alias": "Entry age"
+        },
+        {
+          "name": "Leaving_Age",
+          "type": "esriFieldTypeInteger",
+          "alias": "Leaving age"
+        },
+        {
+          "name": "Age_Range",
+          "type": "esriFieldTypeString",
+          "alias": "Age range"
+        },
+        {
+          "name": "School_Website",
+          "type": "esriFieldTypeString",
+          "alias": "School Website"
+        },
+        {
+          "name": "School_Website_HTML",
+          "type": "esriFieldTypeString",
+          "alias": "School Website HTML"
+        },
+        {
+          "name": "Schools_Directory_URL",
+          "type": "esriFieldTypeString",
+          "alias": "Schools Directory URL"
+        },
+        {
+          "name": "Schools_Directory_URL_HTML",
+          "type": "esriFieldTypeString",
+          "alias": "Schools Directory URL HTML"
+        },
+        {
+          "name": "main_site_Address1234Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "main_site_Address1234Postcode"
+        },
+        {
+          "name": "Local_Authority",
+          "type": "esriFieldTypeString",
+          "alias": "Local_Authority"
+        },
+        {
+          "name": "Has_Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Has catchment"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 313,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

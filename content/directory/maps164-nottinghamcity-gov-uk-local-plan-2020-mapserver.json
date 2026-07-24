@@ -1,0 +1,962 @@
+{
+  "slug": "maps164-nottinghamcity-gov-uk-local-plan-2020-mapserver",
+  "service_key": "ESRI MapServer:https://maps164.nottinghamcity.gov.uk/server/rest/services/Core_services/Local_Plan_2020/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps164.nottinghamcity.gov.uk/server/rest/services/Core_services/Local_Plan_2020/MapServer",
+  "title": "Local Plan 2020",
+  "description": "Spatial planning allocations including development sites and retail centres.",
+  "abstract": "Local Plan 2020 map service",
+  "provider": "maps164.nottinghamcity.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Nottinghamshire",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "zoning",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Local Plan 2020",
+      "title": "Local Plan 2020",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Local Plan Policy Layers",
+      "title": "Local Plan Policy Layers",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Plan Boundary",
+      "title": "Plan Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "City Centre Boundary",
+      "title": "City Centre Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Development Sites",
+      "title": "Development Sites",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area HA"
+        },
+        {
+          "name": "ADOPTION_SITE_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Site Ref"
+        },
+        {
+          "name": "WARD",
+          "type": "esriFieldTypeString",
+          "alias": "Ward"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "USAGE_AT_ADOPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Usage at Adoption"
+        },
+        {
+          "name": "PROPOSED_USAGE_SIMP_CAT",
+          "type": "esriFieldTypeString",
+          "alias": "Proposed Usage Simplified Category"
+        },
+        {
+          "name": "PBSA",
+          "type": "esriFieldTypeString",
+          "alias": "PBSA (Purpose Built Student Accommodation)"
+        },
+        {
+          "name": "LINK_TO_PDF",
+          "type": "esriFieldTypeString",
+          "alias": "Link to PDF"
+        },
+        {
+          "name": "MIN_DWEL",
+          "type": "esriFieldTypeString",
+          "alias": "Min Dwellings"
+        },
+        {
+          "name": "MAX_DWEL",
+          "type": "esriFieldTypeString",
+          "alias": "Max Dwellings"
+        },
+        {
+          "name": "MIDPNT_DWEL",
+          "type": "esriFieldTypeString",
+          "alias": "Mid-Point Dwellings"
+        },
+        {
+          "name": "MIN_APRX_OFCE_NTGN_SQM",
+          "type": "esriFieldTypeString",
+          "alias": "Min Approx Office Net Gain SQM"
+        },
+        {
+          "name": "MAX_APRX_OFCE_NTGN_SQM",
+          "type": "esriFieldTypeString",
+          "alias": "Max Approx Office Net Gain SQM"
+        },
+        {
+          "name": "MIDPNT_APRX_OFCE_NTGN_SQM",
+          "type": "esriFieldTypeString",
+          "alias": "Mid-Point Approx Office Net Gain SQM"
+        },
+        {
+          "name": "MIN_APRX_INDSTWREHOUSNG_HA",
+          "type": "esriFieldTypeString",
+          "alias": "Min Approx Industrial or Warehousing HA"
+        },
+        {
+          "name": "MAX_APRX_INDSTWREHOUSNG_HA",
+          "type": "esriFieldTypeString",
+          "alias": "Max Approx Industrial or Warehousing HA"
+        },
+        {
+          "name": "MIN_APRX_RETAIL_NTGN_SQM",
+          "type": "esriFieldTypeString",
+          "alias": "Min Approx Retail Net Gain SQM"
+        },
+        {
+          "name": "MAX_APRX_RETAIL_NTGN_SQM",
+          "type": "esriFieldTypeString",
+          "alias": "Max Approx Retail Net Gain SQM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Transport",
+      "title": "Transport",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Proposed NET Stop (Indicative)",
+      "title": "Proposed NET Stop (Indicative)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "INFO",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Railway Station Safeguarding",
+      "title": "Railway Station Safeguarding",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Proposed Enhanced Pedestrian Connections",
+      "title": "Proposed Enhanced Pedestrian Connections",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Proposed Pedestrian Environment Improvements",
+      "title": "Proposed Pedestrian Environment Improvements",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Proposed Cycle Route Improvements",
+      "title": "Proposed Cycle Route Improvements",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TERRAIN",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "ROUTE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Route Name"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Highway Planning Lines",
+      "title": "Highway Planning Lines",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SCHEME_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Transport Scheme Ref"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Highway Route Improvement Safeguarding (Indicative)",
+      "title": "Highway Route Improvement Safeguarding (Indicative)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SCHEME_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Transport Scheme Ref"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "NET Safeguarding (Indicative)",
+      "title": "NET Safeguarding (Indicative)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Rail Line Upgrading/Electrification (Indicative)",
+      "title": "Rail Line Upgrading/Electrification (Indicative)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "POLICY_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy Ref"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Focal Points within the Townscape",
+      "title": "Focal Points within the Townscape",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Landmark Buildings",
+      "title": "Landmark Buildings",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Landmark Features",
+      "title": "Landmark Features",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Public Squares",
+      "title": "Public Squares",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 239,
+      "name": "Proposed Public Squares",
+      "title": "Proposed Public Squares",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 240,
+      "name": "Existing Public Squares",
+      "title": "Existing Public Squares",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 241,
+      "name": "Supporting the Growth of Further and Higher Education Facilities",
+      "title": "Supporting the Growth of Further and Higher Education Facilities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 242,
+      "name": "Land Safeguarded for Health facilities",
+      "title": "Land Safeguarded for Health facilities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 243,
+      "name": "Enterprise Zone",
+      "title": "Enterprise Zone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 244,
+      "name": "Major Business Parks/Industrial Estates",
+      "title": "Major Business Parks/Industrial Estates",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 245,
+      "name": "Retail and Centres",
+      "title": "Retail and Centres",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 246,
+      "name": "Primary Shopping Frontages",
+      "title": "Primary Shopping Frontages",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 247,
+      "name": "Independent Retail Clusters",
+      "title": "Independent Retail Clusters",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 248,
+      "name": "Retail Opportunity Areas",
+      "title": "Retail Opportunity Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 249,
+      "name": "Local Centres",
+      "title": "Local Centres",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 250,
+      "name": "Town Centres",
+      "title": "Town Centres",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 251,
+      "name": "District Centres",
+      "title": "District Centres",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 252,
+      "name": "Centres of Neighbourhood Importance",
+      "title": "Centres of Neighbourhood Importance",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 253,
+      "name": "Primary Shopping Area",
+      "title": "Primary Shopping Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 254,
+      "name": "Greenbelt",
+      "title": "Greenbelt",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 255,
+      "name": "Mineral Safeguarding Area",
+      "title": "Mineral Safeguarding Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 256,
+      "name": "City Centre Caves Area",
+      "title": "City Centre Caves Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 257,
+      "name": "Waterside Regeneration Zone",
+      "title": "Waterside Regeneration Zone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 258,
+      "name": "City Centre Quarters",
+      "title": "City Centre Quarters",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 259,
+      "name": "Local Plan Contextual Layers",
+      "title": "Local Plan Contextual Layers",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Scheduled Monuments [Policy: HE1] *",
+      "title": "Scheduled Monuments [Policy: HE1] *",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Tram Route and Stops *",
+      "title": "Tram Route and Stops *",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "NET stops *",
+      "title": "NET stops *",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "NET Route *",
+      "title": "NET Route *",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "High Speed Safeguarding Direction [Policy: TR2] *",
+      "title": "High Speed Safeguarding Direction [Policy: TR2] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Petroleum Exploration and Development Licence (PEDL) Areas [Policy: MI3] *",
+      "title": "Petroleum Exploration and Development Licence (PEDL) Areas [Policy: MI3] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Caves [Policy: HE2] *",
+      "title": "Caves [Policy: HE2] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Archaeological Constraints Areas [Policy: HE1] *",
+      "title": "Archaeological Constraints Areas [Policy: HE1] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Local Geological Sites [Policy: EN6] *",
+      "title": "Local Geological Sites [Policy: EN6] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "SSSIs [Policy: EN6] *",
+      "title": "SSSIs [Policy: EN6] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Conservation Areas [Policy: HE1] *",
+      "title": "Conservation Areas [Policy: HE1] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Decentralised Heat and Energy Network [Policy: CC2] *",
+      "title": "Decentralised Heat and Energy Network [Policy: CC2] *",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Local Wildlife Sites (previously known as BioSINCS) [Policy: EN6] * ",
+      "title": "Local Wildlife Sites (previously known as BioSINCS) [Policy: EN6] * ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "AQMA [Policy: IN2] *",
+      "title": "AQMA [Policy: IN2] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Registered Parks and Gardens [Policy: HE1] *",
+      "title": "Registered Parks and Gardens [Policy: HE1] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "Consultation Zones - Hazardous Installations [Policy: IN3] *",
+      "title": "Consultation Zones - Hazardous Installations [Policy: IN3] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "Consultation Zone - Pipelines [Policy: IN3] *",
+      "title": "Consultation Zone - Pipelines [Policy: IN3] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "Article 4 Direction Area - Historic Environment [Policy: HE1] *",
+      "title": "Article 4 Direction Area - Historic Environment [Policy: HE1] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "Local Nature Reserves [Policy: EN6] *",
+      "title": "Local Nature Reserves [Policy: EN6] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Allotments [Policy: EN4] *",
+      "title": "Allotments [Policy: EN4] *",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1235,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

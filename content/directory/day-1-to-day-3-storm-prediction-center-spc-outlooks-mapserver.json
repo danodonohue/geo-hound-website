@@ -1,0 +1,1252 @@
+{
+  "slug": "day-1-to-day-3-storm-prediction-center-spc-outlooks-mapserver",
+  "service_key": "ESRI MapServer:https://mapservices.weather.noaa.gov/vector/rest/services/outlooks/SPC_wx_outlks/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapservices.weather.noaa.gov/vector/rest/services/outlooks/SPC_wx_outlks/MapServer",
+  "title": "Storm Prediction Center (SPC)  Outlooks",
+  "description": "SPC probabilistic tornado, hail, and wind outlook polygons.",
+  "abstract": "<div style='text-align:Left;'><div><div><p><span><b>The Storm Prediction Center (SPC) Weather Outlooks Web Service </b> offers various polygon layers representing Convection Outlooks from Day 1 to Day 3. These encompass Category Outlooks for Significant and Probabilistic Tornado, Hail, and Wind Outlooks. Additionally, the service provides layers displaying forecasted polygons for Day 4 to Day 8 Probabilistic Outlooks. Further details regarding the layers included in this map service are outlined below.</span></p><p><span>Day 1 </span><span>Layer contains: Separate 5-tier categorical, probabilistic tornado, hail and wind, conditional intensity tornado, hail and wind outlooks.</span></p><p><span>Day 2 </span><span>Layer contains: Separate 5-tier categorical, probabilistic tornado, hail and wind, conditional intensity tornado, hail and wind outlooks.</span></p><p><span>Day 3 </span><span>Layer contains: 5-tier categorical outlook, probabilistic severe, and conditional intensity severe.</span></p><p><span>Days 4-8 </span><span>Layers are all probabilistic outlooks.</span></p><p style='margin:0 0 11 0;'><span style='font-weight:bold;'>Update Frequency: </span></p><p>Day 1 updates daily at 0100Z, 0600Z, 1300Z, 1630Z, and 2000Z</p>\n<p>Day 2 updates daily at 0600Z and 1700Z</p>\n<p>Day 3 updates daily at 0730Z and 1930Z</p>\n<p>Day 4-8 updates daily at 09Z</p><p><span>Link to graphical web page: </span><a href='http://www.spc.noaa.gov' target='_blank'><span>https://www.spc.noaa.gov</span></a></p><p><span>Link to data download (shapefile): </span><a href='http://www.spc.noaa.gov/gis' target='_blank'><span>https://www.spc.noaa.gov/gis</span></a></p><p><span>Day 1: </span><a href='https://www.spc.noaa.gov/products/outlook/day1otlk-shp.zip'><span>https://www.spc.noaa.gov/products/outlook/day1otlk-shp.zip</span></a></p><p><span>Day 2: </span><a href='https://www.spc.noaa.gov/products/outlook/day2otlk-shp.zip'><span>https://www.spc.noaa.gov/products/outlook/day2otlk-shp.zip</span></a></p><p><span>Day 3: </span><a href='https://www.spc.noaa.gov/products/outlook/day3otlk-shp.zip'><span>https://www.spc.noaa.gov/products/outlook/day3otlk-shp.zip</span></a></p><p><span>Day 4: </span><a href='https://www.spc.noaa.gov/products/exper/day4-8/day4prob-shp.zip'><span>https://www.spc.noaa.gov/products/exper/day4-8/day4prob-shp.zip</span></a></p><p><span>Day 5: </span><a href='https://www.spc.noaa.gov/products/exper/day4-8/day5prob-shp.zip'><span>https://www.spc.noaa.gov/products/exper/day4-8/day5prob-shp.zip</span></a></p><p><span>Day 6: </span><a href='https://www.spc.noaa.gov/products/exper/day4-8/day6prob-shp.zip'><span>https://www.spc.noaa.gov/products/exper/day4-8/day6prob-shp.zip</span></a></p><p><span>Day 7: </span><a href='https://www.spc.noaa.gov/products/exper/day4-8/day7prob-shp.zip'><span>https://www.spc.noaa.gov/products/exper/day4-8/day7prob-shp.zip</span></a></p><p><span>Day 8: </span><a href='https://www.spc.noaa.gov/products/exper/day4-8/day8prob-shp.zip'><span>https://www.spc.noaa.gov/products/exper/day4-8/day8prob-shp.zip</span></a></p><p><span>Link to </span><a href='https://www.weather.gov/gis/IDP-GISRestMetadata' target='_blank'><span>metadata</span></a></p><p><span>Questions/Concerns about the service, please contact the </span><a href='mailto:nws.mapservices@noaa.gov'><span><span>DISS GIS</span></span></a><span> team</span></p><p><span style='font-weight:bold;'>Time Information:</span></p><p><span>This service is not time enabled</span></p></div></div></div>",
+  "provider": "Day 1 to Day 3",
+  "place": {
+    "country": "United States",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "weather",
+      "confidence": "high"
+    },
+    {
+      "name": "safety",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Day 1 Convective Outlook",
+      "title": "Day 1 Convective Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Day 1 Categorical Outlook",
+      "title": "Day 1 Categorical Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Day 1 Tornado Conditional Intensity",
+      "title": "Day 1 Tornado Conditional Intensity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Day 1 Probabilistic Tornado Outlook",
+      "title": "Day 1 Probabilistic Tornado Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Day 1 Hail Conditional Intensity",
+      "title": "Day 1 Hail Conditional Intensity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Day 1 Probabilistic Hail Outlook",
+      "title": "Day 1 Probabilistic Hail Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Day 1 Wind Conditional Intensity",
+      "title": "Day 1 Wind Conditional Intensity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Day 1 Probabilistic Wind Outlook",
+      "title": "Day 1 Probabilistic Wind Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Day 2 Convective Outlook",
+      "title": "Day 2 Convective Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Day 2 Categorical Outlook",
+      "title": "Day 2 Categorical Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Day 2 Tornado Conditional Intensity",
+      "title": "Day 2 Tornado Conditional Intensity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Day 2 Probabilistic Tornado Outlook",
+      "title": "Day 2 Probabilistic Tornado Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Day 2 Hail Conditional Intensity",
+      "title": "Day 2 Hail Conditional Intensity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Day 2 Probabilistic Hail Outlook",
+      "title": "Day 2 Probabilistic Hail Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Day 2 Wind Conditional Intensity",
+      "title": "Day 2 Wind Conditional Intensity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object Id"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "dn value"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "valid"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "expire"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "issue"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "label2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Day 2 Probabilistic Wind Outlook",
+      "title": "Day 2 Probabilistic Wind Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Day 3 Convective Outlook",
+      "title": "Day 3 Convective Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Day 3 Categorical Outlook",
+      "title": "Day 3 Categorical Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Day 3 Severe Conditional Intensity",
+      "title": "Day 3 Severe Conditional Intensity",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Day 3 Probabilistic Outlook",
+      "title": "Day 3 Probabilistic Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Day 4 - 8 Convective Outlook",
+      "title": "Day 4 - 8 Convective Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Day 4 Probabilistic Outlook",
+      "title": "Day 4 Probabilistic Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Day 5 Probabilistic Outlook",
+      "title": "Day 5 Probabilistic Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Day 6 Probabilistic Outlook",
+      "title": "Day 6 Probabilistic Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Day 7 Probabilistic Outlook",
+      "title": "Day 7 Probabilistic Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Day 8 Probabilistic Outlook",
+      "title": "Day 8 Probabilistic Outlook",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4269"
+  ],
+  "cors_enabled": true,
+  "response_ms": 680,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

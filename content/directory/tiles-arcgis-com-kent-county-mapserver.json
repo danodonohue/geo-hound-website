@@ -1,0 +1,516 @@
+{
+  "slug": "tiles-arcgis-com-kent-county-mapserver",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/67lKNkQ2TO1I3lhR/arcgis/rest/services/KentCounty_ROWTileLayer/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/67lKNkQ2TO1I3lhR/arcgis/rest/services/KentCounty_ROWTileLayer/MapServer",
+  "title": "Kent County",
+  "description": "Kent County right-of-way tile layer imagery.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><P><SPAN>Kent County ROW Tile Layer</SPAN></P></DIV>",
+  "provider": "tiles.arcgis.com",
+  "place": null,
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "KentSheet098-2.tif",
+      "title": "KentSheet098-2.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "KentSheet098-1.tif",
+      "title": "KentSheet098-1.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "KentSheet097-2.tif",
+      "title": "KentSheet097-2.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "KentSheet097-1.tif",
+      "title": "KentSheet097-1.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "KentSheet096-2.tif",
+      "title": "KentSheet096-2.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "KentSheet096-1.tif",
+      "title": "KentSheet096-1.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "KentSheet094.tif",
+      "title": "KentSheet094.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "sheet220.tif",
+      "title": "sheet220.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "sheet219.tif",
+      "title": "sheet219.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "sheet217.tif",
+      "title": "sheet217.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "sheet216.tif",
+      "title": "sheet216.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "sheet200_C.tif",
+      "title": "sheet200_C.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "sheet200_B.tif",
+      "title": "sheet200_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "sheet200_A.tif",
+      "title": "sheet200_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "sheet199_C.tif",
+      "title": "sheet199_C.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "sheet199_B.tif",
+      "title": "sheet199_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "sheet199_A.tif",
+      "title": "sheet199_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "sheet198_C.tif",
+      "title": "sheet198_C.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "sheet198_B.tif",
+      "title": "sheet198_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "sheet198_A.tif",
+      "title": "sheet198_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "sheet197_B.tif",
+      "title": "sheet197_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "sheet197_A.tif",
+      "title": "sheet197_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "sheet196_B.tif",
+      "title": "sheet196_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "sheet196_A.tif",
+      "title": "sheet196_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "sheet195_C.tif",
+      "title": "sheet195_C.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "sheet195_B.tif",
+      "title": "sheet195_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "sheet195_A.tif",
+      "title": "sheet195_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "sheet194_B.tif",
+      "title": "sheet194_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "sheet194_A.tif",
+      "title": "sheet194_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "sheet193_B.tif",
+      "title": "sheet193_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "sheet193_A.tif",
+      "title": "sheet193_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "sheet192_B.tif",
+      "title": "sheet192_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "sheet192_A.tif",
+      "title": "sheet192_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "sheet191.tif",
+      "title": "sheet191.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "sheet190.tif",
+      "title": "sheet190.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "sheet189_B.tif",
+      "title": "sheet189_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "sheet189_A.tif",
+      "title": "sheet189_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "sheet188_C.tif",
+      "title": "sheet188_C.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "sheet188_B.tif",
+      "title": "sheet188_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "sheet188_A.tif",
+      "title": "sheet188_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "sheet187_B.tif",
+      "title": "sheet187_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "sheet187_A.tif",
+      "title": "sheet187_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "sheet186_B.tif",
+      "title": "sheet186_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "sheet186_A.tif",
+      "title": "sheet186_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "sheet185_B.tif",
+      "title": "sheet185_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "sheet185_A.tif",
+      "title": "sheet185_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "sheet184_B.tif",
+      "title": "sheet184_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "sheet184_A.tif",
+      "title": "sheet184_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "sheet183_B.tif",
+      "title": "sheet183_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "sheet183_A.tif",
+      "title": "sheet183_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "sheet182.tif",
+      "title": "sheet182.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "sheet181_B.tif",
+      "title": "sheet181_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "sheet181_A.tif",
+      "title": "sheet181_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "sheet180_B.tif",
+      "title": "sheet180_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "sheet180_A.tif",
+      "title": "sheet180_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "sheet179_C.tif",
+      "title": "sheet179_C.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "sheet179_B.tif",
+      "title": "sheet179_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "sheet179_A.tif",
+      "title": "sheet179_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "sheet178_B.tif",
+      "title": "sheet178_B.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "sheet178_A.tif",
+      "title": "sheet178_A.tif",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "Mixed"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 497,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.7,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

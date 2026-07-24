@@ -1,0 +1,134 @@
+{
+  "slug": "the-government-of-canada-s-open-data-portal-span-a-span-other-effectiv-mapserver",
+  "service_key": "ESRI MapServer:https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/other_effective_area_based_conservation_measures/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/other_effective_area_based_conservation_measures/MapServer",
+  "title": "other_effective_area_based_conservation_measures",
+  "description": "Other effective area-based conservation measures and marine protected areas in Canada.",
+  "abstract": "This dataset contains area-based management measures that have been recognized as 'other effective area-based conservation measures' (OECMs). It also contains basic information about OECMs, specifically their names, size, objectives, associated prohibitions, and DFO region. Spatial data for OECMs will be evaluated regularly, taking the most recent available information into account. In addition new 'OECMs will be identified over time. Therefore, this dataset may change over time.Learn more or download this dataset from the Government of Canada's Open data portal.__________Cet ensemble de données contient les mesures de gestion par zone qui ont été reconnues comme « autres mesures efficaces de conservation par zone » (AMCEZ). Il contient également des renseignements de base au sujet de ces AMCEZ, plus particulièrement leur nom, leur taille, leurs objectifs et leurs interdictions connexes, ainsi que la région du MPO visée.  Les données spatiales pour les AMCEZ seront évaluées régulièrement, en tenant compte des plus récents renseignements disponibles. De plus, d’autres AMCEZ seront établies au fil du temps. Par conséquent, cet ensemble de données pourrait changer au fil du temps. Apprenez-en plus ou téléchargez cet ensemble de données à partir du portail de données ouvertes du gouvernement du Canada.",
+  "provider": "the Government of Canada's Open data portal</span></a><span>",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "marine",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Other Effective Area-based Conservation Measures/Autres mesures de conservation efficaces par zone",
+      "title": "Other Effective Area-based Conservation Measures/Autres mesures de conservation efficaces par zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME_E",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "NAME_F",
+          "type": "esriFieldTypeString",
+          "alias": "Nom"
+        },
+        {
+          "name": "OBJECTIVE",
+          "type": "esriFieldTypeString",
+          "alias": "Objective"
+        },
+        {
+          "name": "OBJECTIF",
+          "type": "esriFieldTypeString",
+          "alias": "Objectif"
+        },
+        {
+          "name": "PROHIBITIONS",
+          "type": "esriFieldTypeString",
+          "alias": "Prohibitions"
+        },
+        {
+          "name": "INTERDICTIONS",
+          "type": "esriFieldTypeString",
+          "alias": "Interdictions"
+        },
+        {
+          "name": "REGION_E",
+          "type": "esriFieldTypeString",
+          "alias": "DFO Region"
+        },
+        {
+          "name": "REGION_F",
+          "type": "esriFieldTypeString",
+          "alias": "Région du MPO"
+        },
+        {
+          "name": "URL_E",
+          "type": "esriFieldTypeString",
+          "alias": "Webpage"
+        },
+        {
+          "name": "URL_F",
+          "type": "esriFieldTypeString",
+          "alias": "Page web"
+        },
+        {
+          "name": "KM2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Km2"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3978"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1912,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

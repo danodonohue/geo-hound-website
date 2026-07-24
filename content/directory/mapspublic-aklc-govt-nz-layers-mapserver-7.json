@@ -1,0 +1,2281 @@
+{
+  "slug": "mapspublic-aklc-govt-nz-layers-mapserver-7",
+  "service_key": "ESRI MapServer:https://mapspublic.aklc.govt.nz/arcgis/rest/services/LiveMaps/AerialPhotoIndex/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aklc.govt.nz/arcgis/rest/services/LiveMaps/AerialPhotoIndex/MapServer",
+  "title": "Layers",
+  "description": "Historical aerial photography index for Auckland from 1940s to 2024.",
+  "abstract": "Aerial Photo Index for historic photography",
+  "provider": "mapspublic.aklc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 43,
+      "name": "Aerial Photography 2024 2005",
+      "title": "Aerial Photography 2024 2005",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Aerial Photography 2024 West Auckland",
+      "title": "Aerial Photography 2024 West Auckland",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Aerial Photography 2022",
+      "title": "Aerial Photography 2022",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Aerial Photography 2019 2020",
+      "title": "Aerial Photography 2019 2020",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Aerial Photography 2017",
+      "title": "Aerial Photography 2017",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Aerial Photography 2015 2016",
+      "title": "Aerial Photography 2015 2016",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Aerial Photography 2010 2011",
+      "title": "Aerial Photography 2010 2011",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Historical  Grid 2006 2009",
+      "title": "Historical  Grid 2006 2009",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Historical  Grid 2000 2005",
+      "title": "Historical  Grid 2000 2005",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "Historical Grid 1990s",
+      "title": "Historical Grid 1990s",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 60,
+      "name": "Historical  Grid 1980s",
+      "title": "Historical  Grid 1980s",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 61,
+      "name": "Historical  Grid 1970s",
+      "title": "Historical  Grid 1970s",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 62,
+      "name": "Historical Grid 1960s",
+      "title": "Historical Grid 1960s",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 63,
+      "name": "Historical Grid 1950s",
+      "title": "Historical Grid 1950s",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 64,
+      "name": "Historical  Grid 1940s",
+      "title": "Historical  Grid 1940s",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CONTRACTTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTTYPE"
+        },
+        {
+          "name": "PERIODFLOWN",
+          "type": "esriFieldTypeString",
+          "alias": "PERIODFLOWN"
+        },
+        {
+          "name": "CONTRACTFOR",
+          "type": "esriFieldTypeString",
+          "alias": "CONTRACTFOR"
+        },
+        {
+          "name": "SHEETNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SHEETNUMBER"
+        },
+        {
+          "name": "SHEETSIZE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SHEETSIZE"
+        },
+        {
+          "name": "COMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "COMPANY"
+        },
+        {
+          "name": "DATEFLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEFLOWN"
+        },
+        {
+          "name": "DATESUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATESUPPLIED"
+        },
+        {
+          "name": "DVDNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "DVDNUMBER"
+        },
+        {
+          "name": "PROJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTION"
+        },
+        {
+          "name": "SURVEYNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNUMBER"
+        },
+        {
+          "name": "PHOTONUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTONUMBER"
+        },
+        {
+          "name": "ORTHOGSD",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOGSD"
+        },
+        {
+          "name": "ORTHOACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHOACCURACY"
+        },
+        {
+          "name": "CAMERA",
+          "type": "esriFieldTypeString",
+          "alias": "CAMERA"
+        },
+        {
+          "name": "FLIGHTPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "FLIGHTPLAN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "SUNANGLEMAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMAX"
+        },
+        {
+          "name": "SUNANGLEMIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNANGLEMIN"
+        },
+        {
+          "name": "ISLATEST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ISLATEST"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 30,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

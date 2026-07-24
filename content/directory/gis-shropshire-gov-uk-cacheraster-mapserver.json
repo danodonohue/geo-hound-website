@@ -1,0 +1,450 @@
+{
+  "slug": "gis-shropshire-gov-uk-cacheraster-mapserver",
+  "service_key": "ESRI MapServer:https://gis.shropshire.gov.uk/arcgis/rest/services/Caches/CacheRaster/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.shropshire.gov.uk/arcgis/rest/services/Caches/CacheRaster/MapServer",
+  "title": "CacheRaster",
+  "description": "Cached raster map service with ordnance survey imagery and county boundaries for Shropshire",
+  "provider": "gis.shropshire.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "County boundary",
+      "title": "County boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "MiniScale",
+      "title": "MiniScale",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "1:250000",
+      "title": "1:250000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "1:50000",
+      "title": "1:50000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "1:25000",
+      "title": "1:25000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "1:10000 VML",
+      "title": "1:10000 VML",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "MMap Anno",
+      "title": "MMap Anno",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "AnnotationClassID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "Element",
+          "type": "esriFieldTypeBlob",
+          "alias": "Element"
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TextString",
+          "type": "esriFieldTypeString",
+          "alias": "TEXTSTRING"
+        },
+        {
+          "name": "FontName",
+          "type": "esriFieldTypeString",
+          "alias": "FONTNAME"
+        },
+        {
+          "name": "FontSize",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTSIZE"
+        },
+        {
+          "name": "Bold",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BOLD"
+        },
+        {
+          "name": "Italic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ITALIC"
+        },
+        {
+          "name": "Underline",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "UNDERLINE"
+        },
+        {
+          "name": "VerticalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VERTICALALIGNMENT"
+        },
+        {
+          "name": "HorizontalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HORIZONTALALIGNMENT"
+        },
+        {
+          "name": "XOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOFFSET"
+        },
+        {
+          "name": "YOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOFFSET"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "FontLeading",
+          "type": "esriFieldTypeDouble",
+          "alias": "FONTLEADING"
+        },
+        {
+          "name": "WordSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "WORDSPACING"
+        },
+        {
+          "name": "CharacterWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERWIDTH"
+        },
+        {
+          "name": "CharacterSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "CHARACTERSPACING"
+        },
+        {
+          "name": "FlipAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "FLIPANGLE"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "Toid",
+          "type": "esriFieldTypeString",
+          "alias": "TOID"
+        },
+        {
+          "name": "FeatCode",
+          "type": "esriFieldTypeInteger",
+          "alias": "FEATCODE"
+        },
+        {
+          "name": "Version",
+          "type": "esriFieldTypeInteger",
+          "alias": "VERSION"
+        },
+        {
+          "name": "VerDate",
+          "type": "esriFieldTypeDate",
+          "alias": "VERDATE"
+        },
+        {
+          "name": "Theme",
+          "type": "esriFieldTypeString",
+          "alias": "THEME"
+        },
+        {
+          "name": "Change",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE"
+        },
+        {
+          "name": "DescGroup",
+          "type": "esriFieldTypeString",
+          "alias": "DESCGROUP"
+        },
+        {
+          "name": "DescTerm",
+          "type": "esriFieldTypeString",
+          "alias": "DESCTERM"
+        },
+        {
+          "name": "Make",
+          "type": "esriFieldTypeString",
+          "alias": "MAKE"
+        },
+        {
+          "name": "PhysLevel",
+          "type": "esriFieldTypeInteger",
+          "alias": "PHYSLEVEL"
+        },
+        {
+          "name": "PhysPres",
+          "type": "esriFieldTypeString",
+          "alias": "PHYSPRES"
+        },
+        {
+          "name": "LoadDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Text",
+          "type": "esriFieldTypeString",
+          "alias": "Text"
+        },
+        {
+          "name": "TextHeight",
+          "type": "esriFieldTypeDouble",
+          "alias": "TextHeight"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "OS Default",
+      "title": "OS Default",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "MMap Area",
+      "title": "MMap Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Toid",
+          "type": "esriFieldTypeString",
+          "alias": "TOID"
+        },
+        {
+          "name": "FeatCode",
+          "type": "esriFieldTypeInteger",
+          "alias": "FEATCODE"
+        },
+        {
+          "name": "Version",
+          "type": "esriFieldTypeInteger",
+          "alias": "VERSION"
+        },
+        {
+          "name": "VerDate",
+          "type": "esriFieldTypeDate",
+          "alias": "VERDATE"
+        },
+        {
+          "name": "Theme",
+          "type": "esriFieldTypeString",
+          "alias": "THEME"
+        },
+        {
+          "name": "CalcArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALCAREA"
+        },
+        {
+          "name": "Change",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE"
+        },
+        {
+          "name": "DescGroup",
+          "type": "esriFieldTypeString",
+          "alias": "DESCGROUP"
+        },
+        {
+          "name": "DescTerm",
+          "type": "esriFieldTypeString",
+          "alias": "DESCTERM"
+        },
+        {
+          "name": "Make",
+          "type": "esriFieldTypeString",
+          "alias": "MAKE"
+        },
+        {
+          "name": "PhysLevel",
+          "type": "esriFieldTypeInteger",
+          "alias": "PHYSLEVEL"
+        },
+        {
+          "name": "PhysPres",
+          "type": "esriFieldTypeString",
+          "alias": "PHYSPRES"
+        },
+        {
+          "name": "Broken",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BROKEN"
+        },
+        {
+          "name": "LoadDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LOADDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "style_description",
+          "type": "esriFieldTypeString",
+          "alias": "style_description"
+        },
+        {
+          "name": "style_code",
+          "type": "esriFieldTypeInteger",
+          "alias": "style_code"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1157,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

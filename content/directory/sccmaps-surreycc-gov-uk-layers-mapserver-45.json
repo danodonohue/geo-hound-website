@@ -1,0 +1,150 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-45",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_YouthCentre/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_YouthCentre/MapServer",
+  "title": "Layers",
+  "description": "Youth centre locations for community services.",
+  "abstract": "People & Community - Youth centree",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "demographics",
+      "confidence": "medium"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 21,
+      "name": "People & Community - Youth centre",
+      "title": "People & Community - Youth centre",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Build_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Building name"
+        },
+        {
+          "name": "Build_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Building number"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "URL_public",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Satellite",
+          "type": "esriFieldTypeString",
+          "alias": "Satellite"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Street",
+          "type": "esriFieldTypeString",
+          "alias": "Street"
+        },
+        {
+          "name": "Locality",
+          "type": "esriFieldTypeString",
+          "alias": "Locality"
+        },
+        {
+          "name": "Town",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "EPM_Number",
+          "type": "esriFieldTypeString",
+          "alias": "EPM_Number"
+        },
+        {
+          "name": "Team_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Team_Area"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 306,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

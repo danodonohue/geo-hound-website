@@ -1,0 +1,146 @@
+{
+  "slug": "maps2-bristol-gov-uk-untitled-aprx-featureserver",
+  "service_key": "ESRI FeatureServer:https://maps2.bristol.gov.uk/server2/rest/services/ext/kyp_new_contributions_south_gloucs/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://maps2.bristol.gov.uk/server2/rest/services/ext/kyp_new_contributions_south_gloucs/FeatureServer",
+  "title": "Untitled.aprx",
+  "description": "Community-contributed heritage asset locations and information.",
+  "abstract": "South Gloucestershire KYP Contributions",
+  "provider": "maps2.bristol.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "New contributions",
+      "title": "New contributions",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "Asset title"
+        },
+        {
+          "name": "ASSET_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Asset type"
+        },
+        {
+          "name": "ASSET_TYPE_OTHER",
+          "type": "esriFieldTypeString",
+          "alias": "Asset type (if other)"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "ASSET_RISK",
+          "type": "esriFieldTypeString",
+          "alias": "Asset risk"
+        },
+        {
+          "name": "SUBMITTER_ORG",
+          "type": "esriFieldTypeString",
+          "alias": "Submitter's organisation"
+        },
+        {
+          "name": "LOCAL_LIST_NOMINATED",
+          "type": "esriFieldTypeString",
+          "alias": "Local list nominated?"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SOURCES",
+          "type": "esriFieldTypeString",
+          "alias": "Sources"
+        },
+        {
+          "name": "COPYRIGHT",
+          "type": "esriFieldTypeString",
+          "alias": "Copyright permission?"
+        },
+        {
+          "name": "EDITION",
+          "type": "esriFieldTypeString",
+          "alias": "Edition"
+        },
+        {
+          "name": "LINK_URL_1",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_1"
+        },
+        {
+          "name": "LINK_TEXT_1",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_TEXT_1"
+        },
+        {
+          "name": "LINK_URL_2",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_2"
+        },
+        {
+          "name": "LINK_TEXT_2",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_TEXT_2"
+        }
+      ],
+      "feature_count": 864
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 878,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

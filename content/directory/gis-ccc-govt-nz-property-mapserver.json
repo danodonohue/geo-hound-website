@@ -1,0 +1,1484 @@
+{
+  "slug": "gis-ccc-govt-nz-property-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ccc.govt.nz/server/rest/services/OpenData/Property/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ccc.govt.nz/server/rest/services/OpenData/Property/MapServer",
+  "title": "Property",
+  "description": "Street addresses, property boundaries and rating unit valuations.",
+  "abstract": "Property Placeholder",
+  "provider": "gis.ccc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "addresses",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 3,
+      "name": "StreetAddress",
+      "title": "StreetAddress",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "StreetAddressID",
+          "type": "esriFieldTypeInteger",
+          "alias": "StreetAddressID"
+        },
+        {
+          "name": "RecordStatus",
+          "type": "esriFieldTypeString",
+          "alias": "RecordStatus"
+        },
+        {
+          "name": "StreetAddress",
+          "type": "esriFieldTypeString",
+          "alias": "StreetAddress"
+        },
+        {
+          "name": "PostalAddress",
+          "type": "esriFieldTypeString",
+          "alias": "PostalAddress"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "SiteName"
+        },
+        {
+          "name": "BuildingName",
+          "type": "esriFieldTypeString",
+          "alias": "BuildingName"
+        },
+        {
+          "name": "PostalFloorLevel",
+          "type": "esriFieldTypeString",
+          "alias": "PostalFloorLevel"
+        },
+        {
+          "name": "UnitType",
+          "type": "esriFieldTypeString",
+          "alias": "UnitType"
+        },
+        {
+          "name": "StreetNumberAlphaNumeric",
+          "type": "esriFieldTypeString",
+          "alias": "StreetNumberAlphaNumeric"
+        },
+        {
+          "name": "StreetNumberDigit",
+          "type": "esriFieldTypeInteger",
+          "alias": "StreetNumberDigit"
+        },
+        {
+          "name": "RoadNamePrefix",
+          "type": "esriFieldTypeString",
+          "alias": "RoadNamePrefix"
+        },
+        {
+          "name": "RoadName",
+          "type": "esriFieldTypeString",
+          "alias": "RoadName"
+        },
+        {
+          "name": "RoadNameSuffix",
+          "type": "esriFieldTypeString",
+          "alias": "RoadNameSuffix"
+        },
+        {
+          "name": "LocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "LocalityName"
+        },
+        {
+          "name": "RuralDelivery",
+          "type": "esriFieldTypeString",
+          "alias": "RuralDelivery"
+        },
+        {
+          "name": "PostalRegion",
+          "type": "esriFieldTypeString",
+          "alias": "PostalRegion"
+        },
+        {
+          "name": "PostCode",
+          "type": "esriFieldTypeString",
+          "alias": "PostCode"
+        },
+        {
+          "name": "PostalLine1",
+          "type": "esriFieldTypeString",
+          "alias": "PostalLine1"
+        },
+        {
+          "name": "PostalLine2",
+          "type": "esriFieldTypeString",
+          "alias": "PostalLine2"
+        },
+        {
+          "name": "PostalLine3",
+          "type": "esriFieldTypeString",
+          "alias": "PostalLine3"
+        },
+        {
+          "name": "PostalLine4",
+          "type": "esriFieldTypeString",
+          "alias": "PostalLine4"
+        },
+        {
+          "name": "PostalLine5",
+          "type": "esriFieldTypeString",
+          "alias": "PostalLine5"
+        },
+        {
+          "name": "OccupationLevel",
+          "type": "esriFieldTypeString",
+          "alias": "OccupationLevel"
+        },
+        {
+          "name": "GEMSPrupi",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEMSPrupi"
+        },
+        {
+          "name": "PathwayStreetAddressID",
+          "type": "esriFieldTypeString",
+          "alias": "PathwayStreetAddressID"
+        },
+        {
+          "name": "PathwayLookupID",
+          "type": "esriFieldTypeString",
+          "alias": "PathwayLookupID"
+        },
+        {
+          "name": "NZPostDeliveryPointID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZPostDeliveryPointID"
+        },
+        {
+          "name": "CreateUserName",
+          "type": "esriFieldTypeString",
+          "alias": "CreateUserName"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditUserName",
+          "type": "esriFieldTypeString",
+          "alias": "LastEditUserName"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "VDHCurrentRatingUnitValue",
+      "title": "VDHCurrentRatingUnitValue",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "drvVDHCurrentRatingUnitValueID",
+          "type": "esriFieldTypeOID",
+          "alias": "drvVDHCurrentRatingUnitValueID"
+        },
+        {
+          "name": "GISRatingUnitID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GISRatingUnitID"
+        },
+        {
+          "name": "ValuationReference",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationReference"
+        },
+        {
+          "name": "ValuationRollNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationRollNumber"
+        },
+        {
+          "name": "VisitOrder",
+          "type": "esriFieldTypeString",
+          "alias": "VisitOrder"
+        },
+        {
+          "name": "AlphaID",
+          "type": "esriFieldTypeString",
+          "alias": "AlphaID"
+        },
+        {
+          "name": "RateLegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "RateLegalDescription"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeInteger",
+          "alias": "CapitalValue"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeInteger",
+          "alias": "LandValue"
+        },
+        {
+          "name": "ImprovementsValue",
+          "type": "esriFieldTypeInteger",
+          "alias": "ImprovementsValue"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Easement",
+      "title": "Easement",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "EasementID",
+          "type": "esriFieldTypeOID",
+          "alias": "EasementID"
+        },
+        {
+          "name": "DepositedPlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DepositedPlanNumber"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "RoadBoundary",
+      "title": "RoadBoundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "BoundaryID",
+          "type": "esriFieldTypeOID",
+          "alias": "BoundaryID"
+        },
+        {
+          "name": "BoundaryType",
+          "type": "esriFieldTypeString",
+          "alias": "BoundaryType"
+        },
+        {
+          "name": "Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Accuracy"
+        },
+        {
+          "name": "GenerateLandParcelDescription",
+          "type": "esriFieldTypeString",
+          "alias": "GenerateLandParcelDescription"
+        },
+        {
+          "name": "LegalLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "LegalLength"
+        },
+        {
+          "name": "DrawnLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "DrawnLength"
+        },
+        {
+          "name": "DepositedPlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DepositedPlanNumber"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "AssetStreetCatchment",
+      "title": "AssetStreetCatchment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "AssetStreetCatchmentID",
+          "type": "esriFieldTypeOID",
+          "alias": "AssetStreetCatchmentID"
+        },
+        {
+          "name": "StreetCentreLineID",
+          "type": "esriFieldTypeInteger",
+          "alias": "StreetCentreLineID"
+        },
+        {
+          "name": "RoadFunctionalLocation",
+          "type": "esriFieldTypeString",
+          "alias": "RoadFunctionalLocation"
+        },
+        {
+          "name": "RoadNameDescription",
+          "type": "esriFieldTypeString",
+          "alias": "RoadNameDescription"
+        },
+        {
+          "name": "SegmentFunctionalLocation",
+          "type": "esriFieldTypeString",
+          "alias": "SegmentFunctionalLocation"
+        },
+        {
+          "name": "SegmentShortDescription",
+          "type": "esriFieldTypeString",
+          "alias": "SegmentShortDescription"
+        },
+        {
+          "name": "SegmentLongDescription",
+          "type": "esriFieldTypeString",
+          "alias": "SegmentLongDescription"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "LocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "LocalityName"
+        },
+        {
+          "name": "CommunityBoardAbbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "CommunityBoardAbbreviation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Building",
+      "title": "Building",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "BuildingID",
+          "type": "esriFieldTypeOID",
+          "alias": "BuildingID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "drvLiDARHeight",
+          "type": "esriFieldTypeSingle",
+          "alias": "drvLiDARHeight"
+        },
+        {
+          "name": "drvLiDARDate",
+          "type": "esriFieldTypeInteger",
+          "alias": "drvLiDARDate"
+        },
+        {
+          "name": "drvBuildingConsentHeight",
+          "type": "esriFieldTypeSingle",
+          "alias": "drvBuildingConsentHeight"
+        },
+        {
+          "name": "LocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "LocalityName"
+        },
+        {
+          "name": "CommunityBoardAbbreviation",
+          "type": "esriFieldTypeInteger",
+          "alias": "CommunityBoardAbbreviation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "LandParcel",
+      "title": "LandParcel",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "LandParcelID",
+          "type": "esriFieldTypeOID",
+          "alias": "LandParcelID"
+        },
+        {
+          "name": "LandPlanType",
+          "type": "esriFieldTypeString",
+          "alias": "LandPlanType"
+        },
+        {
+          "name": "LandPlanTypeCode",
+          "type": "esriFieldTypeString",
+          "alias": "LandPlanTypeCode"
+        },
+        {
+          "name": "LandParcelType",
+          "type": "esriFieldTypeString",
+          "alias": "LandParcelType"
+        },
+        {
+          "name": "LandParcelTypeCode",
+          "type": "esriFieldTypeString",
+          "alias": "LandParcelTypeCode"
+        },
+        {
+          "name": "LegalArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "LegalArea"
+        },
+        {
+          "name": "LandPlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "LandPlanNumber"
+        },
+        {
+          "name": "LandParcelNumber",
+          "type": "esriFieldTypeString",
+          "alias": "LandParcelNumber"
+        },
+        {
+          "name": "PartIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "PartIndicator"
+        },
+        {
+          "name": "DrawnArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "DrawnArea"
+        },
+        {
+          "name": "IsNotTaxed",
+          "type": "esriFieldTypeInteger",
+          "alias": "IsNotTaxed"
+        },
+        {
+          "name": "RecordStatus",
+          "type": "esriFieldTypeString",
+          "alias": "RecordStatus"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "PrivateOccupationPublicLand",
+      "title": "PrivateOccupationPublicLand",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "PrivateOccupationPublicLandID",
+          "type": "esriFieldTypeOID",
+          "alias": "PrivateOccupationPublicLandID"
+        },
+        {
+          "name": "LicenseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "LicenseStatus"
+        },
+        {
+          "name": "LandType",
+          "type": "esriFieldTypeString",
+          "alias": "LandType"
+        },
+        {
+          "name": "Legality",
+          "type": "esriFieldTypeString",
+          "alias": "Legality"
+        },
+        {
+          "name": "AuthorisedOccupation",
+          "type": "esriFieldTypeString",
+          "alias": "AuthorisedOccupation"
+        },
+        {
+          "name": "RateZoneGroup",
+          "type": "esriFieldTypeString",
+          "alias": "RateZoneGroup"
+        },
+        {
+          "name": "SignificantEnhancement",
+          "type": "esriFieldTypeString",
+          "alias": "SignificantEnhancement"
+        },
+        {
+          "name": "SignificanceRating",
+          "type": "esriFieldTypeInteger",
+          "alias": "SignificanceRating"
+        },
+        {
+          "name": "AreaOfOccupation",
+          "type": "esriFieldTypeDouble",
+          "alias": "AreaOfOccupation"
+        },
+        {
+          "name": "AffectedAddress",
+          "type": "esriFieldTypeString",
+          "alias": "AffectedAddress"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "RatingAdministrationDistrict",
+      "title": "RatingAdministrationDistrict",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "RatingAdministrationDistrictID",
+          "type": "esriFieldTypeOID",
+          "alias": "RatingAdministrationDistrictID"
+        },
+        {
+          "name": "DistrictIdentifier",
+          "type": "esriFieldTypeInteger",
+          "alias": "DistrictIdentifier"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "RatingUnit",
+      "title": "RatingUnit",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "RatingUnitID",
+          "type": "esriFieldTypeOID",
+          "alias": "RatingUnitID"
+        },
+        {
+          "name": "PLNo",
+          "type": "esriFieldTypeString",
+          "alias": "PLNo"
+        },
+        {
+          "name": "ExceptionType",
+          "type": "esriFieldTypeString",
+          "alias": "ExceptionType"
+        },
+        {
+          "name": "RatingValuationRule",
+          "type": "esriFieldTypeString",
+          "alias": "RatingValuationRule"
+        },
+        {
+          "name": "ValuationVisitOrder",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationVisitOrder"
+        },
+        {
+          "name": "ValuationAlphaID",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationAlphaID"
+        },
+        {
+          "name": "ValuationRollNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationRollNumber"
+        },
+        {
+          "name": "CustomerReference",
+          "type": "esriFieldTypeString",
+          "alias": "CustomerReference"
+        },
+        {
+          "name": "drvLegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "drvLegalDescription"
+        },
+        {
+          "name": "StrataID",
+          "type": "esriFieldTypeInteger",
+          "alias": "StrataID"
+        },
+        {
+          "name": "PreferredStreetAddressID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PreferredStreetAddressID"
+        },
+        {
+          "name": "OccupationLevel",
+          "type": "esriFieldTypeString",
+          "alias": "OccupationLevel"
+        },
+        {
+          "name": "StreetAddress",
+          "type": "esriFieldTypeString",
+          "alias": "StreetAddress"
+        },
+        {
+          "name": "LocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "LocalityName"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "SiteName"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "RedZoneTransitionalLease",
+      "title": "RedZoneTransitionalLease",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "drvRedZoneTransitionalLeaseID",
+          "type": "esriFieldTypeOID",
+          "alias": "drvRedZoneTransitionalLeaseID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "LesseeOrLicenceHolder",
+          "type": "esriFieldTypeString",
+          "alias": "LesseeOrLicenceHolder"
+        },
+        {
+          "name": "FullAddress",
+          "type": "esriFieldTypeString",
+          "alias": "FullAddress"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "TypeOfTenure",
+          "type": "esriFieldTypeString",
+          "alias": "TypeOfTenure"
+        },
+        {
+          "name": "ExpiryDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ExpiryDate"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "RevaluationRatingUnit",
+      "title": "RevaluationRatingUnit",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "drvRevaluationRatingUnitID",
+          "type": "esriFieldTypeOID",
+          "alias": "drvRevaluationRatingUnitID"
+        },
+        {
+          "name": "RatingUnitID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RatingUnitID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "ValuationRollNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationRollNumber"
+        },
+        {
+          "name": "StreetAddress",
+          "type": "esriFieldTypeString",
+          "alias": "StreetAddress"
+        },
+        {
+          "name": "LocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "LocalityName"
+        },
+        {
+          "name": "CurrentRevisionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CurrentRevisionDate"
+        },
+        {
+          "name": "CurrentCapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "CurrentCapitalValue"
+        },
+        {
+          "name": "CurrentLandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "CurrentLandValue"
+        },
+        {
+          "name": "CurrentImprovementValue",
+          "type": "esriFieldTypeInteger",
+          "alias": "CurrentImprovementValue"
+        },
+        {
+          "name": "PendingRevisionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "PendingRevisionDate"
+        },
+        {
+          "name": "PendingCapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "PendingCapitalValue"
+        },
+        {
+          "name": "PendingLandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "PendingLandValue"
+        },
+        {
+          "name": "PendingImprovementValue",
+          "type": "esriFieldTypeInteger",
+          "alias": "PendingImprovementValue"
+        },
+        {
+          "name": "PercentChange",
+          "type": "esriFieldTypeDouble",
+          "alias": "PercentChange"
+        },
+        {
+          "name": "LandUseDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LandUseDescription"
+        },
+        {
+          "name": "PropertyDifferentialCategory",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyDifferentialCategory"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "RevaluationValuationRoll",
+      "title": "RevaluationValuationRoll",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "drvRevaluationValuationRollID",
+          "type": "esriFieldTypeOID",
+          "alias": "drvRevaluationValuationRollID"
+        },
+        {
+          "name": "ValuationRollID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ValuationRollID"
+        },
+        {
+          "name": "ValuationRollNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationRollNumber"
+        },
+        {
+          "name": "CurrentRevisionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CurrentRevisionDate"
+        },
+        {
+          "name": "PendingRevisionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "PendingRevisionDate"
+        },
+        {
+          "name": "TotalCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "TotalCount"
+        },
+        {
+          "name": "StdResidentialCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "StdResidentialCount"
+        },
+        {
+          "name": "StdResidentialCurrentCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "StdResidentialCurrentCVTotal"
+        },
+        {
+          "name": "StdResidentialPendingCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "StdResidentialPendingCVTotal"
+        },
+        {
+          "name": "StdResidentialAvgPercentChange",
+          "type": "esriFieldTypeDouble",
+          "alias": "StdResidentialAvgPercentChange"
+        },
+        {
+          "name": "StdOtherCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "StdOtherCount"
+        },
+        {
+          "name": "StdOtherCurrentCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "StdOtherCurrentCVTotal"
+        },
+        {
+          "name": "StdOtherPendingCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "StdOtherPendingCVTotal"
+        },
+        {
+          "name": "StdOtherAvgPercentChange",
+          "type": "esriFieldTypeDouble",
+          "alias": "StdOtherAvgPercentChange"
+        },
+        {
+          "name": "BusinessCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "BusinessCount"
+        },
+        {
+          "name": "BusinessCurrentCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "BusinessCurrentCVTotal"
+        },
+        {
+          "name": "BusinessPendingCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "BusinessPendingCVTotal"
+        },
+        {
+          "name": "BusinessAvgPercentChange",
+          "type": "esriFieldTypeDouble",
+          "alias": "BusinessAvgPercentChange"
+        },
+        {
+          "name": "RemoteRuralCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "RemoteRuralCount"
+        },
+        {
+          "name": "RemoteRuralCurrentCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "RemoteRuralCurrentCVTotal"
+        },
+        {
+          "name": "RemoteRuralPendingCVTotal",
+          "type": "esriFieldTypeDouble",
+          "alias": "RemoteRuralPendingCVTotal"
+        },
+        {
+          "name": "RemoteRuralPctChangeAvg",
+          "type": "esriFieldTypeDouble",
+          "alias": "RemoteRuralPctChangeAvg"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Stockyard",
+      "title": "Stockyard",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "StockyardID",
+          "type": "esriFieldTypeOID",
+          "alias": "StockyardID"
+        },
+        {
+          "name": "StockType",
+          "type": "esriFieldTypeString",
+          "alias": "StockType"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "OwnerType",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerType"
+        },
+        {
+          "name": "ContractArea",
+          "type": "esriFieldTypeString",
+          "alias": "ContractArea"
+        },
+        {
+          "name": "InContract",
+          "type": "esriFieldTypeString",
+          "alias": "InContract"
+        },
+        {
+          "name": "Artwork",
+          "type": "esriFieldTypeString",
+          "alias": "Artwork"
+        },
+        {
+          "name": "Construction",
+          "type": "esriFieldTypeString",
+          "alias": "Construction"
+        },
+        {
+          "name": "EngineerAssessmentRequired",
+          "type": "esriFieldTypeString",
+          "alias": "EngineerAssessmentRequired"
+        },
+        {
+          "name": "GateType",
+          "type": "esriFieldTypeString",
+          "alias": "GateType"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DonorName",
+          "type": "esriFieldTypeString",
+          "alias": "DonorName"
+        },
+        {
+          "name": "NumberOfAssets",
+          "type": "esriFieldTypeInteger",
+          "alias": "NumberOfAssets"
+        },
+        {
+          "name": "NumberofHoldingPens",
+          "type": "esriFieldTypeInteger",
+          "alias": "NumberofHoldingPens"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "SiteName"
+        },
+        {
+          "name": "drvArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "drvArea"
+        },
+        {
+          "name": "Photo",
+          "type": "esriFieldTypeString",
+          "alias": "Photo"
+        },
+        {
+          "name": "PhotographURL",
+          "type": "esriFieldTypeString",
+          "alias": "PhotographURL"
+        },
+        {
+          "name": "AssetLongDescription",
+          "type": "esriFieldTypeString",
+          "alias": "AssetLongDescription"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "IDSAssetUniqueID",
+          "type": "esriFieldTypeString",
+          "alias": "IDSAssetUniqueID"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Strata",
+      "title": "Strata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "StrataID",
+          "type": "esriFieldTypeOID",
+          "alias": "StrataID"
+        },
+        {
+          "name": "OccupationLevelDescription",
+          "type": "esriFieldTypeString",
+          "alias": "OccupationLevelDescription"
+        },
+        {
+          "name": "StrataNumber",
+          "type": "esriFieldTypeString",
+          "alias": "StrataNumber"
+        },
+        {
+          "name": "Strata",
+          "type": "esriFieldTypeString",
+          "alias": "Strata"
+        },
+        {
+          "name": "LandPlan",
+          "type": "esriFieldTypeString",
+          "alias": "LandPlan"
+        },
+        {
+          "name": "StrataLegal",
+          "type": "esriFieldTypeString",
+          "alias": "StrataLegal"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "CreateUserName",
+          "type": "esriFieldTypeString",
+          "alias": "CreateUserName"
+        },
+        {
+          "name": "LastEditUserName",
+          "type": "esriFieldTypeString",
+          "alias": "LastEditUserName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "StrataCommonLand",
+      "title": "StrataCommonLand",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 78,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

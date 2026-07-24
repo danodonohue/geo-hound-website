@@ -1,0 +1,1106 @@
+{
+  "slug": "data-wsdot-wa-gov-layers-mapserver",
+  "service_key": "ESRI MapServer:https://data.wsdot.wa.gov/arcgis/rest/services/Shared/RoadwayCharacteristicData/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://data.wsdot.wa.gov/arcgis/rest/services/Shared/RoadwayCharacteristicData/MapServer",
+  "title": "Layers",
+  "description": "Washington State highway lane, speed limit, surface type and roadway characteristic data.",
+  "abstract": "This is an extract from the State Highway Log that shows roadway characteristics for Washington State Routes such as lane information, speed limits, surface type, etc. State Route identifiers and locations based on State Route Mileposts and Accumulated Route Mileage are also included for geographic reference and for use with the Washington State Department of Transportation's 24k and 500k Linear Referencing Systems.",
+  "place": {
+    "country": "United States",
+    "state": "Washington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Acceleration Lanes",
+      "title": "Acceleration Lanes",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AccelerationLaneLength",
+          "type": "esriFieldTypeSingle",
+          "alias": "Acceleration Lane Length"
+        },
+        {
+          "name": "AccelerationLaneWidth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Acceleration Lane Width"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "Route Identifier"
+        },
+        {
+          "name": "AccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "Accumulated Route Mile"
+        },
+        {
+          "name": "TrffcwayFeatOrientCd",
+          "type": "esriFieldTypeString",
+          "alias": "Trafficway Feature Orientation Code"
+        },
+        {
+          "name": "StateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "State Route Milepost"
+        },
+        {
+          "name": "AheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Ahead Back Indicator"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRS Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Access Control",
+      "title": "Access Control",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "Route Identifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin Accumulated Route Mile"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "End Accumulated Route Mile"
+        },
+        {
+          "name": "AccessControlTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Access Control Type"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin State Route Milepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Begin Ahead Back Indicator"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "End State Route Milepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "End Ahead Back Indicator"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRS Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape Length"
+        },
+        {
+          "name": "AccessControlTypeCode",
+          "type": "esriFieldTypeString",
+          "alias": "Access Control Type Code"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Divided Highway",
+      "title": "Divided Highway",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "Route Identifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin Accumulated Route Mile"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "End Accumulated Route Mile"
+        },
+        {
+          "name": "DividedIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Is Divided"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin State Route Milepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Begin Ahead Back Indicator"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "End State Route Milepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "End Ahead Back Indicator"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRS Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length of Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Lane Information",
+      "title": "Lane Information",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape Length"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "Route ID"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin Accumulated Route Mile"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "End Accumulated Route Mile"
+        },
+        {
+          "name": "NumberOfLanes",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Number of Lanes"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin State Route Milepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Begin Ahead/Back Indicator"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "End State Route Milepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "End State Route Milepost"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRS Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Legal Speed Limits",
+      "title": "Legal Speed Limits",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape Length"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "Route ID"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin ARM"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "End ARM"
+        },
+        {
+          "name": "SpeedLimit",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Speed Limit"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin SRMP"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Begin A/B"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "End SRMP"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "End A/B"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRS Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Medians",
+      "title": "Medians",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "MedianWidth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Median Width"
+        },
+        {
+          "name": "MedianBarrierType",
+          "type": "esriFieldTypeString",
+          "alias": "Median Barrier Type"
+        },
+        {
+          "name": "MedianSurfaceType",
+          "type": "esriFieldTypeString",
+          "alias": "Median Surface Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape Length"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "Route Identifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin Accumulated Route Mile"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin State Route Milepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Begin Ahead Back Indicator"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "End Accumulated Route Mile"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "End State Route Milepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "End Ahead Back Indicator"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRS Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "At Grade Railroad Crossings",
+      "title": "At Grade Railroad Crossings",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AarNumber",
+          "type": "esriFieldTypeString",
+          "alias": "AAR Number"
+        },
+        {
+          "name": "RRXingAtGradeInd",
+          "type": "esriFieldTypeString",
+          "alias": "RRXing At Grade Indicator"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "RouteIdentifier"
+        },
+        {
+          "name": "AccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "AccumulatedRouteMile"
+        },
+        {
+          "name": "StateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "StateRouteMilepost"
+        },
+        {
+          "name": "AheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "AheadBackIndicator"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRSDate"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Roadway Width",
+      "title": "Roadway Width",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "RouteIdentifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginAccumulatedRouteMile"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndAccumulatedRouteMile"
+        },
+        {
+          "name": "RdwyWidth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RdwyWidth"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SnapshotDate"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginStateRouteMilepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "BeginAheadBackIndicator"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndStateRouteMilepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "EndAheadBackIndicator"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRSDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Rural Urban",
+      "title": "Rural Urban",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "RouteIdentifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginAccumulatedRouteMile"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginStateRouteMilepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "BeginAheadBackIndicator"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndAccumulatedRouteMile"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndStateRouteMilepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "EndAheadBackIndicator"
+        },
+        {
+          "name": "UrbanRuralCode",
+          "type": "esriFieldTypeString",
+          "alias": "UrbanRuralCode"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRSDate"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Shoulder",
+      "title": "Shoulder",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "ShoulderSurfaceType",
+          "type": "esriFieldTypeString",
+          "alias": "Shoulder Surface Type"
+        },
+        {
+          "name": "TrffcwayFeatOrientCd",
+          "type": "esriFieldTypeString",
+          "alias": "Trafficway Feature Orientation Code"
+        },
+        {
+          "name": "ShoulderWidth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Shoulder Width"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "Route Identifier"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin SRMP"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "Begin AB"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "End SRMP"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "End AB"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "Begin ARM"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "End ARM"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRS Date"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Special Use Lanes",
+      "title": "Special Use Lanes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SULaneSurfaceType",
+          "type": "esriFieldTypeString",
+          "alias": "Surface Type"
+        },
+        {
+          "name": "SULaneWidth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Lane Width"
+        },
+        {
+          "name": "SUType",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "RouteIdentifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginAccumulatedRouteMile"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginStateRouteMilepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "BeginAheadBackIndicator"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndAccumulatedRouteMile"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndStateRouteMilepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "EndAheadBackIndicator"
+        },
+        {
+          "name": "TrffcwayFeatOrientCd",
+          "type": "esriFieldTypeString",
+          "alias": "TrffcwayFeatOrientCd"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SnapshotDate"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRSDate"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Surface Type",
+      "title": "Surface Type",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "RouteIdentifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginAccumulatedRouteMile"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndAccumulatedRouteMile"
+        },
+        {
+          "name": "LnSurfTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LnSurfTypeDescription"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SnapshotDate"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginStateRouteMilepost"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "BeginAheadBackIndicator"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndStateRouteMilepost"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "EndAheadBackIndicator"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRSDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Turn Lanes",
+      "title": "Turn Lanes",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TurnLaneLength",
+          "type": "esriFieldTypeSingle",
+          "alias": "Turn Lane Length"
+        },
+        {
+          "name": "TurnLaneWidth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Turn Lane Width"
+        },
+        {
+          "name": "LeftRightInd",
+          "type": "esriFieldTypeString",
+          "alias": "Left Right Indicator"
+        },
+        {
+          "name": "NearFarInd",
+          "type": "esriFieldTypeString",
+          "alias": "Near Far Indicator"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Snapshot Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "RouteIdentifier"
+        },
+        {
+          "name": "AccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "AccumulatedRouteMile"
+        },
+        {
+          "name": "StateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "StateRouteMilepost"
+        },
+        {
+          "name": "AheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "AheadBackIndicator"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRSDate"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Tunnels",
+      "title": "Tunnels",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RouteIdentifier",
+          "type": "esriFieldTypeString",
+          "alias": "RouteIdentifier"
+        },
+        {
+          "name": "BeginAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginAccumulatedRouteMile"
+        },
+        {
+          "name": "EndAccumulatedRouteMile",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndAccumulatedRouteMile"
+        },
+        {
+          "name": "BeginStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "BeginSRMP"
+        },
+        {
+          "name": "BeginAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "BeginAB"
+        },
+        {
+          "name": "EndStateRouteMilepost",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndSRMP"
+        },
+        {
+          "name": "EndAheadBackIndicator",
+          "type": "esriFieldTypeString",
+          "alias": "EndAB"
+        },
+        {
+          "name": "StructureNumber",
+          "type": "esriFieldTypeString",
+          "alias": "StructureNumber"
+        },
+        {
+          "name": "StructureID",
+          "type": "esriFieldTypeString",
+          "alias": "StructureID"
+        },
+        {
+          "name": "StructureNarrative",
+          "type": "esriFieldTypeString",
+          "alias": "StructureNarrative"
+        },
+        {
+          "name": "LRSDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LRSDate"
+        },
+        {
+          "name": "SnapshotDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SnapshotDate"
+        },
+        {
+          "name": "TunnelLength",
+          "type": "esriFieldTypeSingle",
+          "alias": "TunnelLength"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 492,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

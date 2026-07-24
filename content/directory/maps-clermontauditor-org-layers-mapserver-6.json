@@ -1,0 +1,498 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-6",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/MobileHomes/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/MobileHomes/MapServer",
+  "title": "Layers",
+  "description": "Clermont County mobile home locations and park information.",
+  "abstract": "Clermont",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "addresses",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Mobile Home Points",
+      "title": "Mobile Home Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT"
+        },
+        {
+          "name": "ADDR_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADDR_NO"
+        },
+        {
+          "name": "PRE_DIR",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_DIR"
+        },
+        {
+          "name": "PRE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_TYPE"
+        },
+        {
+          "name": "STREETNAME",
+          "type": "esriFieldTypeString",
+          "alias": "STREETNAME"
+        },
+        {
+          "name": "STR_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STR_TYPE"
+        },
+        {
+          "name": "STR_DIR",
+          "type": "esriFieldTypeString",
+          "alias": "STR_DIR"
+        },
+        {
+          "name": "ParkName",
+          "type": "esriFieldTypeString",
+          "alias": "ParkName"
+        },
+        {
+          "name": "Parid",
+          "type": "esriFieldTypeString",
+          "alias": "Parid"
+        },
+        {
+          "name": "RegNum",
+          "type": "esriFieldTypeString",
+          "alias": "RegNum"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Mobile Homes",
+      "title": "Mobile Homes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "CARD",
+          "type": "esriFieldTypeString",
+          "alias": "CARD"
+        },
+        {
+          "name": "LINE",
+          "type": "esriFieldTypeString",
+          "alias": "LINE"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT"
+        },
+        {
+          "name": "ADDR_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADDR_NO"
+        },
+        {
+          "name": "PRE_DIR",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_DIR"
+        },
+        {
+          "name": "PRE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_TYPE"
+        },
+        {
+          "name": "STREETNAME",
+          "type": "esriFieldTypeString",
+          "alias": "STREETNAME"
+        },
+        {
+          "name": "STR_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STR_TYPE"
+        },
+        {
+          "name": "STR_DIR",
+          "type": "esriFieldTypeString",
+          "alias": "STR_DIR"
+        },
+        {
+          "name": "ParkName",
+          "type": "esriFieldTypeString",
+          "alias": "ParkName"
+        },
+        {
+          "name": "Parid",
+          "type": "esriFieldTypeString",
+          "alias": "Parid"
+        },
+        {
+          "name": "RegNum",
+          "type": "esriFieldTypeString",
+          "alias": "RegNum"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Join_Count",
+          "type": "esriFieldTypeInteger",
+          "alias": "Join_Count"
+        },
+        {
+          "name": "TARGET_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "TARGET_FID"
+        },
+        {
+          "name": "TOWNNAME",
+          "type": "esriFieldTypeString",
+          "alias": "TOWNNAME"
+        },
+        {
+          "name": "FORCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "BLDGID"
+        },
+        {
+          "name": "EDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "EDITOR"
+        },
+        {
+          "name": "SPATIAL_UPDATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "NEW_FIELD",
+          "type": "esriFieldTypeString",
+          "alias": "NEW_FIELD"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Mobile Home Parks",
+      "title": "Mobile Home Parks",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "ParkName",
+          "type": "esriFieldTypeString",
+          "alias": "ParkName"
+        },
+        {
+          "name": "Parid",
+          "type": "esriFieldTypeString",
+          "alias": "Parid"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Length of Sides",
+      "title": "Length of Sides",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Join_Count",
+          "type": "esriFieldTypeInteger",
+          "alias": "Join_Count"
+        },
+        {
+          "name": "TARGET_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "TARGET_FID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "CARD",
+          "type": "esriFieldTypeString",
+          "alias": "CARD"
+        },
+        {
+          "name": "LINE",
+          "type": "esriFieldTypeString",
+          "alias": "LINE"
+        },
+        {
+          "name": "TOWNNAME",
+          "type": "esriFieldTypeString",
+          "alias": "TOWNNAME"
+        },
+        {
+          "name": "FORCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "BLDGID"
+        },
+        {
+          "name": "EDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "EDITOR"
+        },
+        {
+          "name": "SPATIAL_UPDATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "NEW_FIELD",
+          "type": "esriFieldTypeString",
+          "alias": "NEW_FIELD"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT"
+        },
+        {
+          "name": "ADDR_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADDR_NO"
+        },
+        {
+          "name": "PRE_DIR",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_DIR"
+        },
+        {
+          "name": "PRE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PRE_TYPE"
+        },
+        {
+          "name": "STREETNAME",
+          "type": "esriFieldTypeString",
+          "alias": "STREETNAME"
+        },
+        {
+          "name": "STR_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STR_TYPE"
+        },
+        {
+          "name": "STR_DIR",
+          "type": "esriFieldTypeString",
+          "alias": "STR_DIR"
+        },
+        {
+          "name": "ParkName",
+          "type": "esriFieldTypeString",
+          "alias": "ParkName"
+        },
+        {
+          "name": "Parid",
+          "type": "esriFieldTypeString",
+          "alias": "Parid"
+        },
+        {
+          "name": "RegNum",
+          "type": "esriFieldTypeString",
+          "alias": "RegNum"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "FID_MobileHomes",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_MobileHomes"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102723"
+  ],
+  "cors_enabled": true,
+  "response_ms": 230,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

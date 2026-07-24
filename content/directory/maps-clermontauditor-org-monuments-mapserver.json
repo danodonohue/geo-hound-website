@@ -1,0 +1,1318 @@
+{
+  "slug": "maps-clermontauditor-org-monuments-mapserver",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/Monuments/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/Monuments/MapServer",
+  "title": "Monuments",
+  "description": "Survey monument locations and attributes in Clermont County with coordinates.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Updated Monuments",
+      "title": "Updated Monuments",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Monument_PopUp",
+      "title": "Monument_PopUp",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Monuments_144k",
+      "title": "Monuments_144k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Monuments_72k",
+      "title": "Monuments_72k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Monuments_36k",
+      "title": "Monuments_36k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Monuments_18k",
+      "title": "Monuments_18k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Monuments_9k",
+      "title": "Monuments_9k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Monuments_4k",
+      "title": "Monuments_4k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Monuments_2k",
+      "title": "Monuments_2k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Monuments_1k",
+      "title": "Monuments_1k",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Monuments_600ft",
+      "title": "Monuments_600ft",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Monuments_300ft",
+      "title": "Monuments_300ft",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Station",
+          "type": "esriFieldTypeString",
+          "alias": "Station"
+        },
+        {
+          "name": "MonType",
+          "type": "esriFieldTypeString",
+          "alias": "MonType"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeString",
+          "alias": "Datum"
+        },
+        {
+          "name": "NorthingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingFt"
+        },
+        {
+          "name": "EastingFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingFt"
+        },
+        {
+          "name": "ElevFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevFt"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "EastingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingM"
+        },
+        {
+          "name": "NorthingM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingM"
+        },
+        {
+          "name": "ElevM",
+          "type": "esriFieldTypeDouble",
+          "alias": "ElevM"
+        },
+        {
+          "name": "ScaleFact",
+          "type": "esriFieldTypeString",
+          "alias": "ScaleFact"
+        },
+        {
+          "name": "Converg",
+          "type": "esriFieldTypeString",
+          "alias": "Converg"
+        },
+        {
+          "name": "MonDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MonDesc"
+        },
+        {
+          "name": "YearSet",
+          "type": "esriFieldTypeDouble",
+          "alias": "YearSet"
+        },
+        {
+          "name": "DiscStampi",
+          "type": "esriFieldTypeString",
+          "alias": "DiscStampi"
+        },
+        {
+          "name": "LAT_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DD"
+        },
+        {
+          "name": "LONG_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 222,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

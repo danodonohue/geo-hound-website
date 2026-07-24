@@ -1,0 +1,85 @@
+{
+  "slug": "aerial-photography-or-information-provided-to-the-department-by-the-ow-mapserver",
+  "service_key": "ESRI MapServer:https://gis-erd-der.gnb.ca/server/rest/services/OpenData/Utilities/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis-erd-der.gnb.ca/server/rest/services/OpenData/Utilities/MapServer",
+  "title": "Layers",
+  "description": "Major pipelines and power lines across New Brunswick province.",
+  "abstract": "Shows the location of major pipelines and power lines in the province.  Data was mostly derived from aerial photography or information provided to the department by the owner. / Montre l'emplacement des principaux pipelines et lignes électriques dans la province. Les données provenaient principalement de photographies aériennes ou d'informations fournies au département par le propriétaire.",
+  "provider": "aerial photography or information provided to the department by the owner",
+  "place": {
+    "country": "Canada",
+    "state": "New Brunswick",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Utilities",
+      "title": "Utilities",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UTILITY_TYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "UTILITY_TYPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2036"
+  ],
+  "cors_enabled": true,
+  "response_ms": 920,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "maps-tangerangkota-go-id-layers-mapserver-6",
+  "service_key": "ESRI MapServer:https://maps.tangerangkota.go.id/arcgis/rest/services/web/igtokentsp/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.tangerangkota.go.id/arcgis/rest/services/web/igtokentsp/MapServer",
+  "title": "Layers",
+  "description": "Identity token service for Tangerang geospatial infrastructure.",
+  "abstract": "Token IG TSP",
+  "provider": "maps.tangerangkota.go.id",
+  "place": {
+    "country": "Indonesia",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "low"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "igd.sde.igtokenstap",
+      "title": "igd.sde.igtokenstap",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "token",
+          "type": "esriFieldTypeString",
+          "alias": "token"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 213,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

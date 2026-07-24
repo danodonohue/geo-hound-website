@@ -1,0 +1,804 @@
+{
+  "slug": "services-sac-isc-gc-ca-erip-e-mapserver",
+  "service_key": "ESRI MapServer:https://services.sac-isc.gc.ca/geomatics/rest/services/ILRS_PRD/ERIP_E/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://services.sac-isc.gc.ca/geomatics/rest/services/ILRS_PRD/ERIP_E/MapServer",
+  "title": "ERIP_E",
+  "description": "Indian Reserves, Kanesatake lands, and Aboriginal lands in Canada with legal boundaries.",
+  "abstract": "ERIP_E",
+  "provider": "services.sac-isc.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Indian Reserve",
+      "title": "Indian Reserve",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Indian Reserve (national scale)",
+      "title": "Indian Reserve (national scale)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Kanesatake Lands (national scale)",
+      "title": "Kanesatake Lands (national scale)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "ADMIN_LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Administrative Land Type"
+        },
+        {
+          "name": "ABSOLUTE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "Absolute Accuracy"
+        },
+        {
+          "name": "LOCATION_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description"
+        },
+        {
+          "name": "CPC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Province-Territory"
+        },
+        {
+          "name": "PROFILE_URL_EN",
+          "type": "esriFieldTypeString",
+          "alias": "English URL Profile"
+        },
+        {
+          "name": "FIRST_NATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "First Nation"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Indian Reserve (national scale)",
+      "title": "Indian Reserve (national scale)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "ADMIN_LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Administrative Land Type"
+        },
+        {
+          "name": "ABSOLUTE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "Absolute Accuracy"
+        },
+        {
+          "name": "LOCATION_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description"
+        },
+        {
+          "name": "CPC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Province-Territory"
+        },
+        {
+          "name": "PROFILE_URL_EN",
+          "type": "esriFieldTypeString",
+          "alias": "English URL Profile"
+        },
+        {
+          "name": "FIRST_NATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "First Nation"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Indian Reserve (regional scale)",
+      "title": "Indian Reserve (regional scale)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Kanesatake Lands (regional scale)",
+      "title": "Kanesatake Lands (regional scale)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "ADMIN_LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Administrative Land Type"
+        },
+        {
+          "name": "ABSOLUTE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "Absolute Accuracy"
+        },
+        {
+          "name": "LOCATION_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description"
+        },
+        {
+          "name": "CPC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Province-Territory"
+        },
+        {
+          "name": "PROFILE_URL_EN",
+          "type": "esriFieldTypeString",
+          "alias": "English URL Profile"
+        },
+        {
+          "name": "FIRST_NATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "First Nation"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Indian Reserve (regional scale)",
+      "title": "Indian Reserve (regional scale)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "ADMIN_LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Administrative Land Type"
+        },
+        {
+          "name": "ABSOLUTE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "Absolute Accuracy"
+        },
+        {
+          "name": "LOCATION_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description"
+        },
+        {
+          "name": "CPC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Province-Territory"
+        },
+        {
+          "name": "PROFILE_URL_EN",
+          "type": "esriFieldTypeString",
+          "alias": "English URL Profile"
+        },
+        {
+          "name": "FIRST_NATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "First Nation"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Indian Reserve Boundary",
+      "title": "Indian Reserve Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Kanesatake Lands Boundary",
+      "title": "Kanesatake Lands Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "ADMIN_LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Administrative Land Type"
+        },
+        {
+          "name": "ABSOLUTE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "Absolute Accuracy"
+        },
+        {
+          "name": "LOCATION_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description"
+        },
+        {
+          "name": "CPC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Province-Territory"
+        },
+        {
+          "name": "PROFILE_URL_EN",
+          "type": "esriFieldTypeString",
+          "alias": "English URL Profile"
+        },
+        {
+          "name": "FIRST_NATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "First Nation"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Indian Reserve Boundary",
+      "title": "Indian Reserve Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "ADMIN_LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Administrative Land Type"
+        },
+        {
+          "name": "ABSOLUTE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "Absolute Accuracy"
+        },
+        {
+          "name": "LOCATION_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Location Description"
+        },
+        {
+          "name": "CPC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Province-Territory"
+        },
+        {
+          "name": "PROFILE_URL_EN",
+          "type": "esriFieldTypeString",
+          "alias": "English URL Profile"
+        },
+        {
+          "name": "FIRST_NATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "First Nation"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "ERIP",
+      "title": "ERIP",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Oil and Gas Activity",
+      "title": "Oil and Gas Activity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "PARCEL_DESIGNATOR",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Designator"
+        },
+        {
+          "name": "PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "OG_NRCAN_PIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "NRCan PIN"
+        },
+        {
+          "name": "REMAINDER_IND",
+          "type": "esriFieldTypeDouble",
+          "alias": "Remainder?"
+        },
+        {
+          "name": "OUTSIDE_OF_RESERVE_IND",
+          "type": "esriFieldTypeDouble",
+          "alias": "Outside of reserve?"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "NRCan category"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Recent parcels - No interest",
+      "title": "Recent parcels - No interest",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "PARCEL_DESIGNATOR",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Designator"
+        },
+        {
+          "name": "PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Plan number"
+        },
+        {
+          "name": "NRCAN_PIN",
+          "type": "esriFieldTypeString",
+          "alias": "NRCan PIN"
+        },
+        {
+          "name": "REMAINDER_IND",
+          "type": "esriFieldTypeDouble",
+          "alias": "Remainder?"
+        },
+        {
+          "name": "OUTSIDE_OF_RESERVE_IND",
+          "type": "esriFieldTypeDouble",
+          "alias": "Outside of reserve?"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "NRCan Category"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "BCR 18 (2)",
+      "title": "BCR 18 (2)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "ILRS_PIN",
+          "type": "esriFieldTypeString",
+          "alias": "ILRS PIN"
+        },
+        {
+          "name": "LEGAL_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Plan number"
+        },
+        {
+          "name": "NRCAN_PIN",
+          "type": "esriFieldTypeString",
+          "alias": "NRCan PIN"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "NRCan category"
+        },
+        {
+          "name": "PARCEL_DESIGNATOR",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Designator"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Surface Permits",
+      "title": "Surface Permits",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADMIN_LAND_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve number"
+        },
+        {
+          "name": "ILRS_PIN",
+          "type": "esriFieldTypeString",
+          "alias": "ILRS PIN"
+        },
+        {
+          "name": "LEGAL_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "NRCAN_PIN",
+          "type": "esriFieldTypeString",
+          "alias": "NRCan PIN"
+        },
+        {
+          "name": "REMAINDER_IND",
+          "type": "esriFieldTypeDouble",
+          "alias": "Remainder?"
+        },
+        {
+          "name": "OUTSIDE_OF_RESERVE_IND",
+          "type": "esriFieldTypeDouble",
+          "alias": "Outside of reserve?"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "NRCan Category"
+        },
+        {
+          "name": "PARCEL_DESIGNATOR",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Designator"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Lease",
+      "title": "Lease",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Designated Land",
+      "title": "Designated Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Easement",
+      "title": "Easement",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Lawful Possession",
+      "title": "Lawful Possession",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Band Land",
+      "title": "Band Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Other No interest",
+      "title": "Other No interest",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Annotations",
+      "title": "Annotations",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "AnnoEasement",
+      "title": "AnnoEasement",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "AnnoLawfull Possession",
+      "title": "AnnoLawfull Possession",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "AnnoBand Land",
+      "title": "AnnoBand Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "AnnoRecent parcels – No interest",
+      "title": "AnnoRecent parcels – No interest",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Reserve Land",
+      "title": "Reserve Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "V_LAND_PARCEL_MERGD_A",
+      "title": "V_LAND_PARCEL_MERGD_A",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "V_ILRS_PARCL_A",
+      "title": "V_ILRS_PARCL_A",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "V_ILRS_RETIRED_A",
+      "title": "V_ILRS_RETIRED_A",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "All Indian Reserve",
+      "title": "All Indian Reserve",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4140"
+  ],
+  "cors_enabled": true,
+  "response_ms": 875,
+  "last_verified": "2026-07-24",
+  "discovery_count": 2,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

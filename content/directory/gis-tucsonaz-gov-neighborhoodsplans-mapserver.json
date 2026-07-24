@@ -1,0 +1,1205 @@
+{
+  "slug": "gis-tucsonaz-gov-neighborhoodsplans-mapserver",
+  "service_key": "ESRI MapServer:https://gis.tucsonaz.gov/public/rest/services/PublicMaps/NeighborhoodsPlans/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.tucsonaz.gov/public/rest/services/PublicMaps/NeighborhoodsPlans/MapServer",
+  "title": "NeighborhoodsPlans",
+  "description": "Tucson neighborhoods, homeowners associations, and planning boundaries.",
+  "abstract": "Neighborhoods and Plans",
+  "provider": "gis.tucsonaz.gov",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "NHA_CITY",
+      "title": "NHA_CITY",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "WARD",
+          "type": "esriFieldTypeString",
+          "alias": "WARD"
+        },
+        {
+          "name": "REGISTRATION",
+          "type": "esriFieldTypeString",
+          "alias": "REGISTRATION"
+        },
+        {
+          "name": "SCHOOL_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_DISTRICT"
+        },
+        {
+          "name": "PRESIDENT",
+          "type": "esriFieldTypeString",
+          "alias": "PRESIDENT"
+        },
+        {
+          "name": "PRESIDENT_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PRESIDENT_PHONE"
+        },
+        {
+          "name": "PRESIDENT_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "PRESIDENT_EMAIL"
+        },
+        {
+          "name": "VICE_PRESIDENT",
+          "type": "esriFieldTypeString",
+          "alias": "VICE_PRESIDENT"
+        },
+        {
+          "name": "VP_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "VP_PHONE"
+        },
+        {
+          "name": "VP_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "VP_EMAIL"
+        },
+        {
+          "name": "TREASURER",
+          "type": "esriFieldTypeString",
+          "alias": "TREASURER"
+        },
+        {
+          "name": "TREASURER_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "TREASURER_PHONE"
+        },
+        {
+          "name": "TREASURER_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "TREASURER_EMAIL"
+        },
+        {
+          "name": "SECRETARY",
+          "type": "esriFieldTypeString",
+          "alias": "SECRETARY"
+        },
+        {
+          "name": "SECRETARY_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "SECRETARY_PHONE"
+        },
+        {
+          "name": "SECRETARY_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "SECRETARY_EMAIL"
+        },
+        {
+          "name": "NEWSLETTER_CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "NEWSLETTER_CONTACT"
+        },
+        {
+          "name": "NEWSLETTER_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "NEWSLETTER_PHONE"
+        },
+        {
+          "name": "NEWSLETTER_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "NEWSLETTER_EMAIL"
+        },
+        {
+          "name": "LAST_UPDATED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_UPDATED"
+        },
+        {
+          "name": "ANNUAL_MEETING_OR_ELECTION_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "ANNUAL_MEETING_OR_ELECTION_DATE"
+        },
+        {
+          "name": "BY_LAWS",
+          "type": "esriFieldTypeString",
+          "alias": "BY_LAWS"
+        },
+        {
+          "name": "BY_LAWS_ADOPTED",
+          "type": "esriFieldTypeString",
+          "alias": "BY_LAWS_ADOPTED"
+        },
+        {
+          "name": "BY_LAWS_UPDATED",
+          "type": "esriFieldTypeString",
+          "alias": "BY_LAWS_UPDATED"
+        },
+        {
+          "name": "COT_MAP_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "COT_MAP_NO"
+        },
+        {
+          "name": "KEYID",
+          "type": "esriFieldTypeDouble",
+          "alias": "KEYID"
+        },
+        {
+          "name": "NBA_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NBA_ID"
+        },
+        {
+          "name": "COALITIONS",
+          "type": "esriFieldTypeString",
+          "alias": "COALITIONS"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "MAP_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAP_NO"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "nha_cnty",
+      "title": "nha_cnty",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HOA_KEY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HOA_KEY"
+        },
+        {
+          "name": "TYPEKEY",
+          "type": "esriFieldTypeString",
+          "alias": "TYPEKEY"
+        },
+        {
+          "name": "NOTIFY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NOTIFY"
+        },
+        {
+          "name": "NHA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NHA_NAME"
+        },
+        {
+          "name": "NHA_IDX",
+          "type": "esriFieldTypeString",
+          "alias": "NHA_IDX"
+        },
+        {
+          "name": "NOTICE",
+          "type": "esriFieldTypeString",
+          "alias": "NOTICE"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "HOA_COT",
+      "title": "HOA_COT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "JURIS",
+          "type": "esriFieldTypeString",
+          "alias": "JURIS"
+        },
+        {
+          "name": "REC_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "REC_DATE"
+        },
+        {
+          "name": "SUB_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUB_NAME"
+        },
+        {
+          "name": "BOOK_PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "BOOK_PAGE"
+        },
+        {
+          "name": "LOT_COUNT",
+          "type": "esriFieldTypeInteger",
+          "alias": "LOT_COUNT"
+        },
+        {
+          "name": "BLOCK_CT",
+          "type": "esriFieldTypeInteger",
+          "alias": "BLOCK_CT"
+        },
+        {
+          "name": "SEQ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "SEQ_NUM"
+        },
+        {
+          "name": "PROJ_NUM1",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_NUM1"
+        },
+        {
+          "name": "REZONING",
+          "type": "esriFieldTypeString",
+          "alias": "REZONING"
+        },
+        {
+          "name": "REF_NUMS",
+          "type": "esriFieldTypeString",
+          "alias": "REF_NUMS"
+        },
+        {
+          "name": "HOA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "HOA_NAME"
+        },
+        {
+          "name": "HOA_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "HOA_STATUS"
+        },
+        {
+          "name": "CCR_SEQ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "CCR_SEQ_NUM"
+        },
+        {
+          "name": "ACC_EID2",
+          "type": "esriFieldTypeString",
+          "alias": "ACC_EID"
+        },
+        {
+          "name": "ST_DED",
+          "type": "esriFieldTypeString",
+          "alias": "ST_DED"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "HOA_CNTY",
+      "title": "HOA_CNTY",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "HOA_KEY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HOA_KEY"
+        },
+        {
+          "name": "HOA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "HOA_NAME"
+        },
+        {
+          "name": "HOA_IDX",
+          "type": "esriFieldTypeString",
+          "alias": "HOA_IDX"
+        },
+        {
+          "name": "TYPEKEY",
+          "type": "esriFieldTypeString",
+          "alias": "TYPEKEY"
+        },
+        {
+          "name": "NOTIFY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NOTIFY"
+        },
+        {
+          "name": "NOTICE",
+          "type": "esriFieldTypeString",
+          "alias": "NOTICE"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "PLAN_Boundaries",
+      "title": "PLAN_Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Plan_Num",
+          "type": "esriFieldTypeString",
+          "alias": "04. Plan Number"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "02. Plan Type"
+        },
+        {
+          "name": "Plan_Name",
+          "type": "esriFieldTypeString",
+          "alias": "01. Plan Name"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "06. URL"
+        },
+        {
+          "name": "IMPORTANT",
+          "type": "esriFieldTypeString",
+          "alias": "05. Important notice"
+        },
+        {
+          "name": "ADOPT_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "03. Plan Adoption Date"
+        },
+        {
+          "name": "DocName",
+          "type": "esriFieldTypeString",
+          "alias": "DocName"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "PLAN_Boundaries",
+      "title": "PLAN_Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Plan_Num",
+          "type": "esriFieldTypeString",
+          "alias": "04. Plan Number"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "02. Plan Type"
+        },
+        {
+          "name": "Plan_Name",
+          "type": "esriFieldTypeString",
+          "alias": "01. Plan Name"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "06. URL"
+        },
+        {
+          "name": "IMPORTANT",
+          "type": "esriFieldTypeString",
+          "alias": "05. Important notice"
+        },
+        {
+          "name": "ADOPT_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "03. Plan Adoption Date"
+        },
+        {
+          "name": "DocName",
+          "type": "esriFieldTypeString",
+          "alias": "DocName"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "PLAN_Boundaries",
+      "title": "PLAN_Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Plan_Num",
+          "type": "esriFieldTypeString",
+          "alias": "04. Plan Number"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "02. Plan Type"
+        },
+        {
+          "name": "Plan_Name",
+          "type": "esriFieldTypeString",
+          "alias": "01. Plan Name"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "06. URL"
+        },
+        {
+          "name": "IMPORTANT",
+          "type": "esriFieldTypeString",
+          "alias": "05. Important notice"
+        },
+        {
+          "name": "ADOPT_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "03. Plan Adoption Date"
+        },
+        {
+          "name": "DocName",
+          "type": "esriFieldTypeString",
+          "alias": "DocName"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "PLAN_Boundaries",
+      "title": "PLAN_Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Plan_Num",
+          "type": "esriFieldTypeString",
+          "alias": "04. Plan Number"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "02. Plan Type"
+        },
+        {
+          "name": "Plan_Name",
+          "type": "esriFieldTypeString",
+          "alias": "01. Plan Name"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "06. URL"
+        },
+        {
+          "name": "IMPORTANT",
+          "type": "esriFieldTypeString",
+          "alias": "05. Important notice"
+        },
+        {
+          "name": "ADOPT_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "03. Plan Adoption Date"
+        },
+        {
+          "name": "DocName",
+          "type": "esriFieldTypeString",
+          "alias": "DocName"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "PLAN_Boundaries",
+      "title": "PLAN_Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Plan_Num",
+          "type": "esriFieldTypeString",
+          "alias": "04. Plan Number"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "02. Plan Type"
+        },
+        {
+          "name": "Plan_Name",
+          "type": "esriFieldTypeString",
+          "alias": "01. Plan Name"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "06. URL"
+        },
+        {
+          "name": "IMPORTANT",
+          "type": "esriFieldTypeString",
+          "alias": "05. Important notice"
+        },
+        {
+          "name": "ADOPT_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "03. Plan Adoption Date"
+        },
+        {
+          "name": "DocName",
+          "type": "esriFieldTypeString",
+          "alias": "DocName"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "dev_plan",
+      "title": "dev_plan",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "DP_NAME"
+        },
+        {
+          "name": "BOOK_PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "BOOK_PAGE"
+        },
+        {
+          "name": "JURIS",
+          "type": "esriFieldTypeString",
+          "alias": "JURIS"
+        },
+        {
+          "name": "APPR_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "APPR_DATE"
+        },
+        {
+          "name": "UNITS",
+          "type": "esriFieldTypeInteger",
+          "alias": "UNITS"
+        },
+        {
+          "name": "PROJ_NUM1",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_NUM1"
+        },
+        {
+          "name": "REF_NUMS",
+          "type": "esriFieldTypeString",
+          "alias": "REF_NUMS"
+        },
+        {
+          "name": "REZONING",
+          "type": "esriFieldTypeString",
+          "alias": "REZONING"
+        },
+        {
+          "name": "DP_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "DP_TYPE"
+        },
+        {
+          "name": "EDITOR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "EDITOR_NAME"
+        },
+        {
+          "name": "EDIT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EDIT_DATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "AA_ALT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "AA_ALT_ID"
+        },
+        {
+          "name": "AA_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "AA_STATUS"
+        },
+        {
+          "name": "AA_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "AA_DATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "NEIGHBORHOODS_ALL",
+      "title": "NEIGHBORHOODS_ALL",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "WARD",
+          "type": "esriFieldTypeString",
+          "alias": "WARD"
+        },
+        {
+          "name": "CITY_NHA",
+          "type": "esriFieldTypeString",
+          "alias": "CITY_NHA"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "MAP_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAP_NO"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "REGISTRATION",
+          "type": "esriFieldTypeString",
+          "alias": "REGISTRATION"
+        },
+        {
+          "name": "SCHOOL_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_DISTRICT"
+        },
+        {
+          "name": "PRESIDENT",
+          "type": "esriFieldTypeString",
+          "alias": "PRESIDENT"
+        },
+        {
+          "name": "PRESIDENT_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PRESIDENT_PHONE"
+        },
+        {
+          "name": "PRESIDENT_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "PRESIDENT_EMAIL"
+        },
+        {
+          "name": "VICE_PRESIDENT",
+          "type": "esriFieldTypeString",
+          "alias": "VICE_PRESIDENT"
+        },
+        {
+          "name": "VP_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "VP_PHONE"
+        },
+        {
+          "name": "VP_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "VP_EMAIL"
+        },
+        {
+          "name": "TREASURER",
+          "type": "esriFieldTypeString",
+          "alias": "TREASURER"
+        },
+        {
+          "name": "TREASURER_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "TREASURER_PHONE"
+        },
+        {
+          "name": "TREASURER_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "TREASURER_EMAIL"
+        },
+        {
+          "name": "SECRETARY",
+          "type": "esriFieldTypeString",
+          "alias": "SECRETARY"
+        },
+        {
+          "name": "SECRETARY_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "SECRETARY_PHONE"
+        },
+        {
+          "name": "SECRETARY_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "SECRETARY_EMAIL"
+        },
+        {
+          "name": "NEWSLETTER_CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "NEWSLETTER_CONTACT"
+        },
+        {
+          "name": "NEWSLETTER_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "NEWSLETTER_PHONE"
+        },
+        {
+          "name": "NEWSLETTER_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "NEWSLETTER_EMAIL"
+        },
+        {
+          "name": "LAST_UPDATED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_UPDATED"
+        },
+        {
+          "name": "ANNUAL_MEETING_OR_ELECTION_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "ANNUAL_MEETING_OR_ELECTION_DATE"
+        },
+        {
+          "name": "BY_LAWS",
+          "type": "esriFieldTypeString",
+          "alias": "BY_LAWS"
+        },
+        {
+          "name": "BY_LAWS_ADOPTED",
+          "type": "esriFieldTypeString",
+          "alias": "BY_LAWS_ADOPTED"
+        },
+        {
+          "name": "BY_LAWS_UPDATED",
+          "type": "esriFieldTypeString",
+          "alias": "BY_LAWS_UPDATED"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "COT_MAP_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "COT_MAP_NO"
+        },
+        {
+          "name": "KEYID",
+          "type": "esriFieldTypeDouble",
+          "alias": "KEYID"
+        },
+        {
+          "name": "NBA_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NBA_ID"
+        },
+        {
+          "name": "COALITIONS",
+          "type": "esriFieldTypeString",
+          "alias": "COALITIONS"
+        },
+        {
+          "name": "NORTH_BOUNDARY",
+          "type": "esriFieldTypeString",
+          "alias": "NORTH_BOUNDARY"
+        },
+        {
+          "name": "EAST_BOUNDARY",
+          "type": "esriFieldTypeString",
+          "alias": "EAST_BOUNDARY"
+        },
+        {
+          "name": "WEST_BOUNDARY",
+          "type": "esriFieldTypeString",
+          "alias": "WEST_BOUNDARY"
+        },
+        {
+          "name": "SOUTH_BOUNDARY",
+          "type": "esriFieldTypeString",
+          "alias": "SOUTH_BOUNDARY"
+        },
+        {
+          "name": "LAST_MAILING",
+          "type": "esriFieldTypeDate",
+          "alias": "Date of Last Mailing"
+        },
+        {
+          "name": "MAILING_URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL to last mailing"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2868"
+  ],
+  "cors_enabled": true,
+  "response_ms": 845,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

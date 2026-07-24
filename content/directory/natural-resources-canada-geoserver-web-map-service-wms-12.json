@@ -1,0 +1,620 @@
+{
+  "slug": "natural-resources-canada-geoserver-web-map-service-wms-12",
+  "service_key": "OGC WMS:https://cwfis.cfs.nrcan.gc.ca/geoserver/public/ows?SERVICE=WMS&LAYERS=m3_polygons_current%2Chotspots_last24hrs&REQUEST=GetCapabilities&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=null&CRS=EPSG%3A3857&TRANSPARENT=TRUE&_ts=1782619824919",
+  "type": "OGC WMS",
+  "url": "https://cwfis.cfs.nrcan.gc.ca/geoserver/public/ows?SERVICE=WMS&LAYERS=m3_polygons_current%2Chotspots_last24hrs&REQUEST=GetCapabilities&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=null&CRS=EPSG%3A3857&TRANSPARENT=TRUE&_ts=1782619824919",
+  "title": "GeoServer Web Map Service",
+  "description": "Canadian forest fire monitoring with current fire polygons and risk indices.",
+  "abstract": "A compliant implementation of WMS plus most of the SLD extension (dynamic styling). Can also generate PDF, SVG, KML, GeoRSS",
+  "provider": "Natural Resources Canada",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "safety",
+      "confidence": "high"
+    }
+  ],
+  "bbox": [
+    -148.79396277485176,
+    39.63723640922159,
+    -31.837791805065713,
+    73.5244572402757
+  ],
+  "layers": [
+    {
+      "id": "NFDB_point",
+      "name": "NFDB_point",
+      "title": "National Fire Database fire point data - Large fires only ≥ 200 hectares (1970-2024)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "adi",
+      "name": "adi",
+      "title": "Atmospheric Dispersion Index",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "basemap_inside_bndry",
+      "name": "basemap_inside_bndry",
+      "title": "basemap_inside_bndry",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "basemap_land",
+      "name": "basemap_land",
+      "title": "basemap_land",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "bui",
+      "name": "bui",
+      "title": "Buildup Index",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "bui_current",
+      "name": "bui_current",
+      "title": "Buildup Index / Indice de combustible disponible (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "cfb",
+      "name": "cfb",
+      "title": "Crown Fraction Burned",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "cfb_current",
+      "name": "cfb_current",
+      "title": "Crown Fraction Burned / Fraction consumée des cimes (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "cffdrs_fbp_fuel_types",
+      "name": "cffdrs_fbp_fuel_types",
+      "title": "CFFDRS Fire Behaviour Prediction (FBP) Fuel Types 2024",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "cffdrs_fbp_fuel_types_100m",
+      "name": "cffdrs_fbp_fuel_types_100m",
+      "title": "100m CFFDRS Fire Behaviour Prediction (FBP) Fuel Types 2024",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "currentSmoke",
+      "name": "currentSmoke",
+      "title": "Wildfire smoke / Daily PM2.5 surface concentration",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "dc",
+      "name": "dc",
+      "title": "Drought Code",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "dc_current",
+      "name": "dc_current",
+      "title": "Drought Code / Indice de sécheresse (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "dmc",
+      "name": "dmc",
+      "title": "Duff Moisture Code",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "dmc_current",
+      "name": "dmc_current",
+      "title": "Duff Moisture Code / Indice d’humidité de l’humus (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "dmix",
+      "name": "dmix",
+      "title": "Transport Wind Vector (direction)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "dsr",
+      "name": "dsr",
+      "title": "Daily Severity Rating",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "dsr_current",
+      "name": "dsr_current",
+      "title": "Daily Severity Rating / Indice journalier de sévérité (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "elevation_250m",
+      "name": "elevation_250m",
+      "title": "Elevation of Canada (250m)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr",
+      "name": "fdr",
+      "title": "Fire Danger",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260724xf",
+      "name": "fdr20260724xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260725xf",
+      "name": "fdr20260725xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-25",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260726sf",
+      "name": "fdr20260726sf",
+      "title": "Fire Danger / Risque d'incendie (SCRIBE forecast / Prévision SCRIBE) - 2026-07-26",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260726xf",
+      "name": "fdr20260726xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-26",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260727xf",
+      "name": "fdr20260727xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-27",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260728xf",
+      "name": "fdr20260728xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-28",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260729xf",
+      "name": "fdr20260729xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-29",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260730xf",
+      "name": "fdr20260730xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-30",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260731xf",
+      "name": "fdr20260731xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-31",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260801xf",
+      "name": "fdr20260801xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-08-01",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260802xf",
+      "name": "fdr20260802xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-08-02",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260803xf",
+      "name": "fdr20260803xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-08-03",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260804xf",
+      "name": "fdr20260804xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-08-04",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr20260805xf",
+      "name": "fdr20260805xf",
+      "title": "Fire Danger / Risque d'incendie (NAEFS forecast / Prévision NAEFS) - 2026-08-05",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr_current",
+      "name": "fdr_current",
+      "title": "Fire Danger / Risque d'incendie (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fdr_current_shp",
+      "name": "fdr_current_shp",
+      "title": "Fire Danger polygon",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "ffmc",
+      "name": "ffmc",
+      "title": "Fine Fuel Moisture Code",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "ffmc_current",
+      "name": "ffmc_current",
+      "title": "Fine Fuel Moisture Code / Indice de combustible léger (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "firewx_naefs",
+      "name": "firewx_naefs",
+      "title": "Forecast weather stations (NAEFS)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "firewx_scribe",
+      "name": "firewx_scribe",
+      "title": "Forecast weather stations (SCRIBE)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "firewx_scribe_fcst",
+      "name": "firewx_scribe_fcst",
+      "title": "Forecast weather stations (SCRIBE)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "firewx_stns",
+      "name": "firewx_stns",
+      "title": "Reporting weather stations",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "firewx_stns_current",
+      "name": "firewx_stns_current",
+      "title": "Reporting weather stations",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fmc",
+      "name": "fmc",
+      "title": "Foliar Moisture Content",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fmc_current",
+      "name": "fmc_current",
+      "title": "Foliar Moisture Content / Humidité foliaire (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "ft",
+      "name": "ft",
+      "title": "Fire Type",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "ft_current",
+      "name": "ft_current",
+      "title": "Fire Type / Description d’incendie (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fwi",
+      "name": "fwi",
+      "title": "Fire Weather Index",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "fwi_current",
+      "name": "fwi_current",
+      "title": "Fire Weather Index / Indice Forêt-Météo (SCRIBE forecast / Prévisions SCRIBE) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "grasscuring",
+      "name": "grasscuring",
+      "title": "Grass Curing",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "greenup",
+      "name": "greenup",
+      "title": "Deciduous Green-up",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi",
+      "name": "hfi",
+      "title": "Head Fire Intensity",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260724xf",
+      "name": "hfi20260724xf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-24",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260725xf",
+      "name": "hfi20260725xf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-25",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260726sf",
+      "name": "hfi20260726sf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (SCRIBE forecast / Prévision SCRIBE) - 2026-07-26",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260726xf",
+      "name": "hfi20260726xf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-26",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260727xf",
+      "name": "hfi20260727xf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-27",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260728xf",
+      "name": "hfi20260728xf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-28",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260729xf",
+      "name": "hfi20260729xf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-29",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "hfi20260730xf",
+      "name": "hfi20260730xf",
+      "title": "Head Fire Intensity / Intensité du front de l’incendie (NAEFS forecast / Prévision NAEFS) - 2026-07-30",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "image/png",
+    "application/atom+xml",
+    "application/json;type=utfgrid",
+    "application/pdf",
+    "application/rss+xml",
+    "application/vnd.google-earth.kml+xml",
+    "application/vnd.google-earth.kml+xml;mode=networklink",
+    "application/vnd.google-earth.kmz",
+    "image/geotiff",
+    "image/geotiff8",
+    "image/gif",
+    "image/jpeg",
+    "image/png; mode=8bit",
+    "image/svg+xml",
+    "image/tiff",
+    "image/tiff8",
+    "image/vnd.jpeg-png",
+    "image/vnd.jpeg-png8",
+    "text/html; subtype=openlayers",
+    "text/html; subtype=openlayers2",
+    "text/html; subtype=openlayers3"
+  ],
+  "crs": [
+    "EPSG:3978",
+    "EPSG:2294",
+    "EPSG:2295",
+    "EPSG:3005",
+    "EPSG:3347",
+    "EPSG:3395",
+    "EPSG:3400",
+    "EPSG:3401",
+    "EPSG:3571",
+    "EPSG:3572",
+    "EPSG:3573",
+    "EPSG:3574",
+    "EPSG:3575",
+    "EPSG:3576",
+    "EPSG:3857",
+    "EPSG:4269",
+    "EPSG:4326",
+    "EPSG:26707",
+    "EPSG:26708",
+    "EPSG:26709",
+    "EPSG:26710",
+    "EPSG:26711",
+    "EPSG:26712",
+    "EPSG:26713",
+    "EPSG:26714",
+    "EPSG:26715",
+    "EPSG:26716",
+    "EPSG:26717",
+    "EPSG:26718",
+    "EPSG:26719",
+    "EPSG:26720",
+    "EPSG:26721",
+    "EPSG:26722",
+    "EPSG:26907",
+    "EPSG:26908",
+    "EPSG:26909",
+    "EPSG:26910",
+    "EPSG:26911",
+    "EPSG:26912",
+    "EPSG:26913",
+    "EPSG:26914",
+    "EPSG:26915",
+    "EPSG:26916",
+    "EPSG:26917",
+    "EPSG:26918",
+    "EPSG:26919",
+    "EPSG:26920",
+    "EPSG:26921",
+    "EPSG:26922",
+    "EPSG:32181",
+    "EPSG:32182",
+    "EPSG:32183",
+    "EPSG:32184",
+    "EPSG:32185",
+    "EPSG:32186",
+    "EPSG:32187",
+    "EPSG:32188",
+    "EPSG:32189",
+    "EPSG:32190",
+    "EPSG:32191",
+    "EPSG:32192",
+    "EPSG:32193",
+    "EPSG:32194",
+    "EPSG:32195",
+    "EPSG:32196",
+    "EPSG:32197",
+    "EPSG:32198",
+    "EPSG:41001",
+    "EPSG:42101",
+    "EPSG:42304",
+    "EPSG:900913",
+    "CRS:84"
+  ],
+  "cors_enabled": true,
+  "response_ms": 907,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

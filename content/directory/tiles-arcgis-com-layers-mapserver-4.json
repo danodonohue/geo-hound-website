@@ -1,0 +1,93 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver-4",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/JZM7qJpmv7vJ0Hzx/arcgis/rest/services/DRAFT_WWNP_Runoff_Attenuation_Features_1in100_AEP/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/JZM7qJpmv7vJ0Hzx/arcgis/rest/services/DRAFT_WWNP_Runoff_Attenuation_Features_1in100_AEP/MapServer",
+  "title": "Layers",
+  "description": "High flow accumulation areas for temporary water storage and flood attenuation",
+  "abstract": "Runoff Attenuation Features Potential is our best estimate of locations of high flow accumulation across the land surface or in smaller channels, where it may be possible to temporarily store water and attenuate flooding during high flows. The dataset is designed to support signposting of areas where to target enhanced storage. It is based upon the Risk of Flooding from Surface Water datasets and identifies areas of high flow accumulations for the 1% Annual Exceedance Probability surface water maps. The areas of ponding or accumulation are between 100 and 5000 metres squared, and have been tagged where they fall on an area of slope steeper than 6% as gully blocking opportunities. All the potential areas have been constrained so that they are not in urban areas or on roads, rails or canals.<div><br /></div><div>The data does not does not provide information on design, which may need to consider issues such as drain-down between flood events. It is important to note that land ownership and change to flood risk have not been considered. Locations identified may have more recent building or land use than available.</div><div><br /></div><div>A GIS tool developed by JBA, called JRAFF (JBA Runoff Attenuation Feature Finder) was used to analyse potential for Runoff Attenuation Features. This identifies areas of high flow accumulation from the Risk of Flooding from Surface Water Depth 1 percent annual chance map that could be targeted as opportunities for enhanced temporary storage. OS Terrain 50 (2016) was used to determine gully blocking potential, based on a threshold of &gt; 6 degrees (10%). A constraint layer was applied based on CORINE Land Cover Urban layer (2012), OS Open Map Local – Roads, Rail and Building layers (2016) and OS Open Rivers – Canal layer (2016).</div>",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Runoff Attenuation Features 1% AEP",
+      "title": "Runoff Attenuation Features 1% AEP",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "gridcode",
+          "type": "esriFieldTypeInteger",
+          "alias": "gridcode"
+        },
+        {
+          "name": "Area_m2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_m2"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Mean_Slope",
+          "type": "esriFieldTypeDouble",
+          "alias": "Mean_Slope"
+        },
+        {
+          "name": "RAF_Type",
+          "type": "esriFieldTypeString",
+          "alias": "RAF_Type"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 397,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

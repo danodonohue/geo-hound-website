@@ -1,1 +1,13 @@
-[]
+[
+  "ESRI MapServer:https://gis.mstn.govt.nz/arcgis/rest/services/Services/PrivateUtilitySchemes/MapServer",
+  "ESRI MapServer:https://map.bedford.gov.uk/arcgis/rest/services/Bedford_Internal_Use/External_Watermark/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/portal/sharing/servers/f2abe9750e9f4dde82d2aabe07956feb/rest/services/Environment_Intranet/Air_Quality/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Environment_Intranet/Ecology_and_Geology/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/portal/sharing/servers/0cb98caa4f844a4aa29c2c7ab9ecaf15/rest/services/Environment_Intranet/Flood_Risk/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Environment_Intranet/Historic_Environment/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/portal/sharing/servers/0fca693663154b2bb55759f110e46db8/rest/services/Environment_Intranet/Landscapes/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Corporate_Intranet/base_Contours/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/portal/sharing/servers/c037dc8f93c946d7ad30049afc0b0f76/rest/services/Corporate_Intranet/TithePolygons/MapServer",
+  "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Environment_Intranet/Water_Quality/MapServer",
+  "ESRI MapServer:https://dnrmaps.wi.gov/arcgis/rest/services/LF_DML/LF_AGOL_STAGING_WTM_Ext/MapServer"
+]

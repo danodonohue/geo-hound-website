@@ -1,0 +1,146 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/JZM7qJpmv7vJ0Hzx/arcgis/rest/services/DRAFT_TC_WWNP_Combined_Woodland_Potential/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/JZM7qJpmv7vJ0Hzx/arcgis/rest/services/DRAFT_TC_WWNP_Combined_Woodland_Potential/MapServer",
+  "title": "Layers",
+  "description": "Floodplain and riparian woodland planting potential for flood attenuation and ecology",
+  "abstract": "WWNP Combined Woodland Planting Potential is our best estimate of locations where tree planting may be possible on the floodplain, close to flow pathways and across the wider catchment. <div><br /></div><div>It is made up of three layers:</div><div><br /></div><div><b>WWNP Floodplain Woodland Planting Potential</b> is our best estimate of locations where tree planting on the floodplain may be possible, and effective to attenuate flooding. The dataset is designed to support signposting of areas of floodplain not already wooded. The dataset is based upon fluvial Flood Zone 2 of the Flood Map for Planning. A set of open access constraints data was used to erase areas which contained existing woodland, watercourses, peat, roads, rail and urban locations.<div><br /></div><div>The information provided is largely based on modelled data and open constraints data, and is therefore indicative rather than specific. Locations identified may have more recent building or land use than available data indicates. It is important to note that land ownership and change to flood risk have not been considered, and it may be necessary to model the impacts of significant planting.</div><div><br /></div><div>The Environment Agency’s Flood Map for Planning (2016) - Flood Zone 2 (0.1% AEP) was used to delineate areas close to the watercourse in the floodplain which may be suitable for tree planting. The ‘Woodland Constraints’ data was then applied, masking existing woodland, watercourses, peat, roads, rail and urban areas.</div><div><br /></div><div><b>WWNP Riparian Woodland Potential</b> is our best estimate of locations where tree planting may be possible on smaller floodplains close to flow pathways, and effective to attenuate flooding. The dataset is designed to support signposting of riparian areas not already wooded. The dataset is based upon a 50m buffer of available OS Open Data river networks. A set of open access constraints data was used to erase areas which contained existing woodland, watercourses, peat, roads, rail and urban locations.</div><div><br /></div><div>The information provided is largely based on open data, and is indicative rather than specific. Locations identified may have more recent building or land use than available data indicates. It is important to note that land ownership and change to flood risk have not been considered, and it may be necessary to model the impacts of significant planting.</div><div><br /></div><div>A 50m buffer was created around OS river network datasets to identify potential locations for riparian tree planting. This data used included: OS OpenMap - Surface Water Line, OS OpenMap - Surface Water Area and OS Open Rivers (2016).  The ‘Woodland Constraints’ data was then applied, masking existing woodland, watercourses, peat, roads, rail and urban areas.</div><div><br /></div><div><b>WWNP Wider Catchment Woodland Potential</b> is our best estimate of locations where there are slowly permeable soils, where scrub and tree planting may be most effective to increase infiltration and hydrological losses. The dataset is designed to support signposting of areas not already wooded. The dataset is based upon the 1:50k BGS geology survey, and relies upon identifying drift and bedrock geologies that are characteristic of slowly permeable soils. A set of open access constraints data was used to erase areas which contained existing woodland, watercourses, peat, roads, rail and urban locations.</div><div><br /></div><div>The information provided is largely based on a 100m gridded version of the BGS 1:50k superficial and bedrock data, along with open constraints data, and is indicative rather than specific. Locations identified may have more recent building or land use than available data indicates. It is important to note that land ownership and change to flood risk have not been considered, and it may be necessary to model the impacts of significant planting.</div><div><br /></div><div>The ‘Superficial Deposits’ and ‘Bedrock Geology’ themes from the BGS Geology 50k map data were used to identify areas of slowly permeable soils where tree planting may increase infiltration and hydrological losses. The ‘Woodland Constraints’ data was then applied, masking existing woodland, watercourses, peat, roads, rail and urban areas.</div></div>",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "forestry",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "WWNP Potential for Floodplain Tree Planting",
+      "title": "WWNP Potential for Floodplain Tree Planting",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Area_m2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_m2"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "WWNP Potential for Riparian Tree Planting",
+      "title": "WWNP Potential for Riparian Tree Planting",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Area_m2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_m2"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "WWNP Potential for Wider Catchment Tree Planting",
+      "title": "WWNP Potential for Wider Catchment Tree Planting",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Area_m2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_m2"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 414,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

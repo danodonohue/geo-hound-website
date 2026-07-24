@@ -1,0 +1,518 @@
+{
+  "slug": "logis-loudoun-gov-electiondistricts-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/ElectionDistricts/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/ElectionDistricts/MapServer",
+  "title": "ElectionDistricts",
+  "description": "Election districts, precincts, and polling places for Loudoun County.",
+  "abstract": "Loudoun County, Virginia election districts",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "demographics",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Polling Places",
+      "title": "Polling Places",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PP_NUMBER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PP_NUMBER"
+        },
+        {
+          "name": "PP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PP_NAME"
+        },
+        {
+          "name": "PP_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "PP_ADDRESS"
+        },
+        {
+          "name": "PP_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "PP_UPD_DATE"
+        },
+        {
+          "name": "PP_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "PP_DISTRICT"
+        },
+        {
+          "name": "PP_PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "PP_PRECINCT"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "VA House 2021",
+      "title": "VA House 2021",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HO_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "HO_NUMBER"
+        },
+        {
+          "name": "HO_POP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "HO_POP2020"
+        },
+        {
+          "name": "HO_HHPOP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "HO_HHPOP2020"
+        },
+        {
+          "name": "HO_GQPOP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "HO_GQPOP2020"
+        },
+        {
+          "name": "HO_HUNIT2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "HO_HUNIT2020"
+        },
+        {
+          "name": "HO_HHLDS2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "HO_HHLDS2020"
+        },
+        {
+          "name": "HO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "HO_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "VA Senate 2021",
+      "title": "VA Senate 2021",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SE_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "SE_NUMBER"
+        },
+        {
+          "name": "SE_POP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "SE_POP2020"
+        },
+        {
+          "name": "SE_HHPOP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "SE_HHPOP2020"
+        },
+        {
+          "name": "SE_GQPOP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "SE_GQPOP2020"
+        },
+        {
+          "name": "SE_HUNIT2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "SE_HUNIT2020"
+        },
+        {
+          "name": "SE_HHLD2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "SE_HHLD2020"
+        },
+        {
+          "name": "SE_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SE_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "VA House 2011",
+      "title": "VA House 2011",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HO_NUMBER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HO_NUMBER"
+        },
+        {
+          "name": "HO_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "HO_POP2010"
+        },
+        {
+          "name": "HO_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "HO_HUNITS2010"
+        },
+        {
+          "name": "HO_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "HO_HHLDS2010"
+        },
+        {
+          "name": "HO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "HO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "VA Senate 2011",
+      "title": "VA Senate 2011",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SE_NUMBER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SE _NUMBER"
+        },
+        {
+          "name": "SE_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "SE _POP2010"
+        },
+        {
+          "name": "SE_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "SE _HUNITS2010"
+        },
+        {
+          "name": "SE_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "SE _HHLDS2010"
+        },
+        {
+          "name": "SE_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SE _UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Precincts",
+      "title": "Precincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PR_NAME"
+        },
+        {
+          "name": "PR_NUMBER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PR_NUMBER"
+        },
+        {
+          "name": "PR_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "PR_UPD_DATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "PR_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "PR_DISTRICT"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Election Districts 2022",
+      "title": "Election Districts 2022",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "EL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "EL_NAME"
+        },
+        {
+          "name": "EL_NUMBER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "EL_NUMBER"
+        },
+        {
+          "name": "EL_POP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "EL_POP2020"
+        },
+        {
+          "name": "EL_HHPOP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "EL_HHPOP2020"
+        },
+        {
+          "name": "EL_GQPOP2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "EL_GQPOP2020"
+        },
+        {
+          "name": "EL_HUNIT2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "EL_HUNIT2020"
+        },
+        {
+          "name": "EL_HHLD2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "EL_HHLD2020"
+        },
+        {
+          "name": "EL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EL_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Election Districts 2011",
+      "title": "Election Districts 2011",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "EL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "EL_NAME"
+        },
+        {
+          "name": "EL_NUMBER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "EL_NUMBER"
+        },
+        {
+          "name": "EL_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "EL_POP2010"
+        },
+        {
+          "name": "EL_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "EL_HUNITS2010"
+        },
+        {
+          "name": "EL_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "EL_HHLDS2010"
+        },
+        {
+          "name": "EL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EL_UPD_DATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 223,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

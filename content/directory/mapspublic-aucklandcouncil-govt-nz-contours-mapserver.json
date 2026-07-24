@@ -1,0 +1,780 @@
+{
+  "slug": "mapspublic-aucklandcouncil-govt-nz-contours-mapserver",
+  "service_key": "ESRI MapServer:https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/Contours/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/Contours/MapServer",
+  "title": "Contours",
+  "description": "Elevation contours at multiple intervals for Auckland region",
+  "abstract": "Street address",
+  "provider": "mapspublic.aucklandcouncil.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Contours 2016",
+      "title": "Contours 2016",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Contours 0m",
+      "title": "Contours 0m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Contours 025m Intervals",
+      "title": "Contours 025m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Contours 25m",
+      "title": "Contours 25m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Contours 10m",
+      "title": "Contours 10m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Contours 5m",
+      "title": "Contours 5m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Contours 2m",
+      "title": "Contours 2m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Contours 1m",
+      "title": "Contours 1m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Contours 050m",
+      "title": "Contours 050m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Contours 025m",
+      "title": "Contours 025m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Contours 050m Intervals",
+      "title": "Contours 050m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Contours 25m",
+      "title": "Contours 25m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Contours 10m",
+      "title": "Contours 10m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Contours 5m",
+      "title": "Contours 5m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Contours 2m",
+      "title": "Contours 2m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Contours 1m",
+      "title": "Contours 1m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Contours 050m",
+      "title": "Contours 050m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Contours 1m Intervals",
+      "title": "Contours 1m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Contours 25m",
+      "title": "Contours 25m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Contours 10m",
+      "title": "Contours 10m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Contours 5m",
+      "title": "Contours 5m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Contours 2m",
+      "title": "Contours 2m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Contours 1m",
+      "title": "Contours 1m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Contours 2m Intervals",
+      "title": "Contours 2m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Contours 10m",
+      "title": "Contours 10m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Contours 2m",
+      "title": "Contours 2m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Contours 5m Intervals",
+      "title": "Contours 5m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Contours 25m",
+      "title": "Contours 25m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Contours 10m",
+      "title": "Contours 10m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Contours 5m",
+      "title": "Contours 5m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Contours 10m Intervals",
+      "title": "Contours 10m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Contours 10m",
+      "title": "Contours 10m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Contours 25m Intervals",
+      "title": "Contours 25m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Contours 25m",
+      "title": "Contours 25m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Contours 50m Intervals",
+      "title": "Contours 50m Intervals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Contours 100m",
+      "title": "Contours 100m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Contours 50m",
+      "title": "Contours 50m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Contours 100m Intervals",
+      "title": "Contours 100m Intervals",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 208,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

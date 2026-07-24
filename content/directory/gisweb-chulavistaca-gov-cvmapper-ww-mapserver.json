@@ -1,0 +1,988 @@
+{
+  "slug": "gisweb-chulavistaca-gov-cvmapper-ww-mapserver",
+  "service_key": "ESRI MapServer:https://gisweb.chulavistaca.gov/arcgis/rest/services/cvmapper/cvmapper_WW/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisweb.chulavistaca.gov/arcgis/rest/services/cvmapper/cvmapper_WW/MapServer",
+  "title": "cvmapper_WW",
+  "description": "Wastewater infrastructure including mains, junctions, and laterals for public works.",
+  "abstract": "Contains all the operational layers used for Public Works field mapping application.",
+  "provider": "gisweb.chulavistaca.gov",
+  "place": {
+    "country": "United States",
+    "state": "California",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 6,
+      "name": "Wastewater Smart Cover",
+      "title": "Wastewater Smart Cover",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureType"
+        },
+        {
+          "name": "OwnedBy",
+          "type": "esriFieldTypeString",
+          "alias": "OwnedBy"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "MeterNumber",
+          "type": "esriFieldTypeString",
+          "alias": "MeterNumber"
+        },
+        {
+          "name": "StationName",
+          "type": "esriFieldTypeString",
+          "alias": "StationName"
+        },
+        {
+          "name": "HasSmartCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HasSmartCover"
+        },
+        {
+          "name": "DrawingNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DrawingNumber"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "CCTVID",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVID"
+        },
+        {
+          "name": "LastCleanDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastCleanDate"
+        },
+        {
+          "name": "LastInspectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastInspectionDate"
+        },
+        {
+          "name": "LastSyncDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastSyncDate"
+        },
+        {
+          "name": "GBALink",
+          "type": "esriFieldTypeInteger",
+          "alias": "GBALink"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Wastewater Mains Critical Maintenance",
+      "title": "Wastewater Mains Critical Maintenance",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "FromStructure",
+          "type": "esriFieldTypeString",
+          "alias": "FromStructure"
+        },
+        {
+          "name": "ToStructure",
+          "type": "esriFieldTypeString",
+          "alias": "ToStructure"
+        },
+        {
+          "name": "PipeLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "PipeLength"
+        },
+        {
+          "name": "Width",
+          "type": "esriFieldTypeInteger",
+          "alias": "Width"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Flow",
+          "type": "esriFieldTypeString",
+          "alias": "Flow"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "DrawingNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DrawingNumber"
+        },
+        {
+          "name": "AcceptDate",
+          "type": "esriFieldTypeDate",
+          "alias": "AcceptDate"
+        },
+        {
+          "name": "OwnedBy",
+          "type": "esriFieldTypeString",
+          "alias": "OwnedBy"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "CleaningSeq",
+          "type": "esriFieldTypeDouble",
+          "alias": "CleaningSeq"
+        },
+        {
+          "name": "CriticalSeq",
+          "type": "esriFieldTypeDouble",
+          "alias": "CriticalSeq"
+        },
+        {
+          "name": "BasinName",
+          "type": "esriFieldTypeString",
+          "alias": "BasinName"
+        },
+        {
+          "name": "PWMapGrid",
+          "type": "esriFieldTypeString",
+          "alias": "PWMapGrid"
+        },
+        {
+          "name": "LastCleanDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastCleanDate"
+        },
+        {
+          "name": "LastInspectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastInspectionDate"
+        },
+        {
+          "name": "LastSyncDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastSyncDate"
+        },
+        {
+          "name": "GBALink",
+          "type": "esriFieldTypeInteger",
+          "alias": "GBALink"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CCTVID",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVID"
+        },
+        {
+          "name": "CCTVIDFrom",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVIDFrom"
+        },
+        {
+          "name": "CCTVIDTo",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVIDTo"
+        },
+        {
+          "name": "IsCritical",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "IsCritical"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Wastewater Junctions",
+      "title": "Wastewater Junctions",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Type"
+        },
+        {
+          "name": "OwnedBy",
+          "type": "esriFieldTypeString",
+          "alias": "Owned By"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "MeterNumber",
+          "type": "esriFieldTypeString",
+          "alias": "MeterNumber"
+        },
+        {
+          "name": "StationName",
+          "type": "esriFieldTypeString",
+          "alias": "StationName"
+        },
+        {
+          "name": "HasSmartCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HasSmartCover"
+        },
+        {
+          "name": "DrawingNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DrawingNumber"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "CCTVID",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVID"
+        },
+        {
+          "name": "LastCleanDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastCleanDate"
+        },
+        {
+          "name": "LastInspectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastInspectionDate"
+        },
+        {
+          "name": "LastSyncDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastSyncDate"
+        },
+        {
+          "name": "GBALink",
+          "type": "esriFieldTypeInteger",
+          "alias": "GBALink"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Wastewater Meters",
+      "title": "Wastewater Meters",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Type"
+        },
+        {
+          "name": "OwnedBy",
+          "type": "esriFieldTypeString",
+          "alias": "Owned By"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "MeterNumber",
+          "type": "esriFieldTypeString",
+          "alias": "MeterNumber"
+        },
+        {
+          "name": "StationName",
+          "type": "esriFieldTypeString",
+          "alias": "StationName"
+        },
+        {
+          "name": "HasSmartCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HasSmartCover"
+        },
+        {
+          "name": "DrawingNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DrawingNumber"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "CCTVID",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVID"
+        },
+        {
+          "name": "LastCleanDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastCleanDate"
+        },
+        {
+          "name": "LastInspectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastInspectionDate"
+        },
+        {
+          "name": "LastSyncDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastSyncDate"
+        },
+        {
+          "name": "GBALink",
+          "type": "esriFieldTypeInteger",
+          "alias": "GBALink"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Wastewater Mains",
+      "title": "Wastewater Mains",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "FromStructure",
+          "type": "esriFieldTypeString",
+          "alias": "FromStructure"
+        },
+        {
+          "name": "ToStructure",
+          "type": "esriFieldTypeString",
+          "alias": "ToStructure"
+        },
+        {
+          "name": "PipeLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "PipeLength"
+        },
+        {
+          "name": "Width",
+          "type": "esriFieldTypeInteger",
+          "alias": "Width"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Flow",
+          "type": "esriFieldTypeString",
+          "alias": "Flow"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "DrawingNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DrawingNumber"
+        },
+        {
+          "name": "AcceptDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Accept Date (ShortDate)"
+        },
+        {
+          "name": "OwnedBy",
+          "type": "esriFieldTypeString",
+          "alias": "Owned By"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "IsCritical",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "IsCritical"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "CleaningSeq",
+          "type": "esriFieldTypeDouble",
+          "alias": "CleaningSeq"
+        },
+        {
+          "name": "CriticalSeq",
+          "type": "esriFieldTypeDouble",
+          "alias": "CriticalSeq"
+        },
+        {
+          "name": "BasinName",
+          "type": "esriFieldTypeString",
+          "alias": "BasinName"
+        },
+        {
+          "name": "PWMapGrid",
+          "type": "esriFieldTypeString",
+          "alias": "PWMapGrid"
+        },
+        {
+          "name": "CCTVID",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVID"
+        },
+        {
+          "name": "CCTVIDFrom",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVIDFrom"
+        },
+        {
+          "name": "CCTVIDTo",
+          "type": "esriFieldTypeString",
+          "alias": "CCTVIDTo"
+        },
+        {
+          "name": "LastCleanDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastCleanDate"
+        },
+        {
+          "name": "LastInspectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastInspectionDate"
+        },
+        {
+          "name": "LastSyncDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastSyncDate"
+        },
+        {
+          "name": "GBALink",
+          "type": "esriFieldTypeInteger",
+          "alias": "GBALink"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Wastewater Taps",
+      "title": "Wastewater Taps",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TapType",
+          "type": "esriFieldTypeString",
+          "alias": "TapType"
+        },
+        {
+          "name": "DistanceFromMH",
+          "type": "esriFieldTypeDouble",
+          "alias": "DistanceFromMH"
+        },
+        {
+          "name": "DistanceFlowDir",
+          "type": "esriFieldTypeString",
+          "alias": "DistanceFlowDir"
+        },
+        {
+          "name": "Clock",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Clock"
+        },
+        {
+          "name": "TapRotation",
+          "type": "esriFieldTypeDouble",
+          "alias": "TapRotation"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "WWMainFID",
+          "type": "esriFieldTypeString",
+          "alias": "WWMainFID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Sewer Lateral Property",
+      "title": "Sewer Lateral Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "APN",
+          "type": "esriFieldTypeString",
+          "alias": "APN"
+        },
+        {
+          "name": "ImpPlan",
+          "type": "esriFieldTypeString",
+          "alias": "ImpPlan"
+        },
+        {
+          "name": "EasementDescription",
+          "type": "esriFieldTypeString",
+          "alias": "EasementDescription"
+        },
+        {
+          "name": "TapsMain",
+          "type": "esriFieldTypeString",
+          "alias": "TapsMain"
+        },
+        {
+          "name": "EntersProperty",
+          "type": "esriFieldTypeString",
+          "alias": "EntersProperty"
+        },
+        {
+          "name": "LateralDepth",
+          "type": "esriFieldTypeString",
+          "alias": "LateralDepth"
+        },
+        {
+          "name": "Front",
+          "type": "esriFieldTypeString",
+          "alias": "Front"
+        },
+        {
+          "name": "Side",
+          "type": "esriFieldTypeString",
+          "alias": "Side"
+        },
+        {
+          "name": "DyeTest",
+          "type": "esriFieldTypeDate",
+          "alias": "DyeTest"
+        },
+        {
+          "name": "CleanoutExposed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CleanoutExposed"
+        },
+        {
+          "name": "DistMeasuredFrom",
+          "type": "esriFieldTypeString",
+          "alias": "DistMeasuredFrom"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "HasCard",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HasCard"
+        },
+        {
+          "name": "HasDrawing",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HasDrawing"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Wastewater Basins",
+      "title": "Wastewater Basins",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAMES"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "LastModifiedby",
+          "type": "esriFieldTypeString",
+          "alias": "LastModifiedby"
+        },
+        {
+          "name": "LastModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastModifiedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreationDate"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102646"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1071,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "gis-wcc-govt-nz-imagery2021-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Cache/Imagery2021/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Cache/Imagery2021/MapServer",
+  "title": "Imagery2021",
+  "description": "Aerial photography from 2021 for Wellington City area",
+  "abstract": "Aerial photography 2021",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Imagery2021",
+      "title": "Imagery2021",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 213,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

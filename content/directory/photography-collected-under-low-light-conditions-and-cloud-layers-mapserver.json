@@ -1,0 +1,198 @@
+{
+  "slug": "photography-collected-under-low-light-conditions-and-cloud-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Imagery/Christchurch_Post_Earthquake_Jun_2011_Imagery/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Imagery/Christchurch_Post_Earthquake_Jun_2011_Imagery/MapServer",
+  "title": "Layers",
+  "description": "GIS service providing boundaries, imagery, geology data.",
+  "abstract": "10cm colour orthophotography of the area affected by the 22 February 2011 Christchurch earthquake.\nFlown on 24 February 2011 by NZ Aerial Mapping for the Christchurch Response Centre (CRC).\nProvided under Creative Commons Attribution 3.0 New Zealand license http://creativecommons.org/licenses/by/3.0/nz/",
+  "provider": "photography collected under low light conditions and cloud",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "high"
+    },
+    {
+      "name": "geology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Jun2011_Boundary",
+      "title": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Jun2011_Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Jun2011_Footprints",
+      "title": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Jun2011_Footprints",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 23,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

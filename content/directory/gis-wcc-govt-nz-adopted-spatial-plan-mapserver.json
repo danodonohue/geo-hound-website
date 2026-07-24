@@ -1,0 +1,939 @@
+{
+  "slug": "gis-wcc-govt-nz-adopted-spatial-plan-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/CDPP/Adopted_Spatial_Plan/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/CDPP/Adopted_Spatial_Plan/MapServer",
+  "title": "Adopted_Spatial_Plan",
+  "description": "GIS service providing infrastructure, transport, flood data.",
+  "abstract": "Adopted Spatial Plan",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Wellington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "SP_Adopted_CCSV_Anchors",
+      "title": "SP_Adopted_CCSV_Anchors",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Feature",
+          "type": "esriFieldTypeString",
+          "alias": "Feature"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "SymbolURL",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolURL"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "ReportURL",
+          "type": "esriFieldTypeString",
+          "alias": "ReportURL"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "SP_Adopted_CCSV_Connectors",
+      "title": "SP_Adopted_CCSV_Connectors",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Vision",
+          "type": "esriFieldTypeString",
+          "alias": "Vision"
+        },
+        {
+          "name": "Symbol_Colour",
+          "type": "esriFieldTypeString",
+          "alias": "Symbol_Colour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "ReportURL",
+          "type": "esriFieldTypeString",
+          "alias": "ReportURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "SP_Adopted_CCSV_NeighbourhoodsAreas",
+      "title": "SP_Adopted_CCSV_NeighbourhoodsAreas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Area_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Name"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "ReportURL",
+          "type": "esriFieldTypeString",
+          "alias": "ReportURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "SP_Adopted_CentralCityChanges",
+      "title": "SP_Adopted_CentralCityChanges",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "PopUp",
+          "type": "esriFieldTypeString",
+          "alias": "PopUp"
+        },
+        {
+          "name": "PropChange",
+          "type": "esriFieldTypeString",
+          "alias": "PropChange"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "SP_Adopted_CentresBusinessAreas",
+      "title": "SP_Adopted_CentresBusinessAreas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Area_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Name"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "SP_Adopted_CharacterPrecincts",
+      "title": "SP_Adopted_CharacterPrecincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CharacterPrecinct",
+          "type": "esriFieldTypeString",
+          "alias": "CharacterArea"
+        },
+        {
+          "name": "SubAreaName",
+          "type": "esriFieldTypeString",
+          "alias": "SubAreaName"
+        },
+        {
+          "name": "SubAreaDesc",
+          "type": "esriFieldTypeString",
+          "alias": "SubAreaDesc"
+        },
+        {
+          "name": "ReportURL",
+          "type": "esriFieldTypeString",
+          "alias": "ReportURL"
+        },
+        {
+          "name": "OutlineColour",
+          "type": "esriFieldTypeString",
+          "alias": "OutlineColour"
+        },
+        {
+          "name": "FillColour",
+          "type": "esriFieldTypeString",
+          "alias": "FillColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "AreaType",
+          "type": "esriFieldTypeString",
+          "alias": "AreaType"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "SP_Adopted_CommunityAmenityAccess",
+      "title": "SP_Adopted_CommunityAmenityAccess",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "gridcode",
+          "type": "esriFieldTypeInteger",
+          "alias": "gridcode"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "SP_Adopted_CommunityInfrastructure",
+      "title": "SP_Adopted_CommunityInfrastructure",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Feature",
+          "type": "esriFieldTypeString",
+          "alias": "Feature"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "SP_Adopted_HBA_ProjectedHousingDeficit",
+      "title": "SP_Adopted_HBA_ProjectedHousingDeficit",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "fill_colour"
+        },
+        {
+          "name": "demand_17_47",
+          "type": "esriFieldTypeInteger",
+          "alias": "demand_17_47"
+        },
+        {
+          "name": "capacity_17_47",
+          "type": "esriFieldTypeInteger",
+          "alias": "capacity_17_47"
+        },
+        {
+          "name": "difference_17_47",
+          "type": "esriFieldTypeInteger",
+          "alias": "difference_17_47"
+        },
+        {
+          "name": "description",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ReportURL",
+          "type": "esriFieldTypeString",
+          "alias": "report_link"
+        },
+        {
+          "name": "WCC_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Area"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "SP_Adopted_HousingDensityTypologies",
+      "title": "SP_Adopted_HousingDensityTypologies",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LocationType",
+          "type": "esriFieldTypeString",
+          "alias": "LocationType"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "DensityTypology",
+          "type": "esriFieldTypeString",
+          "alias": "DensityTypology"
+        },
+        {
+          "name": "TypologyDescription",
+          "type": "esriFieldTypeString",
+          "alias": "TypologyDescription"
+        },
+        {
+          "name": "GrowthPattern",
+          "type": "esriFieldTypeString",
+          "alias": "GrowthPattern"
+        },
+        {
+          "name": "ImageURL",
+          "type": "esriFieldTypeString",
+          "alias": "ImageURL"
+        },
+        {
+          "name": "ShortLabel",
+          "type": "esriFieldTypeString",
+          "alias": "ShortLabel"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "PopUpContent",
+          "type": "esriFieldTypeString",
+          "alias": "PopUpContent"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "SP_Adopted_IndicativeDevelopmentCostHazardAreas",
+      "title": "SP_Adopted_IndicativeDevelopmentCostHazardAreas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Dev_Cost",
+          "type": "esriFieldTypeString",
+          "alias": "Development Cost"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "SP_Adopted_InfrastructurePriorityBubbles",
+      "title": "SP_Adopted_InfrastructurePriorityBubbles",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Priority",
+          "type": "esriFieldTypeDouble",
+          "alias": "Priority"
+        },
+        {
+          "name": "TimeFrame",
+          "type": "esriFieldTypeString",
+          "alias": "TimeFrame"
+        },
+        {
+          "name": "TotalPop",
+          "type": "esriFieldTypeString",
+          "alias": "TotalPop"
+        },
+        {
+          "name": "TotalDwellings",
+          "type": "esriFieldTypeString",
+          "alias": "TotalDwellings"
+        },
+        {
+          "name": "Suburbs",
+          "type": "esriFieldTypeString",
+          "alias": "Suburbs"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "SP_Adopted_KeyTransportCorridors",
+      "title": "SP_Adopted_KeyTransportCorridors",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SourceDataURL",
+          "type": "esriFieldTypeString",
+          "alias": "OriginalDataURL"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Desc"
+        },
+        {
+          "name": "CorridorType",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "SP_Adopted_MaoriTracks",
+      "title": "SP_Adopted_MaoriTracks",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name_"
+        },
+        {
+          "name": "Property_Report_Note",
+          "type": "esriFieldTypeString",
+          "alias": "Property_Report_Note"
+        },
+        {
+          "name": "PopUp",
+          "type": "esriFieldTypeString",
+          "alias": "PopUp"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "SP_Adopted_MaoriPrecinctBoundaries",
+      "title": "SP_Adopted_MaoriPrecinctBoundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "prec_name",
+          "type": "esriFieldTypeString",
+          "alias": "prec_name"
+        },
+        {
+          "name": "Property_Report_Note",
+          "type": "esriFieldTypeString",
+          "alias": "Property_Report_Note"
+        },
+        {
+          "name": "PopUp",
+          "type": "esriFieldTypeString",
+          "alias": "PopUp"
+        },
+        {
+          "name": "SymbolColour",
+          "type": "esriFieldTypeString",
+          "alias": "SymbolColour"
+        },
+        {
+          "name": "MetadataURL",
+          "type": "esriFieldTypeString",
+          "alias": "MetadataURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "SP_Adopted_NaturalOpenSpaces",
+      "title": "SP_Adopted_NaturalOpenSpaces",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "SP_Adopted_NPSUD_Policy3cAreas",
+      "title": "SP_Adopted_NPSUD_Policy3cAreas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "SP_Adopted_OpportunitySites",
+      "title": "SP_Adopted_OpportunitySites",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "SP_Adopted_PublicOpenSpaces",
+      "title": "SP_Adopted_PublicOpenSpaces",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "SP_Adopted_SitesOfSignificanceToMaori",
+      "title": "SP_Adopted_SitesOfSignificanceToMaori",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "SP_Adopted_StatutoryAreas",
+      "title": "SP_Adopted_StatutoryAreas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "SP_Adopted_StrategicAssets",
+      "title": "SP_Adopted_StrategicAssets",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "SP_Adopted_SuburbCentralCityDescriptions",
+      "title": "SP_Adopted_SuburbCentralCityDescriptions",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 62,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

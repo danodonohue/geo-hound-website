@@ -1,0 +1,179 @@
+{
+  "slug": "arcgis-dnr-alaska-gov-surfaceclassification-legislativelydesignatedare-mapserver",
+  "service_key": "ESRI MapServer:https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/SurfaceClassification_LegislativelyDesignatedAreas/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/SurfaceClassification_LegislativelyDesignatedAreas/MapServer",
+  "title": "SurfaceClassification_LegislativelyDesignatedAreas",
+  "description": "Alaska legislatively designated areas showing protected lands and special use designations.",
+  "abstract": "Web feature service depicting Legislatively Designated Areas.",
+  "provider": "arcgis.dnr.alaska.gov",
+  "place": {
+    "country": "United States",
+    "state": "Alaska",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Legislative Designated Area",
+      "title": "Legislative Designated Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CASE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CASE_ID"
+        },
+        {
+          "name": "LDA_NAME_1",
+          "type": "esriFieldTypeString",
+          "alias": "LDA_NAME_1"
+        },
+        {
+          "name": "LDA_NAME_2",
+          "type": "esriFieldTypeString",
+          "alias": "LDA_NAME_2"
+        },
+        {
+          "name": "CSTYPDSCRP",
+          "type": "esriFieldTypeString",
+          "alias": "CSTYPDSCRP"
+        },
+        {
+          "name": "SPCLCDDSCR",
+          "type": "esriFieldTypeString",
+          "alias": "SPCLCDDSCR"
+        },
+        {
+          "name": "CSSTTSDSCR",
+          "type": "esriFieldTypeString",
+          "alias": "CSSTTSDSCR"
+        },
+        {
+          "name": "FILE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_TYPE"
+        },
+        {
+          "name": "FILENUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "FILENUMBER"
+        },
+        {
+          "name": "CASE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CASE_TYPE"
+        },
+        {
+          "name": "SPCLCD",
+          "type": "esriFieldTypeString",
+          "alias": "SPCLCD"
+        },
+        {
+          "name": "CASESTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "CASESTATUS"
+        },
+        {
+          "name": "CTSCLABEL",
+          "type": "esriFieldTypeString",
+          "alias": "CTSCLABEL"
+        },
+        {
+          "name": "CS_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "CS_LABEL"
+        },
+        {
+          "name": "MI_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "MI_LABEL"
+        },
+        {
+          "name": "DISPLAY",
+          "type": "esriFieldTypeString",
+          "alias": "DISPLAY"
+        },
+        {
+          "name": "INFO_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "INFO_LINK"
+        },
+        {
+          "name": "RFRSHDT",
+          "type": "esriFieldTypeDate",
+          "alias": "REFRESH_DATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102006"
+  ],
+  "cors_enabled": true,
+  "response_ms": 904,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

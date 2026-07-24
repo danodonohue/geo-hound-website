@@ -1,0 +1,48 @@
+{
+  "slug": "tiles-eu1-arcgis-com-capas-mapserver-3",
+  "service_key": "ESRI MapServer:https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/ESVC_RAS_50_100_cm_/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/ESVC_RAS_50_100_cm_/MapServer",
+  "title": "Capas",
+  "description": "Soil surface accumulation index data layer for 50-100 centimeter depth class.",
+  "abstract": "RAS 50-100 cm",
+  "provider": "tiles-eu1.arcgis.com",
+  "place": {
+    "country": "Spain",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "soils",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "ESVC_RAS_50_100_cm",
+      "title": "ESVC_RAS_50_100_cm",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1090,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

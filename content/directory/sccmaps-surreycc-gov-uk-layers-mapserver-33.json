@@ -1,0 +1,135 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-33",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_TrafficSurvey/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_TrafficSurvey/MapServer",
+  "title": "Layers",
+  "description": "Traffic survey data with vehicle counts and speeds.",
+  "abstract": "Roads & Transport - Bus stops",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 27,
+      "name": "Roads & Transport - Traffic survey",
+      "title": "Roads & Transport - Traffic survey",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE_",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "YEAR_",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "ROAD",
+          "type": "esriFieldTypeString",
+          "alias": "Road"
+        },
+        {
+          "name": "REF",
+          "type": "esriFieldTypeString",
+          "alias": "Reference"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Road name"
+        },
+        {
+          "name": "BETWEEN_ROADS",
+          "type": "esriFieldTypeString",
+          "alias": "Between roads"
+        },
+        {
+          "name": "NO_DAYS",
+          "type": "esriFieldTypeInteger",
+          "alias": "No. of days"
+        },
+        {
+          "name": "AV_WKDAY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Average weekday"
+        },
+        {
+          "name": "AV_7DAY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Average 7-day"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HGV_Percent",
+          "type": "esriFieldTypeDouble",
+          "alias": "HGV_Percent"
+        },
+        {
+          "name": "Mean_Spd",
+          "type": "esriFieldTypeDouble",
+          "alias": "Mean_Spd"
+        },
+        {
+          "name": "Percentile85",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile85"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 303,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

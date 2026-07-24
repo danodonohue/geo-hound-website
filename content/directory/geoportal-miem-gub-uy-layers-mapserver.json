@@ -1,0 +1,198 @@
+{
+  "slug": "geoportal-miem-gub-uy-layers-mapserver",
+  "service_key": "ESRI MapServer:https://geoportal.miem.gub.uy/arcgis1091/rest/services/Dinamige_2020/Unidades_Hidrogeologicas_Santa_Lucia/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://geoportal.miem.gub.uy/arcgis1091/rest/services/Dinamige_2020/Unidades_Hidrogeologicas_Santa_Lucia/MapServer",
+  "title": "Layers",
+  "description": "Hydrogeological units and water productivity in Santa Lucia basin.",
+  "abstract": "Unidades Hidrogeológicas Cuenca del Río Santa Lucía",
+  "provider": "geoportal.miem.gub.uy",
+  "place": {
+    "country": "Uruguay",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Unidades Hidrogeológicas Cuenca del Santa Lucía",
+      "title": "Unidades Hidrogeológicas Cuenca del Santa Lucía",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Productividad en base al caudal específico (Qs) promedio",
+      "title": "Productividad en base al caudal específico (Qs) promedio",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Referencia",
+          "type": "esriFieldTypeString",
+          "alias": "Referencia"
+        },
+        {
+          "name": "Tipos",
+          "type": "esriFieldTypeString",
+          "alias": "Tipos"
+        },
+        {
+          "name": "Cobertura",
+          "type": "esriFieldTypeString",
+          "alias": "Cobertura"
+        },
+        {
+          "name": "Tipo_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Tipo_Num"
+        },
+        {
+          "name": "Productiv",
+          "type": "esriFieldTypeString",
+          "alias": "Productiv"
+        },
+        {
+          "name": "Prod_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Prod_Num"
+        },
+        {
+          "name": "U_HL_AFL",
+          "type": "esriFieldTypeString",
+          "alias": "U_HL_AFL"
+        },
+        {
+          "name": "U_HL_SUB",
+          "type": "esriFieldTypeString",
+          "alias": "U_HL_SUB"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Dominio hidrogeológico y posibilidades de alumbramiento de agua",
+      "title": "Dominio hidrogeológico y posibilidades de alumbramiento de agua",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Referencia",
+          "type": "esriFieldTypeString",
+          "alias": "Referencia"
+        },
+        {
+          "name": "Tipos",
+          "type": "esriFieldTypeString",
+          "alias": "Tipos"
+        },
+        {
+          "name": "Cobertura",
+          "type": "esriFieldTypeString",
+          "alias": "Cobertura"
+        },
+        {
+          "name": "Tipo_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Tipo_Num"
+        },
+        {
+          "name": "Productiv",
+          "type": "esriFieldTypeString",
+          "alias": "Productiv"
+        },
+        {
+          "name": "Prod_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Prod_Num"
+        },
+        {
+          "name": "U_HL_AFL",
+          "type": "esriFieldTypeString",
+          "alias": "U_HL_AFL"
+        },
+        {
+          "name": "U_HL_SUB",
+          "type": "esriFieldTypeString",
+          "alias": "U_HL_SUB"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:32721"
+  ],
+  "cors_enabled": true,
+  "response_ms": 2240,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

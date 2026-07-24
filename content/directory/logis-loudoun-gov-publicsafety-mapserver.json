@@ -1,0 +1,954 @@
+{
+  "slug": "logis-loudoun-gov-publicsafety-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/PublicSafety/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/PublicSafety/MapServer",
+  "title": "PublicSafety",
+  "description": "Public safety infrastructure including fire stations, hydrants, and EMS areas.",
+  "abstract": "Loudoun County, Virginia Public Safety",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Public Safety Station",
+      "title": "Public Safety Station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PS_CO",
+          "type": "esriFieldTypeString",
+          "alias": "PS_CO"
+        },
+        {
+          "name": "PS_TYPE_HP",
+          "type": "esriFieldTypeString",
+          "alias": "PS_TYPE_HP"
+        },
+        {
+          "name": "PS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PS_NAME"
+        },
+        {
+          "name": "PS_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "PS_STATUS"
+        },
+        {
+          "name": "PS_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "PS_UPD_DATE"
+        },
+        {
+          "name": "PS_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "PS_ADDRESS"
+        },
+        {
+          "name": "PS_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PS_PHONE"
+        },
+        {
+          "name": "PS_FULL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PS_FULL_NAME"
+        },
+        {
+          "name": "PS_URL",
+          "type": "esriFieldTypeString",
+          "alias": "PS_URL"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Rural Water Supply",
+      "title": "Rural Water Supply",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RW_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "RW_LOCATION"
+        },
+        {
+          "name": "RW_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "RW_TYPE"
+        },
+        {
+          "name": "RW_SIZE",
+          "type": "esriFieldTypeString",
+          "alias": "RW_SIZE"
+        },
+        {
+          "name": "RW_FIRSTDUE",
+          "type": "esriFieldTypeString",
+          "alias": "RW_FIRSTDUE"
+        },
+        {
+          "name": "RW_SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "RW_SOURCE"
+        },
+        {
+          "name": "RW_U_ID",
+          "type": "esriFieldTypeString",
+          "alias": "RW_U_ID"
+        },
+        {
+          "name": "RW_COUNTYOWNED",
+          "type": "esriFieldTypeString",
+          "alias": "RW_COUNTYOWNED"
+        },
+        {
+          "name": "RW_BARRIERS",
+          "type": "esriFieldTypeString",
+          "alias": "RW_BARRIERS"
+        },
+        {
+          "name": "RW_SIGNAGE",
+          "type": "esriFieldTypeString",
+          "alias": "RW_SIGNAGE"
+        },
+        {
+          "name": "RW_NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "RW_NOTES"
+        },
+        {
+          "name": "RW_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RW_UPD_DATE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Hamilton Fire Hydrants",
+      "title": "Hamilton Fire Hydrants",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeDouble",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FH_MANUFAC",
+          "type": "esriFieldTypeString",
+          "alias": "FH_MANUFAC"
+        },
+        {
+          "name": "FH_SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "FH_SERVICE"
+        },
+        {
+          "name": "FH_FLOW",
+          "type": "esriFieldTypeString",
+          "alias": "FH_FLOW"
+        },
+        {
+          "name": "FH_STREET",
+          "type": "esriFieldTypeString",
+          "alias": "FH_STREET"
+        },
+        {
+          "name": "FH_UPD_SOU",
+          "type": "esriFieldTypeDouble",
+          "alias": "FH_UPD_SOU"
+        },
+        {
+          "name": "FH_UPD_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "FH_UPD_DAT"
+        },
+        {
+          "name": "FH_UPD_USE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FH_UPD_USE"
+        },
+        {
+          "name": "FH_YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "FH_YEAR"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Leesburg Fire Hydrants",
+      "title": "Leesburg Fire Hydrants",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HYD_ID",
+          "type": "esriFieldTypeString",
+          "alias": "HYD_ID"
+        },
+        {
+          "name": "MAP_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "MAP_NUMBER"
+        },
+        {
+          "name": "MODEL",
+          "type": "esriFieldTypeString",
+          "alias": "MODEL"
+        },
+        {
+          "name": "YEAR_",
+          "type": "esriFieldTypeString",
+          "alias": "YEAR_"
+        },
+        {
+          "name": "BARREL_DIA",
+          "type": "esriFieldTypeString",
+          "alias": "BARREL_DIA"
+        },
+        {
+          "name": "INST_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "INST_DATE"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "BURY_DEPTH",
+          "type": "esriFieldTypeString",
+          "alias": "BURY_DEPTH"
+        },
+        {
+          "name": "ISOVALVE",
+          "type": "esriFieldTypeString",
+          "alias": "ISOVALVE"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "Z",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z"
+        },
+        {
+          "name": "HYD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "HYD_TYPE"
+        },
+        {
+          "name": "BLOWOFF",
+          "type": "esriFieldTypeString",
+          "alias": "BLOWOFF"
+        },
+        {
+          "name": "LMIS_NBR",
+          "type": "esriFieldTypeString",
+          "alias": "LMIS Number"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FULL_HYD_I",
+          "type": "esriFieldTypeString",
+          "alias": "FULL_HYD_I"
+        },
+        {
+          "name": "COMMENT",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENT"
+        },
+        {
+          "name": "GROUND_ELE",
+          "type": "esriFieldTypeDouble",
+          "alias": "GROUND_ELE"
+        },
+        {
+          "name": "Pressure_Z",
+          "type": "esriFieldTypeString",
+          "alias": "Pressure_Z"
+        },
+        {
+          "name": "Constr_Pro",
+          "type": "esriFieldTypeString",
+          "alias": "Constr_Pro"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "VC_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "VC_ID"
+        },
+        {
+          "name": "LucityUpda",
+          "type": "esriFieldTypeDate",
+          "alias": "LucityUpda"
+        },
+        {
+          "name": "UPDATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "UPDATE_DAT"
+        },
+        {
+          "name": "COLLECT_BY",
+          "type": "esriFieldTypeString",
+          "alias": "COLLECT_BY"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Lovettsville Fire Hydrants",
+      "title": "Lovettsville Fire Hydrants",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AVFF",
+          "type": "esriFieldTypeDouble",
+          "alias": "AVFF"
+        },
+        {
+          "name": "MINS_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "MINS_ID"
+        },
+        {
+          "name": "MINS",
+          "type": "esriFieldTypeString",
+          "alias": "MINS"
+        },
+        {
+          "name": "MINZ_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "MINZ_ID"
+        },
+        {
+          "name": "MINZ",
+          "type": "esriFieldTypeString",
+          "alias": "MINZ"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "PRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRES"
+        },
+        {
+          "name": "RESP",
+          "type": "esriFieldTypeDouble",
+          "alias": "RESP"
+        },
+        {
+          "name": "MINS_P",
+          "type": "esriFieldTypeDouble",
+          "alias": "MINS_P"
+        },
+        {
+          "name": "MINZ_P",
+          "type": "esriFieldTypeDouble",
+          "alias": "MINZ_P"
+        },
+        {
+          "name": "SATFF",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SATFF"
+        },
+        {
+          "name": "ZONEID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZONEID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Middleburg Fire Hydrants",
+      "title": "Middleburg Fire Hydrants",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Field_Stat",
+          "type": "esriFieldTypeString",
+          "alias": "Field_Stat"
+        },
+        {
+          "name": "Field_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Field_Date"
+        },
+        {
+          "name": "Field_Comm",
+          "type": "esriFieldTypeString",
+          "alias": "Field_Comm"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Round Hill Fire Hydrants",
+      "title": "Round Hill Fire Hydrants",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MANUFACTUR",
+          "type": "esriFieldTypeInteger",
+          "alias": "MANUFACTUR"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "lastmaint",
+          "type": "esriFieldTypeDate",
+          "alias": "lastmaint"
+        },
+        {
+          "name": "assettype",
+          "type": "esriFieldTypeInteger",
+          "alias": "assettype"
+        },
+        {
+          "name": "assetid",
+          "type": "esriFieldTypeString",
+          "alias": "assetid"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "diameter"
+        },
+        {
+          "name": "secondaryd",
+          "type": "esriFieldTypeDouble",
+          "alias": "secondaryd"
+        },
+        {
+          "name": "lifecycles",
+          "type": "esriFieldTypeInteger",
+          "alias": "lifecycles"
+        },
+        {
+          "name": "notes",
+          "type": "esriFieldTypeString",
+          "alias": "notes"
+        },
+        {
+          "name": "ownedby",
+          "type": "esriFieldTypeInteger",
+          "alias": "ownedby"
+        },
+        {
+          "name": "maintby",
+          "type": "esriFieldTypeInteger",
+          "alias": "maintby"
+        },
+        {
+          "name": "subdivisio",
+          "type": "esriFieldTypeString",
+          "alias": "subdivisio"
+        },
+        {
+          "name": "object",
+          "type": "esriFieldTypeString",
+          "alias": "object"
+        },
+        {
+          "name": "Create_Ins",
+          "type": "esriFieldTypeString",
+          "alias": "Create_Ins"
+        },
+        {
+          "name": "globalid",
+          "type": "esriFieldTypeString",
+          "alias": "globalid"
+        },
+        {
+          "name": "replace",
+          "type": "esriFieldTypeDouble",
+          "alias": "replace"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Loudoun Water Fire Hydrants",
+      "title": "Loudoun Water Fire Hydrants",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "InstallDate",
+          "type": "esriFieldTypeDate",
+          "alias": "InstallDate"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Yellow",
+          "type": "esriFieldTypeString",
+          "alias": "Yellow"
+        },
+        {
+          "name": "El88",
+          "type": "esriFieldTypeDouble",
+          "alias": "El88"
+        },
+        {
+          "name": "pFLOC",
+          "type": "esriFieldTypeString",
+          "alias": "pFLOC"
+        },
+        {
+          "name": "EquipmentID",
+          "type": "esriFieldTypeString",
+          "alias": "EquipmentID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Fire Box Areas",
+      "title": "Fire Box Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RS_GRID",
+          "type": "esriFieldTypeString",
+          "alias": "RS_GRID"
+        },
+        {
+          "name": "RS_CAU_NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "RS_CAU_NOTES"
+        },
+        {
+          "name": "RS_FD_AREA_SUB",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FD_AREA_SUB"
+        },
+        {
+          "name": "RS_FD_AREA",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FD_AREA"
+        },
+        {
+          "name": "RS_BATTALION",
+          "type": "esriFieldTypeString",
+          "alias": "RS_BATTALION"
+        },
+        {
+          "name": "RS_FDID",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FDID"
+        },
+        {
+          "name": "RS_FDISTRICT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FDISTRICT_NAME"
+        },
+        {
+          "name": "RS_FDISTRICT_ABBREV",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FDISTRICT_ABBREV"
+        },
+        {
+          "name": "RS_FDISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FDISTRICT"
+        },
+        {
+          "name": "RS_DIST",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RS_DIST"
+        },
+        {
+          "name": "RS_EMS_CO",
+          "type": "esriFieldTypeString",
+          "alias": "RS_EMS_CO"
+        },
+        {
+          "name": "RS_EMS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RS_EMS_NAME"
+        },
+        {
+          "name": "RS_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RS_UPD_DATE"
+        },
+        {
+          "name": "RS_ADD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RS_ADD_DATE"
+        },
+        {
+          "name": "RS_END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RS_END_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "RS_AGENCY",
+          "type": "esriFieldTypeString",
+          "alias": "RS_AGENCY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Fire First Due Area",
+      "title": "Fire First Due Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RS_FDISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FDISTRICT"
+        },
+        {
+          "name": "RS_FDISTRICT_ABBREV",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FDISTRICT_ABBREV"
+        },
+        {
+          "name": "RS_FDISTRICT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RS_FDISTRICT_NAME"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "LCSO Patrol Sectors",
+      "title": "LCSO Patrol Sectors",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PS_PDISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "PS_PDISTRICT"
+        },
+        {
+          "name": "PDISTRICT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PDISTRICT_NAME"
+        },
+        {
+          "name": "PDISTRICT_ABBREV",
+          "type": "esriFieldTypeString",
+          "alias": "PDISTRICT_ABBREV"
+        },
+        {
+          "name": "PS_PD_AREA",
+          "type": "esriFieldTypeString",
+          "alias": "PS_PD_AREA"
+        },
+        {
+          "name": "PS_PD_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "PS_PD_ZONE"
+        },
+        {
+          "name": "PS_PD_SSTATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "PS_PD_SSTATIONS"
+        },
+        {
+          "name": "PD_SSTATIONS_NAM",
+          "type": "esriFieldTypeString",
+          "alias": "PD_SSTATIONS_NAM"
+        },
+        {
+          "name": "PS_PDID",
+          "type": "esriFieldTypeString",
+          "alias": "PS_PDID"
+        },
+        {
+          "name": "PS_SECTNUM",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PS_SECTNUM"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "EMS First Due Areas",
+      "title": "EMS First Due Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RS_EMS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RS_EMS_NAME"
+        },
+        {
+          "name": "RS_EMS_CO",
+          "type": "esriFieldTypeString",
+          "alias": "RS_EMS_CO"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 225,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

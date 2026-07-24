@@ -1,0 +1,296 @@
+{
+  "slug": "logis-loudoun-gov-layers-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/Metro/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/Metro/MapServer",
+  "title": "Layers",
+  "description": "Metro rail stations and service districts for Loudoun County.",
+  "abstract": "Loudoun County, Virginia Metro",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Metrorail Stations: Labels",
+      "title": "Metrorail Stations: Labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MN_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MN_UPD_DATE"
+        },
+        {
+          "name": "MN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MN_NAME"
+        },
+        {
+          "name": "MN_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "MN_LOCATION"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Metrorail Stations",
+      "title": "Metrorail Stations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MN_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MN_UPD_DATE"
+        },
+        {
+          "name": "MN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MN_NAME"
+        },
+        {
+          "name": "MN_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "MN_LOCATION"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Metrorail Track",
+      "title": "Metrorail Track",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MR_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MR_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Station Service Districts: Labels",
+      "title": "Station Service Districts: Labels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MD_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MD_UPD_DATE"
+        },
+        {
+          "name": "MD_TYPE_CD",
+          "type": "esriFieldTypeString",
+          "alias": "MD_TYPE_CD"
+        },
+        {
+          "name": "MD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MD_NAME"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "MD_LMIS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "MD_LMIS_CODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Station Service Districts",
+      "title": "Station Service Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MD_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MD_UPD_DATE"
+        },
+        {
+          "name": "MD_TYPE_CD",
+          "type": "esriFieldTypeString",
+          "alias": "MD_TYPE_CD"
+        },
+        {
+          "name": "MD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MD_NAME"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "MD_LMIS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "MD_LMIS_CODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Metrorail Service District",
+      "title": "Metrorail Service District",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MD_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MD_UPD_DATE"
+        },
+        {
+          "name": "MD_TYPE_CD",
+          "type": "esriFieldTypeString",
+          "alias": "MD_TYPE_CD"
+        },
+        {
+          "name": "MD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MD_NAME"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "MD_LMIS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "MD_LMIS_CODE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 221,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

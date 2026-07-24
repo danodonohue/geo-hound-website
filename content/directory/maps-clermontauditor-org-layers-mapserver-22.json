@@ -1,0 +1,146 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-22",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/BuildingFootprints/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/BuildingFootprints/MapServer",
+  "title": "Layers",
+  "description": "Building outlines with area calculations and status tracking for Clermont County.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Building Footprints",
+      "title": "Building Footprints",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "outline_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "outline_id"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "x",
+          "type": "esriFieldTypeDouble",
+          "alias": "x"
+        },
+        {
+          "name": "y",
+          "type": "esriFieldTypeDouble",
+          "alias": "y"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "area",
+          "type": "esriFieldTypeDouble",
+          "alias": "area"
+        },
+        {
+          "name": "prev_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "prev_area"
+        },
+        {
+          "name": "pct_change",
+          "type": "esriFieldTypeDouble",
+          "alias": "pct_change"
+        },
+        {
+          "name": "redrawn",
+          "type": "esriFieldTypeString",
+          "alias": "redrawn"
+        },
+        {
+          "name": "comment",
+          "type": "esriFieldTypeString",
+          "alias": "comment"
+        },
+        {
+          "name": "SCHDIST",
+          "type": "esriFieldTypeString",
+          "alias": "SCHDIST"
+        },
+        {
+          "name": "TAXDIST",
+          "type": "esriFieldTypeString",
+          "alias": "TAXDIST"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 346,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

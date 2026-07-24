@@ -1,0 +1,173 @@
+{
+  "slug": "maps-gdc-govt-nz-uniplan-land-management-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_land_management_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_land_management_ext/MapServer",
+  "title": "uniplan_land_management_ext",
+  "description": "Land management zones and overlays for Tairawhiti Resource Management Plan.",
+  "abstract": "Land  Management  layers for the Tairawhiti Resource Management Plan of the Gisborne Distrcit Council",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Land Management",
+      "title": "Land Management",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Land Overlay 3A",
+      "title": "Land Overlay 3A",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "area",
+          "type": "esriFieldTypeDouble",
+          "alias": "area"
+        },
+        {
+          "name": "Overlay",
+          "type": "esriFieldTypeString",
+          "alias": "Overlay"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Land Overlays 1-3",
+      "title": "Land Overlays 1-3",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "LRIURBCLIP",
+          "type": "esriFieldTypeInteger",
+          "alias": "LRIURBCLIP"
+        },
+        {
+          "name": "LRIURBCL_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "LRIURBCL_1"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "SMJSYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SMJSYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_ha"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 199,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

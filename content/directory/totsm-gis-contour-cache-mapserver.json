@@ -1,0 +1,105 @@
+{
+  "slug": "totsm-gis-contour-cache-mapserver",
+  "service_key": "ESRI MapServer:https://www.topofthesouthmaps.co.nz/arcgis/rest/services/CacheContour/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.topofthesouthmaps.co.nz/arcgis/rest/services/CacheContour/MapServer",
+  "title": "Contour Cache",
+  "description": "Cached elevation contours overlaid on aerial imagery for Top of the South",
+  "abstract": "Contour Cache is used in the Top of the South Maps website www.topofthesouthmaps.co.nz\nThe data is available under “More Data” and enables the user to view contours over aerial photography.\n",
+  "provider": "TOTSM GIS",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "elevation",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "DummyCache",
+      "title": "DummyCache",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "REGC10",
+          "type": "esriFieldTypeString",
+          "alias": "REGC10"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape_STArea__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 268,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

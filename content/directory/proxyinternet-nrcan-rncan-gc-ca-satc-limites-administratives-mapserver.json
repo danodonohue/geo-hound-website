@@ -1,0 +1,344 @@
+{
+  "slug": "proxyinternet-nrcan-rncan-gc-ca-satc-limites-administratives-mapserver",
+  "service_key": "ESRI MapServer:https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/SATC_Limites_administratives/MapServer",
+  "title": "SATC_Limites_administratives",
+  "description": "Canada Lands Survey System administrative boundaries including Aboriginal lands and national parks.",
+  "abstract": "Le service web des limites administratives du système d’arpentage des terres du Canada (SATC) inclut les limites législatives des terres autochtones, des parcs nationaux du Canada, des réserves à vocation de parc national du Canada, du Parc urbain national de la Rouge et du Parc marin du Saguenay–Saint-Laurent.  Plus spécifiquement il inclut, mais ne se limite pas, aux réserve indiennes, aux terres cries et naskapies de catégorie 1A et 1A-N, aux terres des Gwich’in, au territoire provisoire de Kanesatake, aux terres des Inuvialuit, aux terres inuites, aux terres secheltes, aux terres octroyées par l’entente de la première nation de Salt River, aux terres du Sahtu, aux terres du peuple Tlicho et aux terres octroyées par l’entente des premières nations du Yukon.",
+  "provider": "proxyinternet.nrcan-rncan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Limites_legislatives_des_terres_autochtones_du_Canada",
+      "title": "Limites_legislatives_des_terres_autochtones_du_Canada",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "adminAreaId",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaId"
+        },
+        {
+          "name": "adminAreaNameEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameEng"
+        },
+        {
+          "name": "adminAreaNameFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameFra"
+        },
+        {
+          "name": "adminAreaNameAlt1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAlt1"
+        },
+        {
+          "name": "adminAreaNameAltLang1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAltLang1"
+        },
+        {
+          "name": "distributionType",
+          "type": "esriFieldTypeString",
+          "alias": "distributionType"
+        },
+        {
+          "name": "distributionTypeEng",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeEng"
+        },
+        {
+          "name": "distributionTypeFra",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeFra"
+        },
+        {
+          "name": "absoluteAccuracy",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracy"
+        },
+        {
+          "name": "absoluteAccuracyEng",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyEng"
+        },
+        {
+          "name": "absoluteAccuracyFra",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyFra"
+        },
+        {
+          "name": "adminRegion",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegion"
+        },
+        {
+          "name": "adminRegionEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionEng"
+        },
+        {
+          "name": "adminRegionFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionFra"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "jurisdictionEng",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionEng"
+        },
+        {
+          "name": "jurisdictionFra",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionFra"
+        },
+        {
+          "name": "NID",
+          "type": "esriFieldTypeString",
+          "alias": "NID"
+        },
+        {
+          "name": "representationPurpose",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurpose"
+        },
+        {
+          "name": "representationPurposeEng",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeEng"
+        },
+        {
+          "name": "representationPurposeFra",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeFra"
+        },
+        {
+          "name": "sourceGeoDB",
+          "type": "esriFieldTypeString",
+          "alias": "sourceGeoDB"
+        },
+        {
+          "name": "webReference",
+          "type": "esriFieldTypeString",
+          "alias": "webReference"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Limites_legislatives_des_parcs_nationaux_et_des_reserves_a_vocation_de_parc_national_du_Canada",
+      "title": "Limites_legislatives_des_parcs_nationaux_et_des_reserves_a_vocation_de_parc_national_du_Canada",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "adminAreaId",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaId"
+        },
+        {
+          "name": "adminAreaNameEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameEng"
+        },
+        {
+          "name": "adminAreaNameFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameFra"
+        },
+        {
+          "name": "adminAreaNameAlt1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAlt1"
+        },
+        {
+          "name": "adminAreaNameAltLang1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAltLang1"
+        },
+        {
+          "name": "distributionType",
+          "type": "esriFieldTypeString",
+          "alias": "distributionType"
+        },
+        {
+          "name": "distributionTypeEng",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeEng"
+        },
+        {
+          "name": "distributionTypeFra",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeFra"
+        },
+        {
+          "name": "absoluteAccuracy",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracy"
+        },
+        {
+          "name": "absoluteAccuracyEng",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyEng"
+        },
+        {
+          "name": "absoluteAccuracyFra",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyFra"
+        },
+        {
+          "name": "adminRegion",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegion"
+        },
+        {
+          "name": "adminRegionEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionEng"
+        },
+        {
+          "name": "adminRegionFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionFra"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "jurisdictionEng",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionEng"
+        },
+        {
+          "name": "jurisdictionFra",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionFra"
+        },
+        {
+          "name": "NID",
+          "type": "esriFieldTypeString",
+          "alias": "NID"
+        },
+        {
+          "name": "representationPurpose",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurpose"
+        },
+        {
+          "name": "representationPurposeEng",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeEng"
+        },
+        {
+          "name": "representationPurposeFra",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeFra"
+        },
+        {
+          "name": "sourceGeoDB",
+          "type": "esriFieldTypeString",
+          "alias": "sourceGeoDB"
+        },
+        {
+          "name": "webReference",
+          "type": "esriFieldTypeString",
+          "alias": "webReference"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3979"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1143,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "nrcmaps-nrc-govt-nz-tsunami-inundation-zones-2024-mapserver",
+  "service_key": "ESRI MapServer:https://nrcmaps.nrc.govt.nz/server/rest/services/Tsunami_Inundation_Zones_2024/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://nrcmaps.nrc.govt.nz/server/rest/services/Tsunami_Inundation_Zones_2024/MapServer",
+  "title": "Tsunami Inundation Zones 2024",
+  "description": "Tsunami inundation zones for Northland Region by hazard zone classification.",
+  "abstract": "Layer Details:This layer has been published as: Tsunami Inundation Zones 2024Layer Link: https://nrcmaps.nrc.govt.nz/portal/apps/mapviewer/index.html?layers=ac0f30c667cb4e57976bbf2b94b86a28Viewer Details:This layer has been added to the Tsunami Data Management AppViewer Link: https://nrcmaps.nrc.govt.nz/portal/apps/webappviewer/index.html?id=b55d30e830134f88bde37cfa685457ebOther Details (SDE):Map Name: Tsunami Inundation Zones 2024 in Portal Map Image Services Copied project.SDE layer name: nrc.GISADMIN.CDEM_TsunamiInundationZones_2024Methodology:This document defines three tsunami evacuation zones: Red, Orange, and Yellow.The Red Zone is the area closest to the coast which would be evacuated in most tsunami warning situations. The Orange Zone is an intermediate zone that considers tsunami hazard from either large tsunami sources located far away or moderate tsunami sources close by (but more than 1 hr travel time away). The Yellow Zone represents the area to be evacuated in the most extreme scenarios of a very large near-source earthquake. This Blue Zone is an amalgamation of the Red, Orange and Yellow Zones.Numerical modelling determined that the most extreme hazard, the one which governs the Yellow Zone for the east coast, is represented by a large rupture of the southern segments of the Tonga Kermadec Trench. For this scenario we modelled rupture over a 400x100 km fault plane with average slip amount of 30 m. As a matter of comparison, we note that this source is slightly larger in terms of areal extent and average slip then the 2010 Tohoku Japan earthquake and tsunami. For the Orange Zone, we determined that the hazard was best represented by aggregating the inundation results from a suite of large magnitude, distant and regional source earthquakes. In this case, simulations that produced anomalously large tsunami heights either at the shoreline or at the offshore location were not used in the aggregation. All in all, the final inundation zones correspond best to a tsunami threat level of 3-5 m as defined in the DGL. Raster files of tsunami inundation flow depth and inundated area were compiled for each of the 60 high resolution model grid regions for the Yellow and Orange Zones. This raster data was transferred to GIS for processing into the inundation zones, creating continuous Orange and Yellow Zones as well as the Red Zone.  The Red Zone was creating on the same criteria as Auckland Council for cross boundary consistency, based on 100m buffer for rocky and steep coasts, and +2m elevation contour for all other areas.  The final Red Zone was created on the greatest inland extent.  Gaps between the red and yellow zones and red and orange zones were filled in to create a continuous zone.  For tsunami inundation zones at the model tile edges, zones were extended based on the corresponding contour height.Published by: SC Published on: 30/01/2025 Data Provided by: Dianne Zucchetto (Geospatial Consultant @ Spatalize)",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "marine",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Tsunami Inundation Zones",
+      "title": "Tsunami Inundation Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Blue Zone Line",
+      "title": "Blue Zone Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Blue Zone",
+      "title": "Blue Zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Green Zone",
+      "title": "Green Zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 49,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

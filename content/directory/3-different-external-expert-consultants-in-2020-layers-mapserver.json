@@ -1,0 +1,52 @@
+{
+  "slug": "3-different-external-expert-consultants-in-2020-layers-mapserver",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/J8errK5dyxu7Xjf7/arcgis/rest/services/Coastal_Flood_Hazard_Zone_3/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/J8errK5dyxu7Xjf7/arcgis/rest/services/Coastal_Flood_Hazard_Zone_3/MapServer",
+  "title": "Layers",
+  "description": "Modeled coastal flood hazard zone for 100-year storm plus sea-level rise.",
+  "abstract": "<p>Coastal flood hazard zones\nwere developed by 3 different external expert consultants in 2020. The layers are\nderived by advanced models using empirical calculations including tide gauge\nand extreme water level analysis, wind records and wave models, and used the\n2019 LiDAR DEM.</p>\n\nThree\ndifferent models were used to construct the coastal flood layers: a\nfull-coastline ‘bathtub model’ (Tonkin and Taylor, 2020), and two hydrodynamic\nmodels for Rangaunu (eCoast, 2020) and Kaipara (DHI, 2019) harbors. The reports\ndetailing the methodologies can be accessed from the NRC website.",
+  "provider": "3 different external expert consultants in 2020",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Coastal Flood Hazard Zone 3 (100 years + Rapid SLR Scenario)",
+      "title": "Coastal Flood Hazard Zone 3 (100 years + Rapid SLR Scenario)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG8"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 346,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

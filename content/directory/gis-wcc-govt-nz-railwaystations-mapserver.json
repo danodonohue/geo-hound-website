@@ -1,0 +1,90 @@
+{
+  "slug": "gis-wcc-govt-nz-railwaystations-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/RailwayStations/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/RailwayStations/MapServer",
+  "title": "RailwayStations",
+  "description": "Railway station locations in Wellington City region",
+  "abstract": "This Layer shows all railway stations in the Wellington City reigion",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "rail",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Railway Stations",
+      "title": "Railway Stations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "STATION_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "STATION_NAME"
+        },
+        {
+          "name": "POINT_X",
+          "type": "esriFieldTypeDouble",
+          "alias": "POINT_X"
+        },
+        {
+          "name": "POINT_Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "POINT_Y"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 54,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

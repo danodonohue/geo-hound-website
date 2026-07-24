@@ -1,0 +1,64 @@
+{
+  "slug": "gis-wcc-govt-nz-survey1891-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Cache/Survey1891/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Cache/Survey1891/MapServer",
+  "title": "Survey1891",
+  "description": "Historical 1891 survey map for Wellington heritage and building history research",
+  "abstract": "The Thomas Ward survey map provides much information about early Wellington. Where building records are not complete, the map is useful for discovering whether present-day buildings were in existence before 1892.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Survey - 1891",
+      "title": "Survey - 1891",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 50,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

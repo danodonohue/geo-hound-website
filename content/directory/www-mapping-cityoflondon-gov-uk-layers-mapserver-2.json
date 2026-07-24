@@ -1,0 +1,794 @@
+{
+  "slug": "www-mapping-cityoflondon-gov-uk-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Licensed_Premises/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Licensed_Premises/MapServer",
+  "title": "Layers",
+  "description": "Licensed premises locations with hours and permit information.",
+  "abstract": "Licensing layer ",
+  "provider": "www.mapping.cityoflondon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    },
+    {
+      "name": "safety",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Licensed Premises",
+      "title": "Licensed Premises",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVAL"
+        },
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "REFVAL"
+        },
+        {
+          "name": "PRKEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "PRKEYVAL"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeInteger",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeInteger",
+          "alias": "Y"
+        },
+        {
+          "name": "LICNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LICNTYPE"
+        },
+        {
+          "name": "LISTAT",
+          "type": "esriFieldTypeString",
+          "alias": "LISTAT"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "LICNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "LICNUMBER"
+        },
+        {
+          "name": "LIPERMIT",
+          "type": "esriFieldTypeString",
+          "alias": "LIPERMIT"
+        },
+        {
+          "name": "ISSUED",
+          "type": "esriFieldTypeDate",
+          "alias": "ISSUED"
+        },
+        {
+          "name": "EXPIRYD",
+          "type": "esriFieldTypeDate",
+          "alias": "EXPIRYD"
+        },
+        {
+          "name": "RENEWD",
+          "type": "esriFieldTypeDate",
+          "alias": "RENEWD"
+        },
+        {
+          "name": "CPOCCUP",
+          "type": "esriFieldTypeString",
+          "alias": "CPOCCUP"
+        },
+        {
+          "name": "CPTRADEAS",
+          "type": "esriFieldTypeString",
+          "alias": "CPTRADEAS"
+        },
+        {
+          "name": "ALO_MONDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_MONDAY_OPENT"
+        },
+        {
+          "name": "ALO_MONDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_MONDAY_CLOST"
+        },
+        {
+          "name": "ALO_TUESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_TUESDAY_OPENT"
+        },
+        {
+          "name": "ALO_TUESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_TUESDAY_CLOST"
+        },
+        {
+          "name": "ALO_WEDNESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_WEDNESDAY_OPENT"
+        },
+        {
+          "name": "ALO_WEDNESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_WEDNESDAY_CLOST"
+        },
+        {
+          "name": "ALO_THURSDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_THURSDAY_OPENT"
+        },
+        {
+          "name": "ALO_THURSDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_THURSDAY_CLOST"
+        },
+        {
+          "name": "ALO_FRIDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_FRIDAY_OPENT"
+        },
+        {
+          "name": "ALO_FRIDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_FRIDAY_CLOST"
+        },
+        {
+          "name": "ALO_SATURDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SATURDAY_OPENT"
+        },
+        {
+          "name": "ALO_SATURDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SATURDAY_CLOST"
+        },
+        {
+          "name": "ALO_SUNDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SUNDAY_OPENT"
+        },
+        {
+          "name": "ALO_SUNDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SUNDAY_CLOST"
+        },
+        {
+          "name": "LNR_MONDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_MONDAY_OPENT"
+        },
+        {
+          "name": "LNR_MONDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_MONDAY_CLOST"
+        },
+        {
+          "name": "LNR_TUESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_TUESDAY_OPENT"
+        },
+        {
+          "name": "LNR_TUESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_TUESDAY_CLOST"
+        },
+        {
+          "name": "LNR_WEDNESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_WEDNESDAY_OPENT"
+        },
+        {
+          "name": "LNR_WEDNESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_WEDNESDAY_CLOST"
+        },
+        {
+          "name": "LNR_THURSDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_THURSDAY_OPENT"
+        },
+        {
+          "name": "LNR_THURSDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_THURSDAY_CLOST"
+        },
+        {
+          "name": "LNR_FRIDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_FRIDAY_OPENT"
+        },
+        {
+          "name": "LNR_FRIDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_FRIDAY_CLOST"
+        },
+        {
+          "name": "LNR_SATURDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SATURDAY_OPENT"
+        },
+        {
+          "name": "LNR_SATURDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SATURDAY_CLOST"
+        },
+        {
+          "name": "LNR_SUNDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SUNDAY_OPENT"
+        },
+        {
+          "name": "LNR_SUNDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SUNDAY_CLOST"
+        },
+        {
+          "name": "FUR_MONDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_MONDAY_OPENT"
+        },
+        {
+          "name": "FUR_MONDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_MONDAY_CLOST"
+        },
+        {
+          "name": "FUR_TUESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_TUESDAY_OPENT"
+        },
+        {
+          "name": "FUR_TUESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_TUESDAY_CLOST"
+        },
+        {
+          "name": "FUR_WEDNESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_WEDNESDAY_OPENT"
+        },
+        {
+          "name": "FUR_WEDNESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_WEDNESDAY_CLOST"
+        },
+        {
+          "name": "FUR_THURSDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_THURSDAY_OPENT"
+        },
+        {
+          "name": "FUR_THURSDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_THURSDAY_CLOST"
+        },
+        {
+          "name": "FUR_FRIDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_FRIDAY_OPENT"
+        },
+        {
+          "name": "FUR_FRIDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_FRIDAY_CLOST"
+        },
+        {
+          "name": "FUR_SATURDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SATURDAY_OPENT"
+        },
+        {
+          "name": "FUR_SATURDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SATURDAY_CLOST"
+        },
+        {
+          "name": "FUR_SUNDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SUNDAY_OPENT"
+        },
+        {
+          "name": "FUR_SUNDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SUNDAY_CLOST"
+        },
+        {
+          "name": "LATEST_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATEST_CLOST"
+        },
+        {
+          "name": "ALO_LATEST_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_LICENSE_LATEST_CLOST"
+        },
+        {
+          "name": "LIC24HR",
+          "type": "esriFieldTypeString",
+          "alias": "LIC24HR"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "FDESCRIP",
+          "type": "esriFieldTypeString",
+          "alias": "FDESCRIP"
+        },
+        {
+          "name": "FNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FNAME"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FTYPE"
+        },
+        {
+          "name": "FVALUE",
+          "type": "esriFieldTypeString",
+          "alias": "FVALUE"
+        },
+        {
+          "name": "ROWNO",
+          "type": "esriFieldTypeInteger",
+          "alias": "ROWNO"
+        },
+        {
+          "name": "GIS_TIMESTAMP",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS_TIMESTAMP"
+        },
+        {
+          "name": "GIS_RND",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS_RND"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "LONGITUDE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Latest Licensed Activity",
+      "title": "Latest Licensed Activity",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVAL"
+        },
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "REFVAL"
+        },
+        {
+          "name": "PRKEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "PRKEYVAL"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeInteger",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeInteger",
+          "alias": "Y"
+        },
+        {
+          "name": "LICNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LICNTYPE"
+        },
+        {
+          "name": "LISTAT",
+          "type": "esriFieldTypeString",
+          "alias": "LISTAT"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "LICNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "LICNUMBER"
+        },
+        {
+          "name": "LIPERMIT",
+          "type": "esriFieldTypeString",
+          "alias": "LIPERMIT"
+        },
+        {
+          "name": "ISSUED",
+          "type": "esriFieldTypeDate",
+          "alias": "ISSUED"
+        },
+        {
+          "name": "EXPIRYD",
+          "type": "esriFieldTypeDate",
+          "alias": "EXPIRYD"
+        },
+        {
+          "name": "RENEWD",
+          "type": "esriFieldTypeDate",
+          "alias": "RENEWD"
+        },
+        {
+          "name": "CPOCCUP",
+          "type": "esriFieldTypeString",
+          "alias": "CPOCCUP"
+        },
+        {
+          "name": "CPTRADEAS",
+          "type": "esriFieldTypeString",
+          "alias": "CPTRADEAS"
+        },
+        {
+          "name": "ALO_MONDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_MONDAY_OPENT"
+        },
+        {
+          "name": "ALO_MONDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_MONDAY_CLOST"
+        },
+        {
+          "name": "ALO_TUESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_TUESDAY_OPENT"
+        },
+        {
+          "name": "ALO_TUESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_TUESDAY_CLOST"
+        },
+        {
+          "name": "ALO_WEDNESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_WEDNESDAY_OPENT"
+        },
+        {
+          "name": "ALO_WEDNESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_WEDNESDAY_CLOST"
+        },
+        {
+          "name": "ALO_THURSDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_THURSDAY_OPENT"
+        },
+        {
+          "name": "ALO_THURSDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_THURSDAY_CLOST"
+        },
+        {
+          "name": "ALO_FRIDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_FRIDAY_OPENT"
+        },
+        {
+          "name": "ALO_FRIDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_FRIDAY_CLOST"
+        },
+        {
+          "name": "ALO_SATURDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SATURDAY_OPENT"
+        },
+        {
+          "name": "ALO_SATURDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SATURDAY_CLOST"
+        },
+        {
+          "name": "ALO_SUNDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SUNDAY_OPENT"
+        },
+        {
+          "name": "ALO_SUNDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_PREMISE_SUNDAY_CLOST"
+        },
+        {
+          "name": "LNR_MONDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_MONDAY_OPENT"
+        },
+        {
+          "name": "LNR_MONDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_MONDAY_CLOST"
+        },
+        {
+          "name": "LNR_TUESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_TUESDAY_OPENT"
+        },
+        {
+          "name": "LNR_TUESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_TUESDAY_CLOST"
+        },
+        {
+          "name": "LNR_WEDNESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_WEDNESDAY_OPENT"
+        },
+        {
+          "name": "LNR_WEDNESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_WEDNESDAY_CLOST"
+        },
+        {
+          "name": "LNR_THURSDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_THURSDAY_OPENT"
+        },
+        {
+          "name": "LNR_THURSDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_THURSDAY_CLOST"
+        },
+        {
+          "name": "LNR_FRIDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_FRIDAY_OPENT"
+        },
+        {
+          "name": "LNR_FRIDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_FRIDAY_CLOST"
+        },
+        {
+          "name": "LNR_SATURDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SATURDAY_OPENT"
+        },
+        {
+          "name": "LNR_SATURDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SATURDAY_CLOST"
+        },
+        {
+          "name": "LNR_SUNDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SUNDAY_OPENT"
+        },
+        {
+          "name": "LNR_SUNDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATE_NIGHT_REFRESHMENTS_SUNDAY_CLOST"
+        },
+        {
+          "name": "FUR_MONDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_MONDAY_OPENT"
+        },
+        {
+          "name": "FUR_MONDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_MONDAY_CLOST"
+        },
+        {
+          "name": "FUR_TUESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_TUESDAY_OPENT"
+        },
+        {
+          "name": "FUR_TUESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_TUESDAY_CLOST"
+        },
+        {
+          "name": "FUR_WEDNESDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_WEDNESDAY_OPENT"
+        },
+        {
+          "name": "FUR_WEDNESDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_WEDNESDAY_CLOST"
+        },
+        {
+          "name": "FUR_THURSDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_THURSDAY_OPENT"
+        },
+        {
+          "name": "FUR_THURSDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_THURSDAY_CLOST"
+        },
+        {
+          "name": "FUR_FRIDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_FRIDAY_OPENT"
+        },
+        {
+          "name": "FUR_FRIDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_FRIDAY_CLOST"
+        },
+        {
+          "name": "FUR_SATURDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SATURDAY_OPENT"
+        },
+        {
+          "name": "FUR_SATURDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SATURDAY_CLOST"
+        },
+        {
+          "name": "FUR_SUNDAY_OPENT",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SUNDAY_OPENT"
+        },
+        {
+          "name": "FUR_SUNDAY_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "TABLE_AND_CHAIRS_LICENSES_SUNDAY_CLOST"
+        },
+        {
+          "name": "LATEST_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "LATEST_CLOST"
+        },
+        {
+          "name": "ALO_LATEST_CLOST",
+          "type": "esriFieldTypeString",
+          "alias": "ALCOHOLIC_LICENSE_LATEST_CLOST"
+        },
+        {
+          "name": "LIC24HR",
+          "type": "esriFieldTypeString",
+          "alias": "LIC24HR"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "FDESCRIP",
+          "type": "esriFieldTypeString",
+          "alias": "FDESCRIP"
+        },
+        {
+          "name": "FNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FNAME"
+        },
+        {
+          "name": "FTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FTYPE"
+        },
+        {
+          "name": "FVALUE",
+          "type": "esriFieldTypeString",
+          "alias": "FVALUE"
+        },
+        {
+          "name": "ROWNO",
+          "type": "esriFieldTypeInteger",
+          "alias": "ROWNO"
+        },
+        {
+          "name": "GIS_TIMESTAMP",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS_TIMESTAMP"
+        },
+        {
+          "name": "GIS_RND",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS_RND"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "LONGITUDE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 906,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

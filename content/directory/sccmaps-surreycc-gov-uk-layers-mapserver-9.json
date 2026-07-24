@@ -1,0 +1,120 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-9",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_Greenbelt/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_Greenbelt/MapServer",
+  "title": "Layers",
+  "description": "Green Belt designated areas in Surrey planning authority.",
+  "abstract": "Environment - Green Belt",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 10,
+      "name": "Environment - Green Belt",
+      "title": "Environment - Green Belt",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Area_Ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area ha"
+        },
+        {
+          "name": "GB_name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "LA_Name",
+          "type": "esriFieldTypeString",
+          "alias": "LA_Name"
+        },
+        {
+          "name": "ONS_Code",
+          "type": "esriFieldTypeString",
+          "alias": "ONS_Code"
+        },
+        {
+          "name": "Perim_Km",
+          "type": "esriFieldTypeDouble",
+          "alias": "Perim_Km"
+        },
+        {
+          "name": "District",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        },
+        {
+          "name": "scc_update_date",
+          "type": "esriFieldTypeString",
+          "alias": "scc_update_date"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 308,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

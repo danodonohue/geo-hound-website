@@ -1,0 +1,174 @@
+{
+  "slug": "maps-cartes-services-geo-ca-historical-flood-events-hfe-mapserver",
+  "service_key": "ESRI MapServer:https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/historical_flood_event_en/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/historical_flood_event_en/MapServer",
+  "title": "Historical Flood Events (HFE)",
+  "description": "Canadian historical flood events with locations and source citations.",
+  "abstract": "Representation of the causes of flooding events as multiple points. The point groupings correspond to the set location that were affected by the same event. The inventory of past flooding has been compiled from various public sources and standardized into a common data model. A link to the source used is included for more information. \n\nThe event locations have been largely revised to have one location per place reported to have been affected by the flooding. Flooding events for which no location was included in the sources are positioned on the place name of the location affected by the flooding.  The event positions do not indicate where the flooding occurred. Flood events that affected more than one locality are represented by a multipoint.\n\nIt should be noted that no consultation was conducted with the various providers and stakeholders of historical flood data. Disparities in content between the various sources result in an inconsistent product. No warranty is given as to the accuracy or completeness of the information provided. The absence of information does not mean that no flooding has occurred.",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Historical Flood Events",
+      "title": "Historical Flood Events",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "event_name",
+          "type": "esriFieldTypeString",
+          "alias": "Event name"
+        },
+        {
+          "name": "year",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "event_summary",
+          "type": "esriFieldTypeString",
+          "alias": "Event summary"
+        },
+        {
+          "name": "evacuation",
+          "type": "esriFieldTypeString",
+          "alias": "Evacuation"
+        },
+        {
+          "name": "death",
+          "type": "esriFieldTypeString",
+          "alias": "Death"
+        },
+        {
+          "name": "flood_cause",
+          "type": "esriFieldTypeString",
+          "alias": "Flood cause"
+        },
+        {
+          "name": "flood_cause_description",
+          "type": "esriFieldTypeString",
+          "alias": "Flood cause description"
+        },
+        {
+          "name": "start_date",
+          "type": "esriFieldTypeString",
+          "alias": "Start date"
+        },
+        {
+          "name": "end_date",
+          "type": "esriFieldTypeString",
+          "alias": "End date"
+        },
+        {
+          "name": "season",
+          "type": "esriFieldTypeString",
+          "alias": "Season"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province or territory"
+        },
+        {
+          "name": "province_territory_description",
+          "type": "esriFieldTypeString",
+          "alias": "Province or territory description"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "source_description",
+          "type": "esriFieldTypeString",
+          "alias": "Source description"
+        },
+        {
+          "name": "precipitation_analysis_url",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation analysis"
+        },
+        {
+          "name": "precipitation_animation_url",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation animation"
+        },
+        {
+          "name": "precipitation_data_url",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation data"
+        },
+        {
+          "name": "uuid",
+          "type": "esriFieldTypeString",
+          "alias": "Unique ID"
+        },
+        {
+          "name": "event_id",
+          "type": "esriFieldTypeString",
+          "alias": "Event ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "time_slider_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Time slider date"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3978"
+  ],
+  "cors_enabled": true,
+  "response_ms": 955,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

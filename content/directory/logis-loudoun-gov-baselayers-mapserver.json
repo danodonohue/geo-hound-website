@@ -1,0 +1,497 @@
+{
+  "slug": "logis-loudoun-gov-baselayers-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL_cache/BaseLayers/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL_cache/BaseLayers/MapServer",
+  "title": "BaseLayers",
+  "description": "Base layers including county boundaries, roads, buildings, and water bodies.",
+  "abstract": "Loudoun County, Virginia base map layers",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "County Boundary",
+      "title": "County Boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TXT",
+          "type": "esriFieldTypeString",
+          "alias": "TXT"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Town Boundaries",
+      "title": "Town Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "TO_TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN"
+        },
+        {
+          "name": "TO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Major Roads",
+      "title": "Major Roads",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CE_CHAIN_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CE_CHAIN_ID"
+        },
+        {
+          "name": "CE_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CE_LOUD_ID"
+        },
+        {
+          "name": "ST_CHAIN_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ST_CHAIN_ID"
+        },
+        {
+          "name": "ST_DIR_PREF",
+          "type": "esriFieldTypeString",
+          "alias": "ST_DIR_PREF"
+        },
+        {
+          "name": "ST_STR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ST_STR_NAME"
+        },
+        {
+          "name": "ST_DIR_SUF",
+          "type": "esriFieldTypeString",
+          "alias": "ST_DIR_SUF"
+        },
+        {
+          "name": "ST_STR_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ST_STR_TYPE"
+        },
+        {
+          "name": "CE_RTNO",
+          "type": "esriFieldTypeString",
+          "alias": "CE_RTNO"
+        },
+        {
+          "name": "CE_CFCC",
+          "type": "esriFieldTypeString",
+          "alias": "CE_CFCC"
+        },
+        {
+          "name": "ST_FULLNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ST_FULLNAME"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Buildings",
+      "title": "Buildings",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "BL_SOURCE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BL_SOURCE"
+        },
+        {
+          "name": "BL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "BL_UPD_DATE"
+        },
+        {
+          "name": "BL_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BL_TYPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "BU_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "BU_LOUD_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Fences",
+      "title": "Fences",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MI_SOURCE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MI_SOURCE"
+        },
+        {
+          "name": "MI_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MI_UPD_DATE"
+        },
+        {
+          "name": "MI_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MI_TYPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "MISA_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "MISA_LOUD_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Road Casings",
+      "title": "Road Casings",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RD_SURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "RD_SURFACE"
+        },
+        {
+          "name": "RD_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RD_UPD_DATE"
+        },
+        {
+          "name": "RD_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RD_TYPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "RD_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RD_LOUD_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Major Streams",
+      "title": "Major Streams",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MA_DRAIN",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MA_DRAIN"
+        },
+        {
+          "name": "MA_STREAM_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "MA_STREAM_CODE"
+        },
+        {
+          "name": "MA_DRAIN_SIZE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MA_DRAIN_SIZE"
+        },
+        {
+          "name": "MA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MA_NAME"
+        },
+        {
+          "name": "MA_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MA_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Base Map Drains",
+      "title": "Base Map Drains",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "DR_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "DR_CLASS"
+        },
+        {
+          "name": "DR_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DR_UPD_DATE"
+        },
+        {
+          "name": "DR_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DR_TYPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "DR_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "DR_LOUD_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Water Bodies",
+      "title": "Water Bodies",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "WA_WELEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "WA_WELEV"
+        },
+        {
+          "name": "WA_SOURCE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WA_SOURCE"
+        },
+        {
+          "name": "WA_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "WA_UPD_DATE"
+        },
+        {
+          "name": "WA_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WA_TYPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "WA_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WA_LOUD_ID"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "agstype"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 657,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

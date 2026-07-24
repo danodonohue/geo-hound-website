@@ -1,0 +1,106 @@
+{
+  "slug": "www-gis-hctx-net-hcso-districts-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/Boundaries/HCSO_Districts/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/Boundaries/HCSO_Districts/MapServer",
+  "title": "HCSO_Districts",
+  "description": "Harris County Sheriff Office district boundaries for law enforcement service areas.",
+  "abstract": "Harris County Sheriffs Office (HCSO) Districts.",
+  "provider": "www.gis.hctx.net",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "HCSO Districts",
+      "title": "HCSO Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "JURIS",
+          "type": "esriFieldTypeString",
+          "alias": "JURIS"
+        },
+        {
+          "name": "DISTRICT_N",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT_N"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "District_1",
+          "type": "esriFieldTypeString",
+          "alias": "District_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102740"
+  ],
+  "cors_enabled": true,
+  "response_ms": 203,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

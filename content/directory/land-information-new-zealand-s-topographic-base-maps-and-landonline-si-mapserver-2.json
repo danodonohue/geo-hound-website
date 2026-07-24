@@ -1,0 +1,1223 @@
+{
+  "slug": "land-information-new-zealand-s-topographic-base-maps-and-landonline-si-mapserver-2",
+  "service_key": "ESRI MapServer:https://gisimagery.ecan.govt.nz/arcgis/rest/services/DynamicBasemaps/SimpleBasemap_1000/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisimagery.ecan.govt.nz/arcgis/rest/services/DynamicBasemaps/SimpleBasemap_1000/MapServer",
+  "title": "SimpleBasemap",
+  "description": "GIS service providing roads, parcels, boundaries data.",
+  "abstract": "Basic background map showing built up areas and some land cover.  Information taken from Land Information New Zealand's Topographic Base Maps and LandOnline.",
+  "provider": "Land Information New Zealand's Topographic Base Maps and LandOnline",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Sea Area",
+      "title": "Sea Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "GROUP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_NAME"
+        },
+        {
+          "name": "MACRONATED",
+          "type": "esriFieldTypeString",
+          "alias": "MACRONATED"
+        },
+        {
+          "name": "HYDRO_USE",
+          "type": "esriFieldTypeString",
+          "alias": "USE"
+        },
+        {
+          "name": "PERENNIAL",
+          "type": "esriFieldTypeString",
+          "alias": "PERENNIAL"
+        },
+        {
+          "name": "LID_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LID_TYPE"
+        },
+        {
+          "name": "FEATURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_TYPE"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Land Parcel Block Boundary",
+      "title": "Land Parcel Block Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Road Parcels",
+      "title": "Road Parcels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Affected_Surveys",
+          "type": "esriFieldTypeString",
+          "alias": "AFFECTED_SURVEYS"
+        },
+        {
+          "name": "Statutory_Actions",
+          "type": "esriFieldTypeString",
+          "alias": "STATUTORY_ACTIONS"
+        },
+        {
+          "name": "Titles",
+          "type": "esriFieldTypeString",
+          "alias": "TITLES"
+        },
+        {
+          "name": "Land_District",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_DISTRICT"
+        },
+        {
+          "name": "Parcel_Intent",
+          "type": "esriFieldTypeString",
+          "alias": "PARCEL_INTENT"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "Appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "Topology_Type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "Survey_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area"
+        },
+        {
+          "name": "Calc_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "calc_area"
+        },
+        {
+          "name": "EXTRACT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EXTRACT_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Building Footprints",
+      "title": "Building Footprints",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "imagery_source",
+          "type": "esriFieldTypeString",
+          "alias": "imagery_source"
+        },
+        {
+          "name": "known_error",
+          "type": "esriFieldTypeString",
+          "alias": "known_error"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Water Outlines",
+      "title": "Water Outlines",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CateTitle",
+          "type": "esriFieldTypeString",
+          "alias": "CateTitle"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Hydro Line",
+      "title": "Hydro Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "FEATURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_TYPE"
+        },
+        {
+          "name": "RIVER_DEFINITION",
+          "type": "esriFieldTypeString",
+          "alias": "RIVER_DEFINITION"
+        },
+        {
+          "name": "WATER_RACE",
+          "type": "esriFieldTypeString",
+          "alias": "WATER_RACE"
+        },
+        {
+          "name": "WATERFALL",
+          "type": "esriFieldTypeDouble",
+          "alias": "WATERFALL"
+        },
+        {
+          "name": "X_OFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_OFFSET"
+        },
+        {
+          "name": "Y_OFFSET",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_OFFSET"
+        },
+        {
+          "name": "DISPLAY",
+          "type": "esriFieldTypeInteger",
+          "alias": "DISPLAY"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "NZ Background",
+      "title": "NZ Background",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NZCOAST_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZCOAST_ID"
+        },
+        {
+          "name": "Shape_STArea__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GISPUBLIC_DBO_TOPO_NZTM_NZCoast_withoutCanterbury_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISPUBLIC_DBO_TOPO_NZTM_NZCoast_withoutCanterbury_AREA"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Red Zone",
+      "title": "Red Zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Canterbury Maps Area",
+      "title": "Canterbury Maps Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Parks",
+      "title": "Parks",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "COMMON_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "COMMON_NAME"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SHORT_NAME"
+        },
+        {
+          "name": "PARK_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PARK_TYPE"
+        },
+        {
+          "name": "STREET_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "STREET_ADDRESS"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_CREATED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_CREATED"
+        },
+        {
+          "name": "DATE_LAST_MODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_LAST_MODIFIED"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FEATURE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_ACCURACY"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Forest",
+      "title": "Forest",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "FORESTSCN_",
+          "type": "esriFieldTypeDouble",
+          "alias": "FORESTSCN_"
+        },
+        {
+          "name": "FORESTSCN1",
+          "type": "esriFieldTypeDouble",
+          "alias": "FORESTSCN1"
+        },
+        {
+          "name": "FEATURE",
+          "type": "esriFieldTypeDouble",
+          "alias": "FEATURE"
+        },
+        {
+          "name": "FEAT_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEAT_CODE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "FOREST_TYP",
+          "type": "esriFieldTypeString",
+          "alias": "FOREST_TYP"
+        },
+        {
+          "name": "Shape_STArea__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GISPUBLIC_DBO_TOPO_NZTM_Forests_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISPUBLIC_DBO_TOPO_NZTM_Forests_AREA"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Land Parcel Block Boundary",
+      "title": "Land Parcel Block Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "EXTRACT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EXTRACT_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Red Zone (AD)",
+      "title": "Red Zone (AD)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Canterbury Maps Area (AD)",
+      "title": "Canterbury Maps Area (AD)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Canterbury Maps Mask (AD)",
+      "title": "Canterbury Maps Mask (AD)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Parks (AD)",
+      "title": "Parks (AD)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 137,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

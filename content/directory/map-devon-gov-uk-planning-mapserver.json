@@ -1,0 +1,453 @@
+{
+  "slug": "map-devon-gov-uk-planning-mapserver",
+  "service_key": "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Environment/Planning/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://map.devon.gov.uk/arcgis/rest/services/Environment/Planning/MapServer",
+  "title": "Planning",
+  "description": "Waste and minerals planning designations including strategic sites.",
+  "abstract": "Planning",
+  "provider": "map.devon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Devon",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "zoning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Devon Waste Plan 2011-2031",
+      "title": "Devon Waste Plan 2011-2031",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Strategic Energy Recovery Sites [Policy W6]",
+      "title": "Strategic Energy Recovery Sites [Policy W6]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Site_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Site"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Existing and Permitted Waste Sites [Policy W10]",
+      "title": "Existing and Permitted Waste Sites [Policy W10]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "District",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "Site",
+          "type": "esriFieldTypeString",
+          "alias": "Site"
+        },
+        {
+          "name": "Facility_1",
+          "type": "esriFieldTypeString",
+          "alias": "Facility "
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Waste Consultation Zones [Policy W10]",
+      "title": "Waste Consultation Zones [Policy W10]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Site",
+          "type": "esriFieldTypeString",
+          "alias": "Site"
+        },
+        {
+          "name": "District",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "Facility_1",
+          "type": "esriFieldTypeString",
+          "alias": "Facility"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STAr"
+        },
+        {
+          "name": "Shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLe"
+        },
+        {
+          "name": "BUFF_DIST",
+          "type": "esriFieldTypeDouble",
+          "alias": "BUFF_DIST"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "OBJECTID_12",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_12"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Devon Minerals Plan 2011-2033",
+      "title": "Devon Minerals Plan 2011-2033",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Strategic Green Infrastructure Corridors [Policy M6]",
+      "title": "Strategic Green Infrastructure Corridors [Policy M6]",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Sensitive Frontages [Policy M6]",
+      "title": "Sensitive Frontages [Policy M6]",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Ball Clay Long Term Working Area [Policy M6]",
+      "title": "Ball Clay Long Term Working Area [Policy M6]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Ball Clay Mineral Working Area [Policy M4]",
+      "title": "Ball Clay Mineral Working Area [Policy M4]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Sand and Gravel Preferred Area [Policy M12]",
+      "title": "Sand and Gravel Preferred Area [Policy M12]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Hillhead Planning Permission ",
+      "title": "Hillhead Planning Permission ",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "China Clay Mineral Working Area [Policies M7 & M8]",
+      "title": "China Clay Mineral Working Area [Policies M7 & M8]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Drakelands Mineral Working Area [Policy M9]",
+      "title": "Drakelands Mineral Working Area [Policy M9]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Drakelands Lateral Extension [Policy M9]",
+      "title": "Drakelands Lateral Extension [Policy M9]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Mineral Consultation Areas",
+      "title": "Mineral Consultation Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Industrial Minerals MCA [Policy M2]",
+      "title": "Industrial Minerals MCA [Policy M2]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Aggregates MCA [Policy M2]",
+      "title": "Aggregates MCA [Policy M2]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Building Stone & Chalk MCA [Policy M2]",
+      "title": "Building Stone & Chalk MCA [Policy M2]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Mineral Safeguarding Areas",
+      "title": "Mineral Safeguarding Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Industrial Minerals MSA [Policy M2]",
+      "title": "Industrial Minerals MSA [Policy M2]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Aggregates MSA [Policy M2]",
+      "title": "Aggregates MSA [Policy M2]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Building Stone & Chalk MSA [Policy M2]",
+      "title": "Building Stone & Chalk MSA [Policy M2]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Planning Applications determined by Devon County Council",
+      "title": "Planning Applications determined by Devon County Council",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Article 4 Direction",
+      "title": "Article 4 Direction",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Codden Hill",
+      "title": "Codden Hill",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1262,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

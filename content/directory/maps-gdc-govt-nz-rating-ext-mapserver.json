@@ -1,0 +1,270 @@
+{
+  "slug": "maps-gdc-govt-nz-rating-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Data/rating_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Data/rating_ext/MapServer",
+  "title": "rating_ext",
+  "description": "Gisborne property valuation and rating information.",
+  "abstract": "GDC property and rating information",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Valuation and Rating Information",
+      "title": "Valuation and Rating Information",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ASSESSMNT",
+          "type": "esriFieldTypeString",
+          "alias": "Assessment"
+        },
+        {
+          "name": "ANNRATES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Annual Rates"
+        },
+        {
+          "name": "RollNumber",
+          "type": "esriFieldTypeString",
+          "alias": "RollNumber"
+        },
+        {
+          "name": "ValuationArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "Valuation Area"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Value"
+        },
+        {
+          "name": "ImprovementsValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Improvements Value"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capital Value"
+        },
+        {
+          "name": "ValuationLegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation Legal Description"
+        },
+        {
+          "name": "ValuationLocation",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation Location"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "CertificateOfTitle",
+          "type": "esriFieldTypeString",
+          "alias": "Certificate Of Title"
+        },
+        {
+          "name": "ValuationStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation Status"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Created Date"
+        },
+        {
+          "name": "MaoriLand",
+          "type": "esriFieldTypeString",
+          "alias": "Maori Land"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "DVRCategoryCode",
+          "type": "esriFieldTypeString",
+          "alias": "DVR Category Code"
+        },
+        {
+          "name": "DVRCategoryDescription",
+          "type": "esriFieldTypeString",
+          "alias": "DVR Category Description"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Valuation Parcels",
+      "title": "Valuation Parcels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ValuationNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Assessment"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeString",
+          "alias": "LINZ Parcel ID"
+        },
+        {
+          "name": "OzoneParcelID",
+          "type": "esriFieldTypeString",
+          "alias": "Ozone ID"
+        },
+        {
+          "name": "ParcelLegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Legal Description"
+        },
+        {
+          "name": "ParcelLocation",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Address"
+        },
+        {
+          "name": "ParcelType",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Type"
+        },
+        {
+          "name": "ParcelArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "Parcel Area"
+        },
+        {
+          "name": "ParcelTitle",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Title"
+        },
+        {
+          "name": "TOTAL_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Total Area"
+        },
+        {
+          "name": "TITLE_LEGA",
+          "type": "esriFieldTypeString",
+          "alias": "Title Legal"
+        },
+        {
+          "name": "ParcelStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel Status"
+        },
+        {
+          "name": "NAME_MAORI",
+          "type": "esriFieldTypeString",
+          "alias": "Maori Name"
+        },
+        {
+          "name": "RESERVE_NA",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "PURPOSE",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "LEGALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Legality"
+        },
+        {
+          "name": "STATUTE",
+          "type": "esriFieldTypeString",
+          "alias": "Statute"
+        },
+        {
+          "name": "LINZParcelID",
+          "type": "esriFieldTypeString",
+          "alias": "LINZ Parcel ID"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreatedDate"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 141,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

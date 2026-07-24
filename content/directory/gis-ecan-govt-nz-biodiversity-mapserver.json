@@ -1,0 +1,1258 @@
+{
+  "slug": "gis-ecan-govt-nz-biodiversity-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Public/Biodiversity/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Biodiversity/MapServer",
+  "title": "Biodiversity",
+  "description": "GIS service providing parcels, recreation data.",
+  "abstract": "Layers and features related to biodiversity restoration within the Cantebury Region.",
+  "provider": "gis.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Restoration Trails",
+      "title": "Restoration Trails",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_ID"
+        },
+        {
+          "name": "DISPLAY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "DISPLAY_NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "SHOW_ON_MAP",
+          "type": "esriFieldTypeString",
+          "alias": "SHOW_ON_MAP"
+        },
+        {
+          "name": "ACT_Walking",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_Walking"
+        },
+        {
+          "name": "ACT_CyclingMountainBiking",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_CyclingMountainBiking"
+        },
+        {
+          "name": "ACT_BirdWildlifeWatching",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_BirdWildlifeWatching"
+        },
+        {
+          "name": "ACT_FamilyFriendlyActivities",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_FamilyFriendlyActivities"
+        },
+        {
+          "name": "ACT_DogWalking",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_DogWalking"
+        },
+        {
+          "name": "ACT_Fishing",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_Fishing"
+        },
+        {
+          "name": "ACT_KayakingCanoeing",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_KayakingCanoeing"
+        },
+        {
+          "name": "ACT_Camping",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_Camping"
+        },
+        {
+          "name": "PHOTO_URL",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTO_URL"
+        },
+        {
+          "name": "CONTENT_URL",
+          "type": "esriFieldTypeString",
+          "alias": "CONTENT_URL"
+        },
+        {
+          "name": "LINK_URL",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "DESCRIPTION_CONTENT",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION_CONTENT"
+        },
+        {
+          "name": "NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "NOTES"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ACT_GameBird",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_GameBird"
+        },
+        {
+          "name": "ACT_Lookout",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_Lookout"
+        },
+        {
+          "name": "CWMS_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "CWMS_ZONE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Selwyn-Waihora Active Restoration Forum Sites",
+      "title": "Selwyn-Waihora Active Restoration Forum Sites",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PROJECT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECT_NAME"
+        },
+        {
+          "name": "PROJECT_NATURE",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECT_NATURE"
+        },
+        {
+          "name": "OWNERSHIP",
+          "type": "esriFieldTypeString",
+          "alias": "OWNERSHIP"
+        },
+        {
+          "name": "PRIMARY_HABITAT",
+          "type": "esriFieldTypeString",
+          "alias": "PRIMARY_HABITAT"
+        },
+        {
+          "name": "SECONDARY_HABITAT",
+          "type": "esriFieldTypeString",
+          "alias": "SECONDARY_HABITAT"
+        },
+        {
+          "name": "ECAN",
+          "type": "esriFieldTypeString",
+          "alias": "ECAN"
+        },
+        {
+          "name": "LANDOWNER",
+          "type": "esriFieldTypeString",
+          "alias": "LANDOWNER"
+        },
+        {
+          "name": "DOC",
+          "type": "esriFieldTypeString",
+          "alias": "DOC"
+        },
+        {
+          "name": "QEII",
+          "type": "esriFieldTypeString",
+          "alias": "QEII"
+        },
+        {
+          "name": "TLA",
+          "type": "esriFieldTypeString",
+          "alias": "TLA"
+        },
+        {
+          "name": "FISH_GAME",
+          "type": "esriFieldTypeString",
+          "alias": "FISH_GAME"
+        },
+        {
+          "name": "NGAI_TAHU",
+          "type": "esriFieldTypeString",
+          "alias": "NGAI_TAHU"
+        },
+        {
+          "name": "WHAKAORA",
+          "type": "esriFieldTypeString",
+          "alias": "WHAKAORA"
+        },
+        {
+          "name": "OTHER_FUNDERS",
+          "type": "esriFieldTypeString",
+          "alias": "OTHER_FUNDERS"
+        },
+        {
+          "name": "OTHER_FUNDERS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "OTHER_FUNDERS_NAME"
+        },
+        {
+          "name": "START_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "START_DATE"
+        },
+        {
+          "name": "LAST_UPDATE",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_UPDATE"
+        },
+        {
+          "name": "LAST_UPDATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_UPDATE_BY"
+        },
+        {
+          "name": "COMPLETION_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "COMPLETION_DATE"
+        },
+        {
+          "name": "TO_BE_FENCED_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "TO_BE_FENCED_HA"
+        },
+        {
+          "name": "PROTECTIVE_FENCING_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PROTECTIVE_FENCING_M"
+        },
+        {
+          "name": "PEST_CONTROL_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "PEST_CONTROL_HA"
+        },
+        {
+          "name": "PLANTING_AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "PLANTING_AREA_HA"
+        },
+        {
+          "name": "WEED_CONTROL_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "WEED_CONTROL_HA"
+        },
+        {
+          "name": "OTHER_WORKS",
+          "type": "esriFieldTypeString",
+          "alias": "OTHER_WORKS"
+        },
+        {
+          "name": "MONITOR_OUTCOMES",
+          "type": "esriFieldTypeString",
+          "alias": "MONITOR_OUTCOMES"
+        },
+        {
+          "name": "LEGAL_PROTECTION_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL_PROTECTION_TYPE"
+        },
+        {
+          "name": "PROJECT_DURATION",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECT_DURATION"
+        },
+        {
+          "name": "CRM_REC",
+          "type": "esriFieldTypeString",
+          "alias": "CRM_REC"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "QEII National Trust Open Space Covenants",
+      "title": "QEII National Trust Open Space Covenants",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CovNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Covenant Number"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "DateRegd",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Registered (LINZ)"
+        },
+        {
+          "name": "DateAppr",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Approved (QEII)"
+        },
+        {
+          "name": "LastUpdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "GeomArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (Ha)"
+        },
+        {
+          "name": "QEIIRegion",
+          "type": "esriFieldTypeString",
+          "alias": "QEII Region"
+        },
+        {
+          "name": "TA_Name",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "RegC_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Link",
+          "type": "esriFieldTypeString",
+          "alias": "Link"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Mataitai Reserve Coordinates",
+      "title": "Mataitai Reserve Coordinates",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "IDENTIFIER"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SHORT_NAME"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "POINT",
+          "type": "esriFieldTypeString",
+          "alias": "POINT"
+        },
+        {
+          "name": "POINT_LOCA",
+          "type": "esriFieldTypeString",
+          "alias": "POINT_LOCA"
+        },
+        {
+          "name": "LAT_DEG",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAT_DEG"
+        },
+        {
+          "name": "LONG_DEG",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONG_DEG"
+        },
+        {
+          "name": "LAT_DEG_MI",
+          "type": "esriFieldTypeString",
+          "alias": "LAT_DEG_MI"
+        },
+        {
+          "name": "LONG_DEG_M",
+          "type": "esriFieldTypeString",
+          "alias": "LONG_DEG_M"
+        },
+        {
+          "name": "LAT_DEG__1",
+          "type": "esriFieldTypeString",
+          "alias": "LAT_DEG__1"
+        },
+        {
+          "name": "LONG_DEG_1",
+          "type": "esriFieldTypeString",
+          "alias": "LONG_DEG_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Notes_",
+          "type": "esriFieldTypeString",
+          "alias": "Notes_"
+        },
+        {
+          "name": "DateModified",
+          "type": "esriFieldTypeDate",
+          "alias": "DateModified"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Mataitai Reserves",
+      "title": "Mataitai Reserves",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "IDENTIFIER"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHORT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SHORT_NAME"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "AREA_KM2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_KM2"
+        },
+        {
+          "name": "GAZ_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "GAZ_DATE"
+        },
+        {
+          "name": "IN_FORCE_D",
+          "type": "esriFieldTypeString",
+          "alias": "IN_FORCE_D"
+        },
+        {
+          "name": "KAITIAKI_T",
+          "type": "esriFieldTypeString",
+          "alias": "KAITIAKI_T"
+        },
+        {
+          "name": "SHAPE_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Leng"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NOTES_",
+          "type": "esriFieldTypeString",
+          "alias": "NOTES_"
+        },
+        {
+          "name": "LegalInstrument",
+          "type": "esriFieldTypeString",
+          "alias": "LegalInstrument"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "CurrentState",
+          "type": "esriFieldTypeString",
+          "alias": "CurrentState"
+        },
+        {
+          "name": "DateModified",
+          "type": "esriFieldTypeDate",
+          "alias": "DateModified"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Taiapure",
+      "title": "Taiapure",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "IDENTIFIER"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "AREA_KM2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_KM2"
+        },
+        {
+          "name": "WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "WARNING"
+        },
+        {
+          "name": "NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "NOTES"
+        },
+        {
+          "name": "IN_FORCE_D",
+          "type": "esriFieldTypeString",
+          "alias": "IN_FORCE_D"
+        },
+        {
+          "name": "ORIG_LEGAL",
+          "type": "esriFieldTypeString",
+          "alias": "ORIG_LEGAL"
+        },
+        {
+          "name": "MEMBERS",
+          "type": "esriFieldTypeString",
+          "alias": "MEMBERS"
+        },
+        {
+          "name": "SHAPE_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Leng"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Biodiversity Projects - Fund",
+      "title": "Biodiversity Projects - Fund",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ApplicationDate"
+        },
+        {
+          "name": "ApplicationNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "ApplicationNumber"
+        },
+        {
+          "name": "EcosystemTypeName",
+          "type": "esriFieldTypeString",
+          "alias": "EcosystemTypeName"
+        },
+        {
+          "name": "FundType",
+          "type": "esriFieldTypeString",
+          "alias": "FundType"
+        },
+        {
+          "name": "ProjectStatusName",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectStatusName"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Biodiversity Projects - Ecosystem Type",
+      "title": "Biodiversity Projects - Ecosystem Type",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ApplicationDate"
+        },
+        {
+          "name": "ApplicationNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "ApplicationNumber"
+        },
+        {
+          "name": "EcosystemTypeName",
+          "type": "esriFieldTypeString",
+          "alias": "EcosystemTypeName"
+        },
+        {
+          "name": "FundType",
+          "type": "esriFieldTypeString",
+          "alias": "FundType"
+        },
+        {
+          "name": "ProjectStatusName",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectStatusName"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Roosting Habitat of Long-Tailed Bat",
+      "title": "Roosting Habitat of Long-Tailed Bat",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SPECIES",
+          "type": "esriFieldTypeString",
+          "alias": "SPECIES"
+        },
+        {
+          "name": "LANDFORM_",
+          "type": "esriFieldTypeString",
+          "alias": "LANDFORM_"
+        },
+        {
+          "name": "VEGETATION",
+          "type": "esriFieldTypeString",
+          "alias": "VEGETATION"
+        },
+        {
+          "name": "HAB_USE",
+          "type": "esriFieldTypeString",
+          "alias": "HAB_USE"
+        },
+        {
+          "name": "HAB_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "HAB_STATUS"
+        },
+        {
+          "name": "ACT_THREAT",
+          "type": "esriFieldTypeString",
+          "alias": "ACT_THREAT"
+        },
+        {
+          "name": "POT_THREAT",
+          "type": "esriFieldTypeString",
+          "alias": "POT_THREAT"
+        },
+        {
+          "name": "DATASOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DATASOURCE"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Fish Barrier- all sites assessed ",
+      "title": "Fish Barrier- all sites assessed ",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_code",
+          "type": "esriFieldTypeString",
+          "alias": "Asset code"
+        },
+        {
+          "name": "Stream",
+          "type": "esriFieldTypeString",
+          "alias": "Stream"
+        },
+        {
+          "name": "CWMS_zone",
+          "type": "esriFieldTypeString",
+          "alias": "CWMS zone"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "Easting_NZTM_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting(NZTM)"
+        },
+        {
+          "name": "Northing__NZTM_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing (NZTM)"
+        },
+        {
+          "name": "Details",
+          "type": "esriFieldTypeString",
+          "alias": "Details"
+        },
+        {
+          "name": "Obstruction",
+          "type": "esriFieldTypeString",
+          "alias": "Obstruction"
+        },
+        {
+          "name": "Photo_No_",
+          "type": "esriFieldTypeString",
+          "alias": "Photo No."
+        },
+        {
+          "name": "Dry",
+          "type": "esriFieldTypeString",
+          "alias": "Dry"
+        },
+        {
+          "name": "Drain",
+          "type": "esriFieldTypeString",
+          "alias": "Drain"
+        },
+        {
+          "name": "Year_Assessed",
+          "type": "esriFieldTypeString",
+          "alias": "Year Assessed"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "HPE_Unique_Identifier",
+          "type": "esriFieldTypeInteger",
+          "alias": "HPE_Unique_Identifier"
+        },
+        {
+          "name": "HPE_Record_Number",
+          "type": "esriFieldTypeString",
+          "alias": "HPE_Record_Number"
+        },
+        {
+          "name": "HPE_Title",
+          "type": "esriFieldTypeString",
+          "alias": "HPE_Title"
+        },
+        {
+          "name": "HPE_Container_Record_Number",
+          "type": "esriFieldTypeString",
+          "alias": "HPE_Container_Record_Number"
+        },
+        {
+          "name": "Date_Created",
+          "type": "esriFieldTypeString",
+          "alias": "Date_Created"
+        },
+        {
+          "name": "Date_Registered",
+          "type": "esriFieldTypeString",
+          "alias": "Date_Registered"
+        },
+        {
+          "name": "filename",
+          "type": "esriFieldTypeString",
+          "alias": "filename"
+        },
+        {
+          "name": "primary_photo",
+          "type": "esriFieldTypeString",
+          "alias": "primary_photo"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Canterbury Wetlands",
+      "title": "Canterbury Wetlands",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Mackenzie Basin Alignment Programme Extent",
+      "title": "Mackenzie Basin Alignment Programme Extent",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NaPALIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NaPALIS_ID"
+        },
+        {
+          "name": "Start_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Start_Date"
+        },
+        {
+          "name": "End_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "End_Date"
+        },
+        {
+          "name": "TA11",
+          "type": "esriFieldTypeString",
+          "alias": "TA11"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STAr"
+        },
+        {
+          "name": "Shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLe"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "DOC Ecological District 1987",
+      "title": "DOC Ecological District 1987",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ECOLOGICAL_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ECOLOGICAL_CODE"
+        },
+        {
+          "name": "ECOLOGICAL_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "ECOLOGICAL_DISTRICT"
+        },
+        {
+          "name": "ECOLOGICAL_REGION",
+          "type": "esriFieldTypeString",
+          "alias": "ECOLOGICAL_REGION"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 21,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

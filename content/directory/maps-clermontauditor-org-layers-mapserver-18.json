@@ -1,0 +1,448 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-18",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/ParSurveys/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/ParSurveys/MapServer",
+  "title": "Layers",
+  "description": "Clermont County parcel survey boundaries and names.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "PARSURVEYS_POPUP",
+      "title": "PARSURVEYS_POPUP",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "PARSURVEYS_36K",
+      "title": "PARSURVEYS_36K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "PARSURVEYS_18K",
+      "title": "PARSURVEYS_18K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "PARSURVEYS_9K",
+      "title": "PARSURVEYS_9K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "PARSURVEYS_4K",
+      "title": "PARSURVEYS_4K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "PARSURVEYS_2K",
+      "title": "PARSURVEYS_2K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "PARSURVEYS_1K",
+      "title": "PARSURVEYS_1K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "PARSURVEYS_600FT",
+      "title": "PARSURVEYS_600FT",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "PARSURVEYS_300FT",
+      "title": "PARSURVEYS_300FT",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Survey Name"
+        },
+        {
+          "name": "PARIDS",
+          "type": "esriFieldTypeString",
+          "alias": "Parcels"
+        },
+        {
+          "name": "YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HYPERLINK",
+          "type": "esriFieldTypeString",
+          "alias": "HYPERLINK"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 653,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

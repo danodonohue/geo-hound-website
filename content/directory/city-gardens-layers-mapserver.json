@@ -1,0 +1,120 @@
+{
+  "slug": "city-gardens-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_City_Gardens/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_City_Gardens/MapServer",
+  "title": "Layers",
+  "description": "Tree locations and characteristics managed by City Gardens department.",
+  "abstract": "Locations of all trees managed by City Gardens, Open Spaces Department and all known locations of privately managed trees in the City of London. ",
+  "provider": "City Gardens",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "City Gardens Managed Trees",
+      "title": "City Gardens Managed Trees",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "COMMONNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Common Name"
+        },
+        {
+          "name": "DBHCM",
+          "type": "esriFieldTypeDouble",
+          "alias": "DBH (cm)"
+        },
+        {
+          "name": "LATINNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Latin Name"
+        },
+        {
+          "name": "LIFESTAGE",
+          "type": "esriFieldTypeString",
+          "alias": "Life Stage"
+        },
+        {
+          "name": "SPREADM",
+          "type": "esriFieldTypeDouble",
+          "alias": "Spread (m)"
+        },
+        {
+          "name": "TREEHEIGHT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height (m)"
+        },
+        {
+          "name": "TREEID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROJECT",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "DATEPLANTED",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Planted"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 289,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,912 @@
+{
+  "slug": "maps-gdc-govt-nz-community-information-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Data/community_information_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Data/community_information_ext/MapServer",
+  "title": "community_information_ext",
+  "description": "Community sites and points of interest for Gisborne District including Marae and schools.",
+  "abstract": "Community Sites and Points of Interest",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 40,
+      "name": "Marae",
+      "title": "Marae",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Tairawhiti Marae",
+      "title": "Tairawhiti Marae",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Marae Name"
+        },
+        {
+          "name": "Alternate",
+          "type": "esriFieldTypeString",
+          "alias": "Alternate"
+        },
+        {
+          "name": "Wharenui",
+          "type": "esriFieldTypeString",
+          "alias": "Wharenui"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Iwi",
+          "type": "esriFieldTypeString",
+          "alias": "Iwi"
+        },
+        {
+          "name": "Hapu",
+          "type": "esriFieldTypeString",
+          "alias": "Hapu"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "TPK_Region",
+          "type": "esriFieldTypeString",
+          "alias": "TPK_Region"
+        },
+        {
+          "name": "TKM_MID",
+          "type": "esriFieldTypeInteger",
+          "alias": "TKM_MID"
+        },
+        {
+          "name": "Search",
+          "type": "esriFieldTypeString",
+          "alias": "Search"
+        },
+        {
+          "name": "Feedback",
+          "type": "esriFieldTypeString",
+          "alias": "Feedback"
+        },
+        {
+          "name": "GoogleMaps",
+          "type": "esriFieldTypeString",
+          "alias": "GoogleMaps"
+        },
+        {
+          "name": "StatutoryAcknowledgmentArea",
+          "type": "esriFieldTypeString",
+          "alias": "StatutoryAcknowledgmentArea"
+        },
+        {
+          "name": "SubRegion",
+          "type": "esriFieldTypeString",
+          "alias": "SubRegion"
+        },
+        {
+          "name": "LinkUrl",
+          "type": "esriFieldTypeString",
+          "alias": "LinkUrl"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Hawkes Bay Marae",
+      "title": "Hawkes Bay Marae",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "Hapu",
+          "type": "esriFieldTypeString",
+          "alias": "Hapu"
+        },
+        {
+          "name": "Website",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "SUBURB"
+        },
+        {
+          "name": "TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Postcode"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "Taiwhenua",
+          "type": "esriFieldTypeString",
+          "alias": "Taiwhenua"
+        },
+        {
+          "name": "Physical_L",
+          "type": "esriFieldTypeString",
+          "alias": "Physical_L"
+        },
+        {
+          "name": "Appellatio",
+          "type": "esriFieldTypeString",
+          "alias": "Appellatio"
+        },
+        {
+          "name": "Primary_So",
+          "type": "esriFieldTypeString",
+          "alias": "Primary_So"
+        },
+        {
+          "name": "Secondary_",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary_"
+        },
+        {
+          "name": "Third_Sour",
+          "type": "esriFieldTypeString",
+          "alias": "Third_Sour"
+        },
+        {
+          "name": "WorkflowID",
+          "type": "esriFieldTypeString",
+          "alias": "WorkflowID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "School",
+      "title": "School",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "School Name"
+        },
+        {
+          "name": "Street",
+          "type": "esriFieldTypeString",
+          "alias": "Street"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "Telephone",
+          "type": "esriFieldTypeString",
+          "alias": "Telephone"
+        },
+        {
+          "name": "Fax",
+          "type": "esriFieldTypeString",
+          "alias": "Fax"
+        },
+        {
+          "name": "Email",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "School_website",
+          "type": "esriFieldTypeString",
+          "alias": "School Website"
+        },
+        {
+          "name": "Urban_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Urban Area"
+        },
+        {
+          "name": "School_Type",
+          "type": "esriFieldTypeString",
+          "alias": "School Type"
+        },
+        {
+          "name": "Definition",
+          "type": "esriFieldTypeString",
+          "alias": "Definition"
+        },
+        {
+          "name": "Authority",
+          "type": "esriFieldTypeString",
+          "alias": "Authority"
+        },
+        {
+          "name": "Gender_of_Students",
+          "type": "esriFieldTypeString",
+          "alias": "Gender of Students"
+        },
+        {
+          "name": "Education_Region",
+          "type": "esriFieldTypeString",
+          "alias": "Education Region"
+        },
+        {
+          "name": "Decile",
+          "type": "esriFieldTypeString",
+          "alias": "Decile"
+        },
+        {
+          "name": "Total_School_Roll",
+          "type": "esriFieldTypeInteger",
+          "alias": "Total School Roll"
+        },
+        {
+          "name": "Māori",
+          "type": "esriFieldTypeInteger",
+          "alias": "Māori"
+        },
+        {
+          "name": "Asian",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asian"
+        },
+        {
+          "name": "MELAA",
+          "type": "esriFieldTypeInteger",
+          "alias": "MELAA"
+        },
+        {
+          "name": "Other",
+          "type": "esriFieldTypeInteger",
+          "alias": "Other"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Territoria_Authority_with_Auckland_Local_Board",
+          "type": "esriFieldTypeString",
+          "alias": "Territoria_Authority_with_Auckland_Local_Board"
+        },
+        {
+          "name": "European_Pākehā",
+          "type": "esriFieldTypeInteger",
+          "alias": "European_Pākehā"
+        },
+        {
+          "name": "Pacific",
+          "type": "esriFieldTypeInteger",
+          "alias": "Pacific"
+        },
+        {
+          "name": "International",
+          "type": "esriFieldTypeInteger",
+          "alias": "International"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Public Places",
+      "title": "Public Places",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "I Site",
+      "title": "I Site",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "I-Site Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Libraries",
+      "title": "Libraries",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Library Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Monuments",
+      "title": "Monuments",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Monument Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Museums",
+      "title": "Museums",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Museum Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Points of Interest",
+      "title": "Points of Interest",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Points of Interest Name"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Subtype",
+          "type": "esriFieldTypeString",
+          "alias": "Subtype"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Image",
+          "type": "esriFieldTypeString",
+          "alias": "Image"
+        },
+        {
+          "name": "SiteUrl",
+          "type": "esriFieldTypeString",
+          "alias": "Site Url"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Public Art",
+      "title": "Public Art",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Public Art Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Sports Facilities",
+      "title": "Sports Facilities",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Sports Facility Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Swimming Pools",
+      "title": "Swimming Pools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Swimming Pool Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Theatres",
+      "title": "Theatres",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Theatre Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Banks",
+      "title": "Banks",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Bank Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Hospitals",
+      "title": "Hospitals",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Medical Centres",
+      "title": "Medical Centres",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Police Stations",
+      "title": "Police Stations",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Public Toilets",
+      "title": "Public Toilets",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Dog Control Areas",
+      "title": "Dog Control Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Dog Exercise Areas",
+      "title": "Dog Exercise Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Dog Exclusion Areas",
+      "title": "Dog Exclusion Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Parks & Reserves",
+      "title": "Parks & Reserves",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Amenity Reserves",
+      "title": "Amenity Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Heritage Reserves",
+      "title": "Heritage Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Neighbourhood Reserves",
+      "title": "Neighbourhood Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Recreation Reserves",
+      "title": "Recreation Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Road End Reserves",
+      "title": "Road End Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Esplanade Reserves",
+      "title": "Esplanade Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Other Reserves",
+      "title": "Other Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Cemeteries",
+      "title": "Cemeteries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Cemetery Locations",
+      "title": "Cemetery Locations",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Cemetery Blocks",
+      "title": "Cemetery Blocks",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Camping Sites",
+      "title": "Camping Sites",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Restricted Freedom Camping Areas",
+      "title": "Restricted Freedom Camping Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Restricted Seasonal Freedom Camping Areas",
+      "title": "Restricted Seasonal Freedom Camping Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Prohibited Freedom Camping Areas",
+      "title": "Prohibited Freedom Camping Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Community Housing",
+      "title": "Community Housing",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Early Childhood",
+      "title": "Early Childhood",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Church",
+      "title": "Church",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Rest Home",
+      "title": "Rest Home",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 277,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

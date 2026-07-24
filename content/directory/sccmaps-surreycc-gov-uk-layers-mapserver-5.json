@@ -1,0 +1,161 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-5",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_Ward/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_Ward/MapServer",
+  "title": "Layers",
+  "description": "Ward administrative boundaries for Surrey local government.",
+  "abstract": "Layers associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 14,
+      "name": "Boundary - Ward",
+      "title": "Boundary - Ward",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Area_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Code"
+        },
+        {
+          "name": "Area_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Description"
+        },
+        {
+          "name": "File_Name",
+          "type": "esriFieldTypeString",
+          "alias": "File_Name"
+        },
+        {
+          "name": "Feature_Serial_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Feature_Serial_Number"
+        },
+        {
+          "name": "Collection_Serial_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Collection_Serial_Number"
+        },
+        {
+          "name": "Global_Polygon_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Global_Polygon_ID"
+        },
+        {
+          "name": "Admin_Unit_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Admin_Unit_ID"
+        },
+        {
+          "name": "Census_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Census_Code"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "Non_Inland_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Non_Inland_Area"
+        },
+        {
+          "name": "Area_Type_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Type_Code"
+        },
+        {
+          "name": "Area_Type_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Type_Description"
+        },
+        {
+          "name": "Non_Area_Type_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Non_Area_Type_Code"
+        },
+        {
+          "name": "Non_Area_Type_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Non_Area_Type_Description"
+        },
+        {
+          "name": "scc_update_date",
+          "type": "esriFieldTypeString",
+          "alias": "scc_update_date"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 318,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

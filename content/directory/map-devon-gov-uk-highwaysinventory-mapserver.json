@@ -1,0 +1,1297 @@
+{
+  "slug": "map-devon-gov-uk-highwaysinventory-mapserver",
+  "service_key": "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Highways/HighwaysInventory/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://map.devon.gov.uk/arcgis/rest/services/Highways/HighwaysInventory/MapServer",
+  "title": "HighwaysInventory",
+  "description": "Road infrastructure including pipes, culverts and drainage systems.",
+  "abstract": "Devon Land Charges Road Polygons",
+  "provider": "map.devon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Devon",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "utilities",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 38,
+      "name": "Highways Inventory",
+      "title": "Highways Inventory",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Pipes",
+      "title": "Pipes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "FIRST_RECORDED",
+          "type": "esriFieldTypeString",
+          "alias": "FIRST_RECORDED"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "material",
+          "type": "esriFieldTypeString",
+          "alias": "material"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeString",
+          "alias": "diameter"
+        },
+        {
+          "name": "SHAPE_GEOM",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOM"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "location_info",
+          "type": "esriFieldTypeString",
+          "alias": "location_info"
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "width"
+        },
+        {
+          "name": "channel_length",
+          "type": "esriFieldTypeString",
+          "alias": "channel_length"
+        },
+        {
+          "name": "discharge_location",
+          "type": "esriFieldTypeString",
+          "alias": "discharge_location"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "Kaarb_channels_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_channels_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Aco Drain",
+      "title": "Aco Drain",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "FIRST_RECORDED",
+          "type": "esriFieldTypeString",
+          "alias": "FIRST_RECORDED"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "material",
+          "type": "esriFieldTypeString",
+          "alias": "material"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeString",
+          "alias": "diameter"
+        },
+        {
+          "name": "SHAPE_GEOM",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOM"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "location_info",
+          "type": "esriFieldTypeString",
+          "alias": "location_info"
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "width"
+        },
+        {
+          "name": "channel_length",
+          "type": "esriFieldTypeString",
+          "alias": "channel_length"
+        },
+        {
+          "name": "discharge_location",
+          "type": "esriFieldTypeString",
+          "alias": "discharge_location"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "Kaarb_channels_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_channels_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Buddlehole",
+      "title": "Buddlehole",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "FIRST_RECORDED",
+          "type": "esriFieldTypeString",
+          "alias": "FIRST_RECORDED"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "material",
+          "type": "esriFieldTypeString",
+          "alias": "material"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeString",
+          "alias": "diameter"
+        },
+        {
+          "name": "SHAPE_GEOM",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOM"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "location_info",
+          "type": "esriFieldTypeString",
+          "alias": "location_info"
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "width"
+        },
+        {
+          "name": "channel_length",
+          "type": "esriFieldTypeString",
+          "alias": "channel_length"
+        },
+        {
+          "name": "discharge_location",
+          "type": "esriFieldTypeString",
+          "alias": "discharge_location"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "Kaarb_channels_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_channels_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Culvert",
+      "title": "Culvert",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "FIRST_RECORDED",
+          "type": "esriFieldTypeString",
+          "alias": "FIRST_RECORDED"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "material",
+          "type": "esriFieldTypeString",
+          "alias": "material"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeString",
+          "alias": "diameter"
+        },
+        {
+          "name": "SHAPE_GEOM",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOM"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "location_info",
+          "type": "esriFieldTypeString",
+          "alias": "location_info"
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "width"
+        },
+        {
+          "name": "channel_length",
+          "type": "esriFieldTypeString",
+          "alias": "channel_length"
+        },
+        {
+          "name": "discharge_location",
+          "type": "esriFieldTypeString",
+          "alias": "discharge_location"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "Kaarb_channels_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_channels_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Dish Channel",
+      "title": "Dish Channel",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "FIRST_RECORDED",
+          "type": "esriFieldTypeString",
+          "alias": "FIRST_RECORDED"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "material",
+          "type": "esriFieldTypeString",
+          "alias": "material"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeString",
+          "alias": "diameter"
+        },
+        {
+          "name": "SHAPE_GEOM",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOM"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "location_info",
+          "type": "esriFieldTypeString",
+          "alias": "location_info"
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "width"
+        },
+        {
+          "name": "channel_length",
+          "type": "esriFieldTypeString",
+          "alias": "channel_length"
+        },
+        {
+          "name": "discharge_location",
+          "type": "esriFieldTypeString",
+          "alias": "discharge_location"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "Kaarb_channels_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_channels_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Easement",
+      "title": "Easement",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "FIRST_RECORDED",
+          "type": "esriFieldTypeString",
+          "alias": "FIRST_RECORDED"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "material",
+          "type": "esriFieldTypeString",
+          "alias": "material"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeString",
+          "alias": "diameter"
+        },
+        {
+          "name": "SHAPE_GEOM",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOM"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "location_info",
+          "type": "esriFieldTypeString",
+          "alias": "location_info"
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "width"
+        },
+        {
+          "name": "channel_length",
+          "type": "esriFieldTypeString",
+          "alias": "channel_length"
+        },
+        {
+          "name": "discharge_location",
+          "type": "esriFieldTypeString",
+          "alias": "discharge_location"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "Kaarb_channels_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_channels_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Grip",
+      "title": "Grip",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "FIRST_RECORDED",
+          "type": "esriFieldTypeString",
+          "alias": "FIRST_RECORDED"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "material",
+          "type": "esriFieldTypeString",
+          "alias": "material"
+        },
+        {
+          "name": "diameter",
+          "type": "esriFieldTypeString",
+          "alias": "diameter"
+        },
+        {
+          "name": "SHAPE_GEOM",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOM"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "location_info",
+          "type": "esriFieldTypeString",
+          "alias": "location_info"
+        },
+        {
+          "name": "width",
+          "type": "esriFieldTypeString",
+          "alias": "width"
+        },
+        {
+          "name": "channel_length",
+          "type": "esriFieldTypeString",
+          "alias": "channel_length"
+        },
+        {
+          "name": "discharge_location",
+          "type": "esriFieldTypeString",
+          "alias": "discharge_location"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "Kaarb_channels_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_channels_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Catchpit",
+      "title": "Catchpit",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "cyclical_target_date",
+          "type": "esriFieldTypeString",
+          "alias": "cyclical_target_date"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "grating_type",
+          "type": "esriFieldTypeString",
+          "alias": "grating_type"
+        },
+        {
+          "name": "has_sump",
+          "type": "esriFieldTypeString",
+          "alias": "has_sump"
+        },
+        {
+          "name": "backing_kerb",
+          "type": "esriFieldTypeString",
+          "alias": "backing_kerb"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "Kaarb_Nodes_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_Nodes_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "PointX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointX"
+        },
+        {
+          "name": "PointY",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Gully",
+      "title": "Gully",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "cyclical_target_date",
+          "type": "esriFieldTypeString",
+          "alias": "cyclical_target_date"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "grating_type",
+          "type": "esriFieldTypeString",
+          "alias": "grating_type"
+        },
+        {
+          "name": "has_sump",
+          "type": "esriFieldTypeString",
+          "alias": "has_sump"
+        },
+        {
+          "name": "backing_kerb",
+          "type": "esriFieldTypeString",
+          "alias": "backing_kerb"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "Kaarb_Nodes_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_Nodes_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "PointX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointX"
+        },
+        {
+          "name": "PointY",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Soakaway",
+      "title": "Soakaway",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "cyclical_target_date",
+          "type": "esriFieldTypeString",
+          "alias": "cyclical_target_date"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "grating_type",
+          "type": "esriFieldTypeString",
+          "alias": "grating_type"
+        },
+        {
+          "name": "has_sump",
+          "type": "esriFieldTypeString",
+          "alias": "has_sump"
+        },
+        {
+          "name": "backing_kerb",
+          "type": "esriFieldTypeString",
+          "alias": "backing_kerb"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "Kaarb_Nodes_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_Nodes_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "PointX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointX"
+        },
+        {
+          "name": "PointY",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Outfall",
+      "title": "Outfall",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LAST_INSPECTED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_INSPECTED"
+        },
+        {
+          "name": "cycle_length",
+          "type": "esriFieldTypeString",
+          "alias": "cycle_length"
+        },
+        {
+          "name": "cyclical_target_date",
+          "type": "esriFieldTypeString",
+          "alias": "cyclical_target_date"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "grating_type",
+          "type": "esriFieldTypeString",
+          "alias": "grating_type"
+        },
+        {
+          "name": "has_sump",
+          "type": "esriFieldTypeString",
+          "alias": "has_sump"
+        },
+        {
+          "name": "backing_kerb",
+          "type": "esriFieldTypeString",
+          "alias": "backing_kerb"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "maintained_by"
+        },
+        {
+          "name": "SHAPE_GEOGRAPHY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOGRAPHY"
+        },
+        {
+          "name": "SHAPE_GEOMETRY",
+          "type": "esriFieldTypeString",
+          "alias": "SHAPE_GEOMETRY"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "Kaarb_Nodes_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Kaarb_Nodes_UID"
+        },
+        {
+          "name": "GEOGRAPHY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEOGRAPHY_ID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeInteger",
+          "alias": "Owner"
+        },
+        {
+          "name": "PointX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointX"
+        },
+        {
+          "name": "PointY",
+          "type": "esriFieldTypeDouble",
+          "alias": "PointY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 894,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,1437 @@
+{
+  "slug": "maps-nnva-gov-facility-points-mapserver",
+  "service_key": "ESRI MapServer:https://maps.nnva.gov/arcgis/rest/services/EmergencyManagement/FacilityPoints/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.nnva.gov/arcgis/rest/services/EmergencyManagement/FacilityPoints/MapServer",
+  "title": "Facility Points",
+  "description": "Emergency services facilities including police, fire, hospitals, and community centers.",
+  "abstract": "FEMA Storm Surge and Storm Tide Flooding Map",
+  "provider": "maps.nnva.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 93,
+      "name": "Police Station",
+      "title": "Police Station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 92,
+      "name": "Fire Station",
+      "title": "Fire Station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 99,
+      "name": "Emergency Operations Center",
+      "title": "Emergency Operations Center",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "CAPTUREMETH",
+          "type": "esriFieldTypeString",
+          "alias": "Capture Method"
+        },
+        {
+          "name": "LOCATIONTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Location Type"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "FACAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Facility Area"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Update Date"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scale Annotation"
+        },
+        {
+          "name": "XCOORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "XCOORD"
+        },
+        {
+          "name": "YCOORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "YCOORD"
+        },
+        {
+          "name": "YOUTHPROGRAM",
+          "type": "esriFieldTypeString",
+          "alias": "YOUTHPROGRAM"
+        },
+        {
+          "name": "SENIORPROGRAM",
+          "type": "esriFieldTypeString",
+          "alias": "SENIOR PROGRAM"
+        },
+        {
+          "name": "EVENTSITE",
+          "type": "esriFieldTypeString",
+          "alias": "EVENTSITE"
+        },
+        {
+          "name": "HISTORICALSITE",
+          "type": "esriFieldTypeString",
+          "alias": "HISTORICALSITE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 91,
+      "name": "HazMat EHS Facility (Peninsula)",
+      "title": "HazMat EHS Facility (Peninsula)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "CAPTUREMETH",
+          "type": "esriFieldTypeString",
+          "alias": "Capture Method"
+        },
+        {
+          "name": "LOCATIONTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Location Type"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "FACAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Facility Area"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PSTLZIP5",
+          "type": "esriFieldTypeString",
+          "alias": "PSTLZIP5"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 89,
+      "name": "Hospital",
+      "title": "Hospital",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 88,
+      "name": "Medical Facility",
+      "title": "Medical Facility",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "NUMBEDS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "# of Beds Available"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 95,
+      "name": "Access Functional Needs Facility",
+      "title": "Access Functional Needs Facility",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "CAPTUREMETH",
+          "type": "esriFieldTypeString",
+          "alias": "Capture Method"
+        },
+        {
+          "name": "LOCATIONTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Location Type"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "FACAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Facility Area"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Update Date"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 87,
+      "name": "Community Center",
+      "title": "Community Center",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "CAPTUREMETH",
+          "type": "esriFieldTypeString",
+          "alias": "Capture Method"
+        },
+        {
+          "name": "LOCATIONTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Location Type"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "FACAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Facility Area"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 97,
+      "name": "Emergency Shelter",
+      "title": "Emergency Shelter",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "FACNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Name"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "REFUGEUSE",
+          "type": "esriFieldTypeString",
+          "alias": "Refuge"
+        },
+        {
+          "name": "PRIMARYUSE",
+          "type": "esriFieldTypeString",
+          "alias": "Primary Use"
+        },
+        {
+          "name": "ALTERNATEUSE",
+          "type": "esriFieldTypeString",
+          "alias": "Alternative Use"
+        },
+        {
+          "name": "EAC",
+          "type": "esriFieldTypeString",
+          "alias": "EAC"
+        },
+        {
+          "name": "FAC",
+          "type": "esriFieldTypeString",
+          "alias": "FAC"
+        },
+        {
+          "name": "OTHERUSE",
+          "type": "esriFieldTypeString",
+          "alias": "Other Use"
+        },
+        {
+          "name": "PRKNGGEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "Parking Spaces"
+        },
+        {
+          "name": "PRKNGADA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Handicapped Spaces"
+        },
+        {
+          "name": "PRKNGBUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Bus Spaces"
+        },
+        {
+          "name": "GYMAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "GYM Square Feet"
+        },
+        {
+          "name": "KITCHEN",
+          "type": "esriFieldTypeString",
+          "alias": "Kitchen Type"
+        },
+        {
+          "name": "CAPACITY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Total Capacity"
+        },
+        {
+          "name": "ARCNSS",
+          "type": "esriFieldTypeString",
+          "alias": "ARC NSS"
+        },
+        {
+          "name": "SHORTERM",
+          "type": "esriFieldTypeDouble",
+          "alias": "Short Term"
+        },
+        {
+          "name": "LONGTERM",
+          "type": "esriFieldTypeDouble",
+          "alias": "Long Term"
+        },
+        {
+          "name": "TENPERCDAFN",
+          "type": "esriFieldTypeDouble",
+          "alias": "10 Percent DAFN"
+        },
+        {
+          "name": "SPECNOTES",
+          "type": "esriFieldTypeString",
+          "alias": "Special Notes"
+        },
+        {
+          "name": "CAFESEATS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Cafeteria Seating"
+        },
+        {
+          "name": "SHOWERSADA",
+          "type": "esriFieldTypeString",
+          "alias": "ADA Showers"
+        },
+        {
+          "name": "SHELTERADA",
+          "type": "esriFieldTypeString",
+          "alias": "Shelter ADA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SORTORDER",
+          "type": "esriFieldTypeString",
+          "alias": "Sort Order"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 86,
+      "name": "School",
+      "title": "School",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "LOCATIONTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Location Type"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "NUMSTUDENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "# of Students"
+        },
+        {
+          "name": "FACAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Facility Area"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Update Date"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "Last Editor"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHELTER",
+          "type": "esriFieldTypeString",
+          "alias": "Used as Shelter"
+        },
+        {
+          "name": "AFTERSCHOOL",
+          "type": "esriFieldTypeString",
+          "alias": "After School Program"
+        },
+        {
+          "name": "POCNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "POCPHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone"
+        },
+        {
+          "name": "POCEMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "School Website"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 85,
+      "name": "Child Care Center",
+      "title": "Child Care Center",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "MUNICIPALITY",
+          "type": "esriFieldTypeString",
+          "alias": "Municipality Name"
+        },
+        {
+          "name": "CAPTUREMETH",
+          "type": "esriFieldTypeString",
+          "alias": "Capture Method"
+        },
+        {
+          "name": "LOCATIONTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Location Type"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "FACAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Facility Area"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 84,
+      "name": "Library",
+      "title": "Library",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeString",
+          "alias": "Facility Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name of Facility"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "OWNTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "SUBTYPEFIELD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Subtype Field"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "AGENCYURL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OPERDAYS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Days"
+        },
+        {
+          "name": "OPERHOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Hours"
+        },
+        {
+          "name": "CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LASTEDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "LASTEDITOR"
+        },
+        {
+          "name": "LASTUPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LASTUPDATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [],
+  "cors_enabled": true,
+  "response_ms": 1114,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

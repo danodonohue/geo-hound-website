@@ -1,0 +1,907 @@
+{
+  "slug": "mapservices-weather-noaa-gov-fire-weather-outlooks-mapserver",
+  "service_key": "ESRI MapServer:https://mapservices.weather.noaa.gov/vector/rest/services/fire_weather/SPC_firewx/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapservices.weather.noaa.gov/vector/rest/services/fire_weather/SPC_firewx/MapServer",
+  "title": "Fire Weather Outlooks",
+  "description": "NOAA fire weather outlook polygons for continental USA.",
+  "abstract": "<div style='text-align:Left;'><div><div><p><span>The </span><span style='font-weight:bold;'>Fire Weather Outlooks Web Service </span><span>contains Fire Weather Outlooks polygons that, are  delineate areas of the continental U.S. where pre-existing fuel conditions, combined with forecast weather conditions during the next 8 days, will result in a significant threat for the ignition and/or spread of wildfires. This web service is designed for use in the NWS, as well as other federal, state, and local government agencies.  Each outlook consists of a categorical forecast that graphically depicts fire weather risk areas across the continental United States.</span></p><p><span style='font-weight:bold;'>Five types of Fire Weather Outlook risk areas </span><span>are:</span></p><p><span style='font-weight:bold;'>ELEVATED</span><span> - Elevated risk from wind and relative humidity</span></p><p><span style='font-weight:bold;'>CRITICAL</span><span> - Critical risk from wind and relative humidity</span></p><p><span style='font-weight:bold;'>EXTREME </span><span> - Extremely Critical risk from wind and relative humidity</span></p><p><span style='font-weight:bold;'>ISODRYT</span><span>  - Elevated risk from dry thunderstorms</span></p><p><span style='font-weight:bold;'>SCTDRYT</span><span>  - Critical risk from dry thunderstorms</span></p><p><span style='font-style:italic;font-weight:bold;font-size:12pt'>Guidelines for the issuance of Critical and Extremely Critical Areas are provided below:</span></p><p><span style='font-weight:bold;'>Critical for dry thunderstorms:</span></p><p><span>Dry fuels (as defined below)</span></p><p><span>At least 40% coverage (scattered) of cloud-to-ground lightning strikes with rainfall accumulation at or below 0.10\"</span></p><p><span>Relative humidity at or below regional thresholds (see this graphic)</span></p><p><span>Temperatures at or above 50-60 degrees F, depending on the season</span></p><p><span style='font-weight:bold;'>Critical for wind and relative humidity:</span></p><p><span>Dry fuels (as defined below)</span></p><p><span>Sustained winds 20 mph or greater (15 mph Florida)</span></p><p><span>Relative humidity at or below regional thresholds</span></p><p><span>Temperatures at or above 50-60 degrees F, depending on the season</span></p><p><span>Concurrency of the above criteria for 3 hours or more</span></p><p><span style='font-weight:bold;'>Extremely Critical for wind and relative humidity:</span></p><p><span>Very dry fuels (as defined below)</span></p><p><span>Sustained winds 30 mph or greater (25 mph Florida)</span></p><p><span>Relative humidity at or below 2/3 of regional thresholds (see this graphic)</span></p><p><span>Temperatures at or above 60-70 degrees F, depending on the season</span></p><p><span>Concurrency of the above criteria for 3 hours or more</span></p><p><span style='font-weight:bold;'>Extremely critical </span><span>delineations are made when wind, relative humidity and temperatures significantly deviate from climatological normal, but can be made for borderline weather conditions where exceptional drought exists.</span></p><p><span>SPC utilizes fuel dryness level grids produced by Geographic Area Coordination Centers (GACCs). Fuel dryness levels of dry or very dry are necessary for the issuance of any type of SPC fire weather outlook area. When GACC dryness level grids are not available, SPC considers fuels to be dry where there is a National Fire Danger Rating System Adjective Class Rating of at least High, or 100/1000-hr dead fuel moisture below 10 percent in the West, or 10-hr dead fuel moisture below 10 percent in the East, or at least severe drought.</span></p><p><span>If an area is being considered for a possible Critical area but there is low confidence, or the expected weather conditions will be just below the aforementioned criteria for a Critical area, an Elevated area is highlighted. Where Critical areas are highlighted, an Elevated area will surround the Critical area. Guidelines for an </span></p><p><span style='font-weight:bold;'>Elevated area are provided below:</span></p><p><span>Elevated for dry thunderstorms, or wind and relative humidity:</span></p><p><span>10-39% coverage (isolated) of cloud-to-ground lightning strikes with rainfall accumulation at or below 0.10\" over dry fuels OR</span></p><p><span>A combination of sustained wind speeds of 15 mph or greater (10 mph Florida), relative humidity up to 5% above regional critical thresholds (see this graphic), and temperatures at or above 45-55 degrees F (depending on the season), for a duration of 3 hours or more over dry fuels OR</span></p><p><span>Brief (duration of less than 3 hours) and/or localized exceedance of critical thresholds over dry fuels OR</span></p><p><span>Critical conditions occurring with marginal fuel dryness</span></p><p><span style='font-weight:bold;'>The Day 1 Fire Weather Outlook </span><span>is issued twice a day: at 400 am (CST and CDT), with an update by 1700 UTC. This outlook covers the period from 1200 UTC today through 1200 UTC the following day (except for the update where the period begins at issuance time). Each outlook consists of a categorical forecast that graphically depicts fire weather areas across the continental United States.  Within these individual geographic areas, a meteorological narrative emphasizes predominant forecast conditions such as sustained wind speeds, minimum RH values, temperatures, and/or coverage of dry thunderstorms. Meteorological justification for the type of risk issued is also provided. For the outlook update changes are made to the previous outlook and/or observational updates.</span></p><p><span>individual 3-tier categorical (DN=5: Elevated, DN = 8: Critical, DN = 10: Extreme) fire weather outlook</span></p><p><span>Individual 2-tier dry lightning (DN = 5: Isolated Dry Thunderstorm, DN = 8: Scattered Dry Thunderstorm) outlook</span></p><p><span style='font-weight:bold;'>The Day 2 Fire Weather Outlook </span><span>is issued twice a day: at 1000 UTC, with an update by 2000 UTC. This outlook covers the period from 1200 UTC the following day to 1200 UTC the day after that. For example, if today is Monday then the Day 2 Fire Weather Outlook will cover the period 1200 UTC Tuesday to 1200 UTC Wednesday. This outlook is similar to the Day 1 Fire Weather Outlook in terms of the graphic.</span></p><p><span>Individual 3-tier categorical (DN=5: Elevated, DN = 8: Critical, DN = 10: Extreme) fire weather outlook</span></p><p><span>Individual 2-tier dry lightning (DN = 5: Isolated Dry Thunderstorm, DN = 8: Scattered Dry Thunderstorm) outlook</span></p><p><span style='font-weight:bold;'>The Day 3-8 Fire Weather Outlook </span><span>is issued once a day at 2200 UTC. This outlook covers the period of 48 to 192 hours from 1200 UTC on the morning of product issuance.</span></p><p style='margin:0 0 11 0;'><span style='font-weight:bold;'>Update Frequency: </span><span>Updates Daily at the following times: Day 1 - at 01Z, 06Z, 13Z, 16:30Z, 20Z    Day 2 - 06Z and 17Z, Day 3 - 07:30Z, Day 4-8 - 09Z.  </span></p>\n<p><span>Link to graphical web page: </span><a href='https://www.spc.noaa.gov:443/products/fire_wx/overview.html' style='text-decoration:underline;'><span>https://www.spc.noaa.gov/products/fire_wx/overview.html</span></a></p><p><span>Link to data download (shapefile): </span><a href='https://www.spc.noaa.gov:443/gis' style='text-decoration:underline;'><span>https://www.spc.noaa.gov/gis</span></a></p><p><span>Link to </span><a href='https://www.weather.gov:443/gis/IDP-GISRestMetadata' style='text-decoration:underline;'><span>metadata</span></a></p><p><span>Questions/Concerns about the service, please contact the </span><a href='mailto:nws.mapservices@noaa.gov:25' style='text-decoration:underline;'><span>DISS GIS </span></a><span>team</span></p><p><span style='font-weight:bold;'>Time Information:</span></p><p><span>This service is not time enabled</span></p></div></div></div>",
+  "place": {
+    "country": "United States",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "weather",
+      "confidence": "high"
+    },
+    {
+      "name": "safety",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Day 1 Fire Weather Outlook",
+      "title": "Day 1 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Day 1 Outlook",
+      "title": "Day 1 Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "Outlook"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "Valid Date Time"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "Expiration Date"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS FIle Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Day 1 Outlook Dry Thunderstorm",
+      "title": "Day 1 Outlook Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "Outlook"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "Valid Date Time"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "Expiration Date"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Day 2 Fire Weather Outlook",
+      "title": "Day 2 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Day 2 Outlook",
+      "title": "Day 2 Outlook",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "Outlook"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "Valid Date Time"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "Expiration Date"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Day 2 Outlook Dry Thunderstorm",
+      "title": "Day 2 Outlook Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "Outlook"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "Valid Date Time"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "Expiration Date"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Day 3 Fire Weather Outlook",
+      "title": "Day 3 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Day 3 Dry Thunderstorm",
+      "title": "Day 3 Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "DN"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "VALID"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "EXPIRE"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "ISSUE"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "idp_source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_filedate"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_ingestdate"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Day 3 Winds and Low Humidity",
+      "title": "Day 3 Winds and Low Humidity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "DN"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "VALID"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "EXPIRE"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "ISSUE"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "idp_source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_filedate"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_ingestdate"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Day 4 Fire Weather Outlook",
+      "title": "Day 4 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Day 4 Dry Thunderstorm",
+      "title": "Day 4 Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "DN"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "VALID"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "EXPIRE"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "ISSUE"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "idp_source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_filedate"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_ingestdate"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Day 4 Winds and Low Humidity",
+      "title": "Day 4 Winds and Low Humidity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "DN"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "VALID"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "EXPIRE"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "ISSUE"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "idp_source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_filedate"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_ingestdate"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Day 5 Fire Weather Outlook",
+      "title": "Day 5 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Day 5 Dry Thunderstorm",
+      "title": "Day 5 Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "DN"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "VALID"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "EXPIRE"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "ISSUE"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "idp_source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_filedate"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_ingestdate"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Day 5 Winds and Low Humidity",
+      "title": "Day 5 Winds and Low Humidity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "dn",
+          "type": "esriFieldTypeInteger",
+          "alias": "DN"
+        },
+        {
+          "name": "valid",
+          "type": "esriFieldTypeString",
+          "alias": "VALID"
+        },
+        {
+          "name": "expire",
+          "type": "esriFieldTypeString",
+          "alias": "EXPIRE"
+        },
+        {
+          "name": "issue",
+          "type": "esriFieldTypeString",
+          "alias": "ISSUE"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "label2",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL2"
+        },
+        {
+          "name": "stroke",
+          "type": "esriFieldTypeString",
+          "alias": "stroke"
+        },
+        {
+          "name": "fill",
+          "type": "esriFieldTypeString",
+          "alias": "fill"
+        },
+        {
+          "name": "idp_source",
+          "type": "esriFieldTypeString",
+          "alias": "idp_source"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_filedate"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "idp_ingestdate"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Day 6 Fire Weather Outlook",
+      "title": "Day 6 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Day 6 Dry Thunderstorm",
+      "title": "Day 6 Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Day 6 Winds and Low Humidity",
+      "title": "Day 6 Winds and Low Humidity",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Day 7 Fire Weather Outlook",
+      "title": "Day 7 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Day 7 Dry Thunderstorm",
+      "title": "Day 7 Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Day 7 Winds and Low Humidity",
+      "title": "Day 7 Winds and Low Humidity",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Day 8 Fire Weather Outlook",
+      "title": "Day 8 Fire Weather Outlook",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Day 8 Dry Thunderstorm",
+      "title": "Day 8 Dry Thunderstorm",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Day 8 Winds and Low Humidity",
+      "title": "Day 8 Winds and Low Humidity",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 230,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-43",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_BusStop/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_BusStop/MapServer",
+  "title": "Layers",
+  "description": "Public bus stop locations with service information.",
+  "abstract": "Roads & Transport - Bus stops",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 23,
+      "name": "Roads & Transport - Bus stops",
+      "title": "Roads & Transport - Bus stops",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ATCOCode",
+          "type": "esriFieldTypeString",
+          "alias": "AtcoCode"
+        },
+        {
+          "name": "NaptanCode",
+          "type": "esriFieldTypeString",
+          "alias": "Naptan Code"
+        },
+        {
+          "name": "PlateCode",
+          "type": "esriFieldTypeString",
+          "alias": "Plate Code"
+        },
+        {
+          "name": "CleardownCode",
+          "type": "esriFieldTypeString",
+          "alias": "CleardownCode"
+        },
+        {
+          "name": "CommonName",
+          "type": "esriFieldTypeString",
+          "alias": "Common Name"
+        },
+        {
+          "name": "CommonNameLang",
+          "type": "esriFieldTypeString",
+          "alias": "CommonNameLang"
+        },
+        {
+          "name": "ShortCommonName",
+          "type": "esriFieldTypeString",
+          "alias": "Short Common Name"
+        },
+        {
+          "name": "ShortCommonNameLang",
+          "type": "esriFieldTypeString",
+          "alias": "ShortCommonNameLang"
+        },
+        {
+          "name": "Landmark",
+          "type": "esriFieldTypeString",
+          "alias": "Landmark"
+        },
+        {
+          "name": "LandmarkLang",
+          "type": "esriFieldTypeString",
+          "alias": "LandmarkLang"
+        },
+        {
+          "name": "Street",
+          "type": "esriFieldTypeString",
+          "alias": "Street"
+        },
+        {
+          "name": "StreetLang",
+          "type": "esriFieldTypeString",
+          "alias": "StreetLang"
+        },
+        {
+          "name": "Crossing",
+          "type": "esriFieldTypeString",
+          "alias": "Crossing"
+        },
+        {
+          "name": "CrossingLang",
+          "type": "esriFieldTypeString",
+          "alias": "CrossingLang"
+        },
+        {
+          "name": "IndicatorLang",
+          "type": "esriFieldTypeString",
+          "alias": "IndicatorLang"
+        },
+        {
+          "name": "Bearing",
+          "type": "esriFieldTypeString",
+          "alias": "Bearing"
+        },
+        {
+          "name": "NptgLocalityCode",
+          "type": "esriFieldTypeString",
+          "alias": "NptgLocalityCode"
+        },
+        {
+          "name": "LocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "LocalityName"
+        },
+        {
+          "name": "ParentLocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "ParentLocalityName"
+        },
+        {
+          "name": "GrandParentLocalityName",
+          "type": "esriFieldTypeString",
+          "alias": "GrandParentLocalityName"
+        },
+        {
+          "name": "Town",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "TownLang",
+          "type": "esriFieldTypeString",
+          "alias": "TownLang"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "SuburbLang",
+          "type": "esriFieldTypeString",
+          "alias": "SuburbLang"
+        },
+        {
+          "name": "GridType",
+          "type": "esriFieldTypeString",
+          "alias": "GridType"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "StopType",
+          "type": "esriFieldTypeString",
+          "alias": "StopType"
+        },
+        {
+          "name": "BusStopType",
+          "type": "esriFieldTypeString",
+          "alias": "Bus Stop Type"
+        },
+        {
+          "name": "TimingStatus",
+          "type": "esriFieldTypeString",
+          "alias": "TimingStatus"
+        },
+        {
+          "name": "DefaultWaitTime",
+          "type": "esriFieldTypeString",
+          "alias": "DefaultWaitTime"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "NotesLang",
+          "type": "esriFieldTypeString",
+          "alias": "NotesLang"
+        },
+        {
+          "name": "CreationDateTime",
+          "type": "esriFieldTypeString",
+          "alias": "CreationDateTime"
+        },
+        {
+          "name": "ModificationDateTime",
+          "type": "esriFieldTypeString",
+          "alias": "ModificationDateTime"
+        },
+        {
+          "name": "RevisionNumber",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RevisionNumber"
+        },
+        {
+          "name": "Modification",
+          "type": "esriFieldTypeString",
+          "alias": "Modification"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Indicator",
+          "type": "esriFieldTypeString",
+          "alias": "Indicator"
+        },
+        {
+          "name": "LocalityCentre",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LocalityCentre"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "AdministrativeAreaCode",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AdministrativeAreaCode"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 318,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

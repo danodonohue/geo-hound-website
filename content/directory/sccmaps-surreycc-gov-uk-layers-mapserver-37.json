@@ -1,0 +1,100 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-37",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_Wetspots/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_Wetspots/MapServer",
+  "title": "Layers",
+  "description": "Road wetspots prone to surface flooding and hazards.",
+  "abstract": "Roads & Transport - Bus stops",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 29,
+      "name": "Roads & Transport - Wetspots",
+      "title": "Roads & Transport - Wetspots",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Wetspot_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Wetspot ID"
+        },
+        {
+          "name": "Road_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "Town_Village",
+          "type": "esriFieldTypeString",
+          "alias": "Town/Village"
+        },
+        {
+          "name": "Wetspot_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Wetspot Status"
+        },
+        {
+          "name": "Score",
+          "type": "esriFieldTypeInteger",
+          "alias": "Score"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 325,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

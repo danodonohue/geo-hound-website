@@ -1,0 +1,818 @@
+{
+  "slug": "gis-ecan-govt-nz-region-base-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Region_Base/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Region_Base/MapServer",
+  "title": "Region_Base",
+  "description": "GIS service providing parcels, roads data.",
+  "abstract": "Basedata service showing cadastral parcels, territoria, regional authority boundaries, and roads.  Updated every month.",
+  "provider": "gis.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Regional Boundaries",
+      "title": "Regional Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "REGC",
+          "type": "esriFieldTypeString",
+          "alias": "REGC"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Territorial Authority Boundaries",
+      "title": "Territorial Authority Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TA",
+          "type": "esriFieldTypeString",
+          "alias": "TA"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        },
+        {
+          "name": "NAME_CAPS",
+          "type": "esriFieldTypeString",
+          "alias": "NAME_CAPS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "State highways (>1:1,000,000)",
+      "title": "State highways (>1:1,000,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ROAD_SURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SURFACE"
+        },
+        {
+          "name": "LANES",
+          "type": "esriFieldTypeInteger",
+          "alias": "LANES"
+        },
+        {
+          "name": "ROAD_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_HIGHWAY"
+        },
+        {
+          "name": "ROAD_SUFI",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SUFI"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "State highways (<1:1,000,000)",
+      "title": "State highways (<1:1,000,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ROAD_SURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SURFACE"
+        },
+        {
+          "name": "LANES",
+          "type": "esriFieldTypeInteger",
+          "alias": "LANES"
+        },
+        {
+          "name": "ROAD_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_HIGHWAY"
+        },
+        {
+          "name": "ROAD_SUFI",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SUFI"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "State highways (<1:250,000)",
+      "title": "State highways (<1:250,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ROAD_SURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SURFACE"
+        },
+        {
+          "name": "LANES",
+          "type": "esriFieldTypeInteger",
+          "alias": "LANES"
+        },
+        {
+          "name": "ROAD_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_HIGHWAY"
+        },
+        {
+          "name": "ROAD_SUFI",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SUFI"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Roads (250,000 - 50,000)",
+      "title": "Roads (250,000 - 50,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "name_utf8",
+          "type": "esriFieldTypeString",
+          "alias": "name_utf8"
+        },
+        {
+          "name": "locality_utf8",
+          "type": "esriFieldTypeString",
+          "alias": "locality_utf8"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "EXTRACT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EXTRACT_DATE"
+        },
+        {
+          "name": "WGS84_Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_Longitude"
+        },
+        {
+          "name": "WGS84_Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_Latitude"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "other_names",
+          "type": "esriFieldTypeString",
+          "alias": "other_names"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Land Parcels",
+      "title": "Land Parcels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Appellation",
+          "type": "esriFieldTypeString",
+          "alias": "Appellation"
+        },
+        {
+          "name": "Titles",
+          "type": "esriFieldTypeString",
+          "alias": "Titles"
+        },
+        {
+          "name": "Land_District",
+          "type": "esriFieldTypeString",
+          "alias": "Land_District"
+        },
+        {
+          "name": "Valuation_No",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation_No"
+        },
+        {
+          "name": "TA_Property_ID",
+          "type": "esriFieldTypeString",
+          "alias": "TA_Property_ID"
+        },
+        {
+          "name": "Roll_No",
+          "type": "esriFieldTypeString",
+          "alias": "Roll_No"
+        },
+        {
+          "name": "Assessment",
+          "type": "esriFieldTypeString",
+          "alias": "Assessment"
+        },
+        {
+          "name": "Suffix",
+          "type": "esriFieldTypeString",
+          "alias": "Suffix"
+        },
+        {
+          "name": "Valuation_Legal_Descriptions",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation_Legal_Descriptions"
+        },
+        {
+          "name": "TA_Code",
+          "type": "esriFieldTypeString",
+          "alias": "TA_Code"
+        },
+        {
+          "name": "Territorial_Authority",
+          "type": "esriFieldTypeString",
+          "alias": "Territorial_Authority"
+        },
+        {
+          "name": "Affected_Surveys",
+          "type": "esriFieldTypeString",
+          "alias": "Affected_Surveys"
+        },
+        {
+          "name": "Parcel_Intent",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel_Intent"
+        },
+        {
+          "name": "Topology_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Topology_Type"
+        },
+        {
+          "name": "Statutory_Actions",
+          "type": "esriFieldTypeString",
+          "alias": "Statutory_Actions"
+        },
+        {
+          "name": "Survey_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Survey_Area"
+        },
+        {
+          "name": "Calc_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Calc_Area"
+        },
+        {
+          "name": "Link",
+          "type": "esriFieldTypeString",
+          "alias": "Link"
+        },
+        {
+          "name": "PAR_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAR_ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "State highways outside Canterbury",
+      "title": "State highways outside Canterbury",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ROAD_SURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SURFACE"
+        },
+        {
+          "name": "LANES",
+          "type": "esriFieldTypeInteger",
+          "alias": "LANES"
+        },
+        {
+          "name": "ROAD_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_HIGHWAY"
+        },
+        {
+          "name": "ROAD_SUFI",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_SUFI"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 23,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

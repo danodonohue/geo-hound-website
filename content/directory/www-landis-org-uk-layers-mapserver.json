@@ -1,0 +1,94 @@
+{
+  "slug": "www-landis-org-uk-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www.landis.org.uk/arcgis/rest/services/UKSoilObservatory/Soilscapes_Cranfield/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.landis.org.uk/arcgis/rest/services/UKSoilObservatory/Soilscapes_Cranfield/MapServer",
+  "title": "Layers",
+  "description": "Simplified soils map showing soil types and their environmental influence",
+  "abstract": "Soilscapes is a 1:250,000 scale, simplified soils dataset covering England and Wales. It was created from the far more detailed National Soil Map (NATMAP Vector) held by the National Soil Resources Institute (NSRI) at Cranfield University, with the purpose of communicating a general understanding of the variations which occur between soil types, and how soils affect the environment and landscape of the two countries. Soil exerts a strong influence on our whole ecosystem, being the foundation for many of the ecosystem services and functions, and is a fragile resource that needs to be understood and protected.\n\nFor more detail on the soilscape units check out Cranfield’s online Soilscapes Viewer (http://www.landis.org.uk/services/soilscapes.cfm).\n\nFor more information on the classification of soils in England and Wales refer to the online Cranfield Soils Guide (http://www.landis.org.uk/services/soilsguide/index.cfm).",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "soils",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Soilscapes_Cranfield",
+      "title": "Soilscapes_Cranfield",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SOILSCAPE",
+          "type": "esriFieldTypeString",
+          "alias": "SOILSCAPE"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1230,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

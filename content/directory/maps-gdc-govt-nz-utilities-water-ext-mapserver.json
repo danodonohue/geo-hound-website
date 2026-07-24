@@ -1,0 +1,342 @@
+{
+  "slug": "maps-gdc-govt-nz-utilities-water-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/GDC_Utilities/utilities_water_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/GDC_Utilities/utilities_water_ext/MapServer",
+  "title": "utilities_water_ext",
+  "description": "Gisborne water utility network infrastructure including mains, valves, fire hydrants, and meters.",
+  "abstract": "Gisborne water network including valves, fire hydrants, meters, mains",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Water Node",
+      "title": "Water Node",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNITID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "COMPTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "COMPTYPE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Asset_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Owner"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "xcoord",
+          "type": "esriFieldTypeDouble",
+          "alias": "xcoord"
+        },
+        {
+          "name": "ycoord",
+          "type": "esriFieldTypeDouble",
+          "alias": "ycoord"
+        },
+        {
+          "name": "LastUpdated",
+          "type": "esriFieldTypeDate",
+          "alias": "LastUpdated"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Water Toby",
+      "title": "Water Toby",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "ID_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "ID_NUMBER"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "Asset_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Owner"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "COMPTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPTYPE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LastUpdated",
+          "type": "esriFieldTypeDate",
+          "alias": "LastUpdated"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Water Lateral",
+      "title": "Water Lateral",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "ID_NUMBER"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeDouble",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNITID"
+        },
+        {
+          "name": "PIPELEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "PIPELEN"
+        },
+        {
+          "name": "DIAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "DIAM"
+        },
+        {
+          "name": "INSTDATE",
+          "type": "esriFieldTypeString",
+          "alias": "INSTDATE"
+        },
+        {
+          "name": "COMPTYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "COMPTYPE"
+        },
+        {
+          "name": "PIPETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PIPETYPE"
+        },
+        {
+          "name": "Asset_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Owner"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "LastUpdated",
+          "type": "esriFieldTypeDate",
+          "alias": "LastUpdated"
+        },
+        {
+          "name": "COMPKEY_INT",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY_INT"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Water Main",
+      "title": "Water Main",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeDouble",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "COMPTYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "COMPTYPE"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNITID"
+        },
+        {
+          "name": "UNITID2",
+          "type": "esriFieldTypeString",
+          "alias": "UNITID2"
+        },
+        {
+          "name": "PIPETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PIPETYPE"
+        },
+        {
+          "name": "DIAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "DIAM"
+        },
+        {
+          "name": "INSTDATE",
+          "type": "esriFieldTypeString",
+          "alias": "INSTDATE"
+        },
+        {
+          "name": "PIPELEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "PIPELEN"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Asset_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Owner"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "LastUpdated",
+          "type": "esriFieldTypeDate",
+          "alias": "LastUpdated"
+        },
+        {
+          "name": "COMPKEY_INT",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY_INT"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 62,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

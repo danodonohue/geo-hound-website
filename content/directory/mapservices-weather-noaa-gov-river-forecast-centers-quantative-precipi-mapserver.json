@@ -1,0 +1,997 @@
+{
+  "slug": "mapservices-weather-noaa-gov-river-forecast-centers-quantative-precipi-mapserver",
+  "service_key": "ESRI MapServer:https://mapservices.weather.noaa.gov/raster/rest/services/obs/rfc_qpe/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapservices.weather.noaa.gov/raster/rest/services/obs/rfc_qpe/MapServer",
+  "title": "River Forecast Centers Quantative Precipitation Estimates (QPE)",
+  "description": "NOAA River Forecast Centers 1-24 hour precipitation estimates.",
+  "abstract": "\"\"",
+  "place": {
+    "country": "United States",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "weather",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Observed",
+      "title": "Observed",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Since 12Z Observed (inches)",
+      "title": "Since 12Z Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "minps",
+          "type": "esriFieldTypeDouble",
+          "alias": "minps"
+        },
+        {
+          "name": "maxps",
+          "type": "esriFieldTypeDouble",
+          "alias": "maxps"
+        },
+        {
+          "name": "lowps",
+          "type": "esriFieldTypeDouble",
+          "alias": "lowps"
+        },
+        {
+          "name": "highps",
+          "type": "esriFieldTypeDouble",
+          "alias": "highps"
+        },
+        {
+          "name": "category",
+          "type": "esriFieldTypeInteger",
+          "alias": "category"
+        },
+        {
+          "name": "tag",
+          "type": "esriFieldTypeString",
+          "alias": "tag"
+        },
+        {
+          "name": "groupname",
+          "type": "esriFieldTypeString",
+          "alias": "groupname"
+        },
+        {
+          "name": "productname",
+          "type": "esriFieldTypeString",
+          "alias": "productname"
+        },
+        {
+          "name": "centerx",
+          "type": "esriFieldTypeDouble",
+          "alias": "centerx"
+        },
+        {
+          "name": "centery",
+          "type": "esriFieldTypeDouble",
+          "alias": "centery"
+        },
+        {
+          "name": "zorder",
+          "type": "esriFieldTypeInteger",
+          "alias": "zorder"
+        },
+        {
+          "name": "typeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "itemts",
+          "type": "esriFieldTypeDouble",
+          "alias": "itemts"
+        },
+        {
+          "name": "urihash",
+          "type": "esriFieldTypeString",
+          "alias": "urihash"
+        },
+        {
+          "name": "uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "uri"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "raster"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_subset",
+          "type": "esriFieldTypeString",
+          "alias": "Subset"
+        },
+        {
+          "name": "idp_issueddate",
+          "type": "esriFieldTypeDate",
+          "alias": "Reference Time"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Last 1 Hours Observed (inches)",
+      "title": "Last 1 Hours Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "minps",
+          "type": "esriFieldTypeDouble",
+          "alias": "minps"
+        },
+        {
+          "name": "maxps",
+          "type": "esriFieldTypeDouble",
+          "alias": "maxps"
+        },
+        {
+          "name": "lowps",
+          "type": "esriFieldTypeDouble",
+          "alias": "lowps"
+        },
+        {
+          "name": "highps",
+          "type": "esriFieldTypeDouble",
+          "alias": "highps"
+        },
+        {
+          "name": "category",
+          "type": "esriFieldTypeInteger",
+          "alias": "category"
+        },
+        {
+          "name": "tag",
+          "type": "esriFieldTypeString",
+          "alias": "tag"
+        },
+        {
+          "name": "groupname",
+          "type": "esriFieldTypeString",
+          "alias": "groupname"
+        },
+        {
+          "name": "productname",
+          "type": "esriFieldTypeString",
+          "alias": "productname"
+        },
+        {
+          "name": "centerx",
+          "type": "esriFieldTypeDouble",
+          "alias": "centerx"
+        },
+        {
+          "name": "centery",
+          "type": "esriFieldTypeDouble",
+          "alias": "centery"
+        },
+        {
+          "name": "zorder",
+          "type": "esriFieldTypeInteger",
+          "alias": "zorder"
+        },
+        {
+          "name": "typeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "itemts",
+          "type": "esriFieldTypeDouble",
+          "alias": "itemts"
+        },
+        {
+          "name": "urihash",
+          "type": "esriFieldTypeString",
+          "alias": "urihash"
+        },
+        {
+          "name": "uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "uri"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "raster"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_subset",
+          "type": "esriFieldTypeString",
+          "alias": "Subset"
+        },
+        {
+          "name": "idp_issueddate",
+          "type": "esriFieldTypeDate",
+          "alias": "Reference Time"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Last 2 Hours Observed (inches)",
+      "title": "Last 2 Hours Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "minps",
+          "type": "esriFieldTypeDouble",
+          "alias": "minps"
+        },
+        {
+          "name": "maxps",
+          "type": "esriFieldTypeDouble",
+          "alias": "maxps"
+        },
+        {
+          "name": "lowps",
+          "type": "esriFieldTypeDouble",
+          "alias": "lowps"
+        },
+        {
+          "name": "highps",
+          "type": "esriFieldTypeDouble",
+          "alias": "highps"
+        },
+        {
+          "name": "category",
+          "type": "esriFieldTypeInteger",
+          "alias": "category"
+        },
+        {
+          "name": "tag",
+          "type": "esriFieldTypeString",
+          "alias": "tag"
+        },
+        {
+          "name": "groupname",
+          "type": "esriFieldTypeString",
+          "alias": "groupname"
+        },
+        {
+          "name": "productname",
+          "type": "esriFieldTypeString",
+          "alias": "productname"
+        },
+        {
+          "name": "centerx",
+          "type": "esriFieldTypeDouble",
+          "alias": "centerx"
+        },
+        {
+          "name": "centery",
+          "type": "esriFieldTypeDouble",
+          "alias": "centery"
+        },
+        {
+          "name": "zorder",
+          "type": "esriFieldTypeInteger",
+          "alias": "zorder"
+        },
+        {
+          "name": "typeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "itemts",
+          "type": "esriFieldTypeDouble",
+          "alias": "itemts"
+        },
+        {
+          "name": "urihash",
+          "type": "esriFieldTypeString",
+          "alias": "urihash"
+        },
+        {
+          "name": "uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "uri"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "raster"
+        },
+        {
+          "name": "idp_ingestdate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS Ingest Date"
+        },
+        {
+          "name": "idp_filedate",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS File Date"
+        },
+        {
+          "name": "idp_subset",
+          "type": "esriFieldTypeString",
+          "alias": "Subset"
+        },
+        {
+          "name": "idp_issueddate",
+          "type": "esriFieldTypeDate",
+          "alias": "Reference Time"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Last 3 Hours Observed (inches)",
+      "title": "Last 3 Hours Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Last 6 Hours Observed (inches)",
+      "title": "Last 6 Hours Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Last 12 Hours Observed (inches)",
+      "title": "Last 12 Hours Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Last 24 Hours Observed (inches)",
+      "title": "Last 24 Hours Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Today's Analysis Observed (inches)",
+      "title": "Today's Analysis Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Last 2 Days Observed (inches)",
+      "title": "Last 2 Days Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Last 3 Days Observed (inches)",
+      "title": "Last 3 Days Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Last 4 Days Observed (inches)",
+      "title": "Last 4 Days Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Last 5 Days Observed (inches)",
+      "title": "Last 5 Days Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Last 6 Days Observed (inches)",
+      "title": "Last 6 Days Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Last 7 Days Observed (inches)",
+      "title": "Last 7 Days Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "Last 10 Days Observed (inches)",
+      "title": "Last 10 Days Observed (inches)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 907,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

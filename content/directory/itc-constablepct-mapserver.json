@@ -1,0 +1,151 @@
+{
+  "slug": "itc-constablepct-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/Boundaries/ConstablePCT/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/Boundaries/ConstablePCT/MapServer",
+  "title": "ConstablePCT",
+  "description": "Harris County constable precinct boundaries from the Integrated Technology Center.",
+  "abstract": "Harris Co. constable precinct boundary from ITC",
+  "provider": "ITC",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Constable Precincts",
+      "title": "Constable Precincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "PRECINCT"
+        },
+        {
+          "name": "JPCON",
+          "type": "esriFieldTypeInteger",
+          "alias": "JPCON"
+        },
+        {
+          "name": "COMMISH",
+          "type": "esriFieldTypeString",
+          "alias": "COMMISH"
+        },
+        {
+          "name": "STREET",
+          "type": "esriFieldTypeString",
+          "alias": "STREET"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PHONE"
+        },
+        {
+          "name": "FAX",
+          "type": "esriFieldTypeString",
+          "alias": "FAX"
+        },
+        {
+          "name": "TDD",
+          "type": "esriFieldTypeString",
+          "alias": "TDD"
+        },
+        {
+          "name": "Web",
+          "type": "esriFieldTypeString",
+          "alias": "WEB"
+        },
+        {
+          "name": "PCT_NUM",
+          "type": "esriFieldTypeDouble",
+          "alias": "PCT_NUM"
+        },
+        {
+          "name": "Shape_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STAr"
+        },
+        {
+          "name": "Shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLe"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 631,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

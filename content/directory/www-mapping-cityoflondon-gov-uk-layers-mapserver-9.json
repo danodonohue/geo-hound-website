@@ -1,0 +1,96 @@
+{
+  "slug": "www-mapping-cityoflondon-gov-uk-layers-mapserver-9",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Boundary/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Boundary/MapServer",
+  "title": "Layers",
+  "description": "Administrative boundary of the City of London.",
+  "abstract": "© Crown copyright and database rights 2022 OS 100023243",
+  "provider": "www.mapping.cityoflondon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "City of London Boundary",
+      "title": "City of London Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "CL_VECTOR.City_Extent.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "CL_VECTOR.City_Extent.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "LEN"
+        },
+        {
+          "name": "AREA_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_1"
+        },
+        {
+          "name": "LEN_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "LEN_1"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 295,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

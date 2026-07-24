@@ -1,0 +1,382 @@
+{
+  "slug": "gismaps-hdc-govt-nz-hdcimagery-mapserver",
+  "service_key": "ESRI MapServer:https://gismaps.hdc.govt.nz/server/rest/services/Basemaps/HDCImagery/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gismaps.hdc.govt.nz/server/rest/services/Basemaps/HDCImagery/MapServer",
+  "title": "HDCImagery",
+  "description": "Urban and rural aerial orthoimagery with land cover classification data.",
+  "abstract": "HDC Imagery Basemap. Urban Imagery captured January 2022 and Rural Imagery captured 2019-2020",
+  "provider": "gismaps.hdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    },
+    {
+      "name": "land-cover",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Orthos2024_Urban",
+      "title": "Orthos2024_Urban",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "Uri"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Orthos 2019-2020 Rural",
+      "title": "Orthos 2019-2020 Rural",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "Uri"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "HDC Landcover 2009",
+      "title": "HDC Landcover 2009",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 141,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

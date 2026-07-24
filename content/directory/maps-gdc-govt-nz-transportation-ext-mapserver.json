@@ -1,0 +1,592 @@
+{
+  "slug": "maps-gdc-govt-nz-transportation-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Roading/transportation_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Roading/transportation_ext/MapServer",
+  "title": "transportation_ext",
+  "description": "Gisborne public transport routes, bus stops, cycle ways, parking and rail infrastructure.",
+  "abstract": "GDC transportation layers. Includes bus routes, car parking, walking and cycle ways.",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Bus Routes and Stops",
+      "title": "Bus Routes and Stops",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Bus Stops",
+      "title": "Bus Stops",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "bus_stop_id",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bus Stop ID"
+        },
+        {
+          "name": "Timing",
+          "type": "esriFieldTypeString",
+          "alias": "Timing"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Bus Routes 2025",
+      "title": "Bus Routes 2025",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "City 1",
+      "title": "City 1",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "City 2",
+      "title": "City 2",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "City 3",
+      "title": "City 3",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "WK 101",
+      "title": "WK 101",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "WK 102",
+      "title": "WK 102",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "WK 103",
+      "title": "WK 103",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "WK 104",
+      "title": "WK 104",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "WK 105",
+      "title": "WK 105",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "WK 106",
+      "title": "WK 106",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Cycle & Walkways",
+      "title": "Cycle & Walkways",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "City Cycle and Walkways",
+      "title": "City Cycle and Walkways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "Surface Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Proposed Cycle / Walkways",
+      "title": "Proposed Cycle / Walkways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "New Zealand Walkways",
+      "title": "New Zealand Walkways",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Kaiti Hill (Titirangi) Walking Tracks",
+      "title": "Kaiti Hill (Titirangi) Walking Tracks",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Whataupoko Park Trails (Mountain Bike)",
+      "title": "Whataupoko Park Trails (Mountain Bike)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Motu Cycle Trail",
+      "title": "Motu Cycle Trail",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Rere Falls Cycle Trail",
+      "title": "Rere Falls Cycle Trail",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Parking",
+      "title": "Parking",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Parking Location",
+      "title": "Parking Location",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Parking Restriction ",
+      "title": "Parking Restriction ",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Parking Meter",
+      "title": "Parking Meter",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Special Area",
+      "title": "Special Area",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Railways",
+      "title": "Railways",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Road Areas",
+      "title": "Road Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 149,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,3183 @@
+{
+  "slug": "gis-ecan-govt-nz-landcare-smap-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Public/Landcare_SMap_Layers/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Landcare_SMap_Layers/MapServer",
+  "title": "Landcare_SMap_Layers",
+  "description": "GIS service providing parcels data.",
+  "abstract": "Existing soil databases are patchy in scale, age and quality. Many maps do not adequately describe the underlying properties of the soil types they represent. S-map integrates existing reports and digital information and updates soil maps where existing data are of low quality. Our goal is to provide comprehensive, quantitative soil information to support sustainable development and scientific modelling.",
+  "provider": "gis.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Soils Label",
+      "title": "Soils Label",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Soils",
+      "title": "Soils",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Soil Depth to Hard Soil/Gravel/Rock",
+      "title": "Soil Depth to Hard Soil/Gravel/Rock",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Soil Texture",
+      "title": "Soil Texture",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Soil Drainage",
+      "title": "Soil Drainage",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Soil Moisture - Average Profile Available Water at 1m",
+      "title": "Soil Moisture - Average Profile Available Water at 1m",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Environment Canterbury Soil Types",
+      "title": "Environment Canterbury Soil Types",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Soil Vulnerability Layers",
+      "title": "Soil Vulnerability Layers",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Nitrogen Leaching Vulnerability",
+      "title": "Nitrogen Leaching Vulnerability",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Phosphorus Leaching Vulnerability",
+      "title": "Phosphorus Leaching Vulnerability",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Relative Run-off Potential",
+      "title": "Relative Run-off Potential",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Vulnerability to bypass flow",
+      "title": "Vulnerability to bypass flow",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "New Zealand Fundamental Soils ",
+      "title": "New Zealand Fundamental Soils ",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PAW_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "PAW_Class"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "DOMSOI",
+          "type": "esriFieldTypeString",
+          "alias": "DOMSOI"
+        },
+        {
+          "name": "SURVEY",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY"
+        },
+        {
+          "name": "SURCODE",
+          "type": "esriFieldTypeString",
+          "alias": "SURCODE"
+        },
+        {
+          "name": "MAINSOIL",
+          "type": "esriFieldTypeString",
+          "alias": "MAINSOIL"
+        },
+        {
+          "name": "SOIL",
+          "type": "esriFieldTypeString",
+          "alias": "SOIL"
+        },
+        {
+          "name": "SERIES",
+          "type": "esriFieldTypeString",
+          "alias": "SERIES"
+        },
+        {
+          "name": "SOILTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SOILTYPE"
+        },
+        {
+          "name": "PHASE",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE"
+        },
+        {
+          "name": "GENSOI",
+          "type": "esriFieldTypeString",
+          "alias": "GENSOI"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "DOMNZSC",
+          "type": "esriFieldTypeString",
+          "alias": "DOMNZSC"
+        },
+        {
+          "name": "NZGSOIGRP",
+          "type": "esriFieldTypeString",
+          "alias": "NZGSOIGRP"
+        },
+        {
+          "name": "SOILLABEL",
+          "type": "esriFieldTypeString",
+          "alias": "SOILLABEL"
+        },
+        {
+          "name": "NZSCLABEL",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCLABEL"
+        },
+        {
+          "name": "AREAH",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREAH"
+        },
+        {
+          "name": "PH_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "PH_CLASS"
+        },
+        {
+          "name": "PH_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "PH_MIN"
+        },
+        {
+          "name": "PH_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PH_MAX"
+        },
+        {
+          "name": "PH_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "PH_MID"
+        },
+        {
+          "name": "PH_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "PH_VAR"
+        },
+        {
+          "name": "PH_EST",
+          "type": "esriFieldTypeString",
+          "alias": "PH_EST"
+        },
+        {
+          "name": "SAL_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "SAL_CLASS"
+        },
+        {
+          "name": "SAL_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAL_MIN"
+        },
+        {
+          "name": "SAL_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAL_MAX"
+        },
+        {
+          "name": "SAL_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAL_MID"
+        },
+        {
+          "name": "SAL_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "SAL_VAR"
+        },
+        {
+          "name": "SAL_EST",
+          "type": "esriFieldTypeString",
+          "alias": "SAL_EST"
+        },
+        {
+          "name": "CEC_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "CEC_CLASS"
+        },
+        {
+          "name": "CEC_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "CEC_MIN"
+        },
+        {
+          "name": "CEC_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CEC_MAX"
+        },
+        {
+          "name": "CEC_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "CEC_MID"
+        },
+        {
+          "name": "CEC_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "CEC_VAR"
+        },
+        {
+          "name": "CEC_EST",
+          "type": "esriFieldTypeString",
+          "alias": "CEC_EST"
+        },
+        {
+          "name": "CARBON_CLA",
+          "type": "esriFieldTypeString",
+          "alias": "CARBON_CLA"
+        },
+        {
+          "name": "CARBON_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "CARBON_MIN"
+        },
+        {
+          "name": "CARBON_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CARBON_MAX"
+        },
+        {
+          "name": "CARBON_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "CARBON_MID"
+        },
+        {
+          "name": "CARBON_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "CARBON_VAR"
+        },
+        {
+          "name": "CARBON_EST",
+          "type": "esriFieldTypeString",
+          "alias": "CARBON_EST"
+        },
+        {
+          "name": "PRET_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "PRET_CLASS"
+        },
+        {
+          "name": "PRET_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRET_MIN"
+        },
+        {
+          "name": "PRET_MAX",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRET_MAX"
+        },
+        {
+          "name": "PRET_MID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRET_MID"
+        },
+        {
+          "name": "PRET_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "PRET_VAR"
+        },
+        {
+          "name": "PRET_EST",
+          "type": "esriFieldTypeString",
+          "alias": "PRET_EST"
+        },
+        {
+          "name": "GRAV_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "GRAV_CLASS"
+        },
+        {
+          "name": "GRAV_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "GRAV_MIN"
+        },
+        {
+          "name": "GRAV_MAX",
+          "type": "esriFieldTypeInteger",
+          "alias": "GRAV_MAX"
+        },
+        {
+          "name": "GRAV_MID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GRAV_MID"
+        },
+        {
+          "name": "GRAV_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "GRAV_VAR"
+        },
+        {
+          "name": "GRAV_EST",
+          "type": "esriFieldTypeString",
+          "alias": "GRAV_EST"
+        },
+        {
+          "name": "ROCK_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROCK_CLASS"
+        },
+        {
+          "name": "ROCK_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "ROCK_MIN"
+        },
+        {
+          "name": "ROCK_MAX",
+          "type": "esriFieldTypeInteger",
+          "alias": "ROCK_MAX"
+        },
+        {
+          "name": "ROCK_MID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ROCK_MID"
+        },
+        {
+          "name": "ROCK_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "ROCK_VAR"
+        },
+        {
+          "name": "ROCK_EST",
+          "type": "esriFieldTypeString",
+          "alias": "ROCK_EST"
+        },
+        {
+          "name": "PS",
+          "type": "esriFieldTypeString",
+          "alias": "PS"
+        },
+        {
+          "name": "PRD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "PRD_CLASS"
+        },
+        {
+          "name": "PRD_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRD_MIN"
+        },
+        {
+          "name": "PRD_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRD_MAX"
+        },
+        {
+          "name": "PRD_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRD_MID"
+        },
+        {
+          "name": "PRD_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "PRD_VAR"
+        },
+        {
+          "name": "PRD_EST",
+          "type": "esriFieldTypeString",
+          "alias": "PRD_EST"
+        },
+        {
+          "name": "DSLO_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "DSLO_CLASS"
+        },
+        {
+          "name": "DSLO_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "DSLO_MIN"
+        },
+        {
+          "name": "DSLO_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "DSLO_MAX"
+        },
+        {
+          "name": "DSLO_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "DSLO_MID"
+        },
+        {
+          "name": "DSLO_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "DSLO_VAR"
+        },
+        {
+          "name": "DSLO_EST",
+          "type": "esriFieldTypeString",
+          "alias": "DSLO_EST"
+        },
+        {
+          "name": "DRAIN_CLAS",
+          "type": "esriFieldTypeString",
+          "alias": "DRAIN_CLAS"
+        },
+        {
+          "name": "DRAIN_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "DRAIN_VAR"
+        },
+        {
+          "name": "DRAIN_EST",
+          "type": "esriFieldTypeString",
+          "alias": "DRAIN_EST"
+        },
+        {
+          "name": "PERMEABILI",
+          "type": "esriFieldTypeString",
+          "alias": "PERMEABILI"
+        },
+        {
+          "name": "FLOOD_CLAS",
+          "type": "esriFieldTypeString",
+          "alias": "FLOOD_CLAS"
+        },
+        {
+          "name": "FLOOD_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "FLOOD_VAR"
+        },
+        {
+          "name": "FLOOD_EST",
+          "type": "esriFieldTypeString",
+          "alias": "FLOOD_EST"
+        },
+        {
+          "name": "TEMP_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "TEMP_CLASS"
+        },
+        {
+          "name": "TEMP_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "TEMP_VAR"
+        },
+        {
+          "name": "TEMP_EST",
+          "type": "esriFieldTypeString",
+          "alias": "TEMP_EST"
+        },
+        {
+          "name": "PAW_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAW_MIN"
+        },
+        {
+          "name": "PAW_MAX",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAW_MAX"
+        },
+        {
+          "name": "PAW_MID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAW_MID"
+        },
+        {
+          "name": "PAW_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "PAW_VAR"
+        },
+        {
+          "name": "PAW_EST",
+          "type": "esriFieldTypeString",
+          "alias": "PAW_EST"
+        },
+        {
+          "name": "PRAW_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "PRAW_CLASS"
+        },
+        {
+          "name": "PRAW_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRAW_MIN"
+        },
+        {
+          "name": "PRAW_MAX",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRAW_MAX"
+        },
+        {
+          "name": "PRAW_MID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRAW_MID"
+        },
+        {
+          "name": "PRAW_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "PRAW_VAR"
+        },
+        {
+          "name": "PRAW_EST",
+          "type": "esriFieldTypeString",
+          "alias": "PRAW_EST"
+        },
+        {
+          "name": "MPOR_S_CLA",
+          "type": "esriFieldTypeString",
+          "alias": "MPOR_S_CLA"
+        },
+        {
+          "name": "MPOR_S_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "MPOR_S_MIN"
+        },
+        {
+          "name": "MPOR_S_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "MPOR_S_MAX"
+        },
+        {
+          "name": "MPOR_S_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "MPOR_S_MID"
+        },
+        {
+          "name": "MPOR_S_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "MPOR_S_VAR"
+        },
+        {
+          "name": "MPOR_S_EST",
+          "type": "esriFieldTypeString",
+          "alias": "MPOR_S_EST"
+        },
+        {
+          "name": "MPOR_D_CLA",
+          "type": "esriFieldTypeString",
+          "alias": "MPOR_D_CLA"
+        },
+        {
+          "name": "MPOR_D_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "MPOR_D_MIN"
+        },
+        {
+          "name": "MPOR_D_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "MPOR_D_MAX"
+        },
+        {
+          "name": "MPOR_D_MID",
+          "type": "esriFieldTypeDouble",
+          "alias": "MPOR_D_MID"
+        },
+        {
+          "name": "MPOR_D_VAR",
+          "type": "esriFieldTypeString",
+          "alias": "MPOR_D_VAR"
+        },
+        {
+          "name": "MPOR_D_EST",
+          "type": "esriFieldTypeString",
+          "alias": "MPOR_D_EST"
+        },
+        {
+          "name": "EDITION",
+          "type": "esriFieldTypeString",
+          "alias": "EDITION"
+        },
+        {
+          "name": "POLYID",
+          "type": "esriFieldTypeInteger",
+          "alias": "POLYID"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 22,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

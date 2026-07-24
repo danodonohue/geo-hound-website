@@ -1,0 +1,155 @@
+{
+  "slug": "maps-tangerangkota-go-id-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://maps.tangerangkota.go.id/arcgis/rest/services/DLH/sumur_resapan_DLH/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.tangerangkota.go.id/arcgis/rest/services/DLH/sumur_resapan_DLH/MapServer",
+  "title": "Layers",
+  "description": "Infiltration well inventory with condition assessment for Tangerang.",
+  "abstract": "Sumur Resapan (DLH)",
+  "provider": "maps.tangerangkota.go.id",
+  "place": {
+    "country": "Indonesia",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": [
+    106.18349745400002,
+    -6.6392214979999835,
+    106.64555555499999,
+    -6.155948749999993
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "name": "Sumur Resapan (DLH)",
+      "title": "Sumur Resapan (DLH)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "nama",
+          "type": "esriFieldTypeString",
+          "alias": "Nama"
+        },
+        {
+          "name": "alamat",
+          "type": "esriFieldTypeString",
+          "alias": "Alamat"
+        },
+        {
+          "name": "kecamatan",
+          "type": "esriFieldTypeString",
+          "alias": "Kecamatan"
+        },
+        {
+          "name": "kelurahan",
+          "type": "esriFieldTypeString",
+          "alias": "Kelurahan"
+        },
+        {
+          "name": "keterangan",
+          "type": "esriFieldTypeString",
+          "alias": "Keterangan"
+        },
+        {
+          "name": "f0persen",
+          "type": "esriFieldTypeString",
+          "alias": "0persen"
+        },
+        {
+          "name": "f50persen",
+          "type": "esriFieldTypeString",
+          "alias": "50persen"
+        },
+        {
+          "name": "f75persen",
+          "type": "esriFieldTypeString",
+          "alias": "100persen"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "kedalaman",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "kedalaman"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "kondisi_sumur",
+          "type": "esriFieldTypeString",
+          "alias": "Kondisi Sumur"
+        },
+        {
+          "name": "kode",
+          "type": "esriFieldTypeString",
+          "alias": "Kode"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 164,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

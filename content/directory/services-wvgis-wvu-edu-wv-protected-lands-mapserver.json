@@ -1,0 +1,2703 @@
+{
+  "slug": "services-wvgis-wvu-edu-wv-protected-lands-mapserver",
+  "service_key": "ESRI MapServer:https://services.wvgis.wvu.edu/ArcGIS/rest/services/Boundaries/wv_protected_lands/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://services.wvgis.wvu.edu/ArcGIS/rest/services/Boundaries/wv_protected_lands/MapServer",
+  "title": "wv_protected_lands",
+  "description": "West Virginia protected lands including state parks, forests, wildlife areas, and national lands.",
+  "abstract": "The types of lands included in this map service are: \n- Local land: Local Lands / TNC Nature Preserves\n- State Lands: Wildlife Management Areas / State Forests / State Parks\n- National Lands: National Forest / National Park Service Lands / National Wilflife Refuges\nhttp://wvgis.wvu.edu/data/dataset.php?ID=472\nhttp://wvgis.wvu.edu/data/dataset.php?ID=262\nhttp://wvgis.wvu.edu/data/dataset.php?ID=57\nhttp://wvgis.wvu.edu/data/dataset.php?ID=236\nhttp://wvgis.wvu.edu/data/dataset.php?ID=58\nhttp://wvgis.wvu.edu/data/dataset.php?ID=203\nhttp://wvgis.wvu.edu/data/dataset.php?ID=59",
+  "provider": "services.wvgis.wvu.edu",
+  "place": {
+    "country": "United States",
+    "state": "West Virginia",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 13,
+      "name": "Other Lands",
+      "title": "Other Lands",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "TNC Nature Preserves",
+      "title": "TNC Nature Preserves",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "d_Category",
+          "type": "esriFieldTypeString",
+          "alias": "d_Category"
+        },
+        {
+          "name": "d_Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Type"
+        },
+        {
+          "name": "d_Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Name"
+        },
+        {
+          "name": "d_Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Type"
+        },
+        {
+          "name": "d_Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Name"
+        },
+        {
+          "name": "d_Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "d_Des_Tp"
+        },
+        {
+          "name": "d_State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "d_State_Nm"
+        },
+        {
+          "name": "d_Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "d_Pub_Access"
+        },
+        {
+          "name": "d_GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "d_GAP_Sts"
+        },
+        {
+          "name": "d_IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "d_IUCN_Cat"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUM_GIS_Acres"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "MIN_Date_Est"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Trails",
+          "type": "esriFieldTypeString",
+          "alias": "Trails"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Easements",
+      "title": "Easements",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "AreaRptd",
+          "type": "esriFieldTypeDouble",
+          "alias": "AreaRptd"
+        },
+        {
+          "name": "Conflict",
+          "type": "esriFieldTypeString",
+          "alias": "Conflict"
+        },
+        {
+          "name": "BoundCF",
+          "type": "esriFieldTypeString",
+          "alias": "BoundCF"
+        },
+        {
+          "name": "Duration",
+          "type": "esriFieldTypeString",
+          "alias": "Duration"
+        },
+        {
+          "name": "Security",
+          "type": "esriFieldTypeString",
+          "alias": "Security"
+        },
+        {
+          "name": "EsmtHldr",
+          "type": "esriFieldTypeString",
+          "alias": "EsmtHldr"
+        },
+        {
+          "name": "EHoldTyp",
+          "type": "esriFieldTypeString",
+          "alias": "EHoldTyp"
+        },
+        {
+          "name": "Stacked",
+          "type": "esriFieldTypeString",
+          "alias": "Stacked"
+        },
+        {
+          "name": "CoHeld",
+          "type": "esriFieldTypeString",
+          "alias": "CoHeld"
+        },
+        {
+          "name": "Term",
+          "type": "esriFieldTypeInteger",
+          "alias": "Term"
+        },
+        {
+          "name": "NCED_UID",
+          "type": "esriFieldTypeString",
+          "alias": "NCED Unique Identifier"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "d_Category",
+          "type": "esriFieldTypeString",
+          "alias": "d_Category"
+        },
+        {
+          "name": "d_Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Type"
+        },
+        {
+          "name": "d_Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Name"
+        },
+        {
+          "name": "d_Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Type"
+        },
+        {
+          "name": "d_Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Name"
+        },
+        {
+          "name": "d_Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "d_Des_Tp"
+        },
+        {
+          "name": "d_State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "d_State_Nm"
+        },
+        {
+          "name": "d_Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "d_Pub_Access"
+        },
+        {
+          "name": "d_GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "d_GAP_Sts"
+        },
+        {
+          "name": "d_IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "d_IUCN_Cat"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Private Lands",
+      "title": "Private Lands",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "d_Category",
+          "type": "esriFieldTypeString",
+          "alias": "d_Category"
+        },
+        {
+          "name": "d_Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Type"
+        },
+        {
+          "name": "d_Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Name"
+        },
+        {
+          "name": "d_Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Type"
+        },
+        {
+          "name": "d_Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Name"
+        },
+        {
+          "name": "d_Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "d_Des_Tp"
+        },
+        {
+          "name": "d_State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "d_State_Nm"
+        },
+        {
+          "name": "d_Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "d_Pub_Access"
+        },
+        {
+          "name": "d_GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "d_GAP_Sts"
+        },
+        {
+          "name": "d_IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "d_IUCN_Cat"
+        },
+        {
+          "name": "WVGISTC_Symbol",
+          "type": "esriFieldTypeString",
+          "alias": "WVGISTC_Symbol"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Local Lands",
+      "title": "Local Lands",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "d_Category",
+          "type": "esriFieldTypeString",
+          "alias": "d_Category"
+        },
+        {
+          "name": "d_Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Type"
+        },
+        {
+          "name": "d_Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Name"
+        },
+        {
+          "name": "d_Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Type"
+        },
+        {
+          "name": "d_Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Name"
+        },
+        {
+          "name": "d_Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "d_Des_Tp"
+        },
+        {
+          "name": "d_State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "d_State_Nm"
+        },
+        {
+          "name": "d_Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "d_Pub_Access"
+        },
+        {
+          "name": "d_GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "d_GAP_Sts"
+        },
+        {
+          "name": "d_IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "d_IUCN_Cat"
+        },
+        {
+          "name": "WVGISTC_Symbol",
+          "type": "esriFieldTypeString",
+          "alias": "WVGISTC_Symbol"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Trails",
+          "type": "esriFieldTypeString",
+          "alias": "Trails"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "State Lands",
+      "title": "State Lands",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Wildlife Management Area",
+      "title": "Wildlife Management Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "EsmtHldr",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder"
+        },
+        {
+          "name": "EHoldTyp",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Trails",
+          "type": "esriFieldTypeString",
+          "alias": "Trails"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Wildlife Center",
+      "title": "Wildlife Center",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "EsmtHldr",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder"
+        },
+        {
+          "name": "EHoldTyp",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Wildlife Sanctuary",
+      "title": "Wildlife Sanctuary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "EsmtHldr",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder"
+        },
+        {
+          "name": "EHoldTyp",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Nature Area",
+      "title": "Nature Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "EsmtHldr",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder"
+        },
+        {
+          "name": "EHoldTyp",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "State Park",
+      "title": "State Park",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "EsmtHldr",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder"
+        },
+        {
+          "name": "EHoldTyp",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Trails",
+          "type": "esriFieldTypeString",
+          "alias": "Trails"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "State Forest",
+      "title": "State Forest",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "EsmtHldr",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder"
+        },
+        {
+          "name": "EHoldTyp",
+          "type": "esriFieldTypeString",
+          "alias": "Easement Holder Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Trails",
+          "type": "esriFieldTypeString",
+          "alias": "Trails"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "National Lands",
+      "title": "National Lands",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "National Forest",
+      "title": "National Forest",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "d_Category",
+          "type": "esriFieldTypeString",
+          "alias": "d_Category"
+        },
+        {
+          "name": "d_Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Type"
+        },
+        {
+          "name": "d_Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Name"
+        },
+        {
+          "name": "d_Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Type"
+        },
+        {
+          "name": "d_Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Name"
+        },
+        {
+          "name": "d_Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "d_Des_Tp"
+        },
+        {
+          "name": "d_State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "d_State_Nm"
+        },
+        {
+          "name": "d_Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "d_Pub_Access"
+        },
+        {
+          "name": "d_GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "d_GAP_Sts"
+        },
+        {
+          "name": "d_IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "d_IUCN_Cat"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Trails",
+          "type": "esriFieldTypeString",
+          "alias": "Trails"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "National Park Service",
+      "title": "National Park Service",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Type"
+        },
+        {
+          "name": "Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "Loc_Own",
+          "type": "esriFieldTypeString",
+          "alias": "Local Owner"
+        },
+        {
+          "name": "Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Type"
+        },
+        {
+          "name": "Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Manager Name"
+        },
+        {
+          "name": "Loc_Mang",
+          "type": "esriFieldTypeString",
+          "alias": "Local Manager"
+        },
+        {
+          "name": "Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "Designation Type"
+        },
+        {
+          "name": "Loc_Ds",
+          "type": "esriFieldTypeString",
+          "alias": "Local Designation"
+        },
+        {
+          "name": "Unit_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Name"
+        },
+        {
+          "name": "Loc_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "Local Name"
+        },
+        {
+          "name": "State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "State Name"
+        },
+        {
+          "name": "Agg_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Aggregator Source"
+        },
+        {
+          "name": "GIS_Src",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source"
+        },
+        {
+          "name": "Src_Date",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Source Date"
+        },
+        {
+          "name": "GIS_Acres",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS Acres"
+        },
+        {
+          "name": "Source_PAID",
+          "type": "esriFieldTypeString",
+          "alias": "Source Protected Area ID"
+        },
+        {
+          "name": "WDPA_Cd",
+          "type": "esriFieldTypeInteger",
+          "alias": "WDPA Site Code"
+        },
+        {
+          "name": "Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access"
+        },
+        {
+          "name": "Access_Src",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Source"
+        },
+        {
+          "name": "Access_Dt",
+          "type": "esriFieldTypeString",
+          "alias": "Public Access Date"
+        },
+        {
+          "name": "GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code"
+        },
+        {
+          "name": "GAPCdSrc",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Source"
+        },
+        {
+          "name": "GAPCdDt",
+          "type": "esriFieldTypeString",
+          "alias": "GAP Status Code Date"
+        },
+        {
+          "name": "IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category"
+        },
+        {
+          "name": "IUCNCtSrc",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Source"
+        },
+        {
+          "name": "IUCNCtDt",
+          "type": "esriFieldTypeString",
+          "alias": "IUCN Category Date"
+        },
+        {
+          "name": "Date_Est",
+          "type": "esriFieldTypeString",
+          "alias": "Date of Establishment"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "FeatClass",
+          "type": "esriFieldTypeString",
+          "alias": "FeatClass"
+        },
+        {
+          "name": "d_Category",
+          "type": "esriFieldTypeString",
+          "alias": "d_Category"
+        },
+        {
+          "name": "d_Own_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Type"
+        },
+        {
+          "name": "d_Own_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Own_Name"
+        },
+        {
+          "name": "d_Mang_Type",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Type"
+        },
+        {
+          "name": "d_Mang_Name",
+          "type": "esriFieldTypeString",
+          "alias": "d_Mang_Name"
+        },
+        {
+          "name": "d_Des_Tp",
+          "type": "esriFieldTypeString",
+          "alias": "d_Des_Tp"
+        },
+        {
+          "name": "d_State_Nm",
+          "type": "esriFieldTypeString",
+          "alias": "d_State_Nm"
+        },
+        {
+          "name": "d_Pub_Access",
+          "type": "esriFieldTypeString",
+          "alias": "d_Pub_Access"
+        },
+        {
+          "name": "d_GAP_Sts",
+          "type": "esriFieldTypeString",
+          "alias": "d_GAP_Sts"
+        },
+        {
+          "name": "d_IUCN_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "d_IUCN_Cat"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Trails",
+          "type": "esriFieldTypeString",
+          "alias": "Trails"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "U.S. Fish and Wildlife Service",
+      "title": "U.S. Fish and Wildlife Service",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "U.S. Army Corps of Engineers",
+      "title": "U.S. Army Corps of Engineers",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 755,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

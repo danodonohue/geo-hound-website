@@ -1,0 +1,44 @@
+{
+  "slug": "2-different-external-expert-consultants-between-2016-and-2021-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/J8errK5dyxu7Xjf7/arcgis/rest/services/RWRM_Regionwide_Models__10_year_Extent_/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/J8errK5dyxu7Xjf7/arcgis/rest/services/RWRM_Regionwide_Models__10_year_Extent_/MapServer",
+  "title": "Layers",
+  "description": "River flood hazard zones using regionwide models for 10-year exceedance probability.",
+  "abstract": "<p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='font-family:inherit; color:rgb(0, 0, 0);'>River Flood Hazard Zones (10 year Extent): The area potentially susceptible to river flooding in a 10% AEP / 10Yr ARI.</span><br /></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='font-family:inherit; color:rgb(0, 0, 0);'>Regionwide </span><span style='font-family:inherit; color:rgb(0, 0, 0);'>River flood hazard zones were developed by 2 different external expert consultants between </span><span style='color:rgb(0, 0, 0);'>2016 (Priority Rivers) and 2021 (Regionwide Models)</span><span style='font-family:inherit; color:rgb(0, 0, 0);'>. The layers are derived by advanced models using empirical calculations.  </span></p><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>Two different models were used to construct the river flood layers: TUFLOW (Water Technology, 2021), InfoWorks (URS, 2016). The reports detailing the methodologies, and risk assessment on the Priority Rivers, can be accessed from the NRC website.</font>",
+  "provider": "2 different external expert consultants between 2016 and 2021",
+  "place": null,
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Regionwide Models (10 year Extent)",
+      "title": "Regionwide Models (10 year Extent)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG8"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 51,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.7,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

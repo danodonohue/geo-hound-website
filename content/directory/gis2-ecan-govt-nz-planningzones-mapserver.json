@@ -1,0 +1,1417 @@
+{
+  "slug": "gis2-ecan-govt-nz-planningzones-mapserver",
+  "service_key": "ESRI MapServer:https://gis2.ecan.govt.nz/arcgis/rest/services/Public/PlanningZones/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis2.ecan.govt.nz/arcgis/rest/services/Public/PlanningZones/MapServer",
+  "title": "PlanningZones",
+  "description": "Water allocation, groundwater and flood protection zones for planning.",
+  "abstract": "Layers related to Zones established as part of various Environment Canterbury plans and strategy documents.",
+  "provider": "gis2.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "zoning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 15,
+      "name": "Surface Water Allocation Zones",
+      "title": "Surface Water Allocation Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE_GROUP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_GROUP_NAME"
+        },
+        {
+          "name": "ZONE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_NAME"
+        },
+        {
+          "name": "ZONE_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_NUMBER"
+        },
+        {
+          "name": "PLAN_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "PLAN_STATUS"
+        },
+        {
+          "name": "SUB_REGIONAL_CHAPTER_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUB_REGIONAL_CHAPTER_NAME"
+        },
+        {
+          "name": "ALLOCATION_REGIME_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ALLOCATION_REGIME_NAME"
+        },
+        {
+          "name": "ALLOCATION_REGIME_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ALLOCATION_REGIME_CLASS"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Region Clean Air Zones",
+      "title": "Region Clean Air Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZONE"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Groundwater Allocation Zones",
+      "title": "Groundwater Allocation Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SpatialUnitID",
+          "type": "esriFieldTypeString",
+          "alias": "SpatialUnitID"
+        },
+        {
+          "name": "ZoneName",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Name"
+        },
+        {
+          "name": "PLAN_",
+          "type": "esriFieldTypeString",
+          "alias": "Plan"
+        },
+        {
+          "name": "ZoneStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Status"
+        },
+        {
+          "name": "ZoneType",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Type"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Drains and watercourses",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Drains and watercourses",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ASSET_NO",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_NO"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PLAN_",
+          "type": "esriFieldTypeString",
+          "alias": "PLAN"
+        },
+        {
+          "name": "DIGITISED_BY",
+          "type": "esriFieldTypeString",
+          "alias": "DIGITISED_BY"
+        },
+        {
+          "name": "VALIDATED_BY",
+          "type": "esriFieldTypeString",
+          "alias": "VALIDATED_BY"
+        },
+        {
+          "name": "GIVEN_LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIVEN_LENGTH"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MACHINE_ACCESS",
+          "type": "esriFieldTypeString",
+          "alias": "MACHINE_ACCESS"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "SCHEME"
+        },
+        {
+          "name": "CLEANING",
+          "type": "esriFieldTypeString",
+          "alias": "CLEANING"
+        },
+        {
+          "name": "RANGI_ASSETTUID",
+          "type": "esriFieldTypeString",
+          "alias": "RANGI_ASSETTUID"
+        },
+        {
+          "name": "RANGI_ASSETNO",
+          "type": "esriFieldTypeString",
+          "alias": "RANGI_ASSETNO"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Stopbanks",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Stopbanks",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "SCHEME"
+        },
+        {
+          "name": "ROCK_HEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_HEIGHT_m"
+        },
+        {
+          "name": "ROCK_WEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_WEIGHT_m"
+        },
+        {
+          "name": "GROYNE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "GROYNE_ID"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "YEAR_BUILT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "YEAR_BUILT"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Stopbanks - 20m exclusion",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Stopbanks - 20m exclusion",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "SCHEME"
+        },
+        {
+          "name": "ROCK_HEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_HEIGHT_m"
+        },
+        {
+          "name": "ROCK_WEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_WEIGHT_m"
+        },
+        {
+          "name": "GROYNE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "GROYNE_ID"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "YEAR_BUILT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "YEAR_BUILT"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Flood protection vegetation boundary",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Flood protection vegetation boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Floodways",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Amended 2019 - Floodways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Drains and watercourses",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Drains and watercourses",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ASSET_NO",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_NO"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PLAN_",
+          "type": "esriFieldTypeString",
+          "alias": "PLAN"
+        },
+        {
+          "name": "DIGITISED_BY",
+          "type": "esriFieldTypeString",
+          "alias": "DIGITISED_BY"
+        },
+        {
+          "name": "VALIDATED_BY",
+          "type": "esriFieldTypeString",
+          "alias": "VALIDATED_BY"
+        },
+        {
+          "name": "GIVEN_LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIVEN_LENGTH"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MACHINE_ACCESS",
+          "type": "esriFieldTypeString",
+          "alias": "MACHINE_ACCESS"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Stopbanks",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Stopbanks",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "SCHEME"
+        },
+        {
+          "name": "ROCK_HEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_HEIGHT_m"
+        },
+        {
+          "name": "ROCK_WEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_WEIGHT_m"
+        },
+        {
+          "name": "GROYNE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "GROYNE_ID"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "YEAR_BUILT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "YEAR_BUILT"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Stopbanks - 20m exclusion",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Stopbanks - 20m exclusion",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "SCHEME"
+        },
+        {
+          "name": "ROCK_HEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_HEIGHT_m"
+        },
+        {
+          "name": "ROCK_WEIGHT_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "ROCK_WEIGHT_m"
+        },
+        {
+          "name": "GROYNE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "GROYNE_ID"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "YEAR_BUILT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "YEAR_BUILT"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Flood protection vegetation boundary",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Flood protection vegetation boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Flood Protection and Drainage Bylaw 2013 - Floodways",
+      "title": "Flood Protection and Drainage Bylaw 2013 - Floodways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "District Planning Zones",
+      "title": "District Planning Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ZONE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_CODE"
+        },
+        {
+          "name": "ZONE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_DESCRIPTION"
+        },
+        {
+          "name": "ZONE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_TYPE"
+        },
+        {
+          "name": "PLAN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLAN_NAME"
+        },
+        {
+          "name": "DATE_PLAN_NOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_PLAN_NOTIFIED"
+        },
+        {
+          "name": "DATE_PLAN_OPERATIVE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_PLAN_OPERATIVE"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_CREATED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_CREATED"
+        },
+        {
+          "name": "DATE_LAST_MODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_LAST_MODIFIED"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "FEATURE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_ACCURACY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Earthworks and Vegetation Clearance",
+      "title": "Earthworks and Vegetation Clearance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PLANDOCUMENT",
+          "type": "esriFieldTypeString",
+          "alias": "PLANDOCUMENT"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Canterbury Water Management Strategy Zones",
+      "title": "Canterbury Water Management Strategy Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Sub Regional Areas",
+      "title": "Sub Regional Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Groundwater Quality Zones",
+      "title": "Groundwater Quality Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "ECan Lakes",
+      "title": "ECan Lakes",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 119,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

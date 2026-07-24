@@ -1,0 +1,89 @@
+{
+  "slug": "1000-imagery2017-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/image/rest/services/Imagery/Imagery2017/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/image/rest/services/Imagery/Imagery2017/MapServer",
+  "title": "Imagery2017",
+  "description": "2017 aerial imagery of Loudoun County from Virginia Base Mapping Program.",
+  "abstract": "In the spring of 2017, the Commonwealth of Virginia, through the Virginia Geographic Information Network Division (herein referred to as VGIN) of the Virginia Information Technologies Agency (VITA) contracted with Fugro Geospatial, Inc. to provide aerial data acquisition, ground control, aerial triangulation and development of statewide ortho quality DEM and digital orthophotography data. The Virginia Base Mapping Program (VBMP) update project is divided into three collection phases: In 2017, Fugro flew the eastern third of Virginia at one foot resolution, with options for localities and other interested parties to upgrade resolution or purchase other optional products through the state contract. The middle third of Virginia will be flown in 2018 and the western third in 2019. Ortho products are 1-foot resolution statewide with upgrades to 6-inch resolution tiles and 3-inch resolution tiles in various regions within the project area. The Virginia Base Mapping project encompasses the entire land area of the Commonwealth of Virginia over 4 years. The State boundary is buffered by 1000'. Coastal areas of the State bordering the Atlantic Ocean or the Chesapeake Bay are buffered by 1000' or the extent of man-made features extending from shore.",
+  "provider": "1000'",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Imagery2017",
+      "title": "Imagery2017",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "COUNTY LINE",
+      "title": "COUNTY LINE",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TXT",
+          "type": "esriFieldTypeString",
+          "alias": "TXT"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 666,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

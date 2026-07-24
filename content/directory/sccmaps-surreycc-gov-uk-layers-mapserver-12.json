@@ -1,0 +1,115 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-12",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_LCA/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_LCA/MapServer",
+  "title": "Layers",
+  "description": "Landscape character assessment areas for environmental planning in Surrey.",
+  "abstract": "Environment - Landscape Character Assessment ",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "land-cover",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 16,
+      "name": "Environment - Landscape Character Assessment ",
+      "title": "Environment - Landscape Character Assessment ",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Type code"
+        },
+        {
+          "name": "TYPE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Type name"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Area code"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Area name"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "Link to LCA report"
+        },
+        {
+          "name": "URL_add1",
+          "type": "esriFieldTypeString",
+          "alias": "Additional link to LCA report"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 308,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

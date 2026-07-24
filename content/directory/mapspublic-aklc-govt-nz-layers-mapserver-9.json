@@ -1,0 +1,2359 @@
+{
+  "slug": "mapspublic-aklc-govt-nz-layers-mapserver-9",
+  "service_key": "ESRI MapServer:https://mapspublic.aklc.govt.nz/arcgis/rest/services/Basemap/GreyCanvasBasemap/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aklc.govt.nz/arcgis/rest/services/Basemap/GreyCanvasBasemap/MapServer",
+  "title": "Layers",
+  "description": "Place names, roads, zoning and public open space for Auckland region.",
+  "abstract": "Grey Canvas Basemap",
+  "provider": "mapspublic.aklc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Place Names",
+      "title": "Place Names",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Place Name  (760,000)",
+      "title": "Place Name  (760,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Place Name  (250,000)",
+      "title": "Place Name  (250,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Place Name  (100,000)",
+      "title": "Place Name  (100,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Place Name  (50,000)",
+      "title": "Place Name  (50,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Place Name  (25,000)",
+      "title": "Place Name  (25,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Hydrographic Place Name  (760,000)",
+      "title": "Hydrographic Place Name  (760,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Hydrographic Place Name  (250,000)",
+      "title": "Hydrographic Place Name  (250,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Hydrographic Place Name  (50,000)",
+      "title": "Hydrographic Place Name  (50,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Hydrographic Place Name  (25,000)",
+      "title": "Hydrographic Place Name  (25,000)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "PLACENAME_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME_Macron"
+        },
+        {
+          "name": "PLACENAMETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE"
+        },
+        {
+          "name": "PLACENAMETYPE_Macron",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAMETYPE_Macron"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeString",
+          "alias": "created_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Roads  (760,000)",
+      "title": "Roads  (760,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "TUI",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUI"
+        },
+        {
+          "name": "ALPHA_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ALPHA_MODIFIED_DATE"
+        },
+        {
+          "name": "GEOM_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GEOM_MODIFIED_DATE"
+        },
+        {
+          "name": "PRIMARY_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIMARY_ROAD_NAME"
+        },
+        {
+          "name": "PRIM_RD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_NAME"
+        },
+        {
+          "name": "PRIM_RD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_TYPE"
+        },
+        {
+          "name": "PRIM_RD_SUFFIX",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_SUFFIX"
+        },
+        {
+          "name": "ALTERNATE_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ALTERNATE_ROAD_NAME"
+        },
+        {
+          "name": "LEFT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_FROM"
+        },
+        {
+          "name": "LEFT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_TO"
+        },
+        {
+          "name": "RIGHT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_FROM"
+        },
+        {
+          "name": "RIGHT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_TO"
+        },
+        {
+          "name": "MIN_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MIN_ADDR_NUM"
+        },
+        {
+          "name": "MAX_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MAX_ADDR_NUM"
+        },
+        {
+          "name": "LEFT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_ADDR_PARITY"
+        },
+        {
+          "name": "RIGHT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_ADDR_PARITY"
+        },
+        {
+          "name": "LEFT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_NUMBER_SCHEME"
+        },
+        {
+          "name": "RIGHT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_NUMBER_SCHEME"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "LEFT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "RIGHT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "TIL_TOWN_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TOWN_NAME_ID"
+        },
+        {
+          "name": "TIL_TOWN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_TOWN_NAME"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_POSTCODE_ZONE_ID"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_POSTCODE_ZONE"
+        },
+        {
+          "name": "AVERAGE_SPEED",
+          "type": "esriFieldTypeString",
+          "alias": "AVERAGE_SPEED"
+        },
+        {
+          "name": "SPEED_DESIGNATION",
+          "type": "esriFieldTypeString",
+          "alias": "SPEED_DESIGNATION"
+        },
+        {
+          "name": "WEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "WEIGHT"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "HEIGHT"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "USE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "USE_TYPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "CLASSIFICATION",
+          "type": "esriFieldTypeString",
+          "alias": "CLASSIFICATION"
+        },
+        {
+          "name": "STRUCTURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STRUCTURE_TYPE"
+        },
+        {
+          "name": "LANE_FLOW",
+          "type": "esriFieldTypeString",
+          "alias": "LANE_FLOW"
+        },
+        {
+          "name": "NUMBER_OF_LANE",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER_OF_LANE"
+        },
+        {
+          "name": "UNNAMED",
+          "type": "esriFieldTypeString",
+          "alias": "UNNAMED"
+        },
+        {
+          "name": "IS_PRIVATE",
+          "type": "esriFieldTypeString",
+          "alias": "IS_PRIVATE"
+        },
+        {
+          "name": "IS_DUAL_CARRIAGE_WAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_DUAL_CARRIAGE_WAY"
+        },
+        {
+          "name": "SURFACE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SURFACE_TYPE"
+        },
+        {
+          "name": "MOTORWAY_EXIT",
+          "type": "esriFieldTypeString",
+          "alias": "MOTORWAY_EXIT"
+        },
+        {
+          "name": "IS_STATE_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_STATE_HIGHWAY"
+        },
+        {
+          "name": "TIL_BRIDGE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_BRIDGE_ID"
+        },
+        {
+          "name": "TIL_TUNNEL_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TUNNEL_ID"
+        },
+        {
+          "name": "FROM_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "FROM_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "TO_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TO_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "AREA_UNIT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_ID"
+        },
+        {
+          "name": "AREA_UNIT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_NAME"
+        },
+        {
+          "name": "ROAD_FULLNAME_SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_FULLNAME_SUBURB"
+        },
+        {
+          "name": "LABELNAME",
+          "type": "esriFieldTypeString",
+          "alias": "LABELNAME"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "ROADCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ROADCODE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Roads  (500,000)",
+      "title": "Roads  (500,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "TUI",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUI"
+        },
+        {
+          "name": "ALPHA_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ALPHA_MODIFIED_DATE"
+        },
+        {
+          "name": "GEOM_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GEOM_MODIFIED_DATE"
+        },
+        {
+          "name": "PRIMARY_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIMARY_ROAD_NAME"
+        },
+        {
+          "name": "PRIM_RD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_NAME"
+        },
+        {
+          "name": "PRIM_RD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_TYPE"
+        },
+        {
+          "name": "PRIM_RD_SUFFIX",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_SUFFIX"
+        },
+        {
+          "name": "ALTERNATE_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ALTERNATE_ROAD_NAME"
+        },
+        {
+          "name": "LEFT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_FROM"
+        },
+        {
+          "name": "LEFT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_TO"
+        },
+        {
+          "name": "RIGHT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_FROM"
+        },
+        {
+          "name": "RIGHT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_TO"
+        },
+        {
+          "name": "MIN_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MIN_ADDR_NUM"
+        },
+        {
+          "name": "MAX_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MAX_ADDR_NUM"
+        },
+        {
+          "name": "LEFT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_ADDR_PARITY"
+        },
+        {
+          "name": "RIGHT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_ADDR_PARITY"
+        },
+        {
+          "name": "LEFT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_NUMBER_SCHEME"
+        },
+        {
+          "name": "RIGHT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_NUMBER_SCHEME"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "LEFT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "RIGHT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "TIL_TOWN_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TOWN_NAME_ID"
+        },
+        {
+          "name": "TIL_TOWN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_TOWN_NAME"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_POSTCODE_ZONE_ID"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_POSTCODE_ZONE"
+        },
+        {
+          "name": "AVERAGE_SPEED",
+          "type": "esriFieldTypeString",
+          "alias": "AVERAGE_SPEED"
+        },
+        {
+          "name": "SPEED_DESIGNATION",
+          "type": "esriFieldTypeString",
+          "alias": "SPEED_DESIGNATION"
+        },
+        {
+          "name": "WEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "WEIGHT"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "HEIGHT"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "USE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "USE_TYPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "CLASSIFICATION",
+          "type": "esriFieldTypeString",
+          "alias": "CLASSIFICATION"
+        },
+        {
+          "name": "STRUCTURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STRUCTURE_TYPE"
+        },
+        {
+          "name": "LANE_FLOW",
+          "type": "esriFieldTypeString",
+          "alias": "LANE_FLOW"
+        },
+        {
+          "name": "NUMBER_OF_LANE",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER_OF_LANE"
+        },
+        {
+          "name": "UNNAMED",
+          "type": "esriFieldTypeString",
+          "alias": "UNNAMED"
+        },
+        {
+          "name": "IS_PRIVATE",
+          "type": "esriFieldTypeString",
+          "alias": "IS_PRIVATE"
+        },
+        {
+          "name": "IS_DUAL_CARRIAGE_WAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_DUAL_CARRIAGE_WAY"
+        },
+        {
+          "name": "SURFACE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SURFACE_TYPE"
+        },
+        {
+          "name": "MOTORWAY_EXIT",
+          "type": "esriFieldTypeString",
+          "alias": "MOTORWAY_EXIT"
+        },
+        {
+          "name": "IS_STATE_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_STATE_HIGHWAY"
+        },
+        {
+          "name": "TIL_BRIDGE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_BRIDGE_ID"
+        },
+        {
+          "name": "TIL_TUNNEL_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TUNNEL_ID"
+        },
+        {
+          "name": "FROM_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "FROM_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "TO_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TO_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "AREA_UNIT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_ID"
+        },
+        {
+          "name": "AREA_UNIT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_NAME"
+        },
+        {
+          "name": "ROAD_FULLNAME_SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_FULLNAME_SUBURB"
+        },
+        {
+          "name": "LABELNAME",
+          "type": "esriFieldTypeString",
+          "alias": "LABELNAME"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "ROADCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ROADCODE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Roads  (100,000)",
+      "title": "Roads  (100,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "TUI",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUI"
+        },
+        {
+          "name": "ALPHA_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ALPHA_MODIFIED_DATE"
+        },
+        {
+          "name": "GEOM_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GEOM_MODIFIED_DATE"
+        },
+        {
+          "name": "PRIMARY_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIMARY_ROAD_NAME"
+        },
+        {
+          "name": "PRIM_RD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_NAME"
+        },
+        {
+          "name": "PRIM_RD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_TYPE"
+        },
+        {
+          "name": "PRIM_RD_SUFFIX",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_SUFFIX"
+        },
+        {
+          "name": "ALTERNATE_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ALTERNATE_ROAD_NAME"
+        },
+        {
+          "name": "LEFT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_FROM"
+        },
+        {
+          "name": "LEFT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_TO"
+        },
+        {
+          "name": "RIGHT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_FROM"
+        },
+        {
+          "name": "RIGHT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_TO"
+        },
+        {
+          "name": "MIN_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MIN_ADDR_NUM"
+        },
+        {
+          "name": "MAX_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MAX_ADDR_NUM"
+        },
+        {
+          "name": "LEFT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_ADDR_PARITY"
+        },
+        {
+          "name": "RIGHT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_ADDR_PARITY"
+        },
+        {
+          "name": "LEFT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_NUMBER_SCHEME"
+        },
+        {
+          "name": "RIGHT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_NUMBER_SCHEME"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "LEFT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "RIGHT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "TIL_TOWN_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TOWN_NAME_ID"
+        },
+        {
+          "name": "TIL_TOWN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_TOWN_NAME"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_POSTCODE_ZONE_ID"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_POSTCODE_ZONE"
+        },
+        {
+          "name": "AVERAGE_SPEED",
+          "type": "esriFieldTypeString",
+          "alias": "AVERAGE_SPEED"
+        },
+        {
+          "name": "SPEED_DESIGNATION",
+          "type": "esriFieldTypeString",
+          "alias": "SPEED_DESIGNATION"
+        },
+        {
+          "name": "WEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "WEIGHT"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "HEIGHT"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "USE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "USE_TYPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "CLASSIFICATION",
+          "type": "esriFieldTypeString",
+          "alias": "CLASSIFICATION"
+        },
+        {
+          "name": "STRUCTURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STRUCTURE_TYPE"
+        },
+        {
+          "name": "LANE_FLOW",
+          "type": "esriFieldTypeString",
+          "alias": "LANE_FLOW"
+        },
+        {
+          "name": "NUMBER_OF_LANE",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER_OF_LANE"
+        },
+        {
+          "name": "UNNAMED",
+          "type": "esriFieldTypeString",
+          "alias": "UNNAMED"
+        },
+        {
+          "name": "IS_PRIVATE",
+          "type": "esriFieldTypeString",
+          "alias": "IS_PRIVATE"
+        },
+        {
+          "name": "IS_DUAL_CARRIAGE_WAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_DUAL_CARRIAGE_WAY"
+        },
+        {
+          "name": "SURFACE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SURFACE_TYPE"
+        },
+        {
+          "name": "MOTORWAY_EXIT",
+          "type": "esriFieldTypeString",
+          "alias": "MOTORWAY_EXIT"
+        },
+        {
+          "name": "IS_STATE_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_STATE_HIGHWAY"
+        },
+        {
+          "name": "TIL_BRIDGE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_BRIDGE_ID"
+        },
+        {
+          "name": "TIL_TUNNEL_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TUNNEL_ID"
+        },
+        {
+          "name": "FROM_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "FROM_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "TO_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TO_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "AREA_UNIT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_ID"
+        },
+        {
+          "name": "AREA_UNIT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_NAME"
+        },
+        {
+          "name": "ROAD_FULLNAME_SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_FULLNAME_SUBURB"
+        },
+        {
+          "name": "LABELNAME",
+          "type": "esriFieldTypeString",
+          "alias": "LABELNAME"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "ROADCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ROADCODE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Roads  (50,000)",
+      "title": "Roads  (50,000)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "TUI",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUI"
+        },
+        {
+          "name": "ALPHA_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ALPHA_MODIFIED_DATE"
+        },
+        {
+          "name": "GEOM_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GEOM_MODIFIED_DATE"
+        },
+        {
+          "name": "PRIMARY_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIMARY_ROAD_NAME"
+        },
+        {
+          "name": "PRIM_RD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_NAME"
+        },
+        {
+          "name": "PRIM_RD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_TYPE"
+        },
+        {
+          "name": "PRIM_RD_SUFFIX",
+          "type": "esriFieldTypeString",
+          "alias": "PRIM_RD_SUFFIX"
+        },
+        {
+          "name": "ALTERNATE_ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ALTERNATE_ROAD_NAME"
+        },
+        {
+          "name": "LEFT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_FROM"
+        },
+        {
+          "name": "LEFT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "LEFT_TO"
+        },
+        {
+          "name": "RIGHT_FROM",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_FROM"
+        },
+        {
+          "name": "RIGHT_TO",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIGHT_TO"
+        },
+        {
+          "name": "MIN_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MIN_ADDR_NUM"
+        },
+        {
+          "name": "MAX_ADDR_NUM",
+          "type": "esriFieldTypeInteger",
+          "alias": "MAX_ADDR_NUM"
+        },
+        {
+          "name": "LEFT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_ADDR_PARITY"
+        },
+        {
+          "name": "RIGHT_ADDR_PARITY",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_ADDR_PARITY"
+        },
+        {
+          "name": "LEFT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_NUMBER_SCHEME"
+        },
+        {
+          "name": "RIGHT_NUMBER_SCHEME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_NUMBER_SCHEME"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "LEFT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "LEFT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "RIGHT_TIL_LOCALITY_NAME_ID"
+        },
+        {
+          "name": "RIGHT_TIL_LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_LOCALITY_NAME"
+        },
+        {
+          "name": "TIL_TOWN_NAME_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TOWN_NAME_ID"
+        },
+        {
+          "name": "TIL_TOWN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_TOWN_NAME"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "LEFT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT_TIL_TA_NAME"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME_CODE"
+        },
+        {
+          "name": "RIGHT_TIL_TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT_TIL_TA_NAME"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_POSTCODE_ZONE_ID"
+        },
+        {
+          "name": "TIL_POSTCODE_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "TIL_POSTCODE_ZONE"
+        },
+        {
+          "name": "AVERAGE_SPEED",
+          "type": "esriFieldTypeString",
+          "alias": "AVERAGE_SPEED"
+        },
+        {
+          "name": "SPEED_DESIGNATION",
+          "type": "esriFieldTypeString",
+          "alias": "SPEED_DESIGNATION"
+        },
+        {
+          "name": "WEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "WEIGHT"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeInteger",
+          "alias": "HEIGHT"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "USE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "USE_TYPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "CLASSIFICATION",
+          "type": "esriFieldTypeString",
+          "alias": "CLASSIFICATION"
+        },
+        {
+          "name": "STRUCTURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STRUCTURE_TYPE"
+        },
+        {
+          "name": "LANE_FLOW",
+          "type": "esriFieldTypeString",
+          "alias": "LANE_FLOW"
+        },
+        {
+          "name": "NUMBER_OF_LANE",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER_OF_LANE"
+        },
+        {
+          "name": "UNNAMED",
+          "type": "esriFieldTypeString",
+          "alias": "UNNAMED"
+        },
+        {
+          "name": "IS_PRIVATE",
+          "type": "esriFieldTypeString",
+          "alias": "IS_PRIVATE"
+        },
+        {
+          "name": "IS_DUAL_CARRIAGE_WAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_DUAL_CARRIAGE_WAY"
+        },
+        {
+          "name": "SURFACE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SURFACE_TYPE"
+        },
+        {
+          "name": "MOTORWAY_EXIT",
+          "type": "esriFieldTypeString",
+          "alias": "MOTORWAY_EXIT"
+        },
+        {
+          "name": "IS_STATE_HIGHWAY",
+          "type": "esriFieldTypeString",
+          "alias": "IS_STATE_HIGHWAY"
+        },
+        {
+          "name": "TIL_BRIDGE_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_BRIDGE_ID"
+        },
+        {
+          "name": "TIL_TUNNEL_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TIL_TUNNEL_ID"
+        },
+        {
+          "name": "FROM_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "FROM_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "TO_TIL_INTERSECTION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TO_TIL_INTERSECTION_ID"
+        },
+        {
+          "name": "AREA_UNIT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_ID"
+        },
+        {
+          "name": "AREA_UNIT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_UNIT_NAME"
+        },
+        {
+          "name": "ROAD_FULLNAME_SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_FULLNAME_SUBURB"
+        },
+        {
+          "name": "LABELNAME",
+          "type": "esriFieldTypeString",
+          "alias": "LABELNAME"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "ROADCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ROADCODE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Roads  (25,000)",
+      "title": "Roads  (25,000)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Roads  (15,000)",
+      "title": "Roads  (15,000)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Roads  (8,000)",
+      "title": "Roads  (8,000)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Roads  (5,000)",
+      "title": "Roads  (5,000)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Roads  (2,500)",
+      "title": "Roads  (2,500)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Roads  (1,000)",
+      "title": "Roads  (1,000)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Public Open Space",
+      "title": "Public Open Space",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Public Open Space Names",
+      "title": "Public Open Space Names",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "POS Water Mask",
+      "title": "POS Water Mask",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "POS Zoning",
+      "title": "POS Zoning",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Public Open Space Zoning - ACC",
+      "title": "Public Open Space Zoning - ACC",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Public Open SpaceZoning ACC",
+      "title": "Public Open SpaceZoning ACC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Public Open Space ACC  Hauraki Gulf Islands",
+      "title": "Public Open Space ACC  Hauraki Gulf Islands",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Zoning ACC CBD Precinct",
+      "title": "Zoning ACC CBD Precinct",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Public Open Space Zoning - FDC",
+      "title": "Public Open Space Zoning - FDC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Public Open Space Zoning - MCC",
+      "title": "Public Open Space Zoning - MCC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Public Open Space Zoning - NSCC",
+      "title": "Public Open Space Zoning - NSCC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Public Open Space Zoning - PDC",
+      "title": "Public Open Space Zoning - PDC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Public Open Space Zoning - RDC",
+      "title": "Public Open Space Zoning - RDC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Public Open Space Zoning - WCC",
+      "title": "Public Open Space Zoning - WCC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Department of Conservation",
+      "title": "Department of Conservation",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Regional  Parks - ARC",
+      "title": "Regional  Parks - ARC",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Base Region",
+      "title": "Base Region",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Base Region Auckland Council",
+      "title": "Base Region Auckland Council",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "New Zealand (1,000,000)",
+      "title": "New Zealand (1,000,000)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 90,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

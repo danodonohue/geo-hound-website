@@ -1,0 +1,85 @@
+{
+  "slug": "proxyinternet-nrcan-rncan-gc-ca-wmb-highlight-bc-mapserver",
+  "service_key": "ESRI MapServer:https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/MB_NC_NEW/WMB_Highlight_BC/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/MB_NC_NEW/WMB_Highlight_BC/MapServer",
+  "title": "WMB_Highlight_BC",
+  "description": "Administrative boundaries highlighting British Columbia region for Natural Resources Canada",
+  "provider": "proxyinternet.nrcan-rncan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": "British Columbia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Polygon_List",
+      "title": "Polygon_List",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "FC",
+          "type": "esriFieldTypeString",
+          "alias": "FC"
+        },
+        {
+          "name": "PROVINCE",
+          "type": "esriFieldTypeString",
+          "alias": "PROVINCE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3979"
+  ],
+  "cors_enabled": true,
+  "response_ms": 871,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

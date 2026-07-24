@@ -1,0 +1,80 @@
+{
+  "slug": "maps2-bristol-gov-uk-layers-mapserver-5",
+  "service_key": "ESRI MapServer:https://maps2.bristol.gov.uk/server1/rest/services/base/1840_Pre_Enclosure_Somerset/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.bristol.gov.uk/server1/rest/services/base/1840_Pre_Enclosure_Somerset/MapServer",
+  "title": "Layers",
+  "description": "Pre-1840 Somerset enclosure maps for historical land patterns.",
+  "abstract": "Somerset Enclosure Maps Pre 1840",
+  "provider": "maps2.bristol.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Somerset",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 291,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

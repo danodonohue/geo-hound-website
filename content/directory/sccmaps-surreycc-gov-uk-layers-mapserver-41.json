@@ -1,0 +1,140 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-41",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_SafetyCameras/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_SafetyCameras/MapServer",
+  "title": "Layers",
+  "description": "Safety camera locations for traffic enforcement and monitoring.",
+  "abstract": "Roads & Transport - Safety cameras",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 24,
+      "name": "Roads & Transport - Safety cameras",
+      "title": "Roads & Transport - Safety cameras",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Ref",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ref"
+        },
+        {
+          "name": "CameraType",
+          "type": "esriFieldTypeString",
+          "alias": "Camera type"
+        },
+        {
+          "name": "Housings",
+          "type": "esriFieldTypeString",
+          "alias": "Direction"
+        },
+        {
+          "name": "Limit",
+          "type": "esriFieldTypeDouble",
+          "alias": "Speed limit"
+        },
+        {
+          "name": "Installed",
+          "type": "esriFieldTypeString",
+          "alias": "Date installed"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "More information"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "SiteStartX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SiteStartX"
+        },
+        {
+          "name": "SiteStartY",
+          "type": "esriFieldTypeDouble",
+          "alias": "SiteStartY"
+        },
+        {
+          "name": "SiteEndX",
+          "type": "esriFieldTypeDouble",
+          "alias": "SiteEndX"
+        },
+        {
+          "name": "SiteEndY",
+          "type": "esriFieldTypeDouble",
+          "alias": "SiteEndY"
+        },
+        {
+          "name": "HousingX",
+          "type": "esriFieldTypeDouble",
+          "alias": "HousingX"
+        },
+        {
+          "name": "HousingY",
+          "type": "esriFieldTypeDouble",
+          "alias": "HousingY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 301,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

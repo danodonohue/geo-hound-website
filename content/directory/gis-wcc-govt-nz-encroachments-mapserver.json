@@ -1,0 +1,294 @@
+{
+  "slug": "gis-wcc-govt-nz-encroachments-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Encroachments/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Encroachments/MapServer",
+  "title": "Encroachments",
+  "description": "Property encroachments on public land and agreements for Wellington City",
+  "abstract": "Wellington City Council Encroachments Service",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 3,
+      "name": "Encroachments",
+      "title": "Encroachments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "encroachid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Encroachment ID"
+        },
+        {
+          "name": "filerefno",
+          "type": "esriFieldTypeInteger",
+          "alias": "File Ref Number"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "encroacharea",
+          "type": "esriFieldTypeDouble",
+          "alias": "Encroachment Area"
+        },
+        {
+          "name": "enc_subtype",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Encroachment Subtype"
+        },
+        {
+          "name": "enc_domain",
+          "type": "esriFieldTypeString",
+          "alias": "Encroachment Domain"
+        },
+        {
+          "name": "active",
+          "type": "esriFieldTypeString",
+          "alias": "Active"
+        },
+        {
+          "name": "shared",
+          "type": "esriFieldTypeString",
+          "alias": "Shared"
+        },
+        {
+          "name": "notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "captured",
+          "type": "esriFieldTypeDate",
+          "alias": "Captured"
+        },
+        {
+          "name": "updated",
+          "type": "esriFieldTypeDate",
+          "alias": "Updated"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "floor",
+          "type": "esriFieldTypeString",
+          "alias": "floor"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Town_Reserve",
+          "type": "esriFieldTypeString",
+          "alias": "Town & Reserve"
+        },
+        {
+          "name": "shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape.STArea()"
+        },
+        {
+          "name": "shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Park and Reserve Encroachments",
+      "title": "Park and Reserve Encroachments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "agreement_holder",
+          "type": "esriFieldTypeString",
+          "alias": "Agreement Holder"
+        },
+        {
+          "name": "expiry_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Date of Expiry"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "management_team",
+          "type": "esriFieldTypeString",
+          "alias": "Team Managing Encroachment"
+        },
+        {
+          "name": "primary_type",
+          "type": "esriFieldTypeString",
+          "alias": "Primary Encroachment Type"
+        },
+        {
+          "name": "secondary_type",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary Encroachment Type"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "Encroachment Status"
+        },
+        {
+          "name": "assessment_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Date of Assessment"
+        },
+        {
+          "name": "owner_met",
+          "type": "esriFieldTypeString",
+          "alias": "Met with Land Owner"
+        },
+        {
+          "name": "letter_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Letter Delivered/Posted Date"
+        },
+        {
+          "name": "agreement_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Signed Agreement Date"
+        },
+        {
+          "name": "removal_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Agreed Encroachment Removal Date"
+        },
+        {
+          "name": "reinstate_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Agreed Encroachment Re-instatement Date"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "Street Address"
+        },
+        {
+          "name": "reserve",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "reserve_type",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Type"
+        },
+        {
+          "name": "vision_no",
+          "type": "esriFieldTypeString",
+          "alias": "Vision Property Number"
+        },
+        {
+          "name": "progress_notes",
+          "type": "esriFieldTypeString",
+          "alias": "Communication Progress Notes"
+        },
+        {
+          "name": "other_notes",
+          "type": "esriFieldTypeString",
+          "alias": "Other Notes"
+        },
+        {
+          "name": "sharepoint_URL",
+          "type": "esriFieldTypeString",
+          "alias": "SharePoint URL"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "ward",
+          "type": "esriFieldTypeString",
+          "alias": "ward"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 52,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

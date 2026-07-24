@@ -1,0 +1,190 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-def-query-applied-mapserver",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_Roads_Publicly_Maintained/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_Roads_Publicly_Maintained/MapServer",
+  "title": "Def query applied",
+  "description": "Publicly maintained road network with attributes.",
+  "abstract": "Roads & Transport - Bus stops",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 33,
+      "name": "Roads & Transport - Roads",
+      "title": "Roads & Transport - Roads",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "number",
+          "type": "esriFieldTypeString",
+          "alias": "Number"
+        },
+        {
+          "name": "roadname",
+          "type": "esriFieldTypeString",
+          "alias": "Road name"
+        },
+        {
+          "name": "road_type",
+          "type": "esriFieldTypeString",
+          "alias": "Road type"
+        },
+        {
+          "name": "public_maint",
+          "type": "esriFieldTypeString",
+          "alias": "Publicly maintained"
+        },
+        {
+          "name": "class_number",
+          "type": "esriFieldTypeString",
+          "alias": "Class number"
+        },
+        {
+          "name": "dual",
+          "type": "esriFieldTypeString",
+          "alias": "Dual"
+        },
+        {
+          "name": "trunk",
+          "type": "esriFieldTypeString",
+          "alias": "Trunk"
+        },
+        {
+          "name": "primary_route",
+          "type": "esriFieldTypeString",
+          "alias": "Primary route"
+        },
+        {
+          "name": "spntype",
+          "type": "esriFieldTypeString",
+          "alias": "spntype"
+        },
+        {
+          "name": "direction",
+          "type": "esriFieldTypeString",
+          "alias": "Direction"
+        },
+        {
+          "name": "lanes",
+          "type": "esriFieldTypeString",
+          "alias": "Lanes"
+        },
+        {
+          "name": "speedlimit",
+          "type": "esriFieldTypeString",
+          "alias": "Speed limit"
+        },
+        {
+          "name": "surface",
+          "type": "esriFieldTypeString",
+          "alias": "Surface"
+        },
+        {
+          "name": "district",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "USRN",
+          "type": "esriFieldTypeString",
+          "alias": "USRN"
+        },
+        {
+          "name": "village",
+          "type": "esriFieldTypeString",
+          "alias": "Village"
+        },
+        {
+          "name": "posttown",
+          "type": "esriFieldTypeString",
+          "alias": "Post town"
+        },
+        {
+          "name": "ESUsequence",
+          "type": "esriFieldTypeString",
+          "alias": "ESUsequence"
+        },
+        {
+          "name": "ESU",
+          "type": "esriFieldTypeString",
+          "alias": "ESU"
+        },
+        {
+          "name": "adoptdate",
+          "type": "esriFieldTypeString",
+          "alias": "Adopt date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "maintained_by",
+          "type": "esriFieldTypeString",
+          "alias": "Maintained by"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 304,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

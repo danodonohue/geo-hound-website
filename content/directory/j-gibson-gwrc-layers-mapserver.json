@@ -1,0 +1,100 @@
+{
+  "slug": "j-gibson-gwrc-layers-mapserver",
+  "service_key": "ESRI MapServer:https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Wind_Zones/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Wind_Zones/MapServer",
+  "title": "Layers",
+  "description": "Wind zones for building code compliance in Greater Wellington region.",
+  "abstract": "A merged layer of all wind zones provided by TAs in the Greater Wellington Region, 2017. Wind zones are usually defined with reference to the needs of the building code. Code abbreviations can be found at http://www.buildmagazine.org.nz/assets/PDF/Build128-24-DesignRight-WindZoneAndNZS3604.pdf See individual map viewers for each TA to see local definitions. See also wind zones at http://branz.maps.arcgis.com/apps/webappviewer/index.html?id=1bade5ce36a9459aa0de4bd5cecd6e36 for a raster map of wind intensity areas.\n\n",
+  "provider": "J Gibson, GWRC",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Wind_Zones",
+      "title": "Wind_Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Zone_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Zone_Name"
+        },
+        {
+          "name": "TA",
+          "type": "esriFieldTypeString",
+          "alias": "TA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "Zone_Title",
+          "type": "esriFieldTypeString",
+          "alias": "Zone_Title"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 129,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

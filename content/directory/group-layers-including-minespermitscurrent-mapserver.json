@@ -1,0 +1,1805 @@
+{
+  "slug": "group-layers-including-minespermitscurrent-mapserver",
+  "service_key": "ESRI MapServer:https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Economy/MinesPermitsCurrent/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Economy/MinesPermitsCurrent/MapServer",
+  "title": "MinesPermitsCurrent",
+  "description": "Mining and resource exploration permits for minerals, coal, petroleum and geothermal",
+  "abstract": "The data sets are organised by group layers including:\n- Exploration Permits\n- Production Permits\n- Infrastructure Permits\n- Information Permits\n- Permit Administration Areas\n\nThese are updated nightly.\n\nThe default coordinate reference system of the service is Web Mercator Auxiliary Sphere using GDA2020 source data that complies with Australian data standards.",
+  "provider": "group layers including:",
+  "place": {
+    "country": "Australia",
+    "state": "Queensland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Exploration permits",
+      "title": "Exploration permits",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Mineral",
+      "title": "Mineral",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "EPM application",
+      "title": "EPM application",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "EPM granted",
+      "title": "EPM granted",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Special",
+      "title": "Special",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "EPM special application",
+      "title": "EPM special application",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "EPM special granted",
+      "title": "EPM special granted",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Coal",
+      "title": "Coal",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "EPC application",
+      "title": "EPC application",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "EPC granted",
+      "title": "EPC granted",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Geothermal",
+      "title": "Geothermal",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "EPG application",
+      "title": "EPG application",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "EPG granted",
+      "title": "EPG granted",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Greenhouse gas",
+      "title": "Greenhouse gas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "EPQ application",
+      "title": "EPQ application",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "displayname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit number"
+        },
+        {
+          "name": "permittype",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type"
+        },
+        {
+          "name": "permitstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Permit status"
+        },
+        {
+          "name": "permitstate",
+          "type": "esriFieldTypeString",
+          "alias": "Permit sub-status"
+        },
+        {
+          "name": "lodgedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Lodge date"
+        },
+        {
+          "name": "approvedate",
+          "type": "esriFieldTypeDate",
+          "alias": "Grant date"
+        },
+        {
+          "name": "noncurrentdate",
+          "type": "esriFieldTypeDate",
+          "alias": "Non-current date"
+        },
+        {
+          "name": "expirydate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry date"
+        },
+        {
+          "name": "authorisedholdername",
+          "type": "esriFieldTypeString",
+          "alias": "Authorised holder name"
+        },
+        {
+          "name": "nativetitlecategory",
+          "type": "esriFieldTypeString",
+          "alias": "Native Title category"
+        },
+        {
+          "name": "permitminerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral"
+        },
+        {
+          "name": "permitpurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "area_subblocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sub-block count"
+        },
+        {
+          "name": "shapeareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "permitname",
+          "type": "esriFieldTypeString",
+          "alias": "Permit name"
+        },
+        {
+          "name": "permitnumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit number other"
+        },
+        {
+          "name": "permittypeabbreviation",
+          "type": "esriFieldTypeString",
+          "alias": "Permit type abbreviation"
+        },
+        {
+          "name": "permitid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit ID"
+        },
+        {
+          "name": "permittypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit type ID"
+        },
+        {
+          "name": "permitstatustypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit status type ID"
+        },
+        {
+          "name": "authorisedholderid",
+          "type": "esriFieldTypeInteger",
+          "alias": "Authorised holder ID"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "shapearea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "permitsubtypeid",
+          "type": "esriFieldTypeInteger",
+          "alias": "PermitSubTypeId"
+        },
+        {
+          "name": "permitsubtype",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubType"
+        },
+        {
+          "name": "permitsubtypeabbrevation",
+          "type": "esriFieldTypeString",
+          "alias": "PermitSubTypeAbbrevation"
+        },
+        {
+          "name": "previouspermits",
+          "type": "esriFieldTypeString",
+          "alias": "PreviousPermits"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "EPQ granted",
+      "title": "EPQ granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Petroleum",
+      "title": "Petroleum",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "ATP application",
+      "title": "ATP application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "ATP granted",
+      "title": "ATP granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Petroleum PCA",
+      "title": "Petroleum PCA",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Mineral development licence",
+      "title": "Mineral development licence",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "MDL application",
+      "title": "MDL application",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "MDL permit application",
+      "title": "MDL permit application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "MDL access application",
+      "title": "MDL access application",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "MDL granted",
+      "title": "MDL granted",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "MDL permit granted",
+      "title": "MDL permit granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "MDL access granted",
+      "title": "MDL access granted",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Offshore petroleum",
+      "title": "Offshore petroleum",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "OEP application - source NOPTA",
+      "title": "OEP application - source NOPTA",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "OEP granted - source NOPTA",
+      "title": "OEP granted - source NOPTA",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Production permits",
+      "title": "Production permits",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Mining claim",
+      "title": "Mining claim",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "MC application",
+      "title": "MC application",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "MC permit application",
+      "title": "MC permit application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "MC access application",
+      "title": "MC access application",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "MC granted",
+      "title": "MC granted",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "MC permit granted",
+      "title": "MC permit granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "MC access granted",
+      "title": "MC access granted",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Production mining lease",
+      "title": "Production mining lease",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "ML application",
+      "title": "ML application",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "ML permit application",
+      "title": "ML permit application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "ML surface area application",
+      "title": "ML surface area application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "ML access application",
+      "title": "ML access application",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "ML granted",
+      "title": "ML granted",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "ML permit granted",
+      "title": "ML permit granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "ML surface area granted",
+      "title": "ML surface area granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "ML access granted",
+      "title": "ML access granted",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Geothermal lease",
+      "title": "Geothermal lease",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "GL application",
+      "title": "GL application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "GL granted",
+      "title": "GL granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Greenhouse lease",
+      "title": "Greenhouse lease",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "QL granted",
+      "title": "QL granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "QL application",
+      "title": "QL application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Petroleum lease",
+      "title": "Petroleum lease",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "PL application",
+      "title": "PL application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "PL granted",
+      "title": "PL granted",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "Infrastructure permits",
+      "title": "Infrastructure permits",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "Infrastructure mining lease",
+      "title": "Infrastructure mining lease",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "ML inf application",
+      "title": "ML inf application",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "ML inf permit application",
+      "title": "ML inf permit application",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 156,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

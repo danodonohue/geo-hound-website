@@ -1,0 +1,144 @@
+{
+  "slug": "gis-maricopa-gov-municipalannexations-mapserver",
+  "service_key": "ESRI MapServer:https://gis.maricopa.gov/arcgis/rest/services/IndividualService/MunicipalAnnexations/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.maricopa.gov/arcgis/rest/services/IndividualService/MunicipalAnnexations/MapServer",
+  "title": "MunicipalAnnexations",
+  "description": "City and town boundary annexation areas within Maricopa County Arizona.",
+  "abstract": "This data set provides boundaries, down to the annexation level, for all twenty-five cities and towns within Maricopa County. Annexations are a formal act whereby a city or town takes possession of a piece of land or territory as outlined in ARS 9-471.",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Municipal Annexations",
+      "title": "Municipal Annexations",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CityName",
+          "type": "esriFieldTypeString",
+          "alias": "CityName"
+        },
+        {
+          "name": "FullCityName",
+          "type": "esriFieldTypeString",
+          "alias": "FullCityName"
+        },
+        {
+          "name": "Ordinance",
+          "type": "esriFieldTypeString",
+          "alias": "Ordinance"
+        },
+        {
+          "name": "OrdinanceWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "OrdinanceWebLink"
+        },
+        {
+          "name": "OrdinanceDate",
+          "type": "esriFieldTypeDate",
+          "alias": "OrdinanceDate"
+        },
+        {
+          "name": "OrdinanceEffectiveDate",
+          "type": "esriFieldTypeDate",
+          "alias": "OrdinanceEffectiveDate"
+        },
+        {
+          "name": "AnnexationNumber",
+          "type": "esriFieldTypeString",
+          "alias": "AnnexationNumber"
+        },
+        {
+          "name": "WardNumber",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WardNumber"
+        },
+        {
+          "name": "CityDescription",
+          "type": "esriFieldTypeString",
+          "alias": "CityDescription"
+        },
+        {
+          "name": "Area_Acre",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_Acre"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1217,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

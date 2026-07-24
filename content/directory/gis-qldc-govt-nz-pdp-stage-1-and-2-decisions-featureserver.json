@@ -1,0 +1,723 @@
+{
+  "slug": "gis-qldc-govt-nz-pdp-stage-1-and-2-decisions-featureserver",
+  "service_key": "ESRI FeatureServer:https://gis.qldc.govt.nz/server/rest/services/DistrictPlan/PDP_Stage_1_and_2_Decisions/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://gis.qldc.govt.nz/server/rest/services/DistrictPlan/PDP_Stage_1_and_2_Decisions/FeatureServer",
+  "title": "PDP Stage 1 and 2 Decisions",
+  "description": "District plan decisions including heritage features and landscape designations.",
+  "abstract": "<p style='margin-top: 0px; margin-bottom: 0.75rem; overflow-wrap: break-word; max-width: 100%; font-family: &quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px;'><span style='overflow-wrap: break-word; max-width: 100%; display: inherit;'>PDP Stage 1 and 2 Decisions Features - as per council decisions with incorporated consent orders.</span><div><br /></div></p>",
+  "provider": "gis.qldc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "zoning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Historic Heritage Features",
+      "title": "Historic Heritage Features",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "ReferenceNo",
+          "type": "esriFieldTypeString",
+          "alias": "Reference Number"
+        }
+      ],
+      "feature_count": 373
+    },
+    {
+      "id": 2,
+      "name": "Protected Trees",
+      "title": "Protected Trees",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "botanical_name",
+          "type": "esriFieldTypeString",
+          "alias": "botanical_name"
+        },
+        {
+          "name": "IndexLab",
+          "type": "esriFieldTypeString",
+          "alias": "IndexLab"
+        },
+        {
+          "name": "tree_number",
+          "type": "esriFieldTypeInteger",
+          "alias": "tree_number"
+        }
+      ],
+      "feature_count": 687
+    },
+    {
+      "id": 3,
+      "name": "Open Cemetery",
+      "title": "Open Cemetery",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "IndexLabel",
+          "type": "esriFieldTypeString",
+          "alias": "IndexLabel"
+        }
+      ],
+      "feature_count": 20
+    },
+    {
+      "id": 4,
+      "name": "Transpower AC Substation",
+      "title": "Transpower AC Substation",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MXLOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "MXLOCATION"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "descriptio",
+          "type": "esriFieldTypeString",
+          "alias": "descriptio"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 5,
+      "name": "Transpower Pylons",
+      "title": "Transpower Pylons",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MXLOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "MXLOCATION"
+        },
+        {
+          "name": "LongType",
+          "type": "esriFieldTypeString",
+          "alias": "LongType"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        }
+      ],
+      "feature_count": 89
+    },
+    {
+      "id": 6,
+      "name": "Ridge Escarpment Line",
+      "title": "Ridge Escarpment Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Setback",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Setback"
+        }
+      ],
+      "feature_count": 9
+    },
+    {
+      "id": 7,
+      "name": "Queenstown Airport",
+      "title": "Queenstown Airport",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Layer",
+          "type": "esriFieldTypeString",
+          "alias": "Layer"
+        },
+        {
+          "name": "RefName",
+          "type": "esriFieldTypeString",
+          "alias": "RefName"
+        }
+      ],
+      "feature_count": 2
+    },
+    {
+      "id": 8,
+      "name": "Protected Avenue of Trees Other Vegetation",
+      "title": "Protected Avenue of Trees Other Vegetation",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        }
+      ],
+      "feature_count": 7
+    },
+    {
+      "id": 9,
+      "name": "Aurora Distribution Lines",
+      "title": "Aurora Distribution Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ENABLED",
+          "type": "esriFieldTypeInteger",
+          "alias": "ENABLED"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        }
+      ],
+      "feature_count": 319
+    },
+    {
+      "id": 10,
+      "name": "Transmission Corridor",
+      "title": "Transmission Corridor",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MXLOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "MXLOCATION"
+        },
+        {
+          "name": "designvolt",
+          "type": "esriFieldTypeString",
+          "alias": "designvolt"
+        },
+        {
+          "name": "descriptio",
+          "type": "esriFieldTypeString",
+          "alias": "descriptio"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 11,
+      "name": "State Highways",
+      "title": "State Highways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RCL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RCL_ID"
+        },
+        {
+          "name": "RNA_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RNA_ID"
+        },
+        {
+          "name": "NAME_CRS",
+          "type": "esriFieldTypeString",
+          "alias": "NAME_CRS"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_NAME"
+        },
+        {
+          "name": "ROAD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_TYPE"
+        },
+        {
+          "name": "OTHER_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "OTHER_NAME"
+        },
+        {
+          "name": "SHORTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SHORTNAME"
+        },
+        {
+          "name": "FULLNAME",
+          "type": "esriFieldTypeString",
+          "alias": "FULLNAME"
+        },
+        {
+          "name": "QLDC_Loc",
+          "type": "esriFieldTypeString",
+          "alias": "QLDC_Loc"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "MAINTAINED",
+          "type": "esriFieldTypeString",
+          "alias": "MAINTAINED"
+        },
+        {
+          "name": "ROAD_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_INFO"
+        }
+      ],
+      "feature_count": 215
+    },
+    {
+      "id": 12,
+      "name": "Queenstown Waterfront Zone",
+      "title": "Queenstown Waterfront Zone",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 13,
+      "name": "Heritage Landscape",
+      "title": "Heritage Landscape",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 14,
+      "name": "ArchaeologicalSites",
+      "title": "ArchaeologicalSites",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "QLDCScheduleno",
+          "type": "esriFieldTypeString",
+          "alias": "QLDC Schedule number"
+        },
+        {
+          "name": "NZHeritagelist",
+          "type": "esriFieldTypeString",
+          "alias": "NZ Heritage list number"
+        },
+        {
+          "name": "NZHistoricCat",
+          "type": "esriFieldTypeString",
+          "alias": "NZ Historic Place Category"
+        },
+        {
+          "name": "NZAAsite",
+          "type": "esriFieldTypeString",
+          "alias": "NZAA Site Record number"
+        },
+        {
+          "name": "Landstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Land Status"
+        },
+        {
+          "name": "Significance",
+          "type": "esriFieldTypeString",
+          "alias": "Significance"
+        },
+        {
+          "name": "Description1",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        }
+      ],
+      "feature_count": 9
+    },
+    {
+      "id": 15,
+      "name": "Wanaka Airport Outer Control Boundary",
+      "title": "Wanaka Airport Outer Control Boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Layer",
+          "type": "esriFieldTypeString",
+          "alias": "Layer"
+        },
+        {
+          "name": "RefName",
+          "type": "esriFieldTypeString",
+          "alias": "RefName"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 16,
+      "name": "Jetski Limitation Area",
+      "title": "Jetski Limitation Area",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Surface Water and QT Trail Annotations",
+      "title": "Surface Water and QT Trail Annotations",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Mount Aspiring National Park",
+      "title": "Mount Aspiring National Park",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Landscape Classification",
+      "title": "Landscape Classification",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Landscape Classification Labels",
+      "title": "Landscape Classification Labels",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Threatened Environments Classification 2012",
+      "title": "Threatened Environments Classification 2012",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Building Restrictions",
+      "title": "Building Restrictions",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Visitor Accommodation Subzone",
+      "title": "Visitor Accommodation Subzone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Urban Growth Boundary",
+      "title": "Urban Growth Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Historic Heritage Precinct",
+      "title": "Historic Heritage Precinct",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Closed Landfill",
+      "title": "Closed Landfill",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Specific Rules Apply",
+      "title": "Specific Rules Apply",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Decisions Designation",
+      "title": "Decisions Designation",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Heritage Protection Order",
+      "title": "Heritage Protection Order",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Flood Zone",
+      "title": "Flood Zone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Heritage Overlay Area",
+      "title": "Heritage Overlay Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Significant Natural Area",
+      "title": "Significant Natural Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Arrowtown Character Tree",
+      "title": "Arrowtown Character Tree",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Town Centre Transition Overlay",
+      "title": "Town Centre Transition Overlay",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Queenstown Town Centre",
+      "title": "Queenstown Town Centre",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Town Centre Entertainment Precinct Overlay",
+      "title": "Town Centre Entertainment Precinct Overlay",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Town Centre Height Precinct Overlay",
+      "title": "Town Centre Height Precinct Overlay",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Rural Industrial Subzone",
+      "title": "Rural Industrial Subzone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Ski Area SubZone",
+      "title": "Ski Area SubZone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Rural Residential Subzone",
+      "title": "Rural Residential Subzone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Unformed Roads",
+      "title": "Unformed Roads",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Land excluded from Stage 1 and 2 DP Review",
+      "title": "Land excluded from Stage 1 and 2 DP Review",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Open Spaces Subzones",
+      "title": "Open Spaces Subzones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Decisions Version Zones",
+      "title": "Decisions Version Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 238,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-44",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_RailwayStations/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_RailwayStations/MapServer",
+  "title": "Layers",
+  "description": "Railway station locations for public transport.",
+  "abstract": "Roads & Transport - Railway stationse",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "rail",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 15,
+      "name": "Roads & Transport - Railway stations",
+      "title": "Roads & Transport - Railway stations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "STATION_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "Station ID"
+        },
+        {
+          "name": "FEATURE_CODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Feauture code"
+        },
+        {
+          "name": "IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "Identifier"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Dist_code",
+          "type": "esriFieldTypeDouble",
+          "alias": "Dist code"
+        },
+        {
+          "name": "Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Reference"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 312,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

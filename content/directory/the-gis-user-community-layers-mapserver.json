@@ -1,0 +1,1415 @@
+{
+  "slug": "the-gis-user-community-layers-mapserver",
+  "service_key": "ESRI MapServer:https://server.arcgisonline.com/arcgis/rest/services/world_imagery/mapserver",
+  "type": "ESRI MapServer",
+  "url": "https://server.arcgisonline.com/arcgis/rest/services/world_imagery/mapserver",
+  "title": "Layers",
+  "description": "Global satellite and aerial imagery from 1cm to 150m resolution.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><P><SPAN>World Imagery provides one meter or better satellite and aerial imagery in many parts of the world and lower resolution satellite imagery worldwide. The map includes 15m TerraColor imagery at small and mid-scales (~1:591M down to ~1:288k) for the world. The map features Vantor imagery at 0.3m resolution for select metropolitan areas around the world, 0.5m resolution across the United States and parts of Western Europe, and 1m resolution imagery across the rest of the world. In addition to commercial sources, the World Imagery map features high-resolution aerial photography contributed by the GIS User Community. This imagery ranges from 0.3m to 0.03m resolution (down to ~1:280 in select communities). For more information on this map, including the terms of use, visit us online at https://goto.arcgisonline.com/maps/World_Imagery</SPAN></P></DIV>",
+  "provider": "the GIS User Community",
+  "place": null,
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "World Imagery",
+      "title": "World Imagery",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "DATE (YYYYMMDD)"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "RESOLUTION (M)"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACCURACY (M)"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_INFO"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Low Resolution 15m Imagery",
+      "title": "Low Resolution 15m Imagery",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "RESOLUTION (M)"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACCURACY (M)"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_INFO"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "High Resolution 60cm Imagery",
+      "title": "High Resolution 60cm Imagery",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "DATE (YYYYMMDD)"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "RESOLUTION (M)"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACCURACY (M)"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_INFO"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "High Resolution 30cm Imagery",
+      "title": "High Resolution 30cm Imagery",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "DATE (YYYYMMDD)"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "RESOLUTION (M)"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACCURACY (M)"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_INFO"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Citations",
+      "title": "Citations",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "DATE (YYYYMMDD)"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "RESOLUTION (M)"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACCURACY (M)"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FROM_CACHE_LEVEL"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TO_CACHE_LEVEL"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE_INFO"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DRAW_ORDER"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "1.9cm Resolution Metadata",
+      "title": "1.9cm Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "3.7cm Resolution Metadata",
+      "title": "3.7cm Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "7.5cm Resolution Metadata",
+      "title": "7.5cm Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "15cm Resolution Metadata",
+      "title": "15cm Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "30cm Resolution Metadata",
+      "title": "30cm Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "60cm Resolution Metadata",
+      "title": "60cm Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "1.2m Resolution Metadata",
+      "title": "1.2m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "2.4m Resolution Metadata",
+      "title": "2.4m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "4.8m Resolution Metadata",
+      "title": "4.8m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "9.6m Resolution Metadata",
+      "title": "9.6m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SRC_DATE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SRC_DATE"
+        },
+        {
+          "name": "SRC_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_RES"
+        },
+        {
+          "name": "SRC_ACC",
+          "type": "esriFieldTypeDouble",
+          "alias": "SRC_ACC"
+        },
+        {
+          "name": "SAMP_RES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SAMP_RES"
+        },
+        {
+          "name": "SRC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SRC_DESC"
+        },
+        {
+          "name": "MinMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MinMapLevel"
+        },
+        {
+          "name": "MaxMapLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MaxMapLevel"
+        },
+        {
+          "name": "NICE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_NAME"
+        },
+        {
+          "name": "DrawOrder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DrawOrder"
+        },
+        {
+          "name": "SRC_DATE2",
+          "type": "esriFieldTypeDate",
+          "alias": "SRC_DATE2"
+        },
+        {
+          "name": "NICE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "NICE_DESC"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "BlockName",
+          "type": "esriFieldTypeString",
+          "alias": "BlockName"
+        },
+        {
+          "name": "ReleaseName",
+          "type": "esriFieldTypeString",
+          "alias": "ReleaseName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "19m Resolution Metadata",
+      "title": "19m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "38m Resolution Metadata",
+      "title": "38m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "75m Resolution Metadata",
+      "title": "75m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "150m Resolution Metadata",
+      "title": "150m Resolution Metadata",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 389,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.9,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

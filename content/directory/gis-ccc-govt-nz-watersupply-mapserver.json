@@ -1,0 +1,2158 @@
+{
+  "slug": "gis-ccc-govt-nz-watersupply-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ccc.govt.nz/server/rest/services/OpenData/WaterSupply/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ccc.govt.nz/server/rest/services/OpenData/WaterSupply/MapServer",
+  "title": "WaterSupply",
+  "description": "Christchurch drinking water supply network including pipes, pumps, reservoirs and distribution.",
+  "abstract": "This REST service contains Water Supply data within the territorial local authority area of Christchurch City Council, New Zealand.",
+  "provider": "gis.ccc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "DrinkingFountain",
+      "title": "DrinkingFountain",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "DrinkingFountainID",
+          "type": "esriFieldTypeOID",
+          "alias": "DrinkingFountainID"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "OwnerType",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerType"
+        },
+        {
+          "name": "DonorName",
+          "type": "esriFieldTypeString",
+          "alias": "DonorName"
+        },
+        {
+          "name": "ContractArea",
+          "type": "esriFieldTypeString",
+          "alias": "ContractArea"
+        },
+        {
+          "name": "InContract",
+          "type": "esriFieldTypeString",
+          "alias": "InContract"
+        },
+        {
+          "name": "Artwork",
+          "type": "esriFieldTypeString",
+          "alias": "Artwork"
+        },
+        {
+          "name": "Construction",
+          "type": "esriFieldTypeString",
+          "alias": "Construction"
+        },
+        {
+          "name": "DogBowl",
+          "type": "esriFieldTypeString",
+          "alias": "DogBowl"
+        },
+        {
+          "name": "WaterBottleFiller",
+          "type": "esriFieldTypeString",
+          "alias": "WaterBottleFiller"
+        },
+        {
+          "name": "DrinkingWaterStdComplian",
+          "type": "esriFieldTypeString",
+          "alias": "DrinkingWaterStdComplian"
+        },
+        {
+          "name": "DrinkingWaterStdAssessDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DrinkingWaterStdAssessDate"
+        },
+        {
+          "name": "NumberOfAssets",
+          "type": "esriFieldTypeInteger",
+          "alias": "NumberOfAssets"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "SiteName"
+        },
+        {
+          "name": "Photo",
+          "type": "esriFieldTypeString",
+          "alias": "Photo"
+        },
+        {
+          "name": "PhotographURL",
+          "type": "esriFieldTypeString",
+          "alias": "PhotographURL"
+        },
+        {
+          "name": "AssetLongDescription",
+          "type": "esriFieldTypeString",
+          "alias": "AssetLongDescription"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "IDSAssetUniqueID",
+          "type": "esriFieldTypeString",
+          "alias": "IDSAssetUniqueID"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "WsConnection",
+      "title": "WsConnection",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsConnectionID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsConnectionID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "NominalDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "NominalDiameter"
+        },
+        {
+          "name": "RestrictorCapacity",
+          "type": "esriFieldTypeSingle",
+          "alias": "RestrictorCapacity"
+        },
+        {
+          "name": "TelemetryType",
+          "type": "esriFieldTypeString",
+          "alias": "TelemetryType"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "ConnectionSerialNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ConnectionSerialNumber"
+        },
+        {
+          "name": "DistanceLeftBoundary",
+          "type": "esriFieldTypeSingle",
+          "alias": "DistanceLeftBoundary"
+        },
+        {
+          "name": "DistanceRightBoundary",
+          "type": "esriFieldTypeSingle",
+          "alias": "DistanceRightBoundary"
+        },
+        {
+          "name": "DistanceFrontBoundary",
+          "type": "esriFieldTypeSingle",
+          "alias": "DistanceFrontBoundary"
+        },
+        {
+          "name": "StreetAddressID",
+          "type": "esriFieldTypeInteger",
+          "alias": "StreetAddressID"
+        },
+        {
+          "name": "StreetAddress",
+          "type": "esriFieldTypeString",
+          "alias": "StreetAddress"
+        },
+        {
+          "name": "SAPEquipmentNumber",
+          "type": "esriFieldTypeString",
+          "alias": "SAPEquipmentNumber"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "Rotation",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rotation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "WsFieldNote",
+      "title": "WsFieldNote",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsFieldNoteID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsFieldNoteID"
+        },
+        {
+          "name": "NoteText",
+          "type": "esriFieldTypeString",
+          "alias": "NoteText"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "WsFitting",
+      "title": "WsFitting",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsFittingID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsFittingID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "BendAngle",
+          "type": "esriFieldTypeSingle",
+          "alias": "BendAngle"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "Rotation",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rotation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "WsHydrant",
+      "title": "WsHydrant",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsHydrantID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsHydrantID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "LidLevel",
+          "type": "esriFieldTypeSingle",
+          "alias": "LidLevel"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "Rotation",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rotation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "WsInlet",
+      "title": "WsInlet",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsInletID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsInletID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "Rotation",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rotation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "WsInstrumentation",
+      "title": "WsInstrumentation",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsInstrumentationID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsInstrumentationID"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "UnitofMeasure",
+          "type": "esriFieldTypeString",
+          "alias": "UnitofMeasure"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Model",
+          "type": "esriFieldTypeString",
+          "alias": "Model"
+        },
+        {
+          "name": "SerialNumber",
+          "type": "esriFieldTypeString",
+          "alias": "SerialNumber"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "IDSCATID",
+          "type": "esriFieldTypeInteger",
+          "alias": "IDSCATID"
+        },
+        {
+          "name": "IDSRevisionNumber",
+          "type": "esriFieldTypeString",
+          "alias": "IDSRevisionNumber"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "SiteName"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "WsOutlet",
+      "title": "WsOutlet",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsOutletID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsOutletID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "Rotation",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rotation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "WsPipeRestraint",
+      "title": "WsPipeRestraint",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsPipeRestraintID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsPipeRestraintID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "Rotation",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rotation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "WsPump",
+      "title": "WsPump",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsPumpID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsPumpID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Situation",
+          "type": "esriFieldTypeString",
+          "alias": "Situation"
+        },
+        {
+          "name": "BackupEnergySource",
+          "type": "esriFieldTypeString",
+          "alias": "BackupEnergySource"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "ManufacturerWarrantyReference",
+          "type": "esriFieldTypeString",
+          "alias": "ManufacturerWarrantyReference"
+        },
+        {
+          "name": "ManufacturerWarrantyEndDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ManufacturerWarrantyEndDate"
+        },
+        {
+          "name": "PumpSerialNumber",
+          "type": "esriFieldTypeString",
+          "alias": "PumpSerialNumber"
+        },
+        {
+          "name": "PumpCapacity",
+          "type": "esriFieldTypeInteger",
+          "alias": "PumpCapacity"
+        },
+        {
+          "name": "PumpLevel",
+          "type": "esriFieldTypeSingle",
+          "alias": "PumpLevel"
+        },
+        {
+          "name": "StationName",
+          "type": "esriFieldTypeString",
+          "alias": "StationName"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "WsSamplingPoint",
+      "title": "WsSamplingPoint",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsSamplingPointID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsSamplingPointID"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SPCode",
+          "type": "esriFieldTypeString",
+          "alias": "SPCode"
+        },
+        {
+          "name": "ChlorineCode",
+          "type": "esriFieldTypeString",
+          "alias": "ChlorineCode"
+        },
+        {
+          "name": "CrownEntityCode",
+          "type": "esriFieldTypeString",
+          "alias": "CrownEntityCode"
+        },
+        {
+          "name": "ECANWellID",
+          "type": "esriFieldTypeString",
+          "alias": "ECANWellID"
+        },
+        {
+          "name": "TreatmentPlantCode",
+          "type": "esriFieldTypeString",
+          "alias": "TreatmentPlantCode"
+        },
+        {
+          "name": "DistributionZone",
+          "type": "esriFieldTypeString",
+          "alias": "DistributionZone"
+        },
+        {
+          "name": "DistributionCode",
+          "type": "esriFieldTypeString",
+          "alias": "DistributionCode"
+        },
+        {
+          "name": "SupplyCode",
+          "type": "esriFieldTypeString",
+          "alias": "SupplyCode"
+        },
+        {
+          "name": "SPArea",
+          "type": "esriFieldTypeString",
+          "alias": "SPArea"
+        },
+        {
+          "name": "LabelClass",
+          "type": "esriFieldTypeString",
+          "alias": "LabelClass"
+        },
+        {
+          "name": "QAModule",
+          "type": "esriFieldTypeString",
+          "alias": "QAModule"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Subclass",
+          "type": "esriFieldTypeString",
+          "alias": "Subclass"
+        },
+        {
+          "name": "SPUse",
+          "type": "esriFieldTypeString",
+          "alias": "SPUse"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "IDSCATID",
+          "type": "esriFieldTypeInteger",
+          "alias": "IDSCATID"
+        },
+        {
+          "name": "IDSRevisionNumber",
+          "type": "esriFieldTypeString",
+          "alias": "IDSRevisionNumber"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "WsStationCentroid",
+      "title": "WsStationCentroid",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsStationID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsStationID"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "StationType",
+          "type": "esriFieldTypeString",
+          "alias": "StationType"
+        },
+        {
+          "name": "StationName",
+          "type": "esriFieldTypeString",
+          "alias": "StationName"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "WsValve",
+      "title": "WsValve",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WsValveID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsValveID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "NominalDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "NominalDiameter"
+        },
+        {
+          "name": "Construction",
+          "type": "esriFieldTypeString",
+          "alias": "Construction"
+        },
+        {
+          "name": "NormalPosition",
+          "type": "esriFieldTypeString",
+          "alias": "NormalPosition"
+        },
+        {
+          "name": "ClosureRotation",
+          "type": "esriFieldTypeString",
+          "alias": "ClosureRotation"
+        },
+        {
+          "name": "Situation",
+          "type": "esriFieldTypeString",
+          "alias": "Situation"
+        },
+        {
+          "name": "ControlPoint",
+          "type": "esriFieldTypeString",
+          "alias": "ControlPoint"
+        },
+        {
+          "name": "Actuation",
+          "type": "esriFieldTypeString",
+          "alias": "Actuation"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "ManufacturerWarrantyReference",
+          "type": "esriFieldTypeString",
+          "alias": "ManufacturerWarrantyReference"
+        },
+        {
+          "name": "ManufacturerWarrantyEndDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ManufacturerWarrantyEndDate"
+        },
+        {
+          "name": "LidLevel",
+          "type": "esriFieldTypeSingle",
+          "alias": "LidLevel"
+        },
+        {
+          "name": "ActivationPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "ActivationPressure"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "Rotation",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rotation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "ValveFunction",
+          "type": "esriFieldTypeString",
+          "alias": "ValveFunction"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "WsLateral",
+      "title": "WsLateral",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "WsLateralID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsLateralID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "NominalDiameter",
+          "type": "esriFieldTypeString",
+          "alias": "NominalDiameter"
+        },
+        {
+          "name": "InsideDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "InsideDiameter"
+        },
+        {
+          "name": "Construction",
+          "type": "esriFieldTypeString",
+          "alias": "Construction"
+        },
+        {
+          "name": "PressureClass",
+          "type": "esriFieldTypeString",
+          "alias": "PressureClass"
+        },
+        {
+          "name": "StiffnessClass",
+          "type": "esriFieldTypeString",
+          "alias": "StiffnessClass"
+        },
+        {
+          "name": "LoadClass",
+          "type": "esriFieldTypeString",
+          "alias": "LoadClass"
+        },
+        {
+          "name": "InstallationMethod",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationMethod"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeSingle",
+          "alias": "Depth"
+        },
+        {
+          "name": "drvLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "drvLength"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "WsPipe",
+      "title": "WsPipe",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "WsPipeID",
+          "type": "esriFieldTypeOID",
+          "alias": "WsPipeID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Potability",
+          "type": "esriFieldTypeString",
+          "alias": "Potability"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "Responsibility",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "InstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationCompany"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "NominalDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "NominalDiameter"
+        },
+        {
+          "name": "DiameterDescription",
+          "type": "esriFieldTypeString",
+          "alias": "DiameterDescription"
+        },
+        {
+          "name": "Construction",
+          "type": "esriFieldTypeString",
+          "alias": "Construction"
+        },
+        {
+          "name": "PressureClass",
+          "type": "esriFieldTypeString",
+          "alias": "PressureClass"
+        },
+        {
+          "name": "StiffnessClass",
+          "type": "esriFieldTypeString",
+          "alias": "StiffnessClass"
+        },
+        {
+          "name": "LoadClass",
+          "type": "esriFieldTypeString",
+          "alias": "LoadClass"
+        },
+        {
+          "name": "InstallationMethod",
+          "type": "esriFieldTypeString",
+          "alias": "InstallationMethod"
+        },
+        {
+          "name": "Treatment",
+          "type": "esriFieldTypeString",
+          "alias": "Treatment"
+        },
+        {
+          "name": "TreatmentConstruction",
+          "type": "esriFieldTypeString",
+          "alias": "TreatmentConstruction"
+        },
+        {
+          "name": "TreatmentInstallationCompany",
+          "type": "esriFieldTypeString",
+          "alias": "TreatmentInstallationCompany"
+        },
+        {
+          "name": "SurveyDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SurveyDate"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "InsideDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "InsideDiameter"
+        },
+        {
+          "name": "StartInvert",
+          "type": "esriFieldTypeSingle",
+          "alias": "StartInvert"
+        },
+        {
+          "name": "EndInvert",
+          "type": "esriFieldTypeSingle",
+          "alias": "EndInvert"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeSingle",
+          "alias": "Depth"
+        },
+        {
+          "name": "TreatmentDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "TreatmentDiameter"
+        },
+        {
+          "name": "PipeLabel",
+          "type": "esriFieldTypeString",
+          "alias": "PipeLabel"
+        },
+        {
+          "name": "TreatmentDate",
+          "type": "esriFieldTypeDate",
+          "alias": "TreatmentDate"
+        },
+        {
+          "name": "drvLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "drvLength"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Project",
+          "type": "esriFieldTypeString",
+          "alias": "Project"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "WsPipeProtection",
+      "title": "WsPipeProtection",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "WsPipeType",
+      "title": "WsPipeType",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "ServiceLevelAgreementExtent",
+      "title": "ServiceLevelAgreementExtent",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "WaterShutOff",
+      "title": "WaterShutOff",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "WsDistributionZone",
+      "title": "WsDistributionZone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "WsDistrictMeteredArea",
+      "title": "WsDistrictMeteredArea",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "WsNetworkReportZone",
+      "title": "WsNetworkReportZone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "WsPressureZone",
+      "title": "WsPressureZone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "WsReservoir",
+      "title": "WsReservoir",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "WsReservoirZone",
+      "title": "WsReservoirZone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "WsStation",
+      "title": "WsStation",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "WsStructure",
+      "title": "WsStructure",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "WsWaterLossZone",
+      "title": "WsWaterLossZone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "WsWaterlossQuery",
+      "title": "WsWaterlossQuery",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 30,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

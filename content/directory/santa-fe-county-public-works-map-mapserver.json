@@ -1,0 +1,131 @@
+{
+  "slug": "santa-fe-county-public-works-map-mapserver",
+  "service_key": "ESRI MapServer:https://sfcomaps.santafecountynm.gov/restsvc/rest/services/PublicWorks/TrafficCounters_CurrentAndLast/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sfcomaps.santafecountynm.gov/restsvc/rest/services/PublicWorks/TrafficCounters_CurrentAndLast/MapServer",
+  "title": "Map",
+  "description": "Santa Fe County traffic count locations and measurements.",
+  "abstract": "Traffic counters and associated data. Maintained by Santa Fe County Public Works. Data (GPS and/or Excel Spreadsheets) for 2015, 2016, and 2017 were received from Julian Gutierrez, Traffic Mobility Technician, Santa Fe County Public Works. This data was compiled on October 31, 2017, into a single feature class by the Santa Fe County GIS Division. Moving forward, this dataset is intended to be edited by the Traffic Mobility Technician through a web-based feature service within Santa Fe County's Internal Map Portal. ",
+  "provider": "Santa Fe County Public Works",
+  "place": {
+    "country": "United States",
+    "state": "New Mexico",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "TrafficCounters_CurrentAndLast",
+      "title": "TrafficCounters_CurrentAndLast",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "RouteNo",
+          "type": "esriFieldTypeString",
+          "alias": "Route Number"
+        },
+        {
+          "name": "Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Placed"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status - Year Placed"
+        },
+        {
+          "name": "PostSpeed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Posted Speed (MPH)"
+        },
+        {
+          "name": "Percent85",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "85th Percentile (MPH)"
+        },
+        {
+          "name": "VolumePD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Volume Per Day"
+        },
+        {
+          "name": "AvgSpeed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Average Speed (MPH)"
+        },
+        {
+          "name": "Surface",
+          "type": "esriFieldTypeString",
+          "alias": "Road Surface"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Counter Type"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1424,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

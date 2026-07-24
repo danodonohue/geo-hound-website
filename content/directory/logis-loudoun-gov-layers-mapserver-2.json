@@ -1,0 +1,135 @@
+{
+  "slug": "logis-loudoun-gov-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/CountyBoundary/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/CountyBoundary/MapServer",
+  "title": "Layers",
+  "description": "County and town boundaries for Loudoun County.",
+  "abstract": "Loudoun County, Virginia county and town boundaries",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "County Boundary",
+      "title": "County Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CO_COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "CO_COUNTY"
+        },
+        {
+          "name": "CO_ED",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CO_ED"
+        },
+        {
+          "name": "CO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Town Boundaries",
+      "title": "Town Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "TO_TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN"
+        },
+        {
+          "name": "TO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 220,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

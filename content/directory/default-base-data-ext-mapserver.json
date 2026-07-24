@@ -1,0 +1,457 @@
+{
+  "slug": "default-base-data-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Data/base_data_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Data/base_data_ext/MapServer",
+  "title": "base_data_ext",
+  "description": "Gisborne addresses, localities, and road networks.",
+  "abstract": "A dynamic service with locallities, new zealand coast out-lines turned by default, min instances = 0, maximum instance = 5",
+  "provider": "default",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "addresses",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Addresses",
+      "title": "Addresses",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FEATURECOD",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "ROADNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Roadname"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X Coord"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y Coord"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "RUBBISHDAY",
+          "type": "esriFieldTypeString",
+          "alias": "Rubbish Day"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": " Gisborne Localities",
+      "title": " Gisborne Localities",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Main Locations",
+      "title": "Main Locations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Population",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Population"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Minor Locations",
+      "title": "Minor Locations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "All Locations",
+      "title": "All Locations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "EASTING",
+          "type": "esriFieldTypeInteger",
+          "alias": "Easting"
+        },
+        {
+          "name": "NORTHING",
+          "type": "esriFieldTypeInteger",
+          "alias": "Northing"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "DISTRICT_N",
+          "type": "esriFieldTypeString",
+          "alias": "District Name"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Railways",
+      "title": "Railways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Road Names",
+      "title": "Road Names",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HIERARCHY",
+          "type": "esriFieldTypeString",
+          "alias": "Hierarchy"
+        },
+        {
+          "name": "ROADNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "Code",
+          "type": "esriFieldTypeString",
+          "alias": "Code"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Name_Only",
+          "type": "esriFieldTypeString",
+          "alias": "Name Only"
+        },
+        {
+          "name": "Roadtype",
+          "type": "esriFieldTypeString",
+          "alias": "Road type"
+        },
+        {
+          "name": "Roadsuffix",
+          "type": "esriFieldTypeString",
+          "alias": "Road Suffix"
+        },
+        {
+          "name": "SH_num",
+          "type": "esriFieldTypeString",
+          "alias": "SH Number"
+        },
+        {
+          "name": "Fullname",
+          "type": "esriFieldTypeString",
+          "alias": "Fullname"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "MainLocation",
+          "type": "esriFieldTypeString",
+          "alias": "Main Location"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "no_go_zone",
+          "type": "esriFieldTypeString",
+          "alias": "No Go Zone"
+        },
+        {
+          "name": "Priority",
+          "type": "esriFieldTypeString",
+          "alias": "Priority"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Road Centrelines",
+      "title": "Road Centrelines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ROADNAME",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "HIERARCHY",
+          "type": "esriFieldTypeString",
+          "alias": "Hierarchy"
+        },
+        {
+          "name": "ROAD_STATU",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "road_LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "Road Length"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Code",
+          "type": "esriFieldTypeString",
+          "alias": "Code"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Name_Only",
+          "type": "esriFieldTypeString",
+          "alias": "Name Only"
+        },
+        {
+          "name": "Roadtype",
+          "type": "esriFieldTypeString",
+          "alias": "Road Type"
+        },
+        {
+          "name": "Roadsuffix",
+          "type": "esriFieldTypeString",
+          "alias": "Road Suffix"
+        },
+        {
+          "name": "SH_num",
+          "type": "esriFieldTypeString",
+          "alias": "SH Num"
+        },
+        {
+          "name": "MainLocation",
+          "type": "esriFieldTypeString",
+          "alias": "Main Location"
+        },
+        {
+          "name": "no_go_zone",
+          "type": "esriFieldTypeString",
+          "alias": "No Go Zone"
+        },
+        {
+          "name": "Priority",
+          "type": "esriFieldTypeString",
+          "alias": "Priority"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 245,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

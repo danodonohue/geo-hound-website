@@ -1,0 +1,976 @@
+{
+  "slug": "logis-loudoun-gov-planning-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/Planning/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/Planning/MapServer",
+  "title": "Planning",
+  "description": "Planning data including census boundaries, policy areas, and stormwater districts.",
+  "abstract": "Loudoun County, Virginia Planning Data",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "demographics",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Traffic Analysis Zones (TAZ)",
+      "title": "Traffic Analysis Zones (TAZ)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TA_TAZ",
+          "type": "esriFieldTypeInteger",
+          "alias": "TA_TAZ"
+        },
+        {
+          "name": "TA_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "TA_POP2010"
+        },
+        {
+          "name": "TA_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "TA_HUNITS2010"
+        },
+        {
+          "name": "TA_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "TA_HHLDS2010"
+        },
+        {
+          "name": "TA_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TA_UPD_DATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Census 2020 - Tracts",
+      "title": "Census 2020 - Tracts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TR_FIPSSTCO",
+          "type": "esriFieldTypeString",
+          "alias": "TR_FIPSSTCO"
+        },
+        {
+          "name": "TR_TRACT2020",
+          "type": "esriFieldTypeString",
+          "alias": "TR_TRACT2020"
+        },
+        {
+          "name": "TR_GEOID2020",
+          "type": "esriFieldTypeString",
+          "alias": "TR_GEOID2020"
+        },
+        {
+          "name": "TR_POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_POP2020"
+        },
+        {
+          "name": "TR_HHPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_HHPOP2020"
+        },
+        {
+          "name": "TR_GQPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_GQPOP2020"
+        },
+        {
+          "name": "TR_HUNITS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_HUNITS2020"
+        },
+        {
+          "name": "TR_HHLDS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_HHLDS2020"
+        },
+        {
+          "name": "TR_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TR_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Census 2020 - Block Groups",
+      "title": "Census 2020 - Block Groups",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GR_FIPSSTCO",
+          "type": "esriFieldTypeString",
+          "alias": "GR_FIPSSTCO"
+        },
+        {
+          "name": "GR_TRACT2020",
+          "type": "esriFieldTypeString",
+          "alias": "GR_TRACT2020"
+        },
+        {
+          "name": "GR_BLOCKGROUP2020",
+          "type": "esriFieldTypeString",
+          "alias": "GR_BLOCKGROUP2020"
+        },
+        {
+          "name": "GR_GEOID2020",
+          "type": "esriFieldTypeString",
+          "alias": "GR_GEOID2020"
+        },
+        {
+          "name": "GR_POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_POP2020"
+        },
+        {
+          "name": "GR_HHPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_HHPOP2020"
+        },
+        {
+          "name": "GR_GQPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_GQPOP2020"
+        },
+        {
+          "name": "GR_HUNITS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_HUNITS2020"
+        },
+        {
+          "name": "GR_HHLDS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_HHLDS2020"
+        },
+        {
+          "name": "GR_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GR_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Census 2020 - Blocks",
+      "title": "Census 2020 - Blocks",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "BL_FIPSSTCO",
+          "type": "esriFieldTypeString",
+          "alias": "BL_FIPSSTCO"
+        },
+        {
+          "name": "BL_TRACT2020",
+          "type": "esriFieldTypeString",
+          "alias": "BL_TRACT2020"
+        },
+        {
+          "name": "BL_BLOCKGROUP2020",
+          "type": "esriFieldTypeString",
+          "alias": "BL_BLOCKGROUP2020"
+        },
+        {
+          "name": "BL_BLOCK2020",
+          "type": "esriFieldTypeString",
+          "alias": "BL_BLOCK2020"
+        },
+        {
+          "name": "BL_GEOID2020",
+          "type": "esriFieldTypeString",
+          "alias": "BL_GEOID2020"
+        },
+        {
+          "name": "BL_POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_POP2020"
+        },
+        {
+          "name": "BL_HHPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_HHPOP2020"
+        },
+        {
+          "name": "BL_GQPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_GQPOP2020"
+        },
+        {
+          "name": "BL_HUNITS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_HUNITS2020"
+        },
+        {
+          "name": "BL_HHLDS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_HHLDS2020"
+        },
+        {
+          "name": "BL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "BL_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Census 2020 - CDP",
+      "title": "Census 2020 - CDP",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CDP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CDP_NAME"
+        },
+        {
+          "name": "CDP_POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_POP2020"
+        },
+        {
+          "name": "CDP_HHPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_HHPOP2020"
+        },
+        {
+          "name": "CDP_GQPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_GQPOP2020"
+        },
+        {
+          "name": "CDP_HUNITS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_HUNITS2020"
+        },
+        {
+          "name": "CDP_HHLDS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_HHLDS2020"
+        },
+        {
+          "name": "CDP_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CDP_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Census 2020 - Towns",
+      "title": "Census 2020 - Towns",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CT_TOWN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CT_NAME"
+        },
+        {
+          "name": "CT_POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CT_POP2020"
+        },
+        {
+          "name": "CT_HHPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CT_HHPOP2020"
+        },
+        {
+          "name": "CT_GQPOP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CT_GQPOP2020"
+        },
+        {
+          "name": "CT_HUNITS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CT_HUNITS2020"
+        },
+        {
+          "name": "CT_HHLDS2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CT_HHLDS2020"
+        },
+        {
+          "name": "CT_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CT_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Census 2010 - Tracts",
+      "title": "Census 2010 - Tracts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TR_FIPSSTCO",
+          "type": "esriFieldTypeString",
+          "alias": "TR_FIPSSTCO"
+        },
+        {
+          "name": "TR_TRACT2010",
+          "type": "esriFieldTypeString",
+          "alias": "TR_TRACT2010"
+        },
+        {
+          "name": "TR_GEOID2010",
+          "type": "esriFieldTypeString",
+          "alias": "TR_GEOID2010"
+        },
+        {
+          "name": "TR_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_POP2010"
+        },
+        {
+          "name": "TR_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_HUNITS2010"
+        },
+        {
+          "name": "TR_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "TR_HHLDS2010"
+        },
+        {
+          "name": "TR_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TR_UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Census 2010 - Block Groups",
+      "title": "Census 2010 - Block Groups",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GR_FIPSSTCO",
+          "type": "esriFieldTypeString",
+          "alias": "GR_FIPSSTCO"
+        },
+        {
+          "name": "GR_TRACT2010",
+          "type": "esriFieldTypeString",
+          "alias": "GR_TRACT2010"
+        },
+        {
+          "name": "GR_BLOCKGROUP2010",
+          "type": "esriFieldTypeString",
+          "alias": "GR_BLOCKGROUP2010"
+        },
+        {
+          "name": "GR_GEOID2010",
+          "type": "esriFieldTypeString",
+          "alias": "GR_GEOID2010"
+        },
+        {
+          "name": "GR_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_POP2010"
+        },
+        {
+          "name": "GR_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_HUNITS2010"
+        },
+        {
+          "name": "GR_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "GR_HHLDS2010"
+        },
+        {
+          "name": "GR_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GR_UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Census 2010 - Blocks",
+      "title": "Census 2010 - Blocks",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BL_FIPSSTCO",
+          "type": "esriFieldTypeString",
+          "alias": "BL_FIPSSTCO"
+        },
+        {
+          "name": "BL_TRACT2010",
+          "type": "esriFieldTypeString",
+          "alias": "BL_TRACT2010"
+        },
+        {
+          "name": "BL_BLOCKGROUP2010",
+          "type": "esriFieldTypeString",
+          "alias": "BL_BLOCKGROUP2010"
+        },
+        {
+          "name": "BL_BLOCK2010",
+          "type": "esriFieldTypeString",
+          "alias": "BL_BLOCK2010"
+        },
+        {
+          "name": "BL_GEOID2010",
+          "type": "esriFieldTypeString",
+          "alias": "BL_GEOID2010"
+        },
+        {
+          "name": "BL_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_POP2010"
+        },
+        {
+          "name": "BL_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_HUNITS2010"
+        },
+        {
+          "name": "BL_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "BL_HHLDS2010"
+        },
+        {
+          "name": "BL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "BL_UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Census 2010 - CDP",
+      "title": "Census 2010 - CDP",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CDP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CDP_NAME"
+        },
+        {
+          "name": "CDP_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_POP2010"
+        },
+        {
+          "name": "CDP_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_HUNITS2010"
+        },
+        {
+          "name": "CDP_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "CDP_HHLDS2010"
+        },
+        {
+          "name": "CDP_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CDP_UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Place Types",
+      "title": "Place Types",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PT_PLACETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PT_PLACETYPE"
+        },
+        {
+          "name": "PT_PLACETYPE_FULL",
+          "type": "esriFieldTypeString",
+          "alias": "PT_PLACETYPE_FULL"
+        },
+        {
+          "name": "PT_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "PT_UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Planning Subareas",
+      "title": "Planning Subareas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "PS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PS_NAME"
+        },
+        {
+          "name": "PS_POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "PS_POP2010"
+        },
+        {
+          "name": "PS_HUNITS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "PS_HUNITS2010"
+        },
+        {
+          "name": "PS_HHLDS2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "PS_HHLDS2010"
+        },
+        {
+          "name": "PS_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "PS_UPD_DATE"
+        },
+        {
+          "name": "PS_NAME_FULL",
+          "type": "esriFieldTypeString",
+          "alias": "PS_NAME_FULL"
+        },
+        {
+          "name": "PS_CIF_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "PS_CIF_TYPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Policy Areas",
+      "title": "Policy Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PO_POLICY",
+          "type": "esriFieldTypeString",
+          "alias": "PO_POLICY"
+        },
+        {
+          "name": "PO_SUB",
+          "type": "esriFieldTypeString",
+          "alias": "PO_SUB"
+        },
+        {
+          "name": "PO_POLICYSUB",
+          "type": "esriFieldTypeString",
+          "alias": "PO_POLICYSUB"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "PO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "PO_UPD_DATE"
+        },
+        {
+          "name": "PO_POLICY_FULL",
+          "type": "esriFieldTypeString",
+          "alias": "PO_POLICY_FULL"
+        },
+        {
+          "name": "PO_SUB_FULL",
+          "type": "esriFieldTypeString",
+          "alias": "PO_SUB_FULL"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Suburban Communities 2001",
+      "title": "Suburban Communities 2001",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SC_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SC_UPD_DATE"
+        },
+        {
+          "name": "COMMUNITY",
+          "type": "esriFieldTypeString",
+          "alias": "COMMUNITY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Stormwater MS4 2020",
+      "title": "Stormwater MS4 2020",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "UACEID",
+          "type": "esriFieldTypeString",
+          "alias": "UACEID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 654,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

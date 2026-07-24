@@ -1,0 +1,560 @@
+{
+  "slug": "water-technology-in-2024-ruawai-modelled-flood-hazard-layers-19th-dec-mapserver",
+  "service_key": "ESRI MapServer:https://nrcmaps.nrc.govt.nz/imagery/rest/services/Ruawai_Modelled_Flood_Hazards/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://nrcmaps.nrc.govt.nz/imagery/rest/services/Ruawai_Modelled_Flood_Hazards/MapServer",
+  "title": "Ruawai Modelled Flood Hazard Layers- 19th Dec 2024",
+  "description": "River and coastal flood hazard zones for Ruawai catchment with multiple returns.",
+  "abstract": "River Flood Hazard Zones The 10 year river flood extent, the area potentially susceptible to river flooding in a 10% AEP / 10 year ARI, for the Ruawai catchment developed by Water Technology in 2024.The 50 year river flood extent, the area potentially susceptible to river flooding in a 2% AEP / 50 year ARI, for the Ruawai catchment developed by Water Technology in 2024.The 100 year + CC (climate change) river flood extent, the area potentially susceptible to river flooding in a 1% AEP +CC / 100 year ARI + CC, for the Ruawai catchment developed by Water Technology in 2024.Coastal Flood Hazard Zones Coastal Flood Hazard Zone 0 (Current), the area potentially susceptible to coastal flooding in a 1% AEP, for the Ruawai catchment developed by Water Technology in 2024.Coastal Flood Hazard Zone 1 (50 years), the area potentially susceptible to coastal flooding in a 2% AEP + 0.6 m SLR, for the Ruawai catchment developed by Water Technology in 2024.Coastal Flood Hazard Zone 2 (100 years), the area potentially susceptible to coastal flooding in a 1% AEP + 1.2 m SLR, for the Ruawai catchment developed by Water Technology in 2024.Coastal Flood Hazard Zone 3 (100 years + Rapid Sea Level Rise Scenario), the area potentially susceptible to coastal flooding in a 1% AEP + 1.66 m SLR, for the Ruawai catchment developed by Water Technology in 2024.Note: This layer has been added to AGOL and is used in the Natural Hazard Viewer Data provided by: Nicole Basher (Rivers and Natural Hazards)              Data Published by: Divya                 Published on: Feb 2025",
+  "provider": "Water Technology in 2024",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "River Flood Hazard Zones",
+      "title": "River Flood Hazard Zones",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "10 year Extent",
+      "title": "10 year Extent",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "ModelID",
+          "type": "esriFieldTypeString",
+          "alias": "Model ID"
+        },
+        {
+          "name": "PublishedYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "StormDuration",
+          "type": "esriFieldTypeString",
+          "alias": "Storm Duration"
+        },
+        {
+          "name": "Hazard",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard"
+        },
+        {
+          "name": "Consultant",
+          "type": "esriFieldTypeString",
+          "alias": "Consultant"
+        },
+        {
+          "name": "Disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "50 year Extent",
+      "title": "50 year Extent",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "ModelID",
+          "type": "esriFieldTypeString",
+          "alias": "Model ID"
+        },
+        {
+          "name": "PublishedYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "StormDuration",
+          "type": "esriFieldTypeString",
+          "alias": "Storm Duration"
+        },
+        {
+          "name": "Hazard",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard"
+        },
+        {
+          "name": "Consultant",
+          "type": "esriFieldTypeString",
+          "alias": "Consultant"
+        },
+        {
+          "name": "Disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "100 year CC Extent",
+      "title": "100 year CC Extent",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "ModelID",
+          "type": "esriFieldTypeString",
+          "alias": "Model ID"
+        },
+        {
+          "name": "PublishedYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "StormDuration",
+          "type": "esriFieldTypeString",
+          "alias": "Storm Duration"
+        },
+        {
+          "name": "Hazard",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard"
+        },
+        {
+          "name": "Consultant",
+          "type": "esriFieldTypeString",
+          "alias": "Consultant"
+        },
+        {
+          "name": "Disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Coastal Flood Hazard Zones",
+      "title": "Coastal Flood Hazard Zones",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Coastal Flood Hazard Zone 0 (Current)",
+      "title": "Coastal Flood Hazard Zone 0 (Current)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "ModelID",
+          "type": "esriFieldTypeString",
+          "alias": "Model ID"
+        },
+        {
+          "name": "PublishedYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "InundationLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Inundation Level"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeString",
+          "alias": "Sea Level Rise"
+        },
+        {
+          "name": "ModelType",
+          "type": "esriFieldTypeString",
+          "alias": "Model Type"
+        },
+        {
+          "name": "Hazard",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard"
+        },
+        {
+          "name": "Consultant",
+          "type": "esriFieldTypeString",
+          "alias": "Consultant"
+        },
+        {
+          "name": "Disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Coastal Flood Hazard Zone 1 (50 years)",
+      "title": "Coastal Flood Hazard Zone 1 (50 years)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "ModelID",
+          "type": "esriFieldTypeString",
+          "alias": "Model ID"
+        },
+        {
+          "name": "PublishedYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "InundationLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Inundation Level"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeString",
+          "alias": "Sea Level Rise"
+        },
+        {
+          "name": "ModelType",
+          "type": "esriFieldTypeString",
+          "alias": "Model Type"
+        },
+        {
+          "name": "Hazard",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard"
+        },
+        {
+          "name": "Consultant",
+          "type": "esriFieldTypeString",
+          "alias": "Consultant"
+        },
+        {
+          "name": "Disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Coastal Flood Hazard Zone 2 (100 years)",
+      "title": "Coastal Flood Hazard Zone 2 (100 years)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "ModelID",
+          "type": "esriFieldTypeString",
+          "alias": "Model ID"
+        },
+        {
+          "name": "PublishedYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "InundationLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Inundation Level"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeString",
+          "alias": "Sea Level Rise"
+        },
+        {
+          "name": "ModelType",
+          "type": "esriFieldTypeString",
+          "alias": "Model Type"
+        },
+        {
+          "name": "Hazard",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard"
+        },
+        {
+          "name": "Consultant",
+          "type": "esriFieldTypeString",
+          "alias": "Consultant"
+        },
+        {
+          "name": "Disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Coastal Flood Hazard Zone 3 (100 years + Rapid Sea Level Rise Scenario)",
+      "title": "Coastal Flood Hazard Zone 3 (100 years + Rapid Sea Level Rise Scenario)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "ModelID",
+          "type": "esriFieldTypeString",
+          "alias": "Model ID"
+        },
+        {
+          "name": "PublishedYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "InundationLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Inundation Level"
+        },
+        {
+          "name": "SeaLevelRise",
+          "type": "esriFieldTypeString",
+          "alias": "Sea Level Rise"
+        },
+        {
+          "name": "ModelType",
+          "type": "esriFieldTypeString",
+          "alias": "Model Type"
+        },
+        {
+          "name": "Hazard",
+          "type": "esriFieldTypeString",
+          "alias": "Hazard"
+        },
+        {
+          "name": "Consultant",
+          "type": "esriFieldTypeString",
+          "alias": "Consultant"
+        },
+        {
+          "name": "Disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 62,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

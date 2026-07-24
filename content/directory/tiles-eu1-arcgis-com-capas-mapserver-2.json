@@ -1,0 +1,48 @@
+{
+  "slug": "tiles-eu1-arcgis-com-capas-mapserver-2",
+  "service_key": "ESRI MapServer:https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/EVCCSMT_%C3%8Dndice_de_acumulaci%C3%B3n_de_flujo_superficial/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/EVCCSMT_%C3%8Dndice_de_acumulaci%C3%B3n_de_flujo_superficial/MapServer",
+  "title": "Capas",
+  "description": "Surface flow accumulation index raster data for hydrological analysis.",
+  "abstract": "Índice de acumulación de flujo superficial",
+  "provider": "tiles-eu1.arcgis.com",
+  "place": {
+    "country": "Spain",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "EVCCSMT_Índice de acumulación de flujo superficial",
+      "title": "EVCCSMT_Índice de acumulación de flujo superficial",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1131,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

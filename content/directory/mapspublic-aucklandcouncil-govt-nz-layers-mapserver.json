@@ -1,0 +1,95 @@
+{
+  "slug": "mapspublic-aucklandcouncil-govt-nz-layers-mapserver",
+  "service_key": "ESRI MapServer:https://mapspublic.aucklandcouncil.govt.nz/arcgis3/rest/services/NonCouncil/UnitaryPlanZones/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aucklandcouncil.govt.nz/arcgis3/rest/services/NonCouncil/UnitaryPlanZones/MapServer",
+  "title": "Layers",
+  "description": "Auckland Unitary Plan working version zoning map.",
+  "abstract": "Working Version Zones for Unitary Plan",
+  "provider": "mapspublic.aucklandcouncil.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "zoning",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Zones",
+      "title": "Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZONE"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "VERSIONSTATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "VERSIONSTATUS"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 138,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

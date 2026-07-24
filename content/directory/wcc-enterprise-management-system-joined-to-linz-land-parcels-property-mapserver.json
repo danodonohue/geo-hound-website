@@ -1,0 +1,185 @@
+{
+  "slug": "wcc-enterprise-management-system-joined-to-linz-land-parcels-property-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Property/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Property/MapServer",
+  "title": "Property",
+  "description": "Property valuations and ratings data joined to cadastral parcels for Wellington",
+  "abstract": "Property and rating data from WCC enterprise management system joined to LINZ land parcels.",
+  "provider": "WCC enterprise management system joined to LINZ land parcels",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Property",
+      "title": "Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "ValuationID",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationID"
+        },
+        {
+          "name": "ValuationWUFI",
+          "type": "esriFieldTypeDouble",
+          "alias": "ValuationWUFI"
+        },
+        {
+          "name": "RollNumber",
+          "type": "esriFieldTypeString",
+          "alias": "RollNumber"
+        },
+        {
+          "name": "AssessmentNumber",
+          "type": "esriFieldTypeString",
+          "alias": "AssessmentNumber"
+        },
+        {
+          "name": "AssessmentSuffix",
+          "type": "esriFieldTypeString",
+          "alias": "AssessmentSuffix"
+        },
+        {
+          "name": "LandsLinkNumber",
+          "type": "esriFieldTypeString",
+          "alias": "LandsLinkNumber"
+        },
+        {
+          "name": "StreetNumber",
+          "type": "esriFieldTypeString",
+          "alias": "StreetNumber"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "StreetName"
+        },
+        {
+          "name": "Suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "PostCode",
+          "type": "esriFieldTypeString",
+          "alias": "PostCode"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "FullAddress",
+          "type": "esriFieldTypeString",
+          "alias": "FullAddress"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LegalDescription"
+        },
+        {
+          "name": "Title",
+          "type": "esriFieldTypeString",
+          "alias": "Title"
+        },
+        {
+          "name": "LandArea",
+          "type": "esriFieldTypeString",
+          "alias": "LandArea"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "CapitalValue"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValue"
+        },
+        {
+          "name": "ImprovementsValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "ImprovementsValue"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "EffectiveRatingDate",
+          "type": "esriFieldTypeString",
+          "alias": "EffectiveRatingDate"
+        },
+        {
+          "name": "ValuationDate",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationDate"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 50,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

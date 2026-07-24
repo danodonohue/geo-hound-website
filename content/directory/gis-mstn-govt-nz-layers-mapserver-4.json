@@ -1,0 +1,213 @@
+{
+  "slug": "gis-mstn-govt-nz-layers-mapserver-4",
+  "service_key": "ESRI MapServer:https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Districts/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Districts/MapServer",
+  "title": "Layers",
+  "description": "Public GIS service providing geographic data and mapping.",
+  "abstract": "District boundaries in the Wairarapa region.",
+  "provider": "gis.mstn.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Carterton TLA",
+      "title": "Carterton TLA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Masterton TLA",
+      "title": "Masterton TLA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "South Wairarapa TLA",
+      "title": "South Wairarapa TLA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "CREATED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DATE"
+        },
+        {
+          "name": "ALPHA_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ALPHA_MODIFIED_DATE"
+        },
+        {
+          "name": "GEOM_MODIFIED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GEOM_MODIFIED_DATE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Greater Wellington Region",
+      "title": "Greater Wellington Region",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TA_NO",
+          "type": "esriFieldTypeString",
+          "alias": "TA_NO"
+        },
+        {
+          "name": "TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TA_NAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 54,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.9,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

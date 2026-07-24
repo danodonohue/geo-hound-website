@@ -1,0 +1,115 @@
+{
+  "slug": "gis-wcc-govt-nz-streeteventsandroadclosures-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/StreetEventsAndRoadClosures/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/StreetEventsAndRoadClosures/MapServer",
+  "title": "StreetEventsAndRoadClosures",
+  "description": "Street events and road closures for Wellington City Council.",
+  "abstract": "WCC street events and road closures.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "street_events_and_road_closures",
+      "title": "street_events_and_road_closures",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Event_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Event_Name"
+        },
+        {
+          "name": "Start_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Start_Date"
+        },
+        {
+          "name": "End_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "End_Date"
+        },
+        {
+          "name": "EventType",
+          "type": "esriFieldTypeInteger",
+          "alias": "Event Type"
+        },
+        {
+          "name": "Approved",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Approved"
+        },
+        {
+          "name": "EventDetails",
+          "type": "esriFieldTypeString",
+          "alias": "Event Details"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Symbology",
+          "type": "esriFieldTypeString",
+          "alias": "Symbology"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 52,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "the-forest-cover-data-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis-erd-der.gnb.ca/server/rest/services/OpenData/Crown_Lands/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis-erd-der.gnb.ca/server/rest/services/OpenData/Crown_Lands/MapServer",
+  "title": "Layers",
+  "description": "Crown land and property ownership boundaries for New Brunswick province",
+  "abstract": "GIS data showing various ownership of land throughout the province.\n\n\nCreation – The data was created in the 90s using the codes from the Forest Cover data. In Early 2000 a project was undertaken to correct the errors in ownership that was present in the data. The project compared the data to that of Service New Brunswick and where there were discrepancies in DNR’s ownership some research was done to correct DNR’s data, SNB’s data or both. The data is constantly being updated as the Department disposes of and/or acquires land, or new survey plans are prepared providing the location of the boundary. Other updates may be done to correct errors after some research has been done on ownership of land. Level of accuracy can vary from boundaries based on the Grant Reference Plans to a survey prepared by a Registered New Brunswick Land Surveyor.",
+  "provider": "the Forest Cover data",
+  "place": {
+    "country": "Canada",
+    "state": "New Brunswick",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Crown Lands",
+      "title": "Crown Lands",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HOLDER",
+          "type": "esriFieldTypeInteger",
+          "alias": "HOLDER"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2036"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1423,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

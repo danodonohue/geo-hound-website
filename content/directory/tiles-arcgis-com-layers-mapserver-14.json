@@ -1,0 +1,47 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver-14",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/J8errK5dyxu7Xjf7/arcgis/rest/services/RFHZ_Regionwide_Models_100year_CC_Extent/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/J8errK5dyxu7Xjf7/arcgis/rest/services/RFHZ_Regionwide_Models_100year_CC_Extent/MapServer",
+  "title": "Layers",
+  "description": "River flood hazard zone for 100-year return period with climate change adjustment.",
+  "abstract": "<p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='font-family:inherit; color:rgb(0, 0, 0);'>River Flood Hazard Zones (100 year Extent): The area potentially susceptible to river flooding in a 1% AEP / 100Yr ARI.</span><br /></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='font-family:inherit; color:rgb(0, 0, 0);'>Regionwide </span><span style='font-family:inherit; color:rgb(0, 0, 0);'>River flood hazard zones were developed by 2 different external expert consultants between </span><span style='font-family:inherit; color:rgb(0, 0, 0);'>2016 (Priority Rivers) and 2021 (Regionwide Models)</span><span style='font-family:inherit; color:rgb(0, 0, 0);'>. The layers are derived by advanced models using empirical calculations.  </span></p><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>Two different models were used to construct the river flood layers: TUFLOW (Water Technology, 2021), InfoWorks (URS, 2016). The reports detailing the methodologies, and risk assessment on the Priority Rivers, can be accessed from the NRC website.</font><div><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><br /></font></div><div><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><br /></font></div><div><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>Published By: Divya S   Published Date: 14th April 2023  Updated Data Provided By: Matthew Jolly</font></div><div><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><br /></font></div><div><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><b><u>Other Details:</u></b></font></div><div><span style='color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>Name of data in sde: nrc.GISADMIN.RFHZ_100yearExtent_RegionwideModels_Updated2023</span><font color='#000000' style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><br /></font></div><div><font color='#000000' face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>This hosted tile layer was produced from the tile package of the same name.</span></font></div><div><span style='color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This data has been added to the Natural Hazards Viewer </span><span style='color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><br /></span></div><div><span style='color:rgb(0, 0, 0); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'> </span></div>",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Regionwide Models (100 year CC Extent)",
+      "title": "Regionwide Models (100 year CC Extent)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 381,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,2396 @@
+{
+  "slug": "212-56-200-163-layers-mapserver",
+  "service_key": "ESRI MapServer:http://212.56.200.163:6080/arcgis/rest/services/munChisinau_gas_new/MapServer",
+  "type": "ESRI MapServer",
+  "url": "http://212.56.200.163:6080/arcgis/rest/services/munChisinau_gas_new/MapServer",
+  "title": "Layers",
+  "description": "Chisinau gas distribution system including pipelines, stations, regulators and customers.",
+  "abstract": "030412",
+  "provider": "212.56.200.163",
+  "place": {
+    "country": "Moldova",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "ГРС",
+      "title": "ГРС",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SourceType",
+          "type": "esriFieldTypeInteger",
+          "alias": "Тип источника"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположение"
+        },
+        {
+          "name": "SourceID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Эксплуатационный номер"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Адрес"
+        },
+        {
+          "name": "StationType",
+          "type": "esriFieldTypeInteger",
+          "alias": "Тип газорегуляторного пункта"
+        },
+        {
+          "name": "Destination",
+          "type": "esriFieldTypeInteger",
+          "alias": "Назначение"
+        },
+        {
+          "name": "Pressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "Давление"
+        },
+        {
+          "name": "ReductionLines",
+          "type": "esriFieldTypeInteger",
+          "alias": "Количество линий редуцирования"
+        },
+        {
+          "name": "DocumentNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "№ акта приёма-сдачи в эксплуатацию"
+        },
+        {
+          "name": "DocumentData",
+          "type": "esriFieldTypeDate",
+          "alias": "Дата составления акта приёма-сдачи в эксплуатацию"
+        },
+        {
+          "name": "CommissionHead",
+          "type": "esriFieldTypeString",
+          "alias": "Председатель комиссии"
+        },
+        {
+          "name": "ConstructionOrganization",
+          "type": "esriFieldTypeString",
+          "alias": "Наименование строительно-монтажной организации"
+        },
+        {
+          "name": "Marca",
+          "type": "esriFieldTypeString",
+          "alias": "Marca"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "AncillaryRole",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AncillaryRole"
+        },
+        {
+          "name": "Archive_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Archive_ID"
+        },
+        {
+          "name": "Proprietate",
+          "type": "esriFieldTypeString",
+          "alias": "Proprietate"
+        },
+        {
+          "name": "AreaM2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AreaM2"
+        },
+        {
+          "name": "WallMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал стен"
+        },
+        {
+          "name": "CeilingType",
+          "type": "esriFieldTypeString",
+          "alias": "Потолочное покрытие"
+        },
+        {
+          "name": "FloorMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал пола"
+        },
+        {
+          "name": "RoofMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал кровли"
+        },
+        {
+          "name": "HeatingSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система отопления"
+        },
+        {
+          "name": "LightingSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система освещения"
+        },
+        {
+          "name": "VentilationSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система вентиляции"
+        },
+        {
+          "name": "CommunicationSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система связи"
+        },
+        {
+          "name": "Teleoperation",
+          "type": "esriFieldTypeString",
+          "alias": "Teleoperation"
+        },
+        {
+          "name": "OuterPluggingDevice",
+          "type": "esriFieldTypeString",
+          "alias": "Наружное отключающее устройство"
+        },
+        {
+          "name": "AntifireSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Противопожарное оборудование"
+        },
+        {
+          "name": "ContractNr",
+          "type": "esriFieldTypeString",
+          "alias": "ContractNr"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "Customer",
+          "type": "esriFieldTypeString",
+          "alias": "Customer"
+        },
+        {
+          "name": "Barcode_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Barcode_ID"
+        },
+        {
+          "name": "SourceName",
+          "type": "esriFieldTypeString",
+          "alias": "Название газорегуляторного пункта"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Газораспределительная система Chisinau GAZ",
+      "title": "Газораспределительная система Chisinau GAZ",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "ГРП",
+      "title": "ГРП",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SourceType",
+          "type": "esriFieldTypeInteger",
+          "alias": "Тип источника"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположение"
+        },
+        {
+          "name": "SourceID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Эксплуатационный номер"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Адрес"
+        },
+        {
+          "name": "StationType",
+          "type": "esriFieldTypeInteger",
+          "alias": "Тип газорегуляторного пункта"
+        },
+        {
+          "name": "Destination",
+          "type": "esriFieldTypeInteger",
+          "alias": "Назначение"
+        },
+        {
+          "name": "Pressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "Давление"
+        },
+        {
+          "name": "ReductionLines",
+          "type": "esriFieldTypeInteger",
+          "alias": "Количество линий редуцирования"
+        },
+        {
+          "name": "DocumentNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "№ акта приёма-сдачи в эксплуатацию"
+        },
+        {
+          "name": "DocumentData",
+          "type": "esriFieldTypeDate",
+          "alias": "Дата составления акта приёма-сдачи в эксплуатацию"
+        },
+        {
+          "name": "CommissionHead",
+          "type": "esriFieldTypeString",
+          "alias": "Председатель комиссии"
+        },
+        {
+          "name": "ConstructionOrganization",
+          "type": "esriFieldTypeString",
+          "alias": "Наименование строительно-монтажной организации"
+        },
+        {
+          "name": "Marca",
+          "type": "esriFieldTypeString",
+          "alias": "Marca"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "AncillaryRole",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AncillaryRole"
+        },
+        {
+          "name": "Archive_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Archive_ID"
+        },
+        {
+          "name": "Proprietate",
+          "type": "esriFieldTypeString",
+          "alias": "Proprietate"
+        },
+        {
+          "name": "AreaM2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AreaM2"
+        },
+        {
+          "name": "WallMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал стен"
+        },
+        {
+          "name": "CeilingType",
+          "type": "esriFieldTypeString",
+          "alias": "Потолочное покрытие"
+        },
+        {
+          "name": "FloorMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал пола"
+        },
+        {
+          "name": "RoofMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал кровли"
+        },
+        {
+          "name": "HeatingSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система отопления"
+        },
+        {
+          "name": "LightingSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система освещения"
+        },
+        {
+          "name": "VentilationSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система вентиляции"
+        },
+        {
+          "name": "CommunicationSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система связи"
+        },
+        {
+          "name": "Teleoperation",
+          "type": "esriFieldTypeString",
+          "alias": "Teleoperation"
+        },
+        {
+          "name": "OuterPluggingDevice",
+          "type": "esriFieldTypeString",
+          "alias": "Наружное отключающее устройство"
+        },
+        {
+          "name": "AntifireSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Противопожарное оборудование"
+        },
+        {
+          "name": "ContractNr",
+          "type": "esriFieldTypeString",
+          "alias": "ContractNr"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "Customer",
+          "type": "esriFieldTypeString",
+          "alias": "Customer"
+        },
+        {
+          "name": "Barcode_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Barcode_ID"
+        },
+        {
+          "name": "SourceName",
+          "type": "esriFieldTypeString",
+          "alias": "Название газорегуляторного пункта"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "QC",
+          "type": "esriFieldTypeInteger",
+          "alias": "QC"
+        },
+        {
+          "name": "Loop",
+          "type": "esriFieldTypeInteger",
+          "alias": "Loop"
+        },
+        {
+          "name": "Dimension_type",
+          "type": "esriFieldTypeString",
+          "alias": "Dimension_type"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "GasPressure"
+        },
+        {
+          "name": "Preg",
+          "type": "esriFieldTypeDouble",
+          "alias": "Давление на выходе, кПа"
+        },
+        {
+          "name": "Pin",
+          "type": "esriFieldTypeDouble",
+          "alias": "Давление на входе, кПа"
+        },
+        {
+          "name": "Counter_type",
+          "type": "esriFieldTypeString",
+          "alias": "Counter_type"
+        },
+        {
+          "name": "Counter_season",
+          "type": "esriFieldTypeString",
+          "alias": "Counter_season"
+        },
+        {
+          "name": "Counter_provider",
+          "type": "esriFieldTypeString",
+          "alias": "Counter_provider"
+        },
+        {
+          "name": "private_customers",
+          "type": "esriFieldTypeInteger",
+          "alias": "private_customers"
+        },
+        {
+          "name": "economic_customers",
+          "type": "esriFieldTypeInteger",
+          "alias": "economic_customers"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "ШГРП",
+      "title": "ШГРП",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SourceType",
+          "type": "esriFieldTypeInteger",
+          "alias": "Тип источника"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположение"
+        },
+        {
+          "name": "SourceID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Эксплуатационный номер"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Адрес"
+        },
+        {
+          "name": "StationType",
+          "type": "esriFieldTypeInteger",
+          "alias": "Тип газорегуляторного пункта"
+        },
+        {
+          "name": "Destination",
+          "type": "esriFieldTypeInteger",
+          "alias": "Назначение"
+        },
+        {
+          "name": "Pressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "Давление"
+        },
+        {
+          "name": "ReductionLines",
+          "type": "esriFieldTypeInteger",
+          "alias": "Количество линий редуцирования"
+        },
+        {
+          "name": "DocumentNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "№ акта приёма-сдачи в эксплуатацию"
+        },
+        {
+          "name": "DocumentData",
+          "type": "esriFieldTypeDate",
+          "alias": "Дата составления акта приёма-сдачи в эксплуатацию"
+        },
+        {
+          "name": "CommissionHead",
+          "type": "esriFieldTypeString",
+          "alias": "Председатель комиссии"
+        },
+        {
+          "name": "ConstructionOrganization",
+          "type": "esriFieldTypeString",
+          "alias": "Наименование строительно-монтажной организации"
+        },
+        {
+          "name": "Marca",
+          "type": "esriFieldTypeString",
+          "alias": "Marca"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "AncillaryRole",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AncillaryRole"
+        },
+        {
+          "name": "Archive_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Archive_ID"
+        },
+        {
+          "name": "Proprietate",
+          "type": "esriFieldTypeString",
+          "alias": "Proprietate"
+        },
+        {
+          "name": "AreaM2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AreaM2"
+        },
+        {
+          "name": "WallMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал стен"
+        },
+        {
+          "name": "CeilingType",
+          "type": "esriFieldTypeString",
+          "alias": "Потолочное покрытие"
+        },
+        {
+          "name": "FloorMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал пола"
+        },
+        {
+          "name": "RoofMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "Материал кровли"
+        },
+        {
+          "name": "HeatingSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система отопления"
+        },
+        {
+          "name": "LightingSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система освещения"
+        },
+        {
+          "name": "VentilationSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система вентиляции"
+        },
+        {
+          "name": "CommunicationSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Система связи"
+        },
+        {
+          "name": "Teleoperation",
+          "type": "esriFieldTypeString",
+          "alias": "Teleoperation"
+        },
+        {
+          "name": "OuterPluggingDevice",
+          "type": "esriFieldTypeString",
+          "alias": "Наружное отключающее устройство"
+        },
+        {
+          "name": "AntifireSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Противопожарное оборудование"
+        },
+        {
+          "name": "ContractNr",
+          "type": "esriFieldTypeString",
+          "alias": "ContractNr"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "Customer",
+          "type": "esriFieldTypeString",
+          "alias": "Customer"
+        },
+        {
+          "name": "Barcode_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Barcode_ID"
+        },
+        {
+          "name": "SourceName",
+          "type": "esriFieldTypeString",
+          "alias": "Название газорегуляторного пункта"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "QC",
+          "type": "esriFieldTypeInteger",
+          "alias": "QC"
+        },
+        {
+          "name": "Loop",
+          "type": "esriFieldTypeInteger",
+          "alias": "Loop"
+        },
+        {
+          "name": "Dimension_type",
+          "type": "esriFieldTypeString",
+          "alias": "Dimension_type"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "GasPressure"
+        },
+        {
+          "name": "Preg",
+          "type": "esriFieldTypeDouble",
+          "alias": "Давление на выходе, кПа"
+        },
+        {
+          "name": "Pin",
+          "type": "esriFieldTypeDouble",
+          "alias": "Давление на входе, кПа"
+        },
+        {
+          "name": "Counter_type",
+          "type": "esriFieldTypeString",
+          "alias": "Counter_type"
+        },
+        {
+          "name": "Counter_season",
+          "type": "esriFieldTypeString",
+          "alias": "Counter_season"
+        },
+        {
+          "name": "Counter_provider",
+          "type": "esriFieldTypeString",
+          "alias": "Counter_provider"
+        },
+        {
+          "name": "private_customers",
+          "type": "esriFieldTypeInteger",
+          "alias": "private_customers"
+        },
+        {
+          "name": "economic_customers",
+          "type": "esriFieldTypeInteger",
+          "alias": "economic_customers"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Задвижки",
+      "title": "Задвижки",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CAPTION",
+          "type": "esriFieldTypeString",
+          "alias": "CAPTION"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "Layer",
+          "type": "esriFieldTypeString",
+          "alias": "Layer"
+        },
+        {
+          "name": "Tip",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Tip"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "presiune",
+          "type": "esriFieldTypeString",
+          "alias": "presiune"
+        },
+        {
+          "name": "Adress",
+          "type": "esriFieldTypeString",
+          "alias": "Adress"
+        },
+        {
+          "name": "Number",
+          "type": "esriFieldTypeString",
+          "alias": "Number"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "GasPressure"
+        },
+        {
+          "name": "ValvePosition",
+          "type": "esriFieldTypeInteger",
+          "alias": "ValvePosition"
+        },
+        {
+          "name": "PipeMaterial",
+          "type": "esriFieldTypeInteger",
+          "alias": "PipeMaterial"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Заглушки",
+      "title": "Заглушки",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "AncillaryRole",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AncillaryRole"
+        },
+        {
+          "name": "presiune",
+          "type": "esriFieldTypeString",
+          "alias": "presiune"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "GasPressure"
+        },
+        {
+          "name": "PipeMaterial",
+          "type": "esriFieldTypeInteger",
+          "alias": "PipeMaterial"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Газопровод",
+      "title": "Газопровод",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UCH_LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "UCH_LENGTH"
+        },
+        {
+          "name": "STEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "STEN"
+        },
+        {
+          "name": "Presiune",
+          "type": "esriFieldTypeString",
+          "alias": "Presiune"
+        },
+        {
+          "name": "Diametru",
+          "type": "esriFieldTypeInteger",
+          "alias": "Diametru"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Amplasarea",
+          "type": "esriFieldTypeString",
+          "alias": "Amplasarea"
+        },
+        {
+          "name": "Starea",
+          "type": "esriFieldTypeString",
+          "alias": "Starea"
+        },
+        {
+          "name": "Metoda",
+          "type": "esriFieldTypeString",
+          "alias": "Metoda"
+        },
+        {
+          "name": "Statut",
+          "type": "esriFieldTypeString",
+          "alias": "Statut"
+        },
+        {
+          "name": "Diametru_inch",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diametru_inch"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "SDG",
+          "type": "esriFieldTypeString",
+          "alias": "SDG"
+        },
+        {
+          "name": "PRG",
+          "type": "esriFieldTypeString",
+          "alias": "PRG"
+        },
+        {
+          "name": "mat",
+          "type": "esriFieldTypeString",
+          "alias": "mat"
+        },
+        {
+          "name": "Work_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Рабочий номер"
+        },
+        {
+          "name": "Archive_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Архивный идентификатор\n"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "Давление газа"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположения относительно планировки населённых пунктов"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположения относительно поверхности земли"
+        },
+        {
+          "name": "Destination",
+          "type": "esriFieldTypeInteger",
+          "alias": "Назначение в системе газоснабжения"
+        },
+        {
+          "name": "PipeMaterial",
+          "type": "esriFieldTypeInteger",
+          "alias": "Материал трубы"
+        },
+        {
+          "name": "OuterDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Наружный диаметр"
+        },
+        {
+          "name": "InnerDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Внтутренний диметр"
+        },
+        {
+          "name": "ConditionalDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Номинальный диаметр"
+        },
+        {
+          "name": "WallThickness",
+          "type": "esriFieldTypeDouble",
+          "alias": "Толщина стенки"
+        },
+        {
+          "name": "BeginStation",
+          "type": "esriFieldTypeString",
+          "alias": "Начало участка"
+        },
+        {
+          "name": "EndStation",
+          "type": "esriFieldTypeString",
+          "alias": "Конец участка\n"
+        },
+        {
+          "name": "Pipe_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Идентификатор участка\n"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Замечания\nЗамечания"
+        },
+        {
+          "name": "Barcode_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Barcode_ID"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "Customer",
+          "type": "esriFieldTypeString",
+          "alias": "Customer"
+        },
+        {
+          "name": "ContractNr",
+          "type": "esriFieldTypeString",
+          "alias": "ContractNr"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "InvNr",
+          "type": "esriFieldTypeInteger",
+          "alias": "InvNr"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Responsible",
+          "type": "esriFieldTypeString",
+          "alias": "Responsible"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        },
+        {
+          "name": "data_com",
+          "type": "esriFieldTypeDate",
+          "alias": "дата сдачи"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Газопроводы высокого и среднего давления",
+      "title": "Газопроводы высокого и среднего давления",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UCH_LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "UCH_LENGTH"
+        },
+        {
+          "name": "STEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "STEN"
+        },
+        {
+          "name": "Presiune",
+          "type": "esriFieldTypeString",
+          "alias": "Presiune"
+        },
+        {
+          "name": "Diametru",
+          "type": "esriFieldTypeInteger",
+          "alias": "Diametru"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Amplasarea",
+          "type": "esriFieldTypeString",
+          "alias": "Amplasarea"
+        },
+        {
+          "name": "Starea",
+          "type": "esriFieldTypeString",
+          "alias": "Starea"
+        },
+        {
+          "name": "Metoda",
+          "type": "esriFieldTypeString",
+          "alias": "Metoda"
+        },
+        {
+          "name": "Statut",
+          "type": "esriFieldTypeString",
+          "alias": "Statut"
+        },
+        {
+          "name": "Diametru_inch",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diametru_inch"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "SDG",
+          "type": "esriFieldTypeString",
+          "alias": "SDG"
+        },
+        {
+          "name": "PRG",
+          "type": "esriFieldTypeString",
+          "alias": "PRG"
+        },
+        {
+          "name": "mat",
+          "type": "esriFieldTypeString",
+          "alias": "mat"
+        },
+        {
+          "name": "Work_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Рабочий номер"
+        },
+        {
+          "name": "Archive_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Архивный идентификатор"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "Давление газа"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположения относительно планировки населённых пунктов"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположения относительно поверхности земли"
+        },
+        {
+          "name": "Destination",
+          "type": "esriFieldTypeInteger",
+          "alias": "Назначение в системе газоснабжения"
+        },
+        {
+          "name": "PipeMaterial",
+          "type": "esriFieldTypeInteger",
+          "alias": "Материал трубы"
+        },
+        {
+          "name": "OuterDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Наружный диаметр"
+        },
+        {
+          "name": "InnerDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Внтутренний диметр"
+        },
+        {
+          "name": "ConditionalDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Номинальный диаметр"
+        },
+        {
+          "name": "WallThickness",
+          "type": "esriFieldTypeDouble",
+          "alias": "Толщина стенки"
+        },
+        {
+          "name": "BeginStation",
+          "type": "esriFieldTypeString",
+          "alias": "Начало участка"
+        },
+        {
+          "name": "EndStation",
+          "type": "esriFieldTypeString",
+          "alias": "Конец участка\n"
+        },
+        {
+          "name": "Pipe_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Идентификатор участка\n"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Замечания"
+        },
+        {
+          "name": "Barcode_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Barcode_ID"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "Customer",
+          "type": "esriFieldTypeString",
+          "alias": "Customer"
+        },
+        {
+          "name": "ContractNr",
+          "type": "esriFieldTypeString",
+          "alias": "ContractNr"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "InvNr",
+          "type": "esriFieldTypeInteger",
+          "alias": "InvNr"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Responsible",
+          "type": "esriFieldTypeString",
+          "alias": "Responsible"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        },
+        {
+          "name": "data_com",
+          "type": "esriFieldTypeDate",
+          "alias": "дата сдачи"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Газопроводы низкого давления",
+      "title": "Газопроводы низкого давления",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UCH_LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "UCH_LENGTH"
+        },
+        {
+          "name": "STEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "STEN"
+        },
+        {
+          "name": "Presiune",
+          "type": "esriFieldTypeString",
+          "alias": "Presiune"
+        },
+        {
+          "name": "Diametru",
+          "type": "esriFieldTypeInteger",
+          "alias": "Diametru"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Amplasarea",
+          "type": "esriFieldTypeString",
+          "alias": "Amplasarea"
+        },
+        {
+          "name": "Starea",
+          "type": "esriFieldTypeString",
+          "alias": "Starea"
+        },
+        {
+          "name": "Metoda",
+          "type": "esriFieldTypeString",
+          "alias": "Metoda"
+        },
+        {
+          "name": "Statut",
+          "type": "esriFieldTypeString",
+          "alias": "Statut"
+        },
+        {
+          "name": "Diametru_inch",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diametru_inch"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "SDG",
+          "type": "esriFieldTypeString",
+          "alias": "SDG"
+        },
+        {
+          "name": "PRG",
+          "type": "esriFieldTypeString",
+          "alias": "PRG"
+        },
+        {
+          "name": "mat",
+          "type": "esriFieldTypeString",
+          "alias": "mat"
+        },
+        {
+          "name": "Work_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Рабочий номер"
+        },
+        {
+          "name": "Archive_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Архивный идентификатор"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "Давление газа"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположения относительно планировки населённых пунктов"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeInteger",
+          "alias": "Местоположения относительно поверхности земли"
+        },
+        {
+          "name": "Destination",
+          "type": "esriFieldTypeInteger",
+          "alias": "Назначение в системе газоснабжения"
+        },
+        {
+          "name": "PipeMaterial",
+          "type": "esriFieldTypeInteger",
+          "alias": "Материал трубы"
+        },
+        {
+          "name": "OuterDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Наружный диаметр"
+        },
+        {
+          "name": "InnerDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Внтутренний диметр"
+        },
+        {
+          "name": "ConditionalDiameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Номинальный диаметр"
+        },
+        {
+          "name": "WallThickness",
+          "type": "esriFieldTypeDouble",
+          "alias": "Толщина стенки"
+        },
+        {
+          "name": "BeginStation",
+          "type": "esriFieldTypeString",
+          "alias": "Начало участка"
+        },
+        {
+          "name": "EndStation",
+          "type": "esriFieldTypeString",
+          "alias": "Конец участка\n"
+        },
+        {
+          "name": "Pipe_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Идентификатор участка\n"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Замечания\nЗамечания"
+        },
+        {
+          "name": "Barcode_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Barcode_ID"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "Customer",
+          "type": "esriFieldTypeString",
+          "alias": "Customer"
+        },
+        {
+          "name": "ContractNr",
+          "type": "esriFieldTypeString",
+          "alias": "ContractNr"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "InvNr",
+          "type": "esriFieldTypeInteger",
+          "alias": "InvNr"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Responsible",
+          "type": "esriFieldTypeString",
+          "alias": "Responsible"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        },
+        {
+          "name": "data_com",
+          "type": "esriFieldTypeDate",
+          "alias": "дата сдачи"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Нерабочие газопроводы",
+      "title": "Нерабочие газопроводы",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UCH_LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "UCH_LENGTH"
+        },
+        {
+          "name": "STEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "STEN"
+        },
+        {
+          "name": "Presiune",
+          "type": "esriFieldTypeString",
+          "alias": "Presiune"
+        },
+        {
+          "name": "Diametru",
+          "type": "esriFieldTypeInteger",
+          "alias": "Diametru"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Amplasarea",
+          "type": "esriFieldTypeString",
+          "alias": "Amplasarea"
+        },
+        {
+          "name": "Starea",
+          "type": "esriFieldTypeString",
+          "alias": "Starea"
+        },
+        {
+          "name": "Metoda",
+          "type": "esriFieldTypeString",
+          "alias": "Metoda"
+        },
+        {
+          "name": "Statut",
+          "type": "esriFieldTypeString",
+          "alias": "Statut"
+        },
+        {
+          "name": "Diametru_inch",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diametru_inch"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "sdg",
+          "type": "esriFieldTypeInteger",
+          "alias": "sdg"
+        },
+        {
+          "name": "InnerDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "InnerDiameter"
+        },
+        {
+          "name": "OuterDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Внешний диаметр"
+        },
+        {
+          "name": "ConditionalDiameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "ConditionalDiameter"
+        },
+        {
+          "name": "WallThickness",
+          "type": "esriFieldTypeInteger",
+          "alias": "Толщина стенки"
+        },
+        {
+          "name": "DepthMax",
+          "type": "esriFieldTypeDouble",
+          "alias": "DepthMax"
+        },
+        {
+          "name": "DepthMin",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Минимальная глубина заложения (м)"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Barcode_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Barcode_ID"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "GasPressure"
+        },
+        {
+          "name": "PipeMaterial",
+          "type": "esriFieldTypeInteger",
+          "alias": "Материал трубы"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Футляры",
+      "title": "Футляры",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Style",
+          "type": "esriFieldTypeString",
+          "alias": "Style"
+        },
+        {
+          "name": "Text_1",
+          "type": "esriFieldTypeString",
+          "alias": "Text_1"
+        },
+        {
+          "name": "Distance",
+          "type": "esriFieldTypeDouble",
+          "alias": "Distance"
+        },
+        {
+          "name": "gz",
+          "type": "esriFieldTypeInteger",
+          "alias": "gz"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeInteger",
+          "alias": "Diameter"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Gas_customers",
+      "title": "Gas_customers",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID_raion",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID_raion"
+        },
+        {
+          "name": "ID_localitate",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID_localitate"
+        },
+        {
+          "name": "ID_strada",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID_strada"
+        },
+        {
+          "name": "Den_str",
+          "type": "esriFieldTypeString",
+          "alias": "Den_str"
+        },
+        {
+          "name": "Nr_casei",
+          "type": "esriFieldTypeString",
+          "alias": "Nr_casei"
+        },
+        {
+          "name": "Scara",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Scara"
+        },
+        {
+          "name": "Enabled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Enabled"
+        },
+        {
+          "name": "AncillaryRole",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AncillaryRole"
+        },
+        {
+          "name": "Adresa",
+          "type": "esriFieldTypeString",
+          "alias": "Adresa"
+        },
+        {
+          "name": "Customer_type",
+          "type": "esriFieldTypeString",
+          "alias": "Customer_type"
+        },
+        {
+          "name": "Customer",
+          "type": "esriFieldTypeString",
+          "alias": "Customer"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeInteger",
+          "alias": "DataSource"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID_cladire",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID_cladire"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "GasPressure",
+          "type": "esriFieldTypeInteger",
+          "alias": "GasPressure"
+        },
+        {
+          "name": "Localitate",
+          "type": "esriFieldTypeString",
+          "alias": "Localitate"
+        },
+        {
+          "name": "CREATE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATE_BY"
+        },
+        {
+          "name": "CREATE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATE_DAT"
+        },
+        {
+          "name": "CHANGE_BY",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE_BY"
+        },
+        {
+          "name": "CHANGE_DAT",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_DAT"
+        },
+        {
+          "name": "CLIENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CLIENT_ID"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [],
+  "cors_enabled": true,
+  "response_ms": 663,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

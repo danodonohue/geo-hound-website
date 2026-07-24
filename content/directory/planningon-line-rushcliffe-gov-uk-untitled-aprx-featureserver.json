@@ -1,0 +1,327 @@
+{
+  "slug": "planningon-line-rushcliffe-gov-uk-untitled-aprx-featureserver",
+  "service_key": "ESRI FeatureServer:https://planningon-line.rushcliffe.gov.uk/server/rest/services/PALIVE/LIVEUniformPA_Planning/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://planningon-line.rushcliffe.gov.uk/server/rest/services/PALIVE/LIVEUniformPA_Planning/FeatureServer",
+  "title": "Untitled.aprx",
+  "description": "Rushcliffe planning applications and appeals with points and polygon representations.",
+  "abstract": "LIVEUniformPA Planning",
+  "provider": "planningon-line.rushcliffe.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Application points",
+      "title": "Application points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "REFVAL"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVAL"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMODIFIED"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ISPAVISIBLE"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ISCAVISIBLE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        }
+      ],
+      "feature_count": 12241
+    },
+    {
+      "id": 1,
+      "name": "Appeal points",
+      "title": "Appeal points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "refval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": 0
+    },
+    {
+      "id": 2,
+      "name": "Application Polygons",
+      "title": "Application Polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "REFVAL"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVAL"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMODIFIED"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ISPAVISIBLE"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ISCAVISIBLE"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        }
+      ],
+      "feature_count": 64740
+    },
+    {
+      "id": 3,
+      "name": "Appeal polygons",
+      "title": "Appeal polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "refval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape.AREA"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape.LEN"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": 1009
+    },
+    {
+      "id": 4,
+      "name": "Enforcement polygons",
+      "title": "Enforcement polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "refval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "SE_SDO_ROWID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SE_SDO_ROWID"
+        }
+      ],
+      "feature_count": 10059
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 873,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

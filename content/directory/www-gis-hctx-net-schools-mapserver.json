@@ -1,0 +1,666 @@
+{
+  "slug": "www-gis-hctx-net-schools-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/State/Schools/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/State/Schools/MapServer",
+  "title": "Schools",
+  "description": "Texas Education Agency schools in Harris County with location and facility information.",
+  "abstract": "TEA Schools",
+  "provider": "www.gis.hctx.net",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "TEA Schools",
+      "title": "TEA Schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "ObjectID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ObjectID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Score",
+          "type": "esriFieldTypeDouble",
+          "alias": "Score"
+        },
+        {
+          "name": "Match_type",
+          "type": "esriFieldTypeString",
+          "alias": "Match_type"
+        },
+        {
+          "name": "Match_addr",
+          "type": "esriFieldTypeString",
+          "alias": "Match_addr"
+        },
+        {
+          "name": "LongLabel",
+          "type": "esriFieldTypeString",
+          "alias": "LongLabel"
+        },
+        {
+          "name": "ShortLabel",
+          "type": "esriFieldTypeString",
+          "alias": "ShortLabel"
+        },
+        {
+          "name": "Addr_type",
+          "type": "esriFieldTypeString",
+          "alias": "Addr_type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "PlaceName",
+          "type": "esriFieldTypeString",
+          "alias": "PlaceName"
+        },
+        {
+          "name": "Place_addr",
+          "type": "esriFieldTypeString",
+          "alias": "Place_addr"
+        },
+        {
+          "name": "Phone",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Rank",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Rank"
+        },
+        {
+          "name": "AddBldg",
+          "type": "esriFieldTypeString",
+          "alias": "AddBldg"
+        },
+        {
+          "name": "AddNum",
+          "type": "esriFieldTypeString",
+          "alias": "AddNum"
+        },
+        {
+          "name": "AddNumFrom",
+          "type": "esriFieldTypeString",
+          "alias": "AddNumFrom"
+        },
+        {
+          "name": "AddNumTo",
+          "type": "esriFieldTypeString",
+          "alias": "AddNumTo"
+        },
+        {
+          "name": "AddRange",
+          "type": "esriFieldTypeString",
+          "alias": "AddRange"
+        },
+        {
+          "name": "Side",
+          "type": "esriFieldTypeString",
+          "alias": "Side"
+        },
+        {
+          "name": "StPreDir",
+          "type": "esriFieldTypeString",
+          "alias": "StPreDir"
+        },
+        {
+          "name": "StPreType",
+          "type": "esriFieldTypeString",
+          "alias": "StPreType"
+        },
+        {
+          "name": "StName",
+          "type": "esriFieldTypeString",
+          "alias": "StName"
+        },
+        {
+          "name": "StType",
+          "type": "esriFieldTypeString",
+          "alias": "StType"
+        },
+        {
+          "name": "StDir",
+          "type": "esriFieldTypeString",
+          "alias": "StDir"
+        },
+        {
+          "name": "BldgType",
+          "type": "esriFieldTypeString",
+          "alias": "BldgType"
+        },
+        {
+          "name": "BldgName",
+          "type": "esriFieldTypeString",
+          "alias": "BldgName"
+        },
+        {
+          "name": "LevelType",
+          "type": "esriFieldTypeString",
+          "alias": "LevelType"
+        },
+        {
+          "name": "LevelName",
+          "type": "esriFieldTypeString",
+          "alias": "LevelName"
+        },
+        {
+          "name": "UnitType",
+          "type": "esriFieldTypeString",
+          "alias": "UnitType"
+        },
+        {
+          "name": "UnitName",
+          "type": "esriFieldTypeString",
+          "alias": "UnitName"
+        },
+        {
+          "name": "SubAddr",
+          "type": "esriFieldTypeString",
+          "alias": "SubAddr"
+        },
+        {
+          "name": "StAddr",
+          "type": "esriFieldTypeString",
+          "alias": "StAddr"
+        },
+        {
+          "name": "Block",
+          "type": "esriFieldTypeString",
+          "alias": "Block"
+        },
+        {
+          "name": "Sector",
+          "type": "esriFieldTypeString",
+          "alias": "Sector"
+        },
+        {
+          "name": "Nbrhd",
+          "type": "esriFieldTypeString",
+          "alias": "Nbrhd"
+        },
+        {
+          "name": "District",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "MetroArea",
+          "type": "esriFieldTypeString",
+          "alias": "MetroArea"
+        },
+        {
+          "name": "Subregion",
+          "type": "esriFieldTypeString",
+          "alias": "Subregion"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "RegionAbbr",
+          "type": "esriFieldTypeString",
+          "alias": "RegionAbbr"
+        },
+        {
+          "name": "Territory",
+          "type": "esriFieldTypeString",
+          "alias": "Territory"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Postal",
+          "type": "esriFieldTypeString",
+          "alias": "Postal"
+        },
+        {
+          "name": "PostalExt",
+          "type": "esriFieldTypeString",
+          "alias": "PostalExt"
+        },
+        {
+          "name": "Country",
+          "type": "esriFieldTypeString",
+          "alias": "Country"
+        },
+        {
+          "name": "CntryName",
+          "type": "esriFieldTypeString",
+          "alias": "CntryName"
+        },
+        {
+          "name": "LangCode",
+          "type": "esriFieldTypeString",
+          "alias": "LangCode"
+        },
+        {
+          "name": "Distance",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Distance"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "DisplayX",
+          "type": "esriFieldTypeDouble",
+          "alias": "DisplayX"
+        },
+        {
+          "name": "DisplayY",
+          "type": "esriFieldTypeDouble",
+          "alias": "DisplayY"
+        },
+        {
+          "name": "Xmin",
+          "type": "esriFieldTypeDouble",
+          "alias": "Xmin"
+        },
+        {
+          "name": "Xmax",
+          "type": "esriFieldTypeDouble",
+          "alias": "Xmax"
+        },
+        {
+          "name": "Ymin",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ymin"
+        },
+        {
+          "name": "Ymax",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ymax"
+        },
+        {
+          "name": "ExInfo",
+          "type": "esriFieldTypeString",
+          "alias": "ExInfo"
+        },
+        {
+          "name": "IN_Address",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Address"
+        },
+        {
+          "name": "IN_Addre_1",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Addre_1"
+        },
+        {
+          "name": "IN_Addre_2",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Addre_2"
+        },
+        {
+          "name": "IN_Neighbo",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Neighbo"
+        },
+        {
+          "name": "IN_City",
+          "type": "esriFieldTypeString",
+          "alias": "IN_City"
+        },
+        {
+          "name": "IN_Subregi",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Subregi"
+        },
+        {
+          "name": "IN_Region",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Region"
+        },
+        {
+          "name": "IN_Postal",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Postal"
+        },
+        {
+          "name": "IN_PostalE",
+          "type": "esriFieldTypeString",
+          "alias": "IN_PostalE"
+        },
+        {
+          "name": "IN_Country",
+          "type": "esriFieldTypeString",
+          "alias": "IN_Country"
+        },
+        {
+          "name": "USER_Count",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Count"
+        },
+        {
+          "name": "USER_Cou_1",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Cou_1"
+        },
+        {
+          "name": "USER_ESC_R",
+          "type": "esriFieldTypeString",
+          "alias": "USER_ESC_R"
+        },
+        {
+          "name": "USER_ESC_1",
+          "type": "esriFieldTypeString",
+          "alias": "USER_ESC_1"
+        },
+        {
+          "name": "USER_ESC_2",
+          "type": "esriFieldTypeString",
+          "alias": "USER_ESC_2"
+        },
+        {
+          "name": "USER_Distr",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Distr"
+        },
+        {
+          "name": "USER_Dis_1",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_1"
+        },
+        {
+          "name": "USER_Dis_2",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_2"
+        },
+        {
+          "name": "USER_NCES_",
+          "type": "esriFieldTypeString",
+          "alias": "USER_NCES_"
+        },
+        {
+          "name": "USER_Dis_3",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_3"
+        },
+        {
+          "name": "USER_Dis_4",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_4"
+        },
+        {
+          "name": "USER_Dis_5",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_5"
+        },
+        {
+          "name": "USER_Dis_6",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_6"
+        },
+        {
+          "name": "USER_Dis_7",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_7"
+        },
+        {
+          "name": "USER_Dis_8",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_8"
+        },
+        {
+          "name": "USER_Dis_9",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis_9"
+        },
+        {
+          "name": "USER_Dis10",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis10"
+        },
+        {
+          "name": "USER_Dis11",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis11"
+        },
+        {
+          "name": "USER_Dis12",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis12"
+        },
+        {
+          "name": "USER_Dis13",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis13"
+        },
+        {
+          "name": "USER_Dis14",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis14"
+        },
+        {
+          "name": "USER_Dis15",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Dis15"
+        },
+        {
+          "name": "USER_Dis16",
+          "type": "esriFieldTypeInteger",
+          "alias": "USER_Dis16"
+        },
+        {
+          "name": "USER_Schoo",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Schoo"
+        },
+        {
+          "name": "USER_Sch_1",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_1"
+        },
+        {
+          "name": "USER_Instr",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Instr"
+        },
+        {
+          "name": "USER_Chart",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Chart"
+        },
+        {
+          "name": "USER_AEA",
+          "type": "esriFieldTypeString",
+          "alias": "USER_AEA"
+        },
+        {
+          "name": "USER_Magne",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Magne"
+        },
+        {
+          "name": "USER_Resid",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Resid"
+        },
+        {
+          "name": "USER_NCE_1",
+          "type": "esriFieldTypeString",
+          "alias": "USER_NCE_1"
+        },
+        {
+          "name": "USER_Sch_2",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_2"
+        },
+        {
+          "name": "USER_Sch_3",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_3"
+        },
+        {
+          "name": "USER_Sch_4",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_4"
+        },
+        {
+          "name": "USER_Sch_5",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_5"
+        },
+        {
+          "name": "USER_Sch_6",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_6"
+        },
+        {
+          "name": "USER_Sch_7",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_7"
+        },
+        {
+          "name": "USER_Sch_8",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_8"
+        },
+        {
+          "name": "USER_Sch_9",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch_9"
+        },
+        {
+          "name": "USER_Sch10",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch10"
+        },
+        {
+          "name": "USER_Sch11",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch11"
+        },
+        {
+          "name": "USER_Sch12",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch12"
+        },
+        {
+          "name": "USER_Sch13",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch13"
+        },
+        {
+          "name": "USER_Sch14",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch14"
+        },
+        {
+          "name": "USER_Grade",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Grade"
+        },
+        {
+          "name": "USER_Sch15",
+          "type": "esriFieldTypeInteger",
+          "alias": "USER_Sch15"
+        },
+        {
+          "name": "USER_Sch16",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch16"
+        },
+        {
+          "name": "USER_Sch17",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Sch17"
+        },
+        {
+          "name": "USER_Updat",
+          "type": "esriFieldTypeString",
+          "alias": "USER_Updat"
+        },
+        {
+          "name": "School_Typ",
+          "type": "esriFieldTypeString",
+          "alias": "School_Typ"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102740"
+  ],
+  "cors_enabled": true,
+  "response_ms": 615,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

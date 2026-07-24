@@ -1,0 +1,264 @@
+{
+  "slug": "gismaps-hdc-govt-nz-streetmap-mapserver",
+  "service_key": "ESRI MapServer:https://gismaps.hdc.govt.nz/server/rest/services/Basemaps/StreetmapBasic/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gismaps.hdc.govt.nz/server/rest/services/Basemaps/StreetmapBasic/MapServer",
+  "title": "Streetmap",
+  "description": "Road network, house numbers and cadastral boundaries for streetmap display.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><P><SPAN>Basic Streetmap used for dynamic display. Includes roads, house numbers and cadastral boundaries. Used in E-Plan.</SPAN></P></DIV>",
+  "provider": "gismaps.hdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Railway Lines",
+      "title": "Railway Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Hastings District Boundary",
+      "title": "Hastings District Boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_HastingsDistrictBoundaryExt",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_HastingsDistrictBoundaryExt"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Road Centrelines",
+      "title": "Road Centrelines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "cway_hierarchy",
+          "type": "esriFieldTypeString",
+          "alias": "cway_hierarchy"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Roadname",
+          "type": "esriFieldTypeString",
+          "alias": "Roadname"
+        },
+        {
+          "name": "BasemapHierarchy",
+          "type": "esriFieldTypeString",
+          "alias": "BasemapHierarchy"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Road Names",
+      "title": "Road Names",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Roadname",
+          "type": "esriFieldTypeString",
+          "alias": "Roadname"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Created_Date",
+          "type": "esriFieldTypeString",
+          "alias": "RoadnameMacron"
+        },
+        {
+          "name": "Created_By",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "RoadnameMacron",
+          "type": "esriFieldTypeString",
+          "alias": "RoadnameMacron"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "House Numbers",
+      "title": "House Numbers",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HouseNo",
+          "type": "esriFieldTypeString",
+          "alias": "HouseNo"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Cadastral Boundary",
+      "title": "Cadastral Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "LegalID",
+          "type": "esriFieldTypeString",
+          "alias": "LegalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 70,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

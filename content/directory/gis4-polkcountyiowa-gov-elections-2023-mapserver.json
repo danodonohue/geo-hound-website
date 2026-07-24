@@ -1,0 +1,556 @@
+{
+  "slug": "gis4-polkcountyiowa-gov-elections-2023-mapserver",
+  "service_key": "ESRI MapServer:https://gis4.polkcountyiowa.gov/server/rest/services/Elections/Elections_2023/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis4.polkcountyiowa.gov/server/rest/services/Elections/Elections_2023/MapServer",
+  "title": "Elections_2023",
+  "description": "Election precincts, districts, wards, and polling locations effective 2023-2032.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><DIV><DIV><P><SPAN>Precincts, districts, and wards, used in various elections in Polk County.</SPAN></P><P><SPAN /></P><P><SPAN>Effective Dates: January 1, 2023 through December 31, 2032.</SPAN></P><P><SPAN /></P><P><SPAN>Polling places change regularly. Locations should be verified with the Polk County Auditor.</SPAN></P><P><SPAN /></P><P><SPAN>Elections Office</SPAN></P><P><SPAN>(515) 286-3247</SPAN></P><P><SPAN>120 2nd Ave, Suite A</SPAN></P><P><SPAN>Des Moines, IA 50309</SPAN></P><P><SPAN>M - F: 9a - 4p</SPAN></P><P><SPAN /></P><P><SPAN STYLE=\"text-decoration:underline;\">Terms of Use</SPAN><SPAN>:</SPAN></P><P><SPAN>Polk County has compiled this information for government purposes only. Polk County makes no warranties, either expressed or implied, concerning the accuracy, completeness, reliability, or suitability of this information for any particular use. Polk County is not responsible for any use of this information for any non-governmental purpose. Data subject to change at any time.</SPAN></P></DIV></DIV></DIV>",
+  "provider": "gis4.polkcountyiowa.gov",
+  "place": {
+    "country": "United States",
+    "state": "Iowa",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 8,
+      "name": "City_or_Township",
+      "title": "City_or_Township",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CorpName",
+          "type": "esriFieldTypeString",
+          "alias": "CorpName"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Des Moines Wards",
+      "title": "Des Moines Wards",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Dist_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Type"
+        },
+        {
+          "name": "Dist_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "West Des Moines Wards",
+      "title": "West Des Moines Wards",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Dist_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Type"
+        },
+        {
+          "name": "Dist_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "School Districts",
+      "title": "School Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SCH_DIST",
+          "type": "esriFieldTypeString",
+          "alias": "SCH_DIST"
+        },
+        {
+          "name": "DIST_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "DIST_NAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "DMACC Directors",
+      "title": "DMACC Directors",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "County Supervisor",
+      "title": "County Supervisor",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Dist_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Type"
+        },
+        {
+          "name": "Dist_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "State House",
+      "title": "State House",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Dist_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Type"
+        },
+        {
+          "name": "Dist_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "State Senate",
+      "title": "State Senate",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Dist_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Type"
+        },
+        {
+          "name": "Dist_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Election Precincts",
+      "title": "Election Precincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "PRECINCT"
+        },
+        {
+          "name": "CENSUS_YEAR",
+          "type": "esriFieldTypeInteger",
+          "alias": "CENSUS_YEAR"
+        },
+        {
+          "name": "GOVERNOR",
+          "type": "esriFieldTypeString",
+          "alias": "GOVERNOR"
+        },
+        {
+          "name": "LT_GOVERNOR",
+          "type": "esriFieldTypeString",
+          "alias": "LT_GOVERNOR"
+        },
+        {
+          "name": "PRESIDENT",
+          "type": "esriFieldTypeString",
+          "alias": "PRESIDENT"
+        },
+        {
+          "name": "VICE_PRESIDENT",
+          "type": "esriFieldTypeString",
+          "alias": "VICE_PRESIDENT"
+        },
+        {
+          "name": "SEC_OF_STATE",
+          "type": "esriFieldTypeString",
+          "alias": "SEC_OF_STATE"
+        },
+        {
+          "name": "US_SENATOR_1",
+          "type": "esriFieldTypeString",
+          "alias": "US_SENATOR_1"
+        },
+        {
+          "name": "COUNTY_AUDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_AUDITOR"
+        },
+        {
+          "name": "COUNTY_RECORDER",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_RECORDER"
+        },
+        {
+          "name": "COUNTY_SHERIFF",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_SHERIFF"
+        },
+        {
+          "name": "AUDITOR_OF_STATE",
+          "type": "esriFieldTypeString",
+          "alias": "AUDITOR_OF_STATE"
+        },
+        {
+          "name": "STATE_TREASURER",
+          "type": "esriFieldTypeString",
+          "alias": "STATE_TREASURER"
+        },
+        {
+          "name": "STATE_SEC_OF_AG",
+          "type": "esriFieldTypeString",
+          "alias": "STATE_SEC_OF_AG"
+        },
+        {
+          "name": "STATE_ATT_GENERAL",
+          "type": "esriFieldTypeString",
+          "alias": "STATE_ATT_GENERAL"
+        },
+        {
+          "name": "US_SENATOR_2",
+          "type": "esriFieldTypeString",
+          "alias": "US_SENATOR_2"
+        },
+        {
+          "name": "COUNTY_ATTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_ATTY"
+        },
+        {
+          "name": "COUNTY_TREASURER",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_TREASURER"
+        },
+        {
+          "name": "US_REPRESENTATIVE",
+          "type": "esriFieldTypeString",
+          "alias": "US_REPRESENTATIVE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "County",
+      "title": "County",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Dist_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Type"
+        },
+        {
+          "name": "Dist_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Dist_Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102676"
+  ],
+  "cors_enabled": true,
+  "response_ms": 891,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

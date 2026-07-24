@@ -1,0 +1,169 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-14",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_LNR/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_LNR/MapServer",
+  "title": "Layers",
+  "description": "Local nature reserves for environmental conservation and recreation.",
+  "abstract": "Environment - Local Nature Reserves (LNR)",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "medium"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 12,
+      "name": "Environment - Local Nature Reserves (LNR)",
+      "title": "Environment - Local Nature Reserves (LNR)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LNR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "LNR_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "lnr_area"
+        },
+        {
+          "name": "EASTING",
+          "type": "esriFieldTypeDouble",
+          "alias": "easting"
+        },
+        {
+          "name": "NORTHING",
+          "type": "esriFieldTypeDouble",
+          "alias": "northing"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "latitude"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "longitude"
+        },
+        {
+          "name": "REFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "Reference"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "GID",
+          "type": "esriFieldTypeDouble",
+          "alias": "gid"
+        },
+        {
+          "name": "GIS_FILE",
+          "type": "esriFieldTypeString",
+          "alias": "gis_file"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "number"
+        },
+        {
+          "name": "EASTING0",
+          "type": "esriFieldTypeDouble",
+          "alias": "easting0"
+        },
+        {
+          "name": "NORTHING0",
+          "type": "esriFieldTypeDouble",
+          "alias": "northing0"
+        },
+        {
+          "name": "GIS_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "gis_date"
+        },
+        {
+          "name": "VERSION",
+          "type": "esriFieldTypeInteger",
+          "alias": "version"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "POL_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "POL_AREA"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 310,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

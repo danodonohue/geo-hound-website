@@ -1,0 +1,125 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Learning_ALC/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Learning_ALC/MapServer",
+  "title": "Layers",
+  "description": "Adult learning centre locations and contact details in Surrey.",
+  "abstract": "Adult Learning Centre - Layers associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 7,
+      "name": "Adult Learning Centre",
+      "title": "Adult Learning Centre",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Build_name",
+          "type": "esriFieldTypeString",
+          "alias": "Building name"
+        },
+        {
+          "name": "Build_numb",
+          "type": "esriFieldTypeString",
+          "alias": "Building number"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Road",
+          "type": "esriFieldTypeString",
+          "alias": "Road"
+        },
+        {
+          "name": "Locality",
+          "type": "esriFieldTypeString",
+          "alias": "Locality"
+        },
+        {
+          "name": "Town",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1489,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

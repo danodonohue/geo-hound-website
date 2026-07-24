@@ -1,0 +1,183 @@
+{
+  "slug": "inspirepub-waterinfo-be-risicozones-overstroming-2017-mapserver",
+  "service_key": "ESRI MapServer:https://inspirepub.waterinfo.be/arcgis/rest/services/Risicozones_overstroming_2017/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://inspirepub.waterinfo.be/arcgis/rest/services/Risicozones_overstroming_2017/MapServer",
+  "title": "Risicozones_overstroming_2017",
+  "description": "Flood risk zones in Belgium for 2017 with historical comparison.",
+  "abstract": "Risicozones 2017; gebieden die behouden zijn op de kaart met de risicozones versie 2017 t.o.v. versie 2006; gebieden die bijgekomen zijn de kaart met risicozones versie 2017 t.o.v. versie 2006; gebieden die geschrapt zijn op de kaart met risicozones versie 2017 t.o.v. versie 2006",
+  "provider": "inspirepub.waterinfo.be",
+  "place": {
+    "country": "Belgium",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "nieuwe risicozones",
+      "title": "nieuwe risicozones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "bevestigde risicozone",
+      "title": "bevestigde risicozone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "geen risico meer",
+      "title": "geen risico meer",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "identify",
+          "type": "esriFieldTypeString",
+          "alias": "identify"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "risicozones",
+      "title": "risicozones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "risicozone",
+          "type": "esriFieldTypeString",
+          "alias": "risicozone"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "categorie",
+          "type": "esriFieldTypeString",
+          "alias": "categorie"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 298,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

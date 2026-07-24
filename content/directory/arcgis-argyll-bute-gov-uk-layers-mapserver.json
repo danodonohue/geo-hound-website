@@ -1,0 +1,780 @@
+{
+  "slug": "arcgis-argyll-bute-gov-uk-layers-mapserver",
+  "service_key": "ESRI MapServer:https://arcgis.argyll-bute.gov.uk/arcgis/rest/services/Core_Path_Mapping/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://arcgis.argyll-bute.gov.uk/arcgis/rest/services/Core_Path_Mapping/MapServer",
+  "title": "layers",
+  "description": "Outdoor recreation paths including walking, cycling and paddle trails.",
+  "abstract": "Outdoor Access core paths and related data",
+  "provider": "arcgis.argyll-bute.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Scotland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Paths",
+      "title": "Paths",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PATH_NO",
+          "type": "esriFieldTypeString",
+          "alias": "PATH_NO"
+        },
+        {
+          "name": "PATH_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PATH_NAME"
+        },
+        {
+          "name": "PATH_GRADE",
+          "type": "esriFieldTypeString",
+          "alias": "PATH_GRADE"
+        },
+        {
+          "name": "WALK_LENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "WALK_LENGTH"
+        },
+        {
+          "name": "LEAFLET",
+          "type": "esriFieldTypeString",
+          "alias": "LEAFLET"
+        },
+        {
+          "name": "LOCAL_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_INFO"
+        },
+        {
+          "name": "ADD_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "ADD_INFO"
+        },
+        {
+          "name": "DEER_FOREST",
+          "type": "esriFieldTypeString",
+          "alias": "DEER_FOREST"
+        },
+        {
+          "name": "INFO_Y_N",
+          "type": "esriFieldTypeString",
+          "alias": "INFO_Y_N"
+        },
+        {
+          "name": "PATH_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "PATH_INFO"
+        },
+        {
+          "name": "LENGTH_MILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_MILE"
+        },
+        {
+          "name": "LENGTH_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_KM"
+        },
+        {
+          "name": "ABC_NOTE",
+          "type": "esriFieldTypeString",
+          "alias": "ABC_NOTE"
+        },
+        {
+          "name": "PUB_NOTE",
+          "type": "esriFieldTypeString",
+          "alias": "PUB_NOTE"
+        },
+        {
+          "name": "PUB_ROAD",
+          "type": "esriFieldTypeString",
+          "alias": "PUB_ROAD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "ArgyllPaddleTrail",
+      "title": "ArgyllPaddleTrail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "ROUTEID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTEID"
+        },
+        {
+          "name": "MOREINFO",
+          "type": "esriFieldTypeString",
+          "alias": "MOREINFO"
+        },
+        {
+          "name": "MODE_",
+          "type": "esriFieldTypeString",
+          "alias": "MODE_"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "NCN Cycle Routes",
+      "title": "NCN Cycle Routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "ROUTEID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTEID"
+        },
+        {
+          "name": "MOREINFO",
+          "type": "esriFieldTypeString",
+          "alias": "MOREINFO"
+        },
+        {
+          "name": "MODE_",
+          "type": "esriFieldTypeString",
+          "alias": "MODE_"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Long Distance Routes",
+      "title": "Long Distance Routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "ROUTEID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTEID"
+        },
+        {
+          "name": "MOREINFO",
+          "type": "esriFieldTypeString",
+          "alias": "MOREINFO"
+        },
+        {
+          "name": "MODE_",
+          "type": "esriFieldTypeString",
+          "alias": "MODE_"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Launch Points",
+      "title": "Launch Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SLIP_NO",
+          "type": "esriFieldTypeString",
+          "alias": "SLIP_NO"
+        },
+        {
+          "name": "PARKING",
+          "type": "esriFieldTypeString",
+          "alias": "PARKING"
+        },
+        {
+          "name": "OBJECTION",
+          "type": "esriFieldTypeString",
+          "alias": "OBJECTION"
+        },
+        {
+          "name": "LP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LP_NAME"
+        },
+        {
+          "name": "DECISION",
+          "type": "esriFieldTypeString",
+          "alias": "DECISION"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Community Councils",
+      "title": "Community Councils",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "CNT_NAME",
+          "type": "esriFieldTypeInteger",
+          "alias": "CNT_NAME"
+        },
+        {
+          "name": "MIN_ADMIN_",
+          "type": "esriFieldTypeString",
+          "alias": "MIN_ADMIN_"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Loch Lomond and Trossachs National Park",
+      "title": "Loch Lomond and Trossachs National Park",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GIS_SNH_OW",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS_SNH_OW"
+        },
+        {
+          "name": "CORPDATA_NATIONAL_PARK_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "CORPDATA_NATIONAL_PARK_AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "PA_CODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PA_CODE"
+        },
+        {
+          "name": "OPENED",
+          "type": "esriFieldTypeDate",
+          "alias": "OPENED"
+        },
+        {
+          "name": "DESIGNATED",
+          "type": "esriFieldTypeDate",
+          "alias": "DESIGNATED"
+        },
+        {
+          "name": "URL_NP",
+          "type": "esriFieldTypeString",
+          "alias": "URL_NP"
+        },
+        {
+          "name": "URL_SNH",
+          "type": "esriFieldTypeString",
+          "alias": "URL_SNH"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Other Local Authority areas",
+      "title": "Other Local Authority areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "FILE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_NAME"
+        },
+        {
+          "name": "NUMBER_",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER_"
+        },
+        {
+          "name": "NUMBER0",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER0"
+        },
+        {
+          "name": "POLYGON_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLYGON_ID"
+        },
+        {
+          "name": "UNIT_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_ID"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "DESCRIPT0",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT0"
+        },
+        {
+          "name": "TYPE_COD0",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_COD0"
+        },
+        {
+          "name": "DESCRIPT1",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT1"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Forest Estate",
+      "title": "Forest Estate",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SIGN_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SIGN_DATE"
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "TITLE"
+        },
+        {
+          "name": "ACQ_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ACQ_TYPE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Public Rights of Way",
+      "title": "Public Rights of Way",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROUTE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_TYPE"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeDouble",
+          "alias": "CLASS"
+        },
+        {
+          "name": "CROWID",
+          "type": "esriFieldTypeString",
+          "alias": "CROWID"
+        },
+        {
+          "name": "SHORTROUTE",
+          "type": "esriFieldTypeString",
+          "alias": "SHORTROUTE"
+        },
+        {
+          "name": "DATE_",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_"
+        },
+        {
+          "name": "LACODE",
+          "type": "esriFieldTypeString",
+          "alias": "LACODE"
+        },
+        {
+          "name": "CREGION",
+          "type": "esriFieldTypeString",
+          "alias": "CREGION"
+        },
+        {
+          "name": "CDISRICT",
+          "type": "esriFieldTypeString",
+          "alias": "CDISRICT"
+        },
+        {
+          "name": "NCOUNCIL",
+          "type": "esriFieldTypeString",
+          "alias": "NCOUNCIL"
+        },
+        {
+          "name": "SROWSCOD_1",
+          "type": "esriFieldTypeString",
+          "alias": "SROWSCOD_1"
+        },
+        {
+          "name": "NP",
+          "type": "esriFieldTypeString",
+          "alias": "NP"
+        },
+        {
+          "name": "USER_",
+          "type": "esriFieldTypeString",
+          "alias": "USER_"
+        },
+        {
+          "name": "PROBLEM",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PROBLEM"
+        },
+        {
+          "name": "SHAPE_LENG",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_LENG"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Scottish Paths Record Data",
+      "title": "Scottish Paths Record Data",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROUTECODE",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTECODE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "LEGALTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LEGALTYPE"
+        },
+        {
+          "name": "XGEDITED",
+          "type": "esriFieldTypeString",
+          "alias": "XGEDITED"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "SHAPE_LENG",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_LENG"
+        },
+        {
+          "name": "NEWCODE",
+          "type": "esriFieldTypeString",
+          "alias": "NEWCODE"
+        },
+        {
+          "name": "PCP_LABLE",
+          "type": "esriFieldTypeString",
+          "alias": "PCP_LABLE"
+        },
+        {
+          "name": "SPRORPCP",
+          "type": "esriFieldTypeString",
+          "alias": "SPRORPCP"
+        },
+        {
+          "name": "PATHNAME",
+          "type": "esriFieldTypeString",
+          "alias": "PATHNAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1034,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

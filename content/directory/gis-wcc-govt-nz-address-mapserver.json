@@ -1,0 +1,320 @@
+{
+  "slug": "gis-wcc-govt-nz-address-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Address/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Address/MapServer",
+  "title": "Address",
+  "description": "Property address number labels for Wellington City Council.",
+  "abstract": "Labels showing the address number for a property.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "addresses",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Address (LINZ)",
+      "title": "Address (LINZ)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "address_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_id"
+        },
+        {
+          "name": "road_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "road_id"
+        },
+        {
+          "name": "full_address_number",
+          "type": "esriFieldTypeString",
+          "alias": "full_address_number"
+        },
+        {
+          "name": "full_road_name",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name"
+        },
+        {
+          "name": "full_address",
+          "type": "esriFieldTypeString",
+          "alias": "full_address"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "unit",
+          "type": "esriFieldTypeString",
+          "alias": "unit"
+        },
+        {
+          "name": "address_number",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_number"
+        },
+        {
+          "name": "address_number_suffix",
+          "type": "esriFieldTypeString",
+          "alias": "address_number_suffix"
+        },
+        {
+          "name": "address_number_high",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_number_high"
+        },
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "road_name"
+        },
+        {
+          "name": "road_name_type",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_type"
+        },
+        {
+          "name": "road_name_suffix",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_suffix"
+        },
+        {
+          "name": "suburb_locality",
+          "type": "esriFieldTypeString",
+          "alias": "suburb_locality"
+        },
+        {
+          "name": "town_city",
+          "type": "esriFieldTypeString",
+          "alias": "town_city"
+        },
+        {
+          "name": "is_land",
+          "type": "esriFieldTypeString",
+          "alias": "is_land"
+        },
+        {
+          "name": "address_lifecycle",
+          "type": "esriFieldTypeString",
+          "alias": "address_lifecycle"
+        },
+        {
+          "name": "full_road_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name_ascii"
+        },
+        {
+          "name": "full_address_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "full_address_ascii"
+        },
+        {
+          "name": "territorial_authority_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority_ascii"
+        },
+        {
+          "name": "road_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_ascii"
+        },
+        {
+          "name": "suburb_locality_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "suburb_locality_ascii"
+        },
+        {
+          "name": "town_city_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "town_city_ascii"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Address (LINZ)",
+      "title": "Address (LINZ)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "address_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_id"
+        },
+        {
+          "name": "road_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "road_id"
+        },
+        {
+          "name": "full_address_number",
+          "type": "esriFieldTypeString",
+          "alias": "full_address_number"
+        },
+        {
+          "name": "full_road_name",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name"
+        },
+        {
+          "name": "full_address",
+          "type": "esriFieldTypeString",
+          "alias": "full_address"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "unit",
+          "type": "esriFieldTypeString",
+          "alias": "unit"
+        },
+        {
+          "name": "address_number",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_number"
+        },
+        {
+          "name": "address_number_suffix",
+          "type": "esriFieldTypeString",
+          "alias": "address_number_suffix"
+        },
+        {
+          "name": "address_number_high",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_number_high"
+        },
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "road_name"
+        },
+        {
+          "name": "road_name_type",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_type"
+        },
+        {
+          "name": "road_name_suffix",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_suffix"
+        },
+        {
+          "name": "suburb_locality",
+          "type": "esriFieldTypeString",
+          "alias": "suburb_locality"
+        },
+        {
+          "name": "town_city",
+          "type": "esriFieldTypeString",
+          "alias": "town_city"
+        },
+        {
+          "name": "is_land",
+          "type": "esriFieldTypeString",
+          "alias": "is_land"
+        },
+        {
+          "name": "address_lifecycle",
+          "type": "esriFieldTypeString",
+          "alias": "address_lifecycle"
+        },
+        {
+          "name": "full_road_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name_ascii"
+        },
+        {
+          "name": "full_address_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "full_address_ascii"
+        },
+        {
+          "name": "territorial_authority_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority_ascii"
+        },
+        {
+          "name": "road_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_ascii"
+        },
+        {
+          "name": "suburb_locality_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "suburb_locality_ascii"
+        },
+        {
+          "name": "town_city_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "town_city_ascii"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 51,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

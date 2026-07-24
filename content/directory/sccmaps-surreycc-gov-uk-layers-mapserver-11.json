@@ -1,0 +1,120 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-11",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_BOA/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_BOA/MapServer",
+  "title": "Layers",
+  "description": "Biodiversity opportunity areas in Surrey for nature conservation planning.",
+  "abstract": "Environment - Biodiversity Opportunity Areas",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 9,
+      "name": "Biodiversity Opportunity Area (BOA)",
+      "title": "Biodiversity Opportunity Area (BOA)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Number",
+          "type": "esriFieldTypeString",
+          "alias": "Number"
+        },
+        {
+          "name": "BOA_Subgroup",
+          "type": "esriFieldTypeString",
+          "alias": "BOA Subgroup"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Biodiversity",
+          "type": "esriFieldTypeString",
+          "alias": "Biodiversity"
+        },
+        {
+          "name": "Area_Ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area Ha"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Copyright",
+          "type": "esriFieldTypeString",
+          "alias": "Copyright"
+        },
+        {
+          "name": "Policy_Statement",
+          "type": "esriFieldTypeString",
+          "alias": "Policy_Statement"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 313,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

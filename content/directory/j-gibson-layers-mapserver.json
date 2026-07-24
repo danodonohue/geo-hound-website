@@ -1,0 +1,105 @@
+{
+  "slug": "j-gibson-layers-mapserver",
+  "service_key": "ESRI MapServer:https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Coastal_elevation/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Coastal_elevation/MapServer",
+  "title": "Layers",
+  "description": "Coastal elevation relative to mean high water spring tide in Greater Wellington.",
+  "abstract": "Coastal elevation polygons relative to MHWS10. Supplied by PCE in Nov 2015, processed by NIWA for PCE. MHWS10 is the mean high water spring tide exceeded 10 percent of the time, which is often used as a practical high tide level for infrastructure design works, and also for estimating extreme high (e.g. the 100-year Average Recurrence Interval) storm tides. See http://www.pce.parliament.nz/media/1384/national-and-regional-risk-exposure-in-low-lying-coastal-areas-niwa-2015.pdf",
+  "provider": "J Gibson",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Coastal elevation, cm above MHWS10",
+      "title": "Coastal elevation, cm above MHWS10",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "gridcode",
+          "type": "esriFieldTypeInteger",
+          "alias": "Elev in cm"
+        },
+        {
+          "name": "MaxSimpTol",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxSimpTol"
+        },
+        {
+          "name": "MinSimpTol",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinSimpTol"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 14,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

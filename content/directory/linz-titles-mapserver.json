@@ -1,0 +1,204 @@
+{
+  "slug": "linz-titles-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Titles/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Titles/MapServer",
+  "title": "Titles",
+  "description": "Land title information and parcel boundaries from Land Information New Zealand",
+  "abstract": "Title information for parcel polygons provided by LINZ.",
+  "provider": "LINZ",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Title (LINZ)",
+      "title": "Title (LINZ)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "title_no",
+          "type": "esriFieldTypeString",
+          "alias": "title_no"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "issue_date",
+          "type": "esriFieldTypeString",
+          "alias": "issue_date"
+        },
+        {
+          "name": "guarantee_status",
+          "type": "esriFieldTypeString",
+          "alias": "guarantee_status"
+        },
+        {
+          "name": "estate_description",
+          "type": "esriFieldTypeString",
+          "alias": "estate_description"
+        },
+        {
+          "name": "spatial_extents_shared",
+          "type": "esriFieldTypeString",
+          "alias": "spatial_extents_shared"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Title (LINZ) - Shading",
+      "title": "Title (LINZ) - Shading",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "title_no",
+          "type": "esriFieldTypeString",
+          "alias": "title_no"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "issue_date",
+          "type": "esriFieldTypeString",
+          "alias": "issue_date"
+        },
+        {
+          "name": "guarantee_status",
+          "type": "esriFieldTypeString",
+          "alias": "guarantee_status"
+        },
+        {
+          "name": "estate_description",
+          "type": "esriFieldTypeString",
+          "alias": "estate_description"
+        },
+        {
+          "name": "spatial_extents_shared",
+          "type": "esriFieldTypeString",
+          "alias": "spatial_extents_shared"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 153,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

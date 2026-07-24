@@ -1,0 +1,170 @@
+{
+  "slug": "maps2-bristol-gov-uk-layers-mapserver-14",
+  "service_key": "ESRI MapServer:https://maps2.bristol.gov.uk/server1/rest/services/base/1840_enclosures_pre/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.bristol.gov.uk/server1/rest/services/base/1840_enclosures_pre/MapServer",
+  "title": "Layers",
+  "description": "Historical field boundary enclosures predating 1840.",
+  "abstract": "Pre-1840 enclosures",
+  "provider": "maps2.bristol.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Pre1840 enclosures extent",
+      "title": "Pre1840 enclosures extent",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductNam",
+          "type": "esriFieldTypeString",
+          "alias": "ProductNam"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "TypeID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "SOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOrder"
+        },
+        {
+          "name": "SLevelPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "SLevelPS"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1172,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

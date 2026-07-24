@@ -1,0 +1,682 @@
+{
+  "slug": "www-mapping-cityoflondon-gov-uk-layers-mapserver-7",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_IMD2015/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_IMD2015/MapServer",
+  "title": "Layers",
+  "description": "Historical deprivation indices from 2015 across England.",
+  "abstract": "The Indices of Deprivation 2015 provide a set of relative measures of deprivation for small areas (Lower-layer Super Output Areas) across England, based on seven domains of deprivation",
+  "provider": "www.mapping.cityoflondon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "demographics",
+      "confidence": "high"
+    },
+    {
+      "name": "health",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Local Authorities",
+      "title": "Local Authorities",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "FILE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_NAME"
+        },
+        {
+          "name": "NUMBER_",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "NUMBER0",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER0"
+        },
+        {
+          "name": "POLYGON_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLYGON_ID"
+        },
+        {
+          "name": "UNIT_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_ID"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        },
+        {
+          "name": "OS_VECTOR.UK_Local_Authorities.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "DESCRIPT0",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT0"
+        },
+        {
+          "name": "TYPE_COD0",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_COD0"
+        },
+        {
+          "name": "DESCRIPT1",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT1"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Overall Indices of Multiple Deprivation Rank",
+      "title": "Overall Indices of Multiple Deprivation Rank",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "IMD_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "IMD Overall Rank"
+        },
+        {
+          "name": "IMD_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "IMD Overall Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Education, Skills and Training Deprivation Domain ",
+      "title": "Education, Skills and Training Deprivation Domain ",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Education, Skills and Training Deprivation Domain",
+      "title": "Education, Skills and Training Deprivation Domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "EDUCATIONSKILLSTRAINING_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Education, Skills & Training Rank"
+        },
+        {
+          "name": "EDUCATIONSKILLSTRAINING_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Education, Skills & Training Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Children and Young People Sub-domain",
+      "title": "Children and Young People Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "CHILDRENYOUNG_PEOPLE_SD_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Children & Young People Sub-domain Rank"
+        },
+        {
+          "name": "CHILDRENYOUNG_PEOPLE_SD_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Children & Young People Sub-domain Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Adult Skills Sub-domain",
+      "title": "Adult Skills Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "ADULT_SKILLS_SD_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Adult Skills Sub-domain Rank"
+        },
+        {
+          "name": "ADULT_SKILLS_SD_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Adult Skills Sub-domain Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Living Environment Domian",
+      "title": "Living Environment Domian",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Living Environment Domian",
+      "title": "Living Environment Domian",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "LIVING_ENVIRONMENT_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Living Environment Rank"
+        },
+        {
+          "name": "LIVING_ENVIRONMENT_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Living Environment Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Indoor Sub-domain",
+      "title": "Indoor Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "INDOORS_SUBDOMAIN_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Indoors Living Environment Sub-domain Rank"
+        },
+        {
+          "name": "INDOORS_SUBDOMAIN_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Indoors Living Environment Sub-domain Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Outdoor Sub-domain",
+      "title": "Outdoor Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "OUTDOORS_SUBDOMAIN_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Outdoors Living Environment Sub-domain Rank"
+        },
+        {
+          "name": "OUTDOORS_SUBDOMAIN_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Outdoors Living Environment Sub-domain Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Barriers to Housing and Services Domain",
+      "title": "Barriers to Housing and Services Domain",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Barriers to Housing and Services ",
+      "title": "Barriers to Housing and Services ",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "BARRIERSHOUSINGSERVICES_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Barriers to Housing & Services Rank"
+        },
+        {
+          "name": "BARRIERSHOUSINGSERVICES_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Barriers to Housing & Services Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Geographical Barriers Sub-domain",
+      "title": "Geographical Barriers Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "GEO_BARRIERS_SD_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Geographical Barriers Sub-domain Rank"
+        },
+        {
+          "name": "GEO_BARRIERS_SD_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Geographical Barriers Sub-domain Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Wider Barriers Sub-domain",
+      "title": "Wider Barriers Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "WIDER_BARRIERS_SD_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Wider Barriers Sub-domain Rank"
+        },
+        {
+          "name": "WIDER_BARRIERS_SD_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Wider Barriers Sub-domain Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Crime Domain",
+      "title": "Crime Domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code 2011"
+        },
+        {
+          "name": "LSOA_NAME_2011",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name 2011"
+        },
+        {
+          "name": "LA_DISTRICT_CODE_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code 2013"
+        },
+        {
+          "name": "LA_DISTRICT_NAME_2013",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name 2013"
+        },
+        {
+          "name": "CRIME_RANK",
+          "type": "esriFieldTypeDouble",
+          "alias": "Crime Rank"
+        },
+        {
+          "name": "CRIME_DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Crime Decile"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Health Deprivation and Disability Domain",
+      "title": "Health Deprivation and Disability Domain",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Employment Deprivation Domain",
+      "title": "Employment Deprivation Domain",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Income Deprivation Domain",
+      "title": "Income Deprivation Domain",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 888,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

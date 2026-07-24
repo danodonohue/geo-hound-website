@@ -1,0 +1,136 @@
+{
+  "slug": "mapserver-doc-govt-nz-alltracks-mapserver",
+  "service_key": "ESRI MapServer:https://mapserver.doc.govt.nz/arcgis/rest/services/DTO/AllTracks/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapserver.doc.govt.nz/arcgis/rest/services/DTO/AllTracks/MapServer",
+  "title": "AllTracks",
+  "description": "Tracks maintained by New Zealand Department of Conservation.",
+  "abstract": "Department of Conservation - Tracks.",
+  "provider": "mapserver.doc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "All Tracks",
+      "title": "All Tracks",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CAPTURE_ACCURACY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CAPTURE_ACCURACY"
+        },
+        {
+          "name": "EQUIPMENT",
+          "type": "esriFieldTypeInteger",
+          "alias": "EQUIPMENT"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "TECHIDENTNO",
+          "type": "esriFieldTypeString",
+          "alias": "TECHIDENTNO"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "CATEGORY"
+        },
+        {
+          "name": "CATEGORY_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "CATEGORY_DESCRIPTION"
+        },
+        {
+          "name": "OBJECT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "OBJECT_TYPE"
+        },
+        {
+          "name": "OBJECT_TYPE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "OBJECT_TYPE_DESCRIPTION"
+        },
+        {
+          "name": "ABC_INDICATOR",
+          "type": "esriFieldTypeString",
+          "alias": "ABC_INDICATOR"
+        },
+        {
+          "name": "DISPLAYCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "DISPLAYCODE"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 98,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,1179 @@
+{
+  "slug": "spatial-gis-information-qld-gov-au-nrm-investment-program-mapserver",
+  "service_key": "ESRI MapServer:https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Environment/NrmInvestmentPrograms/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Environment/NrmInvestmentPrograms/MapServer",
+  "title": "NRM Investment program",
+  "description": "Natural resource management projects for sustainable agriculture and conservation.",
+  "abstract": "This service displays locations of natural resource management projects broadly categorised as sustainable agriculture, water quality, weeds and pests.",
+  "provider": "spatial-gis.information.qld.gov.au",
+  "place": {
+    "country": "Australia",
+    "state": "Queensland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "agriculture",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "NRM regional boundaries",
+      "title": "NRM regional boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "nrm_body",
+          "type": "esriFieldTypeString",
+          "alias": "NRM Body"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "website",
+          "type": "esriFieldTypeString",
+          "alias": "NRM_BODY WEBSITE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Sustainable agriculture [SA]",
+      "title": "Sustainable agriculture [SA]",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Burnett Mary Regional Group [SA]",
+      "title": "Burnett Mary Regional Group [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Cape York NRM [SA]",
+      "title": "Cape York NRM [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Condamine Alliance [SA]",
+      "title": "Condamine Alliance [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Fitzroy Basin Association [SA]",
+      "title": "Fitzroy Basin Association [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Northern Gulf Resource Management [SA]",
+      "title": "Northern Gulf Resource Management [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "NQ Dry Tropics [SA]",
+      "title": "NQ Dry Tropics [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "pdf_url1",
+          "type": "esriFieldTypeString",
+          "alias": "Project information 2"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Queensland Murray-Darling Committee [SA]",
+      "title": "Queensland Murray-Darling Committee [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Reef Catchments [SA]",
+      "title": "Reef Catchments [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "SEQ Catchment [SA]",
+      "title": "SEQ Catchment [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "pdf_url1",
+          "type": "esriFieldTypeString",
+          "alias": "Project information 2"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "South West NRM [SA]",
+      "title": "South West NRM [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "pdf_url1",
+          "type": "esriFieldTypeString",
+          "alias": "Project information 2"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Terrain NRM [SA]",
+      "title": "Terrain NRM [SA]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Water quality [WQ]",
+      "title": "Water quality [WQ]",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Burnett Mary Regional Group [WQ]",
+      "title": "Burnett Mary Regional Group [WQ]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectId"
+        },
+        {
+          "name": "p_name",
+          "type": "esriFieldTypeString",
+          "alias": "Project name"
+        },
+        {
+          "name": "proponent",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent name"
+        },
+        {
+          "name": "theme_1",
+          "type": "esriFieldTypeString",
+          "alias": "Primary theme"
+        },
+        {
+          "name": "theme_2",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary theme"
+        },
+        {
+          "name": "theme_3",
+          "type": "esriFieldTypeString",
+          "alias": "Tertiary theme"
+        },
+        {
+          "name": "p_value",
+          "type": "esriFieldTypeInteger",
+          "alias": "Project value (AUD$)"
+        },
+        {
+          "name": "p_status",
+          "type": "esriFieldTypeString",
+          "alias": "Project status"
+        },
+        {
+          "name": "p_start",
+          "type": "esriFieldTypeDate",
+          "alias": "Project start"
+        },
+        {
+          "name": "p_exp_end",
+          "type": "esriFieldTypeDate",
+          "alias": "Project expected end date"
+        },
+        {
+          "name": "pro_web",
+          "type": "esriFieldTypeString",
+          "alias": "Proponent website"
+        },
+        {
+          "name": "pdf_url",
+          "type": "esriFieldTypeString",
+          "alias": "Project information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Condamine Alliance [WQ]",
+      "title": "Condamine Alliance [WQ]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Desert Channels Queensland [WQ]",
+      "title": "Desert Channels Queensland [WQ]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Fitzroy Basin Association [WQ]",
+      "title": "Fitzroy Basin Association [WQ]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "NQ Dry Tropics [WQ]",
+      "title": "NQ Dry Tropics [WQ]",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Burdekin P2R Integrated modelling monitoring and reporting program",
+      "title": "Burdekin P2R Integrated modelling monitoring and reporting program",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Improving landscape resilience in the important sugar production area of the Lower Burdekin Delta",
+      "title": "Improving landscape resilience in the important sugar production area of the Lower Burdekin Delta",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Queensland Murray-Darling Committee [WQ]",
+      "title": "Queensland Murray-Darling Committee [WQ]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Reef Catchments [WQ]",
+      "title": "Reef Catchments [WQ]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Terrain NRM [WQ]",
+      "title": "Terrain NRM [WQ]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Weeds and pests [WP]",
+      "title": "Weeds and pests [WP]",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Burnett Mary Regional Group [WP]",
+      "title": "Burnett Mary Regional Group [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Cape York NRM [WP]",
+      "title": "Cape York NRM [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Condamine Alliance [WP]",
+      "title": "Condamine Alliance [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Desert Channels Queensland [WP]",
+      "title": "Desert Channels Queensland [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Fitzroy Basin Association [WP]",
+      "title": "Fitzroy Basin Association [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "NQ Dry Tropics [WP]",
+      "title": "NQ Dry Tropics [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Queensland Murray-Darling Committee [WP]",
+      "title": "Queensland Murray-Darling Committee [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Reef Catchments [WP]",
+      "title": "Reef Catchments [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "SEQ Catchment [WP]",
+      "title": "SEQ Catchment [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Southern Gulf [WP]",
+      "title": "Southern Gulf [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Terrain NRM [WP]",
+      "title": "Terrain NRM [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Torres Strait Regional Authority [WP]",
+      "title": "Torres Strait Regional Authority [WP]",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 253,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "slug": "map-devon-gov-uk-adminboundaries-mapserver",
+  "service_key": "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Information/AdminBoundaries/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://map.devon.gov.uk/arcgis/rest/services/Information/AdminBoundaries/MapServer",
+  "title": "AdminBoundaries",
+  "description": "Administrative boundaries including parishes, electoral and health areas.",
+  "abstract": "Admin Boundaries for Devon, Cornwall etc",
+  "provider": "map.devon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Devon",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Electoral Boundaries",
+      "title": "Electoral Boundaries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Devon Boundary including Torbay and Plymouth",
+      "title": "Devon Boundary including Torbay and Plymouth",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Area_Descr",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Descr"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Counties",
+      "title": "Counties",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "County"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "County Code"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Districts",
+      "title": "Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "District Code"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Parliamentary Constituencies",
+      "title": "Parliamentary Constituencies",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Constituency"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Constituency Code"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Parish",
+      "title": "Parish",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Parish"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Parish Code"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Ward",
+      "title": "Ward",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Ward"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Ward Code"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Electoral Divisions",
+      "title": "Electoral Divisions",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Electoral Division"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "CED24CD",
+          "type": "esriFieldTypeString",
+          "alias": "CED24CD"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Health Boundaries",
+      "title": "Health Boundaries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Local Care Partnerships",
+      "title": "Local Care Partnerships",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "LCPNo",
+          "type": "esriFieldTypeInteger",
+          "alias": "LCPNo"
+        },
+        {
+          "name": "LCPName",
+          "type": "esriFieldTypeString",
+          "alias": "LCPName"
+        },
+        {
+          "name": "Ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ha"
+        },
+        {
+          "name": "Acres",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acres"
+        },
+        {
+          "name": "SQMiles",
+          "type": "esriFieldTypeDouble",
+          "alias": "SQMiles"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "XMin",
+          "type": "esriFieldTypeDouble",
+          "alias": "XMin"
+        },
+        {
+          "name": "YMin",
+          "type": "esriFieldTypeDouble",
+          "alias": "YMin"
+        },
+        {
+          "name": "XMax",
+          "type": "esriFieldTypeDouble",
+          "alias": "XMax"
+        },
+        {
+          "name": "YMax",
+          "type": "esriFieldTypeDouble",
+          "alias": "YMax"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Clinical Commissioning Group Localities",
+      "title": "Clinical Commissioning Group Localities",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Locality",
+          "type": "esriFieldTypeString",
+          "alias": "Locality"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Clinical Commissioning Groups 2019",
+      "title": "Clinical Commissioning Groups 2019",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "ccg19cd",
+          "type": "esriFieldTypeString",
+          "alias": "CCG Code"
+        },
+        {
+          "name": "ccg19nm",
+          "type": "esriFieldTypeString",
+          "alias": "CCG Name"
+        },
+        {
+          "name": "bng_e",
+          "type": "esriFieldTypeInteger",
+          "alias": "Easting"
+        },
+        {
+          "name": "bng_n",
+          "type": "esriFieldTypeInteger",
+          "alias": "Longitude"
+        },
+        {
+          "name": "long",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "lat",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Census Boundaries",
+      "title": "Census Boundaries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Output Areas",
+      "title": "Output Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OA21CD",
+          "type": "esriFieldTypeString",
+          "alias": "OA21CD"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Lower Super Output Areas 2021",
+      "title": "Lower Super Output Areas 2021",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA21CD",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA21CD"
+        },
+        {
+          "name": "LSOA21NM",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA21NM"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Middle Super Output Areas 2021",
+      "title": "Middle Super Output Areas 2021",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Education Boundaries",
+      "title": "Education Boundaries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "CSC Localities",
+      "title": "CSC Localities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 353,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

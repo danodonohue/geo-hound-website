@@ -1,0 +1,125 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-46",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_CRC/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_CRC/MapServer",
+  "title": "Layers",
+  "description": "Community recycling centre locations.",
+  "abstract": "People & Community - Community Recycling Centres",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 13,
+      "name": "People & Community - Community Recycling Centres",
+      "title": "People & Community - Community Recycling Centres",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Site_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "Resident_Scheme",
+          "type": "esriFieldTypeString",
+          "alias": "Resident Scheme"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Road",
+          "type": "esriFieldTypeString",
+          "alias": "Road"
+        },
+        {
+          "name": "Town",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "Eastings",
+          "type": "esriFieldTypeDouble",
+          "alias": "Eastings"
+        },
+        {
+          "name": "Northings",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northings"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 306,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

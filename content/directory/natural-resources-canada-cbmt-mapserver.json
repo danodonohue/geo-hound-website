@@ -1,0 +1,108 @@
+{
+  "slug": "natural-resources-canada-cbmt-mapserver",
+  "service_key": "ESRI MapServer:https://www.earthquakescanada.nrcan.gc.ca/server2_serveur2/rest/services/BaseMaps/CBMT3978/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.earthquakescanada.nrcan.gc.ca/server2_serveur2/rest/services/BaseMaps/CBMT3978/MapServer",
+  "title": "CBMT",
+  "description": "Canada Base Map transportation service with emphasis on road networks and transport infrastructure.",
+  "abstract": "The Canada Base Map - Transportation (CBMT). This web mapping service provides spatial reference context with an emphasis on transportation networks. It is designed especially for use as a background map in a web mapping application or geographic information system (GIS). Access is free of charge under the terms of the following licence: Open Government Licence – Canada - http://open.canada.ca/en/open-government-licence-canada. Its data source is the CanVec product which is available on Open Government web site with title Topographic data of Canada - CanVec Series (http://open.canada.ca/data/en/dataset/8ba2aa2a-7bb9-4448-b4d7-f164409fe056).",
+  "provider": "Natural Resources Canada",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Land_Terre",
+      "title": "Land_Terre",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "LAND",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LAND"
+        },
+        {
+          "name": "USER_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "USER_NAME"
+        },
+        {
+          "name": "EDIT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EDIT_DATE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Water_Eau",
+      "title": "Water_Eau",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3978"
+  ],
+  "cors_enabled": true,
+  "response_ms": 2357,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,1584 @@
+{
+  "slug": "gis-rdc-govt-nz-cadastral-mapserver",
+  "service_key": "ESRI MapServer:https://gis.rdc.govt.nz/server/rest/services/Core/Cadastral/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.rdc.govt.nz/server/rest/services/Core/Cadastral/MapServer",
+  "title": "Cadastral",
+  "description": "Cadastral parcels, land titles and survey marks with addresses.",
+  "abstract": "Cadastral data including parcels and titles",
+  "provider": "gis.rdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 5,
+      "name": "Titles",
+      "title": "Titles",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "title_no",
+          "type": "esriFieldTypeString",
+          "alias": "title_no"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "issue_date",
+          "type": "esriFieldTypeDate",
+          "alias": "issue_date"
+        },
+        {
+          "name": "guarantee_status",
+          "type": "esriFieldTypeString",
+          "alias": "guarantee_status"
+        },
+        {
+          "name": "estate_description",
+          "type": "esriFieldTypeString",
+          "alias": "estate_description"
+        },
+        {
+          "name": "spatial_extents_shared",
+          "type": "esriFieldTypeString",
+          "alias": "spatial_extents_shared"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Parcels",
+      "title": "Parcels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Prov_Parcel PLACEHOLDER",
+      "title": "Prov_Parcel PLACEHOLDER",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Survey_Marks",
+      "title": "Survey_Marks",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Survey_Boundary_Marks_nom_accuracy",
+      "title": "Survey_Boundary_Marks_nom_accuracy",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "order_",
+          "type": "esriFieldTypeInteger",
+          "alias": "order"
+        },
+        {
+          "name": "nominal_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "nominal_accuracy"
+        },
+        {
+          "name": "date_last_adjusted",
+          "type": "esriFieldTypeDate",
+          "alias": "date_last_adjusted"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "Survey_Boundary_Marks_points",
+      "title": "Survey_Boundary_Marks_points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "order_",
+          "type": "esriFieldTypeInteger",
+          "alias": "order"
+        },
+        {
+          "name": "nominal_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "nominal_accuracy"
+        },
+        {
+          "name": "date_last_adjusted",
+          "type": "esriFieldTypeDate",
+          "alias": "date_last_adjusted"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 65,
+      "name": "Frontage",
+      "title": "Frontage",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FCL",
+          "type": "esriFieldTypeString",
+          "alias": "FCL"
+        },
+        {
+          "name": "FCR",
+          "type": "esriFieldTypeString",
+          "alias": "FCR"
+        },
+        {
+          "name": "AdjacentRoad",
+          "type": "esriFieldTypeString",
+          "alias": "AdjacentRoad"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Angle"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "Created",
+          "type": "esriFieldTypeDate",
+          "alias": "Created"
+        },
+        {
+          "name": "Edited",
+          "type": "esriFieldTypeDate",
+          "alias": "Edited"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Lat",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lat"
+        },
+        {
+          "name": "Long",
+          "type": "esriFieldTypeDouble",
+          "alias": "Long"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 75,
+      "name": "Parcel - RDC",
+      "title": "Parcel - RDC",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 85,
+      "name": "Parcel - Strata",
+      "title": "Parcel - Strata",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 95,
+      "name": "Parcel - Tertiary",
+      "title": "Parcel - Tertiary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 105,
+      "name": "Parcel - Secondary",
+      "title": "Parcel - Secondary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 115,
+      "name": "Parcel - Primary",
+      "title": "Parcel - Primary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 125,
+      "name": "Parcel - Historic",
+      "title": "Parcel - Historic",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 135,
+      "name": "Roadcase",
+      "title": "Roadcase",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUE"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "dateStart",
+          "type": "esriFieldTypeDate",
+          "alias": "dateStart"
+        },
+        {
+          "name": "dateEnd",
+          "type": "esriFieldTypeDate",
+          "alias": "dateEnd"
+        },
+        {
+          "name": "survey_area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "survey_area_ha"
+        },
+        {
+          "name": "TLA024",
+          "type": "esriFieldTypeInteger",
+          "alias": "TLA024"
+        },
+        {
+          "name": "featcode",
+          "type": "esriFieldTypeString",
+          "alias": "featcode"
+        },
+        {
+          "name": "RevID",
+          "type": "esriFieldTypeString",
+          "alias": "RevID"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "survey_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeInteger",
+          "alias": "calc_area"
+        },
+        {
+          "name": "change",
+          "type": "esriFieldTypeString",
+          "alias": "change"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 145,
+      "name": "Address",
+      "title": "Address",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AddressLabel",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLabel"
+        },
+        {
+          "name": "RoadLabel",
+          "type": "esriFieldTypeString",
+          "alias": "RoadLabel"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 155,
+      "name": "LINZ Street Address",
+      "title": "LINZ Street Address",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 165,
+      "name": "Road (Labels)",
+      "title": "Road (Labels)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 175,
+      "name": "Road (Centrelines)",
+      "title": "Road (Centrelines)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 185,
+      "name": "State Highways",
+      "title": "State Highways",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 195,
+      "name": "Councils",
+      "title": "Councils",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 215,
+      "name": "RegCouncil",
+      "title": "RegCouncil",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 265,
+      "name": "TLA",
+      "title": "TLA",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 176,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

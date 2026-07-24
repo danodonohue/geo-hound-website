@@ -1,0 +1,895 @@
+{
+  "slug": "gis-nzpam-govt-nz-layers-featureserver",
+  "service_key": "ESRI FeatureServer:https://gis.nzpam.govt.nz/server/rest/services/Public/Permits_Minerals_Layers/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://gis.nzpam.govt.nz/server/rest/services/Public/Permits_Minerals_Layers/FeatureServer",
+  "title": "Layers",
+  "description": "Mineral permits and applications with boundaries and permit status.",
+  "abstract": "This is a map image layer provided by New Zealand Petroleum &amp; Minerals (NZP&amp;M) to show current mineral permits and applications in New Zealand. This map image layer is used in the Minerals Permit Webmaps GIS app.Minerals Permit Webmaps -  https://gis.nzpam.govt.nz/permitwebmaps/?commodity=mineralsNZP&amp;M provides online maps using real-time data to show all current petroleum permits and applications in New Zealand. The maps are updated through our permit register system and GIS database. You can print out maps, or download the data as shapefiles. A user guide is available here. Layers included in this map image layer:Minerals Permit Applications - Spatial representation of areas under application for prospecting, exploration, or mining permits for mineralsMineral Active Permits - Spatial representation of active permits for minerals prospecting, exploration or mining. This layer includes permits granted under the Crown Minerals Act 1991, licences granted under previous legislation, and areas designated as Gold Fossicking AreasMinerals Extension of Land - Spatial representation of areas where permit holders have applied to extend the area covered by an existing minerals prospecting, exploration, or mining permitPending Contest Round - Spatial representation of areas to be released as Newly Available Acreage or Competitive TenderOpen Contest Round - Spatial representation of areas currently open for competitive applications as Newly Available Acreage or Competitive TenderClosed Contest Round - Spatial representation of closed Newly Available Acreage, Competitive Tender, and Equal Priority in Time contest rounds where applications may be under evaluationReserved Area - Spatial representation of areas reserved from permitting under Section 28A of the Crown Minerals ActThese data are managed by the NZP&amp;M Geospatial team. If you have any questions about the data, please contact us at ERMGeospatial@mbie.govt.nz.",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Minerals Permit Applications",
+      "title": "Minerals Permit Applications",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Application_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Application_ID"
+        },
+        {
+          "name": "Permit_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Number"
+        },
+        {
+          "name": "Associated_Permits",
+          "type": "esriFieldTypeString",
+          "alias": "Associated_Permits"
+        },
+        {
+          "name": "Change_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Change_Type"
+        },
+        {
+          "name": "Change_Allocation_Method",
+          "type": "esriFieldTypeString",
+          "alias": "Change_Allocation_Method"
+        },
+        {
+          "name": "Change_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Change_Description"
+        },
+        {
+          "name": "Change_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Change_Status"
+        },
+        {
+          "name": "Change_Status_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Change_Status_Date"
+        },
+        {
+          "name": "Reduce_Area_by",
+          "type": "esriFieldTypeString",
+          "alias": "Reduce_Area_by"
+        },
+        {
+          "name": "Reduce_Area_by_unit",
+          "type": "esriFieldTypeString",
+          "alias": "Reduce_Area_by_unit"
+        },
+        {
+          "name": "Extend_Area_by",
+          "type": "esriFieldTypeString",
+          "alias": "Extend_Area_by"
+        },
+        {
+          "name": "Extend_Area_by_unit",
+          "type": "esriFieldTypeString",
+          "alias": "Extend_Area_by_unit"
+        },
+        {
+          "name": "Submitted_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Submitted_Date"
+        },
+        {
+          "name": "Received_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Received_Date"
+        },
+        {
+          "name": "Permit_Nonexclusive_YN",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Nonexclusive_YN"
+        },
+        {
+          "name": "Permit_Duration_in_Years",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit_Duration_in_Years"
+        },
+        {
+          "name": "Permit_Duration_in_Months",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit_Duration_in_Months"
+        },
+        {
+          "name": "Permit_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Area"
+        },
+        {
+          "name": "Permit_Area_Unit",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Area_Unit"
+        },
+        {
+          "name": "Permit_Offshore_Onshore",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Offshore_Onshore"
+        },
+        {
+          "name": "Permit_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Location"
+        },
+        {
+          "name": "Commodity",
+          "type": "esriFieldTypeString",
+          "alias": "Commodity"
+        },
+        {
+          "name": "Permit_Type_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Type_Code"
+        },
+        {
+          "name": "Permit_Type_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Type_Description"
+        },
+        {
+          "name": "Permit_MP",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_MP"
+        },
+        {
+          "name": "Subsequent_to_Permit",
+          "type": "esriFieldTypeString",
+          "alias": "Subsequent_to_Permit"
+        },
+        {
+          "name": "Permit_Allocation_Method",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Allocation_Method"
+        },
+        {
+          "name": "Permit_Received_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Permit_Received_Date"
+        },
+        {
+          "name": "Permit_Grant_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Permit_Grant_Date"
+        },
+        {
+          "name": "Permit_Commencement_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Permit_Commencement_Date"
+        },
+        {
+          "name": "Permit_Expiry_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Permit_Expiry_Date"
+        },
+        {
+          "name": "Operation_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Operation_Name"
+        },
+        {
+          "name": "Owners",
+          "type": "esriFieldTypeString",
+          "alias": "Owners"
+        },
+        {
+          "name": "Share_Percentage",
+          "type": "esriFieldTypeString",
+          "alias": "Share_Percentage"
+        },
+        {
+          "name": "Operator",
+          "type": "esriFieldTypeString",
+          "alias": "Operator"
+        },
+        {
+          "name": "Minerals",
+          "type": "esriFieldTypeString",
+          "alias": "Minerals"
+        },
+        {
+          "name": "B1_PER_ID1",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID1"
+        },
+        {
+          "name": "B1_PER_ID2",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID2"
+        },
+        {
+          "name": "B1_PER_ID3",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID3"
+        }
+      ],
+      "feature_count": 162
+    },
+    {
+      "id": 1,
+      "name": "Mineral Active Permits",
+      "title": "Mineral Active Permits",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Permit_Number",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_NUMBER"
+        },
+        {
+          "name": "Permit_Nonexclusive_YN",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_NONEXCLUSIVE_YN"
+        },
+        {
+          "name": "Permit_Area",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_AREA"
+        },
+        {
+          "name": "Permit_Offshore_Onshore",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_OFFSHORE_ONSHORE"
+        },
+        {
+          "name": "Permit_Status",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_STATUS"
+        },
+        {
+          "name": "Permit_Status_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_STATUS_DATE"
+        },
+        {
+          "name": "Permit_Location",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_LOCATION"
+        },
+        {
+          "name": "Permit_Mineral_Group",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_MINERAL_GROUP"
+        },
+        {
+          "name": "Permit_Type_Code",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_TYPE_CODE"
+        },
+        {
+          "name": "Permit_Type_Description",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_TYPE_DESCRIPTION"
+        },
+        {
+          "name": "Permit_MP",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_MP"
+        },
+        {
+          "name": "Subsequent_to_Permit",
+          "type": "esriFieldTypeString",
+          "alias": "SUBSEQUENT_TO_PERMIT"
+        },
+        {
+          "name": "Permit_Allocation_Method",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_ALLOCATION_METHOD"
+        },
+        {
+          "name": "Permit_Commencement_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_COMMENCEMENT_DATE"
+        },
+        {
+          "name": "Permit_Expiry_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_EXPIRY_DATE"
+        },
+        {
+          "name": "Permit_Grant_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_GRANT_DATE"
+        },
+        {
+          "name": "Owners",
+          "type": "esriFieldTypeString",
+          "alias": "OWNERS"
+        },
+        {
+          "name": "Share_Percentage",
+          "type": "esriFieldTypeString",
+          "alias": "SHARE_PERCENTAGE"
+        },
+        {
+          "name": "Operator",
+          "type": "esriFieldTypeString",
+          "alias": "OPERATOR"
+        },
+        {
+          "name": "Minerals",
+          "type": "esriFieldTypeString",
+          "alias": "MINERALS"
+        },
+        {
+          "name": "B1_PER_ID1",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID1"
+        },
+        {
+          "name": "B1_PER_ID2",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID2"
+        },
+        {
+          "name": "B1_PER_ID3",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID3"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Permit_Duration_in_Years",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit_Duration_in_Years"
+        },
+        {
+          "name": "Permit_Duration_in_Months",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit_Duration_in_Months"
+        },
+        {
+          "name": "Permit_Area_Unit",
+          "type": "esriFieldTypeString",
+          "alias": "Permit_Area_Unit"
+        },
+        {
+          "name": "Commodity",
+          "type": "esriFieldTypeString",
+          "alias": "Commodity"
+        },
+        {
+          "name": "Operation_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Operation_Name"
+        }
+      ],
+      "feature_count": 1071
+    },
+    {
+      "id": 2,
+      "name": "Minerals Extension of Land",
+      "title": "Minerals Extension of Land",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Permit_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Number"
+        },
+        {
+          "name": "Change_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Change Type"
+        },
+        {
+          "name": "Change_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Change_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Extend_Area_by",
+          "type": "esriFieldTypeString",
+          "alias": "Extend Area by"
+        },
+        {
+          "name": "Permit_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Area"
+        },
+        {
+          "name": "Permit_Area_Unit",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Area Unit"
+        },
+        {
+          "name": "Permit_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Permit_Type_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Type Code"
+        },
+        {
+          "name": "Permit_Type_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Type Description"
+        },
+        {
+          "name": "Subsequent_to_Permit",
+          "type": "esriFieldTypeString",
+          "alias": "Subsequent To Permit"
+        },
+        {
+          "name": "Permit_Allocation_Method",
+          "type": "esriFieldTypeString",
+          "alias": "Allocation Method"
+        },
+        {
+          "name": "Owners",
+          "type": "esriFieldTypeString",
+          "alias": "Owner(s)"
+        },
+        {
+          "name": "Change_Allocation_Method",
+          "type": "esriFieldTypeString",
+          "alias": "Change Allocation Method"
+        },
+        {
+          "name": "Reduce_Area_by",
+          "type": "esriFieldTypeString",
+          "alias": "Reduce Area by"
+        },
+        {
+          "name": "Share_Percentage",
+          "type": "esriFieldTypeString",
+          "alias": "Share Percentage(s)"
+        },
+        {
+          "name": "Operator",
+          "type": "esriFieldTypeString",
+          "alias": "Operator"
+        },
+        {
+          "name": "Minerals",
+          "type": "esriFieldTypeString",
+          "alias": "Mineral(s)"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Associated_Permits",
+          "type": "esriFieldTypeString",
+          "alias": "ASSOCIATED_PERMITS"
+        },
+        {
+          "name": "Permit_Offshore_Onshore",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_OFFSHORE_ONSHORE"
+        },
+        {
+          "name": "Permit_MP",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_MP"
+        },
+        {
+          "name": "Permit_Nonexclusive_YN",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_NONEXCLUSIVE_YN"
+        },
+        {
+          "name": "Change_Status_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "CHANGE_STATUS_DATE"
+        },
+        {
+          "name": "Submitted_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "SUBMITTED_DATE"
+        },
+        {
+          "name": "Received_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "RECEIVED_DATE"
+        },
+        {
+          "name": "Permit_Commencement_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_COMMENCEMENT_DATE"
+        },
+        {
+          "name": "Permit_Expiry_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_EXPIRY_DATE"
+        },
+        {
+          "name": "Permit_Grant_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_GRANT_DATE"
+        },
+        {
+          "name": "Permit_Received_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "PERMIT_RECEIVED_DATE"
+        },
+        {
+          "name": "B1_PER_ID1",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID1"
+        },
+        {
+          "name": "B1_PER_ID2",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID2"
+        },
+        {
+          "name": "B1_PER_ID3",
+          "type": "esriFieldTypeString",
+          "alias": "B1_PER_ID3"
+        },
+        {
+          "name": "Application_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Application_ID"
+        },
+        {
+          "name": "Reduce_Area_by_unit",
+          "type": "esriFieldTypeString",
+          "alias": "Reduce_Area_by_unit"
+        },
+        {
+          "name": "Extend_Area_by_unit",
+          "type": "esriFieldTypeString",
+          "alias": "Extend_Area_by_unit"
+        },
+        {
+          "name": "Permit_Duration_in_Years",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit_Duration_in_Years"
+        },
+        {
+          "name": "Permit_Duration_in_Months",
+          "type": "esriFieldTypeInteger",
+          "alias": "Permit_Duration_in_Months"
+        },
+        {
+          "name": "Commodity",
+          "type": "esriFieldTypeString",
+          "alias": "Commodity"
+        },
+        {
+          "name": "Operation_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Operation_Name"
+        }
+      ],
+      "feature_count": 33
+    },
+    {
+      "id": 3,
+      "name": "Pending Contest Round",
+      "title": "Pending Contest Round",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Contest_Round_Number",
+          "type": "esriFieldTypeDouble",
+          "alias": "Round Number"
+        },
+        {
+          "name": "Contest_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Contest_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Contest_Start_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Start Date"
+        },
+        {
+          "name": "Contest_Close_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Close Date"
+        },
+        {
+          "name": "Contest_Commodity",
+          "type": "esriFieldTypeString",
+          "alias": "Commodity"
+        },
+        {
+          "name": "Contest_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Contest_NAA_Group",
+          "type": "esriFieldTypeString",
+          "alias": "Contest_NAA_Group"
+        },
+        {
+          "name": "Concluded_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Concluded_Date"
+        }
+      ],
+      "feature_count": 0
+    },
+    {
+      "id": 4,
+      "name": "Open Contest Round",
+      "title": "Open Contest Round",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Contest_Round_Number",
+          "type": "esriFieldTypeDouble",
+          "alias": "Round Number"
+        },
+        {
+          "name": "Contest_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Contest_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Contest_Start_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Start Date"
+        },
+        {
+          "name": "Contest_Close_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Close Date"
+        },
+        {
+          "name": "Contest_Commodity",
+          "type": "esriFieldTypeString",
+          "alias": "Commodity"
+        },
+        {
+          "name": "Contest_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Contest_NAA_Group",
+          "type": "esriFieldTypeString",
+          "alias": "Contest_NAA_Group"
+        },
+        {
+          "name": "Concluded_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Concluded_Date"
+        }
+      ],
+      "feature_count": 0
+    },
+    {
+      "id": 5,
+      "name": "Closed Contest Round",
+      "title": "Closed Contest Round",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Contest_Round_Number",
+          "type": "esriFieldTypeDouble",
+          "alias": "Round Number"
+        },
+        {
+          "name": "Contest_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Contest_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Contest_Start_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Start Date"
+        },
+        {
+          "name": "Contest_Close_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Close Date"
+        },
+        {
+          "name": "Contest_Commodity",
+          "type": "esriFieldTypeString",
+          "alias": "Commodity"
+        },
+        {
+          "name": "Contest_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Contest_NAA_Group",
+          "type": "esriFieldTypeString",
+          "alias": "Contest_NAA_Group"
+        },
+        {
+          "name": "Concluded_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Concluded_Date"
+        }
+      ],
+      "feature_count": 4
+    },
+    {
+      "id": 6,
+      "name": "Reserved Area",
+      "title": "Reserved Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PERMIT_NUMBER",
+          "type": "esriFieldTypeInteger",
+          "alias": "Shape Permit Number"
+        },
+        {
+          "name": "RESERVE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve Name"
+        },
+        {
+          "name": "START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Start Date"
+        },
+        {
+          "name": "END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "End Date"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "ADDITIONAL_INFO",
+          "type": "esriFieldTypeString",
+          "alias": "ADDITIONAL_INFO"
+        }
+      ],
+      "feature_count": 1
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 243,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

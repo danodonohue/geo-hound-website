@@ -1,0 +1,194 @@
+{
+  "slug": "gis-telkom-co-za-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis.telkom.co.za/arcgis/rest/services/Retail/TelkomRetailFibre/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.telkom.co.za/arcgis/rest/services/Retail/TelkomRetailFibre/MapServer",
+  "title": "Layers",
+  "description": "South Africa Telkom fibre network coverage and availability.",
+  "abstract": "Telkom Retails Fibre Offering \nOpen Serve and Other Providers",
+  "provider": "gis.telkom.co.za",
+  "place": {
+    "country": "South Africa",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "FIBRE_SPLITTER_BOUNDARY",
+      "title": "FIBRE_SPLITTER_BOUNDARY",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CBS_SPLITTER_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CBS_SPLITTER_CODE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "WEB_UPLOAD",
+          "type": "esriFieldTypeString",
+          "alias": "WEB_UPLOAD"
+        },
+        {
+          "name": "QUERYURL_FSB",
+          "type": "esriFieldTypeString",
+          "alias": "QUERYURL_FSB"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "FTTH_Retail_Provider",
+      "title": "FTTH_Retail_Provider",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "P_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "P_ID"
+        },
+        {
+          "name": "P_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "P_NAME"
+        },
+        {
+          "name": "AREA_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_STATUS"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "UPLOAD_TAG",
+          "type": "esriFieldTypeString",
+          "alias": "UPLOAD_TAG"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SPEED_MAX",
+          "type": "esriFieldTypeInteger",
+          "alias": "SPEED_MAX"
+        },
+        {
+          "name": "SPEED_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "SPEED_MIN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "FDA",
+      "title": "FDA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "PMO_FDA_ID",
+          "type": "esriFieldTypeString",
+          "alias": "PMO_FDA_ID"
+        },
+        {
+          "name": "FDA_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "FDA_STATUS"
+        },
+        {
+          "name": "MEDIA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MEDIA_NAME"
+        },
+        {
+          "name": "QUERYURL_FPA",
+          "type": "esriFieldTypeString",
+          "alias": "QUERYURL_FPA"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102113"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1651,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

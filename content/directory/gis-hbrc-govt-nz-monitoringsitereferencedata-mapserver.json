@@ -1,0 +1,410 @@
+{
+  "slug": "gis-hbrc-govt-nz-monitoringsitereferencedata-mapserver",
+  "service_key": "ESRI MapServer:https://gis.hbrc.govt.nz/server/rest/services/emar/MonitoringSiteReferenceData/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.hbrc.govt.nz/server/rest/services/emar/MonitoringSiteReferenceData/MapServer",
+  "title": "MonitoringSiteReferenceData",
+  "description": "Environmental monitoring site reference data for water, air and ground monitoring.",
+  "abstract": "Enviironmental Monitoring Sites for EMAR",
+  "provider": "gis.hbrc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "MonitoringSiteReferenceData",
+      "title": "MonitoringSiteReferenceData",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "NZSegment",
+          "type": "esriFieldTypeString",
+          "alias": "NZSegment"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SiteID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiteID"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeString",
+          "alias": "Elevation"
+        },
+        {
+          "name": "CouncilSiteID",
+          "type": "esriFieldTypeString",
+          "alias": "CouncilSiteID"
+        },
+        {
+          "name": "LawaSiteID",
+          "type": "esriFieldTypeString",
+          "alias": "LawaSiteID"
+        },
+        {
+          "name": "SWManagementZone",
+          "type": "esriFieldTypeString",
+          "alias": "SWManagementZone"
+        },
+        {
+          "name": "GWManagementZone",
+          "type": "esriFieldTypeString",
+          "alias": "GWManagementZone"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Photograph",
+          "type": "esriFieldTypeString",
+          "alias": "Photograph"
+        },
+        {
+          "name": "SWQuality",
+          "type": "esriFieldTypeString",
+          "alias": "SWQuality"
+        },
+        {
+          "name": "SWQualityStart",
+          "type": "esriFieldTypeString",
+          "alias": "SWQualityStart"
+        },
+        {
+          "name": "RWQuality",
+          "type": "esriFieldTypeString",
+          "alias": "RWQuality"
+        },
+        {
+          "name": "RWQualityStart",
+          "type": "esriFieldTypeString",
+          "alias": "RWQualityStart"
+        },
+        {
+          "name": "SWQuantity",
+          "type": "esriFieldTypeString",
+          "alias": "SWQuantity"
+        },
+        {
+          "name": "SWQuantityStart",
+          "type": "esriFieldTypeString",
+          "alias": "SWQuantityStart"
+        },
+        {
+          "name": "Rainfall",
+          "type": "esriFieldTypeString",
+          "alias": "Rainfall"
+        },
+        {
+          "name": "RainfallStart",
+          "type": "esriFieldTypeString",
+          "alias": "RainfallStart"
+        },
+        {
+          "name": "GWLevel",
+          "type": "esriFieldTypeString",
+          "alias": "GWLevel"
+        },
+        {
+          "name": "GWLevelStart",
+          "type": "esriFieldTypeString",
+          "alias": "GWLevelStart"
+        },
+        {
+          "name": "GWQualityStatus",
+          "type": "esriFieldTypeString",
+          "alias": "GWQualityStatus"
+        },
+        {
+          "name": "GWQualityStart",
+          "type": "esriFieldTypeString",
+          "alias": "GWQualityStart"
+        },
+        {
+          "name": "AirQuality",
+          "type": "esriFieldTypeString",
+          "alias": "AirQuality"
+        },
+        {
+          "name": "AirQualityStart",
+          "type": "esriFieldTypeString",
+          "alias": "AirQualityStart"
+        },
+        {
+          "name": "AirQSiteType",
+          "type": "esriFieldTypeString",
+          "alias": "AirQSiteType"
+        },
+        {
+          "name": "AirQNES",
+          "type": "esriFieldTypeString",
+          "alias": "AirQNES"
+        },
+        {
+          "name": "AirSiteCurrent",
+          "type": "esriFieldTypeString",
+          "alias": "AirSiteCurrent"
+        },
+        {
+          "name": "AirTown",
+          "type": "esriFieldTypeString",
+          "alias": "AirTown"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Agency",
+          "type": "esriFieldTypeString",
+          "alias": "Agency"
+        },
+        {
+          "name": "BoreID",
+          "type": "esriFieldTypeString",
+          "alias": "BoreID"
+        },
+        {
+          "name": "BoreDepth",
+          "type": "esriFieldTypeDouble",
+          "alias": "BoreDepth"
+        },
+        {
+          "name": "BoreTopOfScreen",
+          "type": "esriFieldTypeDouble",
+          "alias": "BoreTopOfScreen"
+        },
+        {
+          "name": "BoreBottomOfScreen",
+          "type": "esriFieldTypeDouble",
+          "alias": "BoreBottomOfScreen"
+        },
+        {
+          "name": "CatchmentArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "CatchmentArea"
+        },
+        {
+          "name": "MeanAnnualFlow",
+          "type": "esriFieldTypeDouble",
+          "alias": "MeanAnnualFlow"
+        },
+        {
+          "name": "MedianAnnualFlow",
+          "type": "esriFieldTypeDouble",
+          "alias": "MedianAnnualFlow"
+        },
+        {
+          "name": "MALF1d",
+          "type": "esriFieldTypeDouble",
+          "alias": "MALF1d"
+        },
+        {
+          "name": "MALF7d",
+          "type": "esriFieldTypeDouble",
+          "alias": "MALF7d"
+        },
+        {
+          "name": "MALF",
+          "type": "esriFieldTypeDouble",
+          "alias": "MALF"
+        },
+        {
+          "name": "MinRecordedFlow",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinRecordedFlow"
+        },
+        {
+          "name": "MaxRecordedFlow",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxRecordedFlow"
+        },
+        {
+          "name": "MeanAnnualFloodFlow",
+          "type": "esriFieldTypeDouble",
+          "alias": "MeanAnnualFloodFlow"
+        },
+        {
+          "name": "FlowAEP1in5yr",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlowAEP1in5yr"
+        },
+        {
+          "name": "FlowAEP1in10yr",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlowAEP1in10yr"
+        },
+        {
+          "name": "FlowAEP1in25yr",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlowAEP1in25yr"
+        },
+        {
+          "name": "FlowAEP1in50yr",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlowAEP1in50yr"
+        },
+        {
+          "name": "DateMinRecordedFlow",
+          "type": "esriFieldTypeString",
+          "alias": "DateMinRecordedFlow"
+        },
+        {
+          "name": "DateMaxRecordedFlow",
+          "type": "esriFieldTypeString",
+          "alias": "DateMaxRecordedFlow"
+        },
+        {
+          "name": "ConsentControlSite",
+          "type": "esriFieldTypeString",
+          "alias": "ConsentControlSite"
+        },
+        {
+          "name": "SWQFrequencyAll",
+          "type": "esriFieldTypeString",
+          "alias": "SWQFrequencyAll"
+        },
+        {
+          "name": "SWQFrequencyLast5",
+          "type": "esriFieldTypeString",
+          "alias": "SWQFrequencyLast5"
+        },
+        {
+          "name": "SWQAltitude",
+          "type": "esriFieldTypeString",
+          "alias": "SWQAltitude"
+        },
+        {
+          "name": "SWQLanduse",
+          "type": "esriFieldTypeString",
+          "alias": "SWQLanduse"
+        },
+        {
+          "name": "LWQuality",
+          "type": "esriFieldTypeString",
+          "alias": "LWQuality"
+        },
+        {
+          "name": "LWQualityStart",
+          "type": "esriFieldTypeString",
+          "alias": "LWQualityStart"
+        },
+        {
+          "name": "LType",
+          "type": "esriFieldTypeString",
+          "alias": "LType"
+        },
+        {
+          "name": "LFENZID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LFENZID"
+        },
+        {
+          "name": "Macro",
+          "type": "esriFieldTypeString",
+          "alias": "Macro"
+        },
+        {
+          "name": "MacroStart",
+          "type": "esriFieldTypeString",
+          "alias": "MacroStart"
+        },
+        {
+          "name": "NZReach",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZReach"
+        },
+        {
+          "name": "DataLicencingAttribute",
+          "type": "esriFieldTypeString",
+          "alias": "DataLicencingAttribute"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "SiteType"
+        },
+        {
+          "name": "GeomorphicLtype",
+          "type": "esriFieldTypeString",
+          "alias": "GeomorphicLtype"
+        },
+        {
+          "name": "GroundwaterQualityZone",
+          "type": "esriFieldTypeString",
+          "alias": "GroundwaterQualityZone"
+        },
+        {
+          "name": "WellDepth",
+          "type": "esriFieldTypeDouble",
+          "alias": "WellDepth"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 619,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

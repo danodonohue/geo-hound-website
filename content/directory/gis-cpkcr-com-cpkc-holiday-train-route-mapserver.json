@@ -1,0 +1,90 @@
+{
+  "slug": "gis-cpkcr-com-cpkc-holiday-train-route-mapserver",
+  "service_key": "ESRI MapServer:https://gis.cpkcr.com/arcgis/rest/services/HolidayTrain/CPKC_Holiday_Train_Route/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.cpkcr.com/arcgis/rest/services/HolidayTrain/CPKC_Holiday_Train_Route/MapServer",
+  "title": "CPKC Holiday Train Route",
+  "description": "Planned route for Canadian Pacific KC Holiday Train seasonal charity stops.",
+  "abstract": "CPKC Holiday Train Route",
+  "provider": "gis.cpkcr.com",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": [
+    -123.10979475999994,
+    19.838744358000042,
+    -66.02666499999998,
+    53.81105748700003
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "name": "CPKC Holiday Train Routes",
+      "title": "CPKC Holiday Train Routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Country",
+          "type": "esriFieldTypeString",
+          "alias": "Country"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 958,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

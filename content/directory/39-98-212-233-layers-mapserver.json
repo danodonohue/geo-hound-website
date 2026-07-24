@@ -1,0 +1,86 @@
+{
+  "slug": "39-98-212-233-layers-mapserver",
+  "service_key": "ESRI MapServer:http://39.98.212.233/ArcGIS/rest/services/ChinaOnlineStreetGray/MapServer",
+  "type": "ESRI MapServer",
+  "url": "http://39.98.212.233/ArcGIS/rest/services/ChinaOnlineStreetGray/MapServer",
+  "title": "Layers",
+  "description": "China street and basemap data in grayscale without points of interest.",
+  "abstract": "概述：灰色中文不含兴趣点版中国基础地图//投影:WGS 1984 Web-Mercator//切片格式:PNG//服务类型:基础地图服务//数据提供商:易图通科技（北京）有限公司//数据获取时间:2020年春季//地图最后更新时间:2020年12月16日//版权所有:北京捷泰天域信息技术有限公司",
+  "provider": "39.98.212.233",
+  "place": {
+    "country": "China",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "China",
+      "title": "China",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Leng"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 819,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

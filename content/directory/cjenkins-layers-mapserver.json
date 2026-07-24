@@ -1,0 +1,1251 @@
+{
+  "slug": "cjenkins-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis.cachecounty.gov/arcgis/rest/services/Recreation/Recreation/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.cachecounty.gov/arcgis/rest/services/Recreation/Recreation/MapServer",
+  "title": "Layers",
+  "description": "Cache County recreation facilities including trails, trailheads, parks and ski areas.",
+  "abstract": "Recreation Map",
+  "provider": "cjenkins",
+  "place": {
+    "country": "United States",
+    "state": "Utah",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Activity Areas",
+      "title": "Activity Areas",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "description",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Trailheads",
+      "title": "Trailheads",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "primaryname",
+          "type": "esriFieldTypeString",
+          "alias": "primaryname"
+        },
+        {
+          "name": "trailheadid",
+          "type": "esriFieldTypeString",
+          "alias": "trailheadid"
+        },
+        {
+          "name": "features",
+          "type": "esriFieldTypeString",
+          "alias": "features"
+        },
+        {
+          "name": "primarymaintenance",
+          "type": "esriFieldTypeString",
+          "alias": "primarymaintenance"
+        },
+        {
+          "name": "seasonalrestriction",
+          "type": "esriFieldTypeString",
+          "alias": "seasonalrestriction"
+        },
+        {
+          "name": "infourl",
+          "type": "esriFieldTypeString",
+          "alias": "infourl"
+        },
+        {
+          "name": "comments",
+          "type": "esriFieldTypeString",
+          "alias": "comments"
+        },
+        {
+          "name": "datasource",
+          "type": "esriFieldTypeString",
+          "alias": "datasource"
+        },
+        {
+          "name": "lastupdate",
+          "type": "esriFieldTypeDate",
+          "alias": "lastupdate"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Bike Route Signs",
+      "title": "Bike Route Signs",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "ident",
+          "type": "esriFieldTypeInteger",
+          "alias": "ident"
+        },
+        {
+          "name": "direction",
+          "type": "esriFieldTypeString",
+          "alias": "direction"
+        },
+        {
+          "name": "priority",
+          "type": "esriFieldTypeInteger",
+          "alias": "priority"
+        },
+        {
+          "name": "lat",
+          "type": "esriFieldTypeDouble",
+          "alias": "lat"
+        },
+        {
+          "name": "long",
+          "type": "esriFieldTypeDouble",
+          "alias": "long"
+        },
+        {
+          "name": "y_proj",
+          "type": "esriFieldTypeDouble",
+          "alias": "y_proj"
+        },
+        {
+          "name": "x_proj",
+          "type": "esriFieldTypeDouble",
+          "alias": "x_proj"
+        },
+        {
+          "name": "comment",
+          "type": "esriFieldTypeString",
+          "alias": "comment"
+        },
+        {
+          "name": "display",
+          "type": "esriFieldTypeString",
+          "alias": "display"
+        },
+        {
+          "name": "symbol",
+          "type": "esriFieldTypeString",
+          "alias": "symbol"
+        },
+        {
+          "name": "unused1",
+          "type": "esriFieldTypeString",
+          "alias": "unused1"
+        },
+        {
+          "name": "dist",
+          "type": "esriFieldTypeDouble",
+          "alias": "dist"
+        },
+        {
+          "name": "prox_index",
+          "type": "esriFieldTypeString",
+          "alias": "prox_index"
+        },
+        {
+          "name": "color",
+          "type": "esriFieldTypeString",
+          "alias": "color"
+        },
+        {
+          "name": "altitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "altitude"
+        },
+        {
+          "name": "depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "depth"
+        },
+        {
+          "name": "temp",
+          "type": "esriFieldTypeDouble",
+          "alias": "temp"
+        },
+        {
+          "name": "time",
+          "type": "esriFieldTypeString",
+          "alias": "time"
+        },
+        {
+          "name": "wpt_class",
+          "type": "esriFieldTypeString",
+          "alias": "wpt_class"
+        },
+        {
+          "name": "sub_class",
+          "type": "esriFieldTypeString",
+          "alias": "sub_class"
+        },
+        {
+          "name": "attrib",
+          "type": "esriFieldTypeString",
+          "alias": "attrib"
+        },
+        {
+          "name": "link",
+          "type": "esriFieldTypeString",
+          "alias": "link"
+        },
+        {
+          "name": "state",
+          "type": "esriFieldTypeString",
+          "alias": "state"
+        },
+        {
+          "name": "country",
+          "type": "esriFieldTypeString",
+          "alias": "country"
+        },
+        {
+          "name": "city",
+          "type": "esriFieldTypeString",
+          "alias": "city"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "facility",
+          "type": "esriFieldTypeString",
+          "alias": "facility"
+        },
+        {
+          "name": "crossroad",
+          "type": "esriFieldTypeString",
+          "alias": "crossroad"
+        },
+        {
+          "name": "unused2",
+          "type": "esriFieldTypeString",
+          "alias": "unused2"
+        },
+        {
+          "name": "ete",
+          "type": "esriFieldTypeString",
+          "alias": "ete"
+        },
+        {
+          "name": "dtype",
+          "type": "esriFieldTypeString",
+          "alias": "dtype"
+        },
+        {
+          "name": "model",
+          "type": "esriFieldTypeString",
+          "alias": "model"
+        },
+        {
+          "name": "filename",
+          "type": "esriFieldTypeString",
+          "alias": "filename"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Trails",
+      "title": "Trails",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "primaryname",
+          "type": "esriFieldTypeString",
+          "alias": "primaryname"
+        },
+        {
+          "name": "trialid",
+          "type": "esriFieldTypeString",
+          "alias": "trialid"
+        },
+        {
+          "name": "description",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "trailclass",
+          "type": "esriFieldTypeString",
+          "alias": "trailclass"
+        },
+        {
+          "name": "designateduses",
+          "type": "esriFieldTypeString",
+          "alias": "designateduses"
+        },
+        {
+          "name": "motorizedprohibited",
+          "type": "esriFieldTypeString",
+          "alias": "motorizedprohibited"
+        },
+        {
+          "name": "surfacetype",
+          "type": "esriFieldTypeString",
+          "alias": "surfacetype"
+        },
+        {
+          "name": "primarymaintenance",
+          "type": "esriFieldTypeString",
+          "alias": "primarymaintenance"
+        },
+        {
+          "name": "adaaccessible",
+          "type": "esriFieldTypeString",
+          "alias": "adaaccessible"
+        },
+        {
+          "name": "difficulty",
+          "type": "esriFieldTypeString",
+          "alias": "difficulty"
+        },
+        {
+          "name": "seasonalrestriction",
+          "type": "esriFieldTypeString",
+          "alias": "seasonalrestriction"
+        },
+        {
+          "name": "roadconcurrent",
+          "type": "esriFieldTypeString",
+          "alias": "roadconcurrent"
+        },
+        {
+          "name": "infourl",
+          "type": "esriFieldTypeString",
+          "alias": "infourl"
+        },
+        {
+          "name": "comments",
+          "type": "esriFieldTypeString",
+          "alias": "comments"
+        },
+        {
+          "name": "datasource",
+          "type": "esriFieldTypeString",
+          "alias": "datasource"
+        },
+        {
+          "name": "lastupdate",
+          "type": "esriFieldTypeDate",
+          "alias": "lastupdate"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "bikedifficulty",
+          "type": "esriFieldTypeString",
+          "alias": "bikedifficulty"
+        },
+        {
+          "name": "hikedifficulty",
+          "type": "esriFieldTypeString",
+          "alias": "hikedifficulty"
+        },
+        {
+          "name": "length_miles",
+          "type": "esriFieldTypeDouble",
+          "alias": "length_miles"
+        },
+        {
+          "name": "cartocode",
+          "type": "esriFieldTypeString",
+          "alias": "cartocode"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Parks",
+      "title": "Parks",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "parkstatus",
+          "type": "esriFieldTypeString",
+          "alias": "Park Status"
+        },
+        {
+          "name": "park_type",
+          "type": "esriFieldTypeString",
+          "alias": "Park Type"
+        },
+        {
+          "name": "park_city",
+          "type": "esriFieldTypeString",
+          "alias": "Park City"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "Park Address"
+        },
+        {
+          "name": "handi_access",
+          "type": "esriFieldTypeString",
+          "alias": "handi_access"
+        },
+        {
+          "name": "reservable",
+          "type": "esriFieldTypeString",
+          "alias": "reservable"
+        },
+        {
+          "name": "capacity",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "capacity"
+        },
+        {
+          "name": "contact_info",
+          "type": "esriFieldTypeString",
+          "alias": "contact_info"
+        },
+        {
+          "name": "pavillion",
+          "type": "esriFieldTypeString",
+          "alias": "pavillion"
+        },
+        {
+          "name": "picnic_areas",
+          "type": "esriFieldTypeString",
+          "alias": "picnic_areas"
+        },
+        {
+          "name": "playground",
+          "type": "esriFieldTypeString",
+          "alias": "playground"
+        },
+        {
+          "name": "restrooms",
+          "type": "esriFieldTypeString",
+          "alias": "restrooms"
+        },
+        {
+          "name": "sports_area",
+          "type": "esriFieldTypeString",
+          "alias": "sports_area"
+        },
+        {
+          "name": "telephone",
+          "type": "esriFieldTypeString",
+          "alias": "telephone"
+        },
+        {
+          "name": "trail_ways",
+          "type": "esriFieldTypeString",
+          "alias": "trail_ways"
+        },
+        {
+          "name": "volleyball",
+          "type": "esriFieldTypeString",
+          "alias": "volleyball"
+        },
+        {
+          "name": "tennis",
+          "type": "esriFieldTypeString",
+          "alias": "tennis"
+        },
+        {
+          "name": "barbecues",
+          "type": "esriFieldTypeString",
+          "alias": "barbecues"
+        },
+        {
+          "name": "drinking_water",
+          "type": "esriFieldTypeString",
+          "alias": "drinking_water"
+        },
+        {
+          "name": "electricity",
+          "type": "esriFieldTypeString",
+          "alias": "electricity"
+        },
+        {
+          "name": "parking_lot",
+          "type": "esriFieldTypeString",
+          "alias": "parking_lot"
+        },
+        {
+          "name": "fishing",
+          "type": "esriFieldTypeString",
+          "alias": "fishing"
+        },
+        {
+          "name": "horse_shoe",
+          "type": "esriFieldTypeString",
+          "alias": "horse_shoe"
+        },
+        {
+          "name": "fire_pits",
+          "type": "esriFieldTypeString",
+          "alias": "fire_pits"
+        },
+        {
+          "name": "web_link",
+          "type": "esriFieldTypeString",
+          "alias": "web_link"
+        },
+        {
+          "name": "dogs",
+          "type": "esriFieldTypeString",
+          "alias": "dogs"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "gis_acres",
+          "type": "esriFieldTypeDouble",
+          "alias": "gis_acres"
+        },
+        {
+          "name": "info_link",
+          "type": "esriFieldTypeString",
+          "alias": "info_link"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Strava Logo",
+      "title": "Strava Logo",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "segment_id",
+          "type": "esriFieldTypeString",
+          "alias": "segment_id"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "distance",
+          "type": "esriFieldTypeString",
+          "alias": "distance"
+        },
+        {
+          "name": "avggrade",
+          "type": "esriFieldTypeString",
+          "alias": "avggrade"
+        },
+        {
+          "name": "lowelev",
+          "type": "esriFieldTypeString",
+          "alias": "lowelev"
+        },
+        {
+          "name": "highelev",
+          "type": "esriFieldTypeString",
+          "alias": "highelev"
+        },
+        {
+          "name": "elevdiff",
+          "type": "esriFieldTypeString",
+          "alias": "elevdiff"
+        },
+        {
+          "name": "stravaurl",
+          "type": "esriFieldTypeString",
+          "alias": "stravaURL"
+        },
+        {
+          "name": "segment_type",
+          "type": "esriFieldTypeString",
+          "alias": "segment_type"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Strava & Favorite Cycling Routes",
+      "title": "Strava & Favorite Cycling Routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "segment_id",
+          "type": "esriFieldTypeString",
+          "alias": "Segment ID"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "distance",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "avggrade",
+          "type": "esriFieldTypeString",
+          "alias": "Avg. Grade"
+        },
+        {
+          "name": "lowelev",
+          "type": "esriFieldTypeString",
+          "alias": "Lower Elevation"
+        },
+        {
+          "name": "highelev",
+          "type": "esriFieldTypeString",
+          "alias": "Higher Elevation"
+        },
+        {
+          "name": "elevdiff",
+          "type": "esriFieldTypeString",
+          "alias": "Elevation Difference"
+        },
+        {
+          "name": "stravaurl",
+          "type": "esriFieldTypeString",
+          "alias": "Strava Segment URL"
+        },
+        {
+          "name": "segment_type",
+          "type": "esriFieldTypeString",
+          "alias": "Segment Type"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Ski Lifts",
+      "title": "Ski Lifts",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "resort",
+          "type": "esriFieldTypeString",
+          "alias": "resort"
+        },
+        {
+          "name": "lift_name",
+          "type": "esriFieldTypeString",
+          "alias": "lift_name"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "capacity",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "capacity"
+        },
+        {
+          "name": "base_elevation",
+          "type": "esriFieldTypeInteger",
+          "alias": "base_elevation"
+        },
+        {
+          "name": "top_elevation",
+          "type": "esriFieldTypeInteger",
+          "alias": "top_elevation"
+        },
+        {
+          "name": "county",
+          "type": "esriFieldTypeString",
+          "alias": "county"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Ski Boundaries",
+      "title": "Ski Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "color4",
+          "type": "esriFieldTypeString",
+          "alias": "color4"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "DNR Partner Walk-in Access",
+      "title": "DNR Partner Walk-in Access",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "instructions",
+          "type": "esriFieldTypeString",
+          "alias": "Instructions"
+        },
+        {
+          "name": "access_uses",
+          "type": "esriFieldTypeString",
+          "alias": "Access Uses"
+        },
+        {
+          "name": "access_website",
+          "type": "esriFieldTypeString",
+          "alias": "Access Website"
+        },
+        {
+          "name": "image_url",
+          "type": "esriFieldTypeString",
+          "alias": "Image url"
+        },
+        {
+          "name": "open_dates",
+          "type": "esriFieldTypeString",
+          "alias": "Open Dates"
+        },
+        {
+          "name": "closure_dates",
+          "type": "esriFieldTypeString",
+          "alias": "Closure Dates"
+        },
+        {
+          "name": "unique_info",
+          "type": "esriFieldTypeString",
+          "alias": "Unique Info"
+        },
+        {
+          "name": "special_restrictions",
+          "type": "esriFieldTypeString",
+          "alias": "Special Restrictions"
+        },
+        {
+          "name": "description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "standard_rules",
+          "type": "esriFieldTypeString",
+          "alias": "Standard Rules"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "DNR Partner Walk-in Access & Conservation Properties",
+      "title": "DNR Partner Walk-in Access & Conservation Properties",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "instructions",
+          "type": "esriFieldTypeString",
+          "alias": "Instructions"
+        },
+        {
+          "name": "access_uses",
+          "type": "esriFieldTypeString",
+          "alias": "Access Uses"
+        },
+        {
+          "name": "access_website",
+          "type": "esriFieldTypeString",
+          "alias": "Access Website"
+        },
+        {
+          "name": "image_url",
+          "type": "esriFieldTypeString",
+          "alias": "Image url"
+        },
+        {
+          "name": "open_dates",
+          "type": "esriFieldTypeString",
+          "alias": "Open Dates"
+        },
+        {
+          "name": "closure_dates",
+          "type": "esriFieldTypeString",
+          "alias": "Closure Dates"
+        },
+        {
+          "name": "unique_info",
+          "type": "esriFieldTypeString",
+          "alias": "Unique Info"
+        },
+        {
+          "name": "special_restrictions",
+          "type": "esriFieldTypeString",
+          "alias": "Special Restrictions"
+        },
+        {
+          "name": "description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "standard_rules",
+          "type": "esriFieldTypeString",
+          "alias": "Standard Rules"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102742"
+  ],
+  "cors_enabled": true,
+  "response_ms": 544,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

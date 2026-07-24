@@ -1,0 +1,136 @@
+{
+  "slug": "subdivision-line-feature-hcad-subdivisions-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/HCAD/HCAD_Subdivisions/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/HCAD/HCAD_Subdivisions/MapServer",
+  "title": "HCAD_Subdivisions",
+  "description": "Harris County subdivision polygons from recorded plats.",
+  "abstract": "Subdivision polygon is the delineation of a recorded plat generated from subdivision line feature.",
+  "provider": "subdivision line feature",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "HCAD Subdivisions",
+      "title": "HCAD Subdivisions",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Type_",
+          "type": "esriFieldTypeInteger",
+          "alias": "Type_"
+        },
+        {
+          "name": "Conveyance",
+          "type": "esriFieldTypeString",
+          "alias": "Conveyance"
+        },
+        {
+          "name": "Sub_Name_F",
+          "type": "esriFieldTypeString",
+          "alias": "Sub_Name_F"
+        },
+        {
+          "name": "Vol_Page",
+          "type": "esriFieldTypeString",
+          "alias": "VOL_PAGE"
+        },
+        {
+          "name": "RECNUM",
+          "type": "esriFieldTypeString",
+          "alias": "RECNUM"
+        },
+        {
+          "name": "Deed_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Deed_Num"
+        },
+        {
+          "name": "Beg_Page",
+          "type": "esriFieldTypeString",
+          "alias": "BEG_PAGE"
+        },
+        {
+          "name": "End_Page",
+          "type": "esriFieldTypeString",
+          "alias": "END_PAGE"
+        },
+        {
+          "name": "Section",
+          "type": "esriFieldTypeString",
+          "alias": "SECTION"
+        },
+        {
+          "name": "Tax_Year",
+          "type": "esriFieldTypeInteger",
+          "alias": "Tax_Year"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102740"
+  ],
+  "cors_enabled": true,
+  "response_ms": 611,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

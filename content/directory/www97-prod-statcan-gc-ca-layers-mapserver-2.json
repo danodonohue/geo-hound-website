@@ -1,0 +1,215 @@
+{
+  "slug": "www97-prod-statcan-gc-ca-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://www97-prod.statcan.gc.ca/arcgis/rest/services/dyn_service2021/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www97-prod.statcan.gc.ca/arcgis/rest/services/dyn_service2021/MapServer",
+  "title": "Layers",
+  "description": "Statistics Canada dynamic service with demographic and census data by geographic boundaries.",
+  "abstract": "Dynamic Service 2021",
+  "provider": "www97-prod.statcan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "demographics",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "dyn_layer",
+      "title": "dyn_layer",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GeographyReferenceId",
+          "type": "esriFieldTypeString",
+          "alias": "GeographyReferenceId"
+        },
+        {
+          "name": "StatisticsProgramId",
+          "type": "esriFieldTypeInteger",
+          "alias": "StatisticsProgramId"
+        },
+        {
+          "name": "GeographicLevelId",
+          "type": "esriFieldTypeString",
+          "alias": "GeographicLevelId"
+        },
+        {
+          "name": "ProvinceId",
+          "type": "esriFieldTypeInteger",
+          "alias": "ProvinceId"
+        },
+        {
+          "name": "EntityName_EN",
+          "type": "esriFieldTypeString",
+          "alias": "EntityName_EN"
+        },
+        {
+          "name": "EntityDescription_EN",
+          "type": "esriFieldTypeString",
+          "alias": "EntityDescription_EN"
+        },
+        {
+          "name": "EntityName_FR",
+          "type": "esriFieldTypeString",
+          "alias": "EntityName_FR"
+        },
+        {
+          "name": "EntityDescription_FR",
+          "type": "esriFieldTypeString",
+          "alias": "EntityDescription_FR"
+        },
+        {
+          "name": "SearchDisplayName_EN",
+          "type": "esriFieldTypeString",
+          "alias": "SearchDisplayName_EN"
+        },
+        {
+          "name": "SearchDisplayName_FR",
+          "type": "esriFieldTypeString",
+          "alias": "SearchDisplayName_FR"
+        },
+        {
+          "name": "DisplayNameShort_EN",
+          "type": "esriFieldTypeString",
+          "alias": "DisplayNameShort_EN"
+        },
+        {
+          "name": "DisplayNameShort_FR",
+          "type": "esriFieldTypeString",
+          "alias": "DisplayNameShort_FR"
+        },
+        {
+          "name": "DisplayNameLong_EN",
+          "type": "esriFieldTypeString",
+          "alias": "DisplayNameLong_EN"
+        },
+        {
+          "name": "DisplayNameLong_FR",
+          "type": "esriFieldTypeString",
+          "alias": "DisplayNameLong_FR"
+        },
+        {
+          "name": "Geocode",
+          "type": "esriFieldTypeString",
+          "alias": "Geocode"
+        },
+        {
+          "name": "CensusSFDataQuality",
+          "type": "esriFieldTypeString",
+          "alias": "CensusSFDataQuality"
+        },
+        {
+          "name": "CensusLFDataQuality",
+          "type": "esriFieldTypeString",
+          "alias": "CensusLFDataQuality"
+        },
+        {
+          "name": "CensusSFGNR",
+          "type": "esriFieldTypeSingle",
+          "alias": "CensusSFGNR"
+        },
+        {
+          "name": "CensusLFGNR",
+          "type": "esriFieldTypeSingle",
+          "alias": "CensusLFGNR"
+        },
+        {
+          "name": "DataQualityFlag",
+          "type": "esriFieldTypeString",
+          "alias": "DataQualityFlag"
+        },
+        {
+          "name": "GeographicFootnote_EN",
+          "type": "esriFieldTypeString",
+          "alias": "GeographicFootnote_EN"
+        },
+        {
+          "name": "GeographicFootnote_FR",
+          "type": "esriFieldTypeString",
+          "alias": "GeographicFootnote_FR"
+        },
+        {
+          "name": "GeographicType_EN",
+          "type": "esriFieldTypeString",
+          "alias": "GeographicType_EN"
+        },
+        {
+          "name": "GeographicType_FR",
+          "type": "esriFieldTypeString",
+          "alias": "GeographicType_FR"
+        },
+        {
+          "name": "GeographicDescription_EN",
+          "type": "esriFieldTypeString",
+          "alias": "GeographicDescription_EN"
+        },
+        {
+          "name": "GeographicDescription_FR",
+          "type": "esriFieldTypeString",
+          "alias": "GeographicDescription_FR"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3347"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1438,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

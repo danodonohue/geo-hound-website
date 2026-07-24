@@ -1,0 +1,187 @@
+{
+  "slug": "being-one-square-mile-or-640-acres-townshiprangesection-mapserver",
+  "service_key": "ESRI MapServer:https://gis.maricopa.gov/arcgis/rest/services/IndividualService/TownshipRangeSection/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.maricopa.gov/arcgis/rest/services/IndividualService/TownshipRangeSection/MapServer",
+  "title": "TownshipRangeSection",
+  "description": "Public Land Survey System township, range, and section grid boundaries.",
+  "abstract": "Townships are normally a square approximately 6 miles (9.7 km) on a side with cardinal boundaries conforming to meridians and parallels, containing thirty-six sections of one square mile each. The northern and western most tier of sections in each township are designed to take up the convergence of the east and west township boundary lines or range lines, as well as any error in the survey measurements, and therefore these sections vary slightly from being one square mile or 640 acres. Irregular or fractual townships with fewer than a full 36 sections are created where full townships cannot be laid out due to existing senior boundaries such as Spanish/Mexican Ranchos, Indian Reservations, State boundary lines, etc.The line work was originally obtained from the Arizona State Land Department (ASLD). The accuracy of the line work ranged from field survey (very limited), to 15 minute USGS quad maps (1:62500), to Bureau of Land Management (BLM) land status maps (1:100000). Some of the line work in the Maricopa County area has been adjusted to survey points collected by the Maricopa County Department of Transportation (MCDOT). To determine the accuracy of the line work, see feature class SectionLine_GIO. The polygons of this feature are created from the line work of feature class SectionLine_GIO.The data was not created by engineering means and should not be used as such. This data does not represent a legal record.",
+  "provider": "being one square mile or 640 acres",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Township Range Section",
+      "title": "Township Range Section",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Township & Range",
+      "title": "Township & Range",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TownshipRange",
+          "type": "esriFieldTypeString",
+          "alias": "TownshipRange"
+        },
+        {
+          "name": "Township",
+          "type": "esriFieldTypeString",
+          "alias": "Township"
+        },
+        {
+          "name": "Range",
+          "type": "esriFieldTypeString",
+          "alias": "Range"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Section Outline",
+      "title": "Section Outline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PLSSType",
+          "type": "esriFieldTypeString",
+          "alias": "PLSSType"
+        },
+        {
+          "name": "DeterminationStatus",
+          "type": "esriFieldTypeString",
+          "alias": "DeterminationStatus"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Section Label",
+      "title": "Section Label",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Township",
+          "type": "esriFieldTypeString",
+          "alias": "Township"
+        },
+        {
+          "name": "Range",
+          "type": "esriFieldTypeString",
+          "alias": "Range"
+        },
+        {
+          "name": "Section",
+          "type": "esriFieldTypeString",
+          "alias": "Section"
+        },
+        {
+          "name": "QuarterSection",
+          "type": "esriFieldTypeString",
+          "alias": "QuarterSection"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 273,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "slug": "some-owner-s-parcel-mapserver",
+  "service_key": "ESRI MapServer:https://gis.maricopa.gov/arcgis/rest/services/IndividualService/Parcel/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.maricopa.gov/arcgis/rest/services/IndividualService/Parcel/MapServer",
+  "title": "Parcel",
+  "description": "Property parcels and subdivisions with ownership and assessment information.",
+  "abstract": "In real estate, a lot or plot is a tract or parcel of land owned or meant to be owned by some owner(s). A lot is essentially considered a parcel of real property. Possible owner(s) of a lot can be one or more person(s) or another legal entity, such as a company/corporation, organization, government, or trust. Like most other types of real estate, lots owned by private parties are subject to a periodic real estate tax payable by the owners to local governments such as a county or municipality. These real estate taxes are based on the assessed value of the real property; additional taxes usually apply to transfer of ownership and property sales. Other fees by government are possible for improvements such as curbs and sidewalks or an impact fee for building a house on a vacant lot. \"Improved lot\" means any lot or parcel of land on which is located a dwelling house, occupied or unoccupied. There will be multiple parcels on top of each other for multistory buildings where each level is a separate parcel.Subdivision is the act of dividing land into pieces that are easier to sell or otherwise develop, usually via a plat. The former single piece as a whole is then known in the United States as a subdivision. If it is used for housing it is typically known as a housing subdivision or housing development, although some developers tend to call these areas communities. Subdivisions may also be for the purpose of commercial or industrial development, and the results vary from retail shopping malls with independently owned out parcels, to industrial parks. There will be multiple subdivisions on top of each other for multistory buildings where each level may be considered a separate subdivision.This data does not represent a legal record. The data was not created by engineering means and should not be used as such. The positional accuracy is +/- 5 feet.",
+  "provider": "some owner(s)",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Subdivision",
+      "title": "Subdivision",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SubdivisionName",
+          "type": "esriFieldTypeString",
+          "alias": "SubdivisionName"
+        },
+        {
+          "name": "SubdivisionLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SubdivisionLevel"
+        },
+        {
+          "name": "MCRNumber",
+          "type": "esriFieldTypeString",
+          "alias": "MCRNumber"
+        },
+        {
+          "name": "MCRWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "MCRWebLink"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Parcel",
+      "title": "Parcel",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "APN",
+          "type": "esriFieldTypeString",
+          "alias": "APN"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "APNDashSplit",
+          "type": "esriFieldTypeString",
+          "alias": "APNDashSplit"
+        },
+        {
+          "name": "Book",
+          "type": "esriFieldTypeString",
+          "alias": "Book"
+        },
+        {
+          "name": "Map",
+          "type": "esriFieldTypeString",
+          "alias": "Map"
+        },
+        {
+          "name": "Item",
+          "type": "esriFieldTypeString",
+          "alias": "Item"
+        },
+        {
+          "name": "PropertyFullStreetAddress",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyFullStreetAddress"
+        },
+        {
+          "name": "PropertyStreetNumber",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyStreetNumber"
+        },
+        {
+          "name": "PropertyStreetPrefixDirection",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyStreetPrefixDirection"
+        },
+        {
+          "name": "PropertyStreetName",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyStreetName"
+        },
+        {
+          "name": "PropertyStreetType",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyStreetType"
+        },
+        {
+          "name": "PropertyStreetSuffix",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyStreetSuffix"
+        },
+        {
+          "name": "PropertyStreetPostDirection",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyStreetPostDirection"
+        },
+        {
+          "name": "PropertySuite",
+          "type": "esriFieldTypeString",
+          "alias": "PropertySuite"
+        },
+        {
+          "name": "PropertyCity",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyCity"
+        },
+        {
+          "name": "PropertyZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyZipCode"
+        },
+        {
+          "name": "OwnerName",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerName"
+        },
+        {
+          "name": "OwnerAddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerAddressLine1"
+        },
+        {
+          "name": "OwnerAddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerAddressLine2"
+        },
+        {
+          "name": "OwnerCity",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerCity"
+        },
+        {
+          "name": "OwnerState",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerState"
+        },
+        {
+          "name": "OwnerZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerZipCode"
+        },
+        {
+          "name": "OwnerCountry",
+          "type": "esriFieldTypeString",
+          "alias": "OwnerCountry"
+        },
+        {
+          "name": "MCRNumber",
+          "type": "esriFieldTypeString",
+          "alias": "MCRNumber"
+        },
+        {
+          "name": "MCRWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "MCRWebLink"
+        },
+        {
+          "name": "DeedNumber",
+          "type": "esriFieldTypeString",
+          "alias": "DeedNumber"
+        },
+        {
+          "name": "DeedWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "DeedWebLink"
+        },
+        {
+          "name": "DeedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DeedDate"
+        },
+        {
+          "name": "SalePrice",
+          "type": "esriFieldTypeDouble",
+          "alias": "SalePrice"
+        },
+        {
+          "name": "SaleAffidavitWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "SaleAffidavitWebLink"
+        },
+        {
+          "name": "SaleDate",
+          "type": "esriFieldTypeDate",
+          "alias": "SaleDate"
+        },
+        {
+          "name": "Rental",
+          "type": "esriFieldTypeString",
+          "alias": "Rental"
+        },
+        {
+          "name": "Township",
+          "type": "esriFieldTypeString",
+          "alias": "Township"
+        },
+        {
+          "name": "Range",
+          "type": "esriFieldTypeString",
+          "alias": "Range"
+        },
+        {
+          "name": "Section",
+          "type": "esriFieldTypeString",
+          "alias": "Section"
+        },
+        {
+          "name": "QuarterSection",
+          "type": "esriFieldTypeString",
+          "alias": "QuarterSection"
+        },
+        {
+          "name": "SubdivisionName",
+          "type": "esriFieldTypeString",
+          "alias": "SubdivisionName"
+        },
+        {
+          "name": "Lot",
+          "type": "esriFieldTypeString",
+          "alias": "Lot"
+        },
+        {
+          "name": "Block",
+          "type": "esriFieldTypeString",
+          "alias": "Block"
+        },
+        {
+          "name": "Tract",
+          "type": "esriFieldTypeString",
+          "alias": "Tract"
+        },
+        {
+          "name": "PropertyDescription",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyDescription"
+        },
+        {
+          "name": "ElementarySchoolDistrict",
+          "type": "esriFieldTypeString",
+          "alias": "ElementarySchoolDistrict"
+        },
+        {
+          "name": "HighSchoolDistrict",
+          "type": "esriFieldTypeString",
+          "alias": "HighSchoolDistrict"
+        },
+        {
+          "name": "AssessorWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "AssessorWebLink"
+        },
+        {
+          "name": "ParcelValuationYear",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ParcelValuationYear"
+        },
+        {
+          "name": "FullCashValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "FullCashValue"
+        },
+        {
+          "name": "LimitedPropertyValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "LimitedPropertyValue"
+        },
+        {
+          "name": "AssessmentRatio_Pct",
+          "type": "esriFieldTypeDouble",
+          "alias": "AssessmentRatio_Pct"
+        },
+        {
+          "name": "AssessedFullCashValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "AssessedFullCashValue"
+        },
+        {
+          "name": "AssessedLimitedPropertyValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "AssessedLimitedPropertyValue"
+        },
+        {
+          "name": "LandFullCashValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandFullCashValue"
+        },
+        {
+          "name": "ImprovementFullCashValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "ImprovementFullCashValue"
+        },
+        {
+          "name": "AssessedLandFullCashValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "AssessedLandFullCashValue"
+        },
+        {
+          "name": "AssessedImprovementFullCashValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "AssessedImprovementFullCashValue"
+        },
+        {
+          "name": "ExemptStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ExemptStatus"
+        },
+        {
+          "name": "ExemptDescription",
+          "type": "esriFieldTypeString",
+          "alias": "ExemptDescription"
+        },
+        {
+          "name": "LandLegalClassCode",
+          "type": "esriFieldTypeString",
+          "alias": "LandLegalClassCode"
+        },
+        {
+          "name": "LandLegalClassDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LandLegalClassDescription"
+        },
+        {
+          "name": "ImprovementLegalClassCode",
+          "type": "esriFieldTypeString",
+          "alias": "ImprovementLegalClassCode"
+        },
+        {
+          "name": "ImprovementLegalClassDescription",
+          "type": "esriFieldTypeString",
+          "alias": "ImprovementLegalClassDescription"
+        },
+        {
+          "name": "PropertyUseCode",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyUseCode"
+        },
+        {
+          "name": "PropertyUseDescription",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyUseDescription"
+        },
+        {
+          "name": "TaxYear",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TaxYear"
+        },
+        {
+          "name": "TaxingDistrictCode",
+          "type": "esriFieldTypeString",
+          "alias": "TaxingDistrictCode"
+        },
+        {
+          "name": "TaxingDistrictDescription",
+          "type": "esriFieldTypeString",
+          "alias": "TaxingDistrictDescription"
+        },
+        {
+          "name": "TaxOwnerName",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerName"
+        },
+        {
+          "name": "TaxOwnerAddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerAddressLine1"
+        },
+        {
+          "name": "TaxOwnerAddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerAddressLine2"
+        },
+        {
+          "name": "TaxOwnerAddressLine3",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerAddressLine3"
+        },
+        {
+          "name": "TaxOwnerAddressLine4",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerAddressLine4"
+        },
+        {
+          "name": "TaxOwnerCity",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerCity"
+        },
+        {
+          "name": "TaxOwnerState",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerState"
+        },
+        {
+          "name": "TaxOwnerZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "TaxOwnerZipCode"
+        },
+        {
+          "name": "FullAssessedPropertyTax",
+          "type": "esriFieldTypeDouble",
+          "alias": "FullAssessedPropertyTax"
+        },
+        {
+          "name": "CityTax",
+          "type": "esriFieldTypeDouble",
+          "alias": "CityTax"
+        },
+        {
+          "name": "FloodTax",
+          "type": "esriFieldTypeDouble",
+          "alias": "FloodTax"
+        },
+        {
+          "name": "TreasurerWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "TreasurerWebLink"
+        },
+        {
+          "name": "ConstructionYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "ConstructionYear"
+        },
+        {
+          "name": "FloorLevel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FloorLevel"
+        },
+        {
+          "name": "Stories",
+          "type": "esriFieldTypeString",
+          "alias": "Stories"
+        },
+        {
+          "name": "LivableArea_SqFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "LivableArea_SqFt"
+        },
+        {
+          "name": "LotSize_SqFt",
+          "type": "esriFieldTypeDouble",
+          "alias": "LotSize_SqFt"
+        },
+        {
+          "name": "LotSize_Acre",
+          "type": "esriFieldTypeDouble",
+          "alias": "LotSize_Acre"
+        },
+        {
+          "name": "ExteriorWallType",
+          "type": "esriFieldTypeString",
+          "alias": "ExteriorWallType"
+        },
+        {
+          "name": "RoofType",
+          "type": "esriFieldTypeString",
+          "alias": "RoofType"
+        },
+        {
+          "name": "BathFixtures",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BathFixtures"
+        },
+        {
+          "name": "AirConditioningType",
+          "type": "esriFieldTypeString",
+          "alias": "AirConditioningType"
+        },
+        {
+          "name": "Heat",
+          "type": "esriFieldTypeString",
+          "alias": "Heat"
+        },
+        {
+          "name": "CoveredParkingSpots",
+          "type": "esriFieldTypeDouble",
+          "alias": "CoveredParkingSpots"
+        },
+        {
+          "name": "Patios",
+          "type": "esriFieldTypeDouble",
+          "alias": "Patios"
+        },
+        {
+          "name": "Pool",
+          "type": "esriFieldTypeString",
+          "alias": "Pool"
+        },
+        {
+          "name": "BuildingSketchWebLink",
+          "type": "esriFieldTypeString",
+          "alias": "BuildingSketchWebLink"
+        },
+        {
+          "name": "Longitude_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude_DD"
+        },
+        {
+          "name": "Latitude_DD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude_DD"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 265,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

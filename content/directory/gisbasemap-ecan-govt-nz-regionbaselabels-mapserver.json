@@ -1,0 +1,664 @@
+{
+  "slug": "gisbasemap-ecan-govt-nz-regionbaselabels-mapserver",
+  "service_key": "ESRI MapServer:https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Region_Base_Labels/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Region_Base_Labels/MapServer",
+  "title": "RegionBaseLabels",
+  "description": "Context labels for geographic features and administrative boundaries in Canterbury.",
+  "abstract": "Context labels for features such as placenames, local authorities, roads and state highways, and address points.\n\nNote that for address point labels, the representation of an address label does not necessairly indicate a deliverable address.",
+  "provider": "gisbasemap.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "addresses",
+      "confidence": "medium"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Population center and locality labels",
+      "title": "Population center and locality labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "FEATURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_TYPE"
+        },
+        {
+          "name": "FEATURE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_DESCRIPTION"
+        },
+        {
+          "name": "LAND_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_DISTRICT"
+        },
+        {
+          "name": "DISPLAYCLASS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DISPLAYCLASS"
+        },
+        {
+          "name": "NZMGX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGX"
+        },
+        {
+          "name": "NZMGY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGY"
+        },
+        {
+          "name": "NZMS260",
+          "type": "esriFieldTypeString",
+          "alias": "NZMS260"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Hydrographic feature labels",
+      "title": "Hydrographic feature labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "FEATURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_TYPE"
+        },
+        {
+          "name": "FEATURE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_DESCRIPTION"
+        },
+        {
+          "name": "LAND_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_DISTRICT"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "NZMGX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGX"
+        },
+        {
+          "name": "NZMGY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGY"
+        },
+        {
+          "name": "NZMS260",
+          "type": "esriFieldTypeString",
+          "alias": "NZMS260"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "DISPLAYCLASS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DISPLAYCLASS"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Parks, forests, and reserves labels",
+      "title": "Parks, forests, and reserves labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "FEATURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_TYPE"
+        },
+        {
+          "name": "FEATURE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_DESCRIPTION"
+        },
+        {
+          "name": "LAND_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_DISTRICT"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "NZMGX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGX"
+        },
+        {
+          "name": "NZMGY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGY"
+        },
+        {
+          "name": "NZMS260",
+          "type": "esriFieldTypeString",
+          "alias": "NZMS260"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "DISPLAYCLASS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DISPLAYCLASS"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Address point labels",
+      "title": "Address point labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "house_number",
+          "type": "esriFieldTypeString",
+          "alias": "HOUSE_NUMBER"
+        },
+        {
+          "name": "locality",
+          "type": "esriFieldTypeString",
+          "alias": "LOCALITY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PAR_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAR_ID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "rna_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "rna_id"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "road_name"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "rcl_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "rcl_id"
+        },
+        {
+          "name": "range_low",
+          "type": "esriFieldTypeInteger",
+          "alias": "range_low"
+        },
+        {
+          "name": "range_high",
+          "type": "esriFieldTypeInteger",
+          "alias": "range_high"
+        },
+        {
+          "name": "EXTRACT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EXTRACT_DATE"
+        },
+        {
+          "name": "address_utf8",
+          "type": "esriFieldTypeString",
+          "alias": "address_utf8"
+        },
+        {
+          "name": "road_name_utf8",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_utf8"
+        },
+        {
+          "name": "locality_utf8",
+          "type": "esriFieldTypeString",
+          "alias": "locality_utf8"
+        },
+        {
+          "name": "WGS84_Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_Longitude"
+        },
+        {
+          "name": "WGS84_Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_Latitude"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Road labels",
+      "title": "Road labels",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "EXTRACT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EXTRACT_DATE"
+        },
+        {
+          "name": "name_utf8",
+          "type": "esriFieldTypeString",
+          "alias": "name_utf8"
+        },
+        {
+          "name": "locality_utf8",
+          "type": "esriFieldTypeString",
+          "alias": "locality_utf8"
+        },
+        {
+          "name": "WGS84_Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_Longitude"
+        },
+        {
+          "name": "WGS84_Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_Latitude"
+        },
+        {
+          "name": "other_names",
+          "type": "esriFieldTypeString",
+          "alias": "other_names"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Regional authority labels",
+      "title": "Regional authority labels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "REGC",
+          "type": "esriFieldTypeString",
+          "alias": "REGC"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Territorial authority labels",
+      "title": "Territorial authority labels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TA",
+          "type": "esriFieldTypeString",
+          "alias": "TA"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 21,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

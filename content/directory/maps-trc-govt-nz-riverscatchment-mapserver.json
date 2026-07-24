@@ -1,0 +1,174 @@
+{
+  "slug": "maps-trc-govt-nz-riverscatchment-mapserver",
+  "service_key": "ESRI MapServer:https://maps.trc.govt.nz/arcgis/rest/services/LocalMaps/RiversCatchments/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.trc.govt.nz/arcgis/rest/services/LocalMaps/RiversCatchments/MapServer",
+  "title": "RiversCatchment",
+  "description": "Public GIS service providing geographic data and mapping.",
+  "abstract": "Taranaki named rivers, unnamed tributaries, and Parent catchments, for displaying with-in the Rivers Management web app/portal.",
+  "provider": "maps.trc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Named rivers",
+      "title": "Named rivers",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "RIVER_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "RIVER_ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHAPE_STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_STLength__"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Unnamed tributary",
+      "title": "Unnamed tributary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Destination",
+          "type": "esriFieldTypeString",
+          "alias": "Destination"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Parent catchment",
+      "title": "Parent catchment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DOCNAME",
+          "type": "esriFieldTypeString",
+          "alias": "DOCNAME"
+        },
+        {
+          "name": "SHAPE_LENG",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_LENG"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_ha"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 210,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.9,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

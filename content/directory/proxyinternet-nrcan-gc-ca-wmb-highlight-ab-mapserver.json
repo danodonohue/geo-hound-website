@@ -1,0 +1,85 @@
+{
+  "slug": "proxyinternet-nrcan-gc-ca-wmb-highlight-ab-mapserver",
+  "service_key": "ESRI MapServer:https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/MB_NC_NEW/WMB_Highlight_AB/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/MB_NC_NEW/WMB_Highlight_AB/MapServer",
+  "title": "WMB_Highlight_AB",
+  "description": "Administrative boundaries highlighting Alberta region for Natural Resources Canada",
+  "provider": "proxyinternet.nrcan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": "Alberta",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Polygon_List",
+      "title": "Polygon_List",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "FC",
+          "type": "esriFieldTypeString",
+          "alias": "FC"
+        },
+        {
+          "name": "PROVINCE",
+          "type": "esriFieldTypeString",
+          "alias": "PROVINCE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3979"
+  ],
+  "cors_enabled": true,
+  "response_ms": 213,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-19",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_AuthoritiesHighwayNotSy/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_AuthoritiesHighwayNotSy/MapServer",
+  "title": "Layers",
+  "description": "Administrative authority boundaries for highway management.",
+  "abstract": "Roads & Transport - Railway stationse",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 21,
+      "name": "Boundary - Authorities highway notSy",
+      "title": "Boundary - Authorities highway notSy",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Area_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Area Code"
+        },
+        {
+          "name": "Area_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Area Description"
+        },
+        {
+          "name": "File_Name",
+          "type": "esriFieldTypeString",
+          "alias": "File Name"
+        },
+        {
+          "name": "Feature_Serial_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Feature Serial Number"
+        },
+        {
+          "name": "Collection_Serial_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Collection_Serial_Number"
+        },
+        {
+          "name": "Global_Polygon_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Global_Polygon_ID"
+        },
+        {
+          "name": "Admin_Unit_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Admin Unit ID"
+        },
+        {
+          "name": "Census_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Census Code"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "Non_Inland_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Non_Inland_Area"
+        },
+        {
+          "name": "Area_Type_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Area Type Code"
+        },
+        {
+          "name": "Area_Type_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Area Type Description"
+        },
+        {
+          "name": "Non_Area_Type_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Non Area Type Code"
+        },
+        {
+          "name": "Non_Area_Type_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Non Area Type Description"
+        },
+        {
+          "name": "scc_update_date",
+          "type": "esriFieldTypeString",
+          "alias": "scc_update_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "website",
+          "type": "esriFieldTypeString",
+          "alias": "website"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 960,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

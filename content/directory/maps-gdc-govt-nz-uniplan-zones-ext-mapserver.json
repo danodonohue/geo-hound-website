@@ -1,0 +1,232 @@
+{
+  "slug": "maps-gdc-govt-nz-uniplan-zones-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_zones_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_zones_ext/MapServer",
+  "title": "uniplan_zones_ext",
+  "description": "District zoning layers from Gisborne resource management plan with zone designations.",
+  "abstract": "District Zoning  layers for the Tairawhiti Resource Management Plan of the Gisborne Distrcit Council",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "zoning",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "District Zones",
+      "title": "District Zones",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Zones",
+      "title": "Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ZONES_",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZONES_"
+        },
+        {
+          "name": "ZONES_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZONES_ID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "TEXT1",
+          "type": "esriFieldTypeString",
+          "alias": "TEXT1"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Other",
+      "title": "Other",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ZONES_",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZONES_"
+        },
+        {
+          "name": "ZONES_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZONES_ID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "TEXT1",
+          "type": "esriFieldTypeString",
+          "alias": "TEXT1"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 153,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,1183 @@
+{
+  "slug": "maps164-nottinghamcity-gov-uk-environment-mapserver",
+  "service_key": "ESRI MapServer:https://maps164.nottinghamcity.gov.uk/server/rest/services/Core_services/Environment/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps164.nottinghamcity.gov.uk/server/rest/services/Core_services/Environment/MapServer",
+  "title": "Environment",
+  "description": "Environmental resources including habitats, wildlife sites and recycling facilities.",
+  "abstract": "Environment map service",
+  "provider": "maps164.nottinghamcity.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Nottinghamshire",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Environment",
+      "title": "Environment",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Contours",
+      "title": "Contours",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Spot Heights",
+      "title": "Spot Heights",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEAT_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Description"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height "
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Contour lines",
+      "title": "Contour lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEAT_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Description"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Industrial Pollution Prevention and Control",
+      "title": "Industrial Pollution Prevention and Control",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PERMIT",
+          "type": "esriFieldTypeString",
+          "alias": "Permit"
+        },
+        {
+          "name": "PROCESS_DE",
+          "type": "esriFieldTypeString",
+          "alias": "Process Description"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Recycling Centres",
+      "title": "Recycling Centres",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "BANK_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Bank Type"
+        },
+        {
+          "name": "CLEAR",
+          "type": "esriFieldTypeString",
+          "alias": "Clear Glass"
+        },
+        {
+          "name": "GREEN",
+          "type": "esriFieldTypeString",
+          "alias": "Green Glass"
+        },
+        {
+          "name": "BROWN",
+          "type": "esriFieldTypeString",
+          "alias": "Brown Glass"
+        },
+        {
+          "name": "MIXED",
+          "type": "esriFieldTypeString",
+          "alias": "Mixed Glass"
+        },
+        {
+          "name": "CANS_TINS",
+          "type": "esriFieldTypeString",
+          "alias": "Cans or Tins"
+        },
+        {
+          "name": "TEXTILES",
+          "type": "esriFieldTypeString",
+          "alias": "Textiles"
+        },
+        {
+          "name": "OIL",
+          "type": "esriFieldTypeString",
+          "alias": "Oil"
+        },
+        {
+          "name": "PLASTIC",
+          "type": "esriFieldTypeString",
+          "alias": "Plastic"
+        },
+        {
+          "name": "LITTER",
+          "type": "esriFieldTypeString",
+          "alias": "Litter"
+        },
+        {
+          "name": "CARTON_TET",
+          "type": "esriFieldTypeString",
+          "alias": "Tetra-Paks"
+        },
+        {
+          "name": "BOOKS",
+          "type": "esriFieldTypeString",
+          "alias": "Books"
+        },
+        {
+          "name": "PAPER",
+          "type": "esriFieldTypeString",
+          "alias": "Paper"
+        },
+        {
+          "name": "SHOES",
+          "type": "esriFieldTypeString",
+          "alias": "Shoes"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 106,
+      "name": "Priority Habitats Inventory",
+      "title": "Priority Habitats Inventory",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNIQUE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIQUE_ID"
+        },
+        {
+          "name": "MAIN_HABITAT_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Main Habitat Description"
+        },
+        {
+          "name": "MAIN_HABITAT_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Main Habitat Code"
+        },
+        {
+          "name": "FEATURE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Description"
+        },
+        {
+          "name": "FEATURE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "OTHER_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "Other Class"
+        },
+        {
+          "name": "ADD_HABITAT_DESCRIPTIONS",
+          "type": "esriFieldTypeString",
+          "alias": "Additional Habitat Descriptions"
+        },
+        {
+          "name": "ADD_HABITAT_CODES",
+          "type": "esriFieldTypeString",
+          "alias": "Additional Habitat Codes"
+        },
+        {
+          "name": "PRIMARY_SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Primary Source"
+        },
+        {
+          "name": "SITE_AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Site Area Ha"
+        },
+        {
+          "name": "PUBLICATION_VERSION",
+          "type": "esriFieldTypeString",
+          "alias": "Publication Version"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Ancient Woodland",
+      "title": "Ancient Woodland",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "THEMENAME",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Local Wildlife Sites (formerly known as Bio Sincs)",
+      "title": "Local Wildlife Sites (formerly known as Bio Sincs)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "REF_NO",
+          "type": "esriFieldTypeString",
+          "alias": "Reference Number"
+        },
+        {
+          "name": "SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Local Nature Reserves",
+      "title": "Local Nature Reserves",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SITE",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "LNR",
+          "type": "esriFieldTypeString",
+          "alias": "LNR Name"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "National Nature Reserves",
+      "title": "National Nature Reserves",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NNR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 89,
+      "name": "Open and Green Spaces",
+      "title": "Open and Green Spaces",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 90,
+      "name": "Outdoor Sports Facilities",
+      "title": "Outdoor Sports Facilities",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATURE_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Feature ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "POST_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "HIERARCHY",
+          "type": "esriFieldTypeString",
+          "alias": "Hierarchy"
+        },
+        {
+          "name": "PRIMARY_TYPOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "Primary typology"
+        },
+        {
+          "name": "SECONDARY_TYPOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary typology"
+        },
+        {
+          "name": "SPECIFIC_USE",
+          "type": "esriFieldTypeString",
+          "alias": "Specific use"
+        },
+        {
+          "name": "ACCESS_",
+          "type": "esriFieldTypeString",
+          "alias": "Access"
+        },
+        {
+          "name": "SITE_OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Site owner"
+        },
+        {
+          "name": "MAINTAINED",
+          "type": "esriFieldTypeString",
+          "alias": "Maintained"
+        },
+        {
+          "name": "WHOLE_PART",
+          "type": "esriFieldTypeString",
+          "alias": "Whole site or part site"
+        },
+        {
+          "name": "LOCAL_PLAN",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan"
+        },
+        {
+          "name": "OS_SCORE_2007",
+          "type": "esriFieldTypeDouble",
+          "alias": "OS score 2007"
+        },
+        {
+          "name": "GREEN_FLAG",
+          "type": "esriFieldTypeString",
+          "alias": "Green Flag"
+        },
+        {
+          "name": "HERITAGE_GREEN_FLAG",
+          "type": "esriFieldTypeString",
+          "alias": "Heritage Green Flag"
+        },
+        {
+          "name": "SITE_AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Site area HA"
+        },
+        {
+          "name": "WARD",
+          "type": "esriFieldTypeString",
+          "alias": "Ward"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Provision for Children and Young People",
+      "title": "Provision for Children and Young People",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATURE_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Feature ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "POST_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "HIERARCHY",
+          "type": "esriFieldTypeString",
+          "alias": "Hierarchy"
+        },
+        {
+          "name": "PRIMARY_TYPOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "Primary typology"
+        },
+        {
+          "name": "SECONDARY_TYPOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary typology"
+        },
+        {
+          "name": "SPECIFIC_USE",
+          "type": "esriFieldTypeString",
+          "alias": "Specific use"
+        },
+        {
+          "name": "ACCESS_",
+          "type": "esriFieldTypeString",
+          "alias": "Access"
+        },
+        {
+          "name": "SITE_OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Site owner"
+        },
+        {
+          "name": "MAINTAINED",
+          "type": "esriFieldTypeString",
+          "alias": "Maintained"
+        },
+        {
+          "name": "WHOLE_PART",
+          "type": "esriFieldTypeString",
+          "alias": "Whole site or part site"
+        },
+        {
+          "name": "LOCAL_PLAN",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan"
+        },
+        {
+          "name": "NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "OS_SCORE_2007",
+          "type": "esriFieldTypeDouble",
+          "alias": "OS score 2007"
+        },
+        {
+          "name": "GREEN_FLAG",
+          "type": "esriFieldTypeString",
+          "alias": "Green Flag"
+        },
+        {
+          "name": "HERITAGE_GREEN_FLAG",
+          "type": "esriFieldTypeString",
+          "alias": "Heritage Green Flag"
+        },
+        {
+          "name": "SITE_AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Site area HA"
+        },
+        {
+          "name": "WARD",
+          "type": "esriFieldTypeString",
+          "alias": "Ward"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "Agricultural",
+      "title": "Agricultural",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FEATURE_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Feature ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "POST_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "HIERARCHY",
+          "type": "esriFieldTypeString",
+          "alias": "Hierarchy"
+        },
+        {
+          "name": "PRIMARY_TYPOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "Primary typology"
+        },
+        {
+          "name": "SECONDARY_TYPOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary typology"
+        },
+        {
+          "name": "SPECIFIC_USE",
+          "type": "esriFieldTypeString",
+          "alias": "Specific use"
+        },
+        {
+          "name": "ACCESS_",
+          "type": "esriFieldTypeString",
+          "alias": "Access"
+        },
+        {
+          "name": "SITE_OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Site owner"
+        },
+        {
+          "name": "MAINTAINED",
+          "type": "esriFieldTypeString",
+          "alias": "Maintained"
+        },
+        {
+          "name": "WHOLE_PART",
+          "type": "esriFieldTypeString",
+          "alias": "Whole site or part site"
+        },
+        {
+          "name": "LOCAL_PLAN",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan"
+        },
+        {
+          "name": "OS_SCORE_2007",
+          "type": "esriFieldTypeDouble",
+          "alias": "OS score 2007"
+        },
+        {
+          "name": "GREEN_FLAG",
+          "type": "esriFieldTypeString",
+          "alias": "Green Flag"
+        },
+        {
+          "name": "HERITAGE_GREEN_FLAG",
+          "type": "esriFieldTypeString",
+          "alias": "Heritage Green Flag"
+        },
+        {
+          "name": "SITE_AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Site area HA"
+        },
+        {
+          "name": "WARD",
+          "type": "esriFieldTypeString",
+          "alias": "Ward"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 84,
+      "name": "Allotments, Community Gardens and Urban Farms",
+      "title": "Allotments, Community Gardens and Urban Farms",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 64,
+      "name": "Amenity Green Space",
+      "title": "Amenity Green Space",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 88,
+      "name": "Cemeteries and Disused Churchyards",
+      "title": "Cemeteries and Disused Churchyards",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 86,
+      "name": "Institutional",
+      "title": "Institutional",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 85,
+      "name": "Natural and Semi Natural",
+      "title": "Natural and Semi Natural",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 87,
+      "name": "Parks and Gardens",
+      "title": "Parks and Gardens",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Printed Matter Permitted Distribution Areas",
+      "title": "Printed Matter Permitted Distribution Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Special Areas of Conservation",
+      "title": "Special Areas of Conservation",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Smoke Control Areas",
+      "title": "Smoke Control Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Sites of Special Scientific Interest",
+      "title": "Sites of Special Scientific Interest",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Tree Preservation Orders",
+      "title": "Tree Preservation Orders",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "District Heating System",
+      "title": "District Heating System",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Air Quality",
+      "title": "Air Quality",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Air Quality Management Areas",
+      "title": "Air Quality Management Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Air Quality Management Areas ",
+      "title": "Air Quality Management Areas ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Air Quality Management Areas to January 2019",
+      "title": "Air Quality Management Areas to January 2019",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 94,
+      "name": "Air Quality Monitoring Stations (Live)",
+      "title": "Air Quality Monitoring Stations (Live)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Air Quality Monitoring Stations (Ceased)",
+      "title": "Air Quality Monitoring Stations (Ceased)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Background Air Pollution 2021-2040",
+      "title": "Background Air Pollution 2021-2040",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Nitrogen Oxide (NOx)",
+      "title": "Nitrogen Oxide (NOx)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Nitrogen Dioxide (NO2)",
+      "title": "Nitrogen Dioxide (NO2)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Particulate Matter 10 µm (PM10)",
+      "title": "Particulate Matter 10 µm (PM10)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Particulate Matter 2.5 µm (PM2.5)",
+      "title": "Particulate Matter 2.5 µm (PM2.5)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Radon Potential",
+      "title": "Radon Potential",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Local Geological Sites",
+      "title": "Local Geological Sites",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Trees (NCC maintained)",
+      "title": "Trees (NCC maintained)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Trees - Points (NCC Maintained)",
+      "title": "Trees - Points (NCC Maintained)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Tree Canopy Cover - Crowns (NCC Maintained)",
+      "title": "Tree Canopy Cover - Crowns (NCC Maintained)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Trees - Polygons (NCC Maintained)",
+      "title": "Trees - Polygons (NCC Maintained)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Trees - Canopy Cover Assessment (2007)",
+      "title": "Trees - Canopy Cover Assessment (2007)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Trees - Points (2007)",
+      "title": "Trees - Points (2007)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Tree Canopy Cover - Crowns (2007)",
+      "title": "Tree Canopy Cover - Crowns (2007)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Tree Canopy Cover - Polygons (2007)",
+      "title": "Tree Canopy Cover - Polygons (2007)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Trees - Canopy Cover Assessment (2019)",
+      "title": "Trees - Canopy Cover Assessment (2019)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Trees - Points (2019)",
+      "title": "Trees - Points (2019)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Tree Canopy Cover - Crowns (2019)",
+      "title": "Tree Canopy Cover - Crowns (2019)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "Tree Canopy Cover - Polygons (2019)",
+      "title": "Tree Canopy Cover - Polygons (2019)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Habitat Survey - Simplified Classifciation",
+      "title": "Habitat Survey - Simplified Classifciation",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Biodiversity Opportunity Mapping",
+      "title": "Biodiversity Opportunity Mapping",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Culvert Daylighting Opportunities",
+      "title": "Culvert Daylighting Opportunities",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 91,
+      "name": "Modified Grassland Enhancement & Geological Opportunities",
+      "title": "Modified Grassland Enhancement & Geological Opportunities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 96,
+      "name": "Geological Opportunities",
+      "title": "Geological Opportunities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 92,
+      "name": "Property Ownership Opportunities",
+      "title": "Property Ownership Opportunities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 93,
+      "name": "Core Buffer Opportunities",
+      "title": "Core Buffer Opportunities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Network Buffer Opportunities (Habitat Type)",
+      "title": "Network Buffer Opportunities (Habitat Type)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1562,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

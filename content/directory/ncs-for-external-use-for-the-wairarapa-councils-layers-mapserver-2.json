@@ -1,0 +1,309 @@
+{
+  "slug": "ncs-for-external-use-for-the-wairarapa-councils-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/PropertyPublic/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/PropertyPublic/MapServer",
+  "title": "Layers",
+  "description": "GIS service providing parcels data.",
+  "abstract": "Parcels with property information from NCS for external use for the Wairarapa councils.",
+  "provider": "NCS for external use for the Wairarapa councils",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Masterton Property",
+      "title": "Masterton Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "ValuationID",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation ID"
+        },
+        {
+          "name": "PropertyID",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capital Value ($)"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Value ($)"
+        },
+        {
+          "name": "ImprValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Improvements Value ($)"
+        },
+        {
+          "name": "TotalRates",
+          "type": "esriFieldTypeDouble",
+          "alias": "Rates ($)"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "NCSURLPublic",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURLPublic"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PropertyDocuments",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyDocuments"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Carterton Property",
+      "title": "Carterton Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "ValuationID",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation ID"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capital Value ($)"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Value ($)"
+        },
+        {
+          "name": "ImprValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Imrpvements Value ($)"
+        },
+        {
+          "name": "TotalRates",
+          "type": "esriFieldTypeDouble",
+          "alias": "Rates ($)"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PropertyID",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyID"
+        },
+        {
+          "name": "NCSURLPublic",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURLPublic"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "South Wairarapa Property",
+      "title": "South Wairarapa Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "ValuationID",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation ID"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capital Value ($)"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Value ($)"
+        },
+        {
+          "name": "ImprValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Improvements Value ($)"
+        },
+        {
+          "name": "TotalRates",
+          "type": "esriFieldTypeDouble",
+          "alias": "Rates ($)"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "NCSURLPublic",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURLPublic"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PropertyID",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 44,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

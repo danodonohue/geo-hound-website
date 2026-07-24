@@ -1,0 +1,268 @@
+{
+  "slug": "appeals-font-br-layers-mapserver",
+  "service_key": "ESRI MapServer:https://mapspublic.aucklandcouncil.govt.nz/arcgis3/rest/services/NonCouncil/UnitaryPlanAppealsandModifications/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aucklandcouncil.govt.nz/arcgis3/rest/services/NonCouncil/UnitaryPlanAppealsandModifications/MapServer",
+  "title": "Layers",
+  "description": "Auckland planning appeals, modifications, notices of requirement and plan changes.",
+  "abstract": "Unitary Plan Appeals and Modifications",
+  "provider": "Appeals</font><br />",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Properties affected by Appeals",
+      "title": "Properties affected by Appeals",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Appeals seeking changes to zones or management layers",
+      "title": "Appeals seeking changes to zones or management layers",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "MAPLAYER",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAPLAYER"
+        },
+        {
+          "name": "DATENOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATENOTIFIED"
+        },
+        {
+          "name": "DOCUMENTURL",
+          "type": "esriFieldTypeString",
+          "alias": "DOCUMENTURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "STATUS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Appeals seeking reinstatement of management layers",
+      "title": "Appeals seeking reinstatement of management layers",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "MAPLAYER",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAPLAYER"
+        },
+        {
+          "name": "DATENOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATENOTIFIED"
+        },
+        {
+          "name": "DOCUMENTURL",
+          "type": "esriFieldTypeString",
+          "alias": "DOCUMENTURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "STATUS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Modifications",
+      "title": "Modifications",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Notice of Requirements",
+      "title": "Notice of Requirements",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "MAPLAYER",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAPLAYER"
+        },
+        {
+          "name": "DATENOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATENOTIFIED"
+        },
+        {
+          "name": "DOCUMENTURL",
+          "type": "esriFieldTypeString",
+          "alias": "DOCUMENTURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "STATUS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Plan Changes",
+      "title": "Plan Changes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "MAPLAYER",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAPLAYER"
+        },
+        {
+          "name": "DATENOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATENOTIFIED"
+        },
+        {
+          "name": "DOCUMENTURL",
+          "type": "esriFieldTypeString",
+          "alias": "DOCUMENTURL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "STATUS"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 168,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

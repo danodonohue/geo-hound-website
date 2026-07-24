@@ -1,0 +1,717 @@
+{
+  "slug": "maps-gdc-govt-nz-uniplan-built-environment-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_built_environment_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_built_environment_ext/MapServer",
+  "title": "uniplan_built_environment_ext",
+  "description": "Built environment, energy and infrastructure layers for Gisborne resource management planning.",
+  "abstract": "Built Environment, Energy and Infrastructure layers for the Tairawhiti Resource Management Plan of the Gisborne Distrcit Council",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Built Environment, Energy and Infrastructure",
+      "title": "Built Environment, Energy and Infrastructure",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Airport",
+      "title": "Airport",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Airport Runways",
+      "title": "Airport Runways",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "AIRPT_RUNW",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPT_RUNW"
+        },
+        {
+          "name": "AIRPT_RU_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPT_RU_1"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Airport Height Control Surfaces",
+      "title": "Airport Height Control Surfaces",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FNODE_"
+        },
+        {
+          "name": "TNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "TNODE_"
+        },
+        {
+          "name": "LPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LPOLY_"
+        },
+        {
+          "name": "RPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RPOLY_"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "AIRPT_HEIG",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPT_HEIG"
+        },
+        {
+          "name": "AIRPT_HE_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPT_HE_1"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeDouble",
+          "alias": "HEIGHT"
+        },
+        {
+          "name": "height2",
+          "type": "esriFieldTypeSingle",
+          "alias": "height2"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Air Noise Boundary 65Ldn",
+      "title": "Air Noise Boundary 65Ldn",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "AIRPRT_NOI",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPRT_NOI"
+        },
+        {
+          "name": "AIRPRT_N_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPRT_N_1"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Outer Control Boundary 55Ldn",
+      "title": "Outer Control Boundary 55Ldn",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "AIRPRT_NOI",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPRT_NOI"
+        },
+        {
+          "name": "AIRPRT_N_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPRT_N_1"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Airport Noise Impact Overlay",
+      "title": "Airport Noise Impact Overlay",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "AIRPRT_NOI",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPRT_NOI"
+        },
+        {
+          "name": "AIRPRT_N_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPRT_N_1"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Airport Protection Overlay",
+      "title": "Airport Protection Overlay",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "AIRPT_PROT",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPT_PROT"
+        },
+        {
+          "name": "AIRPT_PR_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "AIRPT_PR_1"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Citrus Grove Building Exclusion Area",
+      "title": "Citrus Grove Building Exclusion Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Port",
+      "title": "Port",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Port Noise 55Ldn Boundary",
+      "title": "Port Noise 55Ldn Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "CLASS"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Port Noise 65Ldn Boundary",
+      "title": "Port Noise 65Ldn Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "CLASS"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Port Inner Control Boundary",
+      "title": "Port Inner Control Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Port Outer Control Boundary",
+      "title": "Port Outer Control Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Electricity Networks",
+      "title": "Electricity Networks",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Eastland Network 50kV",
+      "title": "Eastland Network 50kV",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Eastland Network 110kV",
+      "title": "Eastland Network 110kV",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Structure Plan Areas",
+      "title": "Structure Plan Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Roading Concept - Restricted access",
+      "title": "Roading Concept - Restricted access",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Citrus Grove Development Area",
+      "title": "Citrus Grove Development Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Taruheru Block Structure Plan Area",
+      "title": "Taruheru Block Structure Plan Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Continuous Street Facade",
+      "title": "Continuous Street Facade",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Natural Gas Pipeline",
+      "title": "Natural Gas Pipeline",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Reticulated Services Boundary",
+      "title": "Reticulated Services Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Road Hierarchy",
+      "title": "Road Hierarchy",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Road Hierarchy Buffer",
+      "title": "Road Hierarchy Buffer",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Facade Buffer",
+      "title": "Facade Buffer",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 59,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

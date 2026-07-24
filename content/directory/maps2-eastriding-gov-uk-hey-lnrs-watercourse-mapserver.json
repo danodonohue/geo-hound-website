@@ -1,0 +1,125 @@
+{
+  "slug": "maps2-eastriding-gov-uk-hey-lnrs-watercourse-mapserver",
+  "service_key": "ESRI MapServer:https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_LNRS_Watercourse/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_LNRS_Watercourse/MapServer",
+  "title": "HEY_LNRS_Watercourse",
+  "description": "Watercourse network and hydrological features for East Riding.",
+  "provider": "maps2.eastriding.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "HEY_LNRS_Watercourses",
+      "title": "HEY_LNRS_Watercourses",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "name1",
+          "type": "esriFieldTypeString",
+          "alias": "name1"
+        },
+        {
+          "name": "identifier",
+          "type": "esriFieldTypeString",
+          "alias": "identifier"
+        },
+        {
+          "name": "startNode",
+          "type": "esriFieldTypeString",
+          "alias": "startNode"
+        },
+        {
+          "name": "endNode",
+          "type": "esriFieldTypeString",
+          "alias": "endNode"
+        },
+        {
+          "name": "form",
+          "type": "esriFieldTypeString",
+          "alias": "form"
+        },
+        {
+          "name": "flow",
+          "type": "esriFieldTypeString",
+          "alias": "flow"
+        },
+        {
+          "name": "fictitious",
+          "type": "esriFieldTypeString",
+          "alias": "fictitious"
+        },
+        {
+          "name": "length",
+          "type": "esriFieldTypeInteger",
+          "alias": "length"
+        },
+        {
+          "name": "name2",
+          "type": "esriFieldTypeString",
+          "alias": "name2"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 864,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

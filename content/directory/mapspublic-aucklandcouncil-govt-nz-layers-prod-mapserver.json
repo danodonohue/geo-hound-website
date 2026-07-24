@@ -1,0 +1,1241 @@
+{
+  "slug": "mapspublic-aucklandcouncil-govt-nz-layers-prod-mapserver",
+  "service_key": "ESRI MapServer:https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/LiveMaps/UndergroundServices/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/LiveMaps/UndergroundServices/MapServer",
+  "title": "Layers_Prod",
+  "description": "Wastewater, water and stormwater infrastructure networks for Auckland City",
+  "abstract": "<div>Underground Services Updated </div><div>08/08/2019 CHG0038690 Underground Services</div><div>01/10/2019 error in waste pipe labels for Comb pipes</div><div>17/11/2022 CHG0058380 Wastewater, Water, Other Non Watercare and Other Watercare Assets new schema changes applied</div><u>Layers include :</u><div><span style='font-family: &quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px;'>22/1/2025 CHG0071901 Fix typos, add layers (capacity - pipes and watercare capacity constraint areas, aliases, see change for more details</span></div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size: 16px;'><br /></span></font><font size='5'>Wastewater</font><br />\n<font size='5'>Local Network</font><br />\nWastewater Fitting (Local)<br />\nWastewater Manhole GIS ID Label (Local)<br />\nWastewater Manhole (Local)<br />\nWastewater Pipe GIS ID Label (Local) <br />\nWastewater Pipe (Local)<br />\nWastewater Structure (Local)<br />\nWastewater Other Structure (Local)<br />\nWastewater Pump Station (Local)<br />\n<font size='5'>Transmission Network</font><br />\nWastewater Fitting (Transmission)<br />\nWastewater Manhole (Transmission)<br />\nWastewater Pipe (Transmission)<br />\nWastewater Structure (Transmission)<br />\nWastewater Chamber (Transmission)<br />\nWastewater Pump Station (Transmission)<br />\n<font size='5'>Stormwater</font><br />\nStormwater Treatment Device<br />\nStormwater Soakage System<br />\nStormwater Manhole And Chamber SAP ID label<br />\nStormwater Manhole And Chamber<br />\nStormwater Inlet And Outlet SAP ID label<br />\nStormwater Inlet And Outlet<br />\nStormwater Catchpit SAP ID label<br />\nStormwater Catchpit<br />\n<font size='5'>Stormwater Pond or Wetland Components</font><br />\nStormwater Spillway<br />\nStormwater Viewing Platform<br />\nStormwater Embankment<br />\nStormwater Safety Benching<br />\nStormwater Bridge<br />\nStormwater Forebay<br />\nStormwater Treatment Facility<br />\nStormwater Fence<br />\nStormwater Watercourse<br />\nStormwater Pipe SAP ID label<br />\nStormwater Pipe<br />\nStormwater Connection<br />\nStormwater Channel<br />\nStormwater Pump Station<br />\nStormwater Planting<br />\nStormwater Erosion And Flood Control<br />\n<font size='5'>Stormwater Abandoned Assets</font><br />\nStormwater Abandoned Pipe<br />\nStormwater Abandoned Connection<br />\nSeptic Tank<br />\n<font size='5'>Stormwater GPS</font><br />\nGPS Location (NorthShore)<br />\nGPS Survey (North Shore)<br />\n<font size='5'>Water</font><br />\n<font size='5'> Local Network</font><br />\nWater Fitting (Local)<br />\nWater Valve (Local)<br />\nWater Hydrant (Local)<br />\nWater Other Fitting (Local)<br />\nWater Pipe (Local)<br />\nWater Structure (Local)<br />\nWater Other Structure (Local)<br />\nWater Pump Station (Local)<br />\nWater Reservoir (Local)<br />\nWater Fitting (Transmission)<br />\nWater Valve  (Transmission)<br />\nWater Other Fitting (Transmission)<br />\nWater Pipe (Transmission)<br />\nWater Structure (Transmission)<br />\nWater Chamber (Transmission)<br />\nWater Pump Station (Transmission)<br />\nWater Reservoir (Transmission)<br />\nWater Source (Transmission)<br />\n<font size='5'>Other Watercare Assets</font><br />\nOther Watercare Point Assets<br />\nOther Watercare Linear Assets<br />\nOther Watercare Structures and Areas<br />\n<font size='5'>Other Non Watercare</font><br />\nNon Watercare Fitting<br />\nNon Watercare Pipe<br />\nNon Watercare Structure<br />\nAsbuilt Area<br />\n<font size='5'>Transpower</font><br />\nTranspower Pylons<br />\nTranspower Sites<br />\nElectricity Transmission Lines<br />\nLGP Pipeline<br />\nAviation JetA1 Fuel Pipeline<br />\nGas Transmission Lines<br />\nHigh Pressure Gas Pipelines<br />\nMedium-Pressure Gas Pipeline<br />\nRNZ Liquid Fuels Pipeline Marsden to Wiri<br />\nFibre Optic Cable - ARTA</div>",
+  "provider": "mapspublic.aucklandcouncil.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Wastewater",
+      "title": "Wastewater",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Local Network",
+      "title": "Local Network",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Wastewater Fitting (Local)",
+      "title": "Wastewater Fitting (Local)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT ID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "INV_LEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "INVERT LEVEL (NZVD2016)"
+        },
+        {
+          "name": "SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "SERVICE"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 107,
+      "name": "Wastewater Manhole COMPKEY Label (Local)",
+      "title": "Wastewater Manhole COMPKEY Label (Local)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Wastewater Manhole (Local)",
+      "title": "Wastewater Manhole (Local)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT ID"
+        },
+        {
+          "name": "MH_NO",
+          "type": "esriFieldTypeString",
+          "alias": "MANHOLE NUMBER"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "INV_LEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "INVERT LEVEL (NZVD2016)"
+        },
+        {
+          "name": "INV_DEPTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "INVERT DEPTH"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 108,
+      "name": "Wastewater Pipe COMPKEY Label (Local) ",
+      "title": "Wastewater Pipe COMPKEY Label (Local) ",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Wastewater Pipe (Local)",
+      "title": "Wastewater Pipe (Local)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT ID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "SERVICE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "NOM_DIA_MM",
+          "type": "esriFieldTypeDouble",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "MATERIAL",
+          "type": "esriFieldTypeString",
+          "alias": "MATERIAL"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "POSITION",
+          "type": "esriFieldTypeString",
+          "alias": "POSITION"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Wastewater Structure (Local)",
+      "title": "Wastewater Structure (Local)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Wastewater Other Structure (Local)",
+      "title": "Wastewater Other Structure (Local)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "FAC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY CODE"
+        },
+        {
+          "name": "FAC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY DESCRIPTION"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNITI D"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "POSITION",
+          "type": "esriFieldTypeString",
+          "alias": "POSITION"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "SERVICE"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Wastewater Pump Station (Local)",
+      "title": "Wastewater Pump Station (Local)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "FAC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY CODE"
+        },
+        {
+          "name": "FAC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY DESCRIPTION"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT ID"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "POSITION",
+          "type": "esriFieldTypeString",
+          "alias": "POSITION"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY"
+        },
+        {
+          "name": "SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "SERVICE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Transmission Network",
+      "title": "Transmission Network",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Wastewater Fitting (Transmission)",
+      "title": "Wastewater Fitting (Transmission)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT ID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "SERVICE"
+        },
+        {
+          "name": "FAC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY CODE"
+        },
+        {
+          "name": "FAC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY DESCRIPTION"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Wastewater Manhole (Transmission)",
+      "title": "Wastewater Manhole (Transmission)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT ID"
+        },
+        {
+          "name": "MH_NO",
+          "type": "esriFieldTypeString",
+          "alias": "MANHOLE NUMBER"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "LID_LEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "LID LEVEL (NZVD2016)"
+        },
+        {
+          "name": "INV_LEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "INVERT LEVEL (NZVD2016)"
+        },
+        {
+          "name": "INV_DEPTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "INVERT DEPTH"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "FAC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY CODE"
+        },
+        {
+          "name": "FAC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY DESCRIPTION"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Wastewater Pipe (Transmission)",
+      "title": "Wastewater Pipe (Transmission)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIT ID"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMP KEY"
+        },
+        {
+          "name": "SERVICE",
+          "type": "esriFieldTypeString",
+          "alias": "SERVICE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "NOM_DIA_MM",
+          "type": "esriFieldTypeDouble",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "MATERIAL",
+          "type": "esriFieldTypeString",
+          "alias": "MATERIAL"
+        },
+        {
+          "name": "INSTALLED",
+          "type": "esriFieldTypeDate",
+          "alias": "INSTALLED"
+        },
+        {
+          "name": "PROCESS",
+          "type": "esriFieldTypeString",
+          "alias": "PROCESS"
+        },
+        {
+          "name": "POSITION",
+          "type": "esriFieldTypeString",
+          "alias": "POSITION"
+        },
+        {
+          "name": "GRP",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "FAC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY CODE"
+        },
+        {
+          "name": "FAC_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITY DESCRIPTION"
+        },
+        {
+          "name": "LINING",
+          "type": "esriFieldTypeString",
+          "alias": "LINING"
+        },
+        {
+          "name": "US_INV",
+          "type": "esriFieldTypeDouble",
+          "alias": "UP STREAM INVERT LEVEL (NZVD2016)"
+        },
+        {
+          "name": "DS_INV",
+          "type": "esriFieldTypeDouble",
+          "alias": "DOWN STREAM INVERT LEVEL (NZVD2016)"
+        },
+        {
+          "name": "COND_SCORE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CONDITION OF PIPE (1-5)"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Wastewater Structure (Transmission)",
+      "title": "Wastewater Structure (Transmission)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 127,
+      "name": "Wastewater Chamber (Transmission)",
+      "title": "Wastewater Chamber (Transmission)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 128,
+      "name": "Wastewater Pump Station (Transmission)",
+      "title": "Wastewater Pump Station (Transmission)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Stormwater",
+      "title": "Stormwater",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Stormwater Treatment Device",
+      "title": "Stormwater Treatment Device",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Stormwater Soakage System",
+      "title": "Stormwater Soakage System",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 219,
+      "name": "Stormwater Manhole And Chamber SAP ID label",
+      "title": "Stormwater Manhole And Chamber SAP ID label",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Stormwater Manhole And Chamber",
+      "title": "Stormwater Manhole And Chamber",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 105,
+      "name": "Stormwater Inlet And Outlet SAP ID label",
+      "title": "Stormwater Inlet And Outlet SAP ID label",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Stormwater Inlet And Outlet",
+      "title": "Stormwater Inlet And Outlet",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 103,
+      "name": "Stormwater Catchpit SAP ID label",
+      "title": "Stormwater Catchpit SAP ID label",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Stormwater Catchpit",
+      "title": "Stormwater Catchpit",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Stormwater Pond or Wetland Components",
+      "title": "Stormwater Pond or Wetland Components",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Stormwater Spillway",
+      "title": "Stormwater Spillway",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Stormwater Viewing Platform",
+      "title": "Stormwater Viewing Platform",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 217,
+      "name": "Stormwater Dam",
+      "title": "Stormwater Dam",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Stormwater Embankment",
+      "title": "Stormwater Embankment",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Stormwater Safety Benching",
+      "title": "Stormwater Safety Benching",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Stormwater Bridge",
+      "title": "Stormwater Bridge",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Stormwater Forebay",
+      "title": "Stormwater Forebay",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Stormwater Treatment Facility",
+      "title": "Stormwater Treatment Facility",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Stormwater Fence",
+      "title": "Stormwater Fence",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Stormwater Watercourse",
+      "title": "Stormwater Watercourse",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 223,
+      "name": "Stormwater Pipe SAP ID label",
+      "title": "Stormwater Pipe SAP ID label",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 109,
+      "name": "Stormwater Pipe",
+      "title": "Stormwater Pipe",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Stormwater Connection",
+      "title": "Stormwater Connection",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Stormwater Channel",
+      "title": "Stormwater Channel",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Stormwater Pump Station",
+      "title": "Stormwater Pump Station",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Stormwater Planting",
+      "title": "Stormwater Planting",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Stormwater Erosion And Flood Control",
+      "title": "Stormwater Erosion And Flood Control",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Stormwater Abandoned Assets",
+      "title": "Stormwater Abandoned Assets",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Stormwater Abandoned Pipe",
+      "title": "Stormwater Abandoned Pipe",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Stormwater Abandoned Connection",
+      "title": "Stormwater Abandoned Connection",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Septic Tank",
+      "title": "Septic Tank",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Stormwater GPS",
+      "title": "Stormwater GPS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "GPS Location (NorthShore)",
+      "title": "GPS Location (NorthShore)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "GPS Survey (North Shore)",
+      "title": "GPS Survey (North Shore)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Water",
+      "title": "Water",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": " Local Network",
+      "title": " Local Network",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Water Fitting (Local)",
+      "title": "Water Fitting (Local)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Water Valve (Local)",
+      "title": "Water Valve (Local)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Water Hydrant (Local)",
+      "title": "Water Hydrant (Local)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Water Other Fitting (Local)",
+      "title": "Water Other Fitting (Local)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "Water Pipe (Local)",
+      "title": "Water Pipe (Local)",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Water Structure (Local)",
+      "title": "Water Structure (Local)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 228,
+      "name": "Water Other Structure (Local)",
+      "title": "Water Other Structure (Local)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 78,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

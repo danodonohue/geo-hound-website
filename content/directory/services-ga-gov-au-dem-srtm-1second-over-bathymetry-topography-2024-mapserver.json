@@ -1,0 +1,84 @@
+{
+  "slug": "services-ga-gov-au-dem-srtm-1second-over-bathymetry-topography-2024-mapserver",
+  "service_key": "ESRI MapServer:https://services.ga.gov.au/gis/rest/services/DEM_SRTM_1Second_over_Bathymetry_Topography_2024/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://services.ga.gov.au/gis/rest/services/DEM_SRTM_1Second_over_Bathymetry_Topography_2024/MapServer",
+  "title": "DEM_SRTM_1Second_over_Bathymetry_Topography_2024",
+  "description": "Digital elevation model and bathymetry for Australia and adjacent areas.",
+  "abstract": "The Australian Bathymetry and Topography web service includes the topography of Australia and the bathymetry of the adjoining Australian Exclusive Economic Zone. The area selected does not include data from Australia's marine jurisdiction offshore from the Territory of Heard and McDonald Islands and the Australian Antarctic Territory. The 2009 bathymetry data were compiled by Geoscience Australia from multibeam and single beam data, and along with the topography (onshore) data, was derived from multiple sources. As per the 2005 grid, the 0.0025 dd resolution is only supported where direct bathymetric observations are sufficiently dense (e.g. where swath bathymetry data or digitised chart data exist) (Webster and Petkovic, 2005). In areas where no sounding data are available (in waters off the Australian shelf), the grid is based on the 2 arc minute ETOPO (Smith and Sandwell, 1997) and 1 arc minute ETOPO (Amante and Eakins, 2008) satellite derived bathymetry. The topographic data (onshore data) is based on the revised Australian 0.0025dd topography grid (Geoscience Australia, 2008), the 0.0025dd New Zealand topography grid (Geographx, 2008) and the 90m SRTM DEM (Jarvis et al, 2008).Geoscience Australiahttps://pid.geoscience.gov.au/dataset/ga/100250",
+  "place": {
+    "country": "Australia",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "elevation",
+      "confidence": "high"
+    },
+    {
+      "name": "marine",
+      "confidence": "high"
+    }
+  ],
+  "bbox": [
+    91.99762207031252,
+    -60.002438964843755,
+    171.99762207031065,
+    -8.002438964844965
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "name": "DEM_SRTM_1Second_over_Bathymetry_Topography_2024",
+      "title": "DEM_SRTM_1Second_over_Bathymetry_Topography_2024",
+      "geometry": null,
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "value",
+          "type": "esriFieldTypeInteger",
+          "alias": "value"
+        },
+        {
+          "name": "count",
+          "type": "esriFieldTypeInteger",
+          "alias": "count"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 212,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-8",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_District/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_District/MapServer",
+  "title": "Layers",
+  "description": "District administrative boundaries for Surrey.",
+  "abstract": "Layers associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 11,
+      "name": "Boundary - District",
+      "title": "Boundary - District",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "osid",
+          "type": "esriFieldTypeString",
+          "alias": "osid"
+        },
+        {
+          "name": "toid",
+          "type": "esriFieldTypeString",
+          "alias": "toid"
+        },
+        {
+          "name": "versiondate",
+          "type": "esriFieldTypeDate",
+          "alias": "versiondate"
+        },
+        {
+          "name": "versionavailablefromdate",
+          "type": "esriFieldTypeDate",
+          "alias": "versionavailablefromdate"
+        },
+        {
+          "name": "versionavailabletodate",
+          "type": "esriFieldTypeDate",
+          "alias": "versionavailabletodate"
+        },
+        {
+          "name": "changetype",
+          "type": "esriFieldTypeString",
+          "alias": "changetype"
+        },
+        {
+          "name": "geometry_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "geometry_area"
+        },
+        {
+          "name": "theme",
+          "type": "esriFieldTypeString",
+          "alias": "theme"
+        },
+        {
+          "name": "name1_text",
+          "type": "esriFieldTypeString",
+          "alias": "name1_text"
+        },
+        {
+          "name": "name1_language",
+          "type": "esriFieldTypeString",
+          "alias": "name1_language"
+        },
+        {
+          "name": "name2_text",
+          "type": "esriFieldTypeString",
+          "alias": "name2_text"
+        },
+        {
+          "name": "name2_language",
+          "type": "esriFieldTypeString",
+          "alias": "name2_language"
+        },
+        {
+          "name": "gsscode",
+          "type": "esriFieldTypeString",
+          "alias": "gsscode"
+        },
+        {
+          "name": "boundarytype",
+          "type": "esriFieldTypeString",
+          "alias": "boundarytype"
+        },
+        {
+          "name": "boundaryparentreference_id",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference_id"
+        },
+        {
+          "name": "boundaryparentreference_feature",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference_feature"
+        },
+        {
+          "name": "boundaryparentreference_classif",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference_classif"
+        },
+        {
+          "name": "boundaryparentreference_name1_t",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference_name1_t"
+        },
+        {
+          "name": "boundaryparentreference_name1_l",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference_name1_l"
+        },
+        {
+          "name": "boundaryparentreference_name2_t",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference_name2_t"
+        },
+        {
+          "name": "boundaryparentreference_name2_l",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference_name2_l"
+        },
+        {
+          "name": "landareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "landareahectares"
+        },
+        {
+          "name": "tidalareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "tidalareahectares"
+        },
+        {
+          "name": "totalareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "totalareahectares"
+        },
+        {
+          "name": "isborough",
+          "type": "esriFieldTypeInteger",
+          "alias": "isborough"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 318,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

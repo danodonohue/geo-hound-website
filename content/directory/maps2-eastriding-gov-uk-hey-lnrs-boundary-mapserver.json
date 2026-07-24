@@ -1,0 +1,104 @@
+{
+  "slug": "maps2-eastriding-gov-uk-hey-lnrs-boundary-mapserver",
+  "service_key": "ESRI MapServer:https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_LNRS_Boundary/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_LNRS_Boundary/MapServer",
+  "title": "HEY_LNRS_Boundary",
+  "description": "Local Nature Recovery Strategy boundary designation.",
+  "provider": "maps2.eastriding.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "HEY_LNRS_Boundary",
+      "title": "HEY_LNRS_Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Resp_Auth",
+          "type": "esriFieldTypeString",
+          "alias": "Resp_Auth"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 294,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

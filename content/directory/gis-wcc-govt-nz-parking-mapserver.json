@@ -1,0 +1,195 @@
+{
+  "slug": "gis-wcc-govt-nz-parking-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/Parking/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/Parking/MapServer",
+  "title": "Parking",
+  "description": "Parking sensors, meters and control types for Wellington City street parking",
+  "abstract": "Parking for Wellington City.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Parking Sensors, No. Plates and Meters",
+      "title": "Parking Sensors, No. Plates and Meters",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Parking_Control_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Parking_Control_Type"
+        },
+        {
+          "name": "Meter_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Meter_Type"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Asset"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Sensor_Serial_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sensor_Serial_ID"
+        },
+        {
+          "name": "Meter_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Meter_ID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 56,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

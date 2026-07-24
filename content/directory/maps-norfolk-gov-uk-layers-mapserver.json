@@ -1,0 +1,160 @@
+{
+  "slug": "maps-norfolk-gov-uk-layers-mapserver",
+  "service_key": "ESRI MapServer:https://maps.norfolk.gov.uk/arcgis/rest/services/backdrops/ncc_1946/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.norfolk.gov.uk/arcgis/rest/services/backdrops/ncc_1946/MapServer",
+  "title": "Layers",
+  "description": "Historical OS Vector Backdrop from 1946 for Norfolk region.",
+  "abstract": "OS Vector Backdrop",
+  "provider": "maps.norfolk.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Norfolk",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "os_vectormap",
+      "title": "os_vectormap",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "FILE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_NAME"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "NUMBER0",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER0"
+        },
+        {
+          "name": "POLYGON_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLYGON_ID"
+        },
+        {
+          "name": "UNIT_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_ID"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "DESCRIPT0",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT0"
+        },
+        {
+          "name": "TYPE_COD0",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_COD0"
+        },
+        {
+          "name": "DESCRIPT1",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT1"
+        },
+        {
+          "name": "RSV_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1221,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

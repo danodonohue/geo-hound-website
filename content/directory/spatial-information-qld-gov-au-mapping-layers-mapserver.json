@@ -1,0 +1,3927 @@
+{
+  "slug": "spatial-information-qld-gov-au-mapping-layers-mapserver",
+  "service_key": "ESRI MapServer:https://spatial.information.qld.gov.au/arcgis/sharing/servers/2eb6cd055ae0497793940e7e4c833a63/rest/services/WetlandMaps/Map/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://spatial.information.qld.gov.au/arcgis/sharing/servers/2eb6cd055ae0497793940e7e4c833a63/rest/services/WetlandMaps/Map/MapServer",
+  "title": "Mapping layers",
+  "description": "Wetlands and groundwater dependent ecosystems including springs and habitat.",
+  "abstract": "WetlandMaps",
+  "provider": "spatial.information.qld.gov.au",
+  "place": {
+    "country": "Australia",
+    "state": "Queensland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Queensland wetland mapping",
+      "title": "Queensland wetland mapping",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Wetland data version 7.0 - points",
+      "title": "Wetland data version 7.0 - points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "xxx_uid",
+          "type": "esriFieldTypeString",
+          "alias": "Unique ID (Habitat)"
+        },
+        {
+          "name": "xxx_name",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Name (Habitat)"
+        },
+        {
+          "name": "eco_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland System (Habitat)"
+        },
+        {
+          "name": "hyd_mod_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification (Habitat)"
+        },
+        {
+          "name": "bio_wre_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem (Habitat)"
+        },
+        {
+          "name": "hyd_aqna_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Name (Landscape)"
+        },
+        {
+          "name": "hyd_perm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Permanence of Water (Habitat)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Wetland data version 7.0 - lines",
+      "title": "Wetland data version 7.0 - lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "xxx_uid",
+          "type": "esriFieldTypeString",
+          "alias": "Unique ID (Habitat)"
+        },
+        {
+          "name": "xxx_name",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Name (Habitat)"
+        },
+        {
+          "name": "bio_wre_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem (Habitat)"
+        },
+        {
+          "name": "eco_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland System (Habitat)"
+        },
+        {
+          "name": "oth_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem System (Habitat)"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 89,
+      "name": "Wetland data version 7.0 - areas",
+      "title": "Wetland data version 7.0 - areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 88,
+      "name": "Wetland data version 7.0 - areas (excluding contains and sub-dominant polygons)",
+      "title": "Wetland data version 7.0 - areas (excluding contains and sub-dominant polygons)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "eco_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland System (Habitat)"
+        },
+        {
+          "name": "hyd_mod_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification (Habitat)"
+        },
+        {
+          "name": "hyd_mod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Landscale Hydrological Modification (Landscape)"
+        },
+        {
+          "name": "oth_wpct_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Percentage (Habitat)"
+        },
+        {
+          "name": "bio_wre_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem (Habitat)"
+        },
+        {
+          "name": "oth_wrpc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem Percent (Habitat)"
+        },
+        {
+          "name": "hyd_perm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Permanence of Water (Habitat)"
+        },
+        {
+          "name": "hyd_sal_h",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Habitat)"
+        },
+        {
+          "name": "oth_dha_h",
+          "type": "esriFieldTypeString",
+          "alias": "Dominant Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "bio_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Habitat)"
+        },
+        {
+          "name": "bio_comp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Landscape)"
+        },
+        {
+          "name": "bio_comp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Region)"
+        },
+        {
+          "name": "bio_covr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Vegetation Cover (Habitat)"
+        },
+        {
+          "name": "bio_grfm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Habitat)"
+        },
+        {
+          "name": "bio_grfm_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Landscape)"
+        },
+        {
+          "name": "bio_grhe_h",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Habitat)"
+        },
+        {
+          "name": "bio_grhe_l",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Landscape)"
+        },
+        {
+          "name": "cli_arid_r",
+          "type": "esriFieldTypeString",
+          "alias": "Aridity Index (Region)"
+        },
+        {
+          "name": "cli_clas_l",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Landscape)"
+        },
+        {
+          "name": "cli_clas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Region)"
+        },
+        {
+          "name": "cli_pet_l",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Landscape)"
+        },
+        {
+          "name": "cli_pet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Region)"
+        },
+        {
+          "name": "cli_phas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Phase-Offset (Region)"
+        },
+        {
+          "name": "cli_prec_l",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Landscape)"
+        },
+        {
+          "name": "cli_prec_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Region)"
+        },
+        {
+          "name": "cli_reg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Region (Region)"
+        },
+        {
+          "name": "cli_temp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Landscape)"
+        },
+        {
+          "name": "cli_temp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Region)"
+        },
+        {
+          "name": "cli_tpet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration Timing (Region)"
+        },
+        {
+          "name": "cli_tpre_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation Timing (Region)"
+        },
+        {
+          "name": "consol",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Consolidation (Landscape)"
+        },
+        {
+          "name": "eco_osys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Original Wetland System (Habitat)"
+        },
+        {
+          "name": "geo_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Habitat)"
+        },
+        {
+          "name": "geo_rock_h",
+          "type": "esriFieldTypeString",
+          "alias": "Geological Rock Type (Habitat)"
+        },
+        {
+          "name": "geo_size_h",
+          "type": "esriFieldTypeString",
+          "alias": "Sediment Grain Size (Habitat)"
+        },
+        {
+          "name": "geo_text_h",
+          "type": "esriFieldTypeString",
+          "alias": "Soil Texture (Habitat)"
+        },
+        {
+          "name": "hyd_act_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification Activity (Habitat)"
+        },
+        {
+          "name": "hyd_agfs_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Groundwater Flow System (Landscape)"
+        },
+        {
+          "name": "hyd_aqna_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Name (Landscape)"
+        },
+        {
+          "name": "hyd_basn_l",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Landscape)"
+        },
+        {
+          "name": "hyd_basn_r",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Region)"
+        },
+        {
+          "name": "hyd_flod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Floodplain (Landscape)"
+        },
+        {
+          "name": "hyd_nat_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Habitat)"
+        },
+        {
+          "name": "hyd_nat_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Landscape)"
+        },
+        {
+          "name": "hyd_obsr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Habitat)"
+        },
+        {
+          "name": "hyd_obsr_l",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Landscape)"
+        },
+        {
+          "name": "hyd_oext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_oexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_otim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_otiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_perd_h",
+          "type": "esriFieldTypeString",
+          "alias": "Timing Periodicity (Habitat)"
+        },
+        {
+          "name": "hyd_ph_h",
+          "type": "esriFieldTypeString",
+          "alias": "pH (Habitat)"
+        },
+        {
+          "name": "hyd_qual_h",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Hydrological Data Quality (Habitat)"
+        },
+        {
+          "name": "hyd_sal_l",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Landscape)"
+        },
+        {
+          "name": "hyd_wext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent (Habitat)"
+        },
+        {
+          "name": "hyd_wexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent Variability (Habitat)"
+        },
+        {
+          "name": "hyd_wsrc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Relative Dominance of Water Sources (Habitat)"
+        },
+        {
+          "name": "hyd_wtim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time (Habitat)"
+        },
+        {
+          "name": "hyd_wtiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time Variability (Habitat)"
+        },
+        {
+          "name": "lnd_alt_l",
+          "type": "esriFieldTypeString",
+          "alias": "Altitude (Landscape)"
+        },
+        {
+          "name": "lnd_breg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_breg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Region)"
+        },
+        {
+          "name": "lnd_lzon_l",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Landscape)"
+        },
+        {
+          "name": "lnd_lzon_r",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Region)"
+        },
+        {
+          "name": "lnd_morp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Morphology (Habitat)"
+        },
+        {
+          "name": "lnd_preg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_preg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Region)"
+        },
+        {
+          "name": "lnd_slop_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Habitat)"
+        },
+        {
+          "name": "lnd_slop_l",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Landscape)"
+        },
+        {
+          "name": "oth_hab_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "oth_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem System (Habitat)"
+        },
+        {
+          "name": "sed_gsz",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Grain Size (Landscape)"
+        },
+        {
+          "name": "smb_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Structural Macrobiota Composition (Landscape)"
+        },
+        {
+          "name": "sub_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Landscape)"
+        },
+        {
+          "name": "xxx_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (Habitat)"
+        },
+        {
+          "name": "xxx_lege",
+          "type": "esriFieldTypeString",
+          "alias": "Legend (Habitat)"
+        },
+        {
+          "name": "xxx_uid",
+          "type": "esriFieldTypeString",
+          "alias": "Unique ID (Habitat)"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Wetland data version 7.0 - areas (contains and sub-dominant polygons)",
+      "title": "Wetland data version 7.0 - areas (contains and sub-dominant polygons)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "eco_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland System (Habitat)"
+        },
+        {
+          "name": "hyd_mod_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification (Habitat)"
+        },
+        {
+          "name": "hyd_mod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Landscale Hydrological Modification (Landscape)"
+        },
+        {
+          "name": "oth_wpct_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Percentage (Habitat)"
+        },
+        {
+          "name": "bio_wre_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem (Habitat)"
+        },
+        {
+          "name": "oth_wrpc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem Percent (Habitat)"
+        },
+        {
+          "name": "hyd_perm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Permanence of Water (Habitat)"
+        },
+        {
+          "name": "hyd_sal_h",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Habitat)"
+        },
+        {
+          "name": "oth_dha_h",
+          "type": "esriFieldTypeString",
+          "alias": "Dominant Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "bio_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Habitat)"
+        },
+        {
+          "name": "bio_comp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Landscape)"
+        },
+        {
+          "name": "bio_comp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Region)"
+        },
+        {
+          "name": "bio_covr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Vegetation Cover (Habitat)"
+        },
+        {
+          "name": "bio_grfm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Habitat)"
+        },
+        {
+          "name": "bio_grfm_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Landscape)"
+        },
+        {
+          "name": "bio_grhe_h",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Habitat)"
+        },
+        {
+          "name": "bio_grhe_l",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Landscape)"
+        },
+        {
+          "name": "cli_arid_r",
+          "type": "esriFieldTypeString",
+          "alias": "Aridity Index (Region)"
+        },
+        {
+          "name": "cli_clas_l",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Landscape)"
+        },
+        {
+          "name": "cli_clas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Region)"
+        },
+        {
+          "name": "cli_pet_l",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Landscape)"
+        },
+        {
+          "name": "cli_pet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Region)"
+        },
+        {
+          "name": "cli_phas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Phase-Offset (Region)"
+        },
+        {
+          "name": "cli_prec_l",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Landscape)"
+        },
+        {
+          "name": "cli_prec_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Region)"
+        },
+        {
+          "name": "cli_reg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Region (Region)"
+        },
+        {
+          "name": "cli_temp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Landscape)"
+        },
+        {
+          "name": "cli_temp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Region)"
+        },
+        {
+          "name": "cli_tpet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration Timing (Region)"
+        },
+        {
+          "name": "cli_tpre_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation Timing (Region)"
+        },
+        {
+          "name": "consol",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Consolidation (Landscape)"
+        },
+        {
+          "name": "eco_osys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Original Wetland System (Habitat)"
+        },
+        {
+          "name": "geo_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Habitat)"
+        },
+        {
+          "name": "geo_rock_h",
+          "type": "esriFieldTypeString",
+          "alias": "Geological Rock Type (Habitat)"
+        },
+        {
+          "name": "geo_size_h",
+          "type": "esriFieldTypeString",
+          "alias": "Sediment Grain Size (Habitat)"
+        },
+        {
+          "name": "geo_text_h",
+          "type": "esriFieldTypeString",
+          "alias": "Soil Texture (Habitat)"
+        },
+        {
+          "name": "hyd_act_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification Activity (Habitat)"
+        },
+        {
+          "name": "hyd_agfs_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Groundwater Flow System (Landscape)"
+        },
+        {
+          "name": "hyd_aqna_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Name (Landscape)"
+        },
+        {
+          "name": "hyd_basn_l",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Landscape)"
+        },
+        {
+          "name": "hyd_basn_r",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Region)"
+        },
+        {
+          "name": "hyd_flod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Floodplain (Landscape)"
+        },
+        {
+          "name": "hyd_nat_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Habitat)"
+        },
+        {
+          "name": "hyd_nat_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Landscape)"
+        },
+        {
+          "name": "hyd_obsr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Habitat)"
+        },
+        {
+          "name": "hyd_obsr_l",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Landscape)"
+        },
+        {
+          "name": "hyd_oext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_oexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_otim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_otiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_perd_h",
+          "type": "esriFieldTypeString",
+          "alias": "Timing Periodicity (Habitat)"
+        },
+        {
+          "name": "hyd_ph_h",
+          "type": "esriFieldTypeString",
+          "alias": "pH (Habitat)"
+        },
+        {
+          "name": "hyd_qual_h",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Hydrological Data Quality (Habitat)"
+        },
+        {
+          "name": "hyd_sal_l",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Landscape)"
+        },
+        {
+          "name": "hyd_wext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent (Habitat)"
+        },
+        {
+          "name": "hyd_wexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent Variability (Habitat)"
+        },
+        {
+          "name": "hyd_wsrc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Relative Dominance of Water Sources (Habitat)"
+        },
+        {
+          "name": "hyd_wtim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time (Habitat)"
+        },
+        {
+          "name": "hyd_wtiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time Variability (Habitat)"
+        },
+        {
+          "name": "lnd_alt_l",
+          "type": "esriFieldTypeString",
+          "alias": "Altitude (Landscape)"
+        },
+        {
+          "name": "lnd_breg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_breg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Region)"
+        },
+        {
+          "name": "lnd_lzon_l",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Landscape)"
+        },
+        {
+          "name": "lnd_lzon_r",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Region)"
+        },
+        {
+          "name": "lnd_morp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Morphology (Habitat)"
+        },
+        {
+          "name": "lnd_preg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_preg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Region)"
+        },
+        {
+          "name": "lnd_slop_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Habitat)"
+        },
+        {
+          "name": "lnd_slop_l",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Landscape)"
+        },
+        {
+          "name": "oth_hab_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "oth_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem System (Habitat)"
+        },
+        {
+          "name": "sed_gsz",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Grain Size (Landscape)"
+        },
+        {
+          "name": "smb_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Structural Macrobiota Composition (Landscape)"
+        },
+        {
+          "name": "sub_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Landscape)"
+        },
+        {
+          "name": "xxx_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (Habitat)"
+        },
+        {
+          "name": "xxx_lege",
+          "type": "esriFieldTypeString",
+          "alias": "Legend (Habitat)"
+        },
+        {
+          "name": "xxx_uid",
+          "type": "esriFieldTypeString",
+          "alias": "Unique ID (Habitat)"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 93,
+      "name": "Wetland data version 7.0 - pre-clear mapping",
+      "title": "Wetland data version 7.0 - pre-clear mapping",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "eco_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "eco_wsys_h"
+        },
+        {
+          "name": "hyd_mod_h",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_mod_h"
+        },
+        {
+          "name": "hyd_mod_l",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_mod_l"
+        },
+        {
+          "name": "oth_wpct_h",
+          "type": "esriFieldTypeString",
+          "alias": "oth_wpct_h"
+        },
+        {
+          "name": "bio_wre_h",
+          "type": "esriFieldTypeString",
+          "alias": "bio_wre_h"
+        },
+        {
+          "name": "oth_wrpc_h",
+          "type": "esriFieldTypeString",
+          "alias": "oth_wrpc_h"
+        },
+        {
+          "name": "hyd_perm_h",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_perm_h"
+        },
+        {
+          "name": "hyd_sal_h",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_sal_h"
+        },
+        {
+          "name": "oth_dha_h",
+          "type": "esriFieldTypeString",
+          "alias": "oth_dha_h"
+        },
+        {
+          "name": "bio_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "bio_comp_h"
+        },
+        {
+          "name": "bio_comp_l",
+          "type": "esriFieldTypeString",
+          "alias": "bio_comp_l"
+        },
+        {
+          "name": "bio_comp_r",
+          "type": "esriFieldTypeString",
+          "alias": "bio_comp_r"
+        },
+        {
+          "name": "bio_covr_h",
+          "type": "esriFieldTypeString",
+          "alias": "bio_covr_h"
+        },
+        {
+          "name": "bio_grfm_h",
+          "type": "esriFieldTypeString",
+          "alias": "bio_grfm_h"
+        },
+        {
+          "name": "bio_grfm_l",
+          "type": "esriFieldTypeString",
+          "alias": "bio_grfm_l"
+        },
+        {
+          "name": "bio_grhe_h",
+          "type": "esriFieldTypeString",
+          "alias": "bio_grhe_h"
+        },
+        {
+          "name": "bio_grhe_l",
+          "type": "esriFieldTypeString",
+          "alias": "bio_grhe_l"
+        },
+        {
+          "name": "cli_arid_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_arid_r"
+        },
+        {
+          "name": "cli_clas_l",
+          "type": "esriFieldTypeString",
+          "alias": "cli_clas_l"
+        },
+        {
+          "name": "cli_clas_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_clas_r"
+        },
+        {
+          "name": "cli_pet_l",
+          "type": "esriFieldTypeString",
+          "alias": "cli_pet_l"
+        },
+        {
+          "name": "cli_pet_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_pet_r"
+        },
+        {
+          "name": "cli_phas_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_phas_r"
+        },
+        {
+          "name": "cli_prec_l",
+          "type": "esriFieldTypeString",
+          "alias": "cli_prec_l"
+        },
+        {
+          "name": "cli_prec_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_prec_r"
+        },
+        {
+          "name": "cli_reg_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_reg_r"
+        },
+        {
+          "name": "cli_temp_l",
+          "type": "esriFieldTypeString",
+          "alias": "cli_temp_l"
+        },
+        {
+          "name": "cli_temp_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_temp_r"
+        },
+        {
+          "name": "cli_tpet_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_tpet_r"
+        },
+        {
+          "name": "cli_tpre_r",
+          "type": "esriFieldTypeString",
+          "alias": "cli_tpre_r"
+        },
+        {
+          "name": "consol",
+          "type": "esriFieldTypeString",
+          "alias": "consol"
+        },
+        {
+          "name": "eco_osys_h",
+          "type": "esriFieldTypeString",
+          "alias": "eco_osys_h"
+        },
+        {
+          "name": "geo_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "geo_comp_h"
+        },
+        {
+          "name": "geo_rock_h",
+          "type": "esriFieldTypeString",
+          "alias": "geo_rock_h"
+        },
+        {
+          "name": "geo_size_h",
+          "type": "esriFieldTypeString",
+          "alias": "geo_size_h"
+        },
+        {
+          "name": "geo_text_h",
+          "type": "esriFieldTypeString",
+          "alias": "geo_text_h"
+        },
+        {
+          "name": "hyd_act_h",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_act_h"
+        },
+        {
+          "name": "hyd_agfs_l",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_agfs_l"
+        },
+        {
+          "name": "hyd_aqna_l",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_aqna_l"
+        },
+        {
+          "name": "hyd_basn_l",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_basn_l"
+        },
+        {
+          "name": "hyd_basn_r",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_basn_r"
+        },
+        {
+          "name": "hyd_flod_l",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_flod_l"
+        },
+        {
+          "name": "hyd_nat_h",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_nat_h"
+        },
+        {
+          "name": "hyd_nat_l",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_nat_l"
+        },
+        {
+          "name": "hyd_ph_h",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_ph_h"
+        },
+        {
+          "name": "hyd_sal_l",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_sal_l"
+        },
+        {
+          "name": "hyd_wsrc_h",
+          "type": "esriFieldTypeString",
+          "alias": "hyd_wsrc_h"
+        },
+        {
+          "name": "lnd_alt_l",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_alt_l"
+        },
+        {
+          "name": "lnd_breg_l",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_breg_l"
+        },
+        {
+          "name": "lnd_breg_r",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_breg_r"
+        },
+        {
+          "name": "lnd_lzon_l",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_lzon_l"
+        },
+        {
+          "name": "lnd_lzon_r",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_lzon_r"
+        },
+        {
+          "name": "lnd_morp_h",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_morp_h"
+        },
+        {
+          "name": "lnd_preg_l",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_preg_l"
+        },
+        {
+          "name": "lnd_preg_r",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_preg_r"
+        },
+        {
+          "name": "lnd_slop_h",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_slop_h"
+        },
+        {
+          "name": "lnd_slop_l",
+          "type": "esriFieldTypeString",
+          "alias": "lnd_slop_l"
+        },
+        {
+          "name": "oth_hab_h",
+          "type": "esriFieldTypeString",
+          "alias": "oth_hab_h"
+        },
+        {
+          "name": "oth_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "oth_wsys_h"
+        },
+        {
+          "name": "sed_gsz",
+          "type": "esriFieldTypeString",
+          "alias": "sed_gsz"
+        },
+        {
+          "name": "smb_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "smb_cmp"
+        },
+        {
+          "name": "sub_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "sub_cmp"
+        },
+        {
+          "name": "xxx_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "xxx_area"
+        },
+        {
+          "name": "xxx_lege",
+          "type": "esriFieldTypeString",
+          "alias": "xxx_lege"
+        },
+        {
+          "name": "xxx_uid",
+          "type": "esriFieldTypeString",
+          "alias": "xxx_uid"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 87,
+      "name": "Wetland data version 7.0 - areas (habitat symbology)",
+      "title": "Wetland data version 7.0 - areas (habitat symbology)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "eco_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland System (Habitat)"
+        },
+        {
+          "name": "hyd_mod_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification (Habitat)"
+        },
+        {
+          "name": "hyd_mod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Landscale Hydrological Modification (Landscape)"
+        },
+        {
+          "name": "oth_wpct_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Percentage (Habitat)"
+        },
+        {
+          "name": "bio_wre_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem (Habitat)"
+        },
+        {
+          "name": "oth_wrpc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem Percent (Habitat)"
+        },
+        {
+          "name": "hyd_perm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Permanence of Water (Habitat)"
+        },
+        {
+          "name": "hyd_sal_h",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Habitat)"
+        },
+        {
+          "name": "oth_dha_h",
+          "type": "esriFieldTypeString",
+          "alias": "Dominant Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "bio_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Habitat)"
+        },
+        {
+          "name": "bio_comp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Landscape)"
+        },
+        {
+          "name": "bio_comp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Region)"
+        },
+        {
+          "name": "bio_covr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Vegetation Cover (Habitat)"
+        },
+        {
+          "name": "bio_grfm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Habitat)"
+        },
+        {
+          "name": "bio_grfm_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Landscape)"
+        },
+        {
+          "name": "bio_grhe_h",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Habitat)"
+        },
+        {
+          "name": "bio_grhe_l",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Landscape)"
+        },
+        {
+          "name": "cli_arid_r",
+          "type": "esriFieldTypeString",
+          "alias": "Aridity Index (Region)"
+        },
+        {
+          "name": "cli_clas_l",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Landscape)"
+        },
+        {
+          "name": "cli_clas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Region)"
+        },
+        {
+          "name": "cli_pet_l",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Landscape)"
+        },
+        {
+          "name": "cli_pet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Region)"
+        },
+        {
+          "name": "cli_phas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Phase-Offset (Region)"
+        },
+        {
+          "name": "cli_prec_l",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Landscape)"
+        },
+        {
+          "name": "cli_prec_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Region)"
+        },
+        {
+          "name": "cli_reg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Region (Region)"
+        },
+        {
+          "name": "cli_temp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Landscape)"
+        },
+        {
+          "name": "cli_temp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Region)"
+        },
+        {
+          "name": "cli_tpet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration Timing (Region)"
+        },
+        {
+          "name": "cli_tpre_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation Timing (Region)"
+        },
+        {
+          "name": "consol",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Consolidation (Landscape)"
+        },
+        {
+          "name": "eco_osys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Original Wetland System (Habitat)"
+        },
+        {
+          "name": "geo_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Habitat)"
+        },
+        {
+          "name": "geo_rock_h",
+          "type": "esriFieldTypeString",
+          "alias": "Geological Rock Type (Habitat)"
+        },
+        {
+          "name": "geo_size_h",
+          "type": "esriFieldTypeString",
+          "alias": "Sediment Grain Size (Habitat)"
+        },
+        {
+          "name": "geo_text_h",
+          "type": "esriFieldTypeString",
+          "alias": "Soil Texture (Habitat)"
+        },
+        {
+          "name": "hyd_act_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification Activity (Habitat)"
+        },
+        {
+          "name": "hyd_agfs_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Groundwater Flow System (Landscape)"
+        },
+        {
+          "name": "hyd_aqna_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Name (Landscape)"
+        },
+        {
+          "name": "hyd_basn_l",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Landscape)"
+        },
+        {
+          "name": "hyd_basn_r",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Region)"
+        },
+        {
+          "name": "hyd_flod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Floodplain (Landscape)"
+        },
+        {
+          "name": "hyd_nat_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Habitat)"
+        },
+        {
+          "name": "hyd_nat_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Landscape)"
+        },
+        {
+          "name": "hyd_obsr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Habitat)"
+        },
+        {
+          "name": "hyd_obsr_l",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Landscape)"
+        },
+        {
+          "name": "hyd_oext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_oexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_otim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_otiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_perd_h",
+          "type": "esriFieldTypeString",
+          "alias": "Timing Periodicity (Habitat)"
+        },
+        {
+          "name": "hyd_ph_h",
+          "type": "esriFieldTypeString",
+          "alias": "pH (Habitat)"
+        },
+        {
+          "name": "hyd_qual_h",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Hydrological Data Quality (Habitat)"
+        },
+        {
+          "name": "hyd_sal_l",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Landscape)"
+        },
+        {
+          "name": "hyd_wext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent (Habitat)"
+        },
+        {
+          "name": "hyd_wexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent Variability (Habitat)"
+        },
+        {
+          "name": "hyd_wsrc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Relative Dominance of Water Sources (Habitat)"
+        },
+        {
+          "name": "hyd_wtim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time (Habitat)"
+        },
+        {
+          "name": "hyd_wtiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time Variability (Habitat)"
+        },
+        {
+          "name": "lnd_alt_l",
+          "type": "esriFieldTypeString",
+          "alias": "Altitude (Landscape)"
+        },
+        {
+          "name": "lnd_breg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_breg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Region)"
+        },
+        {
+          "name": "lnd_lzon_l",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Landscape)"
+        },
+        {
+          "name": "lnd_lzon_r",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Region)"
+        },
+        {
+          "name": "lnd_morp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Morphology (Habitat)"
+        },
+        {
+          "name": "lnd_preg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_preg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Region)"
+        },
+        {
+          "name": "lnd_slop_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Habitat)"
+        },
+        {
+          "name": "lnd_slop_l",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Landscape)"
+        },
+        {
+          "name": "oth_hab_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "oth_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem System (Habitat)"
+        },
+        {
+          "name": "sed_gsz",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Grain Size (Landscape)"
+        },
+        {
+          "name": "smb_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Structural Macrobiota Composition (Landscape)"
+        },
+        {
+          "name": "sub_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Landscape)"
+        },
+        {
+          "name": "xxx_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (Habitat)"
+        },
+        {
+          "name": "xxx_lege",
+          "type": "esriFieldTypeString",
+          "alias": "Legend (Habitat)"
+        },
+        {
+          "name": "xxx_uid",
+          "type": "esriFieldTypeString",
+          "alias": "Unique ID (Habitat)"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 90,
+      "name": "Wetland data version 7.0 - areas (peat wetlands)",
+      "title": "Wetland data version 7.0 - areas (peat wetlands)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "eco_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland System (Habitat)"
+        },
+        {
+          "name": "hyd_mod_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification (Habitat)"
+        },
+        {
+          "name": "hyd_mod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Landscale Hydrological Modification (Landscape)"
+        },
+        {
+          "name": "oth_wpct_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Percentage (Habitat)"
+        },
+        {
+          "name": "bio_wre_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem (Habitat)"
+        },
+        {
+          "name": "oth_wrpc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem Percent (Habitat)"
+        },
+        {
+          "name": "hyd_perm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Permanence of Water (Habitat)"
+        },
+        {
+          "name": "hyd_sal_h",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Habitat)"
+        },
+        {
+          "name": "oth_dha_h",
+          "type": "esriFieldTypeString",
+          "alias": "Dominant Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "bio_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Habitat)"
+        },
+        {
+          "name": "bio_comp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Landscape)"
+        },
+        {
+          "name": "bio_comp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Composition (Region)"
+        },
+        {
+          "name": "bio_covr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Vegetation Cover (Habitat)"
+        },
+        {
+          "name": "bio_grfm_h",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Habitat)"
+        },
+        {
+          "name": "bio_grfm_l",
+          "type": "esriFieldTypeString",
+          "alias": "Flora Growth Form (Landscape)"
+        },
+        {
+          "name": "bio_grhe_h",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Habitat)"
+        },
+        {
+          "name": "bio_grhe_l",
+          "type": "esriFieldTypeString",
+          "alias": "Growth Height (Landscape)"
+        },
+        {
+          "name": "cli_arid_r",
+          "type": "esriFieldTypeString",
+          "alias": "Aridity Index (Region)"
+        },
+        {
+          "name": "cli_clas_l",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Landscape)"
+        },
+        {
+          "name": "cli_clas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Class (Region)"
+        },
+        {
+          "name": "cli_pet_l",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Landscape)"
+        },
+        {
+          "name": "cli_pet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration (Region)"
+        },
+        {
+          "name": "cli_phas_r",
+          "type": "esriFieldTypeString",
+          "alias": "Phase-Offset (Region)"
+        },
+        {
+          "name": "cli_prec_l",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Landscape)"
+        },
+        {
+          "name": "cli_prec_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation (Region)"
+        },
+        {
+          "name": "cli_reg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Climate Region (Region)"
+        },
+        {
+          "name": "cli_temp_l",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Landscape)"
+        },
+        {
+          "name": "cli_temp_r",
+          "type": "esriFieldTypeString",
+          "alias": "Temperature (Region)"
+        },
+        {
+          "name": "cli_tpet_r",
+          "type": "esriFieldTypeString",
+          "alias": "Potential Evapotranspiration Timing (Region)"
+        },
+        {
+          "name": "cli_tpre_r",
+          "type": "esriFieldTypeString",
+          "alias": "Precipitation Timing (Region)"
+        },
+        {
+          "name": "consol",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Consolidation (Landscape)"
+        },
+        {
+          "name": "eco_osys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Original Wetland System (Habitat)"
+        },
+        {
+          "name": "geo_comp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Habitat)"
+        },
+        {
+          "name": "geo_rock_h",
+          "type": "esriFieldTypeString",
+          "alias": "Geological Rock Type (Habitat)"
+        },
+        {
+          "name": "geo_size_h",
+          "type": "esriFieldTypeString",
+          "alias": "Sediment Grain Size (Habitat)"
+        },
+        {
+          "name": "geo_text_h",
+          "type": "esriFieldTypeString",
+          "alias": "Soil Texture (Habitat)"
+        },
+        {
+          "name": "hyd_act_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat Hydrological Modification Activity (Habitat)"
+        },
+        {
+          "name": "hyd_agfs_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Groundwater Flow System (Landscape)"
+        },
+        {
+          "name": "hyd_aqna_l",
+          "type": "esriFieldTypeString",
+          "alias": "Aquifer Name (Landscape)"
+        },
+        {
+          "name": "hyd_basn_l",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Landscape)"
+        },
+        {
+          "name": "hyd_basn_r",
+          "type": "esriFieldTypeString",
+          "alias": "Topographic Drainage (Region)"
+        },
+        {
+          "name": "hyd_flod_l",
+          "type": "esriFieldTypeString",
+          "alias": "Floodplain (Landscape)"
+        },
+        {
+          "name": "hyd_nat_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Habitat)"
+        },
+        {
+          "name": "hyd_nat_l",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Naturalness (Landscape)"
+        },
+        {
+          "name": "hyd_obsr_h",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Habitat)"
+        },
+        {
+          "name": "hyd_obsr_l",
+          "type": "esriFieldTypeString",
+          "alias": "Time First Observed (Landscape)"
+        },
+        {
+          "name": "hyd_oext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_oexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_otim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water (Habitat)"
+        },
+        {
+          "name": "hyd_otiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time of Open Water Variability (Habitat)"
+        },
+        {
+          "name": "hyd_perd_h",
+          "type": "esriFieldTypeString",
+          "alias": "Timing Periodicity (Habitat)"
+        },
+        {
+          "name": "hyd_ph_h",
+          "type": "esriFieldTypeString",
+          "alias": "pH (Habitat)"
+        },
+        {
+          "name": "hyd_qual_h",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Hydrological Data Quality (Habitat)"
+        },
+        {
+          "name": "hyd_sal_l",
+          "type": "esriFieldTypeString",
+          "alias": "Salinity (Landscape)"
+        },
+        {
+          "name": "hyd_wext_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent (Habitat)"
+        },
+        {
+          "name": "hyd_wexv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Extent Variability (Habitat)"
+        },
+        {
+          "name": "hyd_wsrc_h",
+          "type": "esriFieldTypeString",
+          "alias": "Relative Dominance of Water Sources (Habitat)"
+        },
+        {
+          "name": "hyd_wtim_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time (Habitat)"
+        },
+        {
+          "name": "hyd_wtiv_h",
+          "type": "esriFieldTypeString",
+          "alias": "Residence Time Variability (Habitat)"
+        },
+        {
+          "name": "lnd_alt_l",
+          "type": "esriFieldTypeString",
+          "alias": "Altitude (Landscape)"
+        },
+        {
+          "name": "lnd_breg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_breg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Biogeographic Region (Region)"
+        },
+        {
+          "name": "lnd_lzon_l",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Landscape)"
+        },
+        {
+          "name": "lnd_lzon_r",
+          "type": "esriFieldTypeString",
+          "alias": "Land Zone (Region)"
+        },
+        {
+          "name": "lnd_morp_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Morphology (Habitat)"
+        },
+        {
+          "name": "lnd_preg_l",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Landscape)"
+        },
+        {
+          "name": "lnd_preg_r",
+          "type": "esriFieldTypeString",
+          "alias": "Physiographic Region (Region)"
+        },
+        {
+          "name": "lnd_slop_h",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Habitat)"
+        },
+        {
+          "name": "lnd_slop_l",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain Slope (Landscape)"
+        },
+        {
+          "name": "oth_hab_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Habitat (Habitat)"
+        },
+        {
+          "name": "oth_wsys_h",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland Regional Ecosystem System (Habitat)"
+        },
+        {
+          "name": "sed_gsz",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Grain Size (Landscape)"
+        },
+        {
+          "name": "smb_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Structural Macrobiota Composition (Landscape)"
+        },
+        {
+          "name": "sub_cmp",
+          "type": "esriFieldTypeString",
+          "alias": "Substrate Composition (Landscape)"
+        },
+        {
+          "name": "xxx_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (Habitat)"
+        },
+        {
+          "name": "xxx_lege",
+          "type": "esriFieldTypeString",
+          "alias": "Legend (Habitat)"
+        },
+        {
+          "name": "xxx_uid",
+          "type": "esriFieldTypeString",
+          "alias": "Unique ID (Habitat)"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Groundwater dependent ecosystems",
+      "title": "Groundwater dependent ecosystems",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Surface expression GDE - points",
+      "title": "Surface expression GDE - points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "gde_class",
+          "type": "esriFieldTypeString",
+          "alias": "gde_class"
+        },
+        {
+          "name": "aq_name",
+          "type": "esriFieldTypeString",
+          "alias": "aq_name"
+        },
+        {
+          "name": "aq_geol",
+          "type": "esriFieldTypeString",
+          "alias": "aq_geol"
+        },
+        {
+          "name": "aq_porosty",
+          "type": "esriFieldTypeString",
+          "alias": "aq_porosty"
+        },
+        {
+          "name": "aq_confin",
+          "type": "esriFieldTypeString",
+          "alias": "aq_confin"
+        },
+        {
+          "name": "aq_gfs",
+          "type": "esriFieldTypeString",
+          "alias": "aq_gfs"
+        },
+        {
+          "name": "gw_ph",
+          "type": "esriFieldTypeString",
+          "alias": "gw_ph"
+        },
+        {
+          "name": "gw_recharg",
+          "type": "esriFieldTypeString",
+          "alias": "gw_recharg"
+        },
+        {
+          "name": "gw_conn_sp",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_sp"
+        },
+        {
+          "name": "gw_conn_tm",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_tm"
+        },
+        {
+          "name": "gw_con_t_d",
+          "type": "esriFieldTypeString",
+          "alias": "gw_con_t_d"
+        },
+        {
+          "name": "gde_type",
+          "type": "esriFieldTypeString",
+          "alias": "gde_type"
+        },
+        {
+          "name": "rule_name",
+          "type": "esriFieldTypeString",
+          "alias": "rule_name"
+        },
+        {
+          "name": "rule_id",
+          "type": "esriFieldTypeString",
+          "alias": "rule_id"
+        },
+        {
+          "name": "u_rule",
+          "type": "esriFieldTypeString",
+          "alias": "u_rule"
+        },
+        {
+          "name": "l_rule",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule"
+        },
+        {
+          "name": "gde_conf",
+          "type": "esriFieldTypeString",
+          "alias": "gde_conf"
+        },
+        {
+          "name": "ruleid",
+          "type": "esriFieldTypeInteger",
+          "alias": "ruleid"
+        },
+        {
+          "name": "c_model",
+          "type": "esriFieldTypeString",
+          "alias": "c_model"
+        },
+        {
+          "name": "u_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel"
+        },
+        {
+          "name": "l_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel"
+        },
+        {
+          "name": "c_model_r",
+          "type": "esriFieldTypeString",
+          "alias": "c_model_r"
+        },
+        {
+          "name": "u_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel_r"
+        },
+        {
+          "name": "l_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel_r"
+        },
+        {
+          "name": "c_model_l",
+          "type": "esriFieldTypeString",
+          "alias": "c_model_l"
+        },
+        {
+          "name": "u_cmodel_l",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel_l"
+        },
+        {
+          "name": "l_cmodel_l",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel_l"
+        },
+        {
+          "name": "c_model_s",
+          "type": "esriFieldTypeString",
+          "alias": "c_model_s"
+        },
+        {
+          "name": "u_cmodel_s",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel_s"
+        },
+        {
+          "name": "l_cmodel_s",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel_s"
+        },
+        {
+          "name": "l_cmodel_1",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel_1"
+        },
+        {
+          "name": "data_src",
+          "type": "esriFieldTypeString",
+          "alias": "data_src"
+        },
+        {
+          "name": "gde_evid",
+          "type": "esriFieldTypeString",
+          "alias": "gde_evid"
+        },
+        {
+          "name": "vent_id",
+          "type": "esriFieldTypeString",
+          "alias": "vent_id"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "complxname",
+          "type": "esriFieldTypeString",
+          "alias": "complxname"
+        },
+        {
+          "name": "region",
+          "type": "esriFieldTypeString",
+          "alias": "region"
+        },
+        {
+          "name": "spring_sta",
+          "type": "esriFieldTypeString",
+          "alias": "spring_sta"
+        },
+        {
+          "name": "elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "elevation"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "longitude"
+        },
+        {
+          "name": "wetre",
+          "type": "esriFieldTypeString",
+          "alias": "wetre"
+        },
+        {
+          "name": "l_wetre",
+          "type": "esriFieldTypeString",
+          "alias": "l_wetre"
+        },
+        {
+          "name": "wetclass",
+          "type": "esriFieldTypeString",
+          "alias": "wetclass"
+        },
+        {
+          "name": "wtrregime",
+          "type": "esriFieldTypeString",
+          "alias": "wtrregime"
+        },
+        {
+          "name": "hydromod",
+          "type": "esriFieldTypeString",
+          "alias": "hydromod"
+        },
+        {
+          "name": "salinmod",
+          "type": "esriFieldTypeString",
+          "alias": "salinmod"
+        },
+        {
+          "name": "re1",
+          "type": "esriFieldTypeString",
+          "alias": "re1"
+        },
+        {
+          "name": "u_re1",
+          "type": "esriFieldTypeString",
+          "alias": "u_re1"
+        },
+        {
+          "name": "l_re1",
+          "type": "esriFieldTypeString",
+          "alias": "l_re1"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Surface expression GDE - lines",
+      "title": "Surface expression GDE - lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "gde_type",
+          "type": "esriFieldTypeString",
+          "alias": "gde_type"
+        },
+        {
+          "name": "gde_conf",
+          "type": "esriFieldTypeString",
+          "alias": "gde_conf"
+        },
+        {
+          "name": "ruleid",
+          "type": "esriFieldTypeInteger",
+          "alias": "ruleid"
+        },
+        {
+          "name": "rule_name",
+          "type": "esriFieldTypeString",
+          "alias": "rule_name"
+        },
+        {
+          "name": "rule_id",
+          "type": "esriFieldTypeString",
+          "alias": "rule_id"
+        },
+        {
+          "name": "u_rule",
+          "type": "esriFieldTypeString",
+          "alias": "u_rule"
+        },
+        {
+          "name": "l_rule1",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule1"
+        },
+        {
+          "name": "l_rule2",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule2"
+        },
+        {
+          "name": "rule_part",
+          "type": "esriFieldTypeString",
+          "alias": "rule_part"
+        },
+        {
+          "name": "gde_d_rule",
+          "type": "esriFieldTypeString",
+          "alias": "gde_d_rule"
+        },
+        {
+          "name": "gde_evid",
+          "type": "esriFieldTypeString",
+          "alias": "gde_evid"
+        },
+        {
+          "name": "evid_src",
+          "type": "esriFieldTypeString",
+          "alias": "evid_src"
+        },
+        {
+          "name": "data_src",
+          "type": "esriFieldTypeString",
+          "alias": "data_src"
+        },
+        {
+          "name": "c_model",
+          "type": "esriFieldTypeString",
+          "alias": "c_model"
+        },
+        {
+          "name": "u_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel"
+        },
+        {
+          "name": "l_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel"
+        },
+        {
+          "name": "c_model_r",
+          "type": "esriFieldTypeString",
+          "alias": "c_model_r"
+        },
+        {
+          "name": "u_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel_r"
+        },
+        {
+          "name": "l_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel_r"
+        },
+        {
+          "name": "gw_con_t_d",
+          "type": "esriFieldTypeString",
+          "alias": "gw_con_t_d"
+        },
+        {
+          "name": "gde_class",
+          "type": "esriFieldTypeString",
+          "alias": "gde_class"
+        },
+        {
+          "name": "gw_conn_sp",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_sp"
+        },
+        {
+          "name": "gw_conn_tm",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_tm"
+        },
+        {
+          "name": "aq_name",
+          "type": "esriFieldTypeString",
+          "alias": "aq_name"
+        },
+        {
+          "name": "aq_confin",
+          "type": "esriFieldTypeString",
+          "alias": "aq_confin"
+        },
+        {
+          "name": "aq_geol",
+          "type": "esriFieldTypeString",
+          "alias": "aq_geol"
+        },
+        {
+          "name": "aq_porosty",
+          "type": "esriFieldTypeString",
+          "alias": "aq_porosty"
+        },
+        {
+          "name": "aq_gfs",
+          "type": "esriFieldTypeString",
+          "alias": "aq_gfs"
+        },
+        {
+          "name": "gw_salinty",
+          "type": "esriFieldTypeString",
+          "alias": "gw_salinty"
+        },
+        {
+          "name": "gw_ph",
+          "type": "esriFieldTypeString",
+          "alias": "gw_ph"
+        },
+        {
+          "name": "gw_recharg",
+          "type": "esriFieldTypeString",
+          "alias": "gw_recharg"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Surface expression GDE - areas",
+      "title": "Surface expression GDE - areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "gde_type",
+          "type": "esriFieldTypeString",
+          "alias": "gde_type"
+        },
+        {
+          "name": "rule_name",
+          "type": "esriFieldTypeString",
+          "alias": "rule_name"
+        },
+        {
+          "name": "rule_id",
+          "type": "esriFieldTypeString",
+          "alias": "rule_id"
+        },
+        {
+          "name": "u_rule",
+          "type": "esriFieldTypeString",
+          "alias": "u_rule"
+        },
+        {
+          "name": "l_rule1",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule1"
+        },
+        {
+          "name": "l_rule2",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule2"
+        },
+        {
+          "name": "gde_d_rule",
+          "type": "esriFieldTypeString",
+          "alias": "gde_d_rule"
+        },
+        {
+          "name": "rule_part",
+          "type": "esriFieldTypeString",
+          "alias": "rule_part"
+        },
+        {
+          "name": "ruleid",
+          "type": "esriFieldTypeInteger",
+          "alias": "ruleid"
+        },
+        {
+          "name": "gde_class",
+          "type": "esriFieldTypeString",
+          "alias": "gde_class"
+        },
+        {
+          "name": "gde_evid",
+          "type": "esriFieldTypeString",
+          "alias": "gde_evid"
+        },
+        {
+          "name": "gde_conf",
+          "type": "esriFieldTypeString",
+          "alias": "gde_conf"
+        },
+        {
+          "name": "percent",
+          "type": "esriFieldTypeString",
+          "alias": "percent"
+        },
+        {
+          "name": "dbvg5m",
+          "type": "esriFieldTypeString",
+          "alias": "dbvg5m"
+        },
+        {
+          "name": "gde_pct",
+          "type": "esriFieldTypeString",
+          "alias": "gde_pct"
+        },
+        {
+          "name": "xre_class",
+          "type": "esriFieldTypeString",
+          "alias": "xre_class"
+        },
+        {
+          "name": "wetland_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "wetland_id"
+        },
+        {
+          "name": "wetland_ar",
+          "type": "esriFieldTypeDouble",
+          "alias": "wetland_ar"
+        },
+        {
+          "name": "wetclass",
+          "type": "esriFieldTypeString",
+          "alias": "wetclass"
+        },
+        {
+          "name": "hydromod",
+          "type": "esriFieldTypeString",
+          "alias": "hydromod"
+        },
+        {
+          "name": "salinmod",
+          "type": "esriFieldTypeString",
+          "alias": "salinmod"
+        },
+        {
+          "name": "wetre",
+          "type": "esriFieldTypeString",
+          "alias": "wetre"
+        },
+        {
+          "name": "l_wetre1",
+          "type": "esriFieldTypeString",
+          "alias": "l_wetre1"
+        },
+        {
+          "name": "l_wetre2",
+          "type": "esriFieldTypeString",
+          "alias": "l_wetre2"
+        },
+        {
+          "name": "l_wetre3",
+          "type": "esriFieldTypeString",
+          "alias": "l_wetre3"
+        },
+        {
+          "name": "wetrepct",
+          "type": "esriFieldTypeString",
+          "alias": "wetrepct"
+        },
+        {
+          "name": "wtrregime",
+          "type": "esriFieldTypeString",
+          "alias": "wtrregime"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "source"
+        },
+        {
+          "name": "wetsub",
+          "type": "esriFieldTypeString",
+          "alias": "wetsub"
+        },
+        {
+          "name": "xre",
+          "type": "esriFieldTypeString",
+          "alias": "xre"
+        },
+        {
+          "name": "xre_percen",
+          "type": "esriFieldTypeString",
+          "alias": "xre_percen"
+        },
+        {
+          "name": "legend",
+          "type": "esriFieldTypeString",
+          "alias": "legend"
+        },
+        {
+          "name": "data_src",
+          "type": "esriFieldTypeString",
+          "alias": "data_src"
+        },
+        {
+          "name": "c_model",
+          "type": "esriFieldTypeString",
+          "alias": "c_model"
+        },
+        {
+          "name": "u_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel"
+        },
+        {
+          "name": "l_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel"
+        },
+        {
+          "name": "c_model_r",
+          "type": "esriFieldTypeString",
+          "alias": "c_model_r"
+        },
+        {
+          "name": "u_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel_r"
+        },
+        {
+          "name": "l_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel_r"
+        },
+        {
+          "name": "gde_legend",
+          "type": "esriFieldTypeString",
+          "alias": "gde_legend"
+        },
+        {
+          "name": "gw_con_t_d",
+          "type": "esriFieldTypeString",
+          "alias": "gw_con_t_d"
+        },
+        {
+          "name": "gw_conn_sp",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_sp"
+        },
+        {
+          "name": "gw_conn_tm",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_tm"
+        },
+        {
+          "name": "aq_name",
+          "type": "esriFieldTypeString",
+          "alias": "aq_name"
+        },
+        {
+          "name": "aq_confin",
+          "type": "esriFieldTypeString",
+          "alias": "aq_confin"
+        },
+        {
+          "name": "aq_geol",
+          "type": "esriFieldTypeString",
+          "alias": "aq_geol"
+        },
+        {
+          "name": "aq_porosty",
+          "type": "esriFieldTypeString",
+          "alias": "aq_porosty"
+        },
+        {
+          "name": "aq_gfs",
+          "type": "esriFieldTypeString",
+          "alias": "aq_gfs"
+        },
+        {
+          "name": "gw_salinty",
+          "type": "esriFieldTypeString",
+          "alias": "gw_salinty"
+        },
+        {
+          "name": "gw_ph",
+          "type": "esriFieldTypeString",
+          "alias": "gw_ph"
+        },
+        {
+          "name": "gw_recharg",
+          "type": "esriFieldTypeString",
+          "alias": "gw_recharg"
+        },
+        {
+          "name": "re",
+          "type": "esriFieldTypeString",
+          "alias": "re"
+        },
+        {
+          "name": "l_re1",
+          "type": "esriFieldTypeString",
+          "alias": "l_re1"
+        },
+        {
+          "name": "l_re2",
+          "type": "esriFieldTypeString",
+          "alias": "l_re2"
+        },
+        {
+          "name": "l_re3",
+          "type": "esriFieldTypeString",
+          "alias": "l_re3"
+        },
+        {
+          "name": "re1",
+          "type": "esriFieldTypeString",
+          "alias": "re1"
+        },
+        {
+          "name": "u_re1",
+          "type": "esriFieldTypeString",
+          "alias": "u_re1"
+        },
+        {
+          "name": "l_re12",
+          "type": "esriFieldTypeString",
+          "alias": "l_re12"
+        },
+        {
+          "name": "re2",
+          "type": "esriFieldTypeString",
+          "alias": "re2"
+        },
+        {
+          "name": "u_re2",
+          "type": "esriFieldTypeString",
+          "alias": "u_re2"
+        },
+        {
+          "name": "l_re22",
+          "type": "esriFieldTypeString",
+          "alias": "l_re22"
+        },
+        {
+          "name": "re3",
+          "type": "esriFieldTypeString",
+          "alias": "re3"
+        },
+        {
+          "name": "u_re3",
+          "type": "esriFieldTypeString",
+          "alias": "u_re3"
+        },
+        {
+          "name": "l_re32",
+          "type": "esriFieldTypeString",
+          "alias": "l_re32"
+        },
+        {
+          "name": "re4",
+          "type": "esriFieldTypeString",
+          "alias": "re4"
+        },
+        {
+          "name": "u_re4",
+          "type": "esriFieldTypeString",
+          "alias": "u_re4"
+        },
+        {
+          "name": "l_re4",
+          "type": "esriFieldTypeString",
+          "alias": "l_re4"
+        },
+        {
+          "name": "re5",
+          "type": "esriFieldTypeString",
+          "alias": "re5"
+        },
+        {
+          "name": "u_re5",
+          "type": "esriFieldTypeString",
+          "alias": "u_re5"
+        },
+        {
+          "name": "l_re5",
+          "type": "esriFieldTypeString",
+          "alias": "l_re5"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Terrestrial GDE - areas",
+      "title": "Terrestrial GDE - areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "percent",
+          "type": "esriFieldTypeString",
+          "alias": "percent"
+        },
+        {
+          "name": "dbvg5m",
+          "type": "esriFieldTypeString",
+          "alias": "dbvg5m"
+        },
+        {
+          "name": "gde_type",
+          "type": "esriFieldTypeString",
+          "alias": "gde_type"
+        },
+        {
+          "name": "rule_name",
+          "type": "esriFieldTypeString",
+          "alias": "rule_name"
+        },
+        {
+          "name": "rule_id",
+          "type": "esriFieldTypeString",
+          "alias": "rule_id"
+        },
+        {
+          "name": "u_rule",
+          "type": "esriFieldTypeString",
+          "alias": "u_rule"
+        },
+        {
+          "name": "l_rule1",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule1"
+        },
+        {
+          "name": "l_rule2",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule2"
+        },
+        {
+          "name": "rule_part",
+          "type": "esriFieldTypeString",
+          "alias": "rule_part"
+        },
+        {
+          "name": "gde_conf",
+          "type": "esriFieldTypeString",
+          "alias": "gde_conf"
+        },
+        {
+          "name": "ruleid",
+          "type": "esriFieldTypeInteger",
+          "alias": "ruleid"
+        },
+        {
+          "name": "gde_d_rule",
+          "type": "esriFieldTypeString",
+          "alias": "gde_d_rule"
+        },
+        {
+          "name": "gde_evid",
+          "type": "esriFieldTypeString",
+          "alias": "gde_evid"
+        },
+        {
+          "name": "data_src",
+          "type": "esriFieldTypeString",
+          "alias": "data_src"
+        },
+        {
+          "name": "gde_pct",
+          "type": "esriFieldTypeString",
+          "alias": "gde_pct"
+        },
+        {
+          "name": "c_model",
+          "type": "esriFieldTypeString",
+          "alias": "c_model"
+        },
+        {
+          "name": "u_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel"
+        },
+        {
+          "name": "l_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel"
+        },
+        {
+          "name": "c_model_r",
+          "type": "esriFieldTypeString",
+          "alias": "c_model_r"
+        },
+        {
+          "name": "u_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel_r"
+        },
+        {
+          "name": "l_cmodel_r",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel_r"
+        },
+        {
+          "name": "gde_legend",
+          "type": "esriFieldTypeString",
+          "alias": "gde_legend"
+        },
+        {
+          "name": "gw_con_t_d",
+          "type": "esriFieldTypeString",
+          "alias": "gw_con_t_d"
+        },
+        {
+          "name": "gde_class",
+          "type": "esriFieldTypeString",
+          "alias": "gde_class"
+        },
+        {
+          "name": "gw_conn_tm",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_tm"
+        },
+        {
+          "name": "aq_name",
+          "type": "esriFieldTypeString",
+          "alias": "aq_name"
+        },
+        {
+          "name": "aq_confin",
+          "type": "esriFieldTypeString",
+          "alias": "aq_confin"
+        },
+        {
+          "name": "aq_geol",
+          "type": "esriFieldTypeString",
+          "alias": "aq_geol"
+        },
+        {
+          "name": "aq_porosty",
+          "type": "esriFieldTypeString",
+          "alias": "aq_porosty"
+        },
+        {
+          "name": "aq_gfs",
+          "type": "esriFieldTypeString",
+          "alias": "aq_gfs"
+        },
+        {
+          "name": "gw_salinty",
+          "type": "esriFieldTypeString",
+          "alias": "gw_salinty"
+        },
+        {
+          "name": "gw_ph",
+          "type": "esriFieldTypeString",
+          "alias": "gw_ph"
+        },
+        {
+          "name": "gw_recharg",
+          "type": "esriFieldTypeString",
+          "alias": "gw_recharg"
+        },
+        {
+          "name": "wetland_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "wetland_id"
+        },
+        {
+          "name": "wetland_ar",
+          "type": "esriFieldTypeDouble",
+          "alias": "wetland_ar"
+        },
+        {
+          "name": "wetclass",
+          "type": "esriFieldTypeString",
+          "alias": "wetclass"
+        },
+        {
+          "name": "hydromod",
+          "type": "esriFieldTypeString",
+          "alias": "hydromod"
+        },
+        {
+          "name": "salinmod",
+          "type": "esriFieldTypeString",
+          "alias": "salinmod"
+        },
+        {
+          "name": "wetre",
+          "type": "esriFieldTypeString",
+          "alias": "wetre"
+        },
+        {
+          "name": "l_wetre1",
+          "type": "esriFieldTypeString",
+          "alias": "l_wetre1"
+        },
+        {
+          "name": "l_wetre2",
+          "type": "esriFieldTypeString",
+          "alias": "l_wetre2"
+        },
+        {
+          "name": "wetrepct",
+          "type": "esriFieldTypeString",
+          "alias": "wetrepct"
+        },
+        {
+          "name": "wtrregime",
+          "type": "esriFieldTypeString",
+          "alias": "wtrregime"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "source"
+        },
+        {
+          "name": "wetsub",
+          "type": "esriFieldTypeString",
+          "alias": "wetsub"
+        },
+        {
+          "name": "xre",
+          "type": "esriFieldTypeString",
+          "alias": "xre"
+        },
+        {
+          "name": "xre_percen",
+          "type": "esriFieldTypeString",
+          "alias": "xre_percen"
+        },
+        {
+          "name": "xre_class",
+          "type": "esriFieldTypeString",
+          "alias": "xre_class"
+        },
+        {
+          "name": "legend",
+          "type": "esriFieldTypeString",
+          "alias": "legend"
+        },
+        {
+          "name": "re",
+          "type": "esriFieldTypeString",
+          "alias": "re"
+        },
+        {
+          "name": "l_re1",
+          "type": "esriFieldTypeString",
+          "alias": "l_re1"
+        },
+        {
+          "name": "l_re2",
+          "type": "esriFieldTypeString",
+          "alias": "l_re2"
+        },
+        {
+          "name": "l_re3",
+          "type": "esriFieldTypeString",
+          "alias": "l_re3"
+        },
+        {
+          "name": "re1",
+          "type": "esriFieldTypeString",
+          "alias": "re1"
+        },
+        {
+          "name": "u_re1",
+          "type": "esriFieldTypeString",
+          "alias": "u_re1"
+        },
+        {
+          "name": "l_re12",
+          "type": "esriFieldTypeString",
+          "alias": "l_re12"
+        },
+        {
+          "name": "re2",
+          "type": "esriFieldTypeString",
+          "alias": "re2"
+        },
+        {
+          "name": "u_re2",
+          "type": "esriFieldTypeString",
+          "alias": "u_re2"
+        },
+        {
+          "name": "l_re22",
+          "type": "esriFieldTypeString",
+          "alias": "l_re22"
+        },
+        {
+          "name": "re3",
+          "type": "esriFieldTypeString",
+          "alias": "re3"
+        },
+        {
+          "name": "u_re3",
+          "type": "esriFieldTypeString",
+          "alias": "u_re3"
+        },
+        {
+          "name": "l_re32",
+          "type": "esriFieldTypeString",
+          "alias": "l_re32"
+        },
+        {
+          "name": "re4",
+          "type": "esriFieldTypeString",
+          "alias": "re4"
+        },
+        {
+          "name": "u_re4",
+          "type": "esriFieldTypeString",
+          "alias": "u_re4"
+        },
+        {
+          "name": "l_re4",
+          "type": "esriFieldTypeString",
+          "alias": "l_re4"
+        },
+        {
+          "name": "re5",
+          "type": "esriFieldTypeString",
+          "alias": "re5"
+        },
+        {
+          "name": "u_re5",
+          "type": "esriFieldTypeString",
+          "alias": "u_re5"
+        },
+        {
+          "name": "l_re5",
+          "type": "esriFieldTypeString",
+          "alias": "l_re5"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Subterranean GDE - areas (caves)",
+      "title": "Subterranean GDE - areas (caves)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "gde_class",
+          "type": "esriFieldTypeString",
+          "alias": "gde_class"
+        },
+        {
+          "name": "aq_name",
+          "type": "esriFieldTypeString",
+          "alias": "aq_name"
+        },
+        {
+          "name": "aq_geol",
+          "type": "esriFieldTypeString",
+          "alias": "aq_geol"
+        },
+        {
+          "name": "aq_porosty",
+          "type": "esriFieldTypeString",
+          "alias": "aq_porosty"
+        },
+        {
+          "name": "aq_confin",
+          "type": "esriFieldTypeString",
+          "alias": "aq_confin"
+        },
+        {
+          "name": "gw_salinty",
+          "type": "esriFieldTypeString",
+          "alias": "gw_salinty"
+        },
+        {
+          "name": "gw_ph",
+          "type": "esriFieldTypeString",
+          "alias": "gw_ph"
+        },
+        {
+          "name": "gw_recharg",
+          "type": "esriFieldTypeString",
+          "alias": "gw_recharg"
+        },
+        {
+          "name": "gw_conn_tm",
+          "type": "esriFieldTypeString",
+          "alias": "gw_conn_tm"
+        },
+        {
+          "name": "gw_con_t_d",
+          "type": "esriFieldTypeString",
+          "alias": "gw_con_t_d"
+        },
+        {
+          "name": "resid_time",
+          "type": "esriFieldTypeString",
+          "alias": "resid_time"
+        },
+        {
+          "name": "sat_regime",
+          "type": "esriFieldTypeString",
+          "alias": "sat_regime"
+        },
+        {
+          "name": "gde_type",
+          "type": "esriFieldTypeString",
+          "alias": "gde_type"
+        },
+        {
+          "name": "gde_conf",
+          "type": "esriFieldTypeString",
+          "alias": "gde_conf"
+        },
+        {
+          "name": "ruleid",
+          "type": "esriFieldTypeInteger",
+          "alias": "ruleid"
+        },
+        {
+          "name": "rule_name",
+          "type": "esriFieldTypeString",
+          "alias": "rule_name"
+        },
+        {
+          "name": "rule_id",
+          "type": "esriFieldTypeString",
+          "alias": "rule_id"
+        },
+        {
+          "name": "u_rule",
+          "type": "esriFieldTypeString",
+          "alias": "u_rule"
+        },
+        {
+          "name": "l_rule",
+          "type": "esriFieldTypeString",
+          "alias": "l_rule"
+        },
+        {
+          "name": "c_model",
+          "type": "esriFieldTypeString",
+          "alias": "c_model"
+        },
+        {
+          "name": "u_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "u_cmodel"
+        },
+        {
+          "name": "l_cmodel",
+          "type": "esriFieldTypeString",
+          "alias": "l_cmodel"
+        },
+        {
+          "name": "gde_evid",
+          "type": "esriFieldTypeString",
+          "alias": "gde_evid"
+        },
+        {
+          "name": "data_src",
+          "type": "esriFieldTypeString",
+          "alias": "data_src"
+        },
+        {
+          "name": "evid_src",
+          "type": "esriFieldTypeString",
+          "alias": "evid_src"
+        },
+        {
+          "name": "data_scale",
+          "type": "esriFieldTypeDouble",
+          "alias": "data_scale"
+        },
+        {
+          "name": "asf_name",
+          "type": "esriFieldTypeString",
+          "alias": "asf_name"
+        },
+        {
+          "name": "asf_code",
+          "type": "esriFieldTypeString",
+          "alias": "asf_code"
+        },
+        {
+          "name": "asf_num",
+          "type": "esriFieldTypeString",
+          "alias": "asf_num"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Queensland springs",
+      "title": "Queensland springs",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Active springs",
+      "title": "Active springs",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Inactive springs",
+      "title": "Inactive springs",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Potential GDE aquifers",
+      "title": "Potential GDE aquifers",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Intertidal subtidal mapping CQ",
+      "title": "Intertidal subtidal mapping CQ",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Naturalness CQ",
+      "title": "Naturalness CQ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Subtidal CQ",
+      "title": "Subtidal CQ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Intertidal CQ",
+      "title": "Intertidal CQ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Assessment of common conservation values CQ ",
+      "title": "Assessment of common conservation values CQ ",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Study area",
+      "title": "Study area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Study area grid and species inventory",
+      "title": "Study area grid and species inventory",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Criteria",
+      "title": "Criteria",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "C1: Habitat diversity rating",
+      "title": "C1: Habitat diversity rating",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "C2: Taxa richness rating",
+      "title": "C2: Taxa richness rating",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "C3:Threatened taxa richness rating",
+      "title": "C3:Threatened taxa richness rating",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "C4: Priority taxa richness rating",
+      "title": "C4: Priority taxa richness rating",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "C5: At risk ecosystem rating",
+      "title": "C5: At risk ecosystem rating",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "C6: Special area rating",
+      "title": "C6: Special area rating",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Queensland floodplain assessment overlay (QRA)",
+      "title": "Queensland floodplain assessment overlay (QRA)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Aquatic conservation assessment",
+      "title": "Aquatic conservation assessment",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "ACA bounding areas",
+      "title": "ACA bounding areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Lake Eyre and Buloo Basins springs - AquaScore",
+      "title": "Lake Eyre and Buloo Basins springs - AquaScore",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "QLD riverine results - AquaScore",
+      "title": "QLD riverine results - AquaScore",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "QLD riverine results (buffered streams) - AquaScore",
+      "title": "QLD riverine results (buffered streams) - AquaScore",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "QLD non-riverine results - AquaScore",
+      "title": "QLD non-riverine results - AquaScore",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Ramsar internationally important wetlands",
+      "title": "Ramsar internationally important wetlands",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "DIWA nationally important wetlands",
+      "title": "DIWA nationally important wetlands",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Fish habitat areas",
+      "title": "Fish habitat areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 84,
+      "name": "Dugong protection areas",
+      "title": "Dugong protection areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 85,
+      "name": "Sea turtle nesting areas",
+      "title": "Sea turtle nesting areas",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 82,
+      "name": "Aquatic fauna passage (biopassage) structures",
+      "title": "Aquatic fauna passage (biopassage) structures",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Protected areas of Queensland - estate",
+      "title": "Protected areas of Queensland - estate",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "World heritage areas",
+      "title": "World heritage areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 86,
+      "name": "Great Barrier Reef catchments, reef and islands",
+      "title": "Great Barrier Reef catchments, reef and islands",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Marine parks (Queensland)",
+      "title": "Marine parks (Queensland)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Water resource planning areas",
+      "title": "Water resource planning areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Local government areas",
+      "title": "Local government areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Regional natural resource management (NRM) bodies",
+      "title": "Regional natural resource management (NRM) bodies",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 78,
+      "name": "Drainage divisions",
+      "title": "Drainage divisions",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Drainage basins",
+      "title": "Drainage basins",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Drainage sub-basins",
+      "title": "Drainage sub-basins",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Regional ecosystems (REs)",
+      "title": "Regional ecosystems (REs)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Remnant REs",
+      "title": "Remnant REs",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Pre-clear REs",
+      "title": "Pre-clear REs",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Pre-clear landzones",
+      "title": "Pre-clear landzones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4283"
+  ],
+  "cors_enabled": true,
+  "response_ms": 429,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

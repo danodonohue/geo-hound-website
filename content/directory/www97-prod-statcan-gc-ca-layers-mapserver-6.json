@@ -1,0 +1,791 @@
+{
+  "slug": "www97-prod-statcan-gc-ca-layers-mapserver-6",
+  "service_key": "ESRI MapServer:https://www97-prod.statcan.gc.ca/arcgis/rest/services/Basemaps/HYDRO_ROADS_2021/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www97-prod.statcan.gc.ca/arcgis/rest/services/Basemaps/HYDRO_ROADS_2021/MapServer",
+  "title": "Layers",
+  "description": "Basemap displaying hydrology and roads across Canada.",
+  "abstract": "Hydro Roads - Jan 2022 Edition ",
+  "provider": "www97-prod.statcan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Z00",
+      "title": "Z00",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Z01",
+      "title": "Z01",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Z02",
+      "title": "Z02",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "TRANSCANADA_HIGHWAY_Z03",
+      "title": "TRANSCANADA_HIGHWAY_Z03",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "STR_LABEL_NME_L",
+          "type": "esriFieldTypeString",
+          "alias": "STR_LABEL_NME_L"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "NGD_UID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NGD_UID"
+        },
+        {
+          "name": "AFL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFL_VAL"
+        },
+        {
+          "name": "ATL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATL_VAL"
+        },
+        {
+          "name": "AFR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFR_VAL"
+        },
+        {
+          "name": "ATR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATR_VAL"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z03",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z03",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "STR_LABEL_NME_L",
+          "type": "esriFieldTypeString",
+          "alias": "STR_LABEL_NME_L"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "NGD_UID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NGD_UID"
+        },
+        {
+          "name": "AFL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFL_VAL"
+        },
+        {
+          "name": "ATL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATL_VAL"
+        },
+        {
+          "name": "AFR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFR_VAL"
+        },
+        {
+          "name": "ATR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATR_VAL"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Z03",
+      "title": "Z03",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "TRANSCANADA_HIGHWAY_Z03",
+      "title": "TRANSCANADA_HIGHWAY_Z03",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "STR_LABEL_NME_L",
+          "type": "esriFieldTypeString",
+          "alias": "STR_LABEL_NME_L"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "NGD_UID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NGD_UID"
+        },
+        {
+          "name": "AFL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFL_VAL"
+        },
+        {
+          "name": "ATL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATL_VAL"
+        },
+        {
+          "name": "AFR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFR_VAL"
+        },
+        {
+          "name": "ATR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATR_VAL"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "TRANSCANADA_HIGHWAY_Z03",
+      "title": "TRANSCANADA_HIGHWAY_Z03",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "STR_LABEL_NME_L",
+          "type": "esriFieldTypeString",
+          "alias": "STR_LABEL_NME_L"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "NGD_UID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NGD_UID"
+        },
+        {
+          "name": "AFL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFL_VAL"
+        },
+        {
+          "name": "ATL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATL_VAL"
+        },
+        {
+          "name": "AFR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFR_VAL"
+        },
+        {
+          "name": "ATR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATR_VAL"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z03",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z03",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "STR_LABEL_NME_L",
+          "type": "esriFieldTypeString",
+          "alias": "STR_LABEL_NME_L"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "NGD_UID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NGD_UID"
+        },
+        {
+          "name": "AFL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFL_VAL"
+        },
+        {
+          "name": "ATL_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATL_VAL"
+        },
+        {
+          "name": "AFR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "AFR_VAL"
+        },
+        {
+          "name": "ATR_VAL",
+          "type": "esriFieldTypeInteger",
+          "alias": "ATR_VAL"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Z04",
+      "title": "Z04",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "TRANSCANADA_HIGHWAY_Z04",
+      "title": "TRANSCANADA_HIGHWAY_Z04",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z04",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z04",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "TRANSCANADA_HIGHWAY_Z04",
+      "title": "TRANSCANADA_HIGHWAY_Z04",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z04",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z04",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Z05",
+      "title": "Z05",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "TRANSCANADA_HIGHWAY_Z05",
+      "title": "TRANSCANADA_HIGHWAY_Z05",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z05",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z05",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "TRANSCANADA_HIGHWAY_Z05",
+      "title": "TRANSCANADA_HIGHWAY_Z05",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z05",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z05",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Z06",
+      "title": "Z06",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "TRANSCANADA_HIGHWAY_Z06",
+      "title": "TRANSCANADA_HIGHWAY_Z06",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z06",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z06",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "TRANSCANADA_HIGHWAY_Z06",
+      "title": "TRANSCANADA_HIGHWAY_Z06",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z06",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z06",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "MAJOR_HIGHWAY_Z06",
+      "title": "MAJOR_HIGHWAY_Z06",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Z07",
+      "title": "Z07",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "TRANSCANADA_HIGHWAY_Z07",
+      "title": "TRANSCANADA_HIGHWAY_Z07",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z07",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z07",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "TRANSCANADA_HIGHWAY_Z07",
+      "title": "TRANSCANADA_HIGHWAY_Z07",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z07",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z07",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "MAJOR_HIGHWAY_Z07",
+      "title": "MAJOR_HIGHWAY_Z07",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Z08",
+      "title": "Z08",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "TRANSCANADA_HIGHWAY_Z08",
+      "title": "TRANSCANADA_HIGHWAY_Z08",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z08",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z08",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "MAJOR_HIGHWAY_Z08",
+      "title": "MAJOR_HIGHWAY_Z08",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "TRANSCANADA_HIGHWAY_Z08",
+      "title": "TRANSCANADA_HIGHWAY_Z08",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "NATIONAL_HIGHWAY_SYSTEM_Z08",
+      "title": "NATIONAL_HIGHWAY_SYSTEM_Z08",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "MAJOR_HIGHWAY_Z08",
+      "title": "MAJOR_HIGHWAY_Z08",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "HIGHWAY_Z08",
+      "title": "HIGHWAY_Z08",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Z09",
+      "title": "Z09",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3347"
+  ],
+  "cors_enabled": true,
+  "response_ms": 951,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

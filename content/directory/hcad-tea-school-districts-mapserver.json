@@ -1,0 +1,146 @@
+{
+  "slug": "hcad-tea-school-districts-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/State/TEA_School_Districts/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/State/TEA_School_Districts/MapServer",
+  "title": "TEA_School_Districts",
+  "description": "School district boundaries for Harris County area.",
+  "abstract": "School Zones from HCAD",
+  "provider": "HCAD",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "School Districts",
+      "title": "School Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FID_1"
+        },
+        {
+          "name": "GEOID20",
+          "type": "esriFieldTypeString",
+          "alias": "GEOID20"
+        },
+        {
+          "name": "NAME20",
+          "type": "esriFieldTypeString",
+          "alias": "NAME20"
+        },
+        {
+          "name": "SDLEA",
+          "type": "esriFieldTypeString",
+          "alias": "SDLEA"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "NAME2",
+          "type": "esriFieldTypeString",
+          "alias": "NAME2"
+        },
+        {
+          "name": "DISTRICT_N",
+          "type": "esriFieldTypeInteger",
+          "alias": "DISTRICT_N"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "DISTRICT_C",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT_C"
+        },
+        {
+          "name": "NCES_DISTR",
+          "type": "esriFieldTypeString",
+          "alias": "NCES_DISTR"
+        },
+        {
+          "name": "COLOR",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "COLOR"
+        },
+        {
+          "name": "Shape__Are",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Are"
+        },
+        {
+          "name": "Shape__Len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Len"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102740"
+  ],
+  "cors_enabled": true,
+  "response_ms": 621,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

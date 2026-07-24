@@ -1,0 +1,936 @@
+{
+  "slug": "gis-ecan-govt-nz-ngaitahu-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Public/NgaiTahu/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/NgaiTahu/MapServer",
+  "title": "NgaiTahu",
+  "description": "GIS service providing recreation, heritage, flood data.",
+  "abstract": "Layers related to Ngāi Tahu for the purposes of Resource management.\nRunanga areas layers shown here are for ECan administration purposes only and do not necessarily reflect the Rûnanga takiwâ/area in full.",
+  "provider": "gis.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 10,
+      "name": "Tangata Whenua Advisory Services / Environmental Entities (Ngāi Tahu)",
+      "title": "Tangata Whenua Advisory Services / Environmental Entities (Ngāi Tahu)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Contact_Phone",
+          "type": "esriFieldTypeString",
+          "alias": "Entity Phone"
+        },
+        {
+          "name": "Contact_Email",
+          "type": "esriFieldTypeString",
+          "alias": "Entity Email"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "GISPUBLIC_DBO_NGAI_TAHU_NZTM_En",
+          "type": "esriFieldTypeString",
+          "alias": "Entity"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 111,
+      "name": "Iwi Management Plans",
+      "title": "Iwi Management Plans",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 121,
+      "name": "Muriwai / Cooper Lagoon",
+      "title": "Muriwai / Cooper Lagoon",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 103,
+      "name": "Oruaka Historic Reserve ",
+      "title": "Oruaka Historic Reserve ",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 104,
+      "name": "Te Poha O Tohu Raumati Te Rūnanga o Kaikōura",
+      "title": "Te Poha O Tohu Raumati Te Rūnanga o Kaikōura",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 105,
+      "name": "Waitaki",
+      "title": "Waitaki",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 106,
+      "name": "TeWaihora Co Governance Area",
+      "title": "TeWaihora Co Governance Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 107,
+      "name": "Mahaanui Kurataiao",
+      "title": "Mahaanui Kurataiao",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 108,
+      "name": "Te Whakatau Kaupapa Ngāi Tahu Resource Management Strategy",
+      "title": "Te Whakatau Kaupapa Ngāi Tahu Resource Management Strategy",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 122,
+      "name": "Kati Huirapa - Arowhenua",
+      "title": "Kati Huirapa - Arowhenua",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 109,
+      "name": "Te Runanga o Ngāi Tahu Freshwater Policy",
+      "title": "Te Runanga o Ngāi Tahu Freshwater Policy",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 110,
+      "name": "Hazardous Substances New Organisms Policy",
+      "title": "Hazardous Substances New Organisms Policy",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Link_to_plan",
+          "type": "esriFieldTypeString",
+          "alias": "Link to plan"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 74,
+      "name": "Ngāi Tahu Papatipu Rūnanga Marae",
+      "title": "Ngāi Tahu Papatipu Rūnanga Marae",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NT_Runanga",
+          "type": "esriFieldTypeString",
+          "alias": "Ngai Tahu Runanga"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MailingAddress",
+          "type": "esriFieldTypeString",
+          "alias": "Mailing Address"
+        },
+        {
+          "name": "Phone",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "Locations",
+          "type": "esriFieldTypeString",
+          "alias": "Locations"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Statutory Acknowledgement Areas",
+      "title": "Statutory Acknowledgement Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "Title"
+        },
+        {
+          "name": "SETTLEMENT",
+          "type": "esriFieldTypeString",
+          "alias": "Settlement"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "Section"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "Created By"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (Ha)"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Coastal Statutory Acknowledgement Areas",
+      "title": "Coastal Statutory Acknowledgement Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Statutory_Acknowledgement",
+          "type": "esriFieldTypeString",
+          "alias": "Statutory Acknowledgement"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Mātaitai - Taiapure",
+      "title": "Mātaitai - Taiapure",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Mātaitai Reserve Coordinates",
+      "title": "Mātaitai Reserve Coordinates",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Mātaitai Reserves",
+      "title": "Mātaitai Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 92,
+      "name": "Mātaitai Freshwater Reserves",
+      "title": "Mātaitai Freshwater Reserves",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Taiapure",
+      "title": "Taiapure",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 72,
+      "name": "OTOP Mātaitai Protection Zone",
+      "title": "OTOP Mātaitai Protection Zone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 125,
+      "name": "Papakainga Zones",
+      "title": "Papakainga Zones",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 123,
+      "name": "CCC District Plan",
+      "title": "CCC District Plan",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Silent Files/wāhi tapu",
+      "title": "Silent Files/wāhi tapu",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Silent Files Areas",
+      "title": "Silent Files Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Silent File Areas (SDC)",
+      "title": "Silent File Areas (SDC)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 68,
+      "name": "Rock Art Management Area (RAMA)",
+      "title": "Rock Art Management Area (RAMA)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 126,
+      "name": "OTOP Rock Art areas (additional to RAMA)",
+      "title": "OTOP Rock Art areas (additional to RAMA)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 66,
+      "name": "Ashley Estuary (Te Aka Aka) and Coastal Protection Zone",
+      "title": "Ashley Estuary (Te Aka Aka) and Coastal Protection Zone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Rūnanga Sensitive Areas/wāhi taonga",
+      "title": "Rūnanga Sensitive Areas/wāhi taonga",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Rūnanga Sensitive Areas",
+      "title": "Rūnanga Sensitive Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Wāhi Taonga Management Sites (SDC)",
+      "title": "Wāhi Taonga Management Sites (SDC)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Wāhi Taonga Management Areas (SDC)",
+      "title": "Wāhi Taonga Management Areas (SDC)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Other Treaty Settlement Areas",
+      "title": "Other Treaty Settlement Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Aquaculture Settlement Areas",
+      "title": "Aquaculture Settlement Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 76,
+      "name": "Te Waihora Co-Governance Area ",
+      "title": "Te Waihora Co-Governance Area ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 80,
+      "name": "Te Waihora Cultural Landscape/Values Management Area - Lake & River Zones",
+      "title": "Te Waihora Cultural Landscape/Values Management Area - Lake & River Zones",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "CLVMA - Lake Area ",
+      "title": "CLVMA - Lake Area ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 78,
+      "name": "CLVMA - River Zone 1",
+      "title": "CLVMA - River Zone 1",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 79,
+      "name": "CLVMA - River Zone 2",
+      "title": "CLVMA - River Zone 2",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Māori Land Court - Māori Land",
+      "title": "Māori Land Court - Māori Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 60,
+      "name": "Takutai Moana Act Application Areas",
+      "title": "Takutai Moana Act Application Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 94,
+      "name": "Te Maiharoa Whānau",
+      "title": "Te Maiharoa Whānau",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 98,
+      "name": "Te Atiawa o te Waka a Maui Trust East Coast Cloudy",
+      "title": "Te Atiawa o te Waka a Maui Trust East Coast Cloudy",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 96,
+      "name": "Te Runanga o Toa Rangatira",
+      "title": "Te Runanga o Toa Rangatira",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 93,
+      "name": "Ngāi-Tū-āhu-riri-hapu",
+      "title": "Ngāi-Tū-āhu-riri-hapu",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 97,
+      "name": "Ngai Tahu Whanui",
+      "title": "Ngai Tahu Whanui",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 64,
+      "name": "Black Maps Footprints",
+      "title": "Black Maps Footprints",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 70,
+      "name": "Marae \\ Papakāinga drinking water protection zones",
+      "title": "Marae \\ Papakāinga drinking water protection zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 62,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "www-gis-hctx-net-parks-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/Parks/Parks/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/Parks/Parks/MapServer",
+  "title": "Parks",
+  "description": "Parks inventory with trails, facilities and accessibility for Harris County Texas",
+  "abstract": "Harris County Parks Inventory",
+  "provider": "www.gis.hctx.net",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Harris County Parks",
+      "title": "Harris County Parks",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "PRECINCT"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SubType",
+          "type": "esriFieldTypeString",
+          "alias": "SubType"
+        },
+        {
+          "name": "Acreage",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acreage"
+        },
+        {
+          "name": "PkTrailLen",
+          "type": "esriFieldTypeDouble",
+          "alias": "ReportedTrailLen"
+        },
+        {
+          "name": "HBAccess",
+          "type": "esriFieldTypeString",
+          "alias": "Hike/Bike Access"
+        },
+        {
+          "name": "ComCtr",
+          "type": "esriFieldTypeString",
+          "alias": "Community Center"
+        },
+        {
+          "name": "ComCtrAdd",
+          "type": "esriFieldTypeString",
+          "alias": "Com Center Address"
+        },
+        {
+          "name": "Other1",
+          "type": "esriFieldTypeString",
+          "alias": "Other Facility1"
+        },
+        {
+          "name": "Other1Add",
+          "type": "esriFieldTypeString",
+          "alias": "Other Address1"
+        },
+        {
+          "name": "Other2",
+          "type": "esriFieldTypeString",
+          "alias": "Other Facility2"
+        },
+        {
+          "name": "Other2Add",
+          "type": "esriFieldTypeString",
+          "alias": "Other Address2"
+        },
+        {
+          "name": "LastEdit",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEdit"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102740"
+  ],
+  "cors_enabled": true,
+  "response_ms": 204,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

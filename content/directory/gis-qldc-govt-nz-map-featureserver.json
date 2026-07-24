@@ -1,0 +1,444 @@
+{
+  "slug": "gis-qldc-govt-nz-map-featureserver",
+  "service_key": "ESRI FeatureServer:https://gis.qldc.govt.nz/server/rest/services/DistrictPlan/PDP_Stage_3_and_3B/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://gis.qldc.govt.nz/server/rest/services/DistrictPlan/PDP_Stage_3_and_3B/FeatureServer",
+  "title": "Map",
+  "description": "Proposed district plan zones and landscape sensitivity classifications.",
+  "abstract": "<p style='margin-top: 0px; margin-bottom: 0.75rem; overflow-wrap: break-word; max-width: 100%; font-family: &quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px;'><span style='overflow-wrap: break-word; max-width: 100%; display: inherit;'>PDP Stage 3 (Notified Thursday 19th September 2019) and Stage 3b (Notified Thursday 31st October)</span><div><br /></div></p>",
+  "provider": "gis.qldc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "zoning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Historic Heritage",
+      "title": "Historic Heritage",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "REF_NO",
+          "type": "esriFieldTypeInteger",
+          "alias": "REF_NO"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 2,
+      "name": "Landscape Classification Lines",
+      "title": "Landscape Classification Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        }
+      ],
+      "feature_count": 2
+    },
+    {
+      "id": 3,
+      "name": "Landscape Classification Labels",
+      "title": "Landscape Classification Labels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        }
+      ],
+      "feature_count": 17
+    },
+    {
+      "id": 4,
+      "name": "Landscape Classification",
+      "title": "Landscape Classification",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        }
+      ],
+      "feature_count": 5
+    },
+    {
+      "id": 5,
+      "name": "Urban Growth Boundary",
+      "title": "Urban Growth Boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": 3
+    },
+    {
+      "id": 6,
+      "name": "Specific Rules (Frankton)",
+      "title": "Specific Rules (Frankton)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 7,
+      "name": "Wahi Tupuna",
+      "title": "Wahi Tupuna",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Iwi_Values",
+          "type": "esriFieldTypeString",
+          "alias": "Values"
+        },
+        {
+          "name": "Number_SB",
+          "type": "esriFieldTypeString",
+          "alias": "Site"
+        }
+      ],
+      "feature_count": 45
+    },
+    {
+      "id": 8,
+      "name": "Designation",
+      "title": "Designation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "zone",
+          "type": "esriFieldTypeString",
+          "alias": "zone"
+        },
+        {
+          "name": "SDE.Designation_3.area",
+          "type": "esriFieldTypeInteger",
+          "alias": "SDE.Designation_3.area"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 9,
+      "name": "Commercial Precinct",
+      "title": "Commercial Precinct",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "Locality",
+          "type": "esriFieldTypeString",
+          "alias": "LOCALITY"
+        }
+      ],
+      "feature_count": 4
+    },
+    {
+      "id": 10,
+      "name": "Building Restriction Area",
+      "title": "Building Restriction Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        }
+      ],
+      "feature_count": 7
+    },
+    {
+      "id": 11,
+      "name": "Visitor Accommodation Subzone",
+      "title": "Visitor Accommodation Subzone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PDPSt3Zone",
+          "type": "esriFieldTypeString",
+          "alias": "PDP Stage 3 Zone"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        }
+      ],
+      "feature_count": 20
+    },
+    {
+      "id": 12,
+      "name": "Zones",
+      "title": "Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONES",
+          "type": "esriFieldTypeString",
+          "alias": "ZONES"
+        },
+        {
+          "name": "LOCALITY",
+          "type": "esriFieldTypeString",
+          "alias": "LOCALITY"
+        }
+      ],
+      "feature_count": 25
+    },
+    {
+      "id": 14,
+      "name": "Landscape Classification Lines",
+      "title": "Landscape Classification Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Shape__Length_2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Length_2"
+        }
+      ],
+      "feature_count": 2
+    },
+    {
+      "id": 15,
+      "name": "Landscape Classification Labels",
+      "title": "Landscape Classification Labels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        }
+      ],
+      "feature_count": 10
+    },
+    {
+      "id": 16,
+      "name": "Landscape Classification ",
+      "title": "Landscape Classification ",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        }
+      ],
+      "feature_count": 3
+    },
+    {
+      "id": 17,
+      "name": "Urban Growth Boundary",
+      "title": "Urban Growth Boundary",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Queenstown Waterfront Zone",
+      "title": "Queenstown Waterfront Zone",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Commercial Precinct",
+      "title": "Commercial Precinct",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Building Restriction Area",
+      "title": "Building Restriction Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Water Transport Infrastructure Overlay",
+      "title": "Water Transport Infrastructure Overlay",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Moderate - High Landscape Sensitivity Area",
+      "title": "Moderate - High Landscape Sensitivity Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "High Landscape Sensitivity Area",
+      "title": "High Landscape Sensitivity Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Visitor Accommodation Subzone",
+      "title": "Visitor Accommodation Subzone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Stage 3b Zones",
+      "title": "Stage 3b Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 201,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

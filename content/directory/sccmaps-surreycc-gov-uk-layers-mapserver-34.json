@@ -1,0 +1,250 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-34",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_BusRoutes/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_BusRoutes/MapServer",
+  "title": "Layers",
+  "description": "Public bus routes and service schedules.",
+  "abstract": "Roads & Transport - Bus routes ",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 30,
+      "name": "Roads & Transport - Bus routes Nov 2018",
+      "title": "Roads & Transport - Bus routes Nov 2018",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "MONAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "MONAM"
+        },
+        {
+          "name": "MONBP",
+          "type": "esriFieldTypeDouble",
+          "alias": "MONBP"
+        },
+        {
+          "name": "MONEP",
+          "type": "esriFieldTypeDouble",
+          "alias": "MONEP"
+        },
+        {
+          "name": "MONOP",
+          "type": "esriFieldTypeDouble",
+          "alias": "MONOP"
+        },
+        {
+          "name": "TUEAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUEAM"
+        },
+        {
+          "name": "TUEBP",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUEBP"
+        },
+        {
+          "name": "TUEEP",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUEEP"
+        },
+        {
+          "name": "TUEOP",
+          "type": "esriFieldTypeDouble",
+          "alias": "TUEOP"
+        },
+        {
+          "name": "WEDAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "WEDAM"
+        },
+        {
+          "name": "WEDBP",
+          "type": "esriFieldTypeDouble",
+          "alias": "WEDBP"
+        },
+        {
+          "name": "WEDEP",
+          "type": "esriFieldTypeDouble",
+          "alias": "WEDEP"
+        },
+        {
+          "name": "WEDOP",
+          "type": "esriFieldTypeDouble",
+          "alias": "WEDOP"
+        },
+        {
+          "name": "THURAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "THURAM"
+        },
+        {
+          "name": "THURBP",
+          "type": "esriFieldTypeDouble",
+          "alias": "THURBP"
+        },
+        {
+          "name": "THUREP",
+          "type": "esriFieldTypeDouble",
+          "alias": "THUREP"
+        },
+        {
+          "name": "THUROP",
+          "type": "esriFieldTypeDouble",
+          "alias": "THUROP"
+        },
+        {
+          "name": "FRIAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "FRIAM"
+        },
+        {
+          "name": "FRIBP",
+          "type": "esriFieldTypeDouble",
+          "alias": "FRIBP"
+        },
+        {
+          "name": "FRIEP",
+          "type": "esriFieldTypeDouble",
+          "alias": "FRIEP"
+        },
+        {
+          "name": "FRIOP",
+          "type": "esriFieldTypeDouble",
+          "alias": "FRIOP"
+        },
+        {
+          "name": "SATAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "SATAM"
+        },
+        {
+          "name": "SATBP",
+          "type": "esriFieldTypeDouble",
+          "alias": "SATBP"
+        },
+        {
+          "name": "SATEP",
+          "type": "esriFieldTypeDouble",
+          "alias": "SATEP"
+        },
+        {
+          "name": "SATOP",
+          "type": "esriFieldTypeDouble",
+          "alias": "SATOP"
+        },
+        {
+          "name": "SUNAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNAM"
+        },
+        {
+          "name": "SUNBP",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNBP"
+        },
+        {
+          "name": "SUNEP",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNEP"
+        },
+        {
+          "name": "SUNOP",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUNOP"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BM_RouteID",
+          "type": "esriFieldTypeString",
+          "alias": "BM_RouteID"
+        },
+        {
+          "name": "OperatorCode",
+          "type": "esriFieldTypeString",
+          "alias": "OperatorCode"
+        },
+        {
+          "name": "ServiceNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceNumber"
+        },
+        {
+          "name": "Direction",
+          "type": "esriFieldTypeString",
+          "alias": "Direction"
+        },
+        {
+          "name": "OperatorName",
+          "type": "esriFieldTypeString",
+          "alias": "OperatorName"
+        },
+        {
+          "name": "Service_OpCode",
+          "type": "esriFieldTypeString",
+          "alias": "Service_OpCode"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 325,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

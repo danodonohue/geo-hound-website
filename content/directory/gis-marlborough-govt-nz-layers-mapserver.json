@@ -1,0 +1,1066 @@
+{
+  "slug": "gis-marlborough-govt-nz-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis.marlborough.govt.nz/server/rest/services/OpenData/OpenData3/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.marlborough.govt.nz/server/rest/services/OpenData/OpenData3/MapServer",
+  "title": "Layers",
+  "description": "Open data for Marlborough including biosecurity, property, utilities and recreation.",
+  "abstract": "Data for use in the MDC Open Data website.\nData includes\n- biosecurity\n- freedom camping\n- property revaluations\n- refuse/recycling\n- walking/cycling\n- speed limits",
+  "provider": "gis.marlborough.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "utilities",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 16,
+      "name": "Biosecurity Plant Pest Control",
+      "title": "Biosecurity Plant Pest Control",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Scientific_Name",
+          "type": "esriFieldTypeString",
+          "alias": "ScientificName"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Find_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "FindDate"
+        },
+        {
+          "name": "Financial_Year",
+          "type": "esriFieldTypeString",
+          "alias": "FinancialYear"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Freedom Camping Prohibited Areas",
+      "title": "Freedom Camping Prohibited Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "FullySelfContainedVehicles",
+          "type": "esriFieldTypeString",
+          "alias": "FullySelfContainedVehicles"
+        },
+        {
+          "name": "NonSelfContainedVehicles",
+          "type": "esriFieldTypeString",
+          "alias": "NonSelfContainedVehicles"
+        },
+        {
+          "name": "TentsPermitted",
+          "type": "esriFieldTypeString",
+          "alias": "TentsPermitted"
+        },
+        {
+          "name": "SpacesAvailable",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SpacesAvailable"
+        },
+        {
+          "name": "NightsAllowed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NightsAllowed"
+        },
+        {
+          "name": "PermittedTimes",
+          "type": "esriFieldTypeString",
+          "alias": "PermittedTimes"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "Conditions",
+          "type": "esriFieldTypeString",
+          "alias": "Conditions"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Property Revaluations 2014 - Property Movement",
+      "title": "Property Revaluations 2014 - Property Movement",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PropertyNo",
+          "type": "esriFieldTypeInteger",
+          "alias": "PropertyNo"
+        },
+        {
+          "name": "PropertyAddress",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyAddress"
+        },
+        {
+          "name": "Roll",
+          "type": "esriFieldTypeInteger",
+          "alias": "Roll"
+        },
+        {
+          "name": "AssessmentNo",
+          "type": "esriFieldTypeString",
+          "alias": "AssessmentNo"
+        },
+        {
+          "name": "LandArea2011",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandArea2011"
+        },
+        {
+          "name": "LandArea2014",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandArea2014"
+        },
+        {
+          "name": "CapitalValue2011",
+          "type": "esriFieldTypeInteger",
+          "alias": "CapitalValue2011"
+        },
+        {
+          "name": "CapitalValue2014",
+          "type": "esriFieldTypeInteger",
+          "alias": "CapitalValue2014"
+        },
+        {
+          "name": "LandValue2011",
+          "type": "esriFieldTypeInteger",
+          "alias": "LandValue2011"
+        },
+        {
+          "name": "LandValue2014",
+          "type": "esriFieldTypeInteger",
+          "alias": "LandValue2014"
+        },
+        {
+          "name": "ImprovementValue2011",
+          "type": "esriFieldTypeInteger",
+          "alias": "ImprovementValue2011"
+        },
+        {
+          "name": "ImprovementValue2014",
+          "type": "esriFieldTypeInteger",
+          "alias": "ImprovementValue2014"
+        },
+        {
+          "name": "CapitalValueChange",
+          "type": "esriFieldTypeInteger",
+          "alias": "CapitalValueChange"
+        },
+        {
+          "name": "CapitalValueChangePercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "CapitalValueChangePercent"
+        },
+        {
+          "name": "LandValueChange",
+          "type": "esriFieldTypeInteger",
+          "alias": "LandValueChange"
+        },
+        {
+          "name": "LandValueChangePercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValueChangePercent"
+        },
+        {
+          "name": "ImprovementValueChange",
+          "type": "esriFieldTypeInteger",
+          "alias": "ImprovementValueChange"
+        },
+        {
+          "name": "ImprovementValueChangePercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "ImprovementValueChangePercent"
+        },
+        {
+          "name": "LandValuePerMetre",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValuePerMetre"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Property Revaluations 2014 - Roll Movement",
+      "title": "Property Revaluations 2014 - Roll Movement",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Roll",
+          "type": "esriFieldTypeInteger",
+          "alias": "Roll"
+        },
+        {
+          "name": "TA",
+          "type": "esriFieldTypeString",
+          "alias": "TA"
+        },
+        {
+          "name": "CV_MvtPct",
+          "type": "esriFieldTypeDouble",
+          "alias": "CapitalValueChangePct"
+        },
+        {
+          "name": "LV_MvtPct",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValueChangePct"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Property Revaluations 2020 - Property Movement",
+      "title": "Property Revaluations 2020 - Property Movement",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PropertyNo",
+          "type": "esriFieldTypeInteger",
+          "alias": "PropertyNo"
+        },
+        {
+          "name": "PropertyAddress",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyAddress"
+        },
+        {
+          "name": "Roll",
+          "type": "esriFieldTypeInteger",
+          "alias": "Roll"
+        },
+        {
+          "name": "AssessmentNo",
+          "type": "esriFieldTypeString",
+          "alias": "AssessmentNo"
+        },
+        {
+          "name": "LandArea2017",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandArea2017"
+        },
+        {
+          "name": "LandArea2020",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandArea2020"
+        },
+        {
+          "name": "CapitalValue2017",
+          "type": "esriFieldTypeInteger",
+          "alias": "CapitalValue2017"
+        },
+        {
+          "name": "CapitalValue2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "CapitalValue2020"
+        },
+        {
+          "name": "LandValue2017",
+          "type": "esriFieldTypeInteger",
+          "alias": "LandValue2017"
+        },
+        {
+          "name": "LandValue2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "LandValue2020"
+        },
+        {
+          "name": "ImprovementValue2017",
+          "type": "esriFieldTypeInteger",
+          "alias": "ImprovementValue2017"
+        },
+        {
+          "name": "ImprovementValue2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "ImprovementValue2020"
+        },
+        {
+          "name": "CapitalValueChange",
+          "type": "esriFieldTypeInteger",
+          "alias": "CapitalValueChange"
+        },
+        {
+          "name": "CapitalValueChangePercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "CapitalValueChangePercent"
+        },
+        {
+          "name": "LandValueChange",
+          "type": "esriFieldTypeInteger",
+          "alias": "LandValueChange"
+        },
+        {
+          "name": "LandValueChangePercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValueChangePercent"
+        },
+        {
+          "name": "ImprovementValueChange",
+          "type": "esriFieldTypeInteger",
+          "alias": "ImprovementValueChange"
+        },
+        {
+          "name": "ImprovementValueChangePercent",
+          "type": "esriFieldTypeDouble",
+          "alias": "ImprovementValueChangePercent"
+        },
+        {
+          "name": "LandValuePerMetre",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValuePerMetre"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Property Revaluations 2020 - Roll Movement",
+      "title": "Property Revaluations 2020 - Roll Movement",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Roll",
+          "type": "esriFieldTypeInteger",
+          "alias": "Roll"
+        },
+        {
+          "name": "TA",
+          "type": "esriFieldTypeString",
+          "alias": "TA"
+        },
+        {
+          "name": "CV_MvtPct",
+          "type": "esriFieldTypeDouble",
+          "alias": "CV_MvtPct"
+        },
+        {
+          "name": "LV_MvtPct",
+          "type": "esriFieldTypeDouble",
+          "alias": "LV_MvtPct"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Public Toilets",
+      "title": "Public Toilets",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "DisabledAccess",
+          "type": "esriFieldTypeString",
+          "alias": "DisabledAccess"
+        },
+        {
+          "name": "OperatingHours",
+          "type": "esriFieldTypeString",
+          "alias": "OperatingHours"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "ImageURL",
+          "type": "esriFieldTypeString",
+          "alias": "ImageURL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Recycling/Waste Collection Day",
+      "title": "Recycling/Waste Collection Day",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CollectionDay",
+          "type": "esriFieldTypeString",
+          "alias": "Collection Day"
+        },
+        {
+          "name": "AreaName",
+          "type": "esriFieldTypeString",
+          "alias": "AreaName"
+        },
+        {
+          "name": "NextWasteCollectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "NextWasteCollectionDate"
+        },
+        {
+          "name": "NextRecyclingCollectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "NextRecyclingCollectionDate"
+        },
+        {
+          "name": "NextCollectionType",
+          "type": "esriFieldTypeString",
+          "alias": "Next Collection Type"
+        },
+        {
+          "name": "NextCollectionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Next Collection Date"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Recycling/Waste Facilities",
+      "title": "Recycling/Waste Facilities",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureType"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Resource Consents",
+      "title": "Resource Consents",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ProcessingConsentNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Processing Consent Number"
+        },
+        {
+          "name": "ConsentNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Consent Number"
+        },
+        {
+          "name": "ApplicantNames",
+          "type": "esriFieldTypeString",
+          "alias": "Applicant Names"
+        },
+        {
+          "name": "ConsentTypeParentDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Consent Type"
+        },
+        {
+          "name": "ConsentTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Consent SubType"
+        },
+        {
+          "name": "DescriptionOfActivity",
+          "type": "esriFieldTypeString",
+          "alias": "Description of Activity"
+        },
+        {
+          "name": "DecisionMadeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Decision"
+        },
+        {
+          "name": "DecisionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "ExpiryDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry Date"
+        },
+        {
+          "name": "ConsentStatusDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Consent Status"
+        },
+        {
+          "name": "PropertyNumbers",
+          "type": "esriFieldTypeString",
+          "alias": "Property Numbers"
+        },
+        {
+          "name": "ApplicationLocationEasting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "ApplicationLocationNorthing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "PropertyFilesLink",
+          "type": "esriFieldTypeString",
+          "alias": "Property Files Link"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "UrbanDevelopmentArea",
+          "type": "esriFieldTypeString",
+          "alias": "Urban Development Area"
+        },
+        {
+          "name": "ConsentNumberPFOL",
+          "type": "esriFieldTypeString",
+          "alias": "ConsentNumberPFOL"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "School Locations",
+      "title": "School Locations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "EnrolmentZone",
+          "type": "esriFieldTypeString",
+          "alias": "EnrolmentZone"
+        },
+        {
+          "name": "Decile",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Decile"
+        },
+        {
+          "name": "Roll",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Roll"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Speed Limits",
+      "title": "Speed Limits",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SpeedLimit",
+          "type": "esriFieldTypeString",
+          "alias": "SpeedLimit"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Speed Limits - Urban Traffic Areas",
+      "title": "Speed Limits - Urban Traffic Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Technical Reports",
+      "title": "Technical Reports",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ReportType",
+          "type": "esriFieldTypeString",
+          "alias": "Report_Type"
+        },
+        {
+          "name": "ReportTitle",
+          "type": "esriFieldTypeString",
+          "alias": "Report_Title"
+        },
+        {
+          "name": "Author",
+          "type": "esriFieldTypeString",
+          "alias": "Author"
+        },
+        {
+          "name": "CouncilTRIMReference",
+          "type": "esriFieldTypeString",
+          "alias": "Council_TRIM_Reference"
+        },
+        {
+          "name": "ExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "External_Reference"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Wairau Plains Aquifers",
+      "title": "Wairau Plains Aquifers",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FreshwaterMgmtUnitLabel",
+          "type": "esriFieldTypeString",
+          "alias": "FreshwaterMgmtUnitLabel"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Walking and Cycling Tracks",
+      "title": "Walking and Cycling Tracks",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Wells",
+      "title": "Wells",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Well Static Groundwater Level",
+      "title": "Well Static Groundwater Level",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Wilding Pine Control Areas",
+      "title": "Wilding Pine Control Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "White-Edged Nightshade Distribution",
+      "title": "White-Edged Nightshade Distribution",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 160,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

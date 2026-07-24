@@ -1,0 +1,712 @@
+{
+  "slug": "maps-trc-govt-nz-coastalplanhearingjuly2019-mapserver",
+  "service_key": "ESRI MapServer:https://maps.trc.govt.nz/arcgis/rest/services/LocalMaps/CoastalPlanHearingJuly2019/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.trc.govt.nz/arcgis/rest/services/LocalMaps/CoastalPlanHearingJuly2019/MapServer",
+  "title": "CoastalPlanHearingJuly2019",
+  "description": "GIS service providing coastal, boundaries data.",
+  "abstract": "Features described in the Taranaki Regional Coastal Plan 2017",
+  "provider": "maps.trc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Indicative CMA boundary line",
+      "title": "Indicative CMA boundary line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "created_da",
+          "type": "esriFieldTypeDouble",
+          "alias": "created_da"
+        },
+        {
+          "name": "modified_d",
+          "type": "esriFieldTypeDouble",
+          "alias": "modified_d"
+        },
+        {
+          "name": "a1016",
+          "type": "esriFieldTypeString",
+          "alias": "a1016"
+        },
+        {
+          "name": "a1020",
+          "type": "esriFieldTypeDouble",
+          "alias": "a1020"
+        },
+        {
+          "name": "elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "elevation"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Coastal environment line",
+      "title": "Coastal environment line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_Coasta",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_Coasta"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "BlueprintK",
+          "type": "esriFieldTypeString",
+          "alias": "BlueprintK"
+        },
+        {
+          "name": "Creator",
+          "type": "esriFieldTypeString",
+          "alias": "Creator"
+        },
+        {
+          "name": "DateCreate",
+          "type": "esriFieldTypeDate",
+          "alias": "DateCreate"
+        },
+        {
+          "name": "Editor",
+          "type": "esriFieldTypeString",
+          "alias": "Editor"
+        },
+        {
+          "name": "DateEdited",
+          "type": "esriFieldTypeDate",
+          "alias": "DateEdited"
+        },
+        {
+          "name": "SHAPE_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_STAr"
+        },
+        {
+          "name": "SHAPE_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_STLe"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Le_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Le_1"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Coastal management areas",
+      "title": "Coastal management areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Schedules",
+          "type": "esriFieldTypeString",
+          "alias": "Schedules"
+        },
+        {
+          "name": "Name2",
+          "type": "esriFieldTypeString",
+          "alias": "Name2"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Values",
+      "title": "Values",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Archaeological site of significance",
+      "title": "Archaeological site of significance",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Name2",
+          "type": "esriFieldTypeString",
+          "alias": "Name2"
+        },
+        {
+          "name": "Number",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Number"
+        },
+        {
+          "name": "NZAA_NZHPT_Number",
+          "type": "esriFieldTypeString",
+          "alias": "NZAA_NZHPT_Number"
+        },
+        {
+          "name": "Built",
+          "type": "esriFieldTypeString",
+          "alias": "Built"
+        },
+        {
+          "name": "Lost",
+          "type": "esriFieldTypeString",
+          "alias": "Lost"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Surfbreak",
+      "title": "Surfbreak",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Surfbreaks_MaoriName_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Surfbreaks_MaoriName_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Surfbreaks_MaoriName_Iwi",
+          "type": "esriFieldTypeString",
+          "alias": "Iwi"
+        },
+        {
+          "name": "Surfbreaks_MaoriName_Name2",
+          "type": "esriFieldTypeString",
+          "alias": "Name2"
+        },
+        {
+          "name": "SurfbreaksMaoriName2_Table_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Number"
+        },
+        {
+          "name": "SurfbreaksMaoriName2_Table_North_South",
+          "type": "esriFieldTypeInteger",
+          "alias": "North_South"
+        },
+        {
+          "name": "SurfbreaksMaoriName2_Table_SurfingName",
+          "type": "esriFieldTypeString",
+          "alias": "SurfingName"
+        },
+        {
+          "name": "SurfbreaksMaoriName2_Table_MaoriName",
+          "type": "esriFieldTypeString",
+          "alias": "MaoriName"
+        },
+        {
+          "name": "SurfbreaksMaoriName2_Table_IwiRohe",
+          "type": "esriFieldTypeString",
+          "alias": "IwiRohe"
+        },
+        {
+          "name": "SurfbreaksMaoriName2_Table_Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Significant surfing area",
+      "title": "Significant surfing area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_Possible_Surfing_Reserve",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_Possible_Surfing_Reserve"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Site of significance to Maori",
+      "title": "Site of significance to Maori",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Iwi",
+          "type": "esriFieldTypeString",
+          "alias": "Iwi"
+        },
+        {
+          "name": "TRC_Number",
+          "type": "esriFieldTypeString",
+          "alias": "TRC_Number"
+        },
+        {
+          "name": "NZAA_Number",
+          "type": "esriFieldTypeString",
+          "alias": "NZAA_Number"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "PortalPDF",
+          "type": "esriFieldTypeString",
+          "alias": "PortalPDF"
+        },
+        {
+          "name": "Name3",
+          "type": "esriFieldTypeString",
+          "alias": "Name3"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "NZAA_Numbe",
+          "type": "esriFieldTypeString",
+          "alias": "NZAA_Numbe"
+        },
+        {
+          "name": "Descriptio",
+          "type": "esriFieldTypeString",
+          "alias": "Descriptio"
+        },
+        {
+          "name": "SHAPE_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Leng"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Near shore reefs",
+      "title": "Near shore reefs",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "created_da",
+          "type": "esriFieldTypeDouble",
+          "alias": "created_da"
+        },
+        {
+          "name": "modified_d",
+          "type": "esriFieldTypeDouble",
+          "alias": "modified_d"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Marine protection",
+      "title": "Marine protection",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Port Air Zone",
+      "title": "Port Air Zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Significant marine mammal and seabird area",
+      "title": "Significant marine mammal and seabird area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Map extents",
+      "title": "Map extents",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Map",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Map"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 164,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

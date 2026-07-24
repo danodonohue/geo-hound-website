@@ -1,0 +1,828 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-12",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/Sales/ParSales/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/Sales/ParSales/MapServer",
+  "title": "Layers",
+  "description": "Clermont County parcel sales with prices and dates.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Valid Parcel Sales",
+      "title": "Valid Parcel Sales",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "ValidPARSALES_577K",
+      "title": "ValidPARSALES_577K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "ValidPARSALES_288K",
+      "title": "ValidPARSALES_288K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "ValidPARSALES_144K",
+      "title": "ValidPARSALES_144K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "ValidPARSALES_72K",
+      "title": "ValidPARSALES_72K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "ValidPARSALES_36K",
+      "title": "ValidPARSALES_36K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "ValidPARSALES_18K",
+      "title": "ValidPARSALES_18K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "ValidPARSALES_9K",
+      "title": "ValidPARSALES_9K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "ValidPARSALES_4K",
+      "title": "ValidPARSALES_4K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "ValidPARSALES_2K",
+      "title": "ValidPARSALES_2K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "ValidPARSALES_1K",
+      "title": "ValidPARSALES_1K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "ValidPARSALES_600FT",
+      "title": "ValidPARSALES_600FT",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "ValidPARSALES_300FT",
+      "title": "ValidPARSALES_300FT",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "PRICE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRICE"
+        },
+        {
+          "name": "SALEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SALEDATE"
+        },
+        {
+          "name": "SALETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SALETYPE"
+        },
+        {
+          "name": "SALEVAL",
+          "type": "esriFieldTypeString",
+          "alias": "SALEVAL"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "RuleID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID"
+        },
+        {
+          "name": "RuleID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RuleID_1"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 239,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

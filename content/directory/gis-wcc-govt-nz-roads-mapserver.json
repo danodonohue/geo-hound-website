@@ -1,0 +1,392 @@
+{
+  "slug": "gis-wcc-govt-nz-roads-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/Roads/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Transportation/Roads/MapServer",
+  "title": "Roads",
+  "description": "Road network with names, categories and attributes for Wellington City",
+  "abstract": "Labels showing the name of the street or road.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Road Name",
+      "title": "Road Name",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "road_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "road_id"
+        },
+        {
+          "name": "full_road_name",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name"
+        },
+        {
+          "name": "road_name_label",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_label"
+        },
+        {
+          "name": "road_name_body",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_body"
+        },
+        {
+          "name": "road_name_type",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_type"
+        },
+        {
+          "name": "road_name_suffix",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_suffix"
+        },
+        {
+          "name": "is_land",
+          "type": "esriFieldTypeString",
+          "alias": "is_land"
+        },
+        {
+          "name": "full_road_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name_ascii"
+        },
+        {
+          "name": "road_name_label_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_label_ascii"
+        },
+        {
+          "name": "road_name_body_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "road_name_body_ascii"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Kerb",
+      "title": "Kerb",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "feat_code",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeDouble",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Converted",
+          "type": "esriFieldTypeString",
+          "alias": "Converted"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Footpath",
+      "title": "Footpath",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "gis_id",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "gis_id"
+        },
+        {
+          "name": "feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "feature_id"
+        },
+        {
+          "name": "site_name",
+          "type": "esriFieldTypeString",
+          "alias": "site_name"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "location"
+        },
+        {
+          "name": "prim_meas",
+          "type": "esriFieldTypeDouble",
+          "alias": "prim_meas"
+        },
+        {
+          "name": "unit",
+          "type": "esriFieldTypeString",
+          "alias": "unit"
+        },
+        {
+          "name": "side",
+          "type": "esriFieldTypeString",
+          "alias": "side"
+        },
+        {
+          "name": "rank",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "rank"
+        },
+        {
+          "name": "category",
+          "type": "esriFieldTypeString",
+          "alias": "category"
+        },
+        {
+          "name": "use_",
+          "type": "esriFieldTypeString",
+          "alias": "use_"
+        },
+        {
+          "name": "grade_seperated",
+          "type": "esriFieldTypeString",
+          "alias": "grade_seperated"
+        },
+        {
+          "name": "date_approved",
+          "type": "esriFieldTypeDate",
+          "alias": "date_approved"
+        },
+        {
+          "name": "notes",
+          "type": "esriFieldTypeString",
+          "alias": "notes"
+        },
+        {
+          "name": "wufis",
+          "type": "esriFieldTypeString",
+          "alias": "wufis"
+        },
+        {
+          "name": "shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Length"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "ramm_road_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "RAMM Road ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Road Category",
+      "title": "Road Category",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "feature_id"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "location"
+        },
+        {
+          "name": "prim_meas",
+          "type": "esriFieldTypeDouble",
+          "alias": "prim_meas"
+        },
+        {
+          "name": "unit",
+          "type": "esriFieldTypeString",
+          "alias": "unit"
+        },
+        {
+          "name": "rank",
+          "type": "esriFieldTypeInteger",
+          "alias": "rank"
+        },
+        {
+          "name": "suburb",
+          "type": "esriFieldTypeString",
+          "alias": "suburb"
+        },
+        {
+          "name": "ramm_alias",
+          "type": "esriFieldTypeString",
+          "alias": "ramm_alias"
+        },
+        {
+          "name": "category",
+          "type": "esriFieldTypeString",
+          "alias": "category"
+        },
+        {
+          "name": "date_approved",
+          "type": "esriFieldTypeDate",
+          "alias": "date_approved"
+        },
+        {
+          "name": "notes",
+          "type": "esriFieldTypeString",
+          "alias": "notes"
+        },
+        {
+          "name": "adt",
+          "type": "esriFieldTypeInteger",
+          "alias": "adt"
+        },
+        {
+          "name": "Count_Status",
+          "type": "esriFieldTypeString",
+          "alias": "count_status"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ONRC",
+          "type": "esriFieldTypeString",
+          "alias": "ONRC"
+        },
+        {
+          "name": "carr_way_no",
+          "type": "esriFieldTypeInteger",
+          "alias": "carr_way_no"
+        },
+        {
+          "name": "Count_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Count_Date"
+        },
+        {
+          "name": "ramm_road_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "RAMM Road ID"
+        },
+        {
+          "name": "road_maint_area",
+          "type": "esriFieldTypeString",
+          "alias": "Roading Maintenance Area"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 53,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

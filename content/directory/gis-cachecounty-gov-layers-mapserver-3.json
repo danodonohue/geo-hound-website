@@ -1,0 +1,165 @@
+{
+  "slug": "gis-cachecounty-gov-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://gis.cachecounty.gov/arcgis/rest/services/Planning/Subdivisions/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/Subdivisions/MapServer",
+  "title": "Layers",
+  "description": "Subdivision boundaries with lot counts and acreage in Cache County.",
+  "abstract": "2014 Parcels",
+  "provider": "gis.cachecounty.gov",
+  "place": {
+    "country": "United States",
+    "state": "Utah",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Subdivisions",
+      "title": "Subdivisions",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "subdivision_location",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "subdivision_location_1",
+          "type": "esriFieldTypeString",
+          "alias": "subdivision_location"
+        },
+        {
+          "name": "date_recorded",
+          "type": "esriFieldTypeDate",
+          "alias": "date_recorded"
+        },
+        {
+          "name": "lots",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "lots"
+        },
+        {
+          "name": "acres",
+          "type": "esriFieldTypeDouble",
+          "alias": "acres"
+        },
+        {
+          "name": "year_",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Year"
+        },
+        {
+          "name": "ave_acre",
+          "type": "esriFieldTypeDouble",
+          "alias": "Average Acre Per Lot"
+        },
+        {
+          "name": "image_",
+          "type": "esriFieldTypeString",
+          "alias": "Plat Image"
+        },
+        {
+          "name": "entry",
+          "type": "esriFieldTypeInteger",
+          "alias": "Entry"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "plat_acreage_total",
+          "type": "esriFieldTypeDouble",
+          "alias": "plat_acreage_total"
+        },
+        {
+          "name": "plat_amended",
+          "type": "esriFieldTypeString",
+          "alias": "plat_amended"
+        },
+        {
+          "name": "construction_drawing",
+          "type": "esriFieldTypeString",
+          "alias": "construction_drawing"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102742"
+  ],
+  "cors_enabled": true,
+  "response_ms": 545,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

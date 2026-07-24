@@ -1,0 +1,535 @@
+{
+  "slug": "additional-counties-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/MapServer",
+  "title": "Layers",
+  "description": "New York State tax parcel polygons with valuations and property details.",
+  "abstract": "Publication Date: May 2026. Updated annually. This map service has two layers: 1) NYS_Tax_Parcels_Public, and 2) NYS_Tax_Parcels_Public_Footprint which contains polygons representing counties for which tax parcel polygons are available in the NYS_Tax_Parcels_Public layer. County footprint polygons display when zoomed out beyond 1:37,050-scale. Tax parcel polygons display when zoomed in below 1:37,051-scale. The NYS_Tax_Parcels_Public layer contains 2025 parcel data only for NY State counties which gave NYS ITS Geospatial Services permission to share this data with the public. Work to obtain parcel data from additional counties, as well as permission to share the data, is ongoing. To date, 38 counties have provided Geospatial Services permission to share their parcel data with the public. Parcel data for counties which do not allow Geospatial Services to redistribute their data must be obtained directly from those counties. Geospatial Services' goal is to eventually include parcel data for all counties in New York State. Parcel geometry was incorporated as received from County Real Property Departments. No attempt was made to edge-match parcels along adjacent counties. County attribute values were populated using 2025 Assessment Roll tabular data Geospatial Services obtained from the NYS Department of Tax and Finance’s Office of Real Property Tax Services (ORPTS).Tabular assessment data was joined to the county provided parcel geometry using the SWIS & SBL or SWIS & PRINT KEY unique identifier for each parcel. Detailed information about assessment attributes can be found in the ORPTS Assessor’s Manuals available here: https://www.tax.ny.gov/research/property/assess/manuals/assersmanual.htm. New York City data comes from NYC MapPluto which can be found here: https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change. Thanks to the following counties that specifically authorized Geospatial Services to share their GIS tax parcel data with the public: Albany, Broome, Cayuga, Chautauqua, Cortland, Erie, Genesee, Greene, Hamilton, Lewis, Livingston, Montgomery, NYC- Bronx, NYC- Kings (Brooklyn), NYC- New York (Manhattan), NYC- Queens, NYC- Richmond (Staten Island),Onondaga, Oneida, Ontario, Orange, Oswego, Otsego, Putnam, Rensselaer, Rockland, Schuyler, St Lawrence, Steuben, Suffolk, Sullivan, Tioga, Tompkins, Ulster, Warren, Wayne, Westchester. and Wyoming. Geometry accuracy varies by contributing county. This map service is available to the public. The State of New York, acting through the New York State Office of Information Technology Services, makes no representations or warranties, express or implied, with respect to the use of or reliance on the Data provided. The User accepts the Data provided “as is” with no guarantees that it is error free, complete, accurate, current or fit for any particular purpose and assumes all risks associated with its use. The State disclaims any responsibility or legal liability to Users for damages of any kind, relating to the providing of the Data or the use of it. Users should be aware that temporal changes may have occurred since this Data was created.",
+  "provider": "additional counties",
+  "place": {
+    "country": "United States",
+    "state": "New York",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "NYS_Tax_Parcels_Public_Footprint",
+      "title": "NYS_Tax_Parcels_Public_Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ABBREVIATION",
+          "type": "esriFieldTypeString",
+          "alias": "ABBREVIATION"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "NYC",
+          "type": "esriFieldTypeString",
+          "alias": "NYC"
+        },
+        {
+          "name": "SP_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "SP_ZONE"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOS_LL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOS_LL_DATE"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "COUNTY_FIPS",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_FIPS"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "CALC_SQMI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SqMi"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "NYS_Tax_Parcels_Public",
+      "title": "NYS_Tax_Parcels_Public",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "COUNTY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_NAME"
+        },
+        {
+          "name": "MUNI_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MUNI_NAME"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "PARCEL_ADDR",
+          "type": "esriFieldTypeString",
+          "alias": "PARCEL_ADDR"
+        },
+        {
+          "name": "PRINT_KEY",
+          "type": "esriFieldTypeString",
+          "alias": "PRINT_KEY"
+        },
+        {
+          "name": "SBL",
+          "type": "esriFieldTypeString",
+          "alias": "SBL"
+        },
+        {
+          "name": "CITYTOWN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CITYTOWN_NAME"
+        },
+        {
+          "name": "CITYTOWN_SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "CITYTOWN_SWIS"
+        },
+        {
+          "name": "LOC_ST_NBR",
+          "type": "esriFieldTypeString",
+          "alias": "LOC_ST_NBR"
+        },
+        {
+          "name": "LOC_STREET",
+          "type": "esriFieldTypeString",
+          "alias": "LOC_STREET"
+        },
+        {
+          "name": "LOC_UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "LOC_UNIT"
+        },
+        {
+          "name": "LOC_ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "LOC_ZIP"
+        },
+        {
+          "name": "PROP_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "PROP_CLASS"
+        },
+        {
+          "name": "ROLL_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "ROLL_SECTION"
+        },
+        {
+          "name": "LAND_AV",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAND_AV"
+        },
+        {
+          "name": "TOTAL_AV",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOTAL_AV"
+        },
+        {
+          "name": "FULL_MARKET_VAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "FULL_MARKET_VAL"
+        },
+        {
+          "name": "YR_BLT",
+          "type": "esriFieldTypeInteger",
+          "alias": "YR_BLT"
+        },
+        {
+          "name": "FRONT",
+          "type": "esriFieldTypeInteger",
+          "alias": "FRONT"
+        },
+        {
+          "name": "DEPTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "DEPTH"
+        },
+        {
+          "name": "SQ_FT",
+          "type": "esriFieldTypeDouble",
+          "alias": "SQ_FT"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "SCHOOL_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_CODE"
+        },
+        {
+          "name": "SCHOOL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_NAME"
+        },
+        {
+          "name": "SEWER_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SEWER_TYPE"
+        },
+        {
+          "name": "SEWER_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SEWER_DESC"
+        },
+        {
+          "name": "WATER_SUPPLY",
+          "type": "esriFieldTypeString",
+          "alias": "WATER_SUPPLY"
+        },
+        {
+          "name": "WATER_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "WATER_DESC"
+        },
+        {
+          "name": "UTILITIES",
+          "type": "esriFieldTypeString",
+          "alias": "UTILITIES"
+        },
+        {
+          "name": "UTILITIES_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "UTILITIES_DESC"
+        },
+        {
+          "name": "BLDG_STYLE",
+          "type": "esriFieldTypeString",
+          "alias": "BLDG_STYLE"
+        },
+        {
+          "name": "BLDG_STYLE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "BLDG_STYLE_DESC"
+        },
+        {
+          "name": "HEAT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "HEAT_TYPE"
+        },
+        {
+          "name": "HEAT_TYPE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "HEAT_TYPE_DESC"
+        },
+        {
+          "name": "FUEL_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FUEL_TYPE"
+        },
+        {
+          "name": "FUEL_TYPE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "FUEL_TYPE_DESC"
+        },
+        {
+          "name": "SQFT_LIVING",
+          "type": "esriFieldTypeDouble",
+          "alias": "SQFT_LIVING"
+        },
+        {
+          "name": "GFA",
+          "type": "esriFieldTypeInteger",
+          "alias": "GFA"
+        },
+        {
+          "name": "NBR_KITCHENS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NBR_KITCHENS"
+        },
+        {
+          "name": "NBR_FULL_BATHS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NBR_FULL_BATHS"
+        },
+        {
+          "name": "NBR_BEDROOMS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NBR_BEDROOMS"
+        },
+        {
+          "name": "USED_AS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "USED_AS_CODE"
+        },
+        {
+          "name": "USED_AS_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "USED_AS_DESC"
+        },
+        {
+          "name": "AG_DIST_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AG_DIST_CODE"
+        },
+        {
+          "name": "AG_DIST_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AG_DIST_NAME"
+        },
+        {
+          "name": "MAIL_ADDR",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL_ADDR"
+        },
+        {
+          "name": "PO_BOX",
+          "type": "esriFieldTypeString",
+          "alias": "PO_BOX"
+        },
+        {
+          "name": "MAIL_CITY",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL_CITY"
+        },
+        {
+          "name": "MAIL_STATE",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL_STATE"
+        },
+        {
+          "name": "MAIL_ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL_ZIP"
+        },
+        {
+          "name": "ADD_MAIL_ADDR",
+          "type": "esriFieldTypeString",
+          "alias": "ADD_MAIL_ADDR"
+        },
+        {
+          "name": "ADD_MAIL_PO_BOX",
+          "type": "esriFieldTypeString",
+          "alias": "ADD_MAIL_PO_BOX"
+        },
+        {
+          "name": "ADD_MAIL_CITY",
+          "type": "esriFieldTypeString",
+          "alias": "ADD_MAIL_CITY"
+        },
+        {
+          "name": "ADD_MAIL_STATE",
+          "type": "esriFieldTypeString",
+          "alias": "ADD_MAIL_STATE"
+        },
+        {
+          "name": "ADD_MAIL_ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ADD_MAIL_ZIP"
+        },
+        {
+          "name": "BOOK",
+          "type": "esriFieldTypeInteger",
+          "alias": "BOOK"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAGE"
+        },
+        {
+          "name": "GRID_EAST",
+          "type": "esriFieldTypeDouble",
+          "alias": "GRID_EAST"
+        },
+        {
+          "name": "GRID_NORTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "GRID_NORTH"
+        },
+        {
+          "name": "MUNI_PARCEL_ID",
+          "type": "esriFieldTypeString",
+          "alias": "MUNI_PARCEL_ID"
+        },
+        {
+          "name": "SWIS_SBL_ID",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS_SBL_ID"
+        },
+        {
+          "name": "SWIS_PRINT_KEY_ID",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS_PRINT_KEY_ID"
+        },
+        {
+          "name": "ROLL_YR",
+          "type": "esriFieldTypeInteger",
+          "alias": "ROLL_YR"
+        },
+        {
+          "name": "SPATIAL_YR",
+          "type": "esriFieldTypeInteger",
+          "alias": "SPATIAL_YR"
+        },
+        {
+          "name": "OWNER_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER_TYPE"
+        },
+        {
+          "name": "PRIMARY_OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "PRIMARY_OWNER"
+        },
+        {
+          "name": "ADD_OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "ADD_OWNER"
+        },
+        {
+          "name": "NYS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NYS_NAME"
+        },
+        {
+          "name": "NYS_NAME_SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "NYS_NAME_SOURCE"
+        },
+        {
+          "name": "DUP_GEO",
+          "type": "esriFieldTypeString",
+          "alias": "DUP_GEO"
+        },
+        {
+          "name": "CALC_ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_ACRES"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1397,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

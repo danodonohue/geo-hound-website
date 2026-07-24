@@ -1,0 +1,238 @@
+{
+  "slug": "tiles-arcgis-com-map-mapserver-2",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/Bb8lfThdhugyc4G3/arcgis/rest/services/RNAGS_by_sector_2023_Water_Industry/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/Bb8lfThdhugyc4G3/arcgis/rest/services/RNAGS_by_sector_2023_Water_Industry/MapServer",
+  "title": "Map",
+  "description": "Water industry environmental challenges and regulatory pressures by catchment",
+  "abstract": "<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>RNAGS by sector 2023 Water Industry</span><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>'Challenges' spreadsheet downloaded from Catchment Data Explorer on the 15th July 2024. Data on CDE last updated on 03 August 2023 (Live data). Data joined to the WFD River Waterbody Catchment Classifications (2019) boundaries using WBID as the shared attribute.</div>",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Water_industry",
+      "title": "Water_industry",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "England_RNAG_JSONToFeatures.OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.uri",
+          "type": "esriFieldTypeString",
+          "alias": "uri"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.water_body_type",
+          "type": "esriFieldTypeString",
+          "alias": "water_body_type"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.geometry_type",
+          "type": "esriFieldTypeString",
+          "alias": "geometry_type"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "England_RNAG_JSONToFeatures.Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "England_challenges (1).csv.River Basin District",
+          "type": "esriFieldTypeString",
+          "alias": "River Basin District"
+        },
+        {
+          "name": "England_challenges (1).csv.Management Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Management Catchment"
+        },
+        {
+          "name": "England_challenges (1).csv.Operational Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Catchment"
+        },
+        {
+          "name": "England_challenges (1).csv.Water Body",
+          "type": "esriFieldTypeString",
+          "alias": "Water Body"
+        },
+        {
+          "name": "England_challenges (1).csv.Water Body ID",
+          "type": "esriFieldTypeString",
+          "alias": "Water Body ID"
+        },
+        {
+          "name": "England_challenges (1).csv.Water Body Type",
+          "type": "esriFieldTypeString",
+          "alias": "Water Body Type"
+        },
+        {
+          "name": "England_challenges (1).csv.Ngr",
+          "type": "esriFieldTypeString",
+          "alias": "Ngr"
+        },
+        {
+          "name": "England_challenges (1).csv.Hydromorphological designation",
+          "type": "esriFieldTypeString",
+          "alias": "Hydromorphological designation"
+        },
+        {
+          "name": "England_challenges (1).csv.Easting",
+          "type": "esriFieldTypeInteger",
+          "alias": "Easting"
+        },
+        {
+          "name": "England_challenges (1).csv.Northing",
+          "type": "esriFieldTypeInteger",
+          "alias": "Northing"
+        },
+        {
+          "name": "England_challenges (1).csv.Cycle",
+          "type": "esriFieldTypeInteger",
+          "alias": "Cycle"
+        },
+        {
+          "name": "England_challenges (1).csv.Classification Status",
+          "type": "esriFieldTypeString",
+          "alias": "Classification Status"
+        },
+        {
+          "name": "England_challenges (1).csv.Classification Level",
+          "type": "esriFieldTypeString",
+          "alias": "Classification Level"
+        },
+        {
+          "name": "England_challenges (1).csv.Classification Element",
+          "type": "esriFieldTypeString",
+          "alias": "Classification Element"
+        },
+        {
+          "name": "England_challenges (1).csv.Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "England_challenges (1).csv.Category Certainty",
+          "type": "esriFieldTypeString",
+          "alias": "Category Certainty"
+        },
+        {
+          "name": "England_challenges (1).csv.Reason Type",
+          "type": "esriFieldTypeString",
+          "alias": "Reason Type"
+        },
+        {
+          "name": "England_challenges (1).csv.Business Sector",
+          "type": "esriFieldTypeString",
+          "alias": "Business Sector"
+        },
+        {
+          "name": "England_challenges (1).csv.Swmi",
+          "type": "esriFieldTypeString",
+          "alias": "Swmi"
+        },
+        {
+          "name": "England_challenges (1).csv.Swmi Certainty",
+          "type": "esriFieldTypeString",
+          "alias": "Swmi Certainty"
+        },
+        {
+          "name": "England_challenges (1).csv.Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Activity"
+        },
+        {
+          "name": "England_challenges (1).csv.Activity Certainty",
+          "type": "esriFieldTypeString",
+          "alias": "Activity Certainty"
+        },
+        {
+          "name": "England_challenges (1).csv.Pressure Tier 1",
+          "type": "esriFieldTypeString",
+          "alias": "Pressure Tier 1"
+        },
+        {
+          "name": "England_challenges (1).csv.Pressure Tier 2",
+          "type": "esriFieldTypeString",
+          "alias": "Pressure Tier 2"
+        },
+        {
+          "name": "England_challenges (1).csv.ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "England_challenges (1).csv.Rnag URL",
+          "type": "esriFieldTypeString",
+          "alias": "Rnag URL"
+        },
+        {
+          "name": "England_challenges (1).csv.Pressure Tier 3",
+          "type": "esriFieldTypeString",
+          "alias": "Pressure Tier 3"
+        },
+        {
+          "name": "England_challenges (1).csv.National Swmi Header",
+          "type": "esriFieldTypeString",
+          "alias": "National Swmi Header"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 406,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

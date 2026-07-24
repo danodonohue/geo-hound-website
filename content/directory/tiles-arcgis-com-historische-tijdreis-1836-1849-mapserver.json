@@ -1,0 +1,935 @@
+{
+  "slug": "tiles-arcgis-com-historische-tijdreis-1836-1849-mapserver",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/nSZVuSZjHpEZZbRo/arcgis/rest/services/Historische_tijdreis_1836_1849/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/nSZVuSZjHpEZZbRo/arcgis/rest/services/Historische_tijdreis_1836_1849/MapServer",
+  "title": "Historische tijdreis 1836 - 1849",
+  "description": "Historical Dutch topographic maps from 1836-1849.",
+  "abstract": "<div style='background-color:rgb(255, 255, 255); border:0px solid currentcolor; box-sizing:border-box; color:rgb(74, 74, 74); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;'>Actualiteit: 1836-1849</div><div style='background-color:rgb(255, 255, 255); border:0px solid currentcolor; box-sizing:border-box; color:rgb(74, 74, 74); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;'>Update-frequentie: jaarlijks<br />Versie: 1.0</div><div style='background-color:rgb(255, 255, 255); border:0px solid currentcolor; box-sizing:border-box; color:rgb(74, 74, 74); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;'>Bronhouder: Kadaster</div><div style='background-color:rgb(255, 255, 255); border:0px solid currentcolor; box-sizing:border-box; color:rgb(74, 74, 74); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;'>&nbsp;</div><div style='background-color:rgb(255, 255, 255); border:0px solid currentcolor; box-sizing:border-box; color:rgb(74, 74, 74); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; line-height:1.5; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;'>Deze tiled service ontsluit historische topografische data voor de periode t/m <strong>1849</strong>. De service kan gebruikt worden voor een breed scala aan toepassingen, waaronder historische analyses.<br />&nbsp;<br />Voor de collectie van tiled services zijn meerdere historische kaartschalen gebruikt. De collectie beslaat de periode 1815-heden&nbsp;en bevat meerdere edities van de volgende kaartseries:</div><div style='margin:0px; padding:0px;'><ul><li>Kleinschalig: Postroutekaart 1810, Algemene Kaart Nederland en Gemeentekaart</li><li>Semi-kleinschalig: Kraijenhoffkaart, Tranchotkaart en Nettekeningen</li><li>Mid-schalig: Topografische Militaire Kaart, RD050 (1:50.000)</li><li>Grootschalig: Bonnebladen en RD025 (1:25.000)</li></ul><p>De services zijn opgebouwd uit meerdere kaartschalen en tonen gegevens conform het Nederlands tiling schema op de schalen 1:12.288.000 (level 0) t/m 1:6.000 (level 11). De projectie van de tiled services is het Rijksdriehoeksstelsel.</p><p>De service van een specifiek jaar laat de historische topografische data zien die tot op dat jaar beschikbaar waren. Met name voor de services in de jaren 1800-1900 kan dit betekenen dat er gedurende meerdere jaren geen verschil in de kaart waarneembaar is. Dit komt omdat er voor die gebieden dan geen nieuwe kaarten zijn gemaakt. Een service toont altijd de meest recente gegevens voor het gekozen jaartal.&nbsp;</p><p>Deze en andere historische kaartlagen kunt u terug vinden in onze groepen&nbsp;<a style='color:rgb(0, 121, 193); font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-decoration-line:none;' target='_blank' href='https://esrinl-content.maps.arcgis.com/home/group.html?owner=Esri_NL_Content&amp;title=Historische%20kaarten' rel='nofollow ugc noopener noreferrer'>Historische kaarten</a>.</p><p>Deze kaartlaag wordt aangeboden vanuit Esri Nederland Content. Esri Nederland Content biedt landsdekkende data en services aan die gebruikt kunnen worden binnen ArcGIS. Het content-team actualiseert het aanbod en voegt geregeld nieuwe content toe. Door content van Esri Nederland te combineren met andere gegevens creëert u snel en eenvoudig nieuwe informatieproducten. Meer informatie over het content aanbod is te vinden via:&nbsp;<a target='_blank' href='https://esri.nl/content' rel='nofollow ugc noopener noreferrer'>esri.nl/content</a>. Heeft u vragen of opmerkingen dan horen wij dat graag via&nbsp;<a href='mailto:content@esri.nl' rel='nofollow ugc'>content@esri.nl</a>.&nbsp;Blijf op de hoogte van het laatste content-nieuws via de <a target='_blank' href='https://esri.nl/contenthub' rel='nofollow ugc noopener noreferrer'>Esri Nederland Content Hub</a>.</p></div>",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "Netherlands",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "1:12.288.000",
+      "title": "1:12.288.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Herziening_algemene_kaart_Nederland",
+      "title": "Herziening_algemene_kaart_Nederland",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "Uri"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Start_Time",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start_Time"
+        },
+        {
+          "name": "End_Time",
+          "type": "esriFieldTypeInteger",
+          "alias": "End_Time"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "1:6.144.000",
+      "title": "1:6.144.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Herziening_algemene_kaart_Nederland",
+      "title": "Herziening_algemene_kaart_Nederland",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "Uri"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Start_Time",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start_Time"
+        },
+        {
+          "name": "End_Time",
+          "type": "esriFieldTypeInteger",
+          "alias": "End_Time"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "1:3.072.000",
+      "title": "1:3.072.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Herziening_algemene_kaart_Nederland",
+      "title": "Herziening_algemene_kaart_Nederland",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "Uri"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Start_Time",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start_Time"
+        },
+        {
+          "name": "End_Time",
+          "type": "esriFieldTypeInteger",
+          "alias": "End_Time"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "1:1.536.000",
+      "title": "1:1.536.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Herziening_algemene_kaart_Nederland",
+      "title": "Herziening_algemene_kaart_Nederland",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "1:768.000",
+      "title": "1:768.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Herziening_algemene_kaart_Nederland",
+      "title": "Herziening_algemene_kaart_Nederland",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "1:384.000",
+      "title": "1:384.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Herziening_algemene_kaart_Nederland",
+      "title": "Herziening_algemene_kaart_Nederland",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "1:192.000",
+      "title": "1:192.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Herziening_algemene_kaart_Nederland",
+      "title": "Herziening_algemene_kaart_Nederland",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "1:96.000",
+      "title": "1:96.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Tranchot",
+      "title": "Tranchot",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Nettekeningen",
+      "title": "Nettekeningen",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "1:48.000",
+      "title": "1:48.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Tranchot",
+      "title": "Tranchot",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Nettekeningen",
+      "title": "Nettekeningen",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "1:24.000",
+      "title": "1:24.000",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "Tranchot",
+      "title": "Tranchot",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Nettekeningen",
+      "title": "Nettekeningen",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:28992"
+  ],
+  "cors_enabled": true,
+  "response_ms": 368,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

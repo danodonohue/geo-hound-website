@@ -1,0 +1,674 @@
+{
+  "slug": "maps-gdc-govt-nz-uniplan-coastal-management-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_coastal_management_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_coastal_management_ext/MapServer",
+  "title": "uniplan_coastal_management_ext",
+  "description": "Coastal management areas, marine conservation values and outstanding landscapes for Gisborne.",
+  "abstract": "Coastal Management layers for the Tairawhiti Resource Management Plan of the Gisborne Distrcit Council",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "marine",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Coastal Management",
+      "title": "Coastal Management",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Coastal Marine Area Boundary",
+      "title": "Coastal Marine Area Boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FNODE_"
+        },
+        {
+          "name": "TNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "TNODE_"
+        },
+        {
+          "name": "LPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LPOLY_"
+        },
+        {
+          "name": "RPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RPOLY_"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "CMABDY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "CMABDY_"
+        },
+        {
+          "name": "CMABDY_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CMABDY_ID"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Coastal Environment Overlay (Land)",
+      "title": "Coastal Environment Overlay (Land)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "CENVTOPO_",
+          "type": "esriFieldTypeInteger",
+          "alias": "CENVTOPO_"
+        },
+        {
+          "name": "CENVTOPO_I",
+          "type": "esriFieldTypeInteger",
+          "alias": "CENVTOPO_I"
+        },
+        {
+          "name": "MA_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "MA_TYPE"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Marine Outfall",
+      "title": "Marine Outfall",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FNODE_"
+        },
+        {
+          "name": "TNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "TNODE_"
+        },
+        {
+          "name": "LPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LPOLY_"
+        },
+        {
+          "name": "RPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RPOLY_"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "OUTFALL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "OUTFALL_"
+        },
+        {
+          "name": "OUTFALL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OUTFALL_ID"
+        },
+        {
+          "name": "DESC_",
+          "type": "esriFieldTypeString",
+          "alias": "DESC_"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Specific Activity Area - Jet Ski",
+      "title": "Specific Activity Area - Jet Ski",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "JETSKI_",
+          "type": "esriFieldTypeInteger",
+          "alias": "JETSKI_"
+        },
+        {
+          "name": "JETSKI_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "JETSKI_ID"
+        },
+        {
+          "name": "INSIDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "INSIDE"
+        },
+        {
+          "name": "REGS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "REGS"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Coastal Environment Management Areas",
+      "title": "Coastal Environment Management Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "COAST_",
+          "type": "esriFieldTypeInteger",
+          "alias": "COAST_"
+        },
+        {
+          "name": "COAST_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "COAST_ID"
+        },
+        {
+          "name": "MA_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "MA_TYPE"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "text",
+          "type": "esriFieldTypeString",
+          "alias": "text"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Marine Areas of Significant Conservation Value",
+      "title": "Marine Areas of Significant Conservation Value",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "MASCV_",
+          "type": "esriFieldTypeInteger",
+          "alias": "MASCV_"
+        },
+        {
+          "name": "MASCV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "MASCV_ID"
+        },
+        {
+          "name": "MASCV_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "MASCV_NAME"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Terrestrial Areas of Significant Conservation",
+      "title": "Terrestrial Areas of Significant Conservation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "PNA_",
+          "type": "esriFieldTypeInteger",
+          "alias": "PNA_"
+        },
+        {
+          "name": "PNA_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PNA_ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "NUM",
+          "type": "esriFieldTypeString",
+          "alias": "NUM"
+        },
+        {
+          "name": "RAP_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RAP_"
+        },
+        {
+          "name": "RAP_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RAP_ID"
+        },
+        {
+          "name": "TASCV_",
+          "type": "esriFieldTypeInteger",
+          "alias": "TASCV_"
+        },
+        {
+          "name": "TASCV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "TASCV_ID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Outstanding Landscapes",
+      "title": "Outstanding Landscapes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "LAND_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LAND_"
+        },
+        {
+          "name": "LAND_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LAND_ID"
+        },
+        {
+          "name": "LAND_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_NAME"
+        },
+        {
+          "name": "LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_TYPE"
+        },
+        {
+          "name": "LAND_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_NUM"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "WHICHMAPS",
+          "type": "esriFieldTypeString",
+          "alias": "WHICHMAPS"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Water Classification Zones",
+      "title": "Water Classification Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "WCLASS_ZON",
+          "type": "esriFieldTypeDouble",
+          "alias": "WCLASS_ZON"
+        },
+        {
+          "name": "WCLASS_Z_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "WCLASS_Z_1"
+        },
+        {
+          "name": "WATER_CLAS",
+          "type": "esriFieldTypeString",
+          "alias": "WATER_CLAS"
+        },
+        {
+          "name": "INSIDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "INSIDE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 64,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

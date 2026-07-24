@@ -1,0 +1,249 @@
+{
+  "slug": "cfs-geohub-sa-gov-au-esosql01-gis-outputs-arcgis-portal-data-servi-featureserver",
+  "service_key": "ESRI FeatureServer:https://cfs.geohub.sa.gov.au/server/rest/services/CFS_Custodial_Read/BMAP_Assets/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://cfs.geohub.sa.gov.au/server/rest/services/CFS_Custodial_Read/BMAP_Assets/FeatureServer",
+  "title": "\\\\Esosql01\\gis\\outputs-arcgis\\PORTAL\\Data_Services\\Read\\BMPU\\data_services_BMAP_Assets.aprx",
+  "description": "Assets at risk of bushfire with risk rating and management treatments.",
+  "abstract": "<div><p><span style='background-color:rgb(255, 255, 255);'>BMAP Assets are assets at risk of bushfire, as identified in South Australia's nine Bushfire Management Area Plans (BMAPs). Each BMAP asset is assigned a risk rating of either low, medium, high, very high, or extreme. Assets may be assigned risk reduction treatments to reduce their level of risk. Where risk reduction treatments are assigned, the agency or agencies responsible for the treatment are also specified. BMAP Assets are captured in three datasets: BMAP Asset Points, BMAP Asset Lines, and BMAP Asset Polygons. This allows assets to be represented as either points (for example, a communication tower) lines (for example, a pipeline) or polygons (for example, an area of houses located at an urban/rural fringe). Assets are broadly categorised according to their value as either a &quot;Human Settlement&quot;, &quot;Economic Value&quot;, or &quot;Social Value&quot; asset. This is referred to as the &quot;Asset Type&quot;. There is one other Asset Type, &quot;Environmental&quot;, however due to the very large number of environmental assets, those assets are stored in a separate dataset named <a href='http://www.location.sa.gov.au/LMS/Reports/ReportMetadata.aspx?p_no=2252' target='_blank'>BMAP Environmental Assets</a>. BMAPs are defined in Section 73A of the <a href='https://www.legislation.sa.gov.au/LZ/C/A/Fire and Emergency Services Act 2005.aspx' target='_blank'>Fire and Emergency Services Act 2005</a>. BMAPs can be viewed on the <a href='https://www.cfs.sa.gov.au/prepare-for-a-fire/bushfire-management-planning/bushfire-management-area-plans/' target='_blank'>Bushfire Management Area Plans</a> page on the CFS website. Further information is available on the <a href='https://www.cfs.sa.gov.au/prepare-for-a-fire/bushfire-management-planning/' target='_blank'>Bushfire Management Planning</a> page on the CFS website.</span></p><p><span style='background-color:rgb(255, 255, 255);'><b>LMS </b><b>Metadata:</b></span></p><div style='font-family:inherit; font-size:16px;'>BMAP Asset Points: <a href='http://www.location.sa.gov.au/LMS/Reports/ReportMetadata.aspx?p_no=2369' style='color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;' target='_blank'>http://www.location.sa.gov.au/LMS/Reports/ReportMetadata.aspx?p_no=2369</a></div><div style='font-family:inherit; font-size:16px;'>BMAP Asset Lines: <a href='http://www.location.sa.gov.au/LMS/Reports/ReportMetadata.aspx?p_no=2370' style='color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;' target='_blank'>http://www.location.sa.gov.au/LMS/Reports/ReportMetadata.aspx?p_no=2370</a></div><div style='font-family:inherit; font-size:16px;'>BMAP Asset Polygons: <a href='http://www.location.sa.gov.au/LMS/Reports/ReportMetadata.aspx?p_no=2371' style='color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;' target='_blank'>http://www.location.sa.gov.au/LMS/Reports/ReportMetadata.aspx?p_no=2371</a></div><div style='font-family:inherit; font-size:16px;'><br /></div><p style='margin-top:0px; margin-bottom:11px;'><span style='background-color:rgb(255, 255, 255);'><b><span>Spatial Reference</span>: </b>South Australia Lambert (GDA 2020); <span>EPSG</span>: 8059</span></p></div>",
+  "provider": "cfs.geohub.sa.gov.au",
+  "place": {
+    "country": "Australia",
+    "state": "South Australia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "BMAP Asset Points",
+      "title": "BMAP Asset Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "assetid",
+          "type": "esriFieldTypeString",
+          "alias": "Asset ID"
+        },
+        {
+          "name": "assetname",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Name"
+        },
+        {
+          "name": "assetlocation",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "councilarea",
+          "type": "esriFieldTypeString",
+          "alias": "Council Area"
+        },
+        {
+          "name": "bmparea",
+          "type": "esriFieldTypeString",
+          "alias": "Bushfire Management Area"
+        },
+        {
+          "name": "assettype",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Type"
+        },
+        {
+          "name": "assetcategory",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Category"
+        },
+        {
+          "name": "assetsubcategory",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Sub Category"
+        },
+        {
+          "name": "assetowner",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Owner"
+        },
+        {
+          "name": "risk",
+          "type": "esriFieldTypeString",
+          "alias": "Risk"
+        },
+        {
+          "name": "representswiderarea",
+          "type": "esriFieldTypeInteger",
+          "alias": "Represents Wider Area"
+        }
+      ],
+      "feature_count": 7020
+    },
+    {
+      "id": 2,
+      "name": "BMAP Asset Lines",
+      "title": "BMAP Asset Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "object"
+        },
+        {
+          "name": "assetid",
+          "type": "esriFieldTypeString",
+          "alias": "Asset ID"
+        },
+        {
+          "name": "assetname",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Name"
+        },
+        {
+          "name": "assetlocation",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "councilarea",
+          "type": "esriFieldTypeString",
+          "alias": "Council Area"
+        },
+        {
+          "name": "bmparea",
+          "type": "esriFieldTypeString",
+          "alias": "Bushfire Management Area"
+        },
+        {
+          "name": "assettype",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Type"
+        },
+        {
+          "name": "assetcategory",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Category"
+        },
+        {
+          "name": "assetsubcategory",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Sub Category"
+        },
+        {
+          "name": "assetowner",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Owner"
+        },
+        {
+          "name": "risk",
+          "type": "esriFieldTypeString",
+          "alias": "Risk"
+        },
+        {
+          "name": "representswiderarea",
+          "type": "esriFieldTypeInteger",
+          "alias": "Represents Wider Area"
+        }
+      ],
+      "feature_count": 165
+    },
+    {
+      "id": 3,
+      "name": "BMAP Asset Polygons",
+      "title": "BMAP Asset Polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "assetid",
+          "type": "esriFieldTypeString",
+          "alias": "Asset ID"
+        },
+        {
+          "name": "assetname",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Name"
+        },
+        {
+          "name": "assetlocation",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "councilarea",
+          "type": "esriFieldTypeString",
+          "alias": "Council Area"
+        },
+        {
+          "name": "bmparea",
+          "type": "esriFieldTypeString",
+          "alias": "Bushfire Management Area"
+        },
+        {
+          "name": "assettype",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Type"
+        },
+        {
+          "name": "assetcategory",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Category"
+        },
+        {
+          "name": "assetsubcategory",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Sub Category"
+        },
+        {
+          "name": "assetowner",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Owner"
+        },
+        {
+          "name": "risk",
+          "type": "esriFieldTypeString",
+          "alias": "Risk"
+        },
+        {
+          "name": "representswiderarea",
+          "type": "esriFieldTypeInteger",
+          "alias": "Represents Wider Area"
+        }
+      ],
+      "feature_count": 1664
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:8059"
+  ],
+  "cors_enabled": true,
+  "response_ms": 279,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "slug": "the-appropriate-district-council-where-available-land-and-property-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Public/Property/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Property/MapServer",
+  "title": "Land and Property",
+  "description": "GIS service providing parcels, planning data.",
+  "abstract": "This map contains layers that relate to land parcel property information, including features like:\nDistrict council boundaries\nDistrict council valuation and internet links to rates information from the appropriate District Council (where available)\nDistrict planning zones\nAir quality zones\nSchool enrollment zones \nWater utilities information for water supply, waste water, and storm water (where available)\nCanterbury Water Management Strategy zones",
+  "provider": "the appropriate District Council (where available)",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Water Point",
+      "title": "Water Point",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "FEATURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_TYPE"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "FEATURE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_ACCURACY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Feedback",
+          "type": "esriFieldTypeString",
+          "alias": "Feedback"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Water Supply",
+      "title": "Water Supply",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "NOMINAL_DIAMETER",
+          "type": "esriFieldTypeString",
+          "alias": "NOMINAL_DIAMETER"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "FEATURE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_ACCURACY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Feedback",
+          "type": "esriFieldTypeString",
+          "alias": "Feedback"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Storm Water",
+      "title": "Storm Water",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "NOMINAL_DIAMETER",
+          "type": "esriFieldTypeString",
+          "alias": "NOMINAL_DIAMETER"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "FEATURE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_ACCURACY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Feedback",
+          "type": "esriFieldTypeString",
+          "alias": "Feedback"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Waste Water",
+      "title": "Waste Water",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "NOMINAL_DIAMETER",
+          "type": "esriFieldTypeString",
+          "alias": "NOMINAL_DIAMETER"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "FEATURE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_ACCURACY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Feedback",
+          "type": "esriFieldTypeString",
+          "alias": "Feedback"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Water Utility Layer Notes",
+      "title": "Water Utility Layer Notes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TA",
+          "type": "esriFieldTypeString",
+          "alias": "TA"
+        },
+        {
+          "name": "TA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TA_NAME"
+        },
+        {
+          "name": "WATER_UTILITY_NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "WATER_UTILITY_NOTES"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Clean Air Zones",
+      "title": "Clean Air Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZONE"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "District Planning Zones",
+      "title": "District Planning Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ZONE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_CODE"
+        },
+        {
+          "name": "ZONE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_DESCRIPTION"
+        },
+        {
+          "name": "ZONE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_TYPE"
+        },
+        {
+          "name": "PLAN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLAN_NAME"
+        },
+        {
+          "name": "DATE_PLAN_NOTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_PLAN_NOTIFIED"
+        },
+        {
+          "name": "DATE_PLAN_OPERATIVE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_PLAN_OPERATIVE"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "FEATURE_ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_ACCURACY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Feedback",
+          "type": "esriFieldTypeString",
+          "alias": "Feedback"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "School Enrolment Zones",
+      "title": "School Enrolment Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TELEPHONE",
+          "type": "esriFieldTypeString",
+          "alias": "TELEPHONE"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "EMAIL"
+        },
+        {
+          "name": "SCHOOL_WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_WEBSITE"
+        },
+        {
+          "name": "STREET",
+          "type": "esriFieldTypeString",
+          "alias": "STREET"
+        },
+        {
+          "name": "SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "SUBURB"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "SCHOOL_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_TYPE"
+        },
+        {
+          "name": "GENDER_OF_STUDENTS",
+          "type": "esriFieldTypeString",
+          "alias": "GENDER_OF_STUDENTS"
+        },
+        {
+          "name": "DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "DECILE"
+        },
+        {
+          "name": "TOTAL_SCHOOL_ROLL",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOTAL_SCHOOL_ROLL"
+        },
+        {
+          "name": "APPROVAL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "APPROVAL_DATE"
+        },
+        {
+          "name": "EFFECTIVE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EFFECTIVE_DATE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Canterbury Water Management Strategy Zones",
+      "title": "Canterbury Water Management Strategy Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Zone_Name"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "ZONE_CODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ZONE_CODE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SpatialUnitID",
+          "type": "esriFieldTypeString",
+          "alias": "SpatialUnitID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Green Zone, Technical Category 1, grey",
+      "title": "Green Zone, Technical Category 1, grey",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Green Zone, Technical Category 2, yellow",
+      "title": "Green Zone, Technical Category 2, yellow",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Green Zone, Technical Category 3, blue",
+      "title": "Green Zone, Technical Category 3, blue",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Red Zone",
+      "title": "Red Zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "N/A - Port Hills & Banks Peninsula",
+      "title": "N/A - Port Hills & Banks Peninsula",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "N/A - Rural & Unmapped",
+      "title": "N/A - Rural & Unmapped",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "DBH_TC"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "N/A - Urban Nonresidential",
+      "title": "N/A - Urban Nonresidential",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 22,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

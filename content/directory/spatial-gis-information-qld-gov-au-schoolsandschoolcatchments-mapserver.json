@@ -1,0 +1,522 @@
+{
+  "slug": "spatial-gis-information-qld-gov-au-schoolsandschoolcatchments-mapserver",
+  "service_key": "ESRI MapServer:https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Society/SchoolsAndSchoolCatchments/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Society/SchoolsAndSchoolCatchments/MapServer",
+  "title": "SchoolsAndSchoolCatchments",
+  "description": "Queensland state and non-state schools with associated school catchment boundaries.",
+  "abstract": "This service displays the location of Queensland state and non-state schools\nand Queensland state school catchment boundaries. The source data has been\nobtained through [Queensland Government data portal\n](https://data.qld.gov.au/dataset/queensland-state-schools-geographic-\ninformation)(https://data.qld.gov.au/dataset/queensland-state-schools-\ngeographic-information) and the [Non-State Schools Accreditation Board\n](http://www.nssab.qld.edu.au/)(http://www.nssab.qld.edu.au/).\n\nThe latitude and longitude values in these layers have not been independently\nverified for positional accuracy. Users are advised to interpret and use the\ndata with appropriate caution. If you identify any errors or discrepancies in\nthe spatial accuracy, please report them to govstat@treasury.qld.gov.au for\nstate school data, or the Non-State Schools Accreditation Board (NSSAB) at:\nnssab.admin@qed.qld.gov.au for non-state school data.\n\nThis service provides access to the following spatial datasets:\n\n  * _Primary state schools_ (det.primary_ste_schools)\n  * _Junior secondary state schools_ (det.junior_secndry_ste_schools)\n  * _Senior secondary state schools_ (det.senior_secndry_ste_schools)\n  * _Miscellaneous secondary state schools_ (det.misc_secndry_ste_schools)\n  * _Special state schools_ (det.special_ste_schools)\n  * _Non-government schools_ (det.non_govt_schools)\n  * _Primary state school catchments_ (det.primary_ctchmnt)\n  * _Junior secondary school catchments_ (det.junior_secndry_ctchmnt)\n  * _Senior secondary state school catchments_ (det.senior_secndry_ctchmnt)\n\n",
+  "provider": "spatial-gis.information.qld.gov.au",
+  "place": {
+    "country": "Australia",
+    "state": "Queensland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 4,
+      "name": "Primary state schools",
+      "title": "Primary state schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Junior secondary state schools",
+      "title": "Junior secondary state schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Senior secondary state schools",
+      "title": "Senior secondary state schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Miscellaneous secondary state schools",
+      "title": "Miscellaneous secondary state schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre_name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre_code"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Special state schools",
+      "title": "Special state schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Non-government schools",
+      "title": "Non-government schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "postcode",
+          "type": "esriFieldTypeDouble",
+          "alias": "Postcode"
+        },
+        {
+          "name": "dete_region",
+          "type": "esriFieldTypeString",
+          "alias": "DETE Region"
+        },
+        {
+          "name": "lga",
+          "type": "esriFieldTypeString",
+          "alias": "Local Government Area"
+        },
+        {
+          "name": "location_status",
+          "type": "esriFieldTypeString",
+          "alias": "Location status"
+        },
+        {
+          "name": "school_status",
+          "type": "esriFieldTypeString",
+          "alias": "School status"
+        },
+        {
+          "name": "main_site_centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Main site centre code"
+        },
+        {
+          "name": "type_of_education",
+          "type": "esriFieldTypeString",
+          "alias": "Type of education"
+        },
+        {
+          "name": "year_levels_accredited",
+          "type": "esriFieldTypeString",
+          "alias": "Year levels accredited"
+        },
+        {
+          "name": "site_type",
+          "type": "esriFieldTypeString",
+          "alias": "Site type"
+        },
+        {
+          "name": "name_of_school_governing_body",
+          "type": "esriFieldTypeString",
+          "alias": "School governing body"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Primary state school catchments",
+      "title": "Primary state school catchments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Junior secondary school catchments",
+      "title": "Junior secondary school catchments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Senior secondary state school catchments",
+      "title": "Senior secondary state school catchments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "centre_name",
+          "type": "esriFieldTypeString",
+          "alias": "Centre name"
+        },
+        {
+          "name": "centre_code",
+          "type": "esriFieldTypeString",
+          "alias": "Centre code"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "data_currency",
+          "type": "esriFieldTypeString",
+          "alias": "Data currency"
+        },
+        {
+          "name": "disclaimer",
+          "type": "esriFieldTypeString",
+          "alias": "Disclaimer"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 260,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

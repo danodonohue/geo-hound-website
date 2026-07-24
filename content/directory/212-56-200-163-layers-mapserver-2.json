@@ -1,0 +1,1112 @@
+{
+  "slug": "212-56-200-163-layers-mapserver-2",
+  "service_key": "ESRI MapServer:http://212.56.200.163:6080/arcgis/rest/services/munChisinau_map_new/MapServer",
+  "type": "ESRI MapServer",
+  "url": "http://212.56.200.163:6080/arcgis/rest/services/munChisinau_map_new/MapServer",
+  "title": "Layers",
+  "description": "Chisinau municipal data including buildings, roads, parcels, water bodies and land use.",
+  "abstract": "030412",
+  "provider": "212.56.200.163",
+  "place": {
+    "country": "Moldova",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "OSM",
+      "title": "OSM",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "osm_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "osm_id"
+        },
+        {
+          "name": "timestamp",
+          "type": "esriFieldTypeString",
+          "alias": "timestamp"
+        },
+        {
+          "name": "poi_type",
+          "type": "esriFieldTypeInteger",
+          "alias": "poi_type"
+        },
+        {
+          "name": "poi_name",
+          "type": "esriFieldTypeString",
+          "alias": "poi_name"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Zone_responsible",
+      "title": "Zone_responsible",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Responsible",
+          "type": "esriFieldTypeString",
+          "alias": "Responsible"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raion_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_ID"
+        },
+        {
+          "name": "Raion_name",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name"
+        },
+        {
+          "name": "Raion_name_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name_ro"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Здания",
+      "title": "Здания",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CodCadastral",
+          "type": "esriFieldTypeString",
+          "alias": "CodCadastral"
+        },
+        {
+          "name": "CodTip",
+          "type": "esriFieldTypeInteger",
+          "alias": "CodTip"
+        },
+        {
+          "name": "CodStr",
+          "type": "esriFieldTypeDouble",
+          "alias": "CodStr"
+        },
+        {
+          "name": "NrCasa",
+          "type": "esriFieldTypeString",
+          "alias": "NrCasa"
+        },
+        {
+          "name": "Litera",
+          "type": "esriFieldTypeString",
+          "alias": "Litera"
+        },
+        {
+          "name": "CodNrRemarc",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CodNrRemarc"
+        },
+        {
+          "name": "DestFunc",
+          "type": "esriFieldTypeString",
+          "alias": "DestFunc"
+        },
+        {
+          "name": "CodColect",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CodColect"
+        },
+        {
+          "name": "CodAdm",
+          "type": "esriFieldTypeString",
+          "alias": "CodAdm"
+        },
+        {
+          "name": "DatModif",
+          "type": "esriFieldTypeDate",
+          "alias": "DatModif"
+        },
+        {
+          "name": "Timp",
+          "type": "esriFieldTypeString",
+          "alias": "Timp"
+        },
+        {
+          "name": "Localitate",
+          "type": "esriFieldTypeString",
+          "alias": "Localitate"
+        },
+        {
+          "name": "NameStr",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr"
+        },
+        {
+          "name": "NameStr_ro",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr_ro"
+        },
+        {
+          "name": "Localitate_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Localitate_ro"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Address_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Address_ro"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "CodAdm1",
+          "type": "esriFieldTypeString",
+          "alias": "CodAdm1"
+        },
+        {
+          "name": "Sigaz_address",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sigaz_address"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Жедезная дорога",
+      "title": "Жедезная дорога",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Cod_Type",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Cod_Type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Дороги",
+      "title": "Дороги",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ONEWAY",
+          "type": "esriFieldTypeString",
+          "alias": "ONEWAY"
+        },
+        {
+          "name": "LANES",
+          "type": "esriFieldTypeDouble",
+          "alias": "LANES"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Улицы",
+      "title": "Улицы",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CodAdm",
+          "type": "esriFieldTypeString",
+          "alias": "CodAdm"
+        },
+        {
+          "name": "CodStr",
+          "type": "esriFieldTypeDouble",
+          "alias": "CodStr"
+        },
+        {
+          "name": "CodColect",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CodColect"
+        },
+        {
+          "name": "SegmentID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SegmentID"
+        },
+        {
+          "name": "Localitate",
+          "type": "esriFieldTypeString",
+          "alias": "Localitate"
+        },
+        {
+          "name": "NameStr",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr"
+        },
+        {
+          "name": "NameStr_ro",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr_ro"
+        },
+        {
+          "name": "main",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "main"
+        },
+        {
+          "name": "Localitate_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Localitate_ro"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NameStr_old",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr_old"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "Raion_name",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name"
+        },
+        {
+          "name": "Raion_name_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name_ro"
+        },
+        {
+          "name": "Raion_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Sector",
+          "type": "esriFieldTypeString",
+          "alias": "Sector"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Улицы",
+      "title": "Улицы",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CodAdm",
+          "type": "esriFieldTypeString",
+          "alias": "CodAdm"
+        },
+        {
+          "name": "CodStr",
+          "type": "esriFieldTypeDouble",
+          "alias": "CodStr"
+        },
+        {
+          "name": "CodColect",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CodColect"
+        },
+        {
+          "name": "SegmentID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SegmentID"
+        },
+        {
+          "name": "Localitate",
+          "type": "esriFieldTypeString",
+          "alias": "Localitate"
+        },
+        {
+          "name": "NameStr",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr"
+        },
+        {
+          "name": "NameStr_ro",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr_ro"
+        },
+        {
+          "name": "main",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "main"
+        },
+        {
+          "name": "Localitate_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Localitate_ro"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NameStr_old",
+          "type": "esriFieldTypeString",
+          "alias": "NameStr_old"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "Raion_name",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name"
+        },
+        {
+          "name": "Raion_name_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name_ro"
+        },
+        {
+          "name": "Raion_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Sector",
+          "type": "esriFieldTypeString",
+          "alias": "Sector"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Земельные участки",
+      "title": "Земельные участки",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "CodCadastr",
+          "type": "esriFieldTypeString",
+          "alias": "CodCadastr"
+        },
+        {
+          "name": "CodTip",
+          "type": "esriFieldTypeInteger",
+          "alias": "CodTip"
+        },
+        {
+          "name": "CodStr",
+          "type": "esriFieldTypeDouble",
+          "alias": "CodStr"
+        },
+        {
+          "name": "NrCasa",
+          "type": "esriFieldTypeString",
+          "alias": "NrCasa"
+        },
+        {
+          "name": "CodNrRemar",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CodNrRemar"
+        },
+        {
+          "name": "CodTipRegi",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CodTipRegi"
+        },
+        {
+          "name": "CodColect",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CodColect"
+        },
+        {
+          "name": "Suprafata",
+          "type": "esriFieldTypeDouble",
+          "alias": "Suprafata"
+        },
+        {
+          "name": "CodAdm",
+          "type": "esriFieldTypeString",
+          "alias": "CodAdm"
+        },
+        {
+          "name": "DatModif",
+          "type": "esriFieldTypeString",
+          "alias": "DatModif"
+        },
+        {
+          "name": "Timp",
+          "type": "esriFieldTypeString",
+          "alias": "Timp"
+        },
+        {
+          "name": "Aria_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Aria_ha"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Водоемы",
+      "title": "Водоемы",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Леса/Парки",
+      "title": "Леса/Парки",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Населенные пункты",
+      "title": "Населенные пункты",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "LocalitateTip",
+          "type": "esriFieldTypeString",
+          "alias": "LocalitateTip"
+        },
+        {
+          "name": "Comuna_name",
+          "type": "esriFieldTypeString",
+          "alias": "Comuna_name"
+        },
+        {
+          "name": "CodAdm",
+          "type": "esriFieldTypeString",
+          "alias": "CodAdm"
+        },
+        {
+          "name": "Responsible",
+          "type": "esriFieldTypeString",
+          "alias": "Responsible"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raion_name",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name"
+        },
+        {
+          "name": "Raion_name_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_name_ro"
+        },
+        {
+          "name": "Raion_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Raion_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Name_ro",
+          "type": "esriFieldTypeString",
+          "alias": "Name_ro"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Chisinau_gaz_gis_updated.DBO.Carosabila",
+      "title": "Chisinau_gaz_gis_updated.DBO.Carosabila",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [],
+  "cors_enabled": true,
+  "response_ms": 649,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

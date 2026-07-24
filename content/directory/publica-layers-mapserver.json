@@ -1,0 +1,105 @@
+{
+  "slug": "publica-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Cultural_Spaces/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Cultural_Spaces/MapServer",
+  "title": "Layers",
+  "description": "Cultural facilities including museums, galleries and creative workspaces.",
+  "abstract": "The City of London contains a range of cultural and visitor facilities, including:\n\n\n-Cultural consumption; a range of facilities to attract businesses and visitors, such as museums, libraries and conference venues;\n\n\n-Cultural production; creative workspaces related to the arts and broadcast media; and\n\n\n-Leisure and visitors; community and visitor facilities such as ‘competitive socialising’ and public houses with heritage value.\n\n\nThe data was collated primarily using information supplied by Publica, and details from past and current planning permissions.\n ",
+  "provider": "Publica",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Cultural Spaces",
+      "title": "Cultural Spaces",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "MAIN_USE_CULT_CONS",
+          "type": "esriFieldTypeString",
+          "alias": "MAIN_USE_CULT_CONSUMPTION"
+        },
+        {
+          "name": "MAIN_USE_CULT_PROD",
+          "type": "esriFieldTypeString",
+          "alias": "MAIN_USE_CULT_PRODUCTION"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "MAIN_USE_LEISURE",
+          "type": "esriFieldTypeString",
+          "alias": "MAIN_USE_LEISURE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 295,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "gis-geo-census-gov-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://gis.geo.census.gov/arcgis/rest/services/RuralAmerica2018/Metro_Areas/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.geo.census.gov/arcgis/rest/services/RuralAmerica2018/Metro_Areas/MapServer",
+  "title": "Layers",
+  "description": "US Census metropolitan statistical area boundaries.",
+  "abstract": "national map of federal protected lands, urban areas and MSAs",
+  "provider": "gis.geo.census.gov",
+  "place": {
+    "country": "United States",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Metropolitan Statistical Area",
+      "title": "Metropolitan Statistical Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_12",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CSAFP",
+          "type": "esriFieldTypeString",
+          "alias": "CSAFP"
+        },
+        {
+          "name": "CBSAFP",
+          "type": "esriFieldTypeString",
+          "alias": "CBSAFP"
+        },
+        {
+          "name": "AFFGEOID",
+          "type": "esriFieldTypeString",
+          "alias": "AFFGEOID"
+        },
+        {
+          "name": "GEOID",
+          "type": "esriFieldTypeString",
+          "alias": "GEOID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "LSAD",
+          "type": "esriFieldTypeString",
+          "alias": "LSAD"
+        },
+        {
+          "name": "ALAND",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALAND"
+        },
+        {
+          "name": "AWATER",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWATER"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Le_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Le_1"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 222,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "map-services-hambleton-gov-uk-layers-mapserver",
+  "service_key": "ESRI MapServer:https://map-services.hambleton.gov.uk/arcgis/rest/services/AGOL/NYC_Watermark_2023/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://map-services.hambleton.gov.uk/arcgis/rest/services/AGOL/NYC_Watermark_2023/MapServer",
+  "title": "Layers",
+  "description": "Council administrative boundary watermark for mapping.",
+  "abstract": "Watermark for North Yorkshire Council",
+  "provider": "map-services.hambleton.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "North Yorkshire",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "GIS.DATAOWNER.NYC_Watermark",
+      "title": "GIS.DATAOWNER.NYC_Watermark",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 917,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

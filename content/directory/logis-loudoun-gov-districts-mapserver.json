@@ -1,0 +1,842 @@
+{
+  "slug": "logis-loudoun-gov-districts-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/Districts/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/Districts/MapServer",
+  "title": "Districts",
+  "description": "Special overlay districts including agriculture, historic, conservation, and quarry areas.",
+  "abstract": "Loudoun County, Virginia districts",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Ag Districts",
+      "title": "Ag Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AG_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "AG_DISTRICT"
+        },
+        {
+          "name": "AG_DIST_ACRE",
+          "type": "esriFieldTypeDouble",
+          "alias": "AG_DIST_ACRE"
+        },
+        {
+          "name": "AG_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "AG_UPD_DATE"
+        },
+        {
+          "name": "AG_MCPI",
+          "type": "esriFieldTypeString",
+          "alias": "AG_MCPI"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "AG_DISTRICT_FULL",
+          "type": "esriFieldTypeString",
+          "alias": "AG_DISTRICT_FULL"
+        },
+        {
+          "name": "AG_COVERAGE",
+          "type": "esriFieldTypeString",
+          "alias": "AG_COVERAGE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Airport Impact OD",
+      "title": "Airport Impact OD",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LD_NOISEZONE",
+          "type": "esriFieldTypeString",
+          "alias": "LD_NOISEZONE"
+        },
+        {
+          "name": "LD_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LD_LOCATION"
+        },
+        {
+          "name": "LD_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LD_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "LD_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LD_DESCRIPTION"
+        },
+        {
+          "name": "LD_DESCRIPTION_ORD",
+          "type": "esriFieldTypeString",
+          "alias": "LD_DESCRIPTION_ORD"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Spring Feature Protection",
+      "title": "Spring Feature Protection",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SP_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SP_UPD_DAT"
+        },
+        {
+          "name": "SP_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SP_TYPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Ridge Feature Protection",
+      "title": "Ridge Feature Protection",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RI_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "RI_TYPE"
+        },
+        {
+          "name": "RI_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RI_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Mountainside OD 1993",
+      "title": "Mountainside OD 1993",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MT_ELEV_VAL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MT_ELEV_VAL"
+        },
+        {
+          "name": "MT_FOREST_VAL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MT_FOREST_VAL"
+        },
+        {
+          "name": "MT_SOIL_VAL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MT_SOIL_VAL"
+        },
+        {
+          "name": "MT_MSIDE_VAL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Area Type"
+        },
+        {
+          "name": "MT_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MT_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Historic OD",
+      "title": "Historic OD",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HI_DIST_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "HI_DIST_NAME"
+        },
+        {
+          "name": "HI_SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "HI_SUBNAME"
+        },
+        {
+          "name": "HI_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "HI_UPD_DATE"
+        },
+        {
+          "name": "HI_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "HI_DESCRIPTION"
+        },
+        {
+          "name": "HI_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "HI_CATEGORY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Historic Districts - Towns",
+      "title": "Historic Districts - Towns",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HI_DIST_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "HI_DIST_NAME"
+        },
+        {
+          "name": "HI_SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "HI_SUBNAME"
+        },
+        {
+          "name": "HI_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "HI_UPD_DATE"
+        },
+        {
+          "name": "HI_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "HI_LOCATION"
+        },
+        {
+          "name": "HI_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "HI_DESCRIPTION"
+        },
+        {
+          "name": "HI_CONTACT",
+          "type": "esriFieldTypeString",
+          "alias": "HI_CONTACT"
+        },
+        {
+          "name": "HI_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "HI_PHONE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Quarry Notification OD",
+      "title": "Quarry Notification OD",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "QU_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "QU_NAME"
+        },
+        {
+          "name": "QU_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "QU_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Conservation Easements",
+      "title": "Conservation Easements",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CE_MCPI",
+          "type": "esriFieldTypeString",
+          "alias": "CE_MCPI"
+        },
+        {
+          "name": "CE_INSTRUMENT_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "CE_INSTRUMENT_NUMBER"
+        },
+        {
+          "name": "CE_CLASSIFICATION",
+          "type": "esriFieldTypeString",
+          "alias": "CE_CLASSIFICATION"
+        },
+        {
+          "name": "CE_RECORDATION_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CE_RECORDATION_DATE"
+        },
+        {
+          "name": "CE_HOLDER1",
+          "type": "esriFieldTypeString",
+          "alias": "CE_HOLDER1"
+        },
+        {
+          "name": "CE_HOLDER2",
+          "type": "esriFieldTypeString",
+          "alias": "CE_HOLDER2"
+        },
+        {
+          "name": "CE_GIS_ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "CE_GIS_ACRES"
+        },
+        {
+          "name": "CE_UPDATE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CE_UPDATE_DATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "CE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CE_TYPE"
+        },
+        {
+          "name": "CE_LMIS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CE_LMIS_CODE"
+        },
+        {
+          "name": "CE_ZONING_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CE_ZONING_TYPE"
+        },
+        {
+          "name": "CE_UPDATE_SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "CE_UPDATE_SOURCE"
+        },
+        {
+          "name": "CE_REVIEW",
+          "type": "esriFieldTypeString",
+          "alias": "CE_REVIEW"
+        },
+        {
+          "name": "CE_COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "CE_COMMENTS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Reservoir Protection Area",
+      "title": "Reservoir Protection Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "RP_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RP_UPD_DATE"
+        },
+        {
+          "name": "RP_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "RP_TYPE"
+        },
+        {
+          "name": "RP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "RP_NAME"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Rt 28 Tax District",
+      "title": "Rt 28 Tax District",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "RT_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RT_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Rt 28 Elected OD",
+      "title": "Rt 28 Elected OD",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RT_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "RT_MAINT_TASK_ID"
+        },
+        {
+          "name": "RT_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "RT_UPD_DATE"
+        },
+        {
+          "name": "RT_ELECTED_DIST",
+          "type": "esriFieldTypeString",
+          "alias": "RT_ELECTED_DIST"
+        },
+        {
+          "name": "RT_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "RT_PROJ_NUM"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "RT_INSTR_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "RT_INSTR_NUM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Rt 28 Optional OD (Legacy)",
+      "title": "Rt 28 Optional OD (Legacy)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RT_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "RT_MAINT_TASK_ID"
+        },
+        {
+          "name": "RT_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_UPD_DATE"
+        },
+        {
+          "name": "RT_OPTIONAL_DIST",
+          "type": "esriFieldTypeString",
+          "alias": "RT_OPTIONAL_DIST"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "RT_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "RT_PROJ_NUM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Village Conservation OD",
+      "title": "Village Conservation OD",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "VC_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "VC_DISTRICT"
+        },
+        {
+          "name": "VC_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "VC_PROJ_NUM"
+        },
+        {
+          "name": "VC_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "VC_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Steep Slope",
+      "title": "Steep Slope",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "ST_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ST_TYPE"
+        },
+        {
+          "name": "SO_SLOPE",
+          "type": "esriFieldTypeString",
+          "alias": "SO_SLOPE"
+        },
+        {
+          "name": "ST_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ST_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Subdivision Control Limits",
+      "title": "Subdivision Control Limits",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Limestone OD",
+      "title": "Limestone OD",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 221,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

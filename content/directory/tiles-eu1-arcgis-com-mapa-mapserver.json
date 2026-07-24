@@ -1,0 +1,56 @@
+{
+  "slug": "tiles-eu1-arcgis-com-mapa-mapserver",
+  "service_key": "ESRI MapServer:https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/CVC___Temperatura_m%C3%A1xima_promedio_anual/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/CVC___Temperatura_m%C3%A1xima_promedio_anual/MapServer",
+  "title": "Mapa",
+  "description": "Average annual maximum temperature data for Valles Calchaquies oasis.",
+  "abstract": "Obtención de una grilla completa de valores de Temperatura Máxima Promedio Anual (C°), para el Oasis Valles Calchaquíes de la provincia de Salta",
+  "provider": "tiles-eu1.arcgis.com",
+  "place": {
+    "country": "Argentina",
+    "state": "Salta",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "climate",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Valles Calchaquíes",
+      "title": "Valles Calchaquíes",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "CVC - Temperatura máxima promedio anual (°C)",
+      "title": "CVC - Temperatura máxima promedio anual (°C)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "Mixed"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 897,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

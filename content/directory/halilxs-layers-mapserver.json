@@ -1,0 +1,957 @@
+{
+  "slug": "halilxs-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Epping/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Epping/MapServer",
+  "title": "Layers",
+  "description": "Epping Forest trails and management zones for conservation access.",
+  "abstract": "Epping Forest data",
+  "provider": "halilxs",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "The Beech Trail",
+      "title": "The Beech Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "The Chestnut Trail",
+      "title": "The Chestnut Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "The Gifford Wood Trail",
+      "title": "The Gifford Wood Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "The Holly Trail",
+      "title": "The Holly Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "The Hornbeam Trail",
+      "title": "The Hornbeam Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "The Lime Trail",
+      "title": "The Lime Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "The Oak Trail",
+      "title": "The Oak Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "The Rowan Trail",
+      "title": "The Rowan Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "The Willow Trail",
+      "title": "The Willow Trail",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "COMMENT_",
+          "type": "esriFieldTypeString",
+          "alias": "Terrain"
+        },
+        {
+          "name": "TIME_TAKEN",
+          "type": "esriFieldTypeString",
+          "alias": "Time"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "Distance"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Compartments",
+      "title": "Compartments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "HECTARAGE",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARAGE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "KEY_LOCATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "KEY_LOCATIONS"
+        },
+        {
+          "name": "SUB_COMPARTMENTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUB_COMPARTMENTS"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "CREATED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED_USER"
+        },
+        {
+          "name": "CREATED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DATE_UTC_TIME"
+        },
+        {
+          "name": "LAST_EDITED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDITED_USER"
+        },
+        {
+          "name": "LAST_EDITED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDITED_DATE_UTC_TIME"
+        },
+        {
+          "name": "SSSI_UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "SSSI_UNIT"
+        },
+        {
+          "name": "COMP_ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Compartment ID"
+        },
+        {
+          "name": "COMP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Compartment Name"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Buffer compartments",
+      "title": "Buffer compartments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "COMP_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "COMP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "KEY_LOCATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "KEY_LOCATIONS"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CREATED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED_USER"
+        },
+        {
+          "name": "CREATED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DATE_UTC_TIME"
+        },
+        {
+          "name": "LAST_EDITED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDITED_USER"
+        },
+        {
+          "name": "LAST_EDITED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDITED_DATE_UTC_TIME"
+        },
+        {
+          "name": "COMP_ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Compartment ID"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "KPI Hectarage of land climate action management is in progress on",
+      "title": "KPI Hectarage of land climate action management is in progress on",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "COMPARTMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Compartment"
+        },
+        {
+          "name": "FIELD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Field Name"
+        },
+        {
+          "name": "ACTION_START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Action Start Date"
+        },
+        {
+          "name": "ACTION_TYPE_1",
+          "type": "esriFieldTypeString",
+          "alias": "Action Type 1"
+        },
+        {
+          "name": "ACTION_TYPE_2",
+          "type": "esriFieldTypeString",
+          "alias": "Action Type 2"
+        },
+        {
+          "name": "ACTION_TYPE_3",
+          "type": "esriFieldTypeString",
+          "alias": "Action Type 3"
+        },
+        {
+          "name": "ACTION_TYPE_4",
+          "type": "esriFieldTypeString",
+          "alias": "Action Type 4"
+        },
+        {
+          "name": "ACTION_TYPE_5",
+          "type": "esriFieldTypeString",
+          "alias": "Action Type 5"
+        },
+        {
+          "name": "PRE_PROJECT_HABITAT_ACTIVITY",
+          "type": "esriFieldTypeString",
+          "alias": "Pre-project habitat/activity"
+        },
+        {
+          "name": "PROJECT_ACTIVITY",
+          "type": "esriFieldTypeString",
+          "alias": "Project Activity"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "KPI Hectarage of land suitable for climate action",
+      "title": "KPI Hectarage of land suitable for climate action",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "COMPARTMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Compartment"
+        },
+        {
+          "name": "FIELD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Field Name"
+        },
+        {
+          "name": "DATE_IDENTIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Identified"
+        },
+        {
+          "name": "WHERE_IDENTIFIED",
+          "type": "esriFieldTypeString",
+          "alias": "Where Identified"
+        },
+        {
+          "name": "PRE_ACTION_HABITAT",
+          "type": "esriFieldTypeString",
+          "alias": "Pre-action habitat"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "KPI Hectarage of land with a plan for climate action",
+      "title": "KPI Hectarage of land with a plan for climate action",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "COMPARTMENT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Compartment"
+        },
+        {
+          "name": "FIELD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Field Name"
+        },
+        {
+          "name": "DATE_OF_PLAN",
+          "type": "esriFieldTypeDate",
+          "alias": "Date of Plan"
+        },
+        {
+          "name": "PLAN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Name"
+        },
+        {
+          "name": "PLAN_AIM",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Aim"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Cycle Racks",
+      "title": "Cycle Racks",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LOCATIONID",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATIONID"
+        },
+        {
+          "name": "SITE",
+          "type": "esriFieldTypeString",
+          "alias": "SITE"
+        },
+        {
+          "name": "BOROUGH",
+          "type": "esriFieldTypeString",
+          "alias": "BOROUGH"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "NUMBER_",
+          "type": "esriFieldTypeInteger",
+          "alias": "NUMBER_"
+        },
+        {
+          "name": "SPACES",
+          "type": "esriFieldTypeInteger",
+          "alias": "SPACES"
+        },
+        {
+          "name": "EASTING",
+          "type": "esriFieldTypeInteger",
+          "alias": "EASTING"
+        },
+        {
+          "name": "NORTHING",
+          "type": "esriFieldTypeInteger",
+          "alias": "NORTHING"
+        },
+        {
+          "name": "WHAT3WORDS",
+          "type": "esriFieldTypeString",
+          "alias": "WHAT3WORDS"
+        },
+        {
+          "name": "PHOTOS",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTOS"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CREATED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED_USER"
+        },
+        {
+          "name": "CREATED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DATE_UTC_TIME"
+        },
+        {
+          "name": "LAST_EDITED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDITED_USER"
+        },
+        {
+          "name": "LAST_EDITED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDITED_DATE_UTC_TIME"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Seats/Bench, No Plaque",
+      "title": "Seats/Bench, No Plaque",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Seats/Bench, With Plaque",
+      "title": "Seats/Bench, With Plaque",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Shared Use Trails",
+      "title": "Shared Use Trails",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Easy Access Paths",
+      "title": "Easy Access Paths",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 288,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

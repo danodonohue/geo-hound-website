@@ -1,0 +1,443 @@
+{
+  "slug": "http-www-education-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Public/Education/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Education/MapServer",
+  "title": "Education",
+  "description": "Public GIS service providing geographic data and mapping.",
+  "abstract": "School locations and their enrolment zones sourced from http://www.educationcounts.govt.nz/data-services/collecting-information/code_sets",
+  "provider": "http://www",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "School Restructure",
+      "title": "School Restructure",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "mergewith",
+          "type": "esriFieldTypeString",
+          "alias": "mergewith"
+        },
+        {
+          "name": "mergeto",
+          "type": "esriFieldTypeString",
+          "alias": "mergeto"
+        },
+        {
+          "name": "action_date",
+          "type": "esriFieldTypeString",
+          "alias": "action_date"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "GIS_HYDROLOGICALCATCHMENT",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_HYDROLOGICALCATCHMENT"
+        },
+        {
+          "name": "GIS_TACODE",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_TACODE"
+        },
+        {
+          "name": "GIS_RUNANGA",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_RUNANGA"
+        },
+        {
+          "name": "GIS_GWALLOCATIONZONE",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_GWALLOCATIONZONE"
+        },
+        {
+          "name": "GIS_SWALLOCATIONZONE",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_SWALLOCATIONZONE"
+        },
+        {
+          "name": "GIS_CLEANAIRZONE",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_CLEANAIRZONE"
+        },
+        {
+          "name": "GIS_SOEMANAGEMENTZONES",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_SOEMANAGEMENTZONES"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "School Restructure Merge",
+      "title": "School Restructure Merge",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "from"
+        },
+        {
+          "name": "destination",
+          "type": "esriFieldTypeString",
+          "alias": "to"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Schools",
+      "title": "Schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SCHOOL_WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_WEBSITE"
+        },
+        {
+          "name": "STREET",
+          "type": "esriFieldTypeString",
+          "alias": "STREET"
+        },
+        {
+          "name": "SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "SUBURB"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "SCHOOL_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_TYPE"
+        },
+        {
+          "name": "GENDER_OF_STUDENTS",
+          "type": "esriFieldTypeString",
+          "alias": "GENDER_OF_STUDENTS"
+        },
+        {
+          "name": "DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "DECILE"
+        },
+        {
+          "name": "TOTAL_SCHOOL_ROLL",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOTAL_SCHOOL_ROLL"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "School Enrolment Zones",
+      "title": "School Enrolment Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TELEPHONE",
+          "type": "esriFieldTypeString",
+          "alias": "TELEPHONE"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "EMAIL"
+        },
+        {
+          "name": "SCHOOL_WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_WEBSITE"
+        },
+        {
+          "name": "STREET",
+          "type": "esriFieldTypeString",
+          "alias": "STREET"
+        },
+        {
+          "name": "SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "SUBURB"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "SCHOOL_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_TYPE"
+        },
+        {
+          "name": "GENDER_OF_STUDENTS",
+          "type": "esriFieldTypeString",
+          "alias": "GENDER_OF_STUDENTS"
+        },
+        {
+          "name": "REGIONAL_COUNCIL",
+          "type": "esriFieldTypeString",
+          "alias": "REGIONAL_COUNCIL"
+        },
+        {
+          "name": "DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "DECILE"
+        },
+        {
+          "name": "TOTAL_SCHOOL_ROLL",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOTAL_SCHOOL_ROLL"
+        },
+        {
+          "name": "APPROVAL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "APPROVAL_DATE"
+        },
+        {
+          "name": "EFFECTIVE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EFFECTIVE_DATE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 19,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.9,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

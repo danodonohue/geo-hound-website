@@ -1,0 +1,85 @@
+{
+  "slug": "maps2-bristol-gov-uk-layers-mapserver-13",
+  "service_key": "ESRI MapServer:https://maps2.bristol.gov.uk/server1/rest/services/base/1840_enclosures_post/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.bristol.gov.uk/server1/rest/services/base/1840_enclosures_post/MapServer",
+  "title": "Layers",
+  "description": "Historical field boundary enclosures from after 1840 period.",
+  "abstract": "Post-1840 enclosures",
+  "provider": "maps2.bristol.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "gislive.GISSUPPT.BOUND_AVON_LOCAL_AUTHS_2KM_BUFFER",
+      "title": "gislive.GISSUPPT.BOUND_AVON_LOCAL_AUTHS_2KM_BUFFER",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1153,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

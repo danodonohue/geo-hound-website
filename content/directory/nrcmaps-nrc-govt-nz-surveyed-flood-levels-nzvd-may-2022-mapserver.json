@@ -1,0 +1,105 @@
+{
+  "slug": "nrcmaps-nrc-govt-nz-surveyed-flood-levels-nzvd-may-2022-mapserver",
+  "service_key": "ESRI MapServer:https://nrcmaps.nrc.govt.nz/server/rest/services/Surveyed_Flood_Levels_NZVD/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://nrcmaps.nrc.govt.nz/server/rest/services/Surveyed_Flood_Levels_NZVD/MapServer",
+  "title": "Surveyed Flood Levels NZVD May 2022",
+  "description": "Post-flood event surveyed water level measurements with vertical datum references.",
+  "abstract": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN>Flood level locations and heights that have been surveyed post flood events around the Northland Region. Heights are available in both OTP64 and NZVD16. </SPAN></P><P><SPAN>Layer creation date: 30/5/2022</SPAN></P><P><SPAN>Layer will be updated after every flood event once survey data is processed.</SPAN></P><P><SPAN>For additional information on this layer Matthew Jolly</SPAN></P><P><SPAN>Rivers and Natural Hazards Officer</SPAN></P><P><SPAN>M 027 703 0201</SPAN></P><P><SPAN>DDI 09470 1210 Ext.9149</SPAN></P></DIV></DIV></DIV>",
+  "provider": "nrcmaps.nrc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Surveyed_Flood_Levels_NZVD",
+      "title": "Surveyed_Flood_Levels_NZVD",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Decade",
+          "type": "esriFieldTypeString",
+          "alias": "Decade"
+        },
+        {
+          "name": "Year",
+          "type": "esriFieldTypeString",
+          "alias": "Year"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "Z_OTP",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z OTP"
+        },
+        {
+          "name": "Z_NZVD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z NZVD"
+        },
+        {
+          "name": "Code",
+          "type": "esriFieldTypeString",
+          "alias": "Code"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 203,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

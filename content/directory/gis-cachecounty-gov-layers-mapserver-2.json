@@ -1,0 +1,179 @@
+{
+  "slug": "gis-cachecounty-gov-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://gis.cachecounty.gov/arcgis/rest/services/BaseMap/Parcel_Labels_All/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.cachecounty.gov/arcgis/rest/services/BaseMap/Parcel_Labels_All/MapServer",
+  "title": "Layers",
+  "description": "Parcel tax ID and owner name labels for Cache County.",
+  "abstract": "2014 Parcels",
+  "provider": "gis.cachecounty.gov",
+  "place": {
+    "country": "United States",
+    "state": "Utah",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Parcel Tax ID Label",
+      "title": "Parcel Tax ID Label",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "tax_id",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel ID"
+        },
+        {
+          "name": "owner_name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Parcel Owner Name Label",
+      "title": "Parcel Owner Name Label",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "tax_id",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel ID"
+        },
+        {
+          "name": "owner_name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Parcel Tax ID & Owner Name Label",
+      "title": "Parcel Tax ID & Owner Name Label",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "tax_id",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel ID"
+        },
+        {
+          "name": "owner_name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "core_owner_maps_url",
+          "type": "esriFieldTypeString",
+          "alias": "core_owner_maps_url"
+        },
+        {
+          "name": "taz_id",
+          "type": "esriFieldTypeString",
+          "alias": "taz_id"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102742"
+  ],
+  "cors_enabled": true,
+  "response_ms": 547,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

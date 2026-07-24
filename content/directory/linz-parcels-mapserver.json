@@ -1,0 +1,587 @@
+{
+  "slug": "linz-parcels-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Parcels/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Parcels/MapServer",
+  "title": "Parcels",
+  "description": "Cadastral land parcels and legal descriptions from Land Information New Zealand",
+  "abstract": "Cadastral parcel polygons provided by LINZ.",
+  "provider": "LINZ",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Legal Description (CRS)",
+      "title": "Legal Description (CRS)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "parcel_id"
+        },
+        {
+          "name": "sufi",
+          "type": "esriFieldTypeDouble",
+          "alias": "sufi"
+        },
+        {
+          "name": "full_app",
+          "type": "esriFieldTypeString",
+          "alias": "full_app"
+        },
+        {
+          "name": "surv_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "surv_area"
+        },
+        {
+          "name": "total_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "total_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "calc_area"
+        },
+        {
+          "name": "document",
+          "type": "esriFieldTypeString",
+          "alias": "document"
+        },
+        {
+          "name": "oth_legal",
+          "type": "esriFieldTypeString",
+          "alias": "oth_legal"
+        },
+        {
+          "name": "vesting_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "vesting_id"
+        },
+        {
+          "name": "gaz_type",
+          "type": "esriFieldTypeString",
+          "alias": "gaz_type"
+        },
+        {
+          "name": "gaz_year",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "gaz_year"
+        },
+        {
+          "name": "gaz_page",
+          "type": "esriFieldTypeInteger",
+          "alias": "gaz_page"
+        },
+        {
+          "name": "part_ind",
+          "type": "esriFieldTypeString",
+          "alias": "part_ind"
+        },
+        {
+          "name": "par_type",
+          "type": "esriFieldTypeString",
+          "alias": "par_type"
+        },
+        {
+          "name": "par_value",
+          "type": "esriFieldTypeString",
+          "alias": "par_value"
+        },
+        {
+          "name": "par_type2",
+          "type": "esriFieldTypeString",
+          "alias": "par_type2"
+        },
+        {
+          "name": "par_value2",
+          "type": "esriFieldTypeString",
+          "alias": "par_value2"
+        },
+        {
+          "name": "block",
+          "type": "esriFieldTypeString",
+          "alias": "block"
+        },
+        {
+          "name": "sub_type",
+          "type": "esriFieldTypeString",
+          "alias": "sub_type"
+        },
+        {
+          "name": "app_value",
+          "type": "esriFieldTypeString",
+          "alias": "app_value"
+        },
+        {
+          "name": "other_app",
+          "type": "esriFieldTypeString",
+          "alias": "other_app"
+        },
+        {
+          "name": "name_maori",
+          "type": "esriFieldTypeString",
+          "alias": "name_maori"
+        },
+        {
+          "name": "purpose",
+          "type": "esriFieldTypeString",
+          "alias": "purpose"
+        },
+        {
+          "name": "land_dist",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "land_dist"
+        },
+        {
+          "name": "creat_date",
+          "type": "esriFieldTypeDate",
+          "alias": "creat_date"
+        },
+        {
+          "name": "mod_date",
+          "type": "esriFieldTypeDate",
+          "alias": "mod_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Parcels (CRS)",
+      "title": "Parcels (CRS)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "parcel_id"
+        },
+        {
+          "name": "sufi",
+          "type": "esriFieldTypeDouble",
+          "alias": "sufi"
+        },
+        {
+          "name": "full_app",
+          "type": "esriFieldTypeString",
+          "alias": "full_app"
+        },
+        {
+          "name": "surv_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "surv_area"
+        },
+        {
+          "name": "total_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "total_area"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "calc_area"
+        },
+        {
+          "name": "document",
+          "type": "esriFieldTypeString",
+          "alias": "document"
+        },
+        {
+          "name": "oth_legal",
+          "type": "esriFieldTypeString",
+          "alias": "oth_legal"
+        },
+        {
+          "name": "vesting_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "vesting_id"
+        },
+        {
+          "name": "gaz_type",
+          "type": "esriFieldTypeString",
+          "alias": "gaz_type"
+        },
+        {
+          "name": "gaz_year",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "gaz_year"
+        },
+        {
+          "name": "gaz_page",
+          "type": "esriFieldTypeInteger",
+          "alias": "gaz_page"
+        },
+        {
+          "name": "part_ind",
+          "type": "esriFieldTypeString",
+          "alias": "part_ind"
+        },
+        {
+          "name": "par_type",
+          "type": "esriFieldTypeString",
+          "alias": "par_type"
+        },
+        {
+          "name": "par_value",
+          "type": "esriFieldTypeString",
+          "alias": "par_value"
+        },
+        {
+          "name": "par_type2",
+          "type": "esriFieldTypeString",
+          "alias": "par_type2"
+        },
+        {
+          "name": "par_value2",
+          "type": "esriFieldTypeString",
+          "alias": "par_value2"
+        },
+        {
+          "name": "block",
+          "type": "esriFieldTypeString",
+          "alias": "block"
+        },
+        {
+          "name": "sub_type",
+          "type": "esriFieldTypeString",
+          "alias": "sub_type"
+        },
+        {
+          "name": "app_value",
+          "type": "esriFieldTypeString",
+          "alias": "app_value"
+        },
+        {
+          "name": "other_app",
+          "type": "esriFieldTypeString",
+          "alias": "other_app"
+        },
+        {
+          "name": "name_maori",
+          "type": "esriFieldTypeString",
+          "alias": "name_maori"
+        },
+        {
+          "name": "purpose",
+          "type": "esriFieldTypeString",
+          "alias": "purpose"
+        },
+        {
+          "name": "land_dist",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "land_dist"
+        },
+        {
+          "name": "creat_date",
+          "type": "esriFieldTypeDate",
+          "alias": "creat_date"
+        },
+        {
+          "name": "mod_date",
+          "type": "esriFieldTypeDate",
+          "alias": "mod_date"
+        },
+        {
+          "name": "match_stat",
+          "type": "esriFieldTypeString",
+          "alias": "match_stat"
+        },
+        {
+          "name": "crs_layer",
+          "type": "esriFieldTypeString",
+          "alias": "crs_layer"
+        },
+        {
+          "name": "wufi",
+          "type": "esriFieldTypeDouble",
+          "alias": "wufi"
+        },
+        {
+          "name": "cps_table",
+          "type": "esriFieldTypeString",
+          "alias": "cps_table"
+        },
+        {
+          "name": "match_sour",
+          "type": "esriFieldTypeString",
+          "alias": "match_sour"
+        },
+        {
+          "name": "match_comm",
+          "type": "esriFieldTypeString",
+          "alias": "match_comm"
+        },
+        {
+          "name": "date_match",
+          "type": "esriFieldTypeDate",
+          "alias": "date_match"
+        },
+        {
+          "name": "date_added",
+          "type": "esriFieldTypeDate",
+          "alias": "date_added"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID_1",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID_1"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Road and Rail Parcel (CRS)",
+      "title": "Road and Rail Parcel (CRS)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "parcel_id"
+        },
+        {
+          "name": "sufi",
+          "type": "esriFieldTypeDouble",
+          "alias": "sufi"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "land_dist",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "land_dist"
+        },
+        {
+          "name": "creat_date",
+          "type": "esriFieldTypeDate",
+          "alias": "creat_date"
+        },
+        {
+          "name": "mod_date",
+          "type": "esriFieldTypeDate",
+          "alias": "mod_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Hydro Parcel (CRS)",
+      "title": "Hydro Parcel (CRS)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "parcel_id"
+        },
+        {
+          "name": "sufi",
+          "type": "esriFieldTypeDouble",
+          "alias": "sufi"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "purpose",
+          "type": "esriFieldTypeString",
+          "alias": "purpose"
+        },
+        {
+          "name": "oth_legal",
+          "type": "esriFieldTypeString",
+          "alias": "oth_legal"
+        },
+        {
+          "name": "gaz_type",
+          "type": "esriFieldTypeString",
+          "alias": "gaz_type"
+        },
+        {
+          "name": "gaz_year",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "gaz_year"
+        },
+        {
+          "name": "gaz_page",
+          "type": "esriFieldTypeInteger",
+          "alias": "gaz_page"
+        },
+        {
+          "name": "placename",
+          "type": "esriFieldTypeString",
+          "alias": "placename"
+        },
+        {
+          "name": "land_dist",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "land_dist"
+        },
+        {
+          "name": "crea_date",
+          "type": "esriFieldTypeDate",
+          "alias": "crea_date"
+        },
+        {
+          "name": "mod_date",
+          "type": "esriFieldTypeDate",
+          "alias": "mod_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 53,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-25",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_ListedBuild/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_ListedBuild/MapServer",
+  "title": "Layers",
+  "description": "Listed buildings with historic architectural and cultural significance.",
+  "abstract": "Layers associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 17,
+      "name": "Heritage - Listed building",
+      "title": "Heritage - Listed building",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Grade",
+          "type": "esriFieldTypeString",
+          "alias": "Grade"
+        },
+        {
+          "name": "ListDate",
+          "type": "esriFieldTypeDate",
+          "alias": "List Date"
+        },
+        {
+          "name": "AmendDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Amend Date"
+        },
+        {
+          "name": "NGR",
+          "type": "esriFieldTypeString",
+          "alias": "NGR"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ListEntry",
+          "type": "esriFieldTypeInteger",
+          "alias": "ListEntry"
+        },
+        {
+          "name": "CaptureSca",
+          "type": "esriFieldTypeString",
+          "alias": "CaptureSca"
+        },
+        {
+          "name": "hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "hyperlink"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeString",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeString",
+          "alias": "Northing"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 315,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

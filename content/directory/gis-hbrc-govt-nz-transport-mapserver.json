@@ -1,0 +1,673 @@
+{
+  "slug": "gis-hbrc-govt-nz-transport-mapserver",
+  "service_key": "ESRI MapServer:https://gis.hbrc.govt.nz/server/rest/services/ExternalServices/Transport/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.hbrc.govt.nz/server/rest/services/ExternalServices/Transport/MapServer",
+  "title": "Transport",
+  "description": "GIS service providing transport data.",
+  "abstract": "Transport Layers including editable layers",
+  "provider": "gis.hbrc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Hawke's Bay",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Bus Stops",
+      "title": "Bus Stops",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Stop_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Stop_Number"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "StreetName"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "PoleSign",
+          "type": "esriFieldTypeString",
+          "alias": "PoleSign"
+        },
+        {
+          "name": "TT_Unit",
+          "type": "esriFieldTypeString",
+          "alias": "TT_Unit"
+        },
+        {
+          "name": "Shelter",
+          "type": "esriFieldTypeString",
+          "alias": "Shelter"
+        },
+        {
+          "name": "Seat",
+          "type": "esriFieldTypeString",
+          "alias": "Seat"
+        },
+        {
+          "name": "Route_10N",
+          "type": "esriFieldTypeString",
+          "alias": "Route_10N"
+        },
+        {
+          "name": "Route_11N",
+          "type": "esriFieldTypeString",
+          "alias": "Route_11N"
+        },
+        {
+          "name": "Route_12N",
+          "type": "esriFieldTypeString",
+          "alias": "Route_12N"
+        },
+        {
+          "name": "Route_13",
+          "type": "esriFieldTypeString",
+          "alias": "Route_13"
+        },
+        {
+          "name": "Route_14",
+          "type": "esriFieldTypeString",
+          "alias": "Route_14"
+        },
+        {
+          "name": "Route_15",
+          "type": "esriFieldTypeString",
+          "alias": "Route_15"
+        },
+        {
+          "name": "Route_16a",
+          "type": "esriFieldTypeString",
+          "alias": "Route_16a"
+        },
+        {
+          "name": "Route_16b",
+          "type": "esriFieldTypeString",
+          "alias": "Route_16b"
+        },
+        {
+          "name": "Route_17",
+          "type": "esriFieldTypeString",
+          "alias": "Route_17"
+        },
+        {
+          "name": "Route_20",
+          "type": "esriFieldTypeString",
+          "alias": "Route_20"
+        },
+        {
+          "name": "Route_21",
+          "type": "esriFieldTypeString",
+          "alias": "Route_21"
+        },
+        {
+          "name": "Route_10H",
+          "type": "esriFieldTypeString",
+          "alias": "Route_10H"
+        },
+        {
+          "name": "Route_11H",
+          "type": "esriFieldTypeString",
+          "alias": "Route_11H"
+        },
+        {
+          "name": "Route_12H",
+          "type": "esriFieldTypeString",
+          "alias": "Route_12H"
+        },
+        {
+          "name": "BusStop_Area",
+          "type": "esriFieldTypeString",
+          "alias": "BusStop_Area"
+        },
+        {
+          "name": "BusFare_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "BusFare_Zone"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Bus Routes",
+      "title": "Bus Routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Bus_Route",
+          "type": "esriFieldTypeString",
+          "alias": "Bus_Route"
+        },
+        {
+          "name": "Assigned_Number",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Assigned_Number"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "BusRoutes_Centrelines",
+      "title": "BusRoutes_Centrelines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "BusRoute_10_Centreline",
+      "title": "BusRoute_10_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "BusRoute_11_Centreline",
+      "title": "BusRoute_11_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "BusRoute_12_Centreline",
+      "title": "BusRoute_12_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "BusRoute_12B_Centrelines",
+      "title": "BusRoute_12B_Centrelines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "BusRoute_12C_Centrelines",
+      "title": "BusRoute_12C_Centrelines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "BusRoute_13_Centreline",
+      "title": "BusRoute_13_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "BusRoute_14_Centreline",
+      "title": "BusRoute_14_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "BusRoute_15_Centreline",
+      "title": "BusRoute_15_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "BusRoute_16A_Centreline",
+      "title": "BusRoute_16A_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "BusRoute_16B_Centreline",
+      "title": "BusRoute_16B_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "BusRoute_17_Centreline",
+      "title": "BusRoute_17_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "BusRoute_20_Centreline",
+      "title": "BusRoute_20_Centreline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Route_No",
+          "type": "esriFieldTypeString",
+          "alias": "Route_No"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "BusRoute_20sat_Centreline",
+      "title": "BusRoute_20sat_Centreline",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "BusRoute_21_Centreline",
+      "title": "BusRoute_21_Centreline",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 157,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

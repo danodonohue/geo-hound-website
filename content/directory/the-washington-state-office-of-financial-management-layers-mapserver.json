@@ -1,0 +1,224 @@
+{
+  "slug": "the-washington-state-office-of-financial-management-layers-mapserver",
+  "service_key": "ESRI MapServer:https://data.wsdot.wa.gov/arcgis/rest/services/Shared/CityLimits/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://data.wsdot.wa.gov/arcgis/rest/services/Shared/CityLimits/MapServer",
+  "title": "Layers",
+  "description": "Washington State incorporated city municipalities with boundaries and Federal Information Processing codes.",
+  "abstract": "This service depicts the boundaries of Washington State's incorporated city municipalities, as recorded by the Washington State Office of Financial Management. Attributes include city names as provided by the Washington State Office of Financial Management, and Federal Information Processing Standard codes (FIPS) as provided by the National Institute of Standards and Technology. The Washington State Office of Financial Management provided FIPS codes for cities incorporated after the National Institute of Standards and Technology's FIPS code publication date. GNIS (Geographic Name Information System) codes provided by the Washington State Department of Revenue are included. This service includes all city annexations approved by Office of Financial Management. \n\nIf you have any questions about this data, please contact Kandie Rackleff, GIS Analyst - racklek@wsdot.wa.gov - (360) 570-2400. If you are having trouble viewing this service, please contact our Online Map Support at onlinemapsupport@wsdot.wa.gov",
+  "provider": "the Washington State Office of Financial Management",
+  "place": {
+    "country": "United States",
+    "state": "Washington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Cities",
+      "title": "Cities",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "CountySeat",
+          "type": "esriFieldTypeString",
+          "alias": "County Seat"
+        },
+        {
+          "name": "GNIS",
+          "type": "esriFieldTypeDouble",
+          "alias": "GNIS"
+        },
+        {
+          "name": "LastUpdate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastUpdate"
+        },
+        {
+          "name": "MajorCity",
+          "type": "esriFieldTypeString",
+          "alias": "Major City"
+        },
+        {
+          "name": "CountyFIPS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "County FIPS"
+        },
+        {
+          "name": "CityFIPS",
+          "type": "esriFieldTypeString",
+          "alias": "City FIPS"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Major Cities",
+      "title": "Major Cities",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "CountySeat",
+          "type": "esriFieldTypeString",
+          "alias": "County Seat"
+        },
+        {
+          "name": "GNIS",
+          "type": "esriFieldTypeDouble",
+          "alias": "GNIS"
+        },
+        {
+          "name": "LastUpdate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastUpdate"
+        },
+        {
+          "name": "MajorCity",
+          "type": "esriFieldTypeString",
+          "alias": "Major City"
+        },
+        {
+          "name": "CountyFIPS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "County FIPS"
+        },
+        {
+          "name": "CityFIPS",
+          "type": "esriFieldTypeString",
+          "alias": "City FIPS"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Incorporated City Boundaries",
+      "title": "Incorporated City Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "LastUpdate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastUpdate"
+        },
+        {
+          "name": "MajorCity",
+          "type": "esriFieldTypeString",
+          "alias": "Major City"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CountySeat",
+          "type": "esriFieldTypeString",
+          "alias": "County Seat"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CityName",
+          "type": "esriFieldTypeString",
+          "alias": "CityName"
+        },
+        {
+          "name": "CityGNISPlaceCode",
+          "type": "esriFieldTypeInteger",
+          "alias": "CityGNISPlaceCode"
+        },
+        {
+          "name": "CountyFIPSLongPlaceCode",
+          "type": "esriFieldTypeString",
+          "alias": "CountyFIPSLongPlaceCode"
+        },
+        {
+          "name": "CityFIPSLongPlaceCode",
+          "type": "esriFieldTypeString",
+          "alias": "CityFIPSLongPlaceCode"
+        },
+        {
+          "name": "OFMCityCode",
+          "type": "esriFieldTypeString",
+          "alias": "OFMCityCode"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 730,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

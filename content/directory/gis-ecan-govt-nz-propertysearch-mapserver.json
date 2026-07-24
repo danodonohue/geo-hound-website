@@ -1,0 +1,1163 @@
+{
+  "slug": "gis-ecan-govt-nz-propertysearch-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Beta/PropertySearch/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Beta/PropertySearch/MapServer",
+  "title": "PropertySearch",
+  "description": "GIS service providing parcels, roads, transport data.",
+  "abstract": "Datasets of property specific information",
+  "provider": "gis.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Addresses",
+      "title": "Addresses",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "house_number",
+          "type": "esriFieldTypeString",
+          "alias": "HOUSE_NUMBER"
+        },
+        {
+          "name": "locality",
+          "type": "esriFieldTypeString",
+          "alias": "LOCALITY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PAR_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAR_ID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "rna_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "rna_id"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "road_name"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "rcl_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "rcl_id"
+        },
+        {
+          "name": "range_low",
+          "type": "esriFieldTypeInteger",
+          "alias": "range_low"
+        },
+        {
+          "name": "range_high",
+          "type": "esriFieldTypeInteger",
+          "alias": "range_high"
+        },
+        {
+          "name": "EXTRACT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EXTRACT_DATE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Towns",
+      "title": "Towns",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACENAME",
+          "type": "esriFieldTypeString",
+          "alias": "PLACENAME"
+        },
+        {
+          "name": "FEATURE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_TYPE"
+        },
+        {
+          "name": "FEATURE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURE_DESCRIPTION"
+        },
+        {
+          "name": "LAND_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_DISTRICT"
+        },
+        {
+          "name": "DISPLAYCLASS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DISPLAYCLASS"
+        },
+        {
+          "name": "NZMGX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGX"
+        },
+        {
+          "name": "NZMGY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGY"
+        },
+        {
+          "name": "NZMS260",
+          "type": "esriFieldTypeString",
+          "alias": "NZMS260"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Bus Stops",
+      "title": "Bus Stops",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ProjectID",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectID"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectName"
+        },
+        {
+          "name": "PlatformTag",
+          "type": "esriFieldTypeDouble",
+          "alias": "PlatformTag"
+        },
+        {
+          "name": "PlatformNo",
+          "type": "esriFieldTypeDouble",
+          "alias": "PlatformNo"
+        },
+        {
+          "name": "PlatformName",
+          "type": "esriFieldTypeString",
+          "alias": "PlatformName"
+        },
+        {
+          "name": "RoadName",
+          "type": "esriFieldTypeString",
+          "alias": "RoadName"
+        },
+        {
+          "name": "BearingToRoad",
+          "type": "esriFieldTypeDouble",
+          "alias": "BearingToRoad"
+        },
+        {
+          "name": "RouteNos",
+          "type": "esriFieldTypeString",
+          "alias": "RouteNos"
+        },
+        {
+          "name": "RouteTags",
+          "type": "esriFieldTypeString",
+          "alias": "RouteTags"
+        },
+        {
+          "name": "Routes",
+          "type": "esriFieldTypeString",
+          "alias": "Routes"
+        },
+        {
+          "name": "NZMGX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZMGX"
+        },
+        {
+          "name": "NZMGY",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZMGY"
+        },
+        {
+          "name": "NZMS260",
+          "type": "esriFieldTypeString",
+          "alias": "NZMS260"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "WGS84_LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_LONGITUDE"
+        },
+        {
+          "name": "WGS84_LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_LATITUDE"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "River Gaugings",
+      "title": "River Gaugings",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SITENUMBER",
+          "type": "esriFieldTypeInteger",
+          "alias": "SITENUMBER"
+        },
+        {
+          "name": "RIVER",
+          "type": "esriFieldTypeString",
+          "alias": "RIVER"
+        },
+        {
+          "name": "SITENAME",
+          "type": "esriFieldTypeString",
+          "alias": "SITENAME"
+        },
+        {
+          "name": "SITE",
+          "type": "esriFieldTypeString",
+          "alias": "SITE"
+        },
+        {
+          "name": "Tim_ChCh",
+          "type": "esriFieldTypeString",
+          "alias": "TIM_CHCH"
+        },
+        {
+          "name": "FLOW_OR_STAGE",
+          "type": "esriFieldTypeString",
+          "alias": "FLOW_OR_STAGE"
+        },
+        {
+          "name": "Telemetered",
+          "type": "esriFieldTypeString",
+          "alias": "TELEMETERED"
+        },
+        {
+          "name": "NO_OF_GAUGINGS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_OF_GAUGINGS"
+        },
+        {
+          "name": "FIRST_GAUGING",
+          "type": "esriFieldTypeDate",
+          "alias": "FIRST_GAUGING"
+        },
+        {
+          "name": "LAST_GAUGING",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_GAUGING"
+        },
+        {
+          "name": "Altitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "NZMGX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGX"
+        },
+        {
+          "name": "NZMGY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGY"
+        },
+        {
+          "name": "NZMS260",
+          "type": "esriFieldTypeString",
+          "alias": "NZMS260"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Lowest_gauged_flow",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lowest_gauged_flow"
+        },
+        {
+          "name": "Highest_gauged_flow",
+          "type": "esriFieldTypeDouble",
+          "alias": "Highest_gauged_flow"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Rainfall Monitoring Sites",
+      "title": "Rainfall Monitoring Sites",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SITENUMBER",
+          "type": "esriFieldTypeInteger",
+          "alias": "SITENUMBER"
+        },
+        {
+          "name": "RIVER",
+          "type": "esriFieldTypeString",
+          "alias": "RIVER"
+        },
+        {
+          "name": "SITENAME",
+          "type": "esriFieldTypeString",
+          "alias": "SITENAME"
+        },
+        {
+          "name": "SITE",
+          "type": "esriFieldTypeString",
+          "alias": "SITE"
+        },
+        {
+          "name": "TIM_CHCH",
+          "type": "esriFieldTypeString",
+          "alias": "TIM_CHCH"
+        },
+        {
+          "name": "TELEMETERED",
+          "type": "esriFieldTypeString",
+          "alias": "TELEMETERED"
+        },
+        {
+          "name": "LAST_SAMPLE",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_SAMPLE"
+        },
+        {
+          "name": "LAST_HOUR",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAST_HOUR"
+        },
+        {
+          "name": "RAIN_TODAY",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_TODAY"
+        },
+        {
+          "name": "RAIN_1_DAY_AGO",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_1_DAY_AGO"
+        },
+        {
+          "name": "RAIN_2_DAYS_AGO",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_2_DAYS_AGO"
+        },
+        {
+          "name": "RAIN_3_DAYS_AGO",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_3_DAYS_AGO"
+        },
+        {
+          "name": "RAIN_4_DAYS_AGO",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_4_DAYS_AGO"
+        },
+        {
+          "name": "RAIN_5_DAYS_AGO",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_5_DAYS_AGO"
+        },
+        {
+          "name": "RAIN_6_DAYS_AGO",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_6_DAYS_AGO"
+        },
+        {
+          "name": "RAIN_7_DAYS_AGO",
+          "type": "esriFieldTypeDouble",
+          "alias": "RAIN_7_DAYS_AGO"
+        },
+        {
+          "name": "TOTAL_RAINFALL",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOTAL_RAINFALL"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "NZMGX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGX"
+        },
+        {
+          "name": "NZMGY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZMGY"
+        },
+        {
+          "name": "NZMS260",
+          "type": "esriFieldTypeString",
+          "alias": "NZMS260"
+        },
+        {
+          "name": "NZTMX",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMX"
+        },
+        {
+          "name": "NZTMY",
+          "type": "esriFieldTypeInteger",
+          "alias": "NZTMY"
+        },
+        {
+          "name": "NZTOPO50",
+          "type": "esriFieldTypeString",
+          "alias": "NZTOPO50"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Roads",
+      "title": "Roads",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "other_names",
+          "type": "esriFieldTypeString",
+          "alias": "other_names"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "EXTRACT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EXTRACT_DATE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Land Parcels",
+      "title": "Land Parcels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "VALUATION_NO",
+          "type": "esriFieldTypeString",
+          "alias": "VALUATION_NO"
+        },
+        {
+          "name": "LEGAL_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL_DESCRIPTION"
+        },
+        {
+          "name": "PAR_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAR_ID"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeInteger",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TITLES",
+          "type": "esriFieldTypeString",
+          "alias": "TITLES"
+        },
+        {
+          "name": "CT",
+          "type": "esriFieldTypeString",
+          "alias": "CT"
+        },
+        {
+          "name": "LAND_VALUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "LAND_VALUE"
+        },
+        {
+          "name": "CAPITAL_VALUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "CAPITAL_VALUE"
+        },
+        {
+          "name": "IMPROV_VALUE",
+          "type": "esriFieldTypeInteger",
+          "alias": "IMPROV_VALUE"
+        },
+        {
+          "name": "VALUATION_TLA",
+          "type": "esriFieldTypeString",
+          "alias": "VALUATION_TLA"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "School Enrolment Zones",
+      "title": "School Enrolment Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SCHOOL_WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_WEBSITE"
+        },
+        {
+          "name": "STREET",
+          "type": "esriFieldTypeString",
+          "alias": "STREET"
+        },
+        {
+          "name": "SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "SUBURB"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "SCHOOL_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOL_TYPE"
+        },
+        {
+          "name": "GENDER_OF_STUDENTS",
+          "type": "esriFieldTypeString",
+          "alias": "GENDER_OF_STUDENTS"
+        },
+        {
+          "name": "DECILE",
+          "type": "esriFieldTypeDouble",
+          "alias": "DECILE"
+        },
+        {
+          "name": "TOTAL_SCHOOL_ROLL",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOTAL_SCHOOL_ROLL"
+        },
+        {
+          "name": "EUROPEAN_PAKEHA",
+          "type": "esriFieldTypeDouble",
+          "alias": "EUROPEAN_PAKEHA"
+        },
+        {
+          "name": "MAORI",
+          "type": "esriFieldTypeDouble",
+          "alias": "MAORI"
+        },
+        {
+          "name": "PASIFICA",
+          "type": "esriFieldTypeDouble",
+          "alias": "PASIFICA"
+        },
+        {
+          "name": "MELAA",
+          "type": "esriFieldTypeDouble",
+          "alias": "MELAA"
+        },
+        {
+          "name": "OTHER",
+          "type": "esriFieldTypeDouble",
+          "alias": "OTHER"
+        },
+        {
+          "name": "INTERNATIONAL_STUDENTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "INTERNATIONAL_STUDENTS"
+        },
+        {
+          "name": "APPROVAL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "APPROVAL_DATE"
+        },
+        {
+          "name": "EFFECTIVE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EFFECTIVE_DATE"
+        },
+        {
+          "name": "ASIAN",
+          "type": "esriFieldTypeDouble",
+          "alias": "ASIAN"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "MBIE Technical Categories",
+      "title": "MBIE Technical Categories",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "DBH_TC",
+          "type": "esriFieldTypeString",
+          "alias": "Technical Category"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Soils",
+      "title": "Soils",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SMU",
+          "type": "esriFieldTypeString",
+          "alias": "SMU"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "SmapName",
+          "type": "esriFieldTypeString",
+          "alias": "SmapName"
+        },
+        {
+          "name": "SiblingProportion",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingProportion"
+        },
+        {
+          "name": "SiblingRankOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiblingRankOrder"
+        },
+        {
+          "name": "SiblingConfidence",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingConfidence"
+        },
+        {
+          "name": "LongSoilName",
+          "type": "esriFieldTypeString",
+          "alias": "LongSoilName"
+        },
+        {
+          "name": "NZSCDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NZSCDescription"
+        },
+        {
+          "name": "NZSC",
+          "type": "esriFieldTypeString",
+          "alias": "NZSC"
+        },
+        {
+          "name": "PermeabilityCode",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode"
+        },
+        {
+          "name": "PermeabilityCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "PermeabilityCode_Desc"
+        },
+        {
+          "name": "SiblingDepthCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode"
+        },
+        {
+          "name": "SiblingDepthCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDepthCode_Desc"
+        },
+        {
+          "name": "SiblingDrainageCode",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode"
+        },
+        {
+          "name": "SiblingDrainageCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingDrainageCode_Desc"
+        },
+        {
+          "name": "SiblingTexture",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture"
+        },
+        {
+          "name": "SiblingTexture_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "SiblingTexture_Desc"
+        },
+        {
+          "name": "RootBarrierCode",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode"
+        },
+        {
+          "name": "RootBarrierCode_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "RootBarrierCode_Desc"
+        },
+        {
+          "name": "Slope",
+          "type": "esriFieldTypeString",
+          "alias": "Slope"
+        },
+        {
+          "name": "EcanNLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanNLossMGMCategory"
+        },
+        {
+          "name": "EcanPLossMGMCategory",
+          "type": "esriFieldTypeString",
+          "alias": "EcanPLossMGMCategory"
+        },
+        {
+          "name": "RelativeRunnoffPotential",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeRunnoffPotential"
+        },
+        {
+          "name": "RelativePLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativePLeachRisk"
+        },
+        {
+          "name": "SepticTankWastewaterSoakage",
+          "type": "esriFieldTypeString",
+          "alias": "SepticTankWastewaterSoakage"
+        },
+        {
+          "name": "AWmm30",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm30"
+        },
+        {
+          "name": "AWmm60",
+          "type": "esriFieldTypeDouble",
+          "alias": "AWmm60"
+        },
+        {
+          "name": "PAWmm",
+          "type": "esriFieldTypeDouble",
+          "alias": "PAWmm"
+        },
+        {
+          "name": "PRetentionTopsoil",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRetentionTopsoil"
+        },
+        {
+          "name": "RelativeBypassFlow",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeBypassFlow"
+        },
+        {
+          "name": "RelativeNLeachRisk",
+          "type": "esriFieldTypeString",
+          "alias": "RelativeNLeachRisk"
+        },
+        {
+          "name": "EffluentClass",
+          "type": "esriFieldTypeString",
+          "alias": "EffluentClass"
+        },
+        {
+          "name": "oldLUTcode",
+          "type": "esriFieldTypeString",
+          "alias": "oldLUTcode"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Urban Areas",
+      "title": "Urban Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "District",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Territorial Authority Boundaries",
+      "title": "Territorial Authority Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TA2013_NAM",
+          "type": "esriFieldTypeString",
+          "alias": "Territorial Authority Name"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 21,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

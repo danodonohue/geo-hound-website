@@ -1,0 +1,390 @@
+{
+  "slug": "maps-gdc-govt-nz-uniplan-natural-resources-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_natural_resources_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_natural_resources_ext/MapServer",
+  "title": "uniplan_natural_resources_ext",
+  "description": "Gisborne natural resources including geological sites, ridgelines and outstanding landscapes.",
+  "abstract": "Natural Resources  layers for the Tairawhiti Resource Management Plan of the Gisborne Distrcit Council",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "geology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Natural Resources",
+      "title": "Natural Resources",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Geological Sites",
+      "title": "Geological Sites",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "GEO_SITES_",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEO_SITES_"
+        },
+        {
+          "name": "GEO_SITES1",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEO_SITES1"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "POLYGONID",
+          "type": "esriFieldTypeInteger",
+          "alias": "POLYGONID"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeDouble",
+          "alias": "SCALE"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Urban Ridgelines",
+      "title": "Urban Ridgelines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FNODE_"
+        },
+        {
+          "name": "TNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "TNODE_"
+        },
+        {
+          "name": "LPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LPOLY_"
+        },
+        {
+          "name": "RPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RPOLY_"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "RIDGELINE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIDGELINE_"
+        },
+        {
+          "name": "RIDGELINE1",
+          "type": "esriFieldTypeInteger",
+          "alias": "RIDGELINE1"
+        },
+        {
+          "name": "TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "TEXT"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Protection Management Areas",
+      "title": "Protection Management Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeSingle",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeSingle",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "PROTMA_",
+          "type": "esriFieldTypeInteger",
+          "alias": "PROTMA_"
+        },
+        {
+          "name": "PROTMA_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "PROTMA_ID"
+        },
+        {
+          "name": "POLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "POLY_"
+        },
+        {
+          "name": "SUBCLASS",
+          "type": "esriFieldTypeString",
+          "alias": "SUBCLASS"
+        },
+        {
+          "name": "SUBCLASS_",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBCLASS_"
+        },
+        {
+          "name": "RINGS_OK",
+          "type": "esriFieldTypeInteger",
+          "alias": "RINGS_OK"
+        },
+        {
+          "name": "RINGS_NOK",
+          "type": "esriFieldTypeInteger",
+          "alias": "RINGS_NOK"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "PARTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "PARTS"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "PROPER_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PROPER_NAME"
+        },
+        {
+          "name": "NUM",
+          "type": "esriFieldTypeString",
+          "alias": "NUM"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "WHICHMAPS",
+          "type": "esriFieldTypeString",
+          "alias": "WHICHMAPS"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "GISAREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "GISAREA"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Outstanding Landscapes",
+      "title": "Outstanding Landscapes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "LAND_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_NAME"
+        },
+        {
+          "name": "LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_TYPE"
+        },
+        {
+          "name": "LAND_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_NUM"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "WHICHMAPS",
+          "type": "esriFieldTypeString",
+          "alias": "WHICHMAPS"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "OUT_LAND_",
+          "type": "esriFieldTypeInteger",
+          "alias": "OUT_LAND_"
+        },
+        {
+          "name": "OUT_LAND_I",
+          "type": "esriFieldTypeInteger",
+          "alias": "OUT_LAND_I"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 268,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

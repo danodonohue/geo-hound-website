@@ -1,0 +1,571 @@
+{
+  "slug": "gis4-polkcountyiowa-gov-parks-public-mapserver",
+  "service_key": "ESRI MapServer:https://gis4.polkcountyiowa.gov/server/rest/services/Conservation/Parks_Public/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis4.polkcountyiowa.gov/server/rest/services/Conservation/Parks_Public/MapServer",
+  "title": "Parks_Public",
+  "description": "Polk County public park facilities including campgrounds, trails, shelters and trailheads.",
+  "abstract": "Parks data for public reference",
+  "provider": "gis4.polkcountyiowa.gov",
+  "place": {
+    "country": "United States",
+    "state": "Iowa",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 19,
+      "name": "Bench",
+      "title": "Bench",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DonorName",
+          "type": "esriFieldTypeString",
+          "alias": "Donor Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Bridge",
+      "title": "Bridge",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BridgeName",
+          "type": "esriFieldTypeString",
+          "alias": "Bridge Name"
+        },
+        {
+          "name": "BridgeNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Bridge Number"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Cabin",
+      "title": "Cabin",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Campground",
+          "type": "esriFieldTypeString",
+          "alias": "Campground"
+        },
+        {
+          "name": "CabinNumbr",
+          "type": "esriFieldTypeInteger",
+          "alias": "Cabin Number"
+        },
+        {
+          "name": "Resrvable",
+          "type": "esriFieldTypeString",
+          "alias": "Resrvable?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Dam",
+      "title": "Dam",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DamName",
+          "type": "esriFieldTypeString",
+          "alias": "Dam Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Fire Ring",
+      "title": "Fire Ring",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Gate - Closed",
+      "title": "Gate - Closed",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OpenClosed",
+          "type": "esriFieldTypeString",
+          "alias": "Open or Closed"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Playground",
+      "title": "Playground",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADA",
+          "type": "esriFieldTypeString",
+          "alias": "ADA Compliant?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Restroom",
+      "title": "Restroom",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "InService",
+          "type": "esriFieldTypeString",
+          "alias": "In Service?"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "CXT",
+          "type": "esriFieldTypeString",
+          "alias": "CXT?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "RV Campsite",
+      "title": "RV Campsite",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Campground",
+          "type": "esriFieldTypeString",
+          "alias": "Campground"
+        },
+        {
+          "name": "SiteNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Site Number"
+        },
+        {
+          "name": "Resrvable",
+          "type": "esriFieldTypeString",
+          "alias": "Resrvable?"
+        },
+        {
+          "name": "ADA",
+          "type": "esriFieldTypeString",
+          "alias": "ADA Compliant?"
+        },
+        {
+          "name": "HostSpot",
+          "type": "esriFieldTypeString",
+          "alias": "Host Spot?"
+        },
+        {
+          "name": "Electric",
+          "type": "esriFieldTypeString",
+          "alias": "Electric?"
+        },
+        {
+          "name": "MaxAmps",
+          "type": "esriFieldTypeInteger",
+          "alias": "Max Amps"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "RV Dump Site",
+      "title": "RV Dump Site",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DumpName",
+          "type": "esriFieldTypeString",
+          "alias": "Dump Name"
+        },
+        {
+          "name": "DumpSiteID",
+          "type": "esriFieldTypeString",
+          "alias": "Dump ID"
+        },
+        {
+          "name": "DumpNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Dump #"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Shelter",
+      "title": "Shelter",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ShelterNmbr",
+          "type": "esriFieldTypeInteger",
+          "alias": "Shelter Number"
+        },
+        {
+          "name": "Water",
+          "type": "esriFieldTypeString",
+          "alias": "Water?"
+        },
+        {
+          "name": "Electric",
+          "type": "esriFieldTypeString",
+          "alias": "Electric?"
+        },
+        {
+          "name": "Rentable",
+          "type": "esriFieldTypeString",
+          "alias": "Rentable/Reservable?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Shower House",
+      "title": "Shower House",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "InService",
+          "type": "esriFieldTypeString",
+          "alias": "In Service?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Tent Campsite",
+      "title": "Tent Campsite",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Campground",
+          "type": "esriFieldTypeString",
+          "alias": "Campground"
+        },
+        {
+          "name": "SiteNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "Site Number"
+        },
+        {
+          "name": "WalkIn",
+          "type": "esriFieldTypeString",
+          "alias": "Walk In?"
+        },
+        {
+          "name": "Resrvable",
+          "type": "esriFieldTypeString",
+          "alias": "Resrvable?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Trailhead",
+      "title": "Trailhead",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TrailName",
+          "type": "esriFieldTypeString",
+          "alias": "Trail Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Water Hydrant",
+      "title": "Water Hydrant",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "InService",
+          "type": "esriFieldTypeString",
+          "alias": "In Service?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Other Park Features",
+      "title": "Other Park Features",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Access Lanes",
+      "title": "Access Lanes",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Park Roads",
+      "title": "Park Roads",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Trails",
+      "title": "Trails",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Concrete RV Pad",
+      "title": "Concrete RV Pad",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Paddock",
+      "title": "Paddock",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Parking Lot",
+      "title": "Parking Lot",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Park Boundary",
+      "title": "Park Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102676"
+  ],
+  "cors_enabled": true,
+  "response_ms": 350,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "the-wsdot-transportation-data-and-gis-office-layers-mapserver",
+  "service_key": "ESRI MapServer:https://data.wsdot.wa.gov/arcgis/rest/services/Shared/AllStateRoutePoints/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://data.wsdot.wa.gov/arcgis/rest/services/Shared/AllStateRoutePoints/MapServer",
+  "title": "Layers",
+  "description": "Washington State route mileposts and accumulated route mileage reference points statewide.",
+  "abstract": "This dataset provides geospatial locations for all of the valid Accumulated Route Mileage (ARM) and State Route Milepost (SRMP) values along State Routes in Washington State.",
+  "provider": "the WSDOT Transportation Data and GIS Office",
+  "place": {
+    "country": "United States",
+    "state": "Washington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "All State Route Points",
+      "title": "All State Route Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RouteID",
+          "type": "esriFieldTypeString",
+          "alias": "RouteID"
+        },
+        {
+          "name": "ARM",
+          "type": "esriFieldTypeSingle",
+          "alias": "ARM"
+        },
+        {
+          "name": "SRMP",
+          "type": "esriFieldTypeSingle",
+          "alias": "SRMP"
+        },
+        {
+          "name": "Direction",
+          "type": "esriFieldTypeString",
+          "alias": "Direction"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Azimuth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Azimuth"
+        },
+        {
+          "name": "StateRouteNumber",
+          "type": "esriFieldTypeString",
+          "alias": "StateRouteNumber"
+        },
+        {
+          "name": "RelRouteType",
+          "type": "esriFieldTypeString",
+          "alias": "RelRouteType"
+        },
+        {
+          "name": "RelRouteQual",
+          "type": "esriFieldTypeString",
+          "alias": "RelRouteQual"
+        },
+        {
+          "name": "AheadBackInd",
+          "type": "esriFieldTypeString",
+          "alias": "AheadBackInd"
+        },
+        {
+          "name": "LRS_Date",
+          "type": "esriFieldTypeString",
+          "alias": "LRS_Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 192,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

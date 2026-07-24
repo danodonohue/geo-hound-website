@@ -1,0 +1,1796 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-19",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/LandUseCodes/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/LandUseCodes/MapServer",
+  "title": "Layers",
+  "description": "Clermont County land use classification data with multi-scale mapping layers.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "land-cover",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Land Use Codes",
+      "title": "Land Use Codes",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Land Use_577K",
+      "title": "Land Use_577K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Land Use_288K",
+      "title": "Land Use_288K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Land Use_144K",
+      "title": "Land Use_144K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Land Use_72K",
+      "title": "Land Use_72K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Land Use_36K",
+      "title": "Land Use_36K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Land Use_18K",
+      "title": "Land Use_18K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Land Use_9K",
+      "title": "Land Use_9K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Land Use_4K",
+      "title": "Land Use_4K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Land Use_2K",
+      "title": "Land Use_2K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Land Use_1K",
+      "title": "Land Use_1K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Land Use_600FT",
+      "title": "Land Use_600FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Land Use_300FT",
+      "title": "Land Use_300FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADRNO",
+          "type": "esriFieldTypeDouble",
+          "alias": "ADRNO"
+        },
+        {
+          "name": "ADRADD",
+          "type": "esriFieldTypeString",
+          "alias": "ADRADD"
+        },
+        {
+          "name": "ADRDIR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRDIR"
+        },
+        {
+          "name": "ADRSTR",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSTR"
+        },
+        {
+          "name": "ADRSUF",
+          "type": "esriFieldTypeString",
+          "alias": "ADRSUF"
+        },
+        {
+          "name": "OWN1",
+          "type": "esriFieldTypeString",
+          "alias": "OWN1"
+        },
+        {
+          "name": "OWN2",
+          "type": "esriFieldTypeString",
+          "alias": "OWN2"
+        },
+        {
+          "name": "MAIL1",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL1"
+        },
+        {
+          "name": "MAIL2",
+          "type": "esriFieldTypeString",
+          "alias": "MAIL2"
+        },
+        {
+          "name": "MADDR1",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR1"
+        },
+        {
+          "name": "MADDR2",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR2"
+        },
+        {
+          "name": "MADDR3",
+          "type": "esriFieldTypeString",
+          "alias": "MADDR3"
+        },
+        {
+          "name": "LEGAL1",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL1"
+        },
+        {
+          "name": "LEGAL2",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL2"
+        },
+        {
+          "name": "LEGAL3",
+          "type": "esriFieldTypeString",
+          "alias": "LEGAL3"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "NBHD",
+          "type": "esriFieldTypeString",
+          "alias": "NBHD"
+        },
+        {
+          "name": "LUC",
+          "type": "esriFieldTypeString",
+          "alias": "LUC"
+        },
+        {
+          "name": "IMPDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "IMPDATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FULLADDR",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 825,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "slug": "gis-wcc-govt-nz-wcc-flood-zones-backup-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/WaterServices/WCC_Flood_Zones_Backup/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/WaterServices/WCC_Flood_Zones_Backup/MapServer",
+  "title": "WCC_Flood_Zones_Backup",
+  "description": "Flood depth zones with climate change freeboard projections for Wellington City",
+  "abstract": "Backup service of Wellington Water Flood Zone data - updated fortnightly",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Wellington City Flood Depths",
+      "title": "Wellington City Flood Depths",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Wilton",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Wilton",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Tawa",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Tawa",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Southern CBD",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Southern CBD",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Roseneath",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Roseneath",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Owhiro Bay",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Owhiro Bay",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Ngaio",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Ngaio",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - North CBD",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - North CBD",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Miramar",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Miramar",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Lyall Houghton",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Lyall Houghton",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths -  Khandallah",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths -  Khandallah",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Karori",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Karori",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Johnsonville",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Johnsonville",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Island Bay",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Island Bay",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Horokiwi",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Horokiwi",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "DepthText",
+          "type": "esriFieldTypeString",
+          "alias": "DepthText"
+        },
+        {
+          "name": "Flood_Info",
+          "type": "esriFieldTypeString",
+          "alias": "Flood_Info"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Hataitai Kilbirnie",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Hataitai Kilbirnie",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "100yr Climate Change Freeboard 2025 Flood Depths - Churton Park",
+      "title": "100yr Climate Change Freeboard 2025 Flood Depths - Churton Park",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 52,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "www-gis-hctx-net-adjacent-hc-county-boundary-tile-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/HGAC/Adjacent_HC_County_Boundary_Tile/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/HGAC/Adjacent_HC_County_Boundary_Tile/MapServer",
+  "title": "Adjacent_HC_County_Boundary_Tile",
+  "description": "County boundaries adjacent to Harris County Texas for permit tracking",
+  "abstract": "County Boundaries adjacent to Harris County but not including Harris County.  Created for the E-Permits Plat tracking application to differentiate areas in and out of the county.",
+  "provider": "www.gis.hctx.net",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "HGAC_Regional_County_BoundariesNoHC",
+      "title": "HGAC_Regional_County_BoundariesNoHC",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA_",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "CO48_D00_",
+          "type": "esriFieldTypeDouble",
+          "alias": "CO48_D00_"
+        },
+        {
+          "name": "CO48_D00_I",
+          "type": "esriFieldTypeDouble",
+          "alias": "CO48_D00_I"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "LSAD",
+          "type": "esriFieldTypeString",
+          "alias": "LSAD"
+        },
+        {
+          "name": "LSAD_TRANS",
+          "type": "esriFieldTypeString",
+          "alias": "LSAD_TRANS"
+        },
+        {
+          "name": "Global_DBO",
+          "type": "esriFieldTypeDouble",
+          "alias": "Global_DBO"
+        },
+        {
+          "name": "Global_D_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Global_D_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 853,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

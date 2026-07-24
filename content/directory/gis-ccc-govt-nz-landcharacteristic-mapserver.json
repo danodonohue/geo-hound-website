@@ -1,0 +1,1802 @@
+{
+  "slug": "gis-ccc-govt-nz-landcharacteristic-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ccc.govt.nz/server/rest/services/OpenData/LandCharacteristic/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ccc.govt.nz/server/rest/services/OpenData/LandCharacteristic/MapServer",
+  "title": "LandCharacteristic",
+  "description": "GIS service providing parcels, heritage, flood data.",
+  "abstract": "Land Characteristic placeholder",
+  "provider": "gis.ccc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 48,
+      "name": "BoulderFieldCapture",
+      "title": "BoulderFieldCapture",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "BoulderFieldCaptureID",
+          "type": "esriFieldTypeOID",
+          "alias": "BoulderFieldCaptureID"
+        },
+        {
+          "name": "GNSObjectID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GNSObjectID"
+        },
+        {
+          "name": "NorthingTM",
+          "type": "esriFieldTypeDouble",
+          "alias": "NorthingTM"
+        },
+        {
+          "name": "EastingTM",
+          "type": "esriFieldTypeDouble",
+          "alias": "EastingTM"
+        },
+        {
+          "name": "ReassessmentRequired",
+          "type": "esriFieldTypeString",
+          "alias": "ReassessmentRequired"
+        },
+        {
+          "name": "NumberOfRocks",
+          "type": "esriFieldTypeInteger",
+          "alias": "NumberOfRocks"
+        },
+        {
+          "name": "Height",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height"
+        },
+        {
+          "name": "Width",
+          "type": "esriFieldTypeDouble",
+          "alias": "Width"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth"
+        },
+        {
+          "name": "BoulderVolumeM3",
+          "type": "esriFieldTypeDouble",
+          "alias": "BoulderVolumeM3"
+        },
+        {
+          "name": "PrimaryShape",
+          "type": "esriFieldTypeString",
+          "alias": "PrimaryShape"
+        },
+        {
+          "name": "SecondaryShape",
+          "type": "esriFieldTypeString",
+          "alias": "SecondaryShape"
+        },
+        {
+          "name": "BoulderWobble",
+          "type": "esriFieldTypeString",
+          "alias": "BoulderWobble"
+        },
+        {
+          "name": "PrimarySupport",
+          "type": "esriFieldTypeString",
+          "alias": "PrimarySupport"
+        },
+        {
+          "name": "SecondarySupport",
+          "type": "esriFieldTypeString",
+          "alias": "SecondarySupport"
+        },
+        {
+          "name": "BoulderSituation",
+          "type": "esriFieldTypeString",
+          "alias": "BoulderSituation"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Geomorphology",
+      "title": "Geomorphology",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "GeomorphologyID",
+          "type": "esriFieldTypeOID",
+          "alias": "GeomorphologyID"
+        },
+        {
+          "name": "GNSObjectID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GNSObjectID"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "ShapeLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeLength"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "BackgroundCartographic",
+      "title": "BackgroundCartographic",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "BackgroundCartographicID",
+          "type": "esriFieldTypeOID",
+          "alias": "BackgroundCartographicID"
+        },
+        {
+          "name": "BackgroundType",
+          "type": "esriFieldTypeString",
+          "alias": "BackgroundType"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "ContaminatingActivity",
+      "title": "ContaminatingActivity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ContaminatingActivityID",
+          "type": "esriFieldTypeOID",
+          "alias": "ContaminatingActivityID"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Code",
+          "type": "esriFieldTypeString",
+          "alias": "Code"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "StartDate",
+          "type": "esriFieldTypeInteger",
+          "alias": "StartDate"
+        },
+        {
+          "name": "EndDate",
+          "type": "esriFieldTypeInteger",
+          "alias": "EndDate"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "DateArchived",
+          "type": "esriFieldTypeDate",
+          "alias": "DateArchived"
+        },
+        {
+          "name": "ReasonArchived",
+          "type": "esriFieldTypeString",
+          "alias": "ReasonArchived"
+        },
+        {
+          "name": "Verified",
+          "type": "esriFieldTypeString",
+          "alias": "Verified"
+        },
+        {
+          "name": "TRIMReference",
+          "type": "esriFieldTypeString",
+          "alias": "TRIMReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "ContaminationRemediation",
+      "title": "ContaminationRemediation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ContaminationRemediationID",
+          "type": "esriFieldTypeOID",
+          "alias": "ContaminationRemediationID"
+        },
+        {
+          "name": "RecordedContaminationID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RecordedContaminationID"
+        },
+        {
+          "name": "ContaminatingActivityID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ContaminatingActivityID"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Verified",
+          "type": "esriFieldTypeString",
+          "alias": "Verified"
+        },
+        {
+          "name": "DateRemediated",
+          "type": "esriFieldTypeDate",
+          "alias": "DateRemediated"
+        },
+        {
+          "name": "StandardOfRemediation",
+          "type": "esriFieldTypeString",
+          "alias": "StandardOfRemediation"
+        },
+        {
+          "name": "TRIMReference",
+          "type": "esriFieldTypeString",
+          "alias": "TRIMReference"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "EQRCourseGrid",
+      "title": "EQRCourseGrid",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "EQRCourseGridID",
+          "type": "esriFieldTypeOID",
+          "alias": "EQRCourseGridID"
+        },
+        {
+          "name": "EventID",
+          "type": "esriFieldTypeInteger",
+          "alias": "EventID"
+        },
+        {
+          "name": "GridCellID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GridCellID"
+        },
+        {
+          "name": "nzt",
+          "type": "esriFieldTypeDate",
+          "alias": "nzt"
+        },
+        {
+          "name": "mmi",
+          "type": "esriFieldTypeDouble",
+          "alias": "mmi"
+        },
+        {
+          "name": "conf",
+          "type": "esriFieldTypeDouble",
+          "alias": "conf"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "ErosionRemediation",
+      "title": "ErosionRemediation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ErosionRemediationID",
+          "type": "esriFieldTypeOID",
+          "alias": "ErosionRemediationID"
+        },
+        {
+          "name": "RemediationType",
+          "type": "esriFieldTypeString",
+          "alias": "RemediationType"
+        },
+        {
+          "name": "RemediationReason",
+          "type": "esriFieldTypeString",
+          "alias": "RemediationReason"
+        },
+        {
+          "name": "MaintenanceResponsibility",
+          "type": "esriFieldTypeString",
+          "alias": "MaintenanceResponsibility"
+        },
+        {
+          "name": "DateRemediated",
+          "type": "esriFieldTypeDate",
+          "alias": "DateRemediated"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Fill",
+      "title": "Fill",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "FillID",
+          "type": "esriFieldTypeOID",
+          "alias": "FillID"
+        },
+        {
+          "name": "GroundMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "GroundMaterial"
+        },
+        {
+          "name": "Depthm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depthm"
+        },
+        {
+          "name": "DepthAssessment",
+          "type": "esriFieldTypeString",
+          "alias": "DepthAssessment"
+        },
+        {
+          "name": "RelatedActivity",
+          "type": "esriFieldTypeString",
+          "alias": "RelatedActivity"
+        },
+        {
+          "name": "NZ4431CertificateGranted",
+          "type": "esriFieldTypeString",
+          "alias": "NZ4431CertificateGranted"
+        },
+        {
+          "name": "SupervisedByEngineer",
+          "type": "esriFieldTypeString",
+          "alias": "SupervisedByEngineer"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "DateFilled",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DateFilled"
+        },
+        {
+          "name": "RFSNumber",
+          "type": "esriFieldTypeString",
+          "alias": "RFSNumber"
+        },
+        {
+          "name": "DateArchived",
+          "type": "esriFieldTypeDate",
+          "alias": "DateArchived"
+        },
+        {
+          "name": "ReasonArchived",
+          "type": "esriFieldTypeString",
+          "alias": "ReasonArchived"
+        },
+        {
+          "name": "DateRecorded",
+          "type": "esriFieldTypeDate",
+          "alias": "DateRecorded"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "GeomorphologyMaterial",
+      "title": "GeomorphologyMaterial",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GeomorphologyMaterialID",
+          "type": "esriFieldTypeOID",
+          "alias": "GeomorphologyMaterialID"
+        },
+        {
+          "name": "GNSObjectID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GNSObjectID"
+        },
+        {
+          "name": "MaterialType",
+          "type": "esriFieldTypeString",
+          "alias": "MaterialType"
+        },
+        {
+          "name": "Confidence",
+          "type": "esriFieldTypeString",
+          "alias": "Confidence"
+        },
+        {
+          "name": "Code",
+          "type": "esriFieldTypeString",
+          "alias": "Code"
+        },
+        {
+          "name": "ShapeLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeLength"
+        },
+        {
+          "name": "ShapeArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "GeomorphologyProcess",
+      "title": "GeomorphologyProcess",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GeomorphologyProcessID",
+          "type": "esriFieldTypeOID",
+          "alias": "GeomorphologyProcessID"
+        },
+        {
+          "name": "ProcessType",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessType"
+        },
+        {
+          "name": "Confidence",
+          "type": "esriFieldTypeString",
+          "alias": "Confidence"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "ShapeLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeLength"
+        },
+        {
+          "name": "ShapeArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "ShapeArea"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "HistoricFlooding",
+      "title": "HistoricFlooding",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "HistoricFloodingID",
+          "type": "esriFieldTypeOID",
+          "alias": "HistoricFloodingID"
+        },
+        {
+          "name": "ItemTitle",
+          "type": "esriFieldTypeString",
+          "alias": "ItemTitle"
+        },
+        {
+          "name": "ItemType",
+          "type": "esriFieldTypeString",
+          "alias": "ItemType"
+        },
+        {
+          "name": "YearRange",
+          "type": "esriFieldTypeString",
+          "alias": "YearRange"
+        },
+        {
+          "name": "ItemURL",
+          "type": "esriFieldTypeString",
+          "alias": "ItemURL"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Landfill",
+      "title": "Landfill",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "LandfillID",
+          "type": "esriFieldTypeOID",
+          "alias": "LandfillID"
+        },
+        {
+          "name": "Operator",
+          "type": "esriFieldTypeString",
+          "alias": "Operator"
+        },
+        {
+          "name": "YearBegun",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "YearBegun"
+        },
+        {
+          "name": "YearClosed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "YearClosed"
+        },
+        {
+          "name": "ResourceConsentNumber",
+          "type": "esriFieldTypeInteger",
+          "alias": "ResourceConsentNumber"
+        },
+        {
+          "name": "LandfillGasTested",
+          "type": "esriFieldTypeString",
+          "alias": "LandfillGasTested"
+        },
+        {
+          "name": "ContaminantTested",
+          "type": "esriFieldTypeString",
+          "alias": "ContaminantTested"
+        },
+        {
+          "name": "GroundWaterTested",
+          "type": "esriFieldTypeString",
+          "alias": "GroundWaterTested"
+        },
+        {
+          "name": "SoilTested",
+          "type": "esriFieldTypeString",
+          "alias": "SoilTested"
+        },
+        {
+          "name": "RemediationDescription",
+          "type": "esriFieldTypeString",
+          "alias": "RemediationDescription"
+        },
+        {
+          "name": "DateRecorded",
+          "type": "esriFieldTypeDate",
+          "alias": "DateRecorded"
+        },
+        {
+          "name": "DateArchived",
+          "type": "esriFieldTypeDate",
+          "alias": "DateArchived"
+        },
+        {
+          "name": "ReasonArchived",
+          "type": "esriFieldTypeString",
+          "alias": "ReasonArchived"
+        },
+        {
+          "name": "OldLandfillID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OldLandfillID"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "VerificationDescription",
+          "type": "esriFieldTypeString",
+          "alias": "VerificationDescription"
+        },
+        {
+          "name": "Depthm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depthm"
+        },
+        {
+          "name": "DepthAssessment",
+          "type": "esriFieldTypeString",
+          "alias": "DepthAssessment"
+        },
+        {
+          "name": "TRIMReference",
+          "type": "esriFieldTypeString",
+          "alias": "TRIMReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "LiquefactionHazard",
+      "title": "LiquefactionHazard",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "drvLiquefactionHazardID",
+          "type": "esriFieldTypeOID",
+          "alias": "drvLiquefactionHazardID"
+        },
+        {
+          "name": "Scenario1DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario1DmgeClass"
+        },
+        {
+          "name": "Scenario1NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario1NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario1MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario1MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario1ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario1ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario2DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario2DmgeClass"
+        },
+        {
+          "name": "Scenario2NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario2NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario2MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario2MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario2ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario2ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario3DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario3DmgeClass"
+        },
+        {
+          "name": "Scenario3NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario3NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario3MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario3MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario3ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario3ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario4DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario4DmgeClass"
+        },
+        {
+          "name": "Scenario4NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario4NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario4MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario4MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario4ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario4ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario5DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario5DmgeClass"
+        },
+        {
+          "name": "Scenario5NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario5NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario5MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario5MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario5ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario5ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario6DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario6DmgeClass"
+        },
+        {
+          "name": "Scenario6NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario6NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario6MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario6MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario6ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario6ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario7DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario7DmgeClass"
+        },
+        {
+          "name": "Scenario7NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario7NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario7MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario7MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario7ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario7ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario8DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario8DmgeClass"
+        },
+        {
+          "name": "Scenario8NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario8NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario8MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario8MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario8ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario8ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario9DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario9DmgeClass"
+        },
+        {
+          "name": "Scenario9NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario9NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario9MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario9MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario9ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario9ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario10DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario10DmgeClass"
+        },
+        {
+          "name": "Scenario10NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario10NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario10MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario10MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario10ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario10ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario11DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario11DmgeClass"
+        },
+        {
+          "name": "Scenario11NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario11NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario11MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario11MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario11ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario11ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario12DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario12DmgeClass"
+        },
+        {
+          "name": "Scenario12NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario12NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario12MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario12MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario12ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario12ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario13DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario13DmgeClass"
+        },
+        {
+          "name": "Scenario13NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario13NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario13MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario13MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario13ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario13ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario14DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario14DmgeClass"
+        },
+        {
+          "name": "Scenario14NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario14NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario14MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario14MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario14ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario14ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario15DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario15DmgeClass"
+        },
+        {
+          "name": "Scenario15NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario15NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario15MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario15MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario15ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario15ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario16DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario16DmgeClass"
+        },
+        {
+          "name": "Scenario16NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario16NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario16MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario16MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario16ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario16ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario17DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario17DmgeClass"
+        },
+        {
+          "name": "Scenario17NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario17NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario17MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario17MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario17ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario17ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario18DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario18DmgeClass"
+        },
+        {
+          "name": "Scenario18NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario18NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario18MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario18MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario18ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario18ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario19DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario19DmgeClass"
+        },
+        {
+          "name": "Scenario19NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario19NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario19MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario19MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario19ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario19ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario20DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario20DmgeClass"
+        },
+        {
+          "name": "Scenario20NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario20NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario20MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario20MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario20ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario20ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario21DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario21DmgeClass"
+        },
+        {
+          "name": "Scenario21NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario21NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario21MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario21MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario21ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario21ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario22DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario22DmgeClass"
+        },
+        {
+          "name": "Scenario22NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario22NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario22MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario22MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario22ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario22ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario23DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario23DmgeClass"
+        },
+        {
+          "name": "Scenario23NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario23NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario23MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario23MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario23ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario23ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario24DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario24DmgeClass"
+        },
+        {
+          "name": "Scenario24NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario24NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario24MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario24MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario24ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario24ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario25DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario25DmgeClass"
+        },
+        {
+          "name": "Scenario25NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario25NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario25MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario25MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario25ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario25ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario26DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario26DmgeClass"
+        },
+        {
+          "name": "Scenario26NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario26NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario26MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario26MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario26ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario26ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario27DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario27DmgeClass"
+        },
+        {
+          "name": "Scenario27NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario27NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario27MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario27MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario27ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario27ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario28DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario28DmgeClass"
+        },
+        {
+          "name": "Scenario28NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario28NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario28MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario28MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario28ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario28ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario29DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario29DmgeClass"
+        },
+        {
+          "name": "Scenario29NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario29NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario29MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario29MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario29ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario29ModToSevereDmgeClass"
+        },
+        {
+          "name": "Scenario30DmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario30DmgeClass"
+        },
+        {
+          "name": "Scenario30NoneToMinorDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario30NoneToMinorDmgeClass"
+        },
+        {
+          "name": "Scenario30MinorToModDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario30MinorToModDmgeClass"
+        },
+        {
+          "name": "Scenario30ModToSevereDmgeClass",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scenario30ModToSevereDmgeClass"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "LiquefactionVulnerability",
+      "title": "LiquefactionVulnerability",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "drvLiquefactionVulnerabilityID",
+          "type": "esriFieldTypeOID",
+          "alias": "drvLiquefactionVulnerabilityID"
+        },
+        {
+          "name": "Study_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Study_Date"
+        },
+        {
+          "name": "Author",
+          "type": "esriFieldTypeString",
+          "alias": "Author"
+        },
+        {
+          "name": "Rept_Ref",
+          "type": "esriFieldTypeString",
+          "alias": "Rept_Ref"
+        },
+        {
+          "name": "Purpose",
+          "type": "esriFieldTypeString",
+          "alias": "Purpose"
+        },
+        {
+          "name": "Purp_Oth",
+          "type": "esriFieldTypeString",
+          "alias": "Purp_Oth"
+        },
+        {
+          "name": "Base_Inf",
+          "type": "esriFieldTypeString",
+          "alias": "Base_Inf"
+        },
+        {
+          "name": "Uncert",
+          "type": "esriFieldTypeString",
+          "alias": "Uncert"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "Detail",
+          "type": "esriFieldTypeString",
+          "alias": "Detail"
+        },
+        {
+          "name": "Liq_Cat",
+          "type": "esriFieldTypeString",
+          "alias": "Liq_Cat"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Lowlying",
+      "title": "Lowlying",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "LowlyingID",
+          "type": "esriFieldTypeOID",
+          "alias": "LowlyingID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "BespokeComment",
+          "type": "esriFieldTypeString",
+          "alias": "BespokeComment"
+        },
+        {
+          "name": "LIMCommentID",
+          "type": "esriFieldTypeString",
+          "alias": "LIMCommentID"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 94,
+      "name": "QuakeFoundationDesign",
+      "title": "QuakeFoundationDesign",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 95,
+      "name": "QuakeLandZone",
+      "title": "QuakeLandZone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "SlopeHazard",
+      "title": "SlopeHazard",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 86,
+      "name": "SoftGround",
+      "title": "SoftGround",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 156,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

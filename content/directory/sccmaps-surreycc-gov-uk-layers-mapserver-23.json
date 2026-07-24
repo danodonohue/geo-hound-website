@@ -1,0 +1,140 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-23",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_RegParkGarden/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_RegParkGarden/MapServer",
+  "title": "Layers",
+  "description": "Registered parks and gardens with historic and landscape value.",
+  "abstract": "Layers associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 12,
+      "name": "Heritage - Registered Park & Garden",
+      "title": "Heritage - Registered Park & Garden",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Grade",
+          "type": "esriFieldTypeString",
+          "alias": "Grade"
+        },
+        {
+          "name": "RegDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Reg Date"
+        },
+        {
+          "name": "AmendDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Amend Date"
+        },
+        {
+          "name": "NGR",
+          "type": "esriFieldTypeString",
+          "alias": "NGR"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CaptureScale",
+          "type": "esriFieldTypeString",
+          "alias": "CaptureScale"
+        },
+        {
+          "name": "ListEntry",
+          "type": "esriFieldTypeInteger",
+          "alias": "ListEntry"
+        },
+        {
+          "name": "hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "NHLE link"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 309,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

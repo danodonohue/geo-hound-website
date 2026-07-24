@@ -1,0 +1,637 @@
+{
+  "slug": "maps-gdc-govt-nz-uniplan-heritage-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_heritage_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_heritage_ext/MapServer",
+  "title": "uniplan_heritage_ext",
+  "description": "Historic and cultural heritage sites, monuments and waahi tapu areas for Gisborne district.",
+  "abstract": "Historic and Cultural Heritage  layers for the Tairawhiti Resource Management Plan of the Gisborne Distrcit Council",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Historic and Cultural Heritage",
+      "title": "Historic and Cultural Heritage",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Archaeological & Waahi Tapu Sites",
+      "title": "Archaeological & Waahi Tapu Sites",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ARCHAEOL_",
+          "type": "esriFieldTypeInteger",
+          "alias": "ARCHAEOL_"
+        },
+        {
+          "name": "ARCHAEOL_I",
+          "type": "esriFieldTypeInteger",
+          "alias": "ARCHAEOL_I"
+        },
+        {
+          "name": "SITE_NO_",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_NO_"
+        },
+        {
+          "name": "GROE",
+          "type": "esriFieldTypeString",
+          "alias": "GROE"
+        },
+        {
+          "name": "GRNE",
+          "type": "esriFieldTypeString",
+          "alias": "GRNE"
+        },
+        {
+          "name": "GRGE",
+          "type": "esriFieldTypeString",
+          "alias": "GRGE"
+        },
+        {
+          "name": "GRON",
+          "type": "esriFieldTypeString",
+          "alias": "GRON"
+        },
+        {
+          "name": "GRNN",
+          "type": "esriFieldTypeString",
+          "alias": "GRNN"
+        },
+        {
+          "name": "GRGN",
+          "type": "esriFieldTypeString",
+          "alias": "GRGN"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeInteger",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeInteger",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DELETED",
+          "type": "esriFieldTypeString",
+          "alias": "DELETED"
+        },
+        {
+          "name": "DP_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "DP_LABEL"
+        },
+        {
+          "name": "SITE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_TYPE"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "BUFFER",
+          "type": "esriFieldTypeInteger",
+          "alias": "BUFFER"
+        },
+        {
+          "name": "BUFF_RADIU",
+          "type": "esriFieldTypeSingle",
+          "alias": "BUFF_RADIU"
+        },
+        {
+          "name": "POLYGONID",
+          "type": "esriFieldTypeInteger",
+          "alias": "POLYGONID"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeDouble",
+          "alias": "SCALE"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Archaeological Buffers",
+      "title": "Archaeological Buffers",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BUFFER_DIS",
+          "type": "esriFieldTypeDouble",
+          "alias": "BUFFER_DIS"
+        },
+        {
+          "name": "BUFFER_ARE",
+          "type": "esriFieldTypeDouble",
+          "alias": "BUFFER_ARE"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Archaeological Areas",
+      "title": "Archaeological Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ARCH_AREA_",
+          "type": "esriFieldTypeInteger",
+          "alias": "ARCH_AREA_"
+        },
+        {
+          "name": "ARCH_AREA1",
+          "type": "esriFieldTypeInteger",
+          "alias": "ARCH_AREA1"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "CBD Schedule - Historical Buildings",
+      "title": "CBD Schedule - Historical Buildings",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "HISTOR_BUI",
+          "type": "esriFieldTypeInteger",
+          "alias": "HISTOR_BUI"
+        },
+        {
+          "name": "HISTOR_B_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "HISTOR_B_1"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "NUM",
+          "type": "esriFieldTypeString",
+          "alias": "NUM"
+        },
+        {
+          "name": "HPT_Num",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HPT_Num"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Post European Contact Schedule - Historic Sites",
+      "title": "Post European Contact Schedule - Historic Sites",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "HISTORIC_",
+          "type": "esriFieldTypeInteger",
+          "alias": "HISTORIC_"
+        },
+        {
+          "name": "HISTORIC_I",
+          "type": "esriFieldTypeInteger",
+          "alias": "HISTORIC_I"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Heritage Precinct",
+      "title": "Heritage Precinct",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "PRECINCT_",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRECINCT_"
+        },
+        {
+          "name": "PRECINCT_I",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRECINCT_I"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "TEXT1",
+          "type": "esriFieldTypeString",
+          "alias": "TEXT1"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Waahi Tapu Areas",
+      "title": "Waahi Tapu Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_NAME"
+        },
+        {
+          "name": "SITE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_TYPE"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "X_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_COORD"
+        },
+        {
+          "name": "Y_COORD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_COORD"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Heritage Alert Overlay",
+      "title": "Heritage Alert Overlay",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ARCHAZ_ZON",
+          "type": "esriFieldTypeInteger",
+          "alias": "ARCHAZ_ZON"
+        },
+        {
+          "name": "ARCHAZ_Z_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "ARCHAZ_Z_1"
+        },
+        {
+          "name": "ZONE_STATU",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE_STATU"
+        },
+        {
+          "name": "SYMBOL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SYMBOL"
+        },
+        {
+          "name": "TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "TEXT"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 148,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

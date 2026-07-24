@@ -1,0 +1,800 @@
+{
+  "slug": "enterprise-firstmap-delaware-gov-de-protected-natural-resources-mapserver",
+  "service_key": "ESRI MapServer:https://enterprise.firstmap.delaware.gov/arcgis/rest/services/Environmental/DE_Protected_Natural_Resources/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://enterprise.firstmap.delaware.gov/arcgis/rest/services/Environmental/DE_Protected_Natural_Resources/MapServer",
+  "title": "DE_Protected_Natural_Resources",
+  "description": "Delaware protected natural resources including coastal building lines, conservation easements, and wildlife areas.",
+  "abstract": "DNREC Building Lines and Points (No Build Lines and Points) - To ensure that beaches and dunes are able to perform their protective and recreational functions, construction must be kept off them. A Building Line has been established along the coast as part of the Regulations Governing Beach Protection and the Use of Beaches. The Building Line, which parallels the coastline, is designated on DNREC maps. No construction may take place seaward of the Line without a Coastal Construction Permit or Coastal Construction Letter of Approval from the Department of Natural Resources and Environmental Control (DNREC).Beach Preservation Regulatory Area - Area of the beach that is regulated by DNREC.Park Facilities - The dataset is a point file depicting outdoor recreational facilities throughout Delaware.  Data is used for general mapping purposes, recreational analysis, statistical calculations for reports, development of management and landuse plans and recreational modeling.Natural Areas - This data set identifies boundaries for the Natural Areas Inventory statewide for the purpose of achieving voluntary land protection of the most important natural areas in Delaware. This data should be used for natural area and land use planning purposes. The ultimate goal of the program is the establishment of State Nature Preserves, the highest level of land protection in Delaware.Outdoor Recreation, Parks and Trails Program Lands – Lands protected under Outdoor Recreation, Parks and Trails Program RequirementsLand and Water Conservation Fund – Lands protected under the Land and Water Conservation Fund.Nature Preserves - The dataset depicts lands preserved under the Delaware Nature Preserves Program.  Data is used for general mapping purposes, land acquisition analyses, statistical calculations for reports, development of management and landuse plans, and environmental assessments.Outdoor Recreation Areas - Publicly owned lands within Delaware that are open for public recreation.Outdoor Recreation, Parks and Trails Program Open Space - land protected in perpetuity under the Outdoor Recreation, Parks and Trails Program.Public Protected Lands – Outdoor Recreation Areas open to the public.Conservation Easements - Includes all Conservation Easements held by Delaware State Parks, both current and historic. Also includes a partial &amp; non-comprehensive list of Conservation Easements held by other State agencies and NGOs.Seasonal Restricted Areas - Seasonal Restricted Areas represent portions of Delaware State Parks that are closed to public access during different seasons.Permanent Restricted Areas - Permanent Restricted Areas represent portions of Delaware State Parks that are closed to public access all year long.Wildlife Area Boundaries - Boundaries data was created for use in the Digital State of Delaware, Wildlife Area maps.",
+  "provider": "enterprise.firstmap.delaware.gov",
+  "place": {
+    "country": "United States",
+    "state": "Delaware",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "DNREC Building Points (No Build Points- Bay)",
+      "title": "DNREC Building Points (No Build Points- Bay)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MAP___",
+          "type": "esriFieldTypeInteger",
+          "alias": "MAP___"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeInteger",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "id"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "DNREC Building Line (No Build Line - Bay)",
+      "title": "DNREC Building Line (No Build Line - Bay)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "id"
+        },
+        {
+          "name": "ET_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ET_ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "DNREC Building Points (No Build Points - Ocean)",
+      "title": "DNREC Building Points (No Build Points - Ocean)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MAP___",
+          "type": "esriFieldTypeInteger",
+          "alias": "MAP___"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "DNREC Building Line (No Build Line - Ocean)",
+      "title": "DNREC Building Line (No Build Line - Ocean)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "ET_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ET_ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "DNREC Beach Preservation Regulated Area",
+      "title": "DNREC Beach Preservation Regulated Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Outdoor Recreation, Parks and Trails Program Lands",
+      "title": "Outdoor Recreation, Parks and Trails Program Lands",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeDouble",
+          "alias": "FACILITYID"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "REGION"
+        },
+        {
+          "name": "PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_NUM"
+        },
+        {
+          "name": "PROJ_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_NAME"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "DESCRIP",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIP"
+        },
+        {
+          "name": "ALIAS",
+          "type": "esriFieldTypeString",
+          "alias": "ALIAS"
+        },
+        {
+          "name": "PROJ_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_DATE"
+        },
+        {
+          "name": "REPLACEMENT",
+          "type": "esriFieldTypeString",
+          "alias": "Replacement"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Land and Water Conservation Fund",
+      "title": "Land and Water Conservation Fund",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeDouble",
+          "alias": "FACILITYID"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acres"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "REGION"
+        },
+        {
+          "name": "PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_NUM"
+        },
+        {
+          "name": "PROJ_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_NAME"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "DESCRIP",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIP"
+        },
+        {
+          "name": "PROJ_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Proj_Type"
+        },
+        {
+          "name": "ALIAS",
+          "type": "esriFieldTypeString",
+          "alias": "ALIAS"
+        },
+        {
+          "name": "PROJ_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "PROJ_DATE"
+        },
+        {
+          "name": "REPLACEMENT",
+          "type": "esriFieldTypeString",
+          "alias": "Replacemen"
+        },
+        {
+          "name": "LWCF_FUNDS_TOTAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "LWCF_Funds_Total"
+        },
+        {
+          "name": "PROJECT_TOTAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "Project_Total"
+        },
+        {
+          "name": "PROJ_SUB_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Proj_Sub_Type"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Nature Preserves",
+      "title": "Nature Preserves",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TRACT",
+          "type": "esriFieldTypeString",
+          "alias": "TRACT"
+        },
+        {
+          "name": "OWNERSHIP",
+          "type": "esriFieldTypeString",
+          "alias": "OWNERSHIP"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Outdoor Recreation Areas",
+      "title": "Outdoor Recreation Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TRACT",
+          "type": "esriFieldTypeString",
+          "alias": "TRACT"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "USE_",
+          "type": "esriFieldTypeString",
+          "alias": "Use"
+        },
+        {
+          "name": "PUBLIC_ACESS",
+          "type": "esriFieldTypeString",
+          "alias": "Public_Acess"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "County"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acres"
+        },
+        {
+          "name": "MANAGING_AGENCY",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_Agency"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Outdoor Recreation, Parks and Trails Program Open Space",
+      "title": "Outdoor Recreation, Parks and Trails Program Open Space",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AGENCY",
+          "type": "esriFieldTypeString",
+          "alias": "Agency"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "County"
+        },
+        {
+          "name": "MANAGEMENT_AREA",
+          "type": "esriFieldTypeString",
+          "alias": "Management_Area"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acres"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Public Protected Lands",
+      "title": "Public Protected Lands",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FACILITYID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FACILITYID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "USE",
+          "type": "esriFieldTypeString",
+          "alias": "Use"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acres"
+        },
+        {
+          "name": "WEB_ADDRESSES",
+          "type": "esriFieldTypeString",
+          "alias": "WEB_ADDRESSES"
+        },
+        {
+          "name": "MANAGING_AGENCY",
+          "type": "esriFieldTypeString",
+          "alias": "MANAGING AGENCY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "STATE_PARK",
+          "type": "esriFieldTypeString",
+          "alias": "State Park"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Conservation Easements",
+      "title": "Conservation Easements",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GRANTOR",
+          "type": "esriFieldTypeString",
+          "alias": "GRANTOR"
+        },
+        {
+          "name": "HELDBY",
+          "type": "esriFieldTypeString",
+          "alias": "HELDBY"
+        },
+        {
+          "name": "FILE_",
+          "type": "esriFieldTypeString",
+          "alias": "FILE"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Seasonal Restricted Areas",
+      "title": "Seasonal Restricted Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PARK",
+          "type": "esriFieldTypeString",
+          "alias": "PARK"
+        },
+        {
+          "name": "CLOSURE",
+          "type": "esriFieldTypeString",
+          "alias": "CLOSURE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Permanent Restricted Areas",
+      "title": "Permanent Restricted Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PARK",
+          "type": "esriFieldTypeString",
+          "alias": "PARK"
+        },
+        {
+          "name": "CLOSURE",
+          "type": "esriFieldTypeString",
+          "alias": "CLOSURE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Wildlife Area Boundaries",
+      "title": "Wildlife Area Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "TRACT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TRACT_NAME"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "GIS_ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS_ACRES"
+        },
+        {
+          "name": "PUB_ENTRY",
+          "type": "esriFieldTypeString",
+          "alias": "PUB_ENTRY"
+        },
+        {
+          "name": "SUN_HUNT",
+          "type": "esriFieldTypeString",
+          "alias": "SUN_HUNT"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "STORYSTOP",
+          "type": "esriFieldTypeString",
+          "alias": "Map URL"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1150,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

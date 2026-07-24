@@ -1,0 +1,124 @@
+{
+  "slug": "gis-odot-state-or-us-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis.odot.state.or.us/arcgis1006/rest/services/data_layers/wildlife_collision_density/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.odot.state.or.us/arcgis1006/rest/services/data_layers/wildlife_collision_density/MapServer",
+  "title": "Layers",
+  "description": "Wildlife collision density on Oregon state highways from carcass report data",
+  "abstract": "Calculated from animal carcass incidents recorded by Oregon Department of Transportation dispatch records of carcass reports for the most recent 5 years of data on all state highways)calculated over a 1 mile radius. Units are animals per mile of highway.  Wildlife Collision Density <a href=\" https://wpdotappl159/geoportal/catalog/search/resource/details.page?uuid=%7B5343AF4A-59FC-4D9F-8BE6-A6779C0AF939%7D\">Metadata</a><br/><br/>",
+  "place": {
+    "country": "United States",
+    "state": "Oregon",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "roads",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Wildlife Collision Density",
+      "title": "Wildlife Collision Density",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "HWYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ODOT Highway Name"
+        },
+        {
+          "name": "HWYNUMB",
+          "type": "esriFieldTypeString",
+          "alias": "HWYNUMB"
+        },
+        {
+          "name": "BEGMP",
+          "type": "esriFieldTypeSingle",
+          "alias": "BEGMP"
+        },
+        {
+          "name": "ENDMP",
+          "type": "esriFieldTypeSingle",
+          "alias": "ENDMP"
+        },
+        {
+          "name": "DENSITY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Density (Collisions per Mile)"
+        },
+        {
+          "name": "DENSITY_CAT",
+          "type": "esriFieldTypeString",
+          "alias": "DENSITY_CAT"
+        },
+        {
+          "name": "LENGTH_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length (mi)"
+        },
+        {
+          "name": "LRM_KEY",
+          "type": "esriFieldTypeString",
+          "alias": "Linear Reference Method Key"
+        },
+        {
+          "name": "GIS_PRC_DT",
+          "type": "esriFieldTypeString",
+          "alias": "GIS Process Date"
+        },
+        {
+          "name": "EFFECTV_DT",
+          "type": "esriFieldTypeString",
+          "alias": "Effective Date"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 927,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

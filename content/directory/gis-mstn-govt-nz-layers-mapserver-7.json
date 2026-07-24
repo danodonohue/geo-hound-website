@@ -1,0 +1,631 @@
+{
+  "slug": "gis-mstn-govt-nz-layers-mapserver-7",
+  "service_key": "ESRI MapServer:https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Addresses/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Addresses/MapServer",
+  "title": "Layers",
+  "description": "Public GIS service providing geographic data and mapping.",
+  "abstract": "Address labels for the Wairarapa region - Includes LINZ addresses and addresses from NCS.",
+  "provider": "gis.mstn.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "LINZ Addresses",
+      "title": "LINZ Addresses",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "address_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_id"
+        },
+        {
+          "name": "change_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "change_id"
+        },
+        {
+          "name": "address_type",
+          "type": "esriFieldTypeString",
+          "alias": "address_type"
+        },
+        {
+          "name": "unit_value",
+          "type": "esriFieldTypeString",
+          "alias": "unit_value"
+        },
+        {
+          "name": "address_number",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_number"
+        },
+        {
+          "name": "address_number_suffix",
+          "type": "esriFieldTypeString",
+          "alias": "address_number_suffix"
+        },
+        {
+          "name": "address_number_high",
+          "type": "esriFieldTypeInteger",
+          "alias": "address_number_high"
+        },
+        {
+          "name": "water_route_name",
+          "type": "esriFieldTypeString",
+          "alias": "water_route_name"
+        },
+        {
+          "name": "water_name",
+          "type": "esriFieldTypeString",
+          "alias": "water_name"
+        },
+        {
+          "name": "suburb_locality",
+          "type": "esriFieldTypeString",
+          "alias": "suburb_locality"
+        },
+        {
+          "name": "town_city",
+          "type": "esriFieldTypeString",
+          "alias": "town_city"
+        },
+        {
+          "name": "full_address_number",
+          "type": "esriFieldTypeString",
+          "alias": "full_address_number"
+        },
+        {
+          "name": "full_road_name",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name"
+        },
+        {
+          "name": "full_address",
+          "type": "esriFieldTypeString",
+          "alias": "full_address"
+        },
+        {
+          "name": "road_section_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "road_section_id"
+        },
+        {
+          "name": "gd2000_xcoord",
+          "type": "esriFieldTypeDouble",
+          "alias": "gd2000_xcoord"
+        },
+        {
+          "name": "gd2000_ycoord",
+          "type": "esriFieldTypeDouble",
+          "alias": "gd2000_ycoord"
+        },
+        {
+          "name": "water_route_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "water_route_name_ascii"
+        },
+        {
+          "name": "water_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "water_name_ascii"
+        },
+        {
+          "name": "suburb_locality_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "suburb_locality_ascii"
+        },
+        {
+          "name": "town_city_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "town_city_ascii"
+        },
+        {
+          "name": "full_road_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "full_road_name_ascii"
+        },
+        {
+          "name": "full_address_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "full_address_ascii"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "NCS Addresses",
+      "title": "NCS Addresses",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Masterton",
+      "title": "Masterton",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "ValuationID",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationID"
+        },
+        {
+          "name": "PropertyID",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LegalDescription"
+        },
+        {
+          "name": "Ratepayer1FirstName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer1FirstName"
+        },
+        {
+          "name": "Ratepayer1LastName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer1LastName"
+        },
+        {
+          "name": "Ratepayer2FirstName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer2FirstName"
+        },
+        {
+          "name": "Ratepayer2LastName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer2LastName"
+        },
+        {
+          "name": "RatepayerAddress1",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress1"
+        },
+        {
+          "name": "RatepayerAddress2",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress2"
+        },
+        {
+          "name": "RatepayerAddress3",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress3"
+        },
+        {
+          "name": "RatepayerAddress4",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress4"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "CapitalValue"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValue"
+        },
+        {
+          "name": "ImprValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "ImprValue"
+        },
+        {
+          "name": "TotalRates",
+          "type": "esriFieldTypeDouble",
+          "alias": "TotalRates"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "RatepayerSecret",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerSecret"
+        },
+        {
+          "name": "NCSURL",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURL"
+        },
+        {
+          "name": "NCSURLPublic",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURLPublic"
+        },
+        {
+          "name": "Notes1",
+          "type": "esriFieldTypeString",
+          "alias": "Notes1"
+        },
+        {
+          "name": "Notes2",
+          "type": "esriFieldTypeString",
+          "alias": "Notes2"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PropertyDocuments",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyDocuments"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Carterton",
+      "title": "Carterton",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "ValuationID",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationID"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LegalDescription"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValue"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "CapitalValue"
+        },
+        {
+          "name": "Ratepayer1FirstName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer1FirstName"
+        },
+        {
+          "name": "Ratepayer1LastName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer1LastName"
+        },
+        {
+          "name": "Ratepayer2FirstName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer2FirstName"
+        },
+        {
+          "name": "Ratepayer2LastName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer2LastName"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "NCSURL",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURL"
+        },
+        {
+          "name": "NCSURLPublic",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURLPublic"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ImprValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "ImprValue"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "PropertyID",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyID"
+        },
+        {
+          "name": "RatepayerAddress1",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress1"
+        },
+        {
+          "name": "RatepayerAddress2",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress2"
+        },
+        {
+          "name": "RatepayerAddress3",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress3"
+        },
+        {
+          "name": "RatepayerAddress4",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress4"
+        },
+        {
+          "name": "TotalRates",
+          "type": "esriFieldTypeDouble",
+          "alias": "TotalRates"
+        },
+        {
+          "name": "RatepayerSecret",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerSecret"
+        },
+        {
+          "name": "Notes1",
+          "type": "esriFieldTypeString",
+          "alias": "Notes1"
+        },
+        {
+          "name": "Notes2",
+          "type": "esriFieldTypeString",
+          "alias": "Notes2"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "South Wairarapa",
+      "title": "South Wairarapa",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ParcelID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ParcelID"
+        },
+        {
+          "name": "ValuationID",
+          "type": "esriFieldTypeString",
+          "alias": "ValuationID"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LegalDescription"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "LandValue"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "CapitalValue"
+        },
+        {
+          "name": "ImprValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "ImprValue"
+        },
+        {
+          "name": "TotalRates",
+          "type": "esriFieldTypeDouble",
+          "alias": "TotalRates"
+        },
+        {
+          "name": "Ratepayer1FirstName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer1FirstName"
+        },
+        {
+          "name": "Ratepayer1LastName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer1LastName"
+        },
+        {
+          "name": "Ratepayer2FirstName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer2FirstName"
+        },
+        {
+          "name": "Ratepayer2LastName",
+          "type": "esriFieldTypeString",
+          "alias": "Ratepayer2LastName"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Hectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "NCSURL",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURL"
+        },
+        {
+          "name": "NCSURLPublic",
+          "type": "esriFieldTypeString",
+          "alias": "NCSURLPublic"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "PropertyID",
+          "type": "esriFieldTypeString",
+          "alias": "PropertyID"
+        },
+        {
+          "name": "RatepayerAddress1",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress1"
+        },
+        {
+          "name": "RatepayerAddress2",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress2"
+        },
+        {
+          "name": "RatepayerAddress3",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress3"
+        },
+        {
+          "name": "RatepayerAddress4",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerAddress4"
+        },
+        {
+          "name": "RatepayerSecret",
+          "type": "esriFieldTypeString",
+          "alias": "RatepayerSecret"
+        },
+        {
+          "name": "Notes1",
+          "type": "esriFieldTypeString",
+          "alias": "Notes1"
+        },
+        {
+          "name": "Notes2",
+          "type": "esriFieldTypeString",
+          "alias": "Notes2"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 59,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.9,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

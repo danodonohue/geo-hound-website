@@ -1,0 +1,105 @@
+{
+  "slug": "www-mapping-cityoflondon-gov-uk-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_School_Admissions/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_School_Admissions/MapServer",
+  "title": "Layers",
+  "description": "School admissions priority area for urban planning.",
+  "abstract": "This map shows the Admissions Priority Area as outlined in the admissions criteria for The Aldgate School. Priority is given to applicants who reside within this area.",
+  "provider": "www.mapping.cityoflondon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "London",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "demographics",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "School Admissions Priority Area",
+      "title": "School Admissions Priority Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CREATED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED_USER"
+        },
+        {
+          "name": "CREATED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DATE_UTC_TIME"
+        },
+        {
+          "name": "LAST_EDITED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDITED_USER"
+        },
+        {
+          "name": "LAST_EDITED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDITED_DATE_UTC_TIME"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 898,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

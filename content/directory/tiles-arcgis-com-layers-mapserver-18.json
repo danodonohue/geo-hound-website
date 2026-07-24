@@ -1,0 +1,48 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver-18",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/8G10QCd84QpdcTJ9/arcgis/rest/services/Gisborne_100mm_Contours_NZVD16_/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/8G10QCd84QpdcTJ9/arcgis/rest/services/Gisborne_100mm_Contours_NZVD16_/MapServer",
+  "title": "Layers",
+  "description": "100mm elevation contours for Gisborne derived from 2018-2020 LiDAR data.",
+  "abstract": "100mm Contours for the Gisborne Central, Waipaoa and Wainui areas. Contours derived from the LiDAR tiles for the Gisborne District captured between 2018 and 2020. All elevation values are in NZVD16",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Contour 100mm",
+      "title": "Contour 100mm",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 359,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

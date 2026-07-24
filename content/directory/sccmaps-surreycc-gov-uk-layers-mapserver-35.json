@@ -1,0 +1,155 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-35",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_DrainageGullies/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/RoadsTransport_DrainageGullies/MapServer",
+  "title": "Layers",
+  "description": "Road drainage gullies and surface water management.",
+  "abstract": "Roads & Transport - Drainage gullies",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 18,
+      "name": "Roads & Transport - Drainage gullies",
+      "title": "Roads & Transport - Drainage gullies",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset ID"
+        },
+        {
+          "name": "Gully_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Road",
+          "type": "esriFieldTypeString",
+          "alias": "Road"
+        },
+        {
+          "name": "Gully_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Area"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "DupID",
+          "type": "esriFieldTypeString",
+          "alias": "DupID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "USRN",
+          "type": "esriFieldTypeString",
+          "alias": "USRN"
+        },
+        {
+          "name": "ESU",
+          "type": "esriFieldTypeString",
+          "alias": "ESU"
+        },
+        {
+          "name": "Reference",
+          "type": "esriFieldTypeString",
+          "alias": "More info"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "Old_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Old_ID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 308,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

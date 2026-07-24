@@ -1,0 +1,353 @@
+{
+  "slug": "arcgis-dnr-alaska-gov-ownership-statelandall-mapserver",
+  "service_key": "ESRI MapServer:https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Ownership_StateLandAll/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Ownership_StateLandAll/MapServer",
+  "title": "Ownership_StateLandAll",
+  "description": "Alaska state land ownership boundaries showing current and historical state land parcels.",
+  "abstract": "web service showing all state land, past or present.",
+  "provider": "arcgis.dnr.alaska.gov",
+  "place": {
+    "country": "United States",
+    "state": "Alaska",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "State Land - Line",
+      "title": "State Land - Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FILE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_TYPE"
+        },
+        {
+          "name": "CASE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CASE_TYPE"
+        },
+        {
+          "name": "CS_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "CS_LABEL"
+        },
+        {
+          "name": "DISPLAY",
+          "type": "esriFieldTypeString",
+          "alias": "DISPLAY"
+        },
+        {
+          "name": "LS_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LS_LABEL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "CASE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CASE_ID"
+        },
+        {
+          "name": "CSTMRNM",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRNM"
+        },
+        {
+          "name": "CSTYPDSCRP",
+          "type": "esriFieldTypeString",
+          "alias": "CSTYPDSCRP"
+        },
+        {
+          "name": "SPCLCDDSCR",
+          "type": "esriFieldTypeString",
+          "alias": "SPCLCDDSCR"
+        },
+        {
+          "name": "CSSTTSDSCR",
+          "type": "esriFieldTypeString",
+          "alias": "CSSTTSDSCR"
+        },
+        {
+          "name": "LNDSTTSDSC",
+          "type": "esriFieldTypeString",
+          "alias": "LNDSTTSDSC"
+        },
+        {
+          "name": "FILENUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "FILENUMBER"
+        },
+        {
+          "name": "SPCLCD",
+          "type": "esriFieldTypeString",
+          "alias": "SPCLCD"
+        },
+        {
+          "name": "CASESTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "CASESTATUS"
+        },
+        {
+          "name": "LANDSTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "LANDSTATUS"
+        },
+        {
+          "name": "PTNTNMBR",
+          "type": "esriFieldTypeString",
+          "alias": "PTNTNMBR"
+        },
+        {
+          "name": "CSTMRLSTNM",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRLSTNM"
+        },
+        {
+          "name": "CSTMRFRSTN",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRFRSTN"
+        },
+        {
+          "name": "CSTMRMDDLN",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRMDDLN"
+        },
+        {
+          "name": "CTSCLABEL",
+          "type": "esriFieldTypeString",
+          "alias": "CTSCLABEL"
+        },
+        {
+          "name": "MI_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "MI_LABEL"
+        },
+        {
+          "name": "INFO_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "INFO_LINK"
+        },
+        {
+          "name": "RFRSHDT",
+          "type": "esriFieldTypeDate",
+          "alias": "RFRSHDT"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "State Land - Polygon",
+      "title": "State Land - Polygon",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FILE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_TYPE"
+        },
+        {
+          "name": "CASE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CASE_TYPE"
+        },
+        {
+          "name": "CS_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "CS_LABEL"
+        },
+        {
+          "name": "DISPLAY",
+          "type": "esriFieldTypeString",
+          "alias": "DISPLAY"
+        },
+        {
+          "name": "LS_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LS_LABEL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "CASE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CASE_ID"
+        },
+        {
+          "name": "CSTMRNM",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRNM"
+        },
+        {
+          "name": "CSTYPDSCRP",
+          "type": "esriFieldTypeString",
+          "alias": "CSTYPDSCRP"
+        },
+        {
+          "name": "SPCLCDDSCR",
+          "type": "esriFieldTypeString",
+          "alias": "SPCLCDDSCR"
+        },
+        {
+          "name": "CSSTTSDSCR",
+          "type": "esriFieldTypeString",
+          "alias": "CSSTTSDSCR"
+        },
+        {
+          "name": "LNDSTTSDSC",
+          "type": "esriFieldTypeString",
+          "alias": "LNDSTTSDSC"
+        },
+        {
+          "name": "FILENUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "FILENUMBER"
+        },
+        {
+          "name": "SPCLCD",
+          "type": "esriFieldTypeString",
+          "alias": "SPCLCD"
+        },
+        {
+          "name": "CASESTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "CASESTATUS"
+        },
+        {
+          "name": "LANDSTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "LANDSTATUS"
+        },
+        {
+          "name": "PTNTNMBR",
+          "type": "esriFieldTypeString",
+          "alias": "PTNTNMBR"
+        },
+        {
+          "name": "CSTMRLSTNM",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRLSTNM"
+        },
+        {
+          "name": "CSTMRFRSTN",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRFRSTN"
+        },
+        {
+          "name": "CSTMRMDDLN",
+          "type": "esriFieldTypeString",
+          "alias": "CSTMRMDDLN"
+        },
+        {
+          "name": "CTSCLABEL",
+          "type": "esriFieldTypeString",
+          "alias": "CTSCLABEL"
+        },
+        {
+          "name": "MI_LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "MI_LABEL"
+        },
+        {
+          "name": "INFO_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "INFO_LINK"
+        },
+        {
+          "name": "RFRSHDT",
+          "type": "esriFieldTypeDate",
+          "alias": "RFRSHDT"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102006"
+  ],
+  "cors_enabled": true,
+  "response_ms": 961,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

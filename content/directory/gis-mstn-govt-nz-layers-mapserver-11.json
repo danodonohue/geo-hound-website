@@ -1,0 +1,775 @@
+{
+  "slug": "gis-mstn-govt-nz-layers-mapserver-11",
+  "service_key": "ESRI MapServer:https://gis.mstn.govt.nz/arcgis/rest/services/Services/SewerPublic/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.mstn.govt.nz/arcgis/rest/services/Services/SewerPublic/MapServer",
+  "title": "Layers",
+  "description": "Sewer pipes, treatment facilities and pump station infrastructure.",
+  "abstract": "Sewer Services for the Wairarapa region - Available for public use.",
+  "provider": "gis.mstn.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Masterton",
+      "title": "Masterton",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Treatment",
+      "title": "Treatment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "UNIQUEID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIQUEID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Inspection",
+      "title": "Inspection",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "UNIQUEID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIQUEID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Manhole",
+      "title": "Manhole",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNIQUEID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIQUEID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Main",
+      "title": "Main",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNIQUEID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIQUEID"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Carterton",
+      "title": "Carterton",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Sewer Point",
+      "title": "Sewer Point",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Abandoned",
+      "title": "Abandoned",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Electrical",
+      "title": "Electrical",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Inspection Point",
+      "title": "Inspection Point",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Instrumentation",
+      "title": "Instrumentation",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Manhole",
+      "title": "Manhole",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Private",
+      "title": "Private",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Pump",
+      "title": "Pump",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Treatment",
+      "title": "Treatment",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "DIAMETER",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIAMETER"
+        },
+        {
+          "name": "WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "WIDTH"
+        },
+        {
+          "name": "Depth_to_invert",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_to_invert"
+        },
+        {
+          "name": "Invert_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level"
+        },
+        {
+          "name": "Lid_Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Lid_Level"
+        },
+        {
+          "name": "short_id",
+          "type": "esriFieldTypeString",
+          "alias": "short_id"
+        },
+        {
+          "name": "SP_GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SP_GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Valve",
+      "title": "Valve",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Building",
+      "title": "Building",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Control Structure",
+      "title": "Control Structure",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Drainage",
+      "title": "Drainage",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Meter",
+      "title": "Meter",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Survey",
+      "title": "Survey",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Bore",
+      "title": "Bore",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Sewer Line",
+      "title": "Sewer Line",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Abandoned",
+      "title": "Abandoned",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Conduit",
+      "title": "Conduit",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Lateral",
+      "title": "Lateral",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Private",
+      "title": "Private",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Sewer Main",
+      "title": "Sewer Main",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Drainage",
+      "title": "Drainage",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 51,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

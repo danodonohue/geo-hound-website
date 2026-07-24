@@ -1,0 +1,692 @@
+{
+  "slug": "gismaps-hdc-govt-nz-hdc-streetmap-mapserver",
+  "service_key": "ESRI MapServer:https://gismaps.hdc.govt.nz/server/rest/services/Basemaps/HDCStreetmap/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gismaps.hdc.govt.nz/server/rest/services/Basemaps/HDCStreetmap/MapServer",
+  "title": "HDC Streetmap",
+  "description": "Roads, schools, parks and cadastral boundaries with land cover classification.",
+  "abstract": "Basemap - Streetmap for HDC. Includes School and Parks/Reserves Polygons.",
+  "provider": "gismaps.hdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    },
+    {
+      "name": "land-cover",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Railway Lines",
+      "title": "Railway Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Road Centrelines",
+      "title": "Road Centrelines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "cway_hierarchy",
+          "type": "esriFieldTypeString",
+          "alias": "cway_hierarchy"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Roadname",
+          "type": "esriFieldTypeString",
+          "alias": "Roadname"
+        },
+        {
+          "name": "BasemapHierarchy",
+          "type": "esriFieldTypeString",
+          "alias": "BasemapHierarchy"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Napier Roads",
+      "title": "Napier Roads",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeDouble",
+          "alias": "id"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "locality",
+          "type": "esriFieldTypeString",
+          "alias": "locality"
+        },
+        {
+          "name": "territoria",
+          "type": "esriFieldTypeString",
+          "alias": "territoria"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Road Names",
+      "title": "Road Names",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "RoadnameMacron",
+          "type": "esriFieldTypeString",
+          "alias": "RoadnameMacron"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "road_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "road_id"
+        },
+        {
+          "name": "Roadname",
+          "type": "esriFieldTypeString",
+          "alias": "Roadname"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Road Names (Main Roads)",
+      "title": "Road Names (Main Roads)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "road_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "road_id"
+        },
+        {
+          "name": "cway_hierarchy",
+          "type": "esriFieldTypeString",
+          "alias": "cway_hierarchy"
+        },
+        {
+          "name": "Roadname",
+          "type": "esriFieldTypeString",
+          "alias": "Roadname"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "BasemapHierarchy",
+          "type": "esriFieldTypeString",
+          "alias": "BasemapHierarchy"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "House Numbers",
+      "title": "House Numbers",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HouseNo",
+          "type": "esriFieldTypeString",
+          "alias": "HouseNo"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Schools",
+      "title": "Schools",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SchoolName",
+          "type": "esriFieldTypeString",
+          "alias": "SchoolName"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Cadastral Boundary",
+      "title": "Cadastral Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Road Parcels",
+      "title": "Road Parcels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Rivers",
+      "title": "Rivers",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Lakes",
+      "title": "Lakes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Parks and Reserves",
+      "title": "Parks and Reserves",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Reserve_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Reserve_Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "HBRC Regional Parks",
+      "title": "HBRC Regional Parks",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Urban Areas",
+      "title": "Urban Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "TownName",
+          "type": "esriFieldTypeString",
+          "alias": "TownName"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Forest",
+      "title": "Forest",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Class_2012",
+          "type": "esriFieldTypeInteger",
+          "alias": "Class_2012"
+        },
+        {
+          "name": "Name_2012",
+          "type": "esriFieldTypeString",
+          "alias": "Name_2012"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Name_2018",
+          "type": "esriFieldTypeString",
+          "alias": "Name_2018"
+        },
+        {
+          "name": "Class_2018",
+          "type": "esriFieldTypeInteger",
+          "alias": "Class_2018"
+        },
+        {
+          "name": "Wetland_18",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland_18"
+        },
+        {
+          "name": "Wetland_12",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland_12"
+        },
+        {
+          "name": "Wetland_08",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland_08"
+        },
+        {
+          "name": "Wetland_01",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland_01"
+        },
+        {
+          "name": "Wetland_96",
+          "type": "esriFieldTypeString",
+          "alias": "Wetland_96"
+        },
+        {
+          "name": "Onshore_18",
+          "type": "esriFieldTypeString",
+          "alias": "Onshore_18"
+        },
+        {
+          "name": "Onshore_12",
+          "type": "esriFieldTypeString",
+          "alias": "Onshore_12"
+        },
+        {
+          "name": "Onshore_08",
+          "type": "esriFieldTypeString",
+          "alias": "Onshore_08"
+        },
+        {
+          "name": "Onshore_01",
+          "type": "esriFieldTypeString",
+          "alias": "Onshore_01"
+        },
+        {
+          "name": "Onshore_96",
+          "type": "esriFieldTypeString",
+          "alias": "Onshore_96"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Hastings District Boundary",
+      "title": "Hastings District Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "TLA Boundaries",
+      "title": "TLA Boundaries",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "TLA Boundaries",
+      "title": "TLA Boundaries",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "HDC Landcover 2009",
+      "title": "HDC Landcover 2009",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 31,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

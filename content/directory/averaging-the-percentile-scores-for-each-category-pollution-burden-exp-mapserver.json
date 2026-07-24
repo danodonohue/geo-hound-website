@@ -1,0 +1,815 @@
+{
+  "slug": "averaging-the-percentile-scores-for-each-category-pollution-burden-exp-mapserver",
+  "service_key": "ESRI MapServer:https://mdgeodata.md.gov/imap/rest/services/Environment/MD_EnviroScreen/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mdgeodata.md.gov/imap/rest/services/Environment/MD_EnviroScreen/MapServer",
+  "title": "MDEnviroScreen",
+  "description": "Environmental justice screening tool identifying overburdened communities in Maryland.",
+  "abstract": "MDE has developed a tool to identify overburdened and underserved communities, per Climate Solutions Now Act (2022), and develop an overall environmental justice score, per House Bill 1200 (2022). Overburdened communities are defined as any census tract that scored in at least the 75th percentile on three or more of these factors, PM2.5, Ozone, Diesel PM, Cancer Risk, Respiratory Hazard Index Risk, Traffic Proximity, TRI Facility Proximity, Hazardous Waste Landfill Proximity, Lead Paint Indicator, Risk Management Facility Proximity, Superfund Proximity, Hazardous Waste Proximity, Wastewater Discharge Indicator, Brownfield Proximity, Power Plant Proximity, CAFO Proximity, Mining Operation Proximity, Low Birth Weight, Asthma Discharges, Myocardial Infarction, and Lack of Broadband. Underserved communities are defined as any census tract that is at least 25% Low Income, at least 50% Non-White or Hispanic, or at least 15% Limited English Proficiency. The EJ Score is calculated by averaging the percentile scores for each category (Pollution Burden Exposure, Pollution Environment Effects, Sensitive Populations, and Socioeconomic/Demographic) and combining them into an averaged percentile EJ Score. Last Updated: 07/24/2025.",
+  "provider": "averaging the percentile scores for each category (Pollution Burden Exposure",
+  "place": {
+    "country": "United States",
+    "state": "Maryland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "health",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Maryland EJ Score V3",
+      "title": "Maryland EJ Score V3",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "GEOID20",
+          "type": "esriFieldTypeString",
+          "alias": "Census Tract ID"
+        },
+        {
+          "name": "S_PWDIS_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Wastewater Indicator"
+        },
+        {
+          "name": "COUNTYFP20",
+          "type": "esriFieldTypeString",
+          "alias": "County FIPS"
+        },
+        {
+          "name": "TRACTCE20",
+          "type": "esriFieldTypeString",
+          "alias": "TRACTCE20"
+        },
+        {
+          "name": "MINORPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "MINORPCT"
+        },
+        {
+          "name": "MINORPCT_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "MINORPCT_MIN"
+        },
+        {
+          "name": "MINORPCT_MAX",
+          "type": "esriFieldTypeInteger",
+          "alias": "MINORPCT_MAX"
+        },
+        {
+          "name": "P_MINORPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Minority Population"
+        },
+        {
+          "name": "UNDERSERVED",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNDERSERVED"
+        },
+        {
+          "name": "P_UNDERSERVED",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Underserved"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "GIS Object ID"
+        },
+        {
+          "name": "ALAND20",
+          "type": "esriFieldTypeInteger",
+          "alias": "ALAND20"
+        },
+        {
+          "name": "AWATER20",
+          "type": "esriFieldTypeInteger",
+          "alias": "AWATER20"
+        },
+        {
+          "name": "INTPTLAT20",
+          "type": "esriFieldTypeString",
+          "alias": "INTPTLAT20"
+        },
+        {
+          "name": "INTPTLON20",
+          "type": "esriFieldTypeString",
+          "alias": "INTPTLON20"
+        },
+        {
+          "name": "CPOVERTY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Children Under the Poverty Line"
+        },
+        {
+          "name": "CPOVERTYPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Children Under the Poverty Line Percent"
+        },
+        {
+          "name": "P_CPOVERTY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Children Under the Poverty Line Percentile"
+        },
+        {
+          "name": "ACSTOTPOP",
+          "type": "esriFieldTypeInteger",
+          "alias": "ACS Total Population"
+        },
+        {
+          "name": "NONMINOR",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total White alone"
+        },
+        {
+          "name": "MINORBLK",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total Black or African American alone"
+        },
+        {
+          "name": "MINORAIAN",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total American Indian and Alaska Native alone"
+        },
+        {
+          "name": "MINORA",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total Asian alone"
+        },
+        {
+          "name": "MINORNHOPI",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total Native Hawaiian and Other Pacific Islander alone"
+        },
+        {
+          "name": "MINOROTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total Some other race alone"
+        },
+        {
+          "name": "MINORTMR",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total Two or more races"
+        },
+        {
+          "name": "UNDER5PCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Under Age 5 Percent"
+        },
+        {
+          "name": "P_UNDR5PCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Under Age 5 Percentile"
+        },
+        {
+          "name": "OVER64PCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Over Age 64 Percent"
+        },
+        {
+          "name": "P_OVR64PCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Over Age 64 Percentile"
+        },
+        {
+          "name": "GeoID_Num",
+          "type": "esriFieldTypeDouble",
+          "alias": "GeoID_Num"
+        },
+        {
+          "name": "NBROADBAND",
+          "type": "esriFieldTypeDouble",
+          "alias": "NBROADBAND"
+        },
+        {
+          "name": "NBROADBAND_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "NBROADBAND_MIN"
+        },
+        {
+          "name": "NBROADBAND_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "NBROADBAND_MAX"
+        },
+        {
+          "name": "P_NBROADBAND",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Lacking Broadband Access"
+        },
+        {
+          "name": "LWINCPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "LWINCPCT"
+        },
+        {
+          "name": "LWINCPCT_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "LWINCPCT_MIN"
+        },
+        {
+          "name": "LWINCPCT_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "LWINCPCT_MAX"
+        },
+        {
+          "name": "P_LWINCPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Low Income"
+        },
+        {
+          "name": "LINGISOPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "LINGISOPCT"
+        },
+        {
+          "name": "LINGISOPCT_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "LINGISOPCT_MIN"
+        },
+        {
+          "name": "LINGISOPCT_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "Limitid Engilish Proficiency Max"
+        },
+        {
+          "name": "P_LNGISPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Limited English Proficiency"
+        },
+        {
+          "name": "CANCER",
+          "type": "esriFieldTypeInteger",
+          "alias": "CANCER"
+        },
+        {
+          "name": "RESP",
+          "type": "esriFieldTypeDouble",
+          "alias": "RESP"
+        },
+        {
+          "name": "P_CANCER",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Cancer Risk"
+        },
+        {
+          "name": "P_RESP",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Respiratory Hazard Index"
+        },
+        {
+          "name": "PM25",
+          "type": "esriFieldTypeDouble",
+          "alias": "PM25"
+        },
+        {
+          "name": "OZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "OZONE"
+        },
+        {
+          "name": "DSLPM",
+          "type": "esriFieldTypeString",
+          "alias": "DSLPM"
+        },
+        {
+          "name": "PTRAF",
+          "type": "esriFieldTypeString",
+          "alias": "PTRAF"
+        },
+        {
+          "name": "PRE1960PCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRE1960PCT"
+        },
+        {
+          "name": "PNPL",
+          "type": "esriFieldTypeString",
+          "alias": "PNPL"
+        },
+        {
+          "name": "PRMP",
+          "type": "esriFieldTypeString",
+          "alias": "PRMP"
+        },
+        {
+          "name": "PTSDF",
+          "type": "esriFieldTypeString",
+          "alias": "PTSDF"
+        },
+        {
+          "name": "PWDIS",
+          "type": "esriFieldTypeString",
+          "alias": "PWDIS"
+        },
+        {
+          "name": "PM25_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "PM25_MIN"
+        },
+        {
+          "name": "PM25_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PM25_MAX"
+        },
+        {
+          "name": "P_PM25",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile PM2.5"
+        },
+        {
+          "name": "OZONE_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "OZONE_MIN"
+        },
+        {
+          "name": "OZONE_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "OZONE_MAX"
+        },
+        {
+          "name": "P_OZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Ozone"
+        },
+        {
+          "name": "DSLPM_MIN",
+          "type": "esriFieldTypeDouble",
+          "alias": "DSLPM_MIN"
+        },
+        {
+          "name": "DSLPM_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "DSLPM_MAX"
+        },
+        {
+          "name": "P_DSLPM",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Diesel PM"
+        },
+        {
+          "name": "PTRAF_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PTRAF_MIN"
+        },
+        {
+          "name": "PTRAF_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PTRAF_MAX"
+        },
+        {
+          "name": "P_PTRAF",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Traffic Proximity"
+        },
+        {
+          "name": "PRE1960PCT_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRE1960PCT_MIN"
+        },
+        {
+          "name": "PRE1960PCT_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRE1960PCT_MAX"
+        },
+        {
+          "name": "P_PRE1960PCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Lead Paint Indicator"
+        },
+        {
+          "name": "PNPL_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PNPL_MIN"
+        },
+        {
+          "name": "PNPL_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PNPL_MAX"
+        },
+        {
+          "name": "P_PNPL",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Superfund Proximity"
+        },
+        {
+          "name": "PRMP_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRMP_MIN"
+        },
+        {
+          "name": "PRMP_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PRMP_MAX"
+        },
+        {
+          "name": "P_PRMP",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Risk Management Proximity"
+        },
+        {
+          "name": "PTSDF_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PTSDF_MIN"
+        },
+        {
+          "name": "PTSDF_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PTSDF_MAX"
+        },
+        {
+          "name": "P_PTSDF",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Hazardous Waste Proximity"
+        },
+        {
+          "name": "PWDIS_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PWDIS_MIN"
+        },
+        {
+          "name": "PWDIS_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "PWDIS_MAX"
+        },
+        {
+          "name": "P_PWDIS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Wastewater Discharge Indicator"
+        },
+        {
+          "name": "CAFO",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAFO Score"
+        },
+        {
+          "name": "CAFO_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "CAFO_MIN"
+        },
+        {
+          "name": "CAFO_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAFO_MAX"
+        },
+        {
+          "name": "P_CAFO",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile CAGO Proximity"
+        },
+        {
+          "name": "BROWNFIELD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Brownfield Score"
+        },
+        {
+          "name": "BROWNFIELD_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "BROWNFIELD_MIN"
+        },
+        {
+          "name": "BROWNFIELD_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "BROWNFIELD_MAX"
+        },
+        {
+          "name": "P_BROWNFIELD",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Brownfield Proximity"
+        },
+        {
+          "name": "POWERPLANT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Powerplant Score"
+        },
+        {
+          "name": "POWERPLANT_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "POWERPLANT_MIN"
+        },
+        {
+          "name": "POWERPLANT_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "POWERPLANT_MAX"
+        },
+        {
+          "name": "P_POWERPLANT",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Powerplant Proximity"
+        },
+        {
+          "name": "TRI",
+          "type": "esriFieldTypeDouble",
+          "alias": "TRI Score"
+        },
+        {
+          "name": "TRI_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "TRI_MIN"
+        },
+        {
+          "name": "TRI_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "TRI_MAX"
+        },
+        {
+          "name": "P_TRI",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile TRI Proximity"
+        },
+        {
+          "name": "HAZARDOUSLANDFILL",
+          "type": "esriFieldTypeDouble",
+          "alias": "HAZARDOUSLANDFILL"
+        },
+        {
+          "name": "HAZARDOUSLANDFILL_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "HAZARDOUSLANDFILL_MIN"
+        },
+        {
+          "name": "HAZARDOUSLANDFILL_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "HAZARDOUSLANDFILL_MAX"
+        },
+        {
+          "name": "P_HAZARDOUSLANDFILL",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Hazardous Waste Landfill"
+        },
+        {
+          "name": "MINING",
+          "type": "esriFieldTypeDouble",
+          "alias": "Mining Score"
+        },
+        {
+          "name": "MINING_MIN",
+          "type": "esriFieldTypeInteger",
+          "alias": "MINING_MIN"
+        },
+        {
+          "name": "MINING_MAX",
+          "type": "esriFieldTypeDouble",
+          "alias": "MINING_MAX"
+        },
+        {
+          "name": "P_MINING",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Mining Proximity"
+        },
+        {
+          "name": "P_Asthma",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Asthma"
+        },
+        {
+          "name": "P_MYOCARDIAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Myocardial Infarction"
+        },
+        {
+          "name": "POLLUTIONBURDEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLLUTIONBURDEN"
+        },
+        {
+          "name": "POLLUTIONENVIRONMENTAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLLUTIONENVIRONMENTAL"
+        },
+        {
+          "name": "SENSITIVEPOPULATIONS",
+          "type": "esriFieldTypeDouble",
+          "alias": "SENSITIVEPOPULATIONS"
+        },
+        {
+          "name": "P_POLLUTIONBURDEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Pollution Burden"
+        },
+        {
+          "name": "P_POLLUTIONENVIRONMENTAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Pollution Environmental Effects"
+        },
+        {
+          "name": "P_SENSITIVEPOPULATIONS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Sensitive Populations"
+        },
+        {
+          "name": "EJ_Score",
+          "type": "esriFieldTypeDouble",
+          "alias": "Raw EJ Calculation"
+        },
+        {
+          "name": "P_EJ",
+          "type": "esriFieldTypeDouble",
+          "alias": "EJ Score"
+        },
+        {
+          "name": "OVERBURDENED",
+          "type": "esriFieldTypeDouble",
+          "alias": "OVERBURDENED"
+        },
+        {
+          "name": "P_OVERBURDENED",
+          "type": "esriFieldTypeDouble",
+          "alias": "Percentile Overburdened"
+        },
+        {
+          "name": "S_PM25",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile PM2.5"
+        },
+        {
+          "name": "S_OZONE",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Ozone"
+        },
+        {
+          "name": "S_DSLPM",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Diesel PM"
+        },
+        {
+          "name": "S_CANCER",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Cancer Risk"
+        },
+        {
+          "name": "S_RESP",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Respiratory Hazard Index"
+        },
+        {
+          "name": "S_PTRAF",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Traffic Proximity"
+        },
+        {
+          "name": "S_LDPNT",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Lead Paint Indicator"
+        },
+        {
+          "name": "S_PNPL",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Superfund Proximity"
+        },
+        {
+          "name": "S_PRMP",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Risk Management Proximity"
+        },
+        {
+          "name": "S_PTSDF",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Hazardous Waste Proximity"
+        },
+        {
+          "name": "S_CAFO",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile CAFO Proximity"
+        },
+        {
+          "name": "S_ASTHMA",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Asthma"
+        },
+        {
+          "name": "S_MYOCARDIAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Myocardial"
+        },
+        {
+          "name": "S_BIRTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Low Birth Weight"
+        },
+        {
+          "name": "S_POWERPLANT",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Powerplant Proximity"
+        },
+        {
+          "name": "S_TRI",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile TRI Proximity"
+        },
+        {
+          "name": "S_BROWNFIELD",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Brownfield Proximity"
+        },
+        {
+          "name": "S_MINING",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Mining Proximity"
+        },
+        {
+          "name": "S_NBROADBAND",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Lack of Broadband"
+        },
+        {
+          "name": "OVERBURDENED_SUM",
+          "type": "esriFieldTypeDouble",
+          "alias": "Overburdened Factors ≥75th Percentile "
+        },
+        {
+          "name": "S_HAZARDOUSLANDFILL",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥75th Percentile Hazardous Landfill Proximity"
+        },
+        {
+          "name": "P_BIRTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "Percentile Low Birth"
+        },
+        {
+          "name": "OVERBURDENED_COMMUNITY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Overburdened Community"
+        },
+        {
+          "name": "UNDERSERVED_COMMUNITY",
+          "type": "esriFieldTypeDouble",
+          "alias": "Underserved Community"
+        },
+        {
+          "name": "MINORHISP",
+          "type": "esriFieldTypeInteger",
+          "alias": "Population Total Hispanic alone"
+        },
+        {
+          "name": "S_MINORPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥50th Percent Minority"
+        },
+        {
+          "name": "S_LWINCPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥25th Percent Low Income"
+        },
+        {
+          "name": "S_LINGISOPCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "≥15th Percent Limited English Proficiency"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "GIS Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS Shape Length (m)"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS Shape Area (m)"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 729,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

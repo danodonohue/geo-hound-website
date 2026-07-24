@@ -1,0 +1,2420 @@
+{
+  "slug": "the-maricopa-county-planning-and-development-department-and-the-genera-mapserver",
+  "service_key": "ESRI MapServer:https://gis.maricopa.gov/arcgis/rest/services/PND/PlanNet/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.maricopa.gov/arcgis/rest/services/PND/PlanNet/MapServer",
+  "title": "PlanNet",
+  "description": "Planning and development cases including zoning, subdivisions, and permit applications.",
+  "abstract": "<div style='text-align:Left;font-size:12pt'><p><span>Data that supports the PlanNet web map application used by the Maricopa County Planning and Development Department and the general public. It includes information pertinent to the various planning and development cases: Zoning Cases, Subdivisions, Development Master Plans, Comprehensive Plan Amendments, Military Compatibility Permits, Drainage Review Boards Cases, Land Use Cases and Variances.</span></p></div>",
+  "provider": "the Maricopa County Planning and Development Department and the general public",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "zoning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Land Use Case",
+      "title": "Land Use Case",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "PlanNumber"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "CaseType"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "CaseTypeClass"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "CaseStatus"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "ZoneCodeProposed"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "ZoneSpecialUse"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "ZoneOverlayProposed"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ApplicationDate"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CompletedDate"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ExpiredDate"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ApprovalExpiredDate"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectName"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "PlanDescription"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "SupervisorialDistrictNumber"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TownshipRangeSection"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "ContactName"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ContactPhoneNumber"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "ContactEmail"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "ZipCode"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Variance",
+      "title": "Variance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "PlanNumber"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "CaseType"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "CaseTypeClass"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "CaseStatus"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "ZoneCodeProposed"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "ZoneSpecialUse"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "ZoneOverlayProposed"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ApplicationDate"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CompletedDate"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ExpiredDate"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ApprovalExpiredDate"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectName"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "PlanDescription"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "SupervisorialDistrictNumber"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TownshipRangeSection"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "ContactName"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "ContactPhoneNumber"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "ContactEmail"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "ZipCode"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Comprehensive Plan Amendment",
+      "title": "Comprehensive Plan Amendment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "PermitNum",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Num"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "CaseTypeClass"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Case Status"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code Proposed"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay Proposed"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APN Dash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "Township Range Section"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Development Master Plan",
+      "title": "Development Master Plan",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Case Status"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Subdivision",
+      "title": "Subdivision",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Case Status"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Military Compatibility Permit",
+      "title": "Military Compatibility Permit",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Case Status"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Special Use Permit",
+      "title": "Special Use Permit",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Case Status"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Zoning Overlay",
+      "title": "Zoning Overlay",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "CASESTATUS"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PermitOverlay",
+          "type": "esriFieldTypeString",
+          "alias": "PermitOverlay"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Rezoning Case",
+      "title": "Rezoning Case",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "CASESTATUS"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Zoning Case",
+      "title": "Zoning Case",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "CASESTATUS"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "All Cases",
+      "title": "All Cases",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "SPECUSE",
+          "type": "esriFieldTypeString",
+          "alias": "SPECUSE"
+        },
+        {
+          "name": "OVERLAY",
+          "type": "esriFieldTypeString",
+          "alias": "OVERLAY"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGUID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PlanNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Number"
+        },
+        {
+          "name": "CaseType",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type"
+        },
+        {
+          "name": "CaseTypeClass",
+          "type": "esriFieldTypeString",
+          "alias": "Case Type Class"
+        },
+        {
+          "name": "CaseStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Case Status"
+        },
+        {
+          "name": "ZoneCodeProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code (Proposed)"
+        },
+        {
+          "name": "ZoneSpecialUse",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Special Use"
+        },
+        {
+          "name": "ZoneOverlayProposed",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Overlay (Proposed)"
+        },
+        {
+          "name": "ApplicationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Application Date"
+        },
+        {
+          "name": "CompletedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Completed Date"
+        },
+        {
+          "name": "ExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expired Date"
+        },
+        {
+          "name": "ApprovalExpiredDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Approval Expired Date"
+        },
+        {
+          "name": "ProjectName",
+          "type": "esriFieldTypeString",
+          "alias": "Project Name"
+        },
+        {
+          "name": "PlanDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Plan Description"
+        },
+        {
+          "name": "SupervisorialDistrictNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Supervisorial District Number"
+        },
+        {
+          "name": "APNDash",
+          "type": "esriFieldTypeString",
+          "alias": "APNDash"
+        },
+        {
+          "name": "TownshipRangeSection",
+          "type": "esriFieldTypeString",
+          "alias": "TRS"
+        },
+        {
+          "name": "ContactName",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "ContactPhoneNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone Number"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "AddressLine1",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine1"
+        },
+        {
+          "name": "AddressLine2",
+          "type": "esriFieldTypeString",
+          "alias": "AddressLine2"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "State",
+          "type": "esriFieldTypeString",
+          "alias": "State"
+        },
+        {
+          "name": "ZipCode",
+          "type": "esriFieldTypeString",
+          "alias": "Zip Code"
+        },
+        {
+          "name": "PERMITNUM",
+          "type": "esriFieldTypeString",
+          "alias": "PERMITNUM"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Zoning",
+      "title": "Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "APN",
+          "type": "esriFieldTypeString",
+          "alias": "APN"
+        },
+        {
+          "name": "JURIS",
+          "type": "esriFieldTypeString",
+          "alias": "JURIS"
+        },
+        {
+          "name": "EDIT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EDIT_DATE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Planning",
+      "title": "Planning",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Area Plan",
+      "title": "Area Plan",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREAPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "Area Plan"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Area Plan Land Use",
+      "title": "Area Plan Land Use",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREAPLAN",
+          "type": "esriFieldTypeString",
+          "alias": "Area Plan"
+        },
+        {
+          "name": "CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Scenic Corridor",
+      "title": "Scenic Corridor",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Patent Easement",
+      "title": "Patent Easement",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Municipal Planning Areas 2019",
+      "title": "Municipal Planning Areas 2019",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Gateway Airport Planning Area",
+      "title": "Gateway Airport Planning Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Gateway Airport Noise Contour",
+      "title": "Gateway Airport Noise Contour",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Development",
+      "title": "Development",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Building Drainage Inspection Area",
+      "title": "Building Drainage Inspection Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Code Enforcement Areas",
+      "title": "Code Enforcement Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Native American Land",
+      "title": "Native American Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Land Ownership",
+      "title": "Land Ownership",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Western Maricopa Enterprise Zone",
+      "title": "Western Maricopa Enterprise Zone",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "District",
+      "title": "District",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Supervisor District",
+      "title": "Supervisor District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Elementary School District",
+      "title": "Elementary School District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "High School District",
+      "title": "High School District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Unified School District",
+      "title": "Unified School District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Technical School District",
+      "title": "Technical School District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Area of Interest",
+      "title": "Area of Interest",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Irrigation District",
+      "title": "Irrigation District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Water Provider",
+      "title": "Water Provider",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "ADWR Municipal Service Area",
+      "title": "ADWR Municipal Service Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Sewer Provider",
+      "title": "Sewer Provider",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Cell District",
+      "title": "Cell District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "Fire District",
+      "title": "Fire District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Mining District",
+      "title": "Mining District",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "PM10 Non-Attainment Area",
+      "title": "PM10 Non-Attainment Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "ZIP Code",
+      "title": "ZIP Code",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 60,
+      "name": "Natural Resource",
+      "title": "Natural Resource",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 61,
+      "name": "County Park",
+      "title": "County Park",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 62,
+      "name": "Sonoran Desert National Monument",
+      "title": "Sonoran Desert National Monument",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 63,
+      "name": "Fissure",
+      "title": "Fissure",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 64,
+      "name": "Active Management Area",
+      "title": "Active Management Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 65,
+      "name": "15% Slope",
+      "title": "15% Slope",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 66,
+      "name": "Land Subsidence",
+      "title": "Land Subsidence",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 71,
+      "name": "Miltary",
+      "title": "Miltary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 72,
+      "name": "Military Facility",
+      "title": "Military Facility",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 73,
+      "name": "Luke AFB Vicinity",
+      "title": "Luke AFB Vicinity",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 74,
+      "name": "Luke AFB Noise Contour",
+      "title": "Luke AFB Noise Contour",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 75,
+      "name": "Luke AFB APZ",
+      "title": "Luke AFB APZ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 76,
+      "name": "Luke AFB Aux1 Vicinity",
+      "title": "Luke AFB Aux1 Vicinity",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 77,
+      "name": "Luke AFB Aux1 Noise Contour",
+      "title": "Luke AFB Aux1 Noise Contour",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 78,
+      "name": "Luke AFB Aux1 APZ",
+      "title": "Luke AFB Aux1 APZ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 79,
+      "name": "Gila Bend Noise Contour",
+      "title": "Gila Bend Noise Contour",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 80,
+      "name": "Gila Bend APZ",
+      "title": "Gila Bend APZ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 90,
+      "name": "Historic Case (before June 2024)",
+      "title": "Historic Case (before June 2024)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2868"
+  ],
+  "cors_enabled": true,
+  "response_ms": 269,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

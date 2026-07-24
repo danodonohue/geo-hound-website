@@ -1,0 +1,603 @@
+{
+  "slug": "maps2-eastriding-gov-uk-apibs-areas-particularly-important-for-biodive-mapserver",
+  "service_key": "ESRI MapServer:https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/APIBsAreasParticularlyImportantforBiodiversity/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/APIBsAreasParticularlyImportantforBiodiversity/MapServer",
+  "title": "APIBs Areas Particularly Important for Biodiversity",
+  "description": "Irreplaceable habitat and protected area designations.",
+  "provider": "maps2.eastriding.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 8,
+      "name": "Irreplaceable Habitat",
+      "title": "Irreplaceable Habitat",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Ancient Woodland",
+      "title": "Ancient Woodland",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Coastal Saltmarsh",
+      "title": "Coastal Saltmarsh",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Lowland Fen",
+      "title": "Lowland Fen",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Local Nature Reserve",
+      "title": "Local Nature Reserve",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Local Wildlife Site",
+      "title": "Local Wildlife Site",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "National Nature Reserve",
+      "title": "National Nature Reserve",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Wetlands of international importance",
+      "title": "Wetlands of international importance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Special Area of Conservation",
+      "title": "Special Area of Conservation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Special Protection Areas",
+      "title": "Special Protection Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Sites of Special Scientific Interest",
+      "title": "Sites of Special Scientific Interest",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 860,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,1348 @@
+{
+  "slug": "gis-cachecounty-gov-layers-mapserver-5",
+  "service_key": "ESRI MapServer:https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.cachecounty.gov/arcgis/rest/services/Planning/City_Zoning/MapServer",
+  "title": "Layers",
+  "description": "Zoning districts for 19 incorporated cities and towns in Cache County.",
+  "abstract": "City Zoning",
+  "provider": "gis.cachecounty.gov",
+  "place": {
+    "country": "United States",
+    "state": "Utah",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "zoning",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Amalga Zoning",
+      "title": "Amalga Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "Density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "General Zone Type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "Image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "Ordinance Number"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Clarkston Zoning",
+      "title": "Clarkston Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Cornish Zoning",
+      "title": "Cornish Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Hyde Park Zoning",
+      "title": "Hyde Park Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "Density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "General Zone Type"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "Image"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "Ordinance Number"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Hyrum Zoning",
+      "title": "Hyrum Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Lewiston Zoning",
+      "title": "Lewiston Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Logan Zoning",
+      "title": "Logan Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "Density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "General Zone Type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "More Info"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Mendon Zoning",
+      "title": "Mendon Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Millville Zoning",
+      "title": "Millville Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Newton Zoning",
+      "title": "Newton Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Nibley Zoning",
+      "title": "Nibley Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "North Logan Zoning",
+      "title": "North Logan Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Paradise Zoning",
+      "title": "Paradise Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Providence Zoning",
+      "title": "Providence Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Richmond Zoning",
+      "title": "Richmond Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "city_name",
+          "type": "esriFieldTypeString",
+          "alias": "city_name"
+        },
+        {
+          "name": "zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "zone_type"
+        },
+        {
+          "name": "zone_code",
+          "type": "esriFieldTypeString",
+          "alias": "zone_code"
+        },
+        {
+          "name": "density",
+          "type": "esriFieldTypeString",
+          "alias": "density"
+        },
+        {
+          "name": "general_zone_type",
+          "type": "esriFieldTypeString",
+          "alias": "general_zone_type"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "image",
+          "type": "esriFieldTypeString",
+          "alias": "image"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        },
+        {
+          "name": "ordinance_num",
+          "type": "esriFieldTypeString",
+          "alias": "ordinance_num"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "River Heights Zoning",
+      "title": "River Heights Zoning",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Smithfield Zoning",
+      "title": "Smithfield Zoning",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Trenton Zoning",
+      "title": "Trenton Zoning",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Wellsville Zoning",
+      "title": "Wellsville Zoning",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102742"
+  ],
+  "cors_enabled": true,
+  "response_ms": 182,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

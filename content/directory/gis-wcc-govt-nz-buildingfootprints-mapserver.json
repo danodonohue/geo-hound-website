@@ -1,0 +1,209 @@
+{
+  "slug": "gis-wcc-govt-nz-buildingfootprints-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/BuildingFootprints/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/BuildingFootprints/MapServer",
+  "title": "BuildingFootprints",
+  "description": "Building footprint polygons from aerial imagery for urban Wellington",
+  "abstract": "Polygons representing building rooftop outlines for urban Wellington including Makara Beach and Makara Village.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "addresses",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Buildings",
+      "title": "Buildings",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Excep_code",
+          "type": "esriFieldTypeInteger",
+          "alias": "Excep Code"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "base_elev",
+          "type": "esriFieldTypeDouble",
+          "alias": "Base Elevation"
+        },
+        {
+          "name": "approx_hei",
+          "type": "esriFieldTypeDouble",
+          "alias": "Approximate Height"
+        },
+        {
+          "name": "Last_Edit_",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Edit Date"
+        },
+        {
+          "name": "INSIDE_X1",
+          "type": "esriFieldTypeDouble",
+          "alias": "INSIDE X"
+        },
+        {
+          "name": "INSIDE_Y1",
+          "type": "esriFieldTypeDouble",
+          "alias": "INSIDE Y"
+        },
+        {
+          "name": "Building_Spatial_ID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Building Spatial ID"
+        },
+        {
+          "name": "Building_Coordinate_ID_1",
+          "type": "esriFieldTypeString",
+          "alias": "Building Coordinate ID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Building Outline",
+      "title": "Building Outline",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Excep_code",
+          "type": "esriFieldTypeInteger",
+          "alias": "Excep Code"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeDouble",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "base_elev",
+          "type": "esriFieldTypeDouble",
+          "alias": "Base Elevation"
+        },
+        {
+          "name": "approx_hei",
+          "type": "esriFieldTypeDouble",
+          "alias": "Approx Height"
+        },
+        {
+          "name": "Last_Edit_",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Edit"
+        },
+        {
+          "name": "INSIDE_X1",
+          "type": "esriFieldTypeDouble",
+          "alias": "INSIDE X"
+        },
+        {
+          "name": "INSIDE_Y1",
+          "type": "esriFieldTypeDouble",
+          "alias": "INSIDE Y"
+        },
+        {
+          "name": "Building_Spatial_ID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Building Spatial ID"
+        },
+        {
+          "name": "Building_Coordinate_ID_1",
+          "type": "esriFieldTypeString",
+          "alias": "Building Coordinate ID"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 53,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

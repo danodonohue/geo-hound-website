@@ -1,0 +1,789 @@
+{
+  "slug": "maps-gdc-govt-nz-administration-boundaries-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Data/administration_boundaries_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Data/administration_boundaries_ext/MapServer",
+  "title": "administration_boundaries_ext",
+  "description": "Administrative boundaries for Gisborne District including cadastral and statistical areas.",
+  "abstract": "Map service showing administration boundaries inlcuding LINZ, NZ Stats, Suburbs etc.",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 19,
+      "name": "Gisborne District - Cadastral",
+      "title": "Gisborne District - Cadastral",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "Perimeter"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Gisborne District - Topo",
+      "title": "Gisborne District - Topo",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "District Boundary Line",
+      "title": "District Boundary Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_dist_b",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_dist_b"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "Perimeter"
+        },
+        {
+          "name": "TOPOBDY_",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOPOBDY_"
+        },
+        {
+          "name": "TOPOBDY_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "TOPOBDY_ID"
+        },
+        {
+          "name": "length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Gisborne Region",
+      "title": "Gisborne Region",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "REGC2013",
+          "type": "esriFieldTypeString",
+          "alias": "REGC2013"
+        },
+        {
+          "name": "REGC2013_N",
+          "type": "esriFieldTypeString",
+          "alias": "Region Name 2013"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Gisborne Suburbs",
+      "title": "Gisborne Suburbs",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb Name"
+        },
+        {
+          "name": "town",
+          "type": "esriFieldTypeString",
+          "alias": "Town Name"
+        },
+        {
+          "name": "Area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area Hectares"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Suburbs LINZ (2023)",
+      "title": "Suburbs LINZ (2023)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "additional_name",
+          "type": "esriFieldTypeString",
+          "alias": "additional_name"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "major_name",
+          "type": "esriFieldTypeString",
+          "alias": "major_name"
+        },
+        {
+          "name": "major_name_type",
+          "type": "esriFieldTypeString",
+          "alias": "major_name_type"
+        },
+        {
+          "name": "territorial_authority",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority"
+        },
+        {
+          "name": "population_estimate",
+          "type": "esriFieldTypeDouble",
+          "alias": "population_estimate"
+        },
+        {
+          "name": "name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "name_ascii"
+        },
+        {
+          "name": "additional_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "additional_name_ascii"
+        },
+        {
+          "name": "major_name_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "major_name_ascii"
+        },
+        {
+          "name": "territorial_authority_ascii",
+          "type": "esriFieldTypeString",
+          "alias": "territorial_authority_ascii"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Stats NZ",
+      "title": "Stats NZ",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Meshblocks 2018",
+      "title": "Meshblocks 2018",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MB2018_V1_00",
+          "type": "esriFieldTypeString",
+          "alias": "MB2018_V1_00"
+        },
+        {
+          "name": "LANDWATER",
+          "type": "esriFieldTypeString",
+          "alias": "LANDWATER"
+        },
+        {
+          "name": "LANDWATER_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LANDWATER_NAME"
+        },
+        {
+          "name": "LAND_AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAND_AREA_SQ_KM"
+        },
+        {
+          "name": "AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_SQ_KM"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "SA1 2023",
+      "title": "SA1 2023",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SA12023_V1_00",
+          "type": "esriFieldTypeString",
+          "alias": "SA12023_V1_00"
+        },
+        {
+          "name": "LANDWATER",
+          "type": "esriFieldTypeString",
+          "alias": "LANDWATER"
+        },
+        {
+          "name": "LANDWATER_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "LANDWATER_NAME"
+        },
+        {
+          "name": "LAND_AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAND_AREA_SQ_KM"
+        },
+        {
+          "name": "AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_SQ_KM"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "SA2 2023",
+      "title": "SA2 2023",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SA22023_V1_00",
+          "type": "esriFieldTypeString",
+          "alias": "SA22023_V1_00"
+        },
+        {
+          "name": "SA22023_V1_00_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SA22023_V1_00_NAME"
+        },
+        {
+          "name": "SA22023_V1_00_NAME_ASCII",
+          "type": "esriFieldTypeString",
+          "alias": "SA22023_V1_00_NAME_ASCII"
+        },
+        {
+          "name": "LAND_AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAND_AREA_SQ_KM"
+        },
+        {
+          "name": "AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_SQ_KM"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "General Ward",
+      "title": "General Ward",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_SQ_KM"
+        },
+        {
+          "name": "LAND_AREA_",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAND_AREA_"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "GEP",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEP"
+        },
+        {
+          "name": "MEP",
+          "type": "esriFieldTypeInteger",
+          "alias": "MEP"
+        },
+        {
+          "name": "TEP",
+          "type": "esriFieldTypeInteger",
+          "alias": "TEP"
+        },
+        {
+          "name": "GEP_mem",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "GEP_mem"
+        },
+        {
+          "name": "MEP_mem",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MEP_mem"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Maori Ward",
+      "title": "Maori Ward",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA_SQ_KM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_SQ_KM"
+        },
+        {
+          "name": "LAND_AREA_",
+          "type": "esriFieldTypeDouble",
+          "alias": "LAND_AREA_"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "GEP",
+          "type": "esriFieldTypeInteger",
+          "alias": "GEP"
+        },
+        {
+          "name": "MEP",
+          "type": "esriFieldTypeInteger",
+          "alias": "MEP"
+        },
+        {
+          "name": "TEP",
+          "type": "esriFieldTypeInteger",
+          "alias": "TEP"
+        },
+        {
+          "name": "GEP_mem",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "GEP_mem"
+        },
+        {
+          "name": "MEP_mem",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MEP_mem"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Council Boundaries",
+      "title": "Council Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TA",
+          "type": "esriFieldTypeString",
+          "alias": "Territorial Authority Name"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "NZ Regions",
+      "title": "NZ Regions",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "REGC2013_N",
+          "type": "esriFieldTypeString",
+          "alias": "Region Name 2013"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "NZ Coast Line",
+      "title": "NZ Coast Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "New Zealand",
+      "title": "New Zealand",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 189,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

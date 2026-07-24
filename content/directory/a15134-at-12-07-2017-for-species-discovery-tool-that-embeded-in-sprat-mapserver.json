@@ -1,0 +1,233 @@
+{
+  "slug": "a15134-at-12-07-2017-for-species-discovery-tool-that-embeded-in-sprat-mapserver",
+  "service_key": "ESRI MapServer:https://gis.environment.gov.au/gispub/rest/services/species/species_discovery_minimap/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.environment.gov.au/gispub/rest/services/species/species_discovery_minimap/MapServer",
+  "title": "Layers",
+  "description": "Species distribution for Australian national environmental significance.",
+  "abstract": "published by A15134 at 12/07/2017 for  species discovery tool that embeded in sprat page.",
+  "provider": "A15134 at 12/07/2017 for  species discovery tool that embeded in sprat page",
+  "place": {
+    "country": "Australia",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Species of National Environmental Significance",
+      "title": "Species of National Environmental Significance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MAP_TAXON_ID",
+          "type": "esriFieldTypeString",
+          "alias": "mapid"
+        },
+        {
+          "name": "SCIENTIFIC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "scientific name"
+        },
+        {
+          "name": "VERNACULAR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "common name"
+        },
+        {
+          "name": "PRESENCE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "presence category"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "CURRENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CURRENT_ID"
+        },
+        {
+          "name": "MODELLED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODELLED_DATE"
+        },
+        {
+          "name": "NSL_NAME_ID",
+          "type": "esriFieldTypeString",
+          "alias": "NSL_NAME_ID"
+        },
+        {
+          "name": "EPBC_NAMES",
+          "type": "esriFieldTypeString",
+          "alias": "EPBC_NAMES"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Species of National Environmental Significance",
+      "title": "Species of National Environmental Significance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MAP_TAXON_ID",
+          "type": "esriFieldTypeString",
+          "alias": "map_taxon_id"
+        },
+        {
+          "name": "SCIENTIFIC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "scientific_name"
+        },
+        {
+          "name": "VERNACULAR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "vernacular_name"
+        },
+        {
+          "name": "PRESENCE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "presence_category"
+        },
+        {
+          "name": "CURRENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CURRENT_ID"
+        },
+        {
+          "name": "MODELLED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODELLED_DATE"
+        },
+        {
+          "name": "NSL_NAME_ID",
+          "type": "esriFieldTypeString",
+          "alias": "NSL_NAME_ID"
+        },
+        {
+          "name": "EPBC_NAMES",
+          "type": "esriFieldTypeString",
+          "alias": "EPBC_NAMES"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Species of National Environmental Significance",
+      "title": "Species of National Environmental Significance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MAP_TAXON_ID",
+          "type": "esriFieldTypeString",
+          "alias": "mapid"
+        },
+        {
+          "name": "SCIENTIFIC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "scientific name"
+        },
+        {
+          "name": "VERNACULAR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "common name"
+        },
+        {
+          "name": "PRESENCE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "presence category"
+        },
+        {
+          "name": "CURRENT_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CURRENT_ID"
+        },
+        {
+          "name": "MODELLED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODELLED_DATE"
+        },
+        {
+          "name": "NSL_NAME_ID",
+          "type": "esriFieldTypeString",
+          "alias": "NSL_NAME_ID"
+        },
+        {
+          "name": "EPBC_NAMES",
+          "type": "esriFieldTypeString",
+          "alias": "EPBC_NAMES"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 275,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

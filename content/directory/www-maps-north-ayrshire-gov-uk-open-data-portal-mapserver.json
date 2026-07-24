@@ -1,0 +1,817 @@
+{
+  "slug": "www-maps-north-ayrshire-gov-uk-open-data-portal-mapserver",
+  "service_key": "ESRI MapServer:https://www.maps.north-ayrshire.gov.uk/arcgis/rest/services/AGOL/Open_Data_Portal/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.maps.north-ayrshire.gov.uk/arcgis/rest/services/AGOL/Open_Data_Portal/MapServer",
+  "title": "Open Data Portal",
+  "description": "Multi-theme open data including schools, boundaries, conservation areas.",
+  "abstract": "Datasets shared for the North Ayrshire Open Data Portal.",
+  "provider": "www.maps.north-ayrshire.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Ayrshire",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    },
+    {
+      "name": "conservation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Primary School Catchments",
+      "title": "Primary School Catchments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_12",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "School Name"
+        },
+        {
+          "name": "SEED",
+          "type": "esriFieldTypeInteger",
+          "alias": "SEED"
+        },
+        {
+          "name": "WEBLINK",
+          "type": "esriFieldTypeString",
+          "alias": "WEBLINK"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "RC Primary School Catchments",
+      "title": "RC Primary School Catchments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "School Name"
+        },
+        {
+          "name": "SEED",
+          "type": "esriFieldTypeInteger",
+          "alias": "SEED"
+        },
+        {
+          "name": "WEBLINK",
+          "type": "esriFieldTypeString",
+          "alias": "WEBLINK"
+        },
+        {
+          "name": "BUILDING_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Building Reference"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Secondary School Catchments",
+      "title": "Secondary School Catchments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "School Name"
+        },
+        {
+          "name": "SEED",
+          "type": "esriFieldTypeInteger",
+          "alias": "SEED"
+        },
+        {
+          "name": "WEBLINK",
+          "type": "esriFieldTypeString",
+          "alias": "WEBLINK"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "RC Secondary School Catchments",
+      "title": "RC Secondary School Catchments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "School Name"
+        },
+        {
+          "name": "SEED",
+          "type": "esriFieldTypeInteger",
+          "alias": "SEED"
+        },
+        {
+          "name": "WEBLINK",
+          "type": "esriFieldTypeString",
+          "alias": "WEBLINK"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Early Years Centres",
+      "title": "Early Years Centres",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BUILDING",
+          "type": "esriFieldTypeString",
+          "alias": "Building"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "OPENING_HOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Opening Hours"
+        },
+        {
+          "name": "CONTACT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "CONTACT_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone"
+        },
+        {
+          "name": "CONTACT_FAX",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Fax"
+        },
+        {
+          "name": "CONTACT_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "ANNOUNCEMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "Announcements"
+        },
+        {
+          "name": "FACILITIES",
+          "type": "esriFieldTypeString",
+          "alias": "Facilities"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Primary Schools",
+      "title": "Primary Schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BUILDING",
+          "type": "esriFieldTypeString",
+          "alias": "Building"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "CONTACT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "OPENING_HOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Opening Hours"
+        },
+        {
+          "name": "CONTACT_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone"
+        },
+        {
+          "name": "CONTACT_FAX",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Fax"
+        },
+        {
+          "name": "CONTACT_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "ANNOUNCEMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "Announcements"
+        },
+        {
+          "name": "FACILITIES",
+          "type": "esriFieldTypeString",
+          "alias": "Facilities"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Secondary Schools",
+      "title": "Secondary Schools",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BUILDING",
+          "type": "esriFieldTypeString",
+          "alias": "Building"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "OPENING_HOURS",
+          "type": "esriFieldTypeString",
+          "alias": "Opening Hours"
+        },
+        {
+          "name": "CONTACT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Name"
+        },
+        {
+          "name": "CONTACT_PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Phone"
+        },
+        {
+          "name": "CONTACT_FAX",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Fax"
+        },
+        {
+          "name": "CONTACT_EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Contact Email"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "ANNOUNCEMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "Announcements"
+        },
+        {
+          "name": "FACILITIES",
+          "type": "esriFieldTypeString",
+          "alias": "FACILITIES"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Alcohol Prohibition Areas",
+      "title": "Alcohol Prohibition Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Smoke Control Areas",
+      "title": "Smoke Control Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "TOT__NO__I",
+          "type": "esriFieldTypeString",
+          "alias": "TOT__NO__I"
+        },
+        {
+          "name": "TOT__NO__O",
+          "type": "esriFieldTypeString",
+          "alias": "TOT__NO__O"
+        },
+        {
+          "name": "TOT__NO__1",
+          "type": "esriFieldTypeString",
+          "alias": "TOT__NO__1"
+        },
+        {
+          "name": "TOT__NO__2",
+          "type": "esriFieldTypeString",
+          "alias": "TOT__NO__2"
+        },
+        {
+          "name": "TO__NO__OF",
+          "type": "esriFieldTypeString",
+          "alias": "TO__NO__OF"
+        },
+        {
+          "name": "TOT__AREA",
+          "type": "esriFieldTypeString",
+          "alias": "TOT__AREA"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "WEB_URL",
+          "type": "esriFieldTypeString",
+          "alias": "Web URL"
+        },
+        {
+          "name": "DESIGNATED_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Designated Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Community Councils",
+      "title": "Community Councils",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ACTIVE",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "WEBLINK",
+          "type": "esriFieldTypeString",
+          "alias": "Click for"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "North Ayrshire Locality Boundaries",
+      "title": "North Ayrshire Locality Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LOCALITY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Locality Name"
+        },
+        {
+          "name": "WEBLINK",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Polling Districts",
+      "title": "Polling Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "COUNCIL",
+          "type": "esriFieldTypeString",
+          "alias": "Council"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "POLLING",
+          "type": "esriFieldTypeString",
+          "alias": "POLLING"
+        },
+        {
+          "name": "POLLING_PLACE_ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Polling Place ID"
+        },
+        {
+          "name": "BUILDING",
+          "type": "esriFieldTypeString",
+          "alias": "Polling Place "
+        },
+        {
+          "name": "UPRN",
+          "type": "esriFieldTypeString",
+          "alias": "UPRN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Polling Places",
+      "title": "Polling Places",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "UPRN",
+          "type": "esriFieldTypeString",
+          "alias": "UPRN"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "POLLING_PLACE",
+          "type": "esriFieldTypeString",
+          "alias": "POLLING_PLACE"
+        },
+        {
+          "name": "POLLING_DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "POLLING_DISTRICT"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Grit Bins",
+      "title": "Grit Bins",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "REF_NO",
+          "type": "esriFieldTypeString",
+          "alias": "Ref No"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "STREET",
+          "type": "esriFieldTypeString",
+          "alias": "Street"
+        },
+        {
+          "name": "TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "SIZE_",
+          "type": "esriFieldTypeString",
+          "alias": "Size"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Gritting Routes",
+      "title": "Gritting Routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "INSTRUCTIO",
+          "type": "esriFieldTypeInteger",
+          "alias": "INSTRUCTIO"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeDouble",
+          "alias": "DISTANCE"
+        },
+        {
+          "name": "SALTING",
+          "type": "esriFieldTypeString",
+          "alias": "SALTING"
+        },
+        {
+          "name": "SHAPE_LENG",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_LENG"
+        },
+        {
+          "name": "PRIORITY",
+          "type": "esriFieldTypeString",
+          "alias": "Priority"
+        },
+        {
+          "name": "INSTRUCT_1",
+          "type": "esriFieldTypeString",
+          "alias": "INSTRUCT_1"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Tree Preservation Orders",
+      "title": "Tree Preservation Orders",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Conservation Areas",
+      "title": "Conservation Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Allotments",
+      "title": "Allotments",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Cemeteries",
+      "title": "Cemeteries",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "21-22 Housing Land Audit ",
+      "title": "21-22 Housing Land Audit ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "22-23 Housing Land Audit",
+      "title": "22-23 Housing Land Audit",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "2024 Housing Land Audit ",
+      "title": "2024 Housing Land Audit ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Scottish Constituencies",
+      "title": "Scottish Constituencies",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Westminster Constituencies",
+      "title": "Westminster Constituencies",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1534,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

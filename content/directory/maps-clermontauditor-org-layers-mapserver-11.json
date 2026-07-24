@@ -1,0 +1,1048 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-11",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/VMS/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/VMS/MapServer",
+  "title": "Layers",
+  "description": "Virginia Military Survey historical survey maps and boundaries.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Virginia Military Surveys",
+      "title": "Virginia Military Surveys",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "VMS_Search",
+      "title": "VMS_Search",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "VMSCLN1POL",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1POL"
+        },
+        {
+          "name": "VMSCLN1P_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1P_1"
+        },
+        {
+          "name": "VMS_CLEAN1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_CLEAN1"
+        },
+        {
+          "name": "VMS_POLYGN",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_POLYGN"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "VMS_PaperTexture",
+      "title": "VMS_PaperTexture",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "VMSCLN1POL",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1POL"
+        },
+        {
+          "name": "VMSCLN1P_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1P_1"
+        },
+        {
+          "name": "VMS_CLEAN1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_CLEAN1"
+        },
+        {
+          "name": "VMS_POLYGN",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_POLYGN"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "VMS_1M",
+      "title": "VMS_1M",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "GeorgeWashingtonsLostLand_1M",
+      "title": "GeorgeWashingtonsLostLand_1M",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Survey",
+          "type": "esriFieldTypeString",
+          "alias": "Survey"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Clermont_Boundary_1M",
+      "title": "Clermont_Boundary_1M",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "VMS_Boundary_1M",
+      "title": "VMS_Boundary_1M",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "VMSCLN1POL",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1POL"
+        },
+        {
+          "name": "VMSCLN1P_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1P_1"
+        },
+        {
+          "name": "VMS_CLEAN1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_CLEAN1"
+        },
+        {
+          "name": "VMS_POLYGN",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_POLYGN"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "VMS_1M",
+      "title": "VMS_1M",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "VMSCLN1POL",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1POL"
+        },
+        {
+          "name": "VMSCLN1P_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1P_1"
+        },
+        {
+          "name": "VMS_CLEAN1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_CLEAN1"
+        },
+        {
+          "name": "VMS_POLYGN",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_POLYGN"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Clermont_1M",
+      "title": "Clermont_1M",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "VMS_577K",
+      "title": "VMS_577K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "GeorgeWashingtonsLostLand_577K",
+      "title": "GeorgeWashingtonsLostLand_577K",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Survey",
+          "type": "esriFieldTypeString",
+          "alias": "Survey"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Clermont_Boundary_577K",
+      "title": "Clermont_Boundary_577K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "VMS_Boundary_577K",
+      "title": "VMS_Boundary_577K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "VMSCLN1POL",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1POL"
+        },
+        {
+          "name": "VMSCLN1P_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1P_1"
+        },
+        {
+          "name": "VMS_CLEAN1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_CLEAN1"
+        },
+        {
+          "name": "VMS_POLYGN",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_POLYGN"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "VMS_577K",
+      "title": "VMS_577K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "VMSCLN1POL",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1POL"
+        },
+        {
+          "name": "VMSCLN1P_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMSCLN1P_1"
+        },
+        {
+          "name": "VMS_CLEAN1",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_CLEAN1"
+        },
+        {
+          "name": "VMS_POLYGN",
+          "type": "esriFieldTypeDouble",
+          "alias": "VMS_POLYGN"
+        },
+        {
+          "name": "SURVEYNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYNAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Clermont_577K",
+      "title": "Clermont_577K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "VMS_288K",
+      "title": "VMS_288K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "GeorgeWashingtonsLostLand_288K",
+      "title": "GeorgeWashingtonsLostLand_288K",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Clermont_Boundary_288K",
+      "title": "Clermont_Boundary_288K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "VMS_Boundary_288K",
+      "title": "VMS_Boundary_288K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "VMS_288K",
+      "title": "VMS_288K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Clermont_288K",
+      "title": "Clermont_288K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "VMS_144K",
+      "title": "VMS_144K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "GeorgeWashingtonsLostLand_144K",
+      "title": "GeorgeWashingtonsLostLand_144K",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Clermont_Boundary_144K",
+      "title": "Clermont_Boundary_144K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "VMS_Boundary_144K",
+      "title": "VMS_Boundary_144K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "VMS_144K",
+      "title": "VMS_144K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Clermont_144K",
+      "title": "Clermont_144K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "VMS_72K",
+      "title": "VMS_72K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "GeorgeWashingtonsLostLand_72K",
+      "title": "GeorgeWashingtonsLostLand_72K",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Clermont_Boundary_72K",
+      "title": "Clermont_Boundary_72K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "VMS_Boundary_72K",
+      "title": "VMS_Boundary_72K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "VMS_72K",
+      "title": "VMS_72K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Clermont_72K",
+      "title": "Clermont_72K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "VMS_36K",
+      "title": "VMS_36K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "GeorgeWashingtonsLostLand_36K",
+      "title": "GeorgeWashingtonsLostLand_36K",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Clermont_Boundary_36K",
+      "title": "Clermont_Boundary_36K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "VMS_Boundary_36K",
+      "title": "VMS_Boundary_36K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "VMS_36K",
+      "title": "VMS_36K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "VMS_18K",
+      "title": "VMS_18K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "GeorgeWashingtonsLostLand_18K",
+      "title": "GeorgeWashingtonsLostLand_18K",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Clermont_Boundary_18K",
+      "title": "Clermont_Boundary_18K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "VMS_Boundary_18K",
+      "title": "VMS_Boundary_18K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "VMS_18K",
+      "title": "VMS_18K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "VMS_9K",
+      "title": "VMS_9K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "GeorgeWashingtonsLostLand_9K",
+      "title": "GeorgeWashingtonsLostLand_9K",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Clermont_Boundary_9K",
+      "title": "Clermont_Boundary_9K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "VMS_Boundary_9K",
+      "title": "VMS_Boundary_9K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "VMS_9K",
+      "title": "VMS_9K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "VMS_4K",
+      "title": "VMS_4K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "GeorgeWashingtonsLostLand_4K",
+      "title": "GeorgeWashingtonsLostLand_4K",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Clermont_Boundary_4K",
+      "title": "Clermont_Boundary_4K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "VMS_Boundary_4K",
+      "title": "VMS_Boundary_4K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "VMS_4K",
+      "title": "VMS_4K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "VMS_2K",
+      "title": "VMS_2K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "Clermont_Boundary_2K",
+      "title": "Clermont_Boundary_2K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "VMS_Boundary_2K",
+      "title": "VMS_Boundary_2K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "VMS_2K",
+      "title": "VMS_2K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "VMS_1K",
+      "title": "VMS_1K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Clermont_Boundary_1K",
+      "title": "Clermont_Boundary_1K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "VMS_Boundary_1K",
+      "title": "VMS_Boundary_1K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 226,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

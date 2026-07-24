@@ -1,0 +1,120 @@
+{
+  "slug": "www-mapping-cityoflondon-gov-uk-layers-mapserver-8",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Livery_Halls/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Livery_Halls/MapServer",
+  "title": "Layers",
+  "description": "Historic Livery Hall locations with dining and function details.",
+  "abstract": "Livery Hall Locations for committee and member services in Town Clerks",
+  "provider": "www.mapping.cityoflondon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Click here to expand Livery Hall List",
+      "title": "Click here to expand Livery Hall List",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LIVERYCOMPANY",
+          "type": "esriFieldTypeString",
+          "alias": "Livery Name"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "POSTCODE",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "FORMALDININGCAPACITY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Formal Dining Capacity"
+        },
+        {
+          "name": "UNIQUEID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "UNIQUEID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PRECEDENCE",
+          "type": "esriFieldTypeString",
+          "alias": "Precedence Number"
+        },
+        {
+          "name": "DATABASE_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "DATABASE LINK"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 290,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

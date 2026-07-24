@@ -1,0 +1,225 @@
+{
+  "slug": "dfsi-spatial-services-nsw-property-mapserver",
+  "service_key": "ESRI MapServer:https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Property/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Property/MapServer",
+  "title": "Property",
+  "description": "Property boundaries and valuations for New South Wales from Valuer General data",
+  "abstract": "Dynamic Map Service of Property extents designed primarily for display over raster data.\nProperty data is a polygon feature class that spatially represents an aspatial property description as provided by the Valuer Generals Department in their ValNet database.",
+  "provider": "DFSI Spatial Services NSW",
+  "place": {
+    "country": "Australia",
+    "state": "New South Wales",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Property",
+      "title": "Property",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Large_Rural_Property",
+      "title": "Large_Rural_Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "propid",
+          "type": "esriFieldTypeInteger",
+          "alias": "propid"
+        },
+        {
+          "name": "urbanity",
+          "type": "esriFieldTypeString",
+          "alias": "urbanity"
+        },
+        {
+          "name": "housenumber",
+          "type": "esriFieldTypeString",
+          "alias": "housenumber"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Area"
+        },
+        {
+          "name": "RID",
+          "type": "esriFieldTypeOID",
+          "alias": "RID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Rural_Property",
+      "title": "Rural_Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "propid",
+          "type": "esriFieldTypeInteger",
+          "alias": "propid"
+        },
+        {
+          "name": "urbanity",
+          "type": "esriFieldTypeString",
+          "alias": "urbanity"
+        },
+        {
+          "name": "housenumber",
+          "type": "esriFieldTypeString",
+          "alias": "housenumber"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "RID",
+          "type": "esriFieldTypeOID",
+          "alias": "RID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Semi_Rural_Property",
+      "title": "Semi_Rural_Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "propid",
+          "type": "esriFieldTypeInteger",
+          "alias": "propid"
+        },
+        {
+          "name": "urbanity",
+          "type": "esriFieldTypeString",
+          "alias": "urbanity"
+        },
+        {
+          "name": "housenumber",
+          "type": "esriFieldTypeString",
+          "alias": "housenumber"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "RID",
+          "type": "esriFieldTypeOID",
+          "alias": "RID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Urban_Property",
+      "title": "Urban_Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "propid",
+          "type": "esriFieldTypeInteger",
+          "alias": "propid"
+        },
+        {
+          "name": "urbanity",
+          "type": "esriFieldTypeString",
+          "alias": "urbanity"
+        },
+        {
+          "name": "housenumber",
+          "type": "esriFieldTypeString",
+          "alias": "housenumber"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "RID",
+          "type": "esriFieldTypeOID",
+          "alias": "RID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 306,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,994 @@
+{
+  "slug": "arcgis-argyll-bute-gov-uk-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://arcgis.argyll-bute.gov.uk/arcgis/rest/services/Electoral_Boundaries_and_Masks/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://arcgis.argyll-bute.gov.uk/arcgis/rest/services/Electoral_Boundaries_and_Masks/MapServer",
+  "title": "Layers",
+  "description": "Electoral and administrative boundaries including constituencies and wards.",
+  "abstract": "Electoral boundaries - constituencies, wards, community councils and polling districts - and masks of surrounding areas",
+  "provider": "arcgis.argyll-bute.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Scotland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Polling District",
+      "title": "Polling District",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "POLLING_1"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "POL_STN",
+          "type": "esriFieldTypeString",
+          "alias": "POL_PLA"
+        },
+        {
+          "name": "WARD_1",
+          "type": "esriFieldTypeString",
+          "alias": "WARD_1"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "POL_STA"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "EASTING",
+          "type": "esriFieldTypeDouble",
+          "alias": "EASTING"
+        },
+        {
+          "name": "NORTHING",
+          "type": "esriFieldTypeDouble",
+          "alias": "NORTHING"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "UPRN",
+          "type": "esriFieldTypeString",
+          "alias": "UPRN"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Community Council outline",
+      "title": "Community Council outline",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "CNT_NAME",
+          "type": "esriFieldTypeInteger",
+          "alias": "CNT_NAME"
+        },
+        {
+          "name": "MIN_ADMIN_",
+          "type": "esriFieldTypeString",
+          "alias": "MIN_ADMIN_"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Community Council",
+      "title": "Community Council",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "CNT_NAME",
+          "type": "esriFieldTypeInteger",
+          "alias": "CNT_NAME"
+        },
+        {
+          "name": "MIN_ADMIN_",
+          "type": "esriFieldTypeString",
+          "alias": "MIN_ADMIN_"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Electoral Ward outline",
+      "title": "Electoral Ward outline",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "COUNCIL",
+          "type": "esriFieldTypeString",
+          "alias": "COUNCIL"
+        },
+        {
+          "name": "WARD_NO",
+          "type": "esriFieldTypeString",
+          "alias": "WARD_NO"
+        },
+        {
+          "name": "WARD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "WARD_NAME"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Electoral Ward",
+      "title": "Electoral Ward",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "COUNCIL",
+          "type": "esriFieldTypeString",
+          "alias": "COUNCIL"
+        },
+        {
+          "name": "WARD_NO",
+          "type": "esriFieldTypeString",
+          "alias": "WARD_NO"
+        },
+        {
+          "name": "WARD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "WARD_NAME"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Administrative Area",
+      "title": "Administrative Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "AREA_NM",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NM"
+        },
+        {
+          "name": "AREA_ABV",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_ABV"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Argyll and Bute Council boundary",
+      "title": "Argyll and Bute Council boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NM",
+          "type": "esriFieldTypeString",
+          "alias": "NM"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Loch Lomond and Trossachs National Park",
+      "title": "Loch Lomond and Trossachs National Park",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GIS_SNH_OW",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS_SNH_OW"
+        },
+        {
+          "name": "CORPDATA_NATIONAL_PARK_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "CORPDATA_NATIONAL_PARK_AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "PA_CODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PA_CODE"
+        },
+        {
+          "name": "OPENED",
+          "type": "esriFieldTypeDate",
+          "alias": "OPENED"
+        },
+        {
+          "name": "DESIGNATED",
+          "type": "esriFieldTypeDate",
+          "alias": "DESIGNATED"
+        },
+        {
+          "name": "URL_NP",
+          "type": "esriFieldTypeString",
+          "alias": "URL_NP"
+        },
+        {
+          "name": "URL_SNH",
+          "type": "esriFieldTypeString",
+          "alias": "URL_SNH"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Scottish Parliament Constituency",
+      "title": "Scottish Parliament Constituency",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "MSP",
+          "type": "esriFieldTypeString",
+          "alias": "MSP"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "REGION_URL",
+          "type": "esriFieldTypeString",
+          "alias": "REGION_URL"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "UK Parliament Constituency",
+      "title": "UK Parliament Constituency",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Other Local Authority areas with names",
+      "title": "Other Local Authority areas with names",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "FILE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_NAME"
+        },
+        {
+          "name": "NUMBER_",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER_"
+        },
+        {
+          "name": "NUMBER0",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER0"
+        },
+        {
+          "name": "POLYGON_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLYGON_ID"
+        },
+        {
+          "name": "UNIT_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_ID"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "DESCRIPT0",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT0"
+        },
+        {
+          "name": "TYPE_COD0",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_COD0"
+        },
+        {
+          "name": "DESCRIPT1",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT1"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Other Local Authority areas as mask",
+      "title": "Other Local Authority areas as mask",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "FILE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_NAME"
+        },
+        {
+          "name": "NUMBER_",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER_"
+        },
+        {
+          "name": "NUMBER0",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER0"
+        },
+        {
+          "name": "POLYGON_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLYGON_ID"
+        },
+        {
+          "name": "UNIT_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_ID"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "DESCRIPT0",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT0"
+        },
+        {
+          "name": "TYPE_COD0",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_COD0"
+        },
+        {
+          "name": "DESCRIPT1",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT1"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Northern Ireland mask",
+      "title": "Northern Ireland mask",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Community Action Plans",
+      "title": "Community Action Plans",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "MIN_ADMIN_",
+          "type": "esriFieldTypeString",
+          "alias": "ADMIN_AREA"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "CC_URL"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "PLAN_STATU",
+          "type": "esriFieldTypeString",
+          "alias": "PlanStatus"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "PLAN_LINK"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "UK Parliament Constituency (seaward)",
+      "title": "UK Parliament Constituency (seaward)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTIO"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "MP",
+          "type": "esriFieldTypeString",
+          "alias": "MP"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Scottish Parliament Constituency (seaward)",
+      "title": "Scottish Parliament Constituency (seaward)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Polling Places",
+      "title": "Polling Places",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "National Park in Argyll & Bute",
+      "title": "National Park in Argyll & Bute",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Council Area less National Park",
+      "title": "Council Area less National Park",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1071,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

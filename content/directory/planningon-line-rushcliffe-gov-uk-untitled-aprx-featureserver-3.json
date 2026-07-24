@@ -1,0 +1,274 @@
+{
+  "slug": "planningon-line-rushcliffe-gov-uk-untitled-aprx-featureserver-3",
+  "service_key": "ESRI FeatureServer:https://planningon-line.rushcliffe.gov.uk/server/rest/services/PALIVE/LIVEUniformPA_Licensing/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://planningon-line.rushcliffe.gov.uk/server/rest/services/PALIVE/LIVEUniformPA_Licensing/FeatureServer",
+  "title": "Untitled.aprx",
+  "description": "Rushcliffe licensing applications with points and polygon spatial representations.",
+  "abstract": "LIVEUniformPA Licensing",
+  "provider": "planningon-line.rushcliffe.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Licensing Application points",
+      "title": "Licensing Application points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "refval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": 1
+    },
+    {
+      "id": 1,
+      "name": "Licensing points",
+      "title": "Licensing points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "refval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": 12
+    },
+    {
+      "id": 2,
+      "name": "Licensing Application polygons",
+      "title": "Licensing Application polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "refval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape.LEN"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": 0
+    },
+    {
+      "id": 3,
+      "name": "Licensing polygons",
+      "title": "Licensing polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "REFVAL",
+          "type": "esriFieldTypeString",
+          "alias": "refval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape.LEN"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": 0
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 910,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

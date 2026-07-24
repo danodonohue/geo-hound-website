@@ -1,0 +1,96 @@
+{
+  "slug": "the-counties-that-define-the-state-of-arizona-countymaricopa-mapserver",
+  "service_key": "ESRI MapServer:https://gis.maricopa.gov/arcgis/rest/services/IndividualService/CountyMaricopa/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.maricopa.gov/arcgis/rest/services/IndividualService/CountyMaricopa/MapServer",
+  "title": "CountyMaricopa",
+  "description": "Maricopa County boundary derived from state administrative division structure.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><DIV><P><SPAN>The Maricopa County boundary is extracted from the counties that define the state of Arizona. This facilitates having a feature that represents only Maricopa County without having all of the other counties that define the state of Arizona.</SPAN></P><P><SPAN /></P><P><SPAN>The largest territorial division (county) for local government within a state of the United States. The line work was originally obtained from the Arizona State Land Department (ASLD). Some of the line work for the Maricopa County boundary has been adjusted to survey points collected by the Maricopa County Department of Transportation (MCDOT). This data does not represent a legal record. The data was not created by engineering means and should not be used as such.</SPAN></P></DIV></DIV>",
+  "provider": "the counties that define the state of Arizona",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Maricopa County",
+      "title": "Maricopa County",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CountyName",
+          "type": "esriFieldTypeString",
+          "alias": "CountyName"
+        },
+        {
+          "name": "Area_Acre",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_Acre"
+        },
+        {
+          "name": "Area_SqMile",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_SqMile"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 270,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

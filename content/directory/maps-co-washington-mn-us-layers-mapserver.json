@@ -1,0 +1,269 @@
+{
+  "slug": "maps-co-washington-mn-us-layers-mapserver",
+  "service_key": "ESRI MapServer:https://maps.co.washington.mn.us/arcgis/rest/services/GISViewer/Elections/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.co.washington.mn.us/arcgis/rest/services/GISViewer/Elections/MapServer",
+  "title": "Layers",
+  "description": "Washington County Minnesota election infrastructure including precincts and polling locations.",
+  "abstract": "Washington County election layers (Polling places, Commissioner districts, Precincts) used in the Public GIS Viewer.",
+  "provider": "maps.co.washington.mn.us",
+  "place": {
+    "country": "United States",
+    "state": "Minnesota",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "PollingLocations",
+      "title": "PollingLocations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "SCHOOLDIST",
+          "type": "esriFieldTypeString",
+          "alias": "SCHOOLDIST"
+        },
+        {
+          "name": "COMBONAME",
+          "type": "esriFieldTypeString",
+          "alias": "COMBONAME"
+        },
+        {
+          "name": "LOCNAME",
+          "type": "esriFieldTypeString",
+          "alias": "LOCNAME"
+        },
+        {
+          "name": "OBJECTID_12",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_12"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "PRECINCT"
+        },
+        {
+          "name": "COUNT",
+          "type": "esriFieldTypeDouble",
+          "alias": "COUNT"
+        },
+        {
+          "name": "MIN_C_DIST",
+          "type": "esriFieldTypeInteger",
+          "alias": "MIN_C_DIST"
+        },
+        {
+          "name": "AVAPAGE",
+          "type": "esriFieldTypeDouble",
+          "alias": "AVAPAGE"
+        },
+        {
+          "name": "AVAUSERPG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AVAUSERPG"
+        },
+        {
+          "name": "AVATOP",
+          "type": "esriFieldTypeDouble",
+          "alias": "AVATOP"
+        },
+        {
+          "name": "AVABOTTOM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AVABOTTOM"
+        },
+        {
+          "name": "AVALEFT",
+          "type": "esriFieldTypeDouble",
+          "alias": "AVALEFT"
+        },
+        {
+          "name": "AVARIGHT",
+          "type": "esriFieldTypeDouble",
+          "alias": "AVARIGHT"
+        },
+        {
+          "name": "AVASCALE",
+          "type": "esriFieldTypeDouble",
+          "alias": "AVASCALE"
+        },
+        {
+          "name": "AVAINCLUDE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AVAINCLUDE"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeInteger",
+          "alias": "PAGE"
+        },
+        {
+          "name": "POLL_PLACE",
+          "type": "esriFieldTypeString",
+          "alias": "POLL_PLACE"
+        },
+        {
+          "name": "POLL_ADD",
+          "type": "esriFieldTypeString",
+          "alias": "POLL_ADD"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZIP"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Commissioner",
+      "title": "Commissioner",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "DIST_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "DIST_NAME"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "POP",
+          "type": "esriFieldTypeDouble",
+          "alias": "Population (2020)"
+        },
+        {
+          "name": "DIST_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "DIST_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Precincts",
+      "title": "Precincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "Precinct"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "POPTOTAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "Population"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1019,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "slug": "gis-wcc-govt-nz-contours-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Cache/Contours/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Cache/Contours/MapServer",
+  "title": "Contours",
+  "description": "Elevation contours at 5m for rural and 1m intervals for urban Wellington",
+  "abstract": "Five metre contours for rural and one metre contours for urban areas of Wellington City.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Contours (Urban 5m) 2017 - Wellington1953",
+      "title": "Contours (Urban 5m) 2017 - Wellington1953",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_1"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "elevation",
+          "type": "esriFieldTypeInteger",
+          "alias": "elevation"
+        },
+        {
+          "name": "TILE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "TILE_ID"
+        },
+        {
+          "name": "MajorLine",
+          "type": "esriFieldTypeString",
+          "alias": "MajorLine"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape__Len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Len"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Contours (Rural 5m) 2004 - Wellington1953",
+      "title": "Contours (Rural 5m) 2004 - Wellington1953",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_STLe"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Contours (Urban 5m) 2017 - Wellington1953",
+      "title": "Contours (Urban 5m) 2017 - Wellington1953",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_1"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "elevation",
+          "type": "esriFieldTypeInteger",
+          "alias": "elevation"
+        },
+        {
+          "name": "TILE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "TILE_ID"
+        },
+        {
+          "name": "MajorLine",
+          "type": "esriFieldTypeString",
+          "alias": "MajorLine"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape__Len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Len"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Contours (Rural 5m) 2004 - Wellington1953",
+      "title": "Contours (Rural 5m) 2004 - Wellington1953",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "type",
+          "type": "esriFieldTypeString",
+          "alias": "type"
+        },
+        {
+          "name": "elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_STLe"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Contours (Urban 1m) 2017 - Wellington1953",
+      "title": "Contours (Urban 1m) 2017 - Wellington1953",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_1"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "elevation",
+          "type": "esriFieldTypeInteger",
+          "alias": "elevation"
+        },
+        {
+          "name": "TILE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "TILE_ID"
+        },
+        {
+          "name": "MajorLine",
+          "type": "esriFieldTypeString",
+          "alias": "MajorLine"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape__Len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape__Len"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 55,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

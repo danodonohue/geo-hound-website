@@ -1,0 +1,245 @@
+{
+  "slug": "mcdot-maintainedroad-mapserver",
+  "service_key": "ESRI MapServer:https://gis.maricopa.gov/dot/rest/services/Maintenance/MaintainedRoad/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.maricopa.gov/dot/rest/services/Maintenance/MaintainedRoad/MapServer",
+  "title": "MaintainedRoad",
+  "description": "County-maintained road network segments with maintenance district and surface attributes.",
+  "abstract": "This service represents the maintenance of roads by the Maricopa County Department of Transportation (MCDOT).",
+  "provider": "MCDOT",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "County Maintained Roads",
+      "title": "County Maintained Roads",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "RouteID",
+          "type": "esriFieldTypeString",
+          "alias": "Route ID"
+        },
+        {
+          "name": "FromMeasure",
+          "type": "esriFieldTypeDouble",
+          "alias": "From Measure"
+        },
+        {
+          "name": "ToMeasure",
+          "type": "esriFieldTypeDouble",
+          "alias": "To Measure"
+        },
+        {
+          "name": "OnRoad",
+          "type": "esriFieldTypeString",
+          "alias": "OnRoad"
+        },
+        {
+          "name": "FromRoad",
+          "type": "esriFieldTypeString",
+          "alias": "FromRoad"
+        },
+        {
+          "name": "FromOffset",
+          "type": "esriFieldTypeInteger",
+          "alias": "FromOffset"
+        },
+        {
+          "name": "ToRoad",
+          "type": "esriFieldTypeString",
+          "alias": "ToRoad"
+        },
+        {
+          "name": "ToOffset",
+          "type": "esriFieldTypeInteger",
+          "alias": "ToOffset"
+        },
+        {
+          "name": "MaintenanceDistrict",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance District"
+        },
+        {
+          "name": "MaintenanceSide",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance Side"
+        },
+        {
+          "name": "LengthInFeet",
+          "type": "esriFieldTypeDouble",
+          "alias": "LengthInFeet"
+        },
+        {
+          "name": "SegmentID",
+          "type": "esriFieldTypeString",
+          "alias": "SegmentID"
+        },
+        {
+          "name": "SubdivisionName",
+          "type": "esriFieldTypeString",
+          "alias": "SubdivisionName"
+        },
+        {
+          "name": "SurfaceType",
+          "type": "esriFieldTypeString",
+          "alias": "SurfaceType"
+        },
+        {
+          "name": "SurfaceDepth",
+          "type": "esriFieldTypeDouble",
+          "alias": "SurfaceDepth"
+        },
+        {
+          "name": "BaseType",
+          "type": "esriFieldTypeString",
+          "alias": "BaseType"
+        },
+        {
+          "name": "BaseDepth",
+          "type": "esriFieldTypeDouble",
+          "alias": "BaseDepth"
+        },
+        {
+          "name": "SubBaseType",
+          "type": "esriFieldTypeString",
+          "alias": "SubBaseType"
+        },
+        {
+          "name": "SubBaseDepth",
+          "type": "esriFieldTypeDouble",
+          "alias": "SubBaseDepth"
+        },
+        {
+          "name": "SubgradeType",
+          "type": "esriFieldTypeString",
+          "alias": "SubgradeType"
+        },
+        {
+          "name": "SubgradeDepth",
+          "type": "esriFieldTypeDouble",
+          "alias": "SubgradeDepth"
+        },
+        {
+          "name": "TreatedSubgradeType",
+          "type": "esriFieldTypeString",
+          "alias": "TreatedSubgradeType"
+        },
+        {
+          "name": "TreatedSubgradeDepth",
+          "type": "esriFieldTypeDouble",
+          "alias": "TreatedSubgradeDepth"
+        },
+        {
+          "name": "RoadWidth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RoadWidth"
+        },
+        {
+          "name": "LaneCount",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LaneCount"
+        },
+        {
+          "name": "Classification",
+          "type": "esriFieldTypeString",
+          "alias": "Classification"
+        },
+        {
+          "name": "Street",
+          "type": "esriFieldTypeString",
+          "alias": "Street"
+        },
+        {
+          "name": "ToDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ToDate"
+        },
+        {
+          "name": "InvertedCrown",
+          "type": "esriFieldTypeString",
+          "alias": "InvertedCrown"
+        },
+        {
+          "name": "EstimatedOci",
+          "type": "esriFieldTypeDouble",
+          "alias": "EstimatedOci"
+        },
+        {
+          "name": "EstimatedOcr",
+          "type": "esriFieldTypeString",
+          "alias": "EstimatedOcr"
+        },
+        {
+          "name": "BoardOfSupervisorDistrict",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BOS District"
+        },
+        {
+          "name": "Primative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Primative"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 269,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

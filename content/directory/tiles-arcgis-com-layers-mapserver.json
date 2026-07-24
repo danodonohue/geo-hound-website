@@ -1,0 +1,74 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/JZM7qJpmv7vJ0Hzx/arcgis/rest/services/DRAFT_TC_WWNP_Floodplain_Reconnection_Potential/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/JZM7qJpmv7vJ0Hzx/arcgis/rest/services/DRAFT_TC_WWNP_Floodplain_Reconnection_Potential/MapServer",
+  "title": "Layers",
+  "description": "Floodplain reconnection potential for reducing flood wave propagation in rivers",
+  "abstract": "WWNP Floodplain Reconnection Potential is our best estimate of locations where it may be possible to establish reconnection between a watercourse and its natural floodplain, especially during high flows. The dataset is designed to support signposting of areas where there is currently poor connectivity such that flood waters are constrained to the channel and flood waves may therefore propagate downstream rapidly.<div><br /></div><div>The dataset is based upon the Risk of Flooding from Rivers and Sea probability maps, and identifies areas of low and very low probability that are close to a watercourse, but which do not contain residential property or key services.\n\nThe areas may contain non-residential property so it is important to consider this and recent buildings or defences when considering floodplain reconnection. Locations identified may have more recent building or land use than available data indicates. It is important to note that land ownership and change to flood risk have not been considered, and it may be necessary to model the impacts of significant reconnection. </div><div><br /></div><div> Areas of low or very low probability of fluvial flooding were identified from the Risk of Flooding from Rivers and Sea dataset. The Detailed River Network (2013) was used to derive the proximity of the watercourses to the floodplain, but not displayed due to data licensing restrictions. The National Receptor Dataset (2014) property points were used to screen out areas with residential property and key services. This dataset is not open data, so is also not displayed in the mapping work</div>",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "WWNP Floodplain Reconnection Potential",
+      "title": "WWNP Floodplain Reconnection Potential",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Area_m2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_m2"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 435,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

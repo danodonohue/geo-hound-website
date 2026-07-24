@@ -1,0 +1,164 @@
+{
+  "slug": "map-sitr-regione-sicilia-it-pai-sicilia-geomorfologia-fascia-di-rispet-mapserver",
+  "service_key": "ESRI MapServer:https://map.sitr.regione.sicilia.it/gis/rest/services/pai/PAI_Geomorfologia_FasciaRispettoP3P4/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://map.sitr.regione.sicilia.it/gis/rest/services/pai/PAI_Geomorfologia_FasciaRispettoP3P4/MapServer",
+  "title": "PAI Sicilia - Geomorfologia - Fascia di Rispetto",
+  "description": "Sicily land risk management zones for geomorphological hazard areas with buffer zones.",
+  "abstract": " ",
+  "provider": "map.sitr.regione.sicilia.it",
+  "place": {
+    "country": "Italy",
+    "state": "Sicily",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Fascia Rispetto P3 P4",
+      "title": "Fascia Rispetto P3 P4",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SIGLA",
+          "type": "esriFieldTypeString",
+          "alias": "SIGLA"
+        },
+        {
+          "name": "PERICOLO",
+          "type": "esriFieldTypeString",
+          "alias": "PERICOLO"
+        },
+        {
+          "name": "PAI_NMR",
+          "type": "esriFieldTypeString",
+          "alias": "PAI_NMR"
+        },
+        {
+          "name": "COMUNE",
+          "type": "esriFieldTypeString",
+          "alias": "COMUNE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Altri_comu",
+          "type": "esriFieldTypeString",
+          "alias": "Altro comune"
+        },
+        {
+          "name": "Altri_com2",
+          "type": "esriFieldTypeString",
+          "alias": "Altro comune 2"
+        },
+        {
+          "name": "CTR",
+          "type": "esriFieldTypeString",
+          "alias": "Numero/i CTR"
+        },
+        {
+          "name": "N_AdSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "DATA_AdSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "NGURS_AdSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero GURS del decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "DGURS_AdSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data GURS del decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "N_DSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero decreto segretario AdB"
+        },
+        {
+          "name": "DATA_DSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data decreto segretario AdB"
+        },
+        {
+          "name": "NGURS_DSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero GURS decreto segretario AdB"
+        },
+        {
+          "name": "DGURS_DSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data GURS decreto segretario AdB"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:25833"
+  ],
+  "cors_enabled": true,
+  "response_ms": 969,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

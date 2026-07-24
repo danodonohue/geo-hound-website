@@ -1,0 +1,802 @@
+{
+  "slug": "maps2-bristol-gov-uk-layers-mapserver-11",
+  "service_key": "ESRI MapServer:https://maps2.bristol.gov.uk/server2/rest/services/ext/som_hist_2022/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.bristol.gov.uk/server2/rest/services/ext/som_hist_2022/MapServer",
+  "title": "Layers",
+  "description": "Historic monument and archaeological records for Somerset region.",
+  "abstract": "Somerset Historic Environment Record",
+  "provider": "maps2.bristol.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Somerset",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Historic information",
+      "title": "Historic information",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Public Contributions",
+      "title": "Public Contributions",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Community layer",
+      "title": "Community layer",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "TITLE"
+        },
+        {
+          "name": "ASSET_TYPE_OTHER",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_TYPE_OTHER"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "ASSET_RISK",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_RISK"
+        },
+        {
+          "name": "SUBMITTER_ORG",
+          "type": "esriFieldTypeString",
+          "alias": "SUBMITTER_ORG"
+        },
+        {
+          "name": "LOCAL_LIST_NOMINATED",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_LIST_NOMINATED"
+        },
+        {
+          "name": "COPYRIGHT",
+          "type": "esriFieldTypeString",
+          "alias": "COPYRIGHT"
+        },
+        {
+          "name": "EDITION",
+          "type": "esriFieldTypeString",
+          "alias": "EDITION"
+        },
+        {
+          "name": "PUBLISH",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLISH"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeString",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "CONSENT",
+          "type": "esriFieldTypeString",
+          "alias": "CONSENT"
+        },
+        {
+          "name": "VISIBLE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "VISIBLE_NAME"
+        },
+        {
+          "name": "GDPR_CONSENT",
+          "type": "esriFieldTypeString",
+          "alias": "GDPR_CONSENT"
+        },
+        {
+          "name": "LINK_URL_1",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_1"
+        },
+        {
+          "name": "LINK_TEXT_1",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_TEXT_1"
+        },
+        {
+          "name": "LINK_URL_2",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_2"
+        },
+        {
+          "name": "LINK_TEXT_2",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_2"
+        },
+        {
+          "name": "ATTACHMENT_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ATTACHMENT_NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Somerset Historic Environment Record",
+      "title": "Somerset Historic Environment Record",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Historic Environment Records",
+      "title": "Historic Environment Records",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PRN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRN"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AR_OR_EV",
+          "type": "esriFieldTypeString",
+          "alias": "AR_OR_EV"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Historic Environment Fieldwork",
+      "title": "Historic Environment Fieldwork",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AR_OR_EV",
+          "type": "esriFieldTypeString",
+          "alias": "AR_OR_EV"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "PRN",
+          "type": "esriFieldTypeInteger",
+          "alias": "PRN"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Scheduled Monuments",
+      "title": "Scheduled Monuments",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UDS_ASSET_NO",
+          "type": "esriFieldTypeString",
+          "alias": "UDS_ASSET_NO"
+        },
+        {
+          "name": "ASSET_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_NAME"
+        },
+        {
+          "name": "DESIG_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "DESIG_TYPE"
+        },
+        {
+          "name": "GRADE",
+          "type": "esriFieldTypeString",
+          "alias": "GRADE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Listed Buildings",
+      "title": "Listed Buildings",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UDS_ASSET_NO",
+          "type": "esriFieldTypeString",
+          "alias": "UDS_ASSET_NO"
+        },
+        {
+          "name": "ASSET_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_NAME"
+        },
+        {
+          "name": "DESIG_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "DESIG_TYPE"
+        },
+        {
+          "name": "GRADE",
+          "type": "esriFieldTypeString",
+          "alias": "GRADE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Local Heritage List",
+      "title": "Local Heritage List",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "STAGE",
+          "type": "esriFieldTypeString",
+          "alias": "Stage"
+        },
+        {
+          "name": "STAGE_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "Stage Date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Registered Parks and Gardens",
+      "title": "Registered Parks and Gardens",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UDS_ASSET_NO",
+          "type": "esriFieldTypeString",
+          "alias": "UDS_ASSET_NO"
+        },
+        {
+          "name": "ASSET_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_NAME"
+        },
+        {
+          "name": "DESIG_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "DESIG_TYPE"
+        },
+        {
+          "name": "GRADE",
+          "type": "esriFieldTypeString",
+          "alias": "GRADE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Registered Battlefields",
+      "title": "Registered Battlefields",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UDS_ASSET_NO",
+          "type": "esriFieldTypeString",
+          "alias": "UDS_ASSET_NO"
+        },
+        {
+          "name": "ASSET_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_NAME"
+        },
+        {
+          "name": "DESIG_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "DESIG_TYPE"
+        },
+        {
+          "name": "GRADE",
+          "type": "esriFieldTypeString",
+          "alias": "GRADE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Conservation Areas",
+      "title": "Conservation Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ASSETNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ASSETNAME"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Exmoor Historic Environment Record",
+      "title": "Exmoor Historic Environment Record",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "HER Monuments (Exmoor)",
+      "title": "HER Monuments (Exmoor)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MONUMENT_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Monument UID"
+        },
+        {
+          "name": "RECORD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Record Type"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MONUMENT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Monument Type"
+        },
+        {
+          "name": "SUMMARY",
+          "type": "esriFieldTypeString",
+          "alias": "Summary"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "HER Events (Exmoor)",
+      "title": "HER Events (Exmoor)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "EVENT_UID",
+          "type": "esriFieldTypeString",
+          "alias": "Event UID"
+        },
+        {
+          "name": "RECORD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Record Type"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "EVENT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Event Type"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Scheduled Monuments (Exmoor)",
+      "title": "Scheduled Monuments (Exmoor)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Listed Buildings (Exmoor)",
+      "title": "Listed Buildings (Exmoor)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Local List (Exmoor)",
+      "title": "Local List (Exmoor)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Registered Parks and Gardens (Exmoor)",
+      "title": "Registered Parks and Gardens (Exmoor)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Conservation Areas (Exmoor)",
+      "title": "Conservation Areas (Exmoor)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Principal Archaeological Landscapes (Exmoor)",
+      "title": "Principal Archaeological Landscapes (Exmoor)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Boundaries",
+      "title": "Boundaries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Index Sheet",
+      "title": "Index Sheet",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Exmoor National Park",
+      "title": "Exmoor National Park",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Neighbouring authorities",
+      "title": "Neighbouring authorities",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Other Collections",
+      "title": "Other Collections",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Somerset Local History",
+      "title": "Somerset Local History",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Devon and Somerset Gazetteer 1900",
+      "title": "Devon and Somerset Gazetteer 1900",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Devon and Somerset Parishes 1831",
+      "title": "Devon and Somerset Parishes 1831",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Braikenridge Collection",
+      "title": "Braikenridge Collection",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 296,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

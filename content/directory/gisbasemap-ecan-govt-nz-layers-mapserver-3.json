@@ -1,0 +1,1905 @@
+{
+  "slug": "gisbasemap-ecan-govt-nz-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Imagery/Canterbury_Imagery_Extents/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Imagery/Canterbury_Imagery_Extents/MapServer",
+  "title": "Layers",
+  "description": "GIS service providing heritage, imagery data.",
+  "abstract": "Historical Imagery Collection Extents. These services show aerial capture information and extents of the imagery visible in the cached Canterbury Imagery map services.",
+  "provider": "gisbasemap.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "1925 - 1929",
+      "title": "1925 - 1929",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "YEAR_FLOWN",
+          "type": "esriFieldTypeInteger",
+          "alias": "YEAR_FLOWN"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "LINK",
+          "type": "esriFieldTypeString",
+          "alias": "LINK"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "DATE_SUPPLIED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_SUPPLIED"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "1935 - 1939",
+      "title": "1935 - 1939",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "1940 - 1944",
+      "title": "1940 - 1944",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "1945 - 1949",
+      "title": "1945 - 1949",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "1950 - 1954",
+      "title": "1950 - 1954",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "1955 - 1959",
+      "title": "1955 - 1959",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "1960 - 1964",
+      "title": "1960 - 1964",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "1965 - 1969",
+      "title": "1965 - 1969",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "1970 - 1974",
+      "title": "1970 - 1974",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "1975 - 1979",
+      "title": "1975 - 1979",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "1980 - 1984",
+      "title": "1980 - 1984",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "1985 - 1989",
+      "title": "1985 - 1989",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "1990 - 1994",
+      "title": "1990 - 1994",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "Year_Flown",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year_Flown"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "1995 - 1999",
+      "title": "1995 - 1999",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "LICENSE_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE_DESCRIPTION"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "2000 - 2004",
+      "title": "2000 - 2004",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "2010 - 2014",
+      "title": "2010 - 2014",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "2015 - 2019",
+      "title": "2015 - 2019",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "All Boundaries",
+      "title": "All Boundaries",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 20,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

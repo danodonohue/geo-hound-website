@@ -1,0 +1,293 @@
+{
+  "slug": "gis-mstn-govt-nz-layers-mapserver-8",
+  "service_key": "ESRI MapServer:https://gis.mstn.govt.nz/arcgis/rest/services/Services/WaterRaces/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.mstn.govt.nz/arcgis/rest/services/Services/WaterRaces/MapServer",
+  "title": "Layers",
+  "description": "Water races and irrigation channels for Wairarapa region.",
+  "abstract": "Water Races for the Wairarapa region.",
+  "provider": "gis.mstn.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Masterton Water Race",
+      "title": "Masterton Water Race",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Carterton Water Race - Taratahi",
+      "title": "Carterton Water Race - Taratahi",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Full_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Full_Name"
+        },
+        {
+          "name": "Colour",
+          "type": "esriFieldTypeString",
+          "alias": "Colour"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "GPS_X",
+          "type": "esriFieldTypeString",
+          "alias": "GPS_X"
+        },
+        {
+          "name": "GPS_Y",
+          "type": "esriFieldTypeString",
+          "alias": "GPS_Y"
+        },
+        {
+          "name": "Scheme",
+          "type": "esriFieldTypeString",
+          "alias": "Scheme"
+        },
+        {
+          "name": "Maintenanc",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenanc"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Carterton Water Race - Carrington",
+      "title": "Carterton Water Race - Carrington",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FNODE_",
+          "type": "esriFieldTypeDouble",
+          "alias": "FNODE_"
+        },
+        {
+          "name": "TNODE_",
+          "type": "esriFieldTypeDouble",
+          "alias": "TNODE_"
+        },
+        {
+          "name": "LPOLY_",
+          "type": "esriFieldTypeDouble",
+          "alias": "LPOLY_"
+        },
+        {
+          "name": "RPOLY_",
+          "type": "esriFieldTypeDouble",
+          "alias": "RPOLY_"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "CARRIV_",
+          "type": "esriFieldTypeDouble",
+          "alias": "CARRIV_"
+        },
+        {
+          "name": "CARRIV_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "CARRIV_ID"
+        },
+        {
+          "name": "ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Structure",
+          "type": "esriFieldTypeString",
+          "alias": "Structure"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "GPS_X",
+          "type": "esriFieldTypeString",
+          "alias": "GPS_X"
+        },
+        {
+          "name": "GPS_Y",
+          "type": "esriFieldTypeString",
+          "alias": "GPS_Y"
+        },
+        {
+          "name": "Scheme",
+          "type": "esriFieldTypeString",
+          "alias": "Scheme"
+        },
+        {
+          "name": "Maintenanc",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenanc"
+        },
+        {
+          "name": "Colour",
+          "type": "esriFieldTypeString",
+          "alias": "Colour"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 48,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

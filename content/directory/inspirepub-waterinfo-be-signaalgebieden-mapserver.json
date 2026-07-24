@@ -1,0 +1,145 @@
+{
+  "slug": "inspirepub-waterinfo-be-signaalgebieden-mapserver",
+  "service_key": "ESRI MapServer:https://inspirepub.waterinfo.be/arcgis/rest/services/Signaalgebieden/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://inspirepub.waterinfo.be/arcgis/rest/services/Signaalgebieden/MapServer",
+  "title": "signaalgebieden",
+  "description": "Signal zones for water management in Belgium.",
+  "abstract": "Signaalgebieden",
+  "provider": "inspirepub.waterinfo.be",
+  "place": {
+    "country": "Belgium",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Goedgekeurde_signaalgebieden_26september2017",
+      "title": "Goedgekeurde_signaalgebieden_26september2017",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID_SG",
+          "type": "esriFieldTypeString",
+          "alias": "ID_SG"
+        },
+        {
+          "name": "Naam_SG",
+          "type": "esriFieldTypeString",
+          "alias": "Naam_SG"
+        },
+        {
+          "name": "Gemeente",
+          "type": "esriFieldTypeString",
+          "alias": "Gemeente"
+        },
+        {
+          "name": "Bekkennr",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bekkennr"
+        },
+        {
+          "name": "Bekkennaam",
+          "type": "esriFieldTypeString",
+          "alias": "Bekkennaam"
+        },
+        {
+          "name": "Datum",
+          "type": "esriFieldTypeDate",
+          "alias": "Datum"
+        },
+        {
+          "name": "Oppervlakt",
+          "type": "esriFieldTypeDouble",
+          "alias": "Oppervlakt"
+        },
+        {
+          "name": "Fiche",
+          "type": "esriFieldTypeString",
+          "alias": "Fiche"
+        },
+        {
+          "name": "Reeks_SG",
+          "type": "esriFieldTypeString",
+          "alias": "Reeks_SG"
+        },
+        {
+          "name": "Categorie",
+          "type": "esriFieldTypeString",
+          "alias": "Categorie"
+        },
+        {
+          "name": "Url_Fiche",
+          "type": "esriFieldTypeString",
+          "alias": "Url_Fiche"
+        },
+        {
+          "name": "ID_SG_shpt",
+          "type": "esriFieldTypeString",
+          "alias": "ID_SG_shpt"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1495,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

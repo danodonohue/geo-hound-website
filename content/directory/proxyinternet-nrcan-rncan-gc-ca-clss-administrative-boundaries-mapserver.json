@@ -1,0 +1,344 @@
+{
+  "slug": "proxyinternet-nrcan-rncan-gc-ca-clss-administrative-boundaries-mapserver",
+  "service_key": "ESRI MapServer:https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://proxyinternet.nrcan-rncan.gc.ca/arcgis/rest/services/CLSS-SATC/CLSS_Administrative_Boundaries/MapServer",
+  "title": "CLSS_Administrative_Boundaries",
+  "description": "Canada Lands Survey System administrative boundaries including Aboriginal lands and national parks.",
+  "abstract": "The Canada Lands Survey System (CLSS) Administrative Boundaries web service includes legislative boundaries of Aboriginal Lands, National Parks of Canada and National Park Reserves of Canada.  More specifically it includes, but is not limited to, Indian Reserves, Cree-Naskapi Category 1A and 1A-N Lands, Gwich’in Lands, Kanesatake Mohawk Interim Land Base, Inuvialuit Lands, the Inuit Owned Lands, Sechelt Lands, Salt River First Nation Settlement Lands, Sahtu Lands, Tlicho Lands and Yukon First Nation Settlement Lands.",
+  "provider": "proxyinternet.nrcan-rncan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Aboriginal_Lands_of_Canada_Legislative_Boundaries",
+      "title": "Aboriginal_Lands_of_Canada_Legislative_Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "adminAreaId",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaId"
+        },
+        {
+          "name": "adminAreaNameEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameEng"
+        },
+        {
+          "name": "adminAreaNameFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameFra"
+        },
+        {
+          "name": "adminAreaNameAlt1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAlt1"
+        },
+        {
+          "name": "adminAreaNameAltLang1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAltLang1"
+        },
+        {
+          "name": "distributionType",
+          "type": "esriFieldTypeString",
+          "alias": "distributionType"
+        },
+        {
+          "name": "distributionTypeEng",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeEng"
+        },
+        {
+          "name": "distributionTypeFra",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeFra"
+        },
+        {
+          "name": "absoluteAccuracy",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracy"
+        },
+        {
+          "name": "absoluteAccuracyEng",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyEng"
+        },
+        {
+          "name": "absoluteAccuracyFra",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyFra"
+        },
+        {
+          "name": "adminRegion",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegion"
+        },
+        {
+          "name": "adminRegionEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionEng"
+        },
+        {
+          "name": "adminRegionFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionFra"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "jurisdictionEng",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionEng"
+        },
+        {
+          "name": "jurisdictionFra",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionFra"
+        },
+        {
+          "name": "NID",
+          "type": "esriFieldTypeString",
+          "alias": "NID"
+        },
+        {
+          "name": "representationPurpose",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurpose"
+        },
+        {
+          "name": "representationPurposeEng",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeEng"
+        },
+        {
+          "name": "representationPurposeFra",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeFra"
+        },
+        {
+          "name": "sourceGeoDB",
+          "type": "esriFieldTypeString",
+          "alias": "sourceGeoDB"
+        },
+        {
+          "name": "webReference",
+          "type": "esriFieldTypeString",
+          "alias": "webReference"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "National_Parks_and_National_Park_Reserves_of_Canada_Legislative_Boundaries",
+      "title": "National_Parks_and_National_Park_Reserves_of_Canada_Legislative_Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "adminAreaId",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaId"
+        },
+        {
+          "name": "adminAreaNameEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameEng"
+        },
+        {
+          "name": "adminAreaNameFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameFra"
+        },
+        {
+          "name": "adminAreaNameAlt1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAlt1"
+        },
+        {
+          "name": "adminAreaNameAltLang1",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaNameAltLang1"
+        },
+        {
+          "name": "distributionType",
+          "type": "esriFieldTypeString",
+          "alias": "distributionType"
+        },
+        {
+          "name": "distributionTypeEng",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeEng"
+        },
+        {
+          "name": "distributionTypeFra",
+          "type": "esriFieldTypeString",
+          "alias": "distributionTypeFra"
+        },
+        {
+          "name": "absoluteAccuracy",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracy"
+        },
+        {
+          "name": "absoluteAccuracyEng",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyEng"
+        },
+        {
+          "name": "absoluteAccuracyFra",
+          "type": "esriFieldTypeString",
+          "alias": "absoluteAccuracyFra"
+        },
+        {
+          "name": "adminRegion",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegion"
+        },
+        {
+          "name": "adminRegionEng",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionEng"
+        },
+        {
+          "name": "adminRegionFra",
+          "type": "esriFieldTypeString",
+          "alias": "adminRegionFra"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "jurisdictionEng",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionEng"
+        },
+        {
+          "name": "jurisdictionFra",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdictionFra"
+        },
+        {
+          "name": "NID",
+          "type": "esriFieldTypeString",
+          "alias": "NID"
+        },
+        {
+          "name": "representationPurpose",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurpose"
+        },
+        {
+          "name": "representationPurposeEng",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeEng"
+        },
+        {
+          "name": "representationPurposeFra",
+          "type": "esriFieldTypeString",
+          "alias": "representationPurposeFra"
+        },
+        {
+          "name": "sourceGeoDB",
+          "type": "esriFieldTypeString",
+          "alias": "sourceGeoDB"
+        },
+        {
+          "name": "webReference",
+          "type": "esriFieldTypeString",
+          "alias": "webReference"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3979"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1042,
+  "last_verified": "2026-07-24",
+  "discovery_count": 2,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

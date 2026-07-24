@@ -1,0 +1,1224 @@
+{
+  "slug": "www-gis-hctx-net-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgis/rest/services/ITC/Operator_layers/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgis/rest/services/ITC/Operator_layers/MapServer",
+  "title": "Layers",
+  "description": "Harris County administrative boundaries for city limits, precincts, and utility districts.",
+  "abstract": "Harris County ITC help center opetator look up layers\nLayers include location information and various districts",
+  "provider": "www.gis.hctx.net",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "zoning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "City Boundaries",
+      "title": "City Boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "code",
+          "type": "esriFieldTypeString",
+          "alias": "code"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Maintenance Camps",
+      "title": "Maintenance Camps",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeDouble",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Address_1",
+          "type": "esriFieldTypeString",
+          "alias": "Address_1"
+        },
+        {
+          "name": "Pct",
+          "type": "esriFieldTypeDouble",
+          "alias": "Pct"
+        },
+        {
+          "name": "bType",
+          "type": "esriFieldTypeString",
+          "alias": "bType"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "EditDt",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDt"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Commissioner Precincts",
+      "title": "Commissioner Precincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PCT_NO",
+          "type": "esriFieldTypeInteger",
+          "alias": "PCT_NO"
+        },
+        {
+          "name": "AREA_IN_MI",
+          "type": "esriFieldTypeInteger",
+          "alias": "AREA_IN_MI"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "COMMISSION",
+          "type": "esriFieldTypeString",
+          "alias": "COMMISSION"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Commissioner Precincts 2011",
+      "title": "Commissioner Precincts 2011",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PCT_NO",
+          "type": "esriFieldTypeInteger",
+          "alias": "PCT_NO"
+        },
+        {
+          "name": "AREA_IN_MI",
+          "type": "esriFieldTypeInteger",
+          "alias": "AREA_IN_MI"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STAr"
+        },
+        {
+          "name": "Shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLe"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "COMMISSION",
+          "type": "esriFieldTypeString",
+          "alias": "COMMISSION"
+        },
+        {
+          "name": "Shape_ST_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_ST_1"
+        },
+        {
+          "name": "Shape_ST_2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_ST_2"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Constable Precincts",
+      "title": "Constable Precincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "PRECINCT"
+        },
+        {
+          "name": "JPCON",
+          "type": "esriFieldTypeInteger",
+          "alias": "JPCON"
+        },
+        {
+          "name": "COMMISH",
+          "type": "esriFieldTypeString",
+          "alias": "COMMISH"
+        },
+        {
+          "name": "STREET",
+          "type": "esriFieldTypeString",
+          "alias": "STREET"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP"
+        },
+        {
+          "name": "PHONE",
+          "type": "esriFieldTypeString",
+          "alias": "PHONE"
+        },
+        {
+          "name": "FAX",
+          "type": "esriFieldTypeString",
+          "alias": "FAX"
+        },
+        {
+          "name": "TDD",
+          "type": "esriFieldTypeString",
+          "alias": "TDD"
+        },
+        {
+          "name": "PCT_NUM",
+          "type": "esriFieldTypeDouble",
+          "alias": "PCT_NUM"
+        },
+        {
+          "name": "Shape_STAr",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STAr"
+        },
+        {
+          "name": "Shape_STLe",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_STLe"
+        },
+        {
+          "name": "Web",
+          "type": "esriFieldTypeString",
+          "alias": "Web"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Gold Card Eligibility Centers",
+      "title": "Gold Card Eligibility Centers",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Center",
+          "type": "esriFieldTypeString",
+          "alias": "Center"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "City_1",
+          "type": "esriFieldTypeString",
+          "alias": "City_1"
+        },
+        {
+          "name": "State_1",
+          "type": "esriFieldTypeString",
+          "alias": "State_1"
+        },
+        {
+          "name": "Zip_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Zip_1"
+        },
+        {
+          "name": "Phone",
+          "type": "esriFieldTypeString",
+          "alias": "Phone"
+        },
+        {
+          "name": "Hours",
+          "type": "esriFieldTypeString",
+          "alias": "Hours"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "JP Precincts",
+      "title": "JP Precincts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PCT_NUM",
+          "type": "esriFieldTypeDouble",
+          "alias": "PCT_NUM"
+        },
+        {
+          "name": "Judge_P1",
+          "type": "esriFieldTypeString",
+          "alias": "Judge_P1"
+        },
+        {
+          "name": "Judge_P2",
+          "type": "esriFieldTypeString",
+          "alias": "Judge_P2"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "JP Courts",
+      "title": "JP Courts",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_12",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_12"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "N2",
+          "type": "esriFieldTypeString",
+          "alias": "N2"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "FULL_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "FULL_DESC"
+        },
+        {
+          "name": "BID",
+          "type": "esriFieldTypeInteger",
+          "alias": "BID"
+        },
+        {
+          "name": "FixedAsset",
+          "type": "esriFieldTypeString",
+          "alias": "FixedAsset"
+        },
+        {
+          "name": "FPMProgram",
+          "type": "esriFieldTypeString",
+          "alias": "FPMProgram"
+        },
+        {
+          "name": "Address_1",
+          "type": "esriFieldTypeString",
+          "alias": "Address_1"
+        },
+        {
+          "name": "ParkName",
+          "type": "esriFieldTypeString",
+          "alias": "ParkName"
+        },
+        {
+          "name": "BDNo",
+          "type": "esriFieldTypeString",
+          "alias": "BDNo"
+        },
+        {
+          "name": "HRRMID",
+          "type": "esriFieldTypeInteger",
+          "alias": "HRRMID"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP"
+        },
+        {
+          "name": "PLACE",
+          "type": "esriFieldTypeDouble",
+          "alias": "PLACE"
+        },
+        {
+          "name": "JUDGE",
+          "type": "esriFieldTypeString",
+          "alias": "JUDGE"
+        },
+        {
+          "name": "JP_PCT",
+          "type": "esriFieldTypeDouble",
+          "alias": "JP_PCT"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "KeyMap",
+      "title": "KeyMap",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeDouble",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "KEYREF",
+          "type": "esriFieldTypeString",
+          "alias": "KEYREF"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Public Library Branches",
+      "title": "Public Library Branches",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BRANCH",
+          "type": "esriFieldTypeString",
+          "alias": "BRANCH"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZIP"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "HCSO Districts",
+      "title": "HCSO Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "JURIS",
+          "type": "esriFieldTypeString",
+          "alias": "JURIS"
+        },
+        {
+          "name": "DISTRICT_N",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT_N"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "District_1",
+          "type": "esriFieldTypeString",
+          "alias": "District_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Zipcodes",
+      "title": "Zipcodes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP"
+        },
+        {
+          "name": "POSTAL",
+          "type": "esriFieldTypeString",
+          "alias": "POSTAL"
+        },
+        {
+          "name": "STATE",
+          "type": "esriFieldTypeString",
+          "alias": "STATE"
+        },
+        {
+          "name": "EDITOR",
+          "type": "esriFieldTypeString",
+          "alias": "EDITOR"
+        },
+        {
+          "name": "DATE_MOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_MOD"
+        },
+        {
+          "name": "code",
+          "type": "esriFieldTypeString",
+          "alias": "code"
+        },
+        {
+          "name": "ZIP_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ZIP_TYPE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "School Based Clinics",
+      "title": "School Based Clinics",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Match_addr",
+          "type": "esriFieldTypeString",
+          "alias": "Match_addr"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "ZIP",
+          "type": "esriFieldTypeDouble",
+          "alias": "ZIP"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Number",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Number"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Health Care Clinics",
+      "title": "Health Care Clinics",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Loc_name",
+          "type": "esriFieldTypeString",
+          "alias": "Loc_name"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Score",
+          "type": "esriFieldTypeDouble",
+          "alias": "Score"
+        },
+        {
+          "name": "Match_type",
+          "type": "esriFieldTypeString",
+          "alias": "Match_type"
+        },
+        {
+          "name": "Match_addr",
+          "type": "esriFieldTypeString",
+          "alias": "Match_addr"
+        },
+        {
+          "name": "Addr_type",
+          "type": "esriFieldTypeString",
+          "alias": "Addr_type"
+        },
+        {
+          "name": "PlaceName",
+          "type": "esriFieldTypeString",
+          "alias": "PlaceName"
+        },
+        {
+          "name": "Place_addr",
+          "type": "esriFieldTypeString",
+          "alias": "Place_addr"
+        },
+        {
+          "name": "Rank",
+          "type": "esriFieldTypeString",
+          "alias": "Rank"
+        },
+        {
+          "name": "AddBldg",
+          "type": "esriFieldTypeString",
+          "alias": "AddBldg"
+        },
+        {
+          "name": "AddNum",
+          "type": "esriFieldTypeString",
+          "alias": "AddNum"
+        },
+        {
+          "name": "AddNumFrom",
+          "type": "esriFieldTypeString",
+          "alias": "AddNumFrom"
+        },
+        {
+          "name": "AddNumTo",
+          "type": "esriFieldTypeString",
+          "alias": "AddNumTo"
+        },
+        {
+          "name": "Side",
+          "type": "esriFieldTypeString",
+          "alias": "Side"
+        },
+        {
+          "name": "StPreDir",
+          "type": "esriFieldTypeString",
+          "alias": "StPreDir"
+        },
+        {
+          "name": "StPreType",
+          "type": "esriFieldTypeString",
+          "alias": "StPreType"
+        },
+        {
+          "name": "StName",
+          "type": "esriFieldTypeString",
+          "alias": "StName"
+        },
+        {
+          "name": "StType",
+          "type": "esriFieldTypeString",
+          "alias": "StType"
+        },
+        {
+          "name": "StDir",
+          "type": "esriFieldTypeString",
+          "alias": "StDir"
+        },
+        {
+          "name": "StAddr",
+          "type": "esriFieldTypeString",
+          "alias": "StAddr"
+        },
+        {
+          "name": "Nbrhd",
+          "type": "esriFieldTypeString",
+          "alias": "Nbrhd"
+        },
+        {
+          "name": "City",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "Subregion",
+          "type": "esriFieldTypeString",
+          "alias": "Subregion"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Postal",
+          "type": "esriFieldTypeString",
+          "alias": "Postal"
+        },
+        {
+          "name": "PostalExt",
+          "type": "esriFieldTypeString",
+          "alias": "PostalExt"
+        },
+        {
+          "name": "Country",
+          "type": "esriFieldTypeString",
+          "alias": "Country"
+        },
+        {
+          "name": "LangCode",
+          "type": "esriFieldTypeString",
+          "alias": "LangCode"
+        },
+        {
+          "name": "Distance",
+          "type": "esriFieldTypeDouble",
+          "alias": "Distance"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "DisplayX",
+          "type": "esriFieldTypeDouble",
+          "alias": "DisplayX"
+        },
+        {
+          "name": "DisplayY",
+          "type": "esriFieldTypeDouble",
+          "alias": "DisplayY"
+        },
+        {
+          "name": "Xmin",
+          "type": "esriFieldTypeDouble",
+          "alias": "Xmin"
+        },
+        {
+          "name": "Xmax",
+          "type": "esriFieldTypeDouble",
+          "alias": "Xmax"
+        },
+        {
+          "name": "Ymin",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ymin"
+        },
+        {
+          "name": "Ymax",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ymax"
+        },
+        {
+          "name": "ARC_Addres",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_Addres"
+        },
+        {
+          "name": "ARC_Neighb",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_Neighb"
+        },
+        {
+          "name": "ARC_City",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_City"
+        },
+        {
+          "name": "ARC_Subreg",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_Subreg"
+        },
+        {
+          "name": "ARC_Region",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_Region"
+        },
+        {
+          "name": "ARC_Postal",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_Postal"
+        },
+        {
+          "name": "ARC_Post_1",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_Post_1"
+        },
+        {
+          "name": "ARC_Countr",
+          "type": "esriFieldTypeString",
+          "alias": "ARC_Countr"
+        },
+        {
+          "name": "Number",
+          "type": "esriFieldTypeString",
+          "alias": "Number"
+        },
+        {
+          "name": "Clinic_Nam",
+          "type": "esriFieldTypeString",
+          "alias": "Clinic_Nam"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "City_1",
+          "type": "esriFieldTypeString",
+          "alias": "City_1"
+        },
+        {
+          "name": "Zip",
+          "type": "esriFieldTypeInteger",
+          "alias": "Zip"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Field7",
+          "type": "esriFieldTypeString",
+          "alias": "Field7"
+        },
+        {
+          "name": "Full_Part",
+          "type": "esriFieldTypeString",
+          "alias": "Full_Part"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Utility Districts",
+      "title": "Utility Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "code",
+          "type": "esriFieldTypeString",
+          "alias": "code"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Comm Pct 1 2011",
+      "title": "Comm Pct 1 2011",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Comm Pct 1",
+      "title": "Comm Pct 1",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Comm Pct 2 2011",
+      "title": "Comm Pct 2 2011",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Comm Pct 2",
+      "title": "Comm Pct 2",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Comm Pct 3 2011",
+      "title": "Comm Pct 3 2011",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Comm Pct 3",
+      "title": "Comm Pct 3",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Comm Pct 4 2011",
+      "title": "Comm Pct 4 2011",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Comm Pct 4",
+      "title": "Comm Pct 4",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102740"
+  ],
+  "cors_enabled": true,
+  "response_ms": 206,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

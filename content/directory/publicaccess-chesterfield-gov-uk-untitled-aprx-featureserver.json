@@ -1,0 +1,184 @@
+{
+  "slug": "publicaccess-chesterfield-gov-uk-untitled-aprx-featureserver",
+  "service_key": "ESRI FeatureServer:https://publicaccess.chesterfield.gov.uk/server/rest/services/PALIVE/LIVEUniformPA_Property/FeatureServer",
+  "type": "ESRI FeatureServer",
+  "url": "https://publicaccess.chesterfield.gov.uk/server/rest/services/PALIVE/LIVEUniformPA_Property/FeatureServer",
+  "title": "Untitled.aprx",
+  "description": "Planning applications and property locations in Chesterfield.",
+  "abstract": "LIVEUniformPA Property",
+  "provider": "publicaccess.chesterfield.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Property points",
+      "title": "Property points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "PKEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "pkeyval"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "keyval"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeString",
+          "alias": "datemodified"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ispavisible"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "iscavisible"
+        },
+        {
+          "name": "UPRN",
+          "type": "esriFieldTypeString",
+          "alias": "uprn"
+        },
+        {
+          "name": "KEYVALWASP",
+          "type": "esriFieldTypeString",
+          "alias": "keyvalwasp"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        }
+      ],
+      "feature_count": 69732
+    },
+    {
+      "id": 1,
+      "name": "Property polygons",
+      "title": "Property polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "PKEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "PKEYVAL"
+        },
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVAL"
+        },
+        {
+          "name": "DATEMODIFIED",
+          "type": "esriFieldTypeString",
+          "alias": "DATEMODIFIED"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "ADDRESS"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "ISPAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ISPAVISIBLE"
+        },
+        {
+          "name": "ISCAVISIBLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ISCAVISIBLE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SE_ANNO_CAD_DATA",
+          "type": "esriFieldTypeBlob",
+          "alias": "SE_ANNO_CAD_DATA"
+        },
+        {
+          "name": "UPRN",
+          "type": "esriFieldTypeString",
+          "alias": "UPRN"
+        },
+        {
+          "name": "KEYVALWASP",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVALWASP"
+        },
+        {
+          "name": "Shape__Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "Shape__Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": 0
+    }
+  ],
+  "formats": [],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 914,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

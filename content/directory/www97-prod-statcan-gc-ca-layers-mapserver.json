@@ -1,0 +1,121 @@
+{
+  "slug": "www97-prod-statcan-gc-ca-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www97-prod.statcan.gc.ca/arcgis/rest/services/Basemaps/EMPTY_2021/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www97-prod.statcan.gc.ca/arcgis/rest/services/Basemaps/EMPTY_2021/MapServer",
+  "title": "Layers",
+  "description": "Statistics Canada base map with 2016 census collection provinces and administrative boundaries.",
+  "abstract": "2016 Collection BaseMap L0-13",
+  "provider": "www97-prod.statcan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "EMPTY",
+      "title": "EMPTY",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FID_FOREIGN_LAND",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_FOREIGN_LAND"
+        },
+        {
+          "name": "FID_PR",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_PR"
+        },
+        {
+          "name": "PR_UID",
+          "type": "esriFieldTypeString",
+          "alias": "PR_UID"
+        },
+        {
+          "name": "OFFNAME_EN",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_EN"
+        },
+        {
+          "name": "OFFNAME_FR",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_FR"
+        },
+        {
+          "name": "ABBR_EN",
+          "type": "esriFieldTypeString",
+          "alias": "ABBR_EN"
+        },
+        {
+          "name": "ABBR_FR",
+          "type": "esriFieldTypeString",
+          "alias": "ABBR_FR"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3347"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1902,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

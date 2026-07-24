@@ -1,0 +1,194 @@
+{
+  "slug": "chad-dean-gis-systems-analyst-kitsap-county-layers-mapserver",
+  "service_key": "ESRI MapServer:https://utility.arcgis.com/usrsvcs/servers/125818420e2d48a3bd3221124451676f/rest/services/Public/Waterbodies/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://utility.arcgis.com/usrsvcs/servers/125818420e2d48a3bd3221124451676f/rest/services/Public/Waterbodies/MapServer",
+  "title": "Layers",
+  "description": "Kitsap County Puget Sound and waterbodies defined in Washington State regulations.",
+  "abstract": "Puget Sound and waterbodies (defined in WAC 222-16-030) in and adjacent to Kitsap County.",
+  "provider": "Chad Dean, GIS Systems Analyst, Kitsap County",
+  "place": {
+    "country": "United States",
+    "state": "Washington",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Puget Sound",
+      "title": "Puget Sound",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FP_WTRTY_C",
+          "type": "esriFieldTypeString",
+          "alias": "FP_WTRTY_C"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "WB_CART_FT",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WB_CART_FT"
+        },
+        {
+          "name": "WB_GNIS_NM",
+          "type": "esriFieldTypeString",
+          "alias": "WB_GNIS_NM"
+        },
+        {
+          "name": "WB_HYDR_FT",
+          "type": "esriFieldTypeString",
+          "alias": "WB_HYDR_FT"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Waterbodies (defined in WAC 222-16-030)",
+      "title": "Waterbodies (defined in WAC 222-16-030)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "WB_LLID_NR",
+          "type": "esriFieldTypeString",
+          "alias": "WB_LLID_NR"
+        },
+        {
+          "name": "WB_HYDR_FTR_CD",
+          "type": "esriFieldTypeString",
+          "alias": "WB_HYDR_FTR_CD"
+        },
+        {
+          "name": "WB_CART_FTR_CD",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WB_CART_FTR_CD"
+        },
+        {
+          "name": "WB_GNIS_NM",
+          "type": "esriFieldTypeString",
+          "alias": "WB_GNIS_NM"
+        },
+        {
+          "name": "WB_GNIS_NR",
+          "type": "esriFieldTypeInteger",
+          "alias": "WB_GNIS_NR"
+        },
+        {
+          "name": "WB_PERIOD_CD",
+          "type": "esriFieldTypeString",
+          "alias": "WB_PERIOD_CD"
+        },
+        {
+          "name": "FTR_EDIT_DT",
+          "type": "esriFieldTypeDate",
+          "alias": "FTR_EDIT_DT"
+        },
+        {
+          "name": "FP_WTRTY_CD",
+          "type": "esriFieldTypeString",
+          "alias": "FP_WTRTY_CD"
+        },
+        {
+          "name": "FP_REF_ID",
+          "type": "esriFieldTypeString",
+          "alias": "FP_REF_ID"
+        },
+        {
+          "name": "FP_WTRTY_APPR_DT",
+          "type": "esriFieldTypeDate",
+          "alias": "FP_WTRTY_APPR_DT"
+        },
+        {
+          "name": "FP_WTRTY_EDIT_DT",
+          "type": "esriFieldTypeDate",
+          "alias": "FP_WTRTY_EDIT_DT"
+        },
+        {
+          "name": "DNR_OUTPUT_SCL",
+          "type": "esriFieldTypeInteger",
+          "alias": "DNR_OUTPUT_SCL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102748"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1182,
+  "last_verified": "2026-07-24",
+  "discovery_count": 2,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

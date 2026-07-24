@@ -1,0 +1,99 @@
+{
+  "slug": "utility-arcgis-com-layers-mapserver",
+  "service_key": "ESRI MapServer:https://utility.arcgis.com/usrsvcs/servers/7c8383f4dda946e9b6c69938b9b46ff8/rest/services/Public/Shoreline_Master_Plan/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://utility.arcgis.com/usrsvcs/servers/7c8383f4dda946e9b6c69938b9b46ff8/rest/services/Public/Shoreline_Master_Plan/MapServer",
+  "title": "Layers",
+  "description": "Kitsap County shoreline environmental designations and master plan regulations.",
+  "abstract": "Kitsap County Shoreline Master Program",
+  "provider": "utility.arcgis.com",
+  "place": {
+    "country": "United States",
+    "state": "Washington",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Shoreline Master Plan Environmental Designations 2014",
+      "title": "Shoreline Master Plan Environmental Designations 2014",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SETBACK",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "buffer"
+        },
+        {
+          "name": "ENVIRONMENT",
+          "type": "esriFieldTypeString",
+          "alias": "ENVIRONMENT"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102748"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1093,
+  "last_verified": "2026-07-24",
+  "discovery_count": 2,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

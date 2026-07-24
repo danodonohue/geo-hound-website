@@ -1,0 +1,52 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/Bb8lfThdhugyc4G3/arcgis/rest/services/KRCrasterwgs84stretched15/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/Bb8lfThdhugyc4G3/arcgis/rest/services/KRCrasterwgs84stretched15/MapServer",
+  "title": "Layers",
+  "description": "Riparian shade coverage from vegetation and topography for freshwater ecology planning",
+  "abstract": "Riparian Shade data from the Environment Agency. Shows relative shading of rivers and streams by vegetation and topography. Areas with least shade are ideal areas for tree planting to provide a benefit to freshwater ecology.<div>Tile Map Service showing national coverage down to sub-catchment scale (ca. 1:18,000)</div><div><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;'><font color='#ffffff'><font size='3'>For larger scales, add in the </font>Riparian Shade Detail<font size='3'> layer to your map and swap the visible range over at Neighbourhood scale. </font></font></div></div>",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Riparian Shade",
+      "title": "Riparian Shade",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 484,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

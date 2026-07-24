@@ -1,0 +1,44 @@
+{
+  "slug": "tiles-arcgis-com-map-mapserver-6",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/YmmKxwNVvLQW5zcm/arcgis/rest/services/2014TPK/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/YmmKxwNVvLQW5zcm/arcgis/rest/services/2014TPK/MapServer",
+  "title": "Map",
+  "description": "Tiled imagery service from 2014 with limited metadata available.",
+  "abstract": "<font color='#000000' face='Times New Roman' size='3'>\n\n</font><p style='margin:0in 0in 0pt;'><br /></p><font color='#000000' face='Times New Roman' size='3'>\n\n</font>",
+  "provider": "tiles.arcgis.com",
+  "place": null,
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "2014TPK",
+      "title": "2014TPK",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 395,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.7,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

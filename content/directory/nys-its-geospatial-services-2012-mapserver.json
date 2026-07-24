@@ -1,0 +1,76 @@
+{
+  "slug": "nys-its-geospatial-services-2012-mapserver",
+  "service_key": "ESRI MapServer:https://orthos.its.ny.gov/arcgis/rest/services/wms/2012/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://orthos.its.ny.gov/arcgis/rest/services/wms/2012/MapServer",
+  "title": "2012",
+  "description": "New York orthoimagery from Spring 2012 in color at 12 or 6 inch resolution.",
+  "abstract": "Orthoimagery from Spring 2012. Color view from 4-band source orthoimagery at resolutions of 24, 12 or 6 inches.",
+  "provider": "NYS ITS Geospatial Services",
+  "place": {
+    "country": "United States",
+    "state": "New York",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "2012 Color Orthoimagery",
+      "title": "2012 Color Orthoimagery",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 233,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

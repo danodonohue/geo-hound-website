@@ -1,0 +1,174 @@
+{
+  "slug": "geonb-snb-ca-geonb-enb-regionalhealthauthorities-mapserver",
+  "service_key": "ESRI MapServer:https://geonb.snb.ca/arcgis/rest/services/GeoNB_ENB_RegionalHealthAuthorities/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://geonb.snb.ca/arcgis/rest/services/GeoNB_ENB_RegionalHealthAuthorities/MapServer",
+  "title": "GeoNB_ENB_RegionalHealthAuthorities",
+  "description": "New Brunswick regional health authority boundaries.",
+  "abstract": "Regional Health Authority A - Région de Santé A",
+  "provider": "geonb.snb.ca",
+  "place": {
+    "country": "Canada",
+    "state": "New Brunswick",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "health",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Région de santé A / Health Region A [Vitalité]",
+      "title": "Région de santé A / Health Region A [Vitalité]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name_E",
+          "type": "esriFieldTypeString",
+          "alias": "Name_E"
+        },
+        {
+          "name": "Name_F",
+          "type": "esriFieldTypeString",
+          "alias": "Name_F"
+        },
+        {
+          "name": "SHAPE_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HealthSub_",
+          "type": "esriFieldTypeString",
+          "alias": "HealthSub_"
+        },
+        {
+          "name": "HealthSub1",
+          "type": "esriFieldTypeString",
+          "alias": "HealthSub1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Health Region B / Région de santé B [Horizon]",
+      "title": "Health Region B / Région de santé B [Horizon]",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name_E",
+          "type": "esriFieldTypeString",
+          "alias": "Name_E"
+        },
+        {
+          "name": "Name_F",
+          "type": "esriFieldTypeString",
+          "alias": "Name_F"
+        },
+        {
+          "name": "SHAPE_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HealthSub_",
+          "type": "esriFieldTypeString",
+          "alias": "HealthSub_"
+        },
+        {
+          "name": "HealthSub1",
+          "type": "esriFieldTypeString",
+          "alias": "HealthSub1"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2036"
+  ],
+  "cors_enabled": true,
+  "response_ms": 2941,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

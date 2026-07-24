@@ -1,0 +1,90 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-10",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_AGLV/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_AGLV/MapServer",
+  "title": "Layers",
+  "description": "Areas of Great Landscape Value designation in Surrey.",
+  "abstract": "Environment - Areas of Great Landscape Value (AGLV)",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 8,
+      "name": "Environment - Areas of Great Landscape Value (AGLV)",
+      "title": "Environment - Areas of Great Landscape Value (AGLV)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "TYPE_",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 328,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

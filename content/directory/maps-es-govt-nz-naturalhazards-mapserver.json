@@ -1,0 +1,467 @@
+{
+  "slug": "maps-es-govt-nz-naturalhazards-mapserver",
+  "service_key": "ESRI MapServer:https://maps.es.govt.nz/server/rest/services/Public/NaturalHazards/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.es.govt.nz/server/rest/services/Public/NaturalHazards/MapServer",
+  "title": "NaturalHazards",
+  "description": "Earthquakes, faults, flooding, tsunami and landslide hazards.",
+  "abstract": "Natural Hazards of Southland",
+  "provider": "maps.es.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "geology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Alerts",
+      "title": "Alerts",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Site",
+          "type": "esriFieldTypeString",
+          "alias": "Site"
+        },
+        {
+          "name": "AlertLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Alert Level"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Link",
+          "type": "esriFieldTypeString",
+          "alias": "Link"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Localities",
+      "title": "Localities",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PointName",
+          "type": "esriFieldTypeString",
+          "alias": "Point Name"
+        },
+        {
+          "name": "PointDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Point Description"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Active Faults",
+      "title": "Active Faults",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Flooding",
+      "title": "Flooding",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Flood Photos",
+      "title": "Flood Photos",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Date",
+          "type": "esriFieldTypeString",
+          "alias": "Date"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Aspect",
+          "type": "esriFieldTypeString",
+          "alias": "Aspect"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "ES Dams",
+      "title": "ES Dams",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "ES Stopbanks",
+      "title": "ES Stopbanks",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ReachID",
+          "type": "esriFieldTypeString",
+          "alias": "Reach ID"
+        },
+        {
+          "name": "Scheme",
+          "type": "esriFieldTypeString",
+          "alias": "Scheme"
+        },
+        {
+          "name": "River",
+          "type": "esriFieldTypeString",
+          "alias": "River"
+        },
+        {
+          "name": "Bank",
+          "type": "esriFieldTypeString",
+          "alias": "Bank"
+        },
+        {
+          "name": "ReachPurpose",
+          "type": "esriFieldTypeString",
+          "alias": "Reach Purpose"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "UrbanRural",
+          "type": "esriFieldTypeString",
+          "alias": "Urban or Rural"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "OperationalArea",
+          "type": "esriFieldTypeString",
+          "alias": "Operational Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Significant Floodplains",
+      "title": "Significant Floodplains",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Tsunami Evacuation Zones",
+      "title": "Tsunami Evacuation Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "ZoneText",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Text"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Stewart Island Land Use Capability",
+      "title": "Stewart Island Land Use Capability",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNIT_NO",
+          "type": "esriFieldTypeDouble",
+          "alias": "Unit No"
+        },
+        {
+          "name": "CAPABILITY",
+          "type": "esriFieldTypeString",
+          "alias": "Capability"
+        },
+        {
+          "name": "CapabilityClass",
+          "type": "esriFieldTypeString",
+          "alias": "Capability Class"
+        },
+        {
+          "name": "CapabilityDetails",
+          "type": "esriFieldTypeString",
+          "alias": "Capability Detail"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Shaking Amplification",
+      "title": "Shaking Amplification",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AMP_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AMP_CODE"
+        },
+        {
+          "name": "GroundClass",
+          "type": "esriFieldTypeString",
+          "alias": "GroundClass"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Liquefaction Risk",
+      "title": "Liquefaction Risk",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LIQ_RISK",
+          "type": "esriFieldTypeString",
+          "alias": "Liquefaction Risk"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 225,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "slug": "gismaps-hdc-govt-nz-proposeddp-eplanhazards-mapserver",
+  "service_key": "ESRI MapServer:https://gismaps.hdc.govt.nz/server/rest/services/DistrictPlan/ProposedDP_EPlanHazards/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gismaps.hdc.govt.nz/server/rest/services/DistrictPlan/ProposedDP_EPlanHazards/MapServer",
+  "title": "ProposedDP_EPlanHazards",
+  "description": "Natural hazard map data for earthquakes, liquefaction and tsunami events.",
+  "abstract": "Proposed DP - Hazards (Appendix 57 and 58). Natural Hazard map details are as of Nov 2013. Additional information relating to the potential for hazards is publicly available on-line on the CDEMG Hazard Information Portal (link this to http://hbemergency.govt.nz/hazards/portal)",
+  "provider": "gismaps.hdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Active Fault Trace Avoidance Zone (2007)",
+      "title": "Active Fault Trace Avoidance Zone (2007)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Fault_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Fault_Name"
+        },
+        {
+          "name": "Trace_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Trace_Name"
+        },
+        {
+          "name": "Fault_Feat",
+          "type": "esriFieldTypeString",
+          "alias": "Fault_Feat"
+        },
+        {
+          "name": "Location_A",
+          "type": "esriFieldTypeString",
+          "alias": "Location_A"
+        },
+        {
+          "name": "Capture",
+          "type": "esriFieldTypeString",
+          "alias": "Capture"
+        },
+        {
+          "name": "Buffer",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Buffer"
+        },
+        {
+          "name": "Style",
+          "type": "esriFieldTypeString",
+          "alias": "Style"
+        },
+        {
+          "name": "BUFF_DIST",
+          "type": "esriFieldTypeDouble",
+          "alias": "BUFF_DIST"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "RELATIVE EARTHQUARKE AMPLIFICATION",
+      "title": "RELATIVE EARTHQUARKE AMPLIFICATION",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "TAG"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "RELATIVE LIQUEFACTION SUSCEPTIBILITY",
+      "title": "RELATIVE LIQUEFACTION SUSCEPTIBILITY",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FID_HastingsDistrictBoundaryExt",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_HastingsDistrictBoundaryExtents"
+        },
+        {
+          "name": "FID_HawkesBayEarthquakeLiquefac",
+          "type": "esriFieldTypeInteger",
+          "alias": "FID_HawkesBayEarthquakeLiquefaction"
+        },
+        {
+          "name": "LIQUEFACTI",
+          "type": "esriFieldTypeDouble",
+          "alias": "LIQUEFACTI"
+        },
+        {
+          "name": "LIQUEFAC_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "LIQUEFAC_1"
+        },
+        {
+          "name": "VALUE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "VALUE_"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT"
+        },
+        {
+          "name": "LABEL",
+          "type": "esriFieldTypeString",
+          "alias": "LABEL"
+        },
+        {
+          "name": "Shape_STArea_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape_STLength_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "HB_5m_10mTsunamiInundation",
+      "title": "HB_5m_10mTsunamiInundation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "TAG"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 96,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

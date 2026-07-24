@@ -1,0 +1,364 @@
+{
+  "slug": "map-sitr-regione-sicilia-it-pai-sicilia-geomorfologia-dissesti-mapserver",
+  "service_key": "ESRI MapServer:https://map.sitr.regione.sicilia.it/gis/rest/services/pai/PAI_Geomorfologia_Dissesti/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://map.sitr.regione.sicilia.it/gis/rest/services/pai/PAI_Geomorfologia_Dissesti/MapServer",
+  "title": "PAI Sicilia - Geomorfologia Dissesti",
+  "description": "Sicily hydrogeological planning data including geomorphology and landslide hazards.",
+  "abstract": "Piano Assetto Idrogeologico della regione siciliana - Geomorfologia - Dissesti\nhttps://www.sitr.regione.sicilia.it/pai-download-dati",
+  "provider": "map.sitr.regione.sicilia.it",
+  "place": {
+    "country": "Italy",
+    "state": "Sicily",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "geology",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Dissesti per Tipologia",
+      "title": "Dissesti per Tipologia",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PAI_NMR",
+          "type": "esriFieldTypeString",
+          "alias": "PAI_NMR"
+        },
+        {
+          "name": "BACINO",
+          "type": "esriFieldTypeString",
+          "alias": "BACINO"
+        },
+        {
+          "name": "PROVINCIA",
+          "type": "esriFieldTypeString",
+          "alias": "PROVINCIA"
+        },
+        {
+          "name": "COMUNE",
+          "type": "esriFieldTypeString",
+          "alias": "COMUNE"
+        },
+        {
+          "name": "Altri_comu",
+          "type": "esriFieldTypeString",
+          "alias": "Altri_comu"
+        },
+        {
+          "name": "LOCALITA",
+          "type": "esriFieldTypeString",
+          "alias": "LOCALITA"
+        },
+        {
+          "name": "SIGLA",
+          "type": "esriFieldTypeString",
+          "alias": "SIGLA"
+        },
+        {
+          "name": "COD_TIP",
+          "type": "esriFieldTypeInteger",
+          "alias": "COD_TIP"
+        },
+        {
+          "name": "COD_ATT",
+          "type": "esriFieldTypeInteger",
+          "alias": "COD_ATT"
+        },
+        {
+          "name": "N_DPR",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "N_DPR"
+        },
+        {
+          "name": "DATA_DPR",
+          "type": "esriFieldTypeDate",
+          "alias": "DATA_DPR"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "PERICOLO",
+          "type": "esriFieldTypeString",
+          "alias": "PERICOLO"
+        },
+        {
+          "name": "DATA_EVENT",
+          "type": "esriFieldTypeDate",
+          "alias": "DATA_EVENT"
+        },
+        {
+          "name": "NGURS",
+          "type": "esriFieldTypeString",
+          "alias": "NGURS"
+        },
+        {
+          "name": "DGURS",
+          "type": "esriFieldTypeDate",
+          "alias": "DGURS"
+        },
+        {
+          "name": "Altri_com2",
+          "type": "esriFieldTypeString",
+          "alias": "Altro comune 2"
+        },
+        {
+          "name": "CTR",
+          "type": "esriFieldTypeString",
+          "alias": "Numero/i CTR"
+        },
+        {
+          "name": "N_AdSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "DATA_AdSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "NGURS_AdSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero GURS del decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "DGURS_AdSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data GURS del decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "N_DSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero decreto segretario AdB"
+        },
+        {
+          "name": "DATA_DSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data decreto segretario AdB"
+        },
+        {
+          "name": "NGURS_DSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero GURS decreto segretario AdB"
+        },
+        {
+          "name": "DGURS_DSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data GURS decreto segretario AdB"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Dissesti per Attività",
+      "title": "Dissesti per Attività",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PAI_NMR",
+          "type": "esriFieldTypeString",
+          "alias": "PAI_NMR"
+        },
+        {
+          "name": "BACINO",
+          "type": "esriFieldTypeString",
+          "alias": "BACINO"
+        },
+        {
+          "name": "PROVINCIA",
+          "type": "esriFieldTypeString",
+          "alias": "PROVINCIA"
+        },
+        {
+          "name": "COMUNE",
+          "type": "esriFieldTypeString",
+          "alias": "COMUNE"
+        },
+        {
+          "name": "Altri_comu",
+          "type": "esriFieldTypeString",
+          "alias": "Altri_comu"
+        },
+        {
+          "name": "LOCALITA",
+          "type": "esriFieldTypeString",
+          "alias": "LOCALITA"
+        },
+        {
+          "name": "SIGLA",
+          "type": "esriFieldTypeString",
+          "alias": "SIGLA"
+        },
+        {
+          "name": "COD_TIP",
+          "type": "esriFieldTypeInteger",
+          "alias": "COD_TIP"
+        },
+        {
+          "name": "COD_ATT",
+          "type": "esriFieldTypeInteger",
+          "alias": "COD_ATT"
+        },
+        {
+          "name": "N_DPR",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "N_DPR"
+        },
+        {
+          "name": "DATA_DPR",
+          "type": "esriFieldTypeDate",
+          "alias": "DATA_DPR"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "PERICOLO",
+          "type": "esriFieldTypeString",
+          "alias": "PERICOLO"
+        },
+        {
+          "name": "DATA_EVENT",
+          "type": "esriFieldTypeDate",
+          "alias": "DATA_EVENT"
+        },
+        {
+          "name": "NGURS",
+          "type": "esriFieldTypeString",
+          "alias": "NGURS"
+        },
+        {
+          "name": "DGURS",
+          "type": "esriFieldTypeDate",
+          "alias": "DGURS"
+        },
+        {
+          "name": "Altri_com2",
+          "type": "esriFieldTypeString",
+          "alias": "Altro comune 2"
+        },
+        {
+          "name": "CTR",
+          "type": "esriFieldTypeString",
+          "alias": "Numero/i CTR"
+        },
+        {
+          "name": "N_AdSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "DATA_AdSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "NGURS_AdSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero GURS del decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "DGURS_AdSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data GURS del decreto di adozione del segretario AdB"
+        },
+        {
+          "name": "N_DSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero decreto segretario AdB"
+        },
+        {
+          "name": "DATA_DSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data decreto segretario AdB"
+        },
+        {
+          "name": "NGURS_DSG",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Numero GURS decreto segretario AdB"
+        },
+        {
+          "name": "DGURS_DSG",
+          "type": "esriFieldTypeDate",
+          "alias": "Data GURS decreto segretario AdB"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:25833"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1013,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

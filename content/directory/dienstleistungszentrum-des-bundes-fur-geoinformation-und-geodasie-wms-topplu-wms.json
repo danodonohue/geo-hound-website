@@ -1,0 +1,117 @@
+{
+  "slug": "dienstleistungszentrum-des-bundes-fur-geoinformation-und-geodasie-wms-topplu-wms",
+  "service_key": "OGC WMS:https://sg.geodatenzentrum.de/wms_topplus_open?SERVICE=WMS&LAYERS=web&REQUEST=GetCapabilities&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=&CRS=EPSG%3A25832&TRANSPARENT=true&t=550&zufall=0.07257930434796223",
+  "type": "OGC WMS",
+  "url": "https://sg.geodatenzentrum.de/wms_topplus_open?SERVICE=WMS&LAYERS=web&REQUEST=GetCapabilities&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=&CRS=EPSG%3A25832&TRANSPARENT=true&t=550&zufall=0.07257930434796223",
+  "title": "WMS TopPlusOpen",
+  "description": "Worldwide basemap with emphasis on free German federal and state geodata.",
+  "abstract": "Darstellungsdienst (WMS) für eine frei nutzbare weltweite einheitliche Webkarte auf der Basis von freien und amtlichen Datenquellen.\nIn dem Produkt werden unter anderem freie amtliche Geodaten des Bundes und der Open-Data-Länder Berlin, Brandenburg, Hamburg, Hessen, Nordrhein-Westfalen, Sachsen, Sachsen-Anhalt, Schleswig-Holstein und Thüringen präsentiert. Darüber hinaus stellen Mecklenburg-Vorpommern und Rheinland-Pfalz im Rahmen eines Kooperationsvertrages ihre amtlichen Geodaten für die TopPlusOpen zur Verfügung, sodass auch diese Länder ausschließlich durch amtliche Daten dargestellt werden.\nIn den übrigen Bundesländern und im Ausland werden in den entsprechenden Zoomstufen im Wesentlichen OSM-Daten verwendet, die aus Sicht des BKG alle Qualitätsansprüche erfüllen und sich beinahe nahtlos mit den amtlichen Daten kombinieren lassen.\nDie Webdienste der TopPlusOpen werden über die standardisierte Schnittstellen WMS und WMTS angeboten und sind hoch performant.\nEs werden 4 verschiedene Varianten angeboten: - TopPlusOpen: Inhaltlich sehr detailreiche Kartendarstellung in Volltonfarben - TopPlusOpen Graustufen:\tInhaltlich identisch mit der Volltonvariante; automatisch generierte Graustufen - TopPlusOpen Light: Gegenüber der Volltonvariante reduzierter Inhalt; Dezente Farbgebung  - TopPlusOpen Light Grau: Inhaltlich identisch mit der TopPlusOpen Light; Darstellung in Grautönen und einzelnen dezenten Farben (Gewässer, Grenzen)\nDie TopPlusOpen-Webkarte wird in zwei Projektionen produziert: - Pseudo-Mercator-Projektion (EPSG:3857) - UTM32 (EPSG:25832)\nPseudo-Mercator-Projektion: Die Webkarte verfügt in dieser Projektion über 19 Maßstabsstufen und ist in drei unterschiedliche Darstellungsbereiche unterteilt:  - Weltweite Darstellung für kleine Maßstäbe - europaweite Darstellung für mittlere Maßstäbe - Detaildarstellung für Deutschland und das angrenzende Ausland\nProjektion UTM32: Die Webkarte verfügt in dieser Projektion über 14 Maßstabsstufen und ist in zwei Darstellungsbereiche unterteilt: - europaweite Darstellung für mittlere Maßstäbe - Detaildarstellung für Deutschland und das angrenzende Ausland",
+  "provider": "Dienstleistungszentrum des Bundes für Geoinformation und Geodäsie",
+  "place": {
+    "country": "Germany",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    },
+    {
+      "name": "roads",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": "web",
+      "name": "web",
+      "title": "TopPlusOpen",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "web_grau",
+      "name": "web_grau",
+      "title": "TopPlusOpen Graustufen",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "web_scale",
+      "name": "web_scale",
+      "title": "TopPlusOpen (Upscale)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "web_scale_grau",
+      "name": "web_scale_grau",
+      "title": "TopPlusOpen Graustufen (Upscale)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "web_light",
+      "name": "web_light",
+      "title": "TopPlusOpen Light",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "web_light_grau",
+      "name": "web_light_grau",
+      "title": "TopPlusOpen Light Grau",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "image/png",
+    "image/png8",
+    "image/png24",
+    "image/png32",
+    "image/jpeg"
+  ],
+  "crs": [
+    "CRS:84",
+    "EPSG:4326",
+    "EPSG:3857",
+    "EPSG:4258",
+    "EPSG:25832",
+    "EPSG:25833",
+    "EPSG:4647",
+    "EPSG:5650",
+    "EPSG:3034",
+    "EPSG:3035",
+    "EPSG:3044",
+    "EPSG:3045",
+    "EPSG:31466",
+    "EPSG:31467",
+    "EPSG:31468",
+    "EPSG:31469",
+    "EPSG:5676",
+    "EPSG:5677",
+    "EPSG:5678",
+    "EPSG:5679",
+    "EPSG:4839",
+    "EPSG:5243"
+  ],
+  "cors_enabled": true,
+  "response_ms": 2537,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

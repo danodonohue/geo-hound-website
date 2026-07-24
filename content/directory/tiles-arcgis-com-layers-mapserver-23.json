@@ -1,0 +1,48 @@
+{
+  "slug": "tiles-arcgis-com-layers-mapserver-23",
+  "service_key": "ESRI MapServer:https://tiles.arcgis.com/tiles/8G10QCd84QpdcTJ9/arcgis/rest/services/gisborne_contours_1m/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles.arcgis.com/tiles/8G10QCd84QpdcTJ9/arcgis/rest/services/gisborne_contours_1m/MapServer",
+  "title": "Layers",
+  "description": "1-meter elevation contours for Gisborne Central area derived from 2018-2020 LiDAR.",
+  "abstract": "<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>1m Contours for Gisborne Central, Waipaoa and Wainui areas. Contours derived from the LiDAR tiles for the Gisborne District captured between 2018 and 2020. All elevation values are in NZVD16</span>",
+  "provider": "tiles.arcgis.com",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Contour 1m",
+      "title": "Contour 1m",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 385,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

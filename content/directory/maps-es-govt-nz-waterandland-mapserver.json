@@ -1,0 +1,652 @@
+{
+  "slug": "maps-es-govt-nz-waterandland-mapserver",
+  "service_key": "ESRI MapServer:https://maps.es.govt.nz/server/rest/services/Public/WaterAndLand/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.es.govt.nz/server/rest/services/Public/WaterAndLand/MapServer",
+  "title": "WaterAndLand",
+  "description": "Water and land plan layers including wetlands, quality, quantity, and habitats.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><DIV><DIV><P><SPAN>GIS layers that are referred to in the </SPAN><SPAN>proposed </SPAN><SPAN>Water and Land Plan</SPAN></P></DIV></DIV></DIV>",
+  "provider": "maps.es.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Southland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 19,
+      "name": "Alerts",
+      "title": "Alerts",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Site",
+          "type": "esriFieldTypeString",
+          "alias": "Site"
+        },
+        {
+          "name": "AlertLevel",
+          "type": "esriFieldTypeString",
+          "alias": "Alert Level"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Link",
+          "type": "esriFieldTypeString",
+          "alias": "Link"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Parcel",
+      "title": "Parcel",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Featcode",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Code"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AffectedSurveys",
+          "type": "esriFieldTypeString",
+          "alias": "Affected surveys"
+        },
+        {
+          "name": "TopologyType",
+          "type": "esriFieldTypeString",
+          "alias": "Topology type"
+        },
+        {
+          "name": "ParcelStatus",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel status"
+        },
+        {
+          "name": "StatutoryActions",
+          "type": "esriFieldTypeString",
+          "alias": "Statutory actions"
+        },
+        {
+          "name": "Titles",
+          "type": "esriFieldTypeString",
+          "alias": "Titles"
+        },
+        {
+          "name": "SurveyArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "Survey area"
+        },
+        {
+          "name": "UrbanRural",
+          "type": "esriFieldTypeString",
+          "alias": "Urban or rural"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Regionally Significant Wetlands and Sensitive Waterbodies",
+      "title": "Regionally Significant Wetlands and Sensitive Waterbodies",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "FINAL_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Water & Land Plan ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "DOC Ecological Districts",
+      "title": "DOC Ecological Districts",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "EcologicalCode",
+          "type": "esriFieldTypeString",
+          "alias": "Ecological Code"
+        },
+        {
+          "name": "EcologicalDistrict",
+          "type": "esriFieldTypeString",
+          "alias": "Ecological District"
+        },
+        {
+          "name": "EcologicalRegion",
+          "type": "esriFieldTypeString",
+          "alias": "EcologicalRegion"
+        },
+        {
+          "name": "WithinSouthland",
+          "type": "esriFieldTypeString",
+          "alias": "Within Southland"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Water Quality",
+      "title": "Water Quality",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "QUALITY_ST",
+          "type": "esriFieldTypeString",
+          "alias": "Water Quality Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Water Quantity",
+      "title": "Water Quantity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "QUANTITY_S",
+          "type": "esriFieldTypeString",
+          "alias": "Water Quantity Type"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Schedule X - Catchment Degradation Status",
+      "title": "Schedule X - Catchment Degradation Status",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Lakes",
+      "title": "Lakes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "MajorLake",
+          "type": "esriFieldTypeString",
+          "alias": "Major Lake"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Rivers",
+      "title": "Rivers",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RiverID",
+          "type": "esriFieldTypeInteger",
+          "alias": "River ID"
+        },
+        {
+          "name": "Hierarchy",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hierarchy"
+        },
+        {
+          "name": "River",
+          "type": "esriFieldTypeString",
+          "alias": "River"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "All Indicators",
+      "title": "All Indicators",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "nzsegment",
+          "type": "esriFieldTypeInteger",
+          "alias": "nzsegment"
+        },
+        {
+          "name": "Degradation_SuspendedSediment",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation Suspended Sediment"
+        },
+        {
+          "name": "Degradation_Ecoli",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation E.coli"
+        },
+        {
+          "name": "Degradation_MCI",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation MCI"
+        },
+        {
+          "name": "AnyDegraded",
+          "type": "esriFieldTypeString",
+          "alias": "Any Degradation"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "ObjectID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Macroinvertebrate Community Index",
+      "title": "Macroinvertebrate Community Index",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "nzsegment",
+          "type": "esriFieldTypeInteger",
+          "alias": "nzsegment"
+        },
+        {
+          "name": "Degradation_MCI",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation MCI"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Ecoli",
+      "title": "Ecoli",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "nzsegment",
+          "type": "esriFieldTypeInteger",
+          "alias": "nzsegment"
+        },
+        {
+          "name": "Degradation_Ecoli",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation E.coli"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Suspended Sediment",
+      "title": "Suspended Sediment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "nzsegment",
+          "type": "esriFieldTypeInteger",
+          "alias": "nzsegment"
+        },
+        {
+          "name": "Degradation_SuspendedSediment",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation Suspended Sediment"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Total Nitrogen",
+      "title": "Total Nitrogen",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "nzsegment",
+          "type": "esriFieldTypeInteger",
+          "alias": "nzsegment"
+        },
+        {
+          "name": "Degradation_TN",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation Total Nitrogen"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Total Phosphorus",
+      "title": "Total Phosphorus",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "nzsegment",
+          "type": "esriFieldTypeInteger",
+          "alias": "nzsegment"
+        },
+        {
+          "name": "Degradation_TP",
+          "type": "esriFieldTypeString",
+          "alias": "Degradation Total Phosphorus"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Groundwater Management Zones",
+      "title": "Groundwater Management Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Tertiary Aquifer Zones",
+      "title": "Tertiary Aquifer Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Physiographic Zones",
+      "title": "Physiographic Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Soil Classifications for Farm Dairy Effluent",
+      "title": "Soil Classifications for Farm Dairy Effluent",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Fire Hazard Zones",
+      "title": "Fire Hazard Zones",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Fresh Water Management Units",
+      "title": "Fresh Water Management Units",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Estuaries",
+      "title": "Estuaries",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Sub Units",
+      "title": "Sub Units",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Management Units",
+      "title": "Management Units",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 162,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,984 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-17",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/Subdivisions/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/Subdivisions/MapServer",
+  "title": "Layers",
+  "description": "Clermont County residential subdivision boundaries.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Subdivisions",
+      "title": "Subdivisions",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Subdivisions_Search",
+      "title": "Subdivisions_Search",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Subdivisions_144K",
+      "title": "Subdivisions_144K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Subdivisions_72K",
+      "title": "Subdivisions_72K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Subdivisions_36K",
+      "title": "Subdivisions_36K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Subdivisions_18K",
+      "title": "Subdivisions_18K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Subdivisions_9K",
+      "title": "Subdivisions_9K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Subdivisions_4K",
+      "title": "Subdivisions_4K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Subdivisions_2K",
+      "title": "Subdivisions_2K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Subdivisions_1K",
+      "title": "Subdivisions_1K",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Subdivisions_600FT",
+      "title": "Subdivisions_600FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Subdivisions_300FT",
+      "title": "Subdivisions_300FT",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SUBNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SUBNAME"
+        },
+        {
+          "name": "SUB",
+          "type": "esriFieldTypeString",
+          "alias": "SUB"
+        },
+        {
+          "name": "PHASE_SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "PHASE_SECTION"
+        },
+        {
+          "name": "BLOCK_PART",
+          "type": "esriFieldTypeString",
+          "alias": "BLOCK_PART"
+        },
+        {
+          "name": "REPLAT",
+          "type": "esriFieldTypeString",
+          "alias": "REPLAT"
+        },
+        {
+          "name": "NO_LOTS",
+          "type": "esriFieldTypeInteger",
+          "alias": "NO_LOTS"
+        },
+        {
+          "name": "PB_PC",
+          "type": "esriFieldTypeString",
+          "alias": "PB_PC"
+        },
+        {
+          "name": "PAGE",
+          "type": "esriFieldTypeString",
+          "alias": "PAGE"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "SUBDIV_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SUBDIV_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102723"
+  ],
+  "cors_enabled": true,
+  "response_ms": 222,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

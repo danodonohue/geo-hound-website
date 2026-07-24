@@ -1,0 +1,1027 @@
+{
+  "slug": "logis-loudoun-gov-environmental-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/Environmental/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/Environmental/MapServer",
+  "title": "Environmental",
+  "description": "Environmental data including soils, elevation, floodplain, wetlands, and forests.",
+  "abstract": "Loudoun County, Virginia environmental data",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "soils",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Soil Point Features",
+      "title": "Soil Point Features",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SPOINTS_NEW_",
+          "type": "esriFieldTypeInteger",
+          "alias": "SPOINTS_NEW_"
+        },
+        {
+          "name": "SPOINTS_NEW_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SPOINTS_NEW_ID"
+        },
+        {
+          "name": "SP_SOIL",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FEATURE_CODE"
+        },
+        {
+          "name": "SP_SYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "SP_SYMBOL"
+        },
+        {
+          "name": "SP_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SP_TYPE"
+        },
+        {
+          "name": "SP_ID_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "SP_ID_CODE"
+        },
+        {
+          "name": "SP_ID_YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "SP_ID_YEAR"
+        },
+        {
+          "name": "SP_ID_SEQ",
+          "type": "esriFieldTypeString",
+          "alias": "SP_ID_SEQ"
+        },
+        {
+          "name": "SP_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SP_UPD_DATE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Soils",
+      "title": "Soils",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SOILS_",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOILS_"
+        },
+        {
+          "name": "SOILS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOILS_ID"
+        },
+        {
+          "name": "SO_SOIL",
+          "type": "esriFieldTypeString",
+          "alias": "SO_SOIL"
+        },
+        {
+          "name": "SO_SLOPE",
+          "type": "esriFieldTypeString",
+          "alias": "SO_SLOPE"
+        },
+        {
+          "name": "SO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "SL_SOIL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SOIL"
+        },
+        {
+          "name": "SL_SOIL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SOIL_NAME"
+        },
+        {
+          "name": "SL_SLOPE_PERC",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SLOPE_PERC"
+        },
+        {
+          "name": "SL_FLOOD_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_FLOOD_POTENTIAL"
+        },
+        {
+          "name": "SL_HGRP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SL_HGRP_NAME"
+        },
+        {
+          "name": "SL_CWSD_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_CWSD_POTENTIAL"
+        },
+        {
+          "name": "SL_CWSD_POTENTIAL_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SL_CWSD_POTENTIAL_DESC"
+        },
+        {
+          "name": "SL_CWSD_LIMITATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "SL_CWSD_LIMITATIONS"
+        },
+        {
+          "name": "SL_SOIL_DEPTH",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SOIL_DEPTH"
+        },
+        {
+          "name": "SL_STDF_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_STDF_POTENTIAL"
+        },
+        {
+          "name": "SL_STDF_LIMITATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "SL_STDF_LIMITATIONS"
+        },
+        {
+          "name": "SL_AG_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_AG_POTENTIAL"
+        },
+        {
+          "name": "SL_USDA_LANDUSE1",
+          "type": "esriFieldTypeString",
+          "alias": "SL_USDA_LANDUSE1"
+        },
+        {
+          "name": "SL_USDA_LANDUSE2",
+          "type": "esriFieldTypeString",
+          "alias": "SL_USDA_LANDUSE2"
+        },
+        {
+          "name": "SL_ASSOCIATION_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SL_ASSOCIATION_NAME"
+        },
+        {
+          "name": "SL_HYDRIC",
+          "type": "esriFieldTypeString",
+          "alias": "SL_HYDRIC"
+        },
+        {
+          "name": "SL_KARST",
+          "type": "esriFieldTypeString",
+          "alias": "SL_KARST"
+        },
+        {
+          "name": "SL_LOW_BEARING_STRENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "SL_LOW_BEARING_STRENGTH"
+        },
+        {
+          "name": "SL_WATER_TABLE",
+          "type": "esriFieldTypeString",
+          "alias": "SL_WATER_TABLE"
+        },
+        {
+          "name": "SL_GWR_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_GWR_POTENTIAL"
+        },
+        {
+          "name": "SL_SLIPPAGE_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SLIPPAGE_POTENTIAL"
+        },
+        {
+          "name": "SL_LID_INFILTRATION_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_LID_INFILTRATION_POTENTIAL"
+        },
+        {
+          "name": "SL_SHRINK_SWELL_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SHRINK_SWELL_POTENTIAL"
+        },
+        {
+          "name": "SL_ONISTE_SEWAGE_DISPOSAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_ONISTE_SEWAGE_DISPOSAL"
+        },
+        {
+          "name": "SL_ERODABILITY",
+          "type": "esriFieldTypeString",
+          "alias": "SL_ERODABILITY"
+        },
+        {
+          "name": "SL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SL_UPD_DATE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        },
+        {
+          "name": "SOIL_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "SOIL_CLASS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Soil Drains",
+      "title": "Soil Drains",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "H_DRAINS_",
+          "type": "esriFieldTypeInteger",
+          "alias": "H_DRAINS_"
+        },
+        {
+          "name": "H_DRAINS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "H_DRAINS_ID"
+        },
+        {
+          "name": "H__DRAIN",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "H__DRAIN"
+        },
+        {
+          "name": "H__STREAM_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "H__STREAM_CODE"
+        },
+        {
+          "name": "H__DRAIN_SIZE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "H__DRAIN_SIZE"
+        },
+        {
+          "name": "H__TYPE_HP",
+          "type": "esriFieldTypeString",
+          "alias": "H__TYPE_HP"
+        },
+        {
+          "name": "H__UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "H__UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Prime Farmland Soils (Cluster Option)",
+      "title": "Prime Farmland Soils (Cluster Option)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SOILS_",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOILS_"
+        },
+        {
+          "name": "SOILS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOILS_ID"
+        },
+        {
+          "name": "SO_SOIL",
+          "type": "esriFieldTypeString",
+          "alias": "SO_SOIL"
+        },
+        {
+          "name": "SO_SLOPE",
+          "type": "esriFieldTypeString",
+          "alias": "SO_SLOPE"
+        },
+        {
+          "name": "SO_UPD_SOURCE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SO_UPD_SOURCE"
+        },
+        {
+          "name": "SO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SO_UPD_DATE"
+        },
+        {
+          "name": "SO_UPD_USER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SO_UPD_USER"
+        },
+        {
+          "name": "SO_ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "SO_ACRES"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Topography 4ft",
+      "title": "Topography 4ft",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TO_TELEV",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TO_TELEV"
+        },
+        {
+          "name": "TO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TO_UPD_DATE"
+        },
+        {
+          "name": "TO_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TO_TYPE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Virginia Scenic Rivers",
+      "title": "Virginia Scenic Rivers",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "WA_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "WA_UPD_DATE"
+        },
+        {
+          "name": "WA_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WA_TYPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Floodplain",
+      "title": "Floodplain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "FL_FLOOD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "FL_FLOOD_TYPE"
+        },
+        {
+          "name": "FL_APP_NM",
+          "type": "esriFieldTypeString",
+          "alias": "FL_APP_NM"
+        },
+        {
+          "name": "FL_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "FL_MAINT_TASK_ID"
+        },
+        {
+          "name": "FL_GIS_START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "FL_GIS_START_DATE"
+        },
+        {
+          "name": "FL_GIS_END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "FL_GIS_END_DATE"
+        },
+        {
+          "name": "FL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "FL_UPD_DATE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "agstype"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Hydric Soils",
+      "title": "Hydric Soils",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SOILS_",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOILS_"
+        },
+        {
+          "name": "SOILS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SOILS_ID"
+        },
+        {
+          "name": "SO_SOIL",
+          "type": "esriFieldTypeString",
+          "alias": "SO_SOIL"
+        },
+        {
+          "name": "SO_SLOPE",
+          "type": "esriFieldTypeString",
+          "alias": "SO_SLOPE"
+        },
+        {
+          "name": "SO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SO_UPD_DATE"
+        },
+        {
+          "name": "SL_SOIL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SOIL"
+        },
+        {
+          "name": "SL_SOIL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SOIL_NAME"
+        },
+        {
+          "name": "SL_SLOPE_PERC",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SLOPE_PERC"
+        },
+        {
+          "name": "SL_FLOOD_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_FLOOD_POTENTIAL"
+        },
+        {
+          "name": "SL_HGRP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SL_HGRP_NAME"
+        },
+        {
+          "name": "SL_CWSD_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_CWSD_POTENTIAL"
+        },
+        {
+          "name": "SL_CWSD_POTENTIAL_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "SL_CWSD_POTENTIAL_DESC"
+        },
+        {
+          "name": "SL_CWSD_LIMITATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "SL_CWSD_LIMITATIONS"
+        },
+        {
+          "name": "SL_SOIL_DEPTH",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SOIL_DEPTH"
+        },
+        {
+          "name": "SL_STDF_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_STDF_POTENTIAL"
+        },
+        {
+          "name": "SL_STDF_LIMITATIONS",
+          "type": "esriFieldTypeString",
+          "alias": "SL_STDF_LIMITATIONS"
+        },
+        {
+          "name": "SL_AG_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_AG_POTENTIAL"
+        },
+        {
+          "name": "SL_USDA_LANDUSE1",
+          "type": "esriFieldTypeString",
+          "alias": "SL_USDA_LANDUSE1"
+        },
+        {
+          "name": "SL_USDA_LANDUSE2",
+          "type": "esriFieldTypeString",
+          "alias": "SL_USDA_LANDUSE2"
+        },
+        {
+          "name": "SL_ASSOCIATION_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SL_ASSOCIATION_NAME"
+        },
+        {
+          "name": "SL_HYDRIC",
+          "type": "esriFieldTypeString",
+          "alias": "SL_HYDRIC"
+        },
+        {
+          "name": "SL_KARST",
+          "type": "esriFieldTypeString",
+          "alias": "SL_KARST"
+        },
+        {
+          "name": "SL_LOW_BEARING_STRENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "SL_LOW_BEARING_STRENGTH"
+        },
+        {
+          "name": "SL_WATER_TABLE",
+          "type": "esriFieldTypeString",
+          "alias": "SL_WATER_TABLE"
+        },
+        {
+          "name": "SL_GWR_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_GWR_POTENTIAL"
+        },
+        {
+          "name": "SL_SLIPPAGE_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SLIPPAGE_POTENTIAL"
+        },
+        {
+          "name": "SL_LID_INFILTRATION_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_LID_INFILTRATION_POTENTIAL"
+        },
+        {
+          "name": "SL_SHRINK_SWELL_POTENTIAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_SHRINK_SWELL_POTENTIAL"
+        },
+        {
+          "name": "SL_ONISTE_SEWAGE_DISPOSAL",
+          "type": "esriFieldTypeString",
+          "alias": "SL_ONISTE_SEWAGE_DISPOSAL"
+        },
+        {
+          "name": "SL_ERODABILITY",
+          "type": "esriFieldTypeString",
+          "alias": "SL_ERODABILITY"
+        },
+        {
+          "name": "SL_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SL_UPD_DATE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "SOIL_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "SOIL_CLASS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Watersheds",
+      "title": "Watersheds",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "WA_SUB_CODE_LMIS",
+          "type": "esriFieldTypeString",
+          "alias": "WA_SUB_CODE_LMIS"
+        },
+        {
+          "name": "WA_SUB_CODE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "WA_SUB_CODE_DESC"
+        },
+        {
+          "name": "WA_SUB_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "WA_SUB_CODE"
+        },
+        {
+          "name": "WA_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "WA_UPD_DATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "WA_SQMILE_TOTAL",
+          "type": "esriFieldTypeDouble",
+          "alias": "WA_SQMILE_TOTAL"
+        },
+        {
+          "name": "WA_SQMILE_IN",
+          "type": "esriFieldTypeDouble",
+          "alias": "WA_SQMILE_IN"
+        },
+        {
+          "name": "WA_SQMILE_OUT",
+          "type": "esriFieldTypeDouble",
+          "alias": "WA_SQMILE_OUT"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Wetlands Model",
+      "title": "Wetlands Model",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "WE_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "WE_UPD_DATE"
+        },
+        {
+          "name": "WE_AREA",
+          "type": "esriFieldTypeString",
+          "alias": "WE_AREA"
+        },
+        {
+          "name": "WE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_TYPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "River and Stream Corridor Resources Min Width",
+      "title": "River and Stream Corridor Resources Min Width",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "RSCR_MIN_WIDTH",
+          "type": "esriFieldTypeInteger",
+          "alias": "MINIMUM DISTANCE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "River and Stream Corridor Resources",
+      "title": "River and Stream Corridor Resources",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RSCR_FEATURE",
+          "type": "esriFieldTypeString",
+          "alias": "RSCR FEATURE"
+        },
+        {
+          "name": "RSCR_FEATURE_ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "FEATURE ACRES"
+        },
+        {
+          "name": "RSCR_TOTAL_ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "RSCR TOTAL ACRES"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Forest",
+      "title": "Forest",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "FO_UPD_DATE"
+        },
+        {
+          "name": "FO_TYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FO_TYPE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "agstype"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "FO_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FO_LOUD_ID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 221,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

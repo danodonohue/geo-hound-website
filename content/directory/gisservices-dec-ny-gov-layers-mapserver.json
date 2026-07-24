@@ -1,0 +1,1057 @@
+{
+  "slug": "gisservices-dec-ny-gov-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gisservices.dec.ny.gov/arcgis/rest/services/erm/erm/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisservices.dec.ny.gov/arcgis/rest/services/erm/erm/MapServer",
+  "title": "Layers",
+  "description": "New York environmental records, wetlands, and rare species locations.",
+  "abstract": "Map document - erm.mxd : GDC Created 05/28/2021 to replace possible corrupt map document",
+  "provider": "gisservices.dec.ny.gov",
+  "place": {
+    "country": "United States",
+    "state": "New York",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Old or Potential Records",
+      "title": "Old or Potential Records",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "EO_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "EO_ID"
+        },
+        {
+          "name": "SEARCHDIST",
+          "type": "esriFieldTypeDouble",
+          "alias": "SEARCHDIST"
+        },
+        {
+          "name": "SCIENTIFIC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCIENTIFIC_NAME"
+        },
+        {
+          "name": "COMMON_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "COMMON_NAME"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "SITE_USE",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_USE"
+        },
+        {
+          "name": "GROUP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_NAME"
+        },
+        {
+          "name": "NY_LISTING",
+          "type": "esriFieldTypeString",
+          "alias": "NY_LISTING"
+        },
+        {
+          "name": "US_LISTING",
+          "type": "esriFieldTypeString",
+          "alias": "US_LISTING"
+        },
+        {
+          "name": "S_RANK",
+          "type": "esriFieldTypeString",
+          "alias": "S_RANK"
+        },
+        {
+          "name": "G_RANK",
+          "type": "esriFieldTypeString",
+          "alias": "G_RANK"
+        },
+        {
+          "name": "LAST_DATE_OBSERVED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_DATE_OBSERVED"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Natural Communities Vicinity",
+      "title": "Natural Communities Vicinity",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "EO_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "EO_ID"
+        },
+        {
+          "name": "SCIEN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCIEN_NAME"
+        },
+        {
+          "name": "SCIENTIFIC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCIENTIFIC_NAME"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "S_RANK_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "S_RANK_DESCRIPTION"
+        },
+        {
+          "name": "SRANK_DSC",
+          "type": "esriFieldTypeString",
+          "alias": "SRANK_DSC"
+        },
+        {
+          "name": "SURVEYSITE",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYSITE"
+        },
+        {
+          "name": "SYSTEM",
+          "type": "esriFieldTypeString",
+          "alias": "System"
+        },
+        {
+          "name": "SUBSYSTEM",
+          "type": "esriFieldTypeString",
+          "alias": "Subsystem"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Unique Geological Features",
+      "title": "Unique Geological Features",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "FIPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "FIPS"
+        },
+        {
+          "name": "LATDD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATDD"
+        },
+        {
+          "name": "LONGDD",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGDD"
+        },
+        {
+          "name": "QUAD",
+          "type": "esriFieldTypeString",
+          "alias": "QUAD"
+        },
+        {
+          "name": "FEATURES",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURES"
+        },
+        {
+          "name": "PERMISSION",
+          "type": "esriFieldTypeString",
+          "alias": "PERMISSION"
+        },
+        {
+          "name": "REFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "REFERENCE"
+        },
+        {
+          "name": "PHOTO",
+          "type": "esriFieldTypeString",
+          "alias": "PHOTO"
+        },
+        {
+          "name": "LOCATION_V",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION_V"
+        },
+        {
+          "name": "RATING",
+          "type": "esriFieldTypeString",
+          "alias": "RATING"
+        },
+        {
+          "name": "URL_MAIN",
+          "type": "esriFieldTypeString",
+          "alias": "URL_MAIN"
+        },
+        {
+          "name": "IMAGE_COUR",
+          "type": "esriFieldTypeString",
+          "alias": "IMAGE_COUR"
+        },
+        {
+          "name": "FTYPE1",
+          "type": "esriFieldTypeString",
+          "alias": "FTYPE1"
+        },
+        {
+          "name": "REASON_OF_",
+          "type": "esriFieldTypeString",
+          "alias": "REASON_OF_"
+        },
+        {
+          "name": "TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Waterbody Classifications for Rivers/Streams",
+      "title": "Waterbody Classifications for Rivers/Streams",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PARTITEM",
+          "type": "esriFieldTypeString",
+          "alias": "PARTITEM"
+        },
+        {
+          "name": "CLASSIFICA",
+          "type": "esriFieldTypeString",
+          "alias": "CLASSIFICA"
+        },
+        {
+          "name": "STANDARD",
+          "type": "esriFieldTypeString",
+          "alias": "STANDARD"
+        },
+        {
+          "name": "PROTECTED",
+          "type": "esriFieldTypeInteger",
+          "alias": "PROTECTED"
+        },
+        {
+          "name": "BASIN",
+          "type": "esriFieldTypeString",
+          "alias": "BASIN"
+        },
+        {
+          "name": "SUBBASIN_N",
+          "type": "esriFieldTypeString",
+          "alias": "SUBBASIN_N"
+        },
+        {
+          "name": "SUBBASIN",
+          "type": "esriFieldTypeString",
+          "alias": "SUBBASIN"
+        },
+        {
+          "name": "SHAPE_LENG",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_LENG"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Waterbody Classification for Lakes",
+      "title": "Waterbody Classification for Lakes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PARTITEM",
+          "type": "esriFieldTypeString",
+          "alias": "PARTITEM"
+        },
+        {
+          "name": "CLASSIFICA",
+          "type": "esriFieldTypeString",
+          "alias": "CLASSIFICA"
+        },
+        {
+          "name": "STANDARD",
+          "type": "esriFieldTypeString",
+          "alias": "STANDARD"
+        },
+        {
+          "name": "PROTECTED",
+          "type": "esriFieldTypeInteger",
+          "alias": "PROTECTED"
+        },
+        {
+          "name": "BASIN",
+          "type": "esriFieldTypeString",
+          "alias": "BASIN"
+        },
+        {
+          "name": "SUBBASIN_N",
+          "type": "esriFieldTypeString",
+          "alias": "SUBBASIN_N"
+        },
+        {
+          "name": "SUBBASIN",
+          "type": "esriFieldTypeString",
+          "alias": "SUBBASIN"
+        },
+        {
+          "name": "SHAPE_LENG",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "State Regulated Wetlands",
+      "title": "State Regulated Wetlands",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "JOIN_COUNT",
+          "type": "esriFieldTypeInteger",
+          "alias": "JOIN_COUNT"
+        },
+        {
+          "name": "TARGET_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "TARGET_FID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OBJECT__ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "OBJECT__ID"
+        },
+        {
+          "name": "WETID",
+          "type": "esriFieldTypeString",
+          "alias": "WETID"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CLASS"
+        },
+        {
+          "name": "SIZE_",
+          "type": "esriFieldTypeDouble",
+          "alias": "SIZE_"
+        },
+        {
+          "name": "WETL_ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "WETL_ACRES"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "WETROOT",
+          "type": "esriFieldTypeString",
+          "alias": "WETROOT"
+        },
+        {
+          "name": "CHANGE",
+          "type": "esriFieldTypeString",
+          "alias": "CHANGE"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "SHAPE_AR_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_AR_1"
+        },
+        {
+          "name": "SHAPE_LE_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_LE_1"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "WETID_CNTY",
+          "type": "esriFieldTypeString",
+          "alias": "WETID_CNTY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "State Regulated Wetlands Checkzone",
+      "title": "State Regulated Wetlands Checkzone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "ORIG_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ORIG_FID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Mussel Screening Ponded Waters",
+      "title": "Mussel Screening Ponded Waters",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FIN",
+          "type": "esriFieldTypeString",
+          "alias": "FIN"
+        },
+        {
+          "name": "WATER",
+          "type": "esriFieldTypeString",
+          "alias": "WATER"
+        },
+        {
+          "name": "SCREENING",
+          "type": "esriFieldTypeString",
+          "alias": "SCREENING"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Mussel Screening Streams",
+      "title": "Mussel Screening Streams",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SCREENING",
+          "type": "esriFieldTypeString",
+          "alias": "SCREENING"
+        },
+        {
+          "name": "STREAM",
+          "type": "esriFieldTypeString",
+          "alias": "STREAM"
+        },
+        {
+          "name": "FISHERIES_INDEX_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "FISHERIES_INDEX_NUMBER"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Significant Natural Communities",
+      "title": "Significant Natural Communities",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "EO_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "EO_ID"
+        },
+        {
+          "name": "SCIEN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCIEN_NAME"
+        },
+        {
+          "name": "SCIENTIFIC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCIENTIFIC_NAME"
+        },
+        {
+          "name": "COMMON_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "COMMON_NAME"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "S_RANK",
+          "type": "esriFieldTypeString",
+          "alias": "S_RANK"
+        },
+        {
+          "name": "G_RANK",
+          "type": "esriFieldTypeString",
+          "alias": "G_RANK"
+        },
+        {
+          "name": "LAST_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_DATE"
+        },
+        {
+          "name": "LAST_DATE_OBSERVED",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_DATE_OBSERVED"
+        },
+        {
+          "name": "EO_RANK",
+          "type": "esriFieldTypeString",
+          "alias": "EO_RANK"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "PRINCIPAL_SUB",
+          "type": "esriFieldTypeString",
+          "alias": "PRINCIPAL_SUB"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "ID_CONFIRMED",
+          "type": "esriFieldTypeString",
+          "alias": "ID_CONFIRMED"
+        },
+        {
+          "name": "MAP_PRECISION",
+          "type": "esriFieldTypeString",
+          "alias": "MAP_PRECISION"
+        },
+        {
+          "name": "ELCODE",
+          "type": "esriFieldTypeString",
+          "alias": "ELCODE"
+        },
+        {
+          "name": "S_RANK_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "S_RANK_DESCRIPTION"
+        },
+        {
+          "name": "SRANK_DSC",
+          "type": "esriFieldTypeString",
+          "alias": "SRANK_DSC"
+        },
+        {
+          "name": "SYSTEM",
+          "type": "esriFieldTypeString",
+          "alias": "SYSTEM"
+        },
+        {
+          "name": "SUBSYSTEM",
+          "type": "esriFieldTypeString",
+          "alias": "SUBSYSTEM"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Significant Natural Communities Nearby",
+      "title": "Significant Natural Communities Nearby",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "EO_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "EO_ID"
+        },
+        {
+          "name": "SCIEN_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCIEN_NAME"
+        },
+        {
+          "name": "SCIENTIFIC_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SCIENTIFIC_NAME"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "S_RANK",
+          "type": "esriFieldTypeString",
+          "alias": "S_RANK"
+        },
+        {
+          "name": "S_RANK_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "S_RANK_DESCRIPTION"
+        },
+        {
+          "name": "SRANK_DSC",
+          "type": "esriFieldTypeString",
+          "alias": "SRANK_DSC"
+        },
+        {
+          "name": "SURVEYSITE",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYSITE"
+        },
+        {
+          "name": "SYSTEM",
+          "type": "esriFieldTypeString",
+          "alias": "SYSTEM"
+        },
+        {
+          "name": "SUBSYSTEM",
+          "type": "esriFieldTypeString",
+          "alias": "SUBSYSTEM"
+        },
+        {
+          "name": "CLASS",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CLASS"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Rare Plants or Rare Animals",
+      "title": "Rare Plants or Rare Animals",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "KEY_2",
+          "type": "esriFieldTypeString",
+          "alias": "KEY_2"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Ten Year Travel Time",
+      "title": "Ten Year Travel Time",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Special Groundwater Protection Areas",
+      "title": "Special Groundwater Protection Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AGENCY",
+          "type": "esriFieldTypeString",
+          "alias": "AGENCY"
+        },
+        {
+          "name": "DATE_",
+          "type": "esriFieldTypeString",
+          "alias": "DATE_"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "REASON",
+          "type": "esriFieldTypeString",
+          "alias": "REASON"
+        },
+        {
+          "name": "WEB_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "WEB_LINK"
+        },
+        {
+          "name": "ABOUT_LINK",
+          "type": "esriFieldTypeString",
+          "alias": "ABOUT_LINK"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:26918"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1145,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

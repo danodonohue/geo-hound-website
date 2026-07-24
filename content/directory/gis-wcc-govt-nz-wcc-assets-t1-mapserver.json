@@ -1,0 +1,1097 @@
+{
+  "slug": "gis-wcc-govt-nz-wcc-assets-t1-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Asset/WCC_Assets_T1/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Asset/WCC_Assets_T1/MapServer",
+  "title": "WCC_Assets_T1",
+  "description": "GIS service providing heritage, transport, coastal data.",
+  "abstract": "All asset GIS layer in DEV",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Wellington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "WCC_Seats",
+      "title": "WCC_Seats",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "Style",
+          "type": "esriFieldTypeString",
+          "alias": "Style"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Date_Modified",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Modified"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Length_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length_m"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Painted",
+          "type": "esriFieldTypeString",
+          "alias": "Painted"
+        },
+        {
+          "name": "Indoor_Outdoor",
+          "type": "esriFieldTypeString",
+          "alias": "Indoor_Outdoor"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Memorial",
+          "type": "esriFieldTypeString",
+          "alias": "Memorial"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "RAMM_Contract_Area",
+          "type": "esriFieldTypeString",
+          "alias": "RAMM_Contract_Area"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Available",
+          "type": "esriFieldTypeString",
+          "alias": "Available"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital_Activity"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 240,
+      "name": "WCC_Artwork",
+      "title": "WCC_Artwork",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 241,
+      "name": "WCC_Bag_Dispenser",
+      "title": "WCC_Bag_Dispenser",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 242,
+      "name": "WCC_BBQs",
+      "title": "WCC_BBQs",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 252,
+      "name": "WCC_Beams",
+      "title": "WCC_Beams",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Quantity_UOM",
+          "type": "esriFieldTypeString",
+          "alias": "Quantity_UOM"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Asset"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Legal_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Legal_Owner"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "BeamType",
+          "type": "esriFieldTypeString",
+          "alias": "BeamType"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital_Activity"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 243,
+      "name": "WCC_Bike_Skills_Equipment",
+      "title": "WCC_Bike_Skills_Equipment",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 244,
+      "name": "WCC_BikeMaintenance",
+      "title": "WCC_BikeMaintenance",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 245,
+      "name": "WCC_Boardwalks",
+      "title": "WCC_Boardwalks",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 246,
+      "name": "WCC_Boat_Ramp",
+      "title": "WCC_Boat_Ramp",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 247,
+      "name": "WCC_Bollard",
+      "title": "WCC_Bollard",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 248,
+      "name": "WCC_Bridge",
+      "title": "WCC_Bridge",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 249,
+      "name": "WCC_Cattle_Stops",
+      "title": "WCC_Cattle_Stops",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 250,
+      "name": "WCC_CCTV",
+      "title": "WCC_CCTV",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 251,
+      "name": "WCC_Clothes_Lines",
+      "title": "WCC_Clothes_Lines",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 253,
+      "name": "WCC_Cycle_Racks",
+      "title": "WCC_Cycle_Racks",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 306,
+      "name": "WCC_Decorative_Feature",
+      "title": "WCC_Decorative_Feature",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 254,
+      "name": "WCC_Drinking_Fountain",
+      "title": "WCC_Drinking_Fountain",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 302,
+      "name": "WCC_Electrical_Points",
+      "title": "WCC_Electrical_Points",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 255,
+      "name": "WCC_Feature_Boulder",
+      "title": "WCC_Feature_Boulder",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 256,
+      "name": "WCC_Gates",
+      "title": "WCC_Gates",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 257,
+      "name": "WCC_Intelligent_Transport_Systems",
+      "title": "WCC_Intelligent_Transport_Systems",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 258,
+      "name": "WCC_Jetty",
+      "title": "WCC_Jetty",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 259,
+      "name": "WCC_Lights",
+      "title": "WCC_Lights",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 260,
+      "name": "WCC_Marine_Amenities",
+      "title": "WCC_Marine_Amenities",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 301,
+      "name": "WCC_Memorials_Sculptures_Historical_Artefacts",
+      "title": "WCC_Memorials_Sculptures_Historical_Artefacts",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 261,
+      "name": "WCC_Parking_Control",
+      "title": "WCC_Parking_Control",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 262,
+      "name": "WCC_Pergola_Arches",
+      "title": "WCC_Pergola_Arches",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 263,
+      "name": "WCC_Picnic_Tables",
+      "title": "WCC_Picnic_Tables",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 264,
+      "name": "WCC_Piles",
+      "title": "WCC_Piles",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 265,
+      "name": "WCC_Plaques",
+      "title": "WCC_Plaques",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 266,
+      "name": "WCC_Play_Equipment",
+      "title": "WCC_Play_Equipment",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 267,
+      "name": "WCC_Playgrounds",
+      "title": "WCC_Playgrounds",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 268,
+      "name": "WCC_Rubbish_Bin",
+      "title": "WCC_Rubbish_Bin",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 270,
+      "name": "WCC_Signage",
+      "title": "WCC_Signage",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 271,
+      "name": "WCC_Skate_Equipment",
+      "title": "WCC_Skate_Equipment",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 272,
+      "name": "WCC_Sports_Equipment",
+      "title": "WCC_Sports_Equipment",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 273,
+      "name": "WCC_Stiles",
+      "title": "WCC_Stiles",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 274,
+      "name": "WCC_Water_Points",
+      "title": "WCC_Water_Points",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 305,
+      "name": "WCC_Beams",
+      "title": "WCC_Beams",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 275,
+      "name": "WCC_Cycleways",
+      "title": "WCC_Cycleways",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 276,
+      "name": "WCC_FencesAndRails",
+      "title": "WCC_FencesAndRails",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 277,
+      "name": "WCC_Wheel_Stops",
+      "title": "WCC_Wheel_Stops",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 298,
+      "name": "WCC_Boardwalks_Polygon",
+      "title": "WCC_Boardwalks_Polygon",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 278,
+      "name": "WCC_Breakwater",
+      "title": "WCC_Breakwater",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 279,
+      "name": "WCC_Bush",
+      "title": "WCC_Bush",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 280,
+      "name": "WCC_Grass",
+      "title": "WCC_Grass",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 281,
+      "name": "WCC_Hard_Surface",
+      "title": "WCC_Hard_Surface",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 282,
+      "name": "WCC_Horticulture",
+      "title": "WCC_Horticulture",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 283,
+      "name": "WCC_Safety_Matting",
+      "title": "WCC_Safety_Matting",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 284,
+      "name": "WCC_Shelters",
+      "title": "WCC_Shelters",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 285,
+      "name": "WCC_Speed_Humps",
+      "title": "WCC_Speed_Humps",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 287,
+      "name": "WCC_Sportsfield",
+      "title": "WCC_Sportsfield",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 294,
+      "name": "WCC_Sportsfield_Surfaces",
+      "title": "WCC_Sportsfield_Surfaces",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 288,
+      "name": "WCC_Traffic_Islands",
+      "title": "WCC_Traffic_Islands",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 289,
+      "name": "WCC_Tunnels",
+      "title": "WCC_Tunnels",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 290,
+      "name": "WCC_Viewing_Platform",
+      "title": "WCC_Viewing_Platform",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 291,
+      "name": "WCC_Walls",
+      "title": "WCC_Walls",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 292,
+      "name": "WCC_WaterFeature",
+      "title": "WCC_WaterFeature",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 303,
+      "name": "WCC_Council_Buildings",
+      "title": "WCC_Council_Buildings",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 164,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "slug": "www-mapping-cityoflondon-gov-uk-layers-mapserver-4",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_IMD2025/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_IMD2025/MapServer",
+  "title": "Layers",
+  "description": "Latest deprivation indices for output areas across England in 2025.",
+  "abstract": "The Indices of Deprivation 2025 provide a set of relative measures of deprivation for small areas (Lower-layer Super Output Areas) across England, based on seven domains of deprivation.",
+  "provider": "www.mapping.cityoflondon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "demographics",
+      "confidence": "high"
+    },
+    {
+      "name": "health",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Local Authorities",
+      "title": "Local Authorities",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "AREA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_CODE"
+        },
+        {
+          "name": "DESCRIPTIO",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "FILE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "FILE_NAME"
+        },
+        {
+          "name": "NUMBER_",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "NUMBER0",
+          "type": "esriFieldTypeDouble",
+          "alias": "NUMBER0"
+        },
+        {
+          "name": "POLYGON_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLYGON_ID"
+        },
+        {
+          "name": "UNIT_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_ID"
+        },
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "CODE"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        },
+        {
+          "name": "OS_VECTOR.UK_Local_Authorities.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "DESCRIPT0",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT0"
+        },
+        {
+          "name": "TYPE_COD0",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_COD0"
+        },
+        {
+          "name": "DESCRIPT1",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Overall Indices of Multiple Deprivation Rank",
+      "title": "Overall Indices of Multiple Deprivation Rank",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "INDEX_OF_MULTIPLE_DEPRIVATION_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Index of Multiple Deprivation (IMD) Score"
+        },
+        {
+          "name": "INDEX_OF_MULTIPLE_DEPRIVATION1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Index of Multiple Deprivation (IMD) Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "INDEX_OF_MULTIPLE_DEPRIVATIO_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Index of Multiple Deprivation (IMD) Decile (where 1 is most deprived 10% of LSOAs)"
+        },
+        {
+          "name": "TOTAL_POPULATION__MID_2022",
+          "type": "esriFieldTypeInteger",
+          "alias": "Total population: mid 2022"
+        },
+        {
+          "name": "DEPENDENT_CHILDREN_AGED_0_15__",
+          "type": "esriFieldTypeInteger",
+          "alias": "Dependent Children aged 0-15: mid 2022"
+        },
+        {
+          "name": "OLDER_POPULATION_AGED_60_AND_O",
+          "type": "esriFieldTypeInteger",
+          "alias": "Older population aged 60 and over: mid 2022"
+        },
+        {
+          "name": "WORKING_AGE_POPULATION_18_66__",
+          "type": "esriFieldTypeInteger",
+          "alias": "Working age population 18-66 (for use with Employment Deprivation Domain): mid 2022"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Education, Skills and Training Deprivation Domain ",
+      "title": "Education, Skills and Training Deprivation Domain ",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Education, Skills and Training Deprivation Domain",
+      "title": "Education, Skills and Training Deprivation Domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "EDUCATION__SKILLS_AND_TRAINING",
+          "type": "esriFieldTypeDouble",
+          "alias": "Education, Skills and Training Score"
+        },
+        {
+          "name": "EDUCATION__SKILLS_AND_TRAINI_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Education, Skills and Training Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "EDUCATION__SKILLS_AND_TRAINI_2",
+          "type": "esriFieldTypeInteger",
+          "alias": "Education, Skills and Training Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Children and Young People Sub-domain",
+      "title": "Children and Young People Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "CHILDREN_AND_YOUNG_PEOPLE_SUB_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Children and Young People Sub-domain Score"
+        },
+        {
+          "name": "CHILDREN_AND_YOUNG_PEOPLE_SUB1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Children and Young People Sub-domain Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "CHILDREN_AND_YOUNG_PEOPLE_SU_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Children and Young People Sub-domain Decile (where 1 is most deprived 10% of LSO"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Adult Skills Sub-domain",
+      "title": "Adult Skills Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "ADULT_SKILLS_SUB_DOMAIN_SCORE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Adult Skills Sub-domain Score"
+        },
+        {
+          "name": "ADULT_SKILLS_SUB_DOMAIN_RANK__",
+          "type": "esriFieldTypeInteger",
+          "alias": "Adult Skills Sub-domain Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "ADULT_SKILLS_SUB_DOMAIN_DECILE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Adult Skills Sub-domain Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Living Environment Domian",
+      "title": "Living Environment Domian",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Living Environment Domian",
+      "title": "Living Environment Domian",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "LIVING_ENVIRONMENT_SCORE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Living Environment Score"
+        },
+        {
+          "name": "LIVING_ENVIRONMENT_RANK__WHERE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Living Environment Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "LIVING_ENVIRONMENT_DECILE__WHE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Living Environment Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Indoor Sub-domain",
+      "title": "Indoor Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "INDOORS_SUB_DOMAIN_SCORE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Indoors Sub-domain Score"
+        },
+        {
+          "name": "INDOORS_SUB_DOMAIN_RANK__WHERE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Indoors Sub-domain Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "INDOORS_SUB_DOMAIN_DECILE__WHE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Indoors Sub-domain Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Outdoor Sub-domain",
+      "title": "Outdoor Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "OUTDOORS_SUB_DOMAIN_SCORE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Outdoors Sub-domain Score"
+        },
+        {
+          "name": "OUTDOORS_SUB_DOMAIN_RANK__WHER",
+          "type": "esriFieldTypeInteger",
+          "alias": "Outdoors Sub-domain Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "OUTDOORS_SUB_DOMAIN_DECILE__WH",
+          "type": "esriFieldTypeInteger",
+          "alias": "Outdoors Sub-domain Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Barriers to Housing and Services Domain",
+      "title": "Barriers to Housing and Services Domain",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Barriers to Housing and Services ",
+      "title": "Barriers to Housing and Services ",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "BARRIERS_TO_HOUSING_AND_SERVIC",
+          "type": "esriFieldTypeDouble",
+          "alias": "Barriers to Housing and Services Score"
+        },
+        {
+          "name": "BARRIERS_TO_HOUSING_AND_SERV_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Barriers to Housing and Services Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "BARRIERS_TO_HOUSING_AND_SERV_2",
+          "type": "esriFieldTypeInteger",
+          "alias": "Barriers to Housing and Services Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Geographical Barriers Sub-domain",
+      "title": "Geographical Barriers Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "GEOGRAPHICAL_BARRIERS_SUB_DOMA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Geographical Barriers Sub-domain Score"
+        },
+        {
+          "name": "GEOGRAPHICAL_BARRIERS_SUB_DO_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Geographical Barriers Sub-domain Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "GEOGRAPHICAL_BARRIERS_SUB_DO_2",
+          "type": "esriFieldTypeInteger",
+          "alias": "Geographical Barriers Sub-domain Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Wider Barriers Sub-domain",
+      "title": "Wider Barriers Sub-domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "WIDER_BARRIERS_SUB_DOMAIN_SCOR",
+          "type": "esriFieldTypeDouble",
+          "alias": "Wider Barriers Sub-domain Score"
+        },
+        {
+          "name": "WIDER_BARRIERS_SUB_DOMAIN_RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "Wider Barriers Sub-domain Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "WIDER_BARRIERS_SUB_DOMAIN_DECI",
+          "type": "esriFieldTypeInteger",
+          "alias": "Wider Barriers Sub-domain Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Crime Domain",
+      "title": "Crime Domain",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LSOA_CODE__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA code (2021)"
+        },
+        {
+          "name": "LSOA_NAME__2021_",
+          "type": "esriFieldTypeString",
+          "alias": "LSOA name (2021)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_CODE_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District code (2024)"
+        },
+        {
+          "name": "LOCAL_AUTHORITY_DISTRICT_NAME_",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority District name (2024)"
+        },
+        {
+          "name": "CRIME_SCORE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Crime Score"
+        },
+        {
+          "name": "CRIME_RANK__WHERE_1_IS_MOST_DE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Crime Rank (where 1 is most deprived)"
+        },
+        {
+          "name": "CRIME_DECILE__WHERE_1_IS_MOST_",
+          "type": "esriFieldTypeInteger",
+          "alias": "Crime Decile (where 1 is most deprived 10% of LSOAs)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Health Deprivation and Disability Domain",
+      "title": "Health Deprivation and Disability Domain",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Employment Deprivation Domain",
+      "title": "Employment Deprivation Domain",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Income Deprivation Domain",
+      "title": "Income Deprivation Domain",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 887,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

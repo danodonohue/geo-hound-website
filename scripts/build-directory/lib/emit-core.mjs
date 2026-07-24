@@ -15,16 +15,20 @@ export function buildRecord({ raw, probe, meaning }, today) {
   if (title.length > 160 || /<[a-z]+[^>]*>/i.test(title)) return null;
   if (probe.layers.length === 0 && !NO_LAYER_TYPES.has(raw.service_type)) return null;
 
+  // Some sources stuff whole abstracts into the provider field; a provider
+  // that long is junk and would poison the slug.
+  const provider = meaning.provider && meaning.provider.length <= 80 ? meaning.provider : null;
+
   const bboxCandidate = probe.bbox ?? parseBbox(raw.bounding_box);
   const record = {
-    slug: serviceSlug({ title, provider: meaning.provider, url: raw.normalized_url, type: raw.service_type }),
+    slug: serviceSlug({ title, provider, url: raw.normalized_url, type: raw.service_type }),
     service_key: `${raw.service_type}:${raw.normalized_url}`,
     type: raw.service_type,
     url: raw.normalized_url,
     title,
     description,
     ...(meaning.abstract ? { abstract: meaning.abstract } : {}),
-    ...(meaning.provider ? { provider: meaning.provider } : {}),
+    ...(provider ? { provider } : {}),
     place: meaning.place ?? null,
     themes: meaning.themes,
     bbox: bboxIsSane(bboxCandidate) ? bboxCandidate : null,

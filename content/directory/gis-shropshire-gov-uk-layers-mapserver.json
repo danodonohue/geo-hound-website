@@ -1,0 +1,1499 @@
+{
+  "slug": "gis-shropshire-gov-uk-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis.shropshire.gov.uk/arcgis/rest/services/AGOL/GreatOutdoors/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.shropshire.gov.uk/arcgis/rest/services/AGOL/GreatOutdoors/MapServer",
+  "title": "Layers",
+  "description": "Outdoor recreation routes including walks, cycle paths and parks for Shropshire",
+  "provider": "gis.shropshire.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "IndividualRouteLayers",
+      "title": "IndividualRouteLayers",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 161,
+      "name": "Accessible View Points",
+      "title": "Accessible View Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "URL_LInk",
+          "type": "esriFieldTypeString",
+          "alias": "URL_LInk"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeInteger",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeInteger",
+          "alias": "Y"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Parks and Countryside boundaries",
+      "title": "Parks and Countryside boundaries",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Site name"
+        },
+        {
+          "name": "FACILITIES",
+          "type": "esriFieldTypeString",
+          "alias": "Facilities"
+        },
+        {
+          "name": "EMAIL",
+          "type": "esriFieldTypeString",
+          "alias": "Email"
+        },
+        {
+          "name": "TELEPHONE",
+          "type": "esriFieldTypeString",
+          "alias": "Telephone"
+        },
+        {
+          "name": "WEB",
+          "type": "esriFieldTypeString",
+          "alias": "Web"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "VOLRANGERS",
+          "type": "esriFieldTypeString",
+          "alias": "VOLRANGERS"
+        },
+        {
+          "name": "postcode",
+          "type": "esriFieldTypeString",
+          "alias": "postcode"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "Image",
+          "type": "esriFieldTypeString",
+          "alias": "Image"
+        },
+        {
+          "name": "PopUp_text",
+          "type": "esriFieldTypeString",
+          "alias": "PopUp_text"
+        },
+        {
+          "name": "ManagedBy",
+          "type": "esriFieldTypeString",
+          "alias": "ManagedBy"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Promoted routes",
+      "title": "Promoted routes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "PARKING",
+          "type": "esriFieldTypeString",
+          "alias": "Parking"
+        },
+        {
+          "name": "NEAREST_TO",
+          "type": "esriFieldTypeString",
+          "alias": "Nearest to"
+        },
+        {
+          "name": "START_FROM",
+          "type": "esriFieldTypeString",
+          "alias": "Start from"
+        },
+        {
+          "name": "APPROX_TIM",
+          "type": "esriFieldTypeSingle",
+          "alias": "Approx time"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "STARTX",
+          "type": "esriFieldTypeInteger",
+          "alias": "STARTX"
+        },
+        {
+          "name": "STARTY",
+          "type": "esriFieldTypeInteger",
+          "alias": "STARTY"
+        },
+        {
+          "name": "ENDX",
+          "type": "esriFieldTypeInteger",
+          "alias": "ENDX"
+        },
+        {
+          "name": "ENDY",
+          "type": "esriFieldTypeInteger",
+          "alias": "ENDY"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        },
+        {
+          "name": "RIDE_WALK",
+          "type": "esriFieldTypeString",
+          "alias": "RIDE_WALK"
+        },
+        {
+          "name": "OBJECTID_12",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "WeblinkOLD",
+          "type": "esriFieldTypeString",
+          "alias": "WeblinkOLD"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "route_id_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "route_id_1"
+        },
+        {
+          "name": "Shape_Le_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Le_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Car Free Walks",
+      "title": "Car Free Walks",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Easy Access routes",
+      "title": "Easy Access routes",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        },
+        {
+          "name": "POINT_X",
+          "type": "esriFieldTypeDouble",
+          "alias": "POINT_X"
+        },
+        {
+          "name": "POINT_Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "POINT_Y"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Blue Remembered Hills bridleway",
+      "title": "Blue Remembered Hills bridleway",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "TITLE"
+        },
+        {
+          "name": "TITLE2",
+          "type": "esriFieldTypeString",
+          "alias": "TITLE2"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Humphrey Kynaston Way",
+      "title": "Humphrey Kynaston Way",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "length",
+          "type": "esriFieldTypeDouble",
+          "alias": "length"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "link",
+          "type": "esriFieldTypeString",
+          "alias": "link"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "Title",
+          "type": "esriFieldTypeString",
+          "alias": "Title"
+        },
+        {
+          "name": "Title2",
+          "type": "esriFieldTypeString",
+          "alias": "Title2"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Jack Mytton Way",
+      "title": "Jack Mytton Way",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "Title",
+          "type": "esriFieldTypeString",
+          "alias": "Title"
+        },
+        {
+          "name": "Title2",
+          "type": "esriFieldTypeString",
+          "alias": "Title2"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Family friendly cycle rides",
+      "title": "Family friendly cycle rides",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Leaflet",
+          "type": "esriFieldTypeString",
+          "alias": "Leaflet"
+        },
+        {
+          "name": "RouteName",
+          "type": "esriFieldTypeString",
+          "alias": "Route Name"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length (miles)"
+        },
+        {
+          "name": "Difficulty",
+          "type": "esriFieldTypeString",
+          "alias": "Difficulty"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Start",
+          "type": "esriFieldTypeString",
+          "alias": "Start"
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeString",
+          "alias": "Area"
+        },
+        {
+          "name": "LeafletURL",
+          "type": "esriFieldTypeString",
+          "alias": "LeafletURL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "STARTX",
+          "type": "esriFieldTypeDouble",
+          "alias": "STARTX"
+        },
+        {
+          "name": "STARTY",
+          "type": "esriFieldTypeDouble",
+          "alias": "STARTY"
+        },
+        {
+          "name": "ENDX",
+          "type": "esriFieldTypeDouble",
+          "alias": "ENDX"
+        },
+        {
+          "name": "ENDY",
+          "type": "esriFieldTypeDouble",
+          "alias": "ENDY"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Shropshire cycleway ",
+      "title": "Shropshire cycleway ",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "miles",
+          "type": "esriFieldTypeDouble",
+          "alias": "miles"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Leaflet",
+          "type": "esriFieldTypeString",
+          "alias": "Leaflet"
+        },
+        {
+          "name": "RouteName",
+          "type": "esriFieldTypeString",
+          "alias": "RouteName"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "STARTX",
+          "type": "esriFieldTypeDouble",
+          "alias": "STARTX"
+        },
+        {
+          "name": "STARTY",
+          "type": "esriFieldTypeDouble",
+          "alias": "STARTY"
+        },
+        {
+          "name": "ENDX",
+          "type": "esriFieldTypeDouble",
+          "alias": "ENDX"
+        },
+        {
+          "name": "ENDY",
+          "type": "esriFieldTypeDouble",
+          "alias": "ENDY"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Market Town cycle routes ",
+      "title": "Market Town cycle routes ",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Leaflet",
+          "type": "esriFieldTypeString",
+          "alias": "Leaflet"
+        },
+        {
+          "name": "RouteName",
+          "type": "esriFieldTypeString",
+          "alias": "RouteName"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "Difficulty",
+          "type": "esriFieldTypeString",
+          "alias": "Difficulty"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Start",
+          "type": "esriFieldTypeString",
+          "alias": "Start"
+        },
+        {
+          "name": "Area",
+          "type": "esriFieldTypeString",
+          "alias": "Area"
+        },
+        {
+          "name": "LeafletURL",
+          "type": "esriFieldTypeString",
+          "alias": "LeafletURL"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "STARTX",
+          "type": "esriFieldTypeDouble",
+          "alias": "STARTX"
+        },
+        {
+          "name": "STARTY",
+          "type": "esriFieldTypeDouble",
+          "alias": "STARTY"
+        },
+        {
+          "name": "ENDX",
+          "type": "esriFieldTypeDouble",
+          "alias": "ENDX"
+        },
+        {
+          "name": "ENDY",
+          "type": "esriFieldTypeDouble",
+          "alias": "ENDY"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "National cycle network",
+      "title": "National cycle network",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "route_numb",
+          "type": "esriFieldTypeString",
+          "alias": "route_numb"
+        },
+        {
+          "name": "Characteri",
+          "type": "esriFieldTypeDouble",
+          "alias": "Characteri"
+        },
+        {
+          "name": "On_road",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "On_road"
+        },
+        {
+          "name": "Open_statu",
+          "type": "esriFieldTypeDouble",
+          "alias": "Open_statu"
+        },
+        {
+          "name": "RouteName",
+          "type": "esriFieldTypeString",
+          "alias": "RouteName"
+        },
+        {
+          "name": "R_Type",
+          "type": "esriFieldTypeDouble",
+          "alias": "R_Type"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "GROUP_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GROUP_ID"
+        },
+        {
+          "name": "Weblink",
+          "type": "esriFieldTypeString",
+          "alias": "Weblink"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Length"
+        },
+        {
+          "name": "Length_2",
+          "type": "esriFieldTypeInteger",
+          "alias": "Length_2"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 60,
+      "name": "National Nature Reserves",
+      "title": "National Nature Reserves",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NNR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NNR_NAME"
+        },
+        {
+          "name": "NNR_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "NNR_AREA"
+        },
+        {
+          "name": "EASTING",
+          "type": "esriFieldTypeDouble",
+          "alias": "EASTING"
+        },
+        {
+          "name": "NORTHING",
+          "type": "esriFieldTypeDouble",
+          "alias": "NORTHING"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "REFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "REFERENCE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "GID",
+          "type": "esriFieldTypeDouble",
+          "alias": "GID"
+        },
+        {
+          "name": "GIS_FILE",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_FILE"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "EASTING0",
+          "type": "esriFieldTypeDouble",
+          "alias": "EASTING0"
+        },
+        {
+          "name": "NORTHING0",
+          "type": "esriFieldTypeDouble",
+          "alias": "NORTHING0"
+        },
+        {
+          "name": "GIS_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_DATE"
+        },
+        {
+          "name": "VERSION",
+          "type": "esriFieldTypeInteger",
+          "alias": "VERSION"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "ROUTE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 162,
+      "name": "OtherSites",
+      "title": "OtherSites",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "SITE",
+          "type": "esriFieldTypeString",
+          "alias": "SITE"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "ROUTEID",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTEID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 163,
+      "name": "OtherSites-TheBog",
+      "title": "OtherSites-TheBog",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 164,
+      "name": "Other Sites",
+      "title": "Other Sites",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 85,
+      "name": "Main Map Layers",
+      "title": "Main Map Layers",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 92,
+      "name": "Parks",
+      "title": "Parks",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Countryside and Heritage Sites",
+      "title": "Countryside and Heritage Sites",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Countryside and Heritage Sites",
+      "title": "Countryside and Heritage Sites",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Play Areas and Greenspaces ",
+      "title": "Play Areas and Greenspaces ",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 91,
+      "name": "Rights of Way and Other Access",
+      "title": "Rights of Way and Other Access",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Shropshire Rights of Way",
+      "title": "Shropshire Rights of Way",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 66,
+      "name": "Unclassified Roads",
+      "title": "Unclassified Roads",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 75,
+      "name": "Open Access Land",
+      "title": "Open Access Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 90,
+      "name": "Walks",
+      "title": "Walks",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 67,
+      "name": "Shropshire Way",
+      "title": "Shropshire Way",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Promoted walks",
+      "title": "Promoted walks",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Car Free Walks",
+      "title": "Car Free Walks",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Easy Access routes",
+      "title": "Easy Access routes",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Mortimer Trail",
+      "title": "Mortimer Trail",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Offas Dyke",
+      "title": "Offas Dyke",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Sandstone Trail",
+      "title": "Sandstone Trail",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Simon Evans Way",
+      "title": "Simon Evans Way",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "The Severn Way",
+      "title": "The Severn Way",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 89,
+      "name": "Rides",
+      "title": "Rides",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 160,
+      "name": "Promoted_routes",
+      "title": "Promoted_routes",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Blue Remembered Hills bridleway",
+      "title": "Blue Remembered Hills bridleway",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Humphrey Kynaston Way",
+      "title": "Humphrey Kynaston Way",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Jack Mytton Way",
+      "title": "Jack Mytton Way",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Kerry Ridgeway",
+      "title": "Kerry Ridgeway",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Sabrina Way",
+      "title": "Sabrina Way",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 88,
+      "name": "Cycling",
+      "title": "Cycling",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Cycle parking",
+      "title": "Cycle parking",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "National cycle network",
+      "title": "National cycle network",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Family friendly cycle rides",
+      "title": "Family friendly cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Bishops Castle cycle rides",
+      "title": "Bishops Castle cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Church Stretton cycle rides",
+      "title": "Church Stretton cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Cleobury Mortimer cycle rides",
+      "title": "Cleobury Mortimer cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Ellesmere cycle rides",
+      "title": "Ellesmere cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Ludlow cycle rides",
+      "title": "Ludlow cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Market Drayton cycle rides",
+      "title": "Market Drayton cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Oswestry cycle rides",
+      "title": "Oswestry cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Shrewsbury cycle rides",
+      "title": "Shrewsbury cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Wem cycle rides",
+      "title": "Wem cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Whitchurch cycle rides",
+      "title": "Whitchurch cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Shropshire Hills cycle rides",
+      "title": "Shropshire Hills cycle rides",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "All Shropshire cycleway",
+      "title": "All Shropshire cycleway",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Shropshire cycleway routes",
+      "title": "Shropshire cycleway routes",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1142,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "slug": "logis-loudoun-gov-utilities-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/Utilities/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/Utilities/MapServer",
+  "title": "Utilities",
+  "description": "Utilities including telecom towers, power lines, and stormwater infrastructure.",
+  "abstract": "Loudoun County, Virginia Utilities",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Telecom Towers",
+      "title": "Telecom Towers",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TE_SITE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "TE_SITE_NAME"
+        },
+        {
+          "name": "TE_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TE_TYPE"
+        },
+        {
+          "name": "TE_FCC",
+          "type": "esriFieldTypeString",
+          "alias": "TE_FCC"
+        },
+        {
+          "name": "TE_GE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TE_GE"
+        },
+        {
+          "name": "TE_AGL",
+          "type": "esriFieldTypeDouble",
+          "alias": "TE_AGL"
+        },
+        {
+          "name": "TE_NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "TE_NOTES"
+        },
+        {
+          "name": "TE_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CO_UPD_DATE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TE_MCPI",
+          "type": "esriFieldTypeString",
+          "alias": "TE_MCPI"
+        },
+        {
+          "name": "TE_SITEID",
+          "type": "esriFieldTypeString",
+          "alias": "TE_SITEID"
+        },
+        {
+          "name": "TE_LOC",
+          "type": "esriFieldTypeString",
+          "alias": "TE_LOC"
+        },
+        {
+          "name": "TE_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "TE_STATUS"
+        },
+        {
+          "name": "TE_SITEID_ALT",
+          "type": "esriFieldTypeString",
+          "alias": "TE_SITEID_ALT"
+        },
+        {
+          "name": "TE_ZIP",
+          "type": "esriFieldTypeString",
+          "alias": "TE_ZIP"
+        },
+        {
+          "name": "TE_TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TE_TOWN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Major Power Lines",
+      "title": "Major Power Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "MA_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MA_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "MA_VOLTAGE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Voltage (Kilovolts)"
+        },
+        {
+          "name": "MA_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "Voltage Classification"
+        },
+        {
+          "name": "MA_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Line Status"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Stormwater BMPs",
+      "title": "Stormwater BMPs",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "FCTID",
+          "type": "esriFieldTypeString",
+          "alias": "FCTID"
+        },
+        {
+          "name": "BMP_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "BMP_TYPE"
+        },
+        {
+          "name": "BMP_CARD_TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "BMP_CARD_TITLE"
+        },
+        {
+          "name": "LF_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LF_ID"
+        },
+        {
+          "name": "LF_URL",
+          "type": "esriFieldTypeString",
+          "alias": "LF_URL"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Stormwater Structures",
+      "title": "Stormwater Structures",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FCTID",
+          "type": "esriFieldTypeString",
+          "alias": "FCTID"
+        },
+        {
+          "name": "Feature",
+          "type": "esriFieldTypeString",
+          "alias": "Feature"
+        },
+        {
+          "name": "Material_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Material_Type"
+        },
+        {
+          "name": "Depth",
+          "type": "esriFieldTypeString",
+          "alias": "Depth"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Stormwater Pipes",
+      "title": "Stormwater Pipes",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FCTID",
+          "type": "esriFieldTypeString",
+          "alias": "FCTID"
+        },
+        {
+          "name": "Feature",
+          "type": "esriFieldTypeString",
+          "alias": "Feature"
+        },
+        {
+          "name": "Pipe_Diam",
+          "type": "esriFieldTypeDouble",
+          "alias": "Pipe_Diam"
+        },
+        {
+          "name": "Pipe_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Type"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 219,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

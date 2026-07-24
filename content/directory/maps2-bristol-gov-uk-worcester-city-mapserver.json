@@ -1,0 +1,529 @@
+{
+  "slug": "maps2-bristol-gov-uk-worcester-city-mapserver",
+  "service_key": "ESRI MapServer:https://maps2.bristol.gov.uk/server2/rest/services/ext/worcester_city/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.bristol.gov.uk/server2/rest/services/ext/worcester_city/MapServer",
+  "title": "worcester_city",
+  "description": "Historic environment records for Worcester City including monuments.",
+  "abstract": "Worcester City Heritage Environment Record (HER)",
+  "provider": "maps2.bristol.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Historic information",
+      "title": "Historic information",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Public Contributions",
+      "title": "Public Contributions",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Community layer",
+      "title": "Community layer",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "TITLE"
+        },
+        {
+          "name": "ASSET_TYPE_OTHER",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_TYPE_OTHER"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "ASSET_RISK",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_RISK"
+        },
+        {
+          "name": "SUBMITTER_ORG",
+          "type": "esriFieldTypeString",
+          "alias": "SUBMITTER_ORG"
+        },
+        {
+          "name": "LOCAL_LIST_NOMINATED",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_LIST_NOMINATED"
+        },
+        {
+          "name": "COPYRIGHT",
+          "type": "esriFieldTypeString",
+          "alias": "COPYRIGHT"
+        },
+        {
+          "name": "EDITION",
+          "type": "esriFieldTypeString",
+          "alias": "EDITION"
+        },
+        {
+          "name": "PUBLISH",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLISH"
+        },
+        {
+          "name": "GLOBALID",
+          "type": "esriFieldTypeString",
+          "alias": "GLOBALID"
+        },
+        {
+          "name": "CONSENT",
+          "type": "esriFieldTypeString",
+          "alias": "CONSENT"
+        },
+        {
+          "name": "VISIBLE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "VISIBLE_NAME"
+        },
+        {
+          "name": "GDPR_CONSENT",
+          "type": "esriFieldTypeString",
+          "alias": "GDPR_CONSENT"
+        },
+        {
+          "name": "LINK_URL_1",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_1"
+        },
+        {
+          "name": "LINK_TEXT_1",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_TEXT_1"
+        },
+        {
+          "name": "LINK_URL_2",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_2"
+        },
+        {
+          "name": "LINK_TEXT_2",
+          "type": "esriFieldTypeString",
+          "alias": "LINK_URL_2"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Historic Environment Record (HER)",
+      "title": "Historic Environment Record (HER)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Monuments (points)",
+      "title": "Monuments (points)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MON_UID",
+          "type": "esriFieldTypeString",
+          "alias": "MonUID"
+        },
+        {
+          "name": "PREF_REF",
+          "type": "esriFieldTypeString",
+          "alias": "PrefRef"
+        },
+        {
+          "name": "RECORD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "RecordType"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SUMMARY",
+          "type": "esriFieldTypeString",
+          "alias": "Summary"
+        },
+        {
+          "name": "PERIOD",
+          "type": "esriFieldTypeString",
+          "alias": "Period"
+        },
+        {
+          "name": "HG_URL",
+          "type": "esriFieldTypeString",
+          "alias": "HG_URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Monuments (lines)",
+      "title": "Monuments (lines)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MON_UID",
+          "type": "esriFieldTypeString",
+          "alias": "MonUID"
+        },
+        {
+          "name": "PREF_REF",
+          "type": "esriFieldTypeString",
+          "alias": "PrefRef"
+        },
+        {
+          "name": "RECORD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "RecordType"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SUMMARY",
+          "type": "esriFieldTypeString",
+          "alias": "Summary"
+        },
+        {
+          "name": "PERIOD",
+          "type": "esriFieldTypeString",
+          "alias": "Period"
+        },
+        {
+          "name": "HG_URL",
+          "type": "esriFieldTypeString",
+          "alias": "HG_URL"
+        },
+        {
+          "name": "ESRI_OID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ESRI_OID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Monuments (polygons)",
+      "title": "Monuments (polygons)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MON_UID",
+          "type": "esriFieldTypeString",
+          "alias": "MonUID"
+        },
+        {
+          "name": "PREF_REF",
+          "type": "esriFieldTypeString",
+          "alias": "PrefRef"
+        },
+        {
+          "name": "RECORD_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "RecordType"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SUMMARY",
+          "type": "esriFieldTypeString",
+          "alias": "Summary"
+        },
+        {
+          "name": "PERIOD",
+          "type": "esriFieldTypeString",
+          "alias": "Period"
+        },
+        {
+          "name": "HG_URL",
+          "type": "esriFieldTypeString",
+          "alias": "HG_URL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Boundaries",
+      "title": "Boundaries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Worcester City",
+      "title": "Worcester City",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Other Collections",
+      "title": "Other Collections",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Photographs",
+      "title": "Photographs",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "FILENAME",
+          "type": "esriFieldTypeString",
+          "alias": "FILE"
+        },
+        {
+          "name": "DATE_AVAILABLE",
+          "type": "esriFieldTypeString",
+          "alias": "DATE_AVAILABLE"
+        },
+        {
+          "name": "DATE_CREATED",
+          "type": "esriFieldTypeString",
+          "alias": "DATE_CREATED"
+        },
+        {
+          "name": "TITLE",
+          "type": "esriFieldTypeString",
+          "alias": "TITLE"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Historic Building Applications 1865-1948",
+      "title": "Historic Building Applications 1865-1948",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APP_NO",
+          "type": "esriFieldTypeString",
+          "alias": "Application No"
+        },
+        {
+          "name": "LOCAL_BOARD",
+          "type": "esriFieldTypeString",
+          "alias": "Local Board"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "OUTCOME",
+          "type": "esriFieldTypeString",
+          "alias": "Outcome"
+        },
+        {
+          "name": "APP_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "Date"
+        },
+        {
+          "name": "DIGITAL_COPY",
+          "type": "esriFieldTypeString",
+          "alias": "Digital Copy"
+        },
+        {
+          "name": "ARCHITECT",
+          "type": "esriFieldTypeString",
+          "alias": "Architect"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 290,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

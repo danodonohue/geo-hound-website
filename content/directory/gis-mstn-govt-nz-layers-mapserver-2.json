@@ -1,0 +1,210 @@
+{
+  "slug": "gis-mstn-govt-nz-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Parcels/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.mstn.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Parcels/MapServer",
+  "title": "Layers",
+  "description": "GIS service providing parcels data.",
+  "abstract": "Parcels for the Wairarapa councils.",
+  "provider": "gis.mstn.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 1,
+      "name": "Legal Description",
+      "title": "Legal Description",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "parcel_intent"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeString",
+          "alias": "calc_area"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeString",
+          "alias": "survey_area"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Parcel",
+      "title": "Parcel",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "parcel_intent",
+          "type": "esriFieldTypeString",
+          "alias": "PARCEL_INTENT"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "appellation",
+          "type": "esriFieldTypeString",
+          "alias": "appellation"
+        },
+        {
+          "name": "affected_surveys",
+          "type": "esriFieldTypeString",
+          "alias": "affected_surveys"
+        },
+        {
+          "name": "statutory_actions",
+          "type": "esriFieldTypeString",
+          "alias": "statutory_actions"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "land_district"
+        },
+        {
+          "name": "titles",
+          "type": "esriFieldTypeString",
+          "alias": "titles"
+        },
+        {
+          "name": "topology_type",
+          "type": "esriFieldTypeString",
+          "alias": "topology_type"
+        },
+        {
+          "name": "calc_area",
+          "type": "esriFieldTypeString",
+          "alias": "calc_area"
+        },
+        {
+          "name": "survey_area",
+          "type": "esriFieldTypeString",
+          "alias": "survey_area"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 200,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

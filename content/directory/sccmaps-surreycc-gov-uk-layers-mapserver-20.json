@@ -1,0 +1,135 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-20",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_SheduledMon/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_SheduledMon/MapServer",
+  "title": "Layers",
+  "description": "Scheduled monuments, nationally protected historic sites of importance.",
+  "abstract": "Layers associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 19,
+      "name": "Heritage - Scheduled Monument",
+      "title": "Heritage - Scheduled Monument",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SchedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Sched Date"
+        },
+        {
+          "name": "AmendDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Amend Date"
+        },
+        {
+          "name": "NGR",
+          "type": "esriFieldTypeString",
+          "alias": "NGR"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "area_ha",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (ha)"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CaptureScale",
+          "type": "esriFieldTypeString",
+          "alias": "CaptureScale"
+        },
+        {
+          "name": "ListEntry",
+          "type": "esriFieldTypeInteger",
+          "alias": "List entry number"
+        },
+        {
+          "name": "hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "NHLE link"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 305,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "john-gibson-layers-mapserver",
+  "service_key": "ESRI MapServer:https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Tsunami_related_sites/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Tsunami_related_sites/MapServer",
+  "title": "Layers",
+  "description": "Tsunami road closure locations for emergency response in Greater Wellington.",
+  "abstract": "Road closure locations in the event of a distant source tsunami. Specified in a MOU between WREMO, NZTA & TAs in Jan 2016.",
+  "provider": "John Gibson",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Tsunami roadblock locations",
+      "title": "Tsunami roadblock locations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "FID",
+          "type": "esriFieldTypeOID",
+          "alias": "FID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "SiteID",
+          "type": "esriFieldTypeString",
+          "alias": "SiteID"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Agency",
+          "type": "esriFieldTypeString",
+          "alias": "Agency"
+        },
+        {
+          "name": "Site_Locn",
+          "type": "esriFieldTypeString",
+          "alias": "Site_Locn"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 20,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

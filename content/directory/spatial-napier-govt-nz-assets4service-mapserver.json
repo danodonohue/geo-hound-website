@@ -1,0 +1,1966 @@
+{
+  "slug": "spatial-napier-govt-nz-assets4service-mapserver",
+  "service_key": "ESRI MapServer:https://spatial.napier.govt.nz/server/rest/services/NapierMaps/Assets/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://spatial.napier.govt.nz/server/rest/services/NapierMaps/Assets/MapServer",
+  "title": "Assets4Service",
+  "description": "GIS service providing roads, parcels, recreation data.",
+  "abstract": "All NCC overground asset layers.",
+  "provider": "spatial.napier.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Napier",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 69,
+      "name": "Bench",
+      "title": "Bench",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "gm_layer",
+          "type": "esriFieldTypeString",
+          "alias": "gm_layer"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "version",
+          "type": "esriFieldTypeInteger",
+          "alias": "version"
+        },
+        {
+          "name": "leisure",
+          "type": "esriFieldTypeString",
+          "alias": "leisure"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "sport",
+          "type": "esriFieldTypeString",
+          "alias": "sport"
+        },
+        {
+          "name": "building",
+          "type": "esriFieldTypeString",
+          "alias": "building"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "source"
+        },
+        {
+          "name": "tourism",
+          "type": "esriFieldTypeString",
+          "alias": "tourism"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "amenity",
+          "type": "esriFieldTypeString",
+          "alias": "amenity"
+        },
+        {
+          "name": "attribution",
+          "type": "esriFieldTypeString",
+          "alias": "attribution"
+        },
+        {
+          "name": "linz_layer",
+          "type": "esriFieldTypeString",
+          "alias": "linz_layer"
+        },
+        {
+          "name": "linz_source_version",
+          "type": "esriFieldTypeString",
+          "alias": "linz_source_version"
+        },
+        {
+          "name": "source_ref",
+          "type": "esriFieldTypeString",
+          "alias": "source_ref"
+        },
+        {
+          "name": "end_date",
+          "type": "esriFieldTypeInteger",
+          "alias": "end_date"
+        },
+        {
+          "name": "landuse",
+          "type": "esriFieldTypeString",
+          "alias": "landuse"
+        },
+        {
+          "name": "start_date",
+          "type": "esriFieldTypeInteger",
+          "alias": "start_date"
+        },
+        {
+          "name": "natural",
+          "type": "esriFieldTypeString",
+          "alias": "natural"
+        },
+        {
+          "name": "artwork_type",
+          "type": "esriFieldTypeString",
+          "alias": "artwork_type"
+        },
+        {
+          "name": "building_date",
+          "type": "esriFieldTypeInteger",
+          "alias": "building_date"
+        },
+        {
+          "name": "waterway",
+          "type": "esriFieldTypeString",
+          "alias": "waterway"
+        },
+        {
+          "name": "surface",
+          "type": "esriFieldTypeString",
+          "alias": "surface"
+        },
+        {
+          "name": "highway",
+          "type": "esriFieldTypeString",
+          "alias": "highway"
+        },
+        {
+          "name": "oneway",
+          "type": "esriFieldTypeString",
+          "alias": "oneway"
+        },
+        {
+          "name": "barrier",
+          "type": "esriFieldTypeString",
+          "alias": "barrier"
+        },
+        {
+          "name": "barrier_type",
+          "type": "esriFieldTypeString",
+          "alias": "barrier_type"
+        },
+        {
+          "name": "bicycle",
+          "type": "esriFieldTypeString",
+          "alias": "bicycle"
+        },
+        {
+          "name": "lit",
+          "type": "esriFieldTypeString",
+          "alias": "lit"
+        },
+        {
+          "name": "maxspeed",
+          "type": "esriFieldTypeInteger",
+          "alias": "maxspeed"
+        },
+        {
+          "name": "service",
+          "type": "esriFieldTypeString",
+          "alias": "service"
+        },
+        {
+          "name": "ref",
+          "type": "esriFieldTypeInteger",
+          "alias": "ref"
+        },
+        {
+          "name": "bridge",
+          "type": "esriFieldTypeString",
+          "alias": "bridge"
+        },
+        {
+          "name": "junction",
+          "type": "esriFieldTypeString",
+          "alias": "junction"
+        },
+        {
+          "name": "noexit",
+          "type": "esriFieldTypeString",
+          "alias": "noexit"
+        },
+        {
+          "name": "cycleway_left",
+          "type": "esriFieldTypeString",
+          "alias": "cycleway_left"
+        },
+        {
+          "name": "cycleway_right",
+          "type": "esriFieldTypeString",
+          "alias": "cycleway_right"
+        },
+        {
+          "name": "access",
+          "type": "esriFieldTypeString",
+          "alias": "access"
+        },
+        {
+          "name": "lanes",
+          "type": "esriFieldTypeInteger",
+          "alias": "lanes"
+        },
+        {
+          "name": "electrified",
+          "type": "esriFieldTypeString",
+          "alias": "electrified"
+        },
+        {
+          "name": "gauge",
+          "type": "esriFieldTypeInteger",
+          "alias": "gauge"
+        },
+        {
+          "name": "railway",
+          "type": "esriFieldTypeString",
+          "alias": "railway"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "grade"
+        },
+        {
+          "name": "layer",
+          "type": "esriFieldTypeInteger",
+          "alias": "layer"
+        },
+        {
+          "name": "tunnel",
+          "type": "esriFieldTypeString",
+          "alias": "tunnel"
+        },
+        {
+          "name": "is_in",
+          "type": "esriFieldTypeString",
+          "alias": "is_in"
+        },
+        {
+          "name": "is_in_country",
+          "type": "esriFieldTypeString",
+          "alias": "is_in_country"
+        },
+        {
+          "name": "is_in_country_code",
+          "type": "esriFieldTypeString",
+          "alias": "is_in_country_code"
+        },
+        {
+          "name": "is_in_ocean",
+          "type": "esriFieldTypeString",
+          "alias": "is_in_ocean"
+        },
+        {
+          "name": "place",
+          "type": "esriFieldTypeString",
+          "alias": "place"
+        },
+        {
+          "name": "operator",
+          "type": "esriFieldTypeString",
+          "alias": "operator"
+        },
+        {
+          "name": "shop",
+          "type": "esriFieldTypeString",
+          "alias": "shop"
+        },
+        {
+          "name": "barrier_arms",
+          "type": "esriFieldTypeString",
+          "alias": "barrier_arms"
+        },
+        {
+          "name": "lights",
+          "type": "esriFieldTypeString",
+          "alias": "lights"
+        },
+        {
+          "name": "sports_club",
+          "type": "esriFieldTypeString",
+          "alias": "sports_club"
+        },
+        {
+          "name": "cuisine",
+          "type": "esriFieldTypeString",
+          "alias": "cuisine"
+        },
+        {
+          "name": "traffic_calming",
+          "type": "esriFieldTypeString",
+          "alias": "traffic_calming"
+        },
+        {
+          "name": "power",
+          "type": "esriFieldTypeString",
+          "alias": "power"
+        },
+        {
+          "name": "genus",
+          "type": "esriFieldTypeString",
+          "alias": "genus"
+        },
+        {
+          "name": "species",
+          "type": "esriFieldTypeString",
+          "alias": "species"
+        },
+        {
+          "name": "waste_basket",
+          "type": "esriFieldTypeString",
+          "alias": "waste_basket"
+        },
+        {
+          "name": "bicycle_parking",
+          "type": "esriFieldTypeString",
+          "alias": "bicycle_parking"
+        },
+        {
+          "name": "display",
+          "type": "esriFieldTypeString",
+          "alias": "display"
+        },
+        {
+          "name": "shelter",
+          "type": "esriFieldTypeString",
+          "alias": "shelter"
+        },
+        {
+          "name": "support",
+          "type": "esriFieldTypeString",
+          "alias": "support"
+        },
+        {
+          "name": "historic",
+          "type": "esriFieldTypeString",
+          "alias": "historic"
+        },
+        {
+          "name": "waste",
+          "type": "esriFieldTypeString",
+          "alias": "waste"
+        },
+        {
+          "name": "backrest",
+          "type": "esriFieldTypeString",
+          "alias": "backrest"
+        },
+        {
+          "name": "rental",
+          "type": "esriFieldTypeString",
+          "alias": "rental"
+        },
+        {
+          "name": "bunker_type",
+          "type": "esriFieldTypeString",
+          "alias": "bunker_type"
+        },
+        {
+          "name": "military",
+          "type": "esriFieldTypeString",
+          "alias": "military"
+        },
+        {
+          "name": "waste_type",
+          "type": "esriFieldTypeString",
+          "alias": "waste_type"
+        },
+        {
+          "name": "linz_point_size",
+          "type": "esriFieldTypeInteger",
+          "alias": "linz_point_size"
+        },
+        {
+          "name": "linz_size",
+          "type": "esriFieldTypeDouble",
+          "alias": "linz_size"
+        },
+        {
+          "name": "linz_text_placement_justificati",
+          "type": "esriFieldTypeInteger",
+          "alias": "linz_text_placement_justificati"
+        },
+        {
+          "name": "linz_x_offset",
+          "type": "esriFieldTypeDouble",
+          "alias": "linz_x_offset"
+        },
+        {
+          "name": "linz_y_offset",
+          "type": "esriFieldTypeDouble",
+          "alias": "linz_y_offset"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Public Toilets",
+      "title": "Public Toilets",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ASSET_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset ID"
+        },
+        {
+          "name": "ASSET_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Sector Type"
+        },
+        {
+          "name": "SECTOR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Sector Name"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "RESPONSIBILITY",
+          "type": "esriFieldTypeString",
+          "alias": "Responsibility"
+        },
+        {
+          "name": "SERVICE_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Service Status"
+        },
+        {
+          "name": "OPENING_HOURS",
+          "type": "esriFieldTypeString",
+          "alias": "OPENING_HOURS"
+        },
+        {
+          "name": "ACCESSIBILITY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCESSIBILITY"
+        },
+        {
+          "name": "BABY_CHANGE_TABLE",
+          "type": "esriFieldTypeString",
+          "alias": "BABY_CHANGE_TABLE"
+        },
+        {
+          "name": "CLEANING_SCHEDULE",
+          "type": "esriFieldTypeString",
+          "alias": "CLEANING_SCHEDULE"
+        },
+        {
+          "name": "NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "SRCE_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Source Reference"
+        },
+        {
+          "name": "GEO_X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "GEO_Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "GEO_Z",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z"
+        },
+        {
+          "name": "CREATEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDATE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "UPDATEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "UPDATEDATE"
+        },
+        {
+          "name": "UPDATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "UPDATEDBY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 75,
+      "name": "Bus Stops",
+      "title": "Bus Stops",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "system_id",
+          "type": "esriFieldTypeString",
+          "alias": "system_id"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "location"
+        },
+        {
+          "name": "road_id",
+          "type": "esriFieldTypeString",
+          "alias": "road_id"
+        },
+        {
+          "name": "external_id",
+          "type": "esriFieldTypeString",
+          "alias": "external_id"
+        },
+        {
+          "name": "shelter",
+          "type": "esriFieldTypeString",
+          "alias": "shelter"
+        },
+        {
+          "name": "seat",
+          "type": "esriFieldTypeString",
+          "alias": "seat"
+        },
+        {
+          "name": "sign",
+          "type": "esriFieldTypeString",
+          "alias": "sign"
+        },
+        {
+          "name": "road_mark",
+          "type": "esriFieldTypeString",
+          "alias": "road_mark"
+        },
+        {
+          "name": "timetable",
+          "type": "esriFieldTypeString",
+          "alias": "timetable"
+        },
+        {
+          "name": "route_10",
+          "type": "esriFieldTypeString",
+          "alias": "route_10"
+        },
+        {
+          "name": "route_11",
+          "type": "esriFieldTypeString",
+          "alias": "route_11"
+        },
+        {
+          "name": "route_12",
+          "type": "esriFieldTypeString",
+          "alias": "route_12"
+        },
+        {
+          "name": "route_13",
+          "type": "esriFieldTypeString",
+          "alias": "route_13"
+        },
+        {
+          "name": "route_14",
+          "type": "esriFieldTypeString",
+          "alias": "route_14"
+        },
+        {
+          "name": "route_15",
+          "type": "esriFieldTypeString",
+          "alias": "route_15"
+        },
+        {
+          "name": "shelter_type",
+          "type": "esriFieldTypeString",
+          "alias": "shelter_type"
+        },
+        {
+          "name": "route_16a",
+          "type": "esriFieldTypeString",
+          "alias": "route_16a"
+        },
+        {
+          "name": "route_16b",
+          "type": "esriFieldTypeString",
+          "alias": "route_16b"
+        },
+        {
+          "name": "route_17",
+          "type": "esriFieldTypeString",
+          "alias": "route_17"
+        },
+        {
+          "name": "route_20",
+          "type": "esriFieldTypeString",
+          "alias": "route_20"
+        },
+        {
+          "name": "route_21",
+          "type": "esriFieldTypeString",
+          "alias": "route_21"
+        },
+        {
+          "name": "route_10h",
+          "type": "esriFieldTypeString",
+          "alias": "route_10h"
+        },
+        {
+          "name": "route_11h",
+          "type": "esriFieldTypeString",
+          "alias": "route_11h"
+        },
+        {
+          "name": "route_12h",
+          "type": "esriFieldTypeString",
+          "alias": "route_12h"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "id"
+        },
+        {
+          "name": "is_converted",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "is_converted"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Taxi Stands",
+      "title": "Taxi Stands",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Swimming Beaches",
+      "title": "Swimming Beaches",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Playground Center Points",
+      "title": "Playground Center Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SiteId",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiteId"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Dump Station",
+      "title": "Dump Station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "accuracy"
+        },
+        {
+          "name": "address",
+          "type": "esriFieldTypeString",
+          "alias": "address"
+        },
+        {
+          "name": "createdby",
+          "type": "esriFieldTypeString",
+          "alias": "Created_By"
+        },
+        {
+          "name": "description",
+          "type": "esriFieldTypeString",
+          "alias": "description"
+        },
+        {
+          "name": "map_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "map_id"
+        },
+        {
+          "name": "source_type",
+          "type": "esriFieldTypeDouble",
+          "alias": "source_type"
+        },
+        {
+          "name": "updatedby",
+          "type": "esriFieldTypeString",
+          "alias": "Updated_By"
+        },
+        {
+          "name": "xfm_id",
+          "type": "esriFieldTypeString",
+          "alias": "xfm_id"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Bins and Drum Locations",
+      "title": "Bins and Drum Locations",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "photo",
+          "type": "esriFieldTypeString",
+          "alias": "photo"
+        },
+        {
+          "name": "container_type",
+          "type": "esriFieldTypeDouble",
+          "alias": "container_type"
+        },
+        {
+          "name": "createdby",
+          "type": "esriFieldTypeString",
+          "alias": "createdby"
+        },
+        {
+          "name": "map_id",
+          "type": "esriFieldTypeString",
+          "alias": "map_id"
+        },
+        {
+          "name": "source_ref",
+          "type": "esriFieldTypeString",
+          "alias": "source_ref"
+        },
+        {
+          "name": "source_type",
+          "type": "esriFieldTypeDouble",
+          "alias": "source_type"
+        },
+        {
+          "name": "sufi",
+          "type": "esriFieldTypeDouble",
+          "alias": "sufi"
+        },
+        {
+          "name": "updatedby",
+          "type": "esriFieldTypeString",
+          "alias": "updatedby"
+        },
+        {
+          "name": "notes",
+          "type": "esriFieldTypeString",
+          "alias": "notes"
+        },
+        {
+          "name": "cost_centre",
+          "type": "esriFieldTypeString",
+          "alias": "cost_centre"
+        },
+        {
+          "name": "geo_x",
+          "type": "esriFieldTypeDouble",
+          "alias": "geo_x"
+        },
+        {
+          "name": "geo_y",
+          "type": "esriFieldTypeDouble",
+          "alias": "geo_y"
+        },
+        {
+          "name": "collection_high",
+          "type": "esriFieldTypeString",
+          "alias": "collection_high"
+        },
+        {
+          "name": "collection_low",
+          "type": "esriFieldTypeString",
+          "alias": "collection_low"
+        },
+        {
+          "name": "xfm_id",
+          "type": "esriFieldTypeString",
+          "alias": "xfm_id"
+        },
+        {
+          "name": "a_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "a_accuracy"
+        },
+        {
+          "name": "h_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "h_accuracy"
+        },
+        {
+          "name": "v_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "v_accuracy"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Protected Trees",
+      "title": "Protected Trees",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "accuracy"
+        },
+        {
+          "name": "common_name",
+          "type": "esriFieldTypeString",
+          "alias": "common_name"
+        },
+        {
+          "name": "createdby",
+          "type": "esriFieldTypeString",
+          "alias": "Created_By"
+        },
+        {
+          "name": "genus_name",
+          "type": "esriFieldTypeString",
+          "alias": "genus_name"
+        },
+        {
+          "name": "hblc_easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "HBTM_Easting"
+        },
+        {
+          "name": "hblc_northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "HBTM_Northing"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "location"
+        },
+        {
+          "name": "source_ref",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "source_type",
+          "type": "esriFieldTypeDouble",
+          "alias": "source_type"
+        },
+        {
+          "name": "updatedby",
+          "type": "esriFieldTypeString",
+          "alias": "Updated_By"
+        },
+        {
+          "name": "xfm_id",
+          "type": "esriFieldTypeString",
+          "alias": "xfm_id"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Fountains",
+      "title": "Fountains",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 76,
+      "name": "Ballot Boxes",
+      "title": "Ballot Boxes",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Open_",
+          "type": "esriFieldTypeString",
+          "alias": "Open"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Bins",
+      "title": "Bins",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "accuracy"
+        },
+        {
+          "name": "a_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "a_accuracy"
+        },
+        {
+          "name": "v_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "v_accuracy"
+        },
+        {
+          "name": "h_accuracy",
+          "type": "esriFieldTypeDouble",
+          "alias": "h_accuracy"
+        },
+        {
+          "name": "collection_high",
+          "type": "esriFieldTypeDouble",
+          "alias": "collection_high"
+        },
+        {
+          "name": "collection_low",
+          "type": "esriFieldTypeDouble",
+          "alias": "collection_low"
+        },
+        {
+          "name": "container_type",
+          "type": "esriFieldTypeString",
+          "alias": "container_type"
+        },
+        {
+          "name": "createdby",
+          "type": "esriFieldTypeString",
+          "alias": "createdby"
+        },
+        {
+          "name": "displayed_no",
+          "type": "esriFieldTypeString",
+          "alias": "displayed_no"
+        },
+        {
+          "name": "existing",
+          "type": "esriFieldTypeDouble",
+          "alias": "existing"
+        },
+        {
+          "name": "map_id",
+          "type": "esriFieldTypeString",
+          "alias": "map_id"
+        },
+        {
+          "name": "source_ref",
+          "type": "esriFieldTypeString",
+          "alias": "source_ref"
+        },
+        {
+          "name": "source_type",
+          "type": "esriFieldTypeDouble",
+          "alias": "source_type"
+        },
+        {
+          "name": "sufi",
+          "type": "esriFieldTypeDouble",
+          "alias": "sufi"
+        },
+        {
+          "name": "updatedby",
+          "type": "esriFieldTypeString",
+          "alias": "updatedby"
+        },
+        {
+          "name": "xfm_id",
+          "type": "esriFieldTypeString",
+          "alias": "xfm_id"
+        },
+        {
+          "name": "bin_type",
+          "type": "esriFieldTypeString",
+          "alias": "bin_type"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Churches",
+      "title": "Churches",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "ID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Footpath",
+      "title": "Footpath",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "gm_layer",
+          "type": "esriFieldTypeString",
+          "alias": "gm_layer"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "version",
+          "type": "esriFieldTypeInteger",
+          "alias": "version"
+        },
+        {
+          "name": "leisure",
+          "type": "esriFieldTypeString",
+          "alias": "leisure"
+        },
+        {
+          "name": "name",
+          "type": "esriFieldTypeString",
+          "alias": "name"
+        },
+        {
+          "name": "sport",
+          "type": "esriFieldTypeString",
+          "alias": "sport"
+        },
+        {
+          "name": "building",
+          "type": "esriFieldTypeString",
+          "alias": "building"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "source"
+        },
+        {
+          "name": "tourism",
+          "type": "esriFieldTypeString",
+          "alias": "tourism"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "amenity",
+          "type": "esriFieldTypeString",
+          "alias": "amenity"
+        },
+        {
+          "name": "attribution",
+          "type": "esriFieldTypeString",
+          "alias": "attribution"
+        },
+        {
+          "name": "linz_layer",
+          "type": "esriFieldTypeString",
+          "alias": "linz_layer"
+        },
+        {
+          "name": "linz_source_version",
+          "type": "esriFieldTypeString",
+          "alias": "linz_source_version"
+        },
+        {
+          "name": "source_ref",
+          "type": "esriFieldTypeString",
+          "alias": "source_ref"
+        },
+        {
+          "name": "end_date",
+          "type": "esriFieldTypeInteger",
+          "alias": "end_date"
+        },
+        {
+          "name": "landuse",
+          "type": "esriFieldTypeString",
+          "alias": "landuse"
+        },
+        {
+          "name": "start_date",
+          "type": "esriFieldTypeInteger",
+          "alias": "start_date"
+        },
+        {
+          "name": "natural",
+          "type": "esriFieldTypeString",
+          "alias": "natural"
+        },
+        {
+          "name": "artwork_type",
+          "type": "esriFieldTypeString",
+          "alias": "artwork_type"
+        },
+        {
+          "name": "building_date",
+          "type": "esriFieldTypeInteger",
+          "alias": "building_date"
+        },
+        {
+          "name": "waterway",
+          "type": "esriFieldTypeString",
+          "alias": "waterway"
+        },
+        {
+          "name": "surface",
+          "type": "esriFieldTypeString",
+          "alias": "surface"
+        },
+        {
+          "name": "highway",
+          "type": "esriFieldTypeString",
+          "alias": "highway"
+        },
+        {
+          "name": "oneway",
+          "type": "esriFieldTypeString",
+          "alias": "oneway"
+        },
+        {
+          "name": "barrier",
+          "type": "esriFieldTypeString",
+          "alias": "barrier"
+        },
+        {
+          "name": "barrier_type",
+          "type": "esriFieldTypeString",
+          "alias": "barrier_type"
+        },
+        {
+          "name": "bicycle",
+          "type": "esriFieldTypeString",
+          "alias": "bicycle"
+        },
+        {
+          "name": "lit",
+          "type": "esriFieldTypeString",
+          "alias": "lit"
+        },
+        {
+          "name": "maxspeed",
+          "type": "esriFieldTypeInteger",
+          "alias": "maxspeed"
+        },
+        {
+          "name": "service",
+          "type": "esriFieldTypeString",
+          "alias": "service"
+        },
+        {
+          "name": "ref",
+          "type": "esriFieldTypeInteger",
+          "alias": "ref"
+        },
+        {
+          "name": "bridge",
+          "type": "esriFieldTypeString",
+          "alias": "bridge"
+        },
+        {
+          "name": "junction",
+          "type": "esriFieldTypeString",
+          "alias": "junction"
+        },
+        {
+          "name": "noexit",
+          "type": "esriFieldTypeString",
+          "alias": "noexit"
+        },
+        {
+          "name": "cycleway_left",
+          "type": "esriFieldTypeString",
+          "alias": "cycleway_left"
+        },
+        {
+          "name": "cycleway_right",
+          "type": "esriFieldTypeString",
+          "alias": "cycleway_right"
+        },
+        {
+          "name": "access",
+          "type": "esriFieldTypeString",
+          "alias": "access"
+        },
+        {
+          "name": "lanes",
+          "type": "esriFieldTypeInteger",
+          "alias": "lanes"
+        },
+        {
+          "name": "electrified",
+          "type": "esriFieldTypeString",
+          "alias": "electrified"
+        },
+        {
+          "name": "gauge",
+          "type": "esriFieldTypeInteger",
+          "alias": "gauge"
+        },
+        {
+          "name": "railway",
+          "type": "esriFieldTypeString",
+          "alias": "railway"
+        },
+        {
+          "name": "usage",
+          "type": "esriFieldTypeString",
+          "alias": "usage"
+        },
+        {
+          "name": "grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "grade"
+        },
+        {
+          "name": "layer",
+          "type": "esriFieldTypeInteger",
+          "alias": "layer"
+        },
+        {
+          "name": "tunnel",
+          "type": "esriFieldTypeString",
+          "alias": "tunnel"
+        },
+        {
+          "name": "is_in",
+          "type": "esriFieldTypeString",
+          "alias": "is_in"
+        },
+        {
+          "name": "is_in_country",
+          "type": "esriFieldTypeString",
+          "alias": "is_in_country"
+        },
+        {
+          "name": "is_in_country_code",
+          "type": "esriFieldTypeString",
+          "alias": "is_in_country_code"
+        },
+        {
+          "name": "is_in_ocean",
+          "type": "esriFieldTypeString",
+          "alias": "is_in_ocean"
+        },
+        {
+          "name": "place",
+          "type": "esriFieldTypeString",
+          "alias": "place"
+        },
+        {
+          "name": "operator",
+          "type": "esriFieldTypeString",
+          "alias": "operator"
+        },
+        {
+          "name": "shop",
+          "type": "esriFieldTypeString",
+          "alias": "shop"
+        },
+        {
+          "name": "barrier_arms",
+          "type": "esriFieldTypeString",
+          "alias": "barrier_arms"
+        },
+        {
+          "name": "lights",
+          "type": "esriFieldTypeString",
+          "alias": "lights"
+        },
+        {
+          "name": "sports_club",
+          "type": "esriFieldTypeString",
+          "alias": "sports_club"
+        },
+        {
+          "name": "cuisine",
+          "type": "esriFieldTypeString",
+          "alias": "cuisine"
+        },
+        {
+          "name": "traffic_calming",
+          "type": "esriFieldTypeString",
+          "alias": "traffic_calming"
+        },
+        {
+          "name": "power",
+          "type": "esriFieldTypeString",
+          "alias": "power"
+        },
+        {
+          "name": "genus",
+          "type": "esriFieldTypeString",
+          "alias": "genus"
+        },
+        {
+          "name": "species",
+          "type": "esriFieldTypeString",
+          "alias": "species"
+        },
+        {
+          "name": "waste_basket",
+          "type": "esriFieldTypeString",
+          "alias": "waste_basket"
+        },
+        {
+          "name": "bicycle_parking",
+          "type": "esriFieldTypeString",
+          "alias": "bicycle_parking"
+        },
+        {
+          "name": "display",
+          "type": "esriFieldTypeString",
+          "alias": "display"
+        },
+        {
+          "name": "shelter",
+          "type": "esriFieldTypeString",
+          "alias": "shelter"
+        },
+        {
+          "name": "support",
+          "type": "esriFieldTypeString",
+          "alias": "support"
+        },
+        {
+          "name": "historic",
+          "type": "esriFieldTypeString",
+          "alias": "historic"
+        },
+        {
+          "name": "waste",
+          "type": "esriFieldTypeString",
+          "alias": "waste"
+        },
+        {
+          "name": "backrest",
+          "type": "esriFieldTypeString",
+          "alias": "backrest"
+        },
+        {
+          "name": "rental",
+          "type": "esriFieldTypeString",
+          "alias": "rental"
+        },
+        {
+          "name": "bunker_type",
+          "type": "esriFieldTypeString",
+          "alias": "bunker_type"
+        },
+        {
+          "name": "military",
+          "type": "esriFieldTypeString",
+          "alias": "military"
+        },
+        {
+          "name": "waste_type",
+          "type": "esriFieldTypeString",
+          "alias": "waste_type"
+        },
+        {
+          "name": "linz_point_size",
+          "type": "esriFieldTypeInteger",
+          "alias": "linz_point_size"
+        },
+        {
+          "name": "linz_size",
+          "type": "esriFieldTypeDouble",
+          "alias": "linz_size"
+        },
+        {
+          "name": "linz_text_placement_justificati",
+          "type": "esriFieldTypeInteger",
+          "alias": "linz_text_placement_justificati"
+        },
+        {
+          "name": "linz_x_offset",
+          "type": "esriFieldTypeDouble",
+          "alias": "linz_x_offset"
+        },
+        {
+          "name": "linz_y_offset",
+          "type": "esriFieldTypeDouble",
+          "alias": "linz_y_offset"
+        },
+        {
+          "name": "STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "STLength()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Proposed Pathways",
+      "title": "Proposed Pathways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeInteger",
+          "alias": "id"
+        },
+        {
+          "name": "STLength__",
+          "type": "esriFieldTypeDouble",
+          "alias": "STLength()"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Accessways",
+      "title": "Accessways",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Walkways",
+      "title": "Walkways",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Tracks",
+      "title": "Tracks",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "iWays",
+      "title": "iWays",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Resthomes & Retirement Villages",
+      "title": "Resthomes & Retirement Villages",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 78,
+      "name": "Road Hierarchy",
+      "title": "Road Hierarchy",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 79,
+      "name": "Roads ONF Street Category",
+      "title": "Roads ONF Street Category",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 68,
+      "name": "HPMV Routes",
+      "title": "HPMV Routes",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "CCTV Locations",
+      "title": "CCTV Locations",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 63,
+      "name": "NCC Owned Land",
+      "title": "NCC Owned Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "NCS Assets by Business Unit",
+      "title": "NCS Assets by Business Unit",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "NCS Assets by Class",
+      "title": "NCS Assets by Class",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 66,
+      "name": "Napier Building Outlines",
+      "title": "Napier Building Outlines",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Playgrounds",
+      "title": "Playgrounds",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Parks and Reserves (Parcel)",
+      "title": "Parks and Reserves (Parcel)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Parks and Reserves (Combined)",
+      "title": "Parks and Reserves (Combined)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Archaeological Risk Areas",
+      "title": "Archaeological Risk Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Liquor Ban Areas",
+      "title": "Liquor Ban Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 70,
+      "name": "Dog Disposal",
+      "title": "Dog Disposal",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 64,
+      "name": "Dog Exercise Area",
+      "title": "Dog Exercise Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Recycling",
+      "title": "Recycling",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Refuse",
+      "title": "Refuse",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Recycling2Web",
+      "title": "Recycling2Web",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Refuse2Web",
+      "title": "Refuse2Web",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Urban Fire Bylaw Boundary",
+      "title": "Urban Fire Bylaw Boundary",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 60,
+      "name": "NCC_Evacuation_Routes",
+      "title": "NCC_Evacuation_Routes",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "NCC Staff Evacuation Points",
+      "title": "NCC Staff Evacuation Points",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "NCC Staff Evacuation Routes",
+      "title": "NCC Staff Evacuation Routes",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Evacuation Routes Arrow",
+      "title": "Evacuation Routes Arrow",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 61,
+      "name": "Wufoo_Booking_Data",
+      "title": "Wufoo_Booking_Data",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "Park Booking Points",
+      "title": "Park Booking Points",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "Park Booking Polygons",
+      "title": "Park Booking Polygons",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 183,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

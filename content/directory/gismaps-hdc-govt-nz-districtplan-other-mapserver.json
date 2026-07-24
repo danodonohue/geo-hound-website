@@ -1,0 +1,610 @@
+{
+  "slug": "gismaps-hdc-govt-nz-districtplan-other-mapserver",
+  "service_key": "ESRI MapServer:https://gismaps.hdc.govt.nz/server/rest/services/DistrictPlan/DistrictPlan_Other/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gismaps.hdc.govt.nz/server/rest/services/DistrictPlan/DistrictPlan_Other/MapServer",
+  "title": "DistrictPlan_Other",
+  "description": "District planning layers including structure plans and heritage designations.",
+  "abstract": "District Plan - Other Layers. Includes Iona Neighbourhood Areas and Current Appeals. Used in E-Plan application.",
+  "provider": "gismaps.hdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Iona Structure Plan Neighbourhoods",
+      "title": "Iona Structure Plan Neighbourhoods",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Appendix 27 - Comprehensive Residential Development",
+      "title": "Appendix 27 - Comprehensive Residential Development",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "Development",
+          "type": "esriFieldTypeString",
+          "alias": "Development"
+        },
+        {
+          "name": "AppendixNumber",
+          "type": "esriFieldTypeString",
+          "alias": "AppendixNumber"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Statutory Acknowledgement - Points",
+      "title": "Statutory Acknowledgement - Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "NZMGE",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZMGE"
+        },
+        {
+          "name": "NZMGN",
+          "type": "esriFieldTypeDouble",
+          "alias": "NZMGN"
+        },
+        {
+          "name": "Plan_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Name"
+        },
+        {
+          "name": "Iwi",
+          "type": "esriFieldTypeString",
+          "alias": "Iwi"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Type"
+        },
+        {
+          "name": "Plan_No",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_No"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Statutory Acknowledgement - Lines",
+      "title": "Statutory Acknowledgement - Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Iwi",
+          "type": "esriFieldTypeString",
+          "alias": "Iwi"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "TAG"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Type"
+        },
+        {
+          "name": "Plan_No",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_No"
+        },
+        {
+          "name": "Site_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Site_Name"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Statutory Acknowledgement - Areas",
+      "title": "Statutory Acknowledgement - Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "IWI",
+          "type": "esriFieldTypeString",
+          "alias": "Iwi"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Plan_No",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_No"
+        },
+        {
+          "name": "Plan_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Type"
+        },
+        {
+          "name": "IwiTEXT",
+          "type": "esriFieldTypeString",
+          "alias": "IwiTEXT"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Legal_Desc",
+          "type": "esriFieldTypeString",
+          "alias": "Legal_Desc"
+        },
+        {
+          "name": "hectares",
+          "type": "esriFieldTypeString",
+          "alias": "hectares"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Prohibited Building Area - Te Mata Eastern Escarpment",
+      "title": "Prohibited Building Area - Te Mata Eastern Escarpment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "TAG"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Brookvale Structure Plan - Stormwater Management Areas",
+      "title": "Brookvale Structure Plan - Stormwater Management Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreatedDate"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "ModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ModifiedDate"
+        },
+        {
+          "name": "ModifiedBy",
+          "type": "esriFieldTypeString",
+          "alias": "ModifiedBy"
+        },
+        {
+          "name": "Council",
+          "type": "esriFieldTypeString",
+          "alias": "Council"
+        },
+        {
+          "name": "EditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "EditDate"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "TAG"
+        },
+        {
+          "name": "Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Accuracy"
+        },
+        {
+          "name": "AreaSqM",
+          "type": "esriFieldTypeDouble",
+          "alias": "AreaSqM"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Plan Change - Racecourse Stadium Zone",
+      "title": "Plan Change - Racecourse Stadium Zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Created_By",
+          "type": "esriFieldTypeString",
+          "alias": "Created_By"
+        },
+        {
+          "name": "Created_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Created_Date"
+        },
+        {
+          "name": "Modified_By",
+          "type": "esriFieldTypeString",
+          "alias": "Modified_By"
+        },
+        {
+          "name": "Modified_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Modified_Date"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "River Hazard Overlay Esk Valley Whirinaki",
+      "title": "River Hazard Overlay Esk Valley Whirinaki",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreatedDate"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "River Hazard Overlay",
+      "title": "River Hazard Overlay",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TAG",
+          "type": "esriFieldTypeString",
+          "alias": "TAG"
+        },
+        {
+          "name": "Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Accuracy"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 113,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

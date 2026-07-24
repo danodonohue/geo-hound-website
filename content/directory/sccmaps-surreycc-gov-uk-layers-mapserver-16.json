@@ -1,0 +1,130 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-16",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_RegisterOffice/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_RegisterOffice/MapServer",
+  "title": "Layers",
+  "description": "Register office locations for vital registration services.",
+  "abstract": "People & Community - Register office",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "demographics",
+      "confidence": "medium"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 22,
+      "name": "People & Community - Register office",
+      "title": "People & Community - Register office",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Build_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Building name"
+        },
+        {
+          "name": "Build_Num",
+          "type": "esriFieldTypeString",
+          "alias": "Building number"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Sub_Build",
+          "type": "esriFieldTypeString",
+          "alias": "Sub_Build"
+        },
+        {
+          "name": "Street",
+          "type": "esriFieldTypeString",
+          "alias": "Street"
+        },
+        {
+          "name": "Town",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "X_coord",
+          "type": "esriFieldTypeDouble",
+          "alias": "X_coord"
+        },
+        {
+          "name": "Y_coord",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y_coord"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 307,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

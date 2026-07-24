@@ -1,0 +1,1215 @@
+{
+  "slug": "gis-wcc-govt-nz-assets-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/Asset/Assets/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/Asset/Assets/MapServer",
+  "title": "Assets",
+  "description": "GIS service providing coastal data.",
+  "abstract": "This asset service contains WCC physical asset locations and informations for assets such as Rubbish Bins, Seats, Shelters and Bollards.",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Wellington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "WCC Bollards",
+      "title": "WCC Bollards",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type_of_Bollard",
+          "type": "esriFieldTypeString",
+          "alias": "Type_of_Bollard"
+        },
+        {
+          "name": "Use_of_Bollard",
+          "type": "esriFieldTypeString",
+          "alias": "Use_of_Bollard"
+        },
+        {
+          "name": "Lockable",
+          "type": "esriFieldTypeString",
+          "alias": "Lockable"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Treatment_Form",
+          "type": "esriFieldTypeString",
+          "alias": "Treatment_Form"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Asset"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Model_of_Bollard",
+          "type": "esriFieldTypeString",
+          "alias": "Model_of_Bollard"
+        },
+        {
+          "name": "Legal_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Legal_Owner"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital_Activity"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "WCC_Track Renewals",
+      "title": "WCC_Track Renewals",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Area_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Area Name"
+        },
+        {
+          "name": "Name_1",
+          "type": "esriFieldTypeString",
+          "alias": "Name 1"
+        },
+        {
+          "name": "Maintain",
+          "type": "esriFieldTypeString",
+          "alias": "Maintain"
+        },
+        {
+          "name": "Maintain_By",
+          "type": "esriFieldTypeString",
+          "alias": "Maintain By"
+        },
+        {
+          "name": "New_Track_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "New Track Date"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner "
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning BU"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing BU"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Operating Status"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital Activity"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type "
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within Location"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Type"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition Date"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct Installed"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial Asset"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition Rating"
+        },
+        {
+          "name": "Quantity_UOM",
+          "type": "esriFieldTypeString",
+          "alias": "Quantity UOM"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short Description"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Description"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Search Description"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Width_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Width (m)"
+        },
+        {
+          "name": "Length_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length (m)"
+        },
+        {
+          "name": "Height_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Heigh (m)"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID "
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "WCC Cycleways",
+      "title": "WCC Cycleways",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Sits_Within",
+          "type": "esriFieldTypeString",
+          "alias": "Sits_Within"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Quantity_UOM",
+          "type": "esriFieldTypeString",
+          "alias": "Quantity_UOM"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Asset"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "RAMM_Site_Name",
+          "type": "esriFieldTypeString",
+          "alias": "RAMM_Site_Name"
+        },
+        {
+          "name": "RAMM_Road_Name",
+          "type": "esriFieldTypeString",
+          "alias": "RAMM_Road_Name"
+        },
+        {
+          "name": "RAMM_State_Code",
+          "type": "esriFieldTypeString",
+          "alias": "RAMM_State_Code"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "WCC Rubbish Bin",
+      "title": "WCC Rubbish Bin",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Treatment_Form",
+          "type": "esriFieldTypeString",
+          "alias": "Treatment_Form"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Quantity_UOM",
+          "type": "esriFieldTypeString",
+          "alias": "Quantity_UOM"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Asset"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Owning_Council",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_Council"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Capacity",
+          "type": "esriFieldTypeInteger",
+          "alias": "Capacity"
+        },
+        {
+          "name": "Model",
+          "type": "esriFieldTypeString",
+          "alias": "Model"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Type_of_Bin",
+          "type": "esriFieldTypeString",
+          "alias": "Type_of_Bin"
+        },
+        {
+          "name": "Legal_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Legal_Owner"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital_Activity"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "WCC Seats",
+      "title": "WCC Seats",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "Style",
+          "type": "esriFieldTypeString",
+          "alias": "Style"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Date_Modified",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Modified"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Length_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length_m"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Painted",
+          "type": "esriFieldTypeString",
+          "alias": "Painted"
+        },
+        {
+          "name": "Indoor_Outdoor",
+          "type": "esriFieldTypeString",
+          "alias": "Indoor_Outdoor"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Memorial",
+          "type": "esriFieldTypeString",
+          "alias": "Memorial"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "RAMM_Contract_Area",
+          "type": "esriFieldTypeString",
+          "alias": "RAMM_Contract_Area"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Available",
+          "type": "esriFieldTypeString",
+          "alias": "Available"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital_Activity"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "WCC Shelters",
+      "title": "WCC Shelters",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Bus_Stop",
+          "type": "esriFieldTypeString",
+          "alias": "Bus_Stop"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Quantity_UOM",
+          "type": "esriFieldTypeString",
+          "alias": "Quantity_UOM"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Asset"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Area_m2",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area_m2"
+        },
+        {
+          "name": "Legal_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Legal_Owner"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "Shelter_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Shelter_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital_Activity"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "WCC Signage",
+      "title": "WCC Signage",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Quantity",
+          "type": "esriFieldTypeDouble",
+          "alias": "Quantity"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Wording",
+          "type": "esriFieldTypeString",
+          "alias": "Wording"
+        },
+        {
+          "name": "Wording_Reverse",
+          "type": "esriFieldTypeString",
+          "alias": "Wording_Reverse"
+        },
+        {
+          "name": "Construct_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Construct_Installed"
+        },
+        {
+          "name": "Master_AMIS",
+          "type": "esriFieldTypeString",
+          "alias": "Master_AMIS"
+        },
+        {
+          "name": "Originating_AMIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Originating_AMIS_ID"
+        },
+        {
+          "name": "Within_Location",
+          "type": "esriFieldTypeString",
+          "alias": "Within_Location"
+        },
+        {
+          "name": "Height_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height"
+        },
+        {
+          "name": "Width_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Width"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Asset_Number",
+          "type": "esriFieldTypeInteger",
+          "alias": "Asset_Number"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "Asset_Search_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Search_Description"
+        },
+        {
+          "name": "Asset_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Description"
+        },
+        {
+          "name": "Short_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Description"
+        },
+        {
+          "name": "Commission_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Commission_Date"
+        },
+        {
+          "name": "Condition_Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Condition_Rating"
+        },
+        {
+          "name": "Financial_Asset",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Asset"
+        },
+        {
+          "name": "Condition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Condition_Date"
+        },
+        {
+          "name": "Risk_Profile",
+          "type": "esriFieldTypeString",
+          "alias": "Risk_Profile"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Owning_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_BU"
+        },
+        {
+          "name": "Regulation_No",
+          "type": "esriFieldTypeString",
+          "alias": "Regulation_No"
+        },
+        {
+          "name": "Owning_Council",
+          "type": "esriFieldTypeString",
+          "alias": "Owning_Council"
+        },
+        {
+          "name": "Treatment_Form",
+          "type": "esriFieldTypeString",
+          "alias": "Treatment_Form"
+        },
+        {
+          "name": "Managing_BU",
+          "type": "esriFieldTypeString",
+          "alias": "Managing_BU"
+        },
+        {
+          "name": "Waymarker",
+          "type": "esriFieldTypeString",
+          "alias": "Waymarker"
+        },
+        {
+          "name": "Maintenance_Provider",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance_Provider"
+        },
+        {
+          "name": "Legal_Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Legal_Owner"
+        },
+        {
+          "name": "Asset_Operating_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Operating_Status"
+        },
+        {
+          "name": "OdysseyID",
+          "type": "esriFieldTypeString",
+          "alias": "OdysseyID"
+        },
+        {
+          "name": "Asset_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Capital_Activity",
+          "type": "esriFieldTypeString",
+          "alias": "Capital_Activity"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 66,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "maps-tangerangkota-go-id-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://maps.tangerangkota.go.id/arcgis/rest/services/Survei_Kecamatan/Survei_Sumur_Resapan/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.tangerangkota.go.id/arcgis/rest/services/Survei_Kecamatan/Survei_Sumur_Resapan/MapServer",
+  "title": "Layers",
+  "description": "Infiltration well survey data for Tangerang stormwater management.",
+  "abstract": "Survei_Sumur_Resapan",
+  "provider": "maps.tangerangkota.go.id",
+  "place": {
+    "country": "Indonesia",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": [
+    106.57894094300002,
+    -6.252883333,
+    106.74349166600001,
+    -6.11947883900001
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "name": "Survei_Sumur_Resapan",
+      "title": "Survei_Sumur_Resapan",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "nama",
+          "type": "esriFieldTypeString",
+          "alias": "Nama"
+        },
+        {
+          "name": "alamat",
+          "type": "esriFieldTypeString",
+          "alias": "Alamat"
+        },
+        {
+          "name": "kecamatan",
+          "type": "esriFieldTypeString",
+          "alias": "Kecamatan"
+        },
+        {
+          "name": "kelurahan",
+          "type": "esriFieldTypeString",
+          "alias": "Kelurahan"
+        },
+        {
+          "name": "keterangan",
+          "type": "esriFieldTypeString",
+          "alias": "Keterangan"
+        },
+        {
+          "name": "f0persen",
+          "type": "esriFieldTypeString",
+          "alias": "0persen"
+        },
+        {
+          "name": "f50persen",
+          "type": "esriFieldTypeString",
+          "alias": "50persen"
+        },
+        {
+          "name": "f75persen",
+          "type": "esriFieldTypeString",
+          "alias": "100persen"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "kedalaman",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "kedalaman"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 740,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

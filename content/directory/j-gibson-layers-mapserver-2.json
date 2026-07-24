@@ -1,0 +1,100 @@
+{
+  "slug": "j-gibson-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Storm_Surge/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Storm_Surge/MapServer",
+  "title": "Layers",
+  "description": "Storm surge flood risk mapping for coastal areas with climate change scenarios.",
+  "abstract": "These maps show coastal flooding susceptibility at selected low lying coastal areas around the Wellington region coast driven by coastal storm events that involve storm surge (low air pressure, strong winds and large waves) occurring on high tide that collectively produce what is known as a storm tide. Storm tides are the principle coastal hazard responsible for coastal flooding, erosion and related property damage that occur in the Wellington region. The assessment is based on numerically modelling the combined effects of storm tides and waves for selected storm events with a joint annual exceedance probability (AEP) of 1% (ie, 100 yr storm) and was undertaken relative to present day sea levels (2012), and for three sea level rise increments of 0.5 m, 1.0 m, and 1.5 m (with no specific timeframe for when these rises would be reached). Kapiti Coast data north of Waikanae updated from new model data, Feb 2020.",
+  "provider": "J Gibson",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "climate",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Storm_Surge_Layers",
+      "title": "Storm_Surge_Layers",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "StormSurge_1pctAEP_150cm_SLR",
+      "title": "StormSurge_1pctAEP_150cm_SLR",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "StormSurge_1pctAEP_100cm_SLR",
+      "title": "StormSurge_1pctAEP_100cm_SLR",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "StormSurge_1pctAEP_50cm_SLR",
+      "title": "StormSurge_1pctAEP_50cm_SLR",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "StormSurge_1pctAEP_presentday",
+      "title": "StormSurge_1pctAEP_presentday",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 83,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

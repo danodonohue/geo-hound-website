@@ -1,0 +1,553 @@
+{
+  "slug": "logis-loudoun-gov-environmentalhealth-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/EnvironmentalHealth/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/EnvironmentalHealth/MapServer",
+  "title": "EnvironmentalHealth",
+  "description": "Environmental health data including cemeteries, pollution, wells, and drainfields.",
+  "abstract": "Loudoun County, Virginia environmental health data",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "health",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 6,
+      "name": "Cemetery: Labels",
+      "title": "Cemetery: Labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CM_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CM_ID"
+        },
+        {
+          "name": "CM_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CM_NAME"
+        },
+        {
+          "name": "CM_DHR_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CM_DHR_ID"
+        },
+        {
+          "name": "CM_DHR_ID_OTHER",
+          "type": "esriFieldTypeString",
+          "alias": "CM_DHR_ID_OTHER"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Cemetery",
+      "title": "Cemetery",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CM_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CM_ID"
+        },
+        {
+          "name": "CM_PIN",
+          "type": "esriFieldTypeString",
+          "alias": "CM_PIN"
+        },
+        {
+          "name": "CM_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CM_NAME"
+        },
+        {
+          "name": "CM_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "CM_DATE"
+        },
+        {
+          "name": "CM_ACCESS",
+          "type": "esriFieldTypeString",
+          "alias": "CM_ACCESS"
+        },
+        {
+          "name": "CM_GRAVE_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "CM_GRAVE_NUMBER"
+        },
+        {
+          "name": "CM_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "CM_TYPE"
+        },
+        {
+          "name": "CM_EARLIEST",
+          "type": "esriFieldTypeString",
+          "alias": "CM_EARLIEST"
+        },
+        {
+          "name": "CM_LATEST",
+          "type": "esriFieldTypeString",
+          "alias": "CM_LATEST"
+        },
+        {
+          "name": "CM_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "CM_STATUS"
+        },
+        {
+          "name": "CM_AFFILIATION",
+          "type": "esriFieldTypeString",
+          "alias": "CM_AFFILIATION"
+        },
+        {
+          "name": "CM_Notes",
+          "type": "esriFieldTypeString",
+          "alias": "CM_Notes"
+        },
+        {
+          "name": "CM_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CM_UPD_DATE"
+        },
+        {
+          "name": "CM_DHR_ID",
+          "type": "esriFieldTypeString",
+          "alias": "CM_DHR_ID"
+        },
+        {
+          "name": "CM_DHR_ID_OTHER",
+          "type": "esriFieldTypeString",
+          "alias": "CM_DHR_ID_OTHER"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Pollution Sources: Labels",
+      "title": "Pollution Sources: Labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "WELLPOLL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WELLPOLL_ID"
+        },
+        {
+          "name": "WE_SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SITE_ID"
+        },
+        {
+          "name": "WE_ID_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_CODE"
+        },
+        {
+          "name": "WE_PNT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_PNT_TYPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Pollution Sources",
+      "title": "Pollution Sources",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "WELLPOLL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WELLPOLL_ID"
+        },
+        {
+          "name": "WE_SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SITE_ID"
+        },
+        {
+          "name": "WE_OLD_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_OLD_ID"
+        },
+        {
+          "name": "WE_TYPE_HP",
+          "type": "esriFieldTypeString",
+          "alias": "WE_TYPE_HP"
+        },
+        {
+          "name": "WE_ID_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_CODE"
+        },
+        {
+          "name": "WE_ID_YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_YEAR"
+        },
+        {
+          "name": "WE_ID_SEQ",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_SEQ"
+        },
+        {
+          "name": "WE_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "WE_UPD_DATE"
+        },
+        {
+          "name": "WE_SYSTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SYSTYPE"
+        },
+        {
+          "name": "WE_PNT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_PNT_TYPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Drainfields: Labels",
+      "title": "Drainfields: Labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "WELLPOLL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WELLPOLL_ID"
+        },
+        {
+          "name": "WE_SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SITE_ID"
+        },
+        {
+          "name": "WE_ID_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_CODE"
+        },
+        {
+          "name": "WE_PNT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_PNT_TYPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Drainfields",
+      "title": "Drainfields",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "WELLPOLL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WELLPOLL_ID"
+        },
+        {
+          "name": "WE_SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SITE_ID"
+        },
+        {
+          "name": "WE_OLD_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_OLD_ID"
+        },
+        {
+          "name": "WE_TYPE_HP",
+          "type": "esriFieldTypeString",
+          "alias": "WE_TYPE_HP"
+        },
+        {
+          "name": "WE_ID_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_CODE"
+        },
+        {
+          "name": "WE_ID_YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_YEAR"
+        },
+        {
+          "name": "WE_ID_SEQ",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_SEQ"
+        },
+        {
+          "name": "WE_UPD_SOURCE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WE_UPD_SOURCE"
+        },
+        {
+          "name": "WE_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "WE_UPD_DATE"
+        },
+        {
+          "name": "WE_UPD_USER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WE_UPD_USER"
+        },
+        {
+          "name": "WE_SYSTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SYSTYPE"
+        },
+        {
+          "name": "WE_PNT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_PNT_TYPE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Wells: Labels",
+      "title": "Wells: Labels",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "WELLPOLL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WELLPOLL_ID"
+        },
+        {
+          "name": "WE_SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SITE_ID"
+        },
+        {
+          "name": "WE_ID_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_CODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Wells",
+      "title": "Wells",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "WELLPOLL_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WELLPOLL_ID"
+        },
+        {
+          "name": "WE_SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SITE_ID"
+        },
+        {
+          "name": "WE_OLD_ID",
+          "type": "esriFieldTypeString",
+          "alias": "WE_OLD_ID"
+        },
+        {
+          "name": "WE_TYPE_HP",
+          "type": "esriFieldTypeString",
+          "alias": "WE_TYPE_HP"
+        },
+        {
+          "name": "WE_ID_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_CODE"
+        },
+        {
+          "name": "WE_ID_YEAR",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_YEAR"
+        },
+        {
+          "name": "WE_ID_SEQ",
+          "type": "esriFieldTypeString",
+          "alias": "WE_ID_SEQ"
+        },
+        {
+          "name": "WE_UPD_SOURCE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WE_UPD_SOURCE"
+        },
+        {
+          "name": "WE_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "WE_UPD_DATE"
+        },
+        {
+          "name": "WE_UPD_USER",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WE_UPD_USER"
+        },
+        {
+          "name": "WE_SYSTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WE_SYSTYPE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SITE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "SITE_ID"
+        },
+        {
+          "name": "PERMIT_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PERMIT_NUMBER"
+        },
+        {
+          "name": "DEPTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "DEPTH"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "WELL_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "WELL_TYPE"
+        },
+        {
+          "name": "YIELD",
+          "type": "esriFieldTypeDouble",
+          "alias": "YIELD"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 219,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

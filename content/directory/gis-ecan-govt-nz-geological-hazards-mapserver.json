@@ -1,0 +1,955 @@
+{
+  "slug": "gis-ecan-govt-nz-geological-hazards-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Public/Geological_Hazards/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/Geological_Hazards/MapServer",
+  "title": "Geological_Hazards",
+  "description": "GIS service providing parcels, geology, flood data.",
+  "abstract": "There are four main data fields. 'AREA' gives the extent of each polygon in square metres. 'Feature' identifies the Fault Avoidance Zonation unit type, based largely on the 'TYPE' field in the Ground Deformation Map dataset. 'FAZ_class' identifies the category of fault complexity, as set out in Table 2 of the report. 'NAME' identifies the fault or other landform unit with which the FAZ unit polygon is associated. This dataset was compiled for presentation at a scale of 1:35,000 in the report, but the data were captured at more detailed scales. The dataset is derived from the ground deformation classes dataset. Accuracy of the polygon boundaries is the same as for the Geomorphologic map unit dataset. The geomorphologic map units were drawn on-screen at a scale of approximately 1:10,000, except for tectonic landform map units, which were mapped at ~1:5,000 scale. Locations of the boundaries of the map unit boundaries are considered to be accurate to about +/- 30 m, apart from the tectonic landform unit boundaries, which are considered to be accurate to +/- 10 m at best on the younger river terraces (Okuku Terrace 3/Makerikeri Terrace 2 and younger), but are no better than +/- 20 m on older terrace or hill landforms.\nThe data structure and accuracy is identical to the Fault Avoidance Zone dataset, with the addition of the field 'BUFF_DIST' which states the width of the added buffer (20 m in all cases).",
+  "provider": "gis.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "geology",
+      "confidence": "high"
+    },
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Ashley Fault Zone deformation areas 2014",
+      "title": "Ashley Fault Zone deformation areas 2014",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Feature",
+          "type": "esriFieldTypeString",
+          "alias": "Feature"
+        },
+        {
+          "name": "FAZ_Class",
+          "type": "esriFieldTypeString",
+          "alias": "FAZ_Class"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Ashley Fault Avoidance Zone 2014",
+      "title": "Ashley Fault Avoidance Zone 2014",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Feature",
+          "type": "esriFieldTypeString",
+          "alias": "Feature"
+        },
+        {
+          "name": "FAZ_Class",
+          "type": "esriFieldTypeString",
+          "alias": "FAZ_Class"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "BUFF_DIST",
+          "type": "esriFieldTypeDouble",
+          "alias": "BUFF_DIST"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Kaikoura faults (2015)",
+      "title": "Kaikoura faults (2015)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FNODE_"
+        },
+        {
+          "name": "TNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "TNODE_"
+        },
+        {
+          "name": "LPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LPOLY_"
+        },
+        {
+          "name": "RPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RPOLY_"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "FAULTS_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FAULTS_"
+        },
+        {
+          "name": "FAULTS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FAULTS_ID"
+        },
+        {
+          "name": "IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "IDENTIFIER"
+        },
+        {
+          "name": "ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY"
+        },
+        {
+          "name": "DOM_SENSE",
+          "type": "esriFieldTypeString",
+          "alias": "DOM_SENSE"
+        },
+        {
+          "name": "SUB_SENSE",
+          "type": "esriFieldTypeString",
+          "alias": "SUB_SENSE"
+        },
+        {
+          "name": "ACTIVITY",
+          "type": "esriFieldTypeString",
+          "alias": "ACTIVITY"
+        },
+        {
+          "name": "PLOT_RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "PLOT_RANK"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "RDOM_SENSE",
+          "type": "esriFieldTypeString",
+          "alias": "RDOM_SENSE"
+        },
+        {
+          "name": "RSUB_SENSE",
+          "type": "esriFieldTypeString",
+          "alias": "RSUB_SENSE"
+        },
+        {
+          "name": "RTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "RTYPE"
+        },
+        {
+          "name": "DIP_DIR",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DIP_DIR"
+        },
+        {
+          "name": "DIP",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DIP"
+        },
+        {
+          "name": "AGE",
+          "type": "esriFieldTypeString",
+          "alias": "AGE"
+        },
+        {
+          "name": "TOTAL_SLIP",
+          "type": "esriFieldTypeString",
+          "alias": "TOTAL_SLIP"
+        },
+        {
+          "name": "DOWN_QUAD",
+          "type": "esriFieldTypeString",
+          "alias": "DOWN_QUAD"
+        },
+        {
+          "name": "QMAP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "QMAP_NAME"
+        },
+        {
+          "name": "QMAP_NUMBE",
+          "type": "esriFieldTypeInteger",
+          "alias": "QMAP_NUMBE"
+        },
+        {
+          "name": "ACCUR_SENS",
+          "type": "esriFieldTypeString",
+          "alias": "ACCUR_SENS"
+        },
+        {
+          "name": "ATT_ALL",
+          "type": "esriFieldTypeString",
+          "alias": "ATT_ALL"
+        },
+        {
+          "name": "KDC_name",
+          "type": "esriFieldTypeString",
+          "alias": "KDC_name"
+        },
+        {
+          "name": "Certainty",
+          "type": "esriFieldTypeString",
+          "alias": "Certainty"
+        },
+        {
+          "name": "Surf_form",
+          "type": "esriFieldTypeString",
+          "alias": "Surf_form"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Kaikoura folds (2015)",
+      "title": "Kaikoura folds (2015)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FNODE_"
+        },
+        {
+          "name": "TNODE_",
+          "type": "esriFieldTypeInteger",
+          "alias": "TNODE_"
+        },
+        {
+          "name": "LPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "LPOLY_"
+        },
+        {
+          "name": "RPOLY_",
+          "type": "esriFieldTypeInteger",
+          "alias": "RPOLY_"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "FOLDS_",
+          "type": "esriFieldTypeInteger",
+          "alias": "FOLDS_"
+        },
+        {
+          "name": "FOLDS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FOLDS_ID"
+        },
+        {
+          "name": "IDENTIFIER",
+          "type": "esriFieldTypeString",
+          "alias": "IDENTIFIER"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ACCURACY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "ACTIVITY",
+          "type": "esriFieldTypeString",
+          "alias": "ACTIVITY"
+        },
+        {
+          "name": "TREND",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TREND"
+        },
+        {
+          "name": "PLUNGE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PLUNGE"
+        },
+        {
+          "name": "DIP_DIR",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DIP_DIR"
+        },
+        {
+          "name": "DIP",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "DIP"
+        },
+        {
+          "name": "FACING",
+          "type": "esriFieldTypeString",
+          "alias": "FACING"
+        },
+        {
+          "name": "VERGENCE",
+          "type": "esriFieldTypeString",
+          "alias": "VERGENCE"
+        },
+        {
+          "name": "SURFACE",
+          "type": "esriFieldTypeString",
+          "alias": "SURFACE"
+        },
+        {
+          "name": "AGE",
+          "type": "esriFieldTypeString",
+          "alias": "AGE"
+        },
+        {
+          "name": "PLOT_RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "PLOT_RANK"
+        },
+        {
+          "name": "QMAP_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "QMAP_NAME"
+        },
+        {
+          "name": "QMAP_NUMBE",
+          "type": "esriFieldTypeInteger",
+          "alias": "QMAP_NUMBE"
+        },
+        {
+          "name": "ACCUR_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ACCUR_TYPE"
+        },
+        {
+          "name": "ATT_ALL",
+          "type": "esriFieldTypeString",
+          "alias": "ATT_ALL"
+        },
+        {
+          "name": "KDC_name",
+          "type": "esriFieldTypeString",
+          "alias": "KDC_name"
+        },
+        {
+          "name": "Certainty",
+          "type": "esriFieldTypeString",
+          "alias": "Certainty"
+        },
+        {
+          "name": "Surf_form",
+          "type": "esriFieldTypeString",
+          "alias": "Surf_form"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH_M"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Symbol",
+          "type": "esriFieldTypeString",
+          "alias": "Symbol"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Tsunami Evacuation Zones",
+      "title": "Tsunami Evacuation Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "District",
+          "type": "esriFieldTypeString",
+          "alias": "District"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Chatham Island Tsunami Evacuation Zones",
+      "title": "Chatham Island Tsunami Evacuation Zones",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Zone",
+          "type": "esriFieldTypeString",
+          "alias": "Zone"
+        },
+        {
+          "name": "Tech_descr",
+          "type": "esriFieldTypeString",
+          "alias": "Tech_descr"
+        },
+        {
+          "name": "Action",
+          "type": "esriFieldTypeString",
+          "alias": "Action"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Kaikoura Landslide Assessment",
+      "title": "Kaikoura Landslide Assessment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Kaikoura Flood Assessment",
+      "title": "Kaikoura Flood Assessment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Kaikoura Debris Fan Assessment",
+      "title": "Kaikoura Debris Fan Assessment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "FanArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "FanArea"
+        },
+        {
+          "name": "WatershedID",
+          "type": "esriFieldTypeString",
+          "alias": "WatershedID"
+        },
+        {
+          "name": "MeltonRatio",
+          "type": "esriFieldTypeString",
+          "alias": "MeltonRatio"
+        },
+        {
+          "name": "WatershedLength",
+          "type": "esriFieldTypeString",
+          "alias": "WatershedLength"
+        },
+        {
+          "name": "DominantProcess",
+          "type": "esriFieldTypeString",
+          "alias": "DominantProcess"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Waitaki Flood Assessment (Canterbury)",
+      "title": "Waitaki Flood Assessment (Canterbury)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 118,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

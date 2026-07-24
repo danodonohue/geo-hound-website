@@ -1,0 +1,390 @@
+{
+  "slug": "map-devon-gov-uk-public-access-mapserver",
+  "service_key": "ESRI MapServer:https://map.devon.gov.uk/arcgis/rest/services/Environment/Public_Access/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://map.devon.gov.uk/arcgis/rest/services/Environment/Public_Access/MapServer",
+  "title": "Public Access",
+  "description": "Public rights of way and access land designations.",
+  "abstract": "Public Access",
+  "provider": "map.devon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Devon",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Public Rights of Way",
+      "title": "Public Rights of Way",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Parish_Sta",
+          "type": "esriFieldTypeString",
+          "alias": "Parish Status Number"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Access Land & Dartmoor Commons",
+      "title": "Access Land & Dartmoor Commons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "LAND_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_TYPE"
+        },
+        {
+          "name": "UNIQUEID",
+          "type": "esriFieldTypeString",
+          "alias": "UNIQUEID"
+        },
+        {
+          "name": "CL_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "CL_NUMBER"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ISSUEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ISSUEDATE"
+        },
+        {
+          "name": "COLLECTION",
+          "type": "esriFieldTypeString",
+          "alias": "COLLECTION"
+        },
+        {
+          "name": "EnvGIS.ENVMGR.ACCESSLAND.fid",
+          "type": "esriFieldTypeOID",
+          "alias": "EnvGIS.ENVMGR.ACCESSLAND.fid"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Statutory Registers",
+      "title": "Statutory Registers",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Wildlife and Countryside Act 1981 Schedule 14 Applications",
+      "title": "Wildlife and Countryside Act 1981 Schedule 14 Applications",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Reference"
+        },
+        {
+          "name": "ClaimLocat",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "ClaimLoc00",
+          "type": "esriFieldTypeString",
+          "alias": "Location postcode"
+        },
+        {
+          "name": "Parish",
+          "type": "esriFieldTypeString",
+          "alias": "Parish"
+        },
+        {
+          "name": "Claim_OS_R",
+          "type": "esriFieldTypeString",
+          "alias": "OS grid ref 1"
+        },
+        {
+          "name": "Claim_OS00",
+          "type": "esriFieldTypeString",
+          "alias": "OS grid ref 2"
+        },
+        {
+          "name": "Claim_OS01",
+          "type": "esriFieldTypeString",
+          "alias": "OS grid ref 3"
+        },
+        {
+          "name": "InitialSta",
+          "type": "esriFieldTypeString",
+          "alias": "Initial status"
+        },
+        {
+          "name": "ProposedSt",
+          "type": "esriFieldTypeString",
+          "alias": "Proposed status"
+        },
+        {
+          "name": "Applicant",
+          "type": "esriFieldTypeString",
+          "alias": "Applicant"
+        },
+        {
+          "name": "ApplicantA",
+          "type": "esriFieldTypeString",
+          "alias": "Applicant address"
+        },
+        {
+          "name": "ApplicantP",
+          "type": "esriFieldTypeString",
+          "alias": "Applicant postcode"
+        },
+        {
+          "name": "Applicatio",
+          "type": "esriFieldTypeDate",
+          "alias": "Date of application"
+        },
+        {
+          "name": "Determinat",
+          "type": "esriFieldTypeString",
+          "alias": "Determination timescale"
+        },
+        {
+          "name": "Progress",
+          "type": "esriFieldTypeString",
+          "alias": "Progress"
+        },
+        {
+          "name": "SoS_NonD00",
+          "type": "esriFieldTypeString",
+          "alias": "SoS decision if appeal against non determination"
+        },
+        {
+          "name": "CommitteeD",
+          "type": "esriFieldTypeDate",
+          "alias": "Date determined by DCC"
+        },
+        {
+          "name": "Committee_",
+          "type": "esriFieldTypeString",
+          "alias": "DCC decision"
+        },
+        {
+          "name": "SoS_Refu00",
+          "type": "esriFieldTypeString",
+          "alias": "SoS decision if DCC decision appealed"
+        },
+        {
+          "name": "OrderMadeD",
+          "type": "esriFieldTypeDate",
+          "alias": "Date if order made"
+        },
+        {
+          "name": "OrderCon00",
+          "type": "esriFieldTypeDate",
+          "alias": "Date if order confirmed"
+        },
+        {
+          "name": "WebScanned",
+          "type": "esriFieldTypeString",
+          "alias": "View application"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Highways and Landowner Statements and Declarations",
+      "title": "Highways and Landowner Statements and Declarations",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ScannedApp",
+          "type": "esriFieldTypeString",
+          "alias": "ScannedApp"
+        },
+        {
+          "name": "DCC_Ref",
+          "type": "esriFieldTypeString",
+          "alias": "DCC_Ref"
+        },
+        {
+          "name": "OS_Ref",
+          "type": "esriFieldTypeString",
+          "alias": "OS_Ref"
+        },
+        {
+          "name": "Type_of_De",
+          "type": "esriFieldTypeString",
+          "alias": "Type_of_De"
+        },
+        {
+          "name": "Parish",
+          "type": "esriFieldTypeString",
+          "alias": "Parish"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Landowner",
+          "type": "esriFieldTypeString",
+          "alias": "Landowner"
+        },
+        {
+          "name": "Address1",
+          "type": "esriFieldTypeString",
+          "alias": "Address1"
+        },
+        {
+          "name": "Address2",
+          "type": "esriFieldTypeString",
+          "alias": "Address2"
+        },
+        {
+          "name": "Address3",
+          "type": "esriFieldTypeString",
+          "alias": "Address3"
+        },
+        {
+          "name": "Address4",
+          "type": "esriFieldTypeString",
+          "alias": "Address4"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "Date_of_Hi",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_of_Hi"
+        },
+        {
+          "name": "Date_of_La",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_of_La"
+        },
+        {
+          "name": "Expiry_Dat",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry_Dat"
+        },
+        {
+          "name": "First_Stat",
+          "type": "esriFieldTypeDate",
+          "alias": "First_Stat"
+        },
+        {
+          "name": "Second_Sta",
+          "type": "esriFieldTypeDate",
+          "alias": "Second_Sta"
+        },
+        {
+          "name": "Third_Stat",
+          "type": "esriFieldTypeDate",
+          "alias": "Third_Stat"
+        },
+        {
+          "name": "Fourth_Sta",
+          "type": "esriFieldTypeDate",
+          "alias": "Fourth_Sta"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "DCC_Contac",
+          "type": "esriFieldTypeString",
+          "alias": "DCC_Contac"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 316,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

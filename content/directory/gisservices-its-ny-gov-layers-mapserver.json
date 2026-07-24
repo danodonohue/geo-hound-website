@@ -1,0 +1,946 @@
+{
+  "slug": "gisservices-its-ny-gov-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Civil_Boundaries/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Civil_Boundaries/MapServer",
+  "title": "Layers",
+  "description": "New York state and civil boundaries including counties, cities, towns, villages, and territories.",
+  "abstract": "<DIV STYLE=\"text-align:Left;\"><DIV><P><SPAN>Publication Date: March 2026. Updated as needed. Current as of the Publication Date. This service has polygon layers for the following boundary types: State, Counties, Cites, Towns, Cities and Towns combined, Villages, and Indian Territories. In addition, there are separate shoreline layers for the State layer and the County layer. Boundaries are at 1:24,000-scale positional accuracy except for the shoreline in State_Shoreline and Counties_Shoreline which is being adjusted to 1:24,000-scale positional accuracy as part of ongoing work. Boundary changes are made as needed and based on authoritative sources. See metadata for each layer for additional information. Additional metadata, including field descriptions, can be found at the NYS GIS Clearinghouse: https://gis.ny.gov/civil-boundaries. This map service is available to the public. The State of New York, acting through the New York State Office of Information Technology Services, makes no representations or warranties, express or implied, with respect to the use of or reliance on the Data provided. The User accepts the Data provided “as is” with no guarantees that it is error free, complete, accurate, current or fit for any particular purpose and assumes all risks associated with its use. The State disclaims any responsibility or legal liability to Users for damages of any kind, relating to the providing of the Data or the use of it. Users should be aware that temporal changes may have occurred since this Data was created.</SPAN></P></DIV></DIV>",
+  "provider": "gisservices.its.ny.gov",
+  "place": {
+    "country": "United States",
+    "state": "New York",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "medium"
+    },
+    {
+      "name": "heritage",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "State",
+      "title": "State",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ABBREV",
+          "type": "esriFieldTypeString",
+          "alias": "ABBREV"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "State_Shoreline",
+      "title": "State_Shoreline",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ABBREV",
+          "type": "esriFieldTypeString",
+          "alias": "ABBREV"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Counties",
+      "title": "Counties",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ABBREV",
+          "type": "esriFieldTypeString",
+          "alias": "ABBREV"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "NYSP_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "NYSP_ZONE"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOSLL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOSLL_DATE"
+        },
+        {
+          "name": "NYC",
+          "type": "esriFieldTypeString",
+          "alias": "NYC"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Counties_Shoreline",
+      "title": "Counties_Shoreline",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "ABBREV",
+          "type": "esriFieldTypeString",
+          "alias": "ABBREV"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "NYSP_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "NYSP_ZONE"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOSLL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOSLL_DATE"
+        },
+        {
+          "name": "NYC",
+          "type": "esriFieldTypeString",
+          "alias": "NYC"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Cities",
+      "title": "Cities",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "MUNI_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "MUNI_TYPE"
+        },
+        {
+          "name": "MUNITYCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MUNITYCODE"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOSLL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOSLL_DATE"
+        },
+        {
+          "name": "MAP_SYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "MAP_SYMBOL"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Towns",
+      "title": "Towns",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "MUNI_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "MUNI_TYPE"
+        },
+        {
+          "name": "MUNITYCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MUNITYCODE"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOSLL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOSLL_DATE"
+        },
+        {
+          "name": "MAP_SYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "MAP_SYMBOL"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Cities_Towns",
+      "title": "Cities_Towns",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "MUNI_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "MUNI_TYPE"
+        },
+        {
+          "name": "MUNITYCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MUNITYCODE"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOSLL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOSLL_DATE"
+        },
+        {
+          "name": "MAP_SYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "MAP_SYMBOL"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Villages",
+      "title": "Villages",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "FIPS_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS_CODE"
+        },
+        {
+          "name": "SWIS",
+          "type": "esriFieldTypeString",
+          "alias": "SWIS"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOSLL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOSLL_DATE"
+        },
+        {
+          "name": "MAP_SYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "MAP_SYMBOL"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Indian_Territories",
+      "title": "Indian_Territories",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY"
+        },
+        {
+          "name": "GNIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GNIS_ID"
+        },
+        {
+          "name": "AIA_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "AIA_CODE"
+        },
+        {
+          "name": "POP1990",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP1990"
+        },
+        {
+          "name": "POP2000",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2000"
+        },
+        {
+          "name": "POP2010",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2010"
+        },
+        {
+          "name": "POP2020",
+          "type": "esriFieldTypeInteger",
+          "alias": "POP2020"
+        },
+        {
+          "name": "DOS_LL",
+          "type": "esriFieldTypeString",
+          "alias": "DOS_LL"
+        },
+        {
+          "name": "DOSLL_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DOSLL_DATE"
+        },
+        {
+          "name": "CALC_SQ_MI",
+          "type": "esriFieldTypeDouble",
+          "alias": "CALC_SQ_MI"
+        },
+        {
+          "name": "DATEMOD",
+          "type": "esriFieldTypeDate",
+          "alias": "DATEMOD"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE.LEN",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 881,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

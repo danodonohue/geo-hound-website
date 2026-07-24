@@ -1,0 +1,121 @@
+{
+  "slug": "maps-tangerangkota-go-id-layers-mapserver-5",
+  "service_key": "ESRI MapServer:https://maps.tangerangkota.go.id/arcgis/rest/services/web/produkhukum/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.tangerangkota.go.id/arcgis/rest/services/web/produkhukum/MapServer",
+  "title": "Layers",
+  "description": "Legal products registry and policy documentation for Tangerang.",
+  "abstract": "Produk Hukum WEB ",
+  "provider": "maps.tangerangkota.go.id",
+  "place": {
+    "country": "Indonesia",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "low"
+    }
+  ],
+  "bbox": [
+    106.62972607400002,
+    -6.178139081999973,
+    106.64162168000001,
+    -6.17020291
+  ],
+  "layers": [
+    {
+      "id": 0,
+      "name": "Produk Hukum",
+      "title": "Produk Hukum",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "no",
+          "type": "esriFieldTypeInteger",
+          "alias": "Nomor Urut"
+        },
+        {
+          "name": "produkhukum",
+          "type": "esriFieldTypeString",
+          "alias": "Produk Hukum"
+        },
+        {
+          "name": "url",
+          "type": "esriFieldTypeString",
+          "alias": "url"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "tahun",
+          "type": "esriFieldTypeInteger",
+          "alias": "Tahun"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "jenisprodukhukum",
+          "type": "esriFieldTypeString",
+          "alias": "Jenis Produk Hukum"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 214,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

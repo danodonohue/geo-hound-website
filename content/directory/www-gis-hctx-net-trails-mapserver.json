@@ -1,0 +1,151 @@
+{
+  "slug": "www-gis-hctx-net-trails-mapserver",
+  "service_key": "ESRI MapServer:https://www.gis.hctx.net/arcgishcpid/rest/services/Parks/Trails/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.gis.hctx.net/arcgishcpid/rest/services/Parks/Trails/MapServer",
+  "title": "Trails",
+  "description": "Harris County park trails inventory.",
+  "abstract": "Harris County Parks Inventory",
+  "provider": "www.gis.hctx.net",
+  "place": {
+    "country": "United States",
+    "state": "Texas",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Trails",
+      "title": "Trails",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "AssocPark",
+          "type": "esriFieldTypeString",
+          "alias": "Associated Park"
+        },
+        {
+          "name": "CalcLenMi",
+          "type": "esriFieldTypeDouble",
+          "alias": "Calculated Length"
+        },
+        {
+          "name": "Channel",
+          "type": "esriFieldTypeString",
+          "alias": "Channel"
+        },
+        {
+          "name": "EditInfo",
+          "type": "esriFieldTypeString",
+          "alias": "Edit Info"
+        },
+        {
+          "name": "FROM_",
+          "type": "esriFieldTypeString",
+          "alias": "FROM_"
+        },
+        {
+          "name": "GID",
+          "type": "esriFieldTypeString",
+          "alias": "GID"
+        },
+        {
+          "name": "LastEdit",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEdit"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "PRECINCT",
+          "type": "esriFieldTypeString",
+          "alias": "PRECINCT"
+        },
+        {
+          "name": "TO_",
+          "type": "esriFieldTypeString",
+          "alias": "TO_"
+        },
+        {
+          "name": "TrailLen",
+          "type": "esriFieldTypeString",
+          "alias": "TrailLen"
+        },
+        {
+          "name": "TrlSystem",
+          "type": "esriFieldTypeString",
+          "alias": "Trail System"
+        },
+        {
+          "name": "PCT2011",
+          "type": "esriFieldTypeString",
+          "alias": "PCT in 2011"
+        },
+        {
+          "name": "PCT2021",
+          "type": "esriFieldTypeString",
+          "alias": "PCT in 2021"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102740"
+  ],
+  "cors_enabled": true,
+  "response_ms": 623,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "slug": "maps-co-washington-mn-us-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://maps.co.washington.mn.us/arcgis/rest/services/GISViewer/Water/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.co.washington.mn.us/arcgis/rest/services/GISViewer/Water/MapServer",
+  "title": "Layers",
+  "description": "Washington County Minnesota water features including lakes, rivers and protected water bodies.",
+  "abstract": "Washington County Water data used in the Public GIS Viewer.",
+  "provider": "maps.co.washington.mn.us",
+  "place": {
+    "country": "United States",
+    "state": "Minnesota",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Water Annotation",
+      "title": "Water Annotation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "AnnotationClassID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TextString",
+          "type": "esriFieldTypeString",
+          "alias": "TextString"
+        },
+        {
+          "name": "FontName",
+          "type": "esriFieldTypeString",
+          "alias": "FontName"
+        },
+        {
+          "name": "FontSize",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontSize"
+        },
+        {
+          "name": "Bold",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "Italic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "Underline",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VerticalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HorizontalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOffset"
+        },
+        {
+          "name": "YOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOffset"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "FontLeading",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontLeading"
+        },
+        {
+          "name": "WordSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "WordSpacing"
+        },
+        {
+          "name": "CharacterWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterWidth"
+        },
+        {
+          "name": "CharacterSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterSpacing"
+        },
+        {
+          "name": "FlipAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlipAngle"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "Cadastral_GIS_WATER_ANNO_Entity",
+          "type": "esriFieldTypeString",
+          "alias": "Cadastral.GIS.WATER_ANNO.Entity"
+        },
+        {
+          "name": "Handle",
+          "type": "esriFieldTypeString",
+          "alias": "Handle"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Layer",
+          "type": "esriFieldTypeString",
+          "alias": "Layer"
+        },
+        {
+          "name": "LyrFrzn",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LyrFrzn"
+        },
+        {
+          "name": "LyrLock",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LyrLock"
+        },
+        {
+          "name": "LyrOn",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LyrOn"
+        },
+        {
+          "name": "LyrVPFrzn",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LyrVPFrzn"
+        },
+        {
+          "name": "LyrHandle",
+          "type": "esriFieldTypeString",
+          "alias": "LyrHandle"
+        },
+        {
+          "name": "Color",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Color"
+        },
+        {
+          "name": "EntColor",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "EntColor"
+        },
+        {
+          "name": "LyrColor",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LyrColor"
+        },
+        {
+          "name": "BlkColor",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BlkColor"
+        },
+        {
+          "name": "Linetype",
+          "type": "esriFieldTypeString",
+          "alias": "Linetype"
+        },
+        {
+          "name": "EntLinetype",
+          "type": "esriFieldTypeString",
+          "alias": "EntLinetype"
+        },
+        {
+          "name": "LyrLnType",
+          "type": "esriFieldTypeString",
+          "alias": "LyrLnType"
+        },
+        {
+          "name": "BlkLinetype",
+          "type": "esriFieldTypeString",
+          "alias": "BlkLinetype"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation"
+        },
+        {
+          "name": "Thickness",
+          "type": "esriFieldTypeDouble",
+          "alias": "Thickness"
+        },
+        {
+          "name": "LineWt",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LineWt"
+        },
+        {
+          "name": "EntLineWt",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "EntLineWt"
+        },
+        {
+          "name": "LyrLineWt",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LyrLineWt"
+        },
+        {
+          "name": "BlkLineWt",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "BlkLineWt"
+        },
+        {
+          "name": "RefName",
+          "type": "esriFieldTypeString",
+          "alias": "RefName"
+        },
+        {
+          "name": "LTScale",
+          "type": "esriFieldTypeDouble",
+          "alias": "LTScale"
+        },
+        {
+          "name": "ExtX",
+          "type": "esriFieldTypeDouble",
+          "alias": "ExtX"
+        },
+        {
+          "name": "ExtY",
+          "type": "esriFieldTypeDouble",
+          "alias": "ExtY"
+        },
+        {
+          "name": "ExtZ",
+          "type": "esriFieldTypeDouble",
+          "alias": "ExtZ"
+        },
+        {
+          "name": "DocName",
+          "type": "esriFieldTypeString",
+          "alias": "DocName"
+        },
+        {
+          "name": "DocPath",
+          "type": "esriFieldTypeString",
+          "alias": "DocPath"
+        },
+        {
+          "name": "DocType",
+          "type": "esriFieldTypeString",
+          "alias": "DocType"
+        },
+        {
+          "name": "DocVer",
+          "type": "esriFieldTypeString",
+          "alias": "DocVer"
+        },
+        {
+          "name": "ScaleX",
+          "type": "esriFieldTypeDouble",
+          "alias": "ScaleX"
+        },
+        {
+          "name": "ScaleY",
+          "type": "esriFieldTypeDouble",
+          "alias": "ScaleY"
+        },
+        {
+          "name": "ScaleZ",
+          "type": "esriFieldTypeDouble",
+          "alias": "ScaleZ"
+        },
+        {
+          "name": "Style",
+          "type": "esriFieldTypeString",
+          "alias": "Style"
+        },
+        {
+          "name": "FontID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FontID"
+        },
+        {
+          "name": "Text",
+          "type": "esriFieldTypeString",
+          "alias": "Text"
+        },
+        {
+          "name": "Height",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height"
+        },
+        {
+          "name": "TxtAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "TxtAngle"
+        },
+        {
+          "name": "TxtWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "TxtWidth"
+        },
+        {
+          "name": "TxtOblique",
+          "type": "esriFieldTypeDouble",
+          "alias": "TxtOblique"
+        },
+        {
+          "name": "TxtGenType",
+          "type": "esriFieldTypeString",
+          "alias": "TxtGenType"
+        },
+        {
+          "name": "TxtJust",
+          "type": "esriFieldTypeString",
+          "alias": "TxtJust"
+        },
+        {
+          "name": "VertAlign",
+          "type": "esriFieldTypeString",
+          "alias": "VertAlign"
+        },
+        {
+          "name": "TxtFont",
+          "type": "esriFieldTypeString",
+          "alias": "TxtFont"
+        },
+        {
+          "name": "TxtBoxHt",
+          "type": "esriFieldTypeDouble",
+          "alias": "TxtBoxHt"
+        },
+        {
+          "name": "TxtBoxWd",
+          "type": "esriFieldTypeDouble",
+          "alias": "TxtBoxWd"
+        },
+        {
+          "name": "TxtRefWd",
+          "type": "esriFieldTypeDouble",
+          "alias": "TxtRefWd"
+        },
+        {
+          "name": "TxtAttach",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TxtAttach"
+        },
+        {
+          "name": "TxtDir",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TxtDir"
+        },
+        {
+          "name": "LnSpace",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LnSpace"
+        },
+        {
+          "name": "SpaceFct",
+          "type": "esriFieldTypeDouble",
+          "alias": "SpaceFct"
+        },
+        {
+          "name": "TxtMemo",
+          "type": "esriFieldTypeString",
+          "alias": "TxtMemo"
+        },
+        {
+          "name": "EDITOR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "EDITOR_NAME"
+        },
+        {
+          "name": "EDIT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EDIT_DATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "MISCELLANEOUS",
+      "title": "MISCELLANEOUS",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "LAKE",
+      "title": "LAKE",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "RIVER",
+      "title": "RIVER",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "PROTECTED",
+      "title": "PROTECTED",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Water Lines",
+      "title": "Water Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "COLOR",
+          "type": "esriFieldTypeDouble",
+          "alias": "COLOR"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "LINETYPE",
+          "type": "esriFieldTypeString",
+          "alias": "LINETYPE"
+        },
+        {
+          "name": "LINEWEIGHT",
+          "type": "esriFieldTypeDouble",
+          "alias": "LINEWEIGHT"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "Direction",
+          "type": "esriFieldTypeString",
+          "alias": "COGO Direction"
+        },
+        {
+          "name": "Distance",
+          "type": "esriFieldTypeString",
+          "alias": "COGO Distance"
+        },
+        {
+          "name": "Delta",
+          "type": "esriFieldTypeString",
+          "alias": "COGO Delta"
+        },
+        {
+          "name": "Radius",
+          "type": "esriFieldTypeString",
+          "alias": "COGO Radius"
+        },
+        {
+          "name": "Tangent",
+          "type": "esriFieldTypeString",
+          "alias": "COGO Tangent"
+        },
+        {
+          "name": "ArcLength",
+          "type": "esriFieldTypeString",
+          "alias": "COGO ArcLength"
+        },
+        {
+          "name": "Side",
+          "type": "esriFieldTypeString",
+          "alias": "COGO Side"
+        },
+        {
+          "name": "EDITOR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "EDITOR_NAME"
+        },
+        {
+          "name": "EDIT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EDIT_DATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "DNR Protected Waters ID",
+      "title": "DNR Protected Waters ID",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PWATER_",
+          "type": "esriFieldTypeDouble",
+          "alias": "PWATER_"
+        },
+        {
+          "name": "PWATER_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "PWATER_ID"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "COLOR",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "COLOR"
+        },
+        {
+          "name": "THICKN",
+          "type": "esriFieldTypeDouble",
+          "alias": "THICKN"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "ELEVAT",
+          "type": "esriFieldTypeDouble",
+          "alias": "ELEVAT"
+        },
+        {
+          "name": "HANDLE",
+          "type": "esriFieldTypeString",
+          "alias": "HANDLE"
+        },
+        {
+          "name": "ANGLE",
+          "type": "esriFieldTypeDouble",
+          "alias": "ANGLE"
+        },
+        {
+          "name": "SIZE",
+          "type": "esriFieldTypeDouble",
+          "alias": "SIZE"
+        },
+        {
+          "name": "TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "TEXT"
+        },
+        {
+          "name": "ATTRIB",
+          "type": "esriFieldTypeString",
+          "alias": "ATTRIB"
+        },
+        {
+          "name": "IID",
+          "type": "esriFieldTypeDouble",
+          "alias": "IID"
+        },
+        {
+          "name": "EDITOR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "EDITOR_NAME"
+        },
+        {
+          "name": "EDIT_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "EDIT_DATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 226,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

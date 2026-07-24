@@ -1,0 +1,85 @@
+{
+  "slug": "data-sac-isc-gc-ca-premiere-nation-first-nation-mapserver",
+  "service_key": "ESRI MapServer:https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Premiere_Nation_First_Nation/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://data.sac-isc.gc.ca/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Premiere_Nation_First_Nation/MapServer",
+  "title": "Premiere_Nation_First_Nation",
+  "description": "First Nations boundaries and administrative areas in Canada.",
+  "abstract": "Premieres Nations / First Nations",
+  "provider": "data.sac-isc.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Première Nation / First Nation",
+      "title": "Première Nation / First Nation",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BAND_NUMBER",
+          "type": "esriFieldTypeInteger",
+          "alias": "Numéro de bande / Band Number"
+        },
+        {
+          "name": "BAND_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Nom de bande / Band Name"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4140"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1307,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

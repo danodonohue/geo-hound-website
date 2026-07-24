@@ -1,0 +1,249 @@
+{
+  "slug": "maps-gdc-govt-nz-park-facilities-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/GDC_Utilities/park_facilities_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/GDC_Utilities/park_facilities_ext/MapServer",
+  "title": "park_facilities_ext",
+  "description": "Parks assets and facilities linked to internal asset management system.",
+  "abstract": "GDC Parks Assets linked to IPS8",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Parks Assets and Facilities",
+      "title": "Parks Assets and Facilities",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNITID"
+        },
+        {
+          "name": "CompKey",
+          "type": "esriFieldTypeDouble",
+          "alias": "CompKey"
+        },
+        {
+          "name": "AssetType",
+          "type": "esriFieldTypeString",
+          "alias": "AssetType"
+        },
+        {
+          "name": "UnitDesc",
+          "type": "esriFieldTypeString",
+          "alias": "UnitDesc"
+        },
+        {
+          "name": "ManagedBy",
+          "type": "esriFieldTypeString",
+          "alias": "ManagedBy"
+        },
+        {
+          "name": "MaintenanceGrade",
+          "type": "esriFieldTypeString",
+          "alias": "MaintenanceGrade"
+        },
+        {
+          "name": "BotanicalName",
+          "type": "esriFieldTypeString",
+          "alias": "BotanicalName"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "ExpireDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ExpireDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "LocationComments",
+          "type": "esriFieldTypeString",
+          "alias": "LocationComments"
+        },
+        {
+          "name": "TreeRiskRating",
+          "type": "esriFieldTypeString",
+          "alias": "TreeRiskRating"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Park Building",
+      "title": "Park Building",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNITID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "UnitDesc",
+          "type": "esriFieldTypeString",
+          "alias": "UnitDesc"
+        },
+        {
+          "name": "ManagedBy",
+          "type": "esriFieldTypeString",
+          "alias": "ManagedBy"
+        },
+        {
+          "name": "ExpireDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ExpireDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape Area"
+        },
+        {
+          "name": "LocationComments",
+          "type": "esriFieldTypeString",
+          "alias": "LocationComments"
+        },
+        {
+          "name": "Last_Updated",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Park Site",
+      "title": "Park Site",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "UNITID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "COMPKEY",
+          "type": "esriFieldTypeInteger",
+          "alias": "COMPKEY"
+        },
+        {
+          "name": "UnitDesc",
+          "type": "esriFieldTypeString",
+          "alias": "UnitDesc"
+        },
+        {
+          "name": "ExpireDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ExpireDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape Area"
+        },
+        {
+          "name": "LocationComments",
+          "type": "esriFieldTypeString",
+          "alias": "LocationComments"
+        },
+        {
+          "name": "LastUpdated",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Updated"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 63,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

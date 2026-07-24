@@ -1,0 +1,48 @@
+{
+  "slug": "tiles-eu1-arcgis-com-capas-mapserver",
+  "service_key": "ESRI MapServer:https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/ESVC_Calc%C3%A1reo_0_50_cm_1/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://tiles-eu1.arcgis.com/5I7gLEk2dR6ptFuu/arcgis/rest/services/ESVC_Calc%C3%A1reo_0_50_cm_1/MapServer",
+  "title": "Capas",
+  "description": "Soil limestone calcium carbonate content at 0-50 cm depth.",
+  "abstract": "Calcáreo 0-50 cm",
+  "provider": "tiles-eu1.arcgis.com",
+  "place": {
+    "country": "Spain",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "soils",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "ESVC_Calcáreo 0-50 cm",
+      "title": "ESVC_Calcáreo 0-50 cm",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "MIXED"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1071,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "slug": "gis-wcc-govt-nz-boundaries-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Boundaries/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/PropertyAndBoundaries/Boundaries/MapServer",
+  "title": "Boundaries",
+  "description": "Administrative boundaries including wards, suburbs and council areas for Wellington",
+  "abstract": "Territorial and other administrative boundaries. ",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Community Boards 2016-2019",
+      "title": "Community Boards 2016-2019",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "name_",
+          "type": "esriFieldTypeString",
+          "alias": "name_"
+        },
+        {
+          "name": "shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Length"
+        },
+        {
+          "name": "shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Community Boards 2019-2022",
+      "title": "Community Boards 2019-2022",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "name_",
+          "type": "esriFieldTypeString",
+          "alias": "name_"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Wards 2019-2022",
+      "title": "Wards 2019-2022",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ward_name",
+          "type": "esriFieldTypeString",
+          "alias": "ward_name"
+        },
+        {
+          "name": "pop_2001",
+          "type": "esriFieldTypeInteger",
+          "alias": "pop_2001"
+        },
+        {
+          "name": "so_plan",
+          "type": "esriFieldTypeString",
+          "alias": "so_plan"
+        },
+        {
+          "name": "year",
+          "type": "esriFieldTypeInteger",
+          "alias": "year"
+        },
+        {
+          "name": "Maori_Ward",
+          "type": "esriFieldTypeString",
+          "alias": "Maori_Ward"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Wards 2022-2025",
+      "title": "Wards 2022-2025",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ward_name",
+          "type": "esriFieldTypeString",
+          "alias": "ward_name"
+        },
+        {
+          "name": "pop_2001",
+          "type": "esriFieldTypeInteger",
+          "alias": "pop_2001"
+        },
+        {
+          "name": "so_plan",
+          "type": "esriFieldTypeString",
+          "alias": "so_plan"
+        },
+        {
+          "name": "year",
+          "type": "esriFieldTypeInteger",
+          "alias": "year"
+        },
+        {
+          "name": "Maori_Ward",
+          "type": "esriFieldTypeString",
+          "alias": "Maori_Ward"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Te Whanganui-a-Tara Māori Ward",
+      "title": "Te Whanganui-a-Tara Māori Ward",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "year",
+          "type": "esriFieldTypeInteger",
+          "alias": "year"
+        },
+        {
+          "name": "Maori_Ward",
+          "type": "esriFieldTypeString",
+          "alias": "Maori_Ward"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Suburbs",
+      "title": "Suburbs",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "postcode",
+          "type": "esriFieldTypeDouble",
+          "alias": "Postcode"
+        },
+        {
+          "name": "supply_dat",
+          "type": "esriFieldTypeDouble",
+          "alias": "supply_dat"
+        },
+        {
+          "name": "suburb",
+          "type": "esriFieldTypeString",
+          "alias": "Suburb"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Postcodes",
+      "title": "Postcodes",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "postcode",
+          "type": "esriFieldTypeString",
+          "alias": "postcode"
+        },
+        {
+          "name": "box_bag_yn",
+          "type": "esriFieldTypeString",
+          "alias": "box_bag_yn"
+        },
+        {
+          "name": "urban_yn",
+          "type": "esriFieldTypeString",
+          "alias": "urban_yn"
+        },
+        {
+          "name": "by_rd_yn",
+          "type": "esriFieldTypeString",
+          "alias": "by_rd_yn"
+        },
+        {
+          "name": "source_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "source_id"
+        },
+        {
+          "name": "ps_zone_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "ps_zone_id"
+        },
+        {
+          "name": "centre_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "centre_id"
+        },
+        {
+          "name": "mod_date",
+          "type": "esriFieldTypeDate",
+          "alias": "mod_date"
+        },
+        {
+          "name": "user_id",
+          "type": "esriFieldTypeString",
+          "alias": "user_id"
+        },
+        {
+          "name": "object_id",
+          "type": "esriFieldTypeDouble",
+          "alias": "object_id"
+        },
+        {
+          "name": "line_area",
+          "type": "esriFieldTypeString",
+          "alias": "line_area"
+        },
+        {
+          "name": "city_town",
+          "type": "esriFieldTypeString",
+          "alias": "city_town"
+        },
+        {
+          "name": "psz_name",
+          "type": "esriFieldTypeString",
+          "alias": "psz_name"
+        },
+        {
+          "name": "rd_name",
+          "type": "esriFieldTypeString",
+          "alias": "rd_name"
+        },
+        {
+          "name": "shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Length"
+        },
+        {
+          "name": "shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Downtown Levy Area",
+      "title": "Downtown Levy Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Wellington City Buildings",
+      "title": "Wellington City Buildings",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "ASSET_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_ID"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "location"
+        },
+        {
+          "name": "WCCSITE",
+          "type": "esriFieldTypeString",
+          "alias": "WCCSITE"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "BUILDING_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "BUILDING_CODE"
+        },
+        {
+          "name": "BUILDING_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "BUILDING_NAME"
+        },
+        {
+          "name": "VISION_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "VISION_ADDRESS"
+        },
+        {
+          "name": "SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "SUBURB"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "ASSET_OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_OWNER"
+        },
+        {
+          "name": "MANAGING_BU",
+          "type": "esriFieldTypeString",
+          "alias": "MANAGING_BU"
+        },
+        {
+          "name": "VISIONCRE_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "VISIONCRE_AREA"
+        },
+        {
+          "name": "CAR_PARKS",
+          "type": "esriFieldTypeDouble",
+          "alias": "CAR_PARKS"
+        },
+        {
+          "name": "DATE_ADDED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_ADDED"
+        },
+        {
+          "name": "DATE_INACTIVE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_INACTIVE"
+        },
+        {
+          "name": "SYSTEMID",
+          "type": "esriFieldTypeOID",
+          "alias": "SYSTEMID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Wellington City Sites",
+      "title": "Wellington City Sites",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SYSTEMID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "link",
+          "type": "esriFieldTypeString",
+          "alias": "link"
+        },
+        {
+          "name": "link_sec",
+          "type": "esriFieldTypeString",
+          "alias": "link_sec"
+        },
+        {
+          "name": "usercode",
+          "type": "esriFieldTypeString",
+          "alias": "usercode"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "WCCSITE",
+          "type": "esriFieldTypeString",
+          "alias": "WCCSITE"
+        },
+        {
+          "name": "PROPERTY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "PROPERTY_NAME"
+        },
+        {
+          "name": "VISION_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "VISION_ADDRESS"
+        },
+        {
+          "name": "SUBURB",
+          "type": "esriFieldTypeString",
+          "alias": "SUBURB"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "CITY"
+        },
+        {
+          "name": "TYPE_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_CODE"
+        },
+        {
+          "name": "TYPE_",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE_"
+        },
+        {
+          "name": "ASSET_OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "ASSET_OWNER"
+        },
+        {
+          "name": "MANAGING_BU",
+          "type": "esriFieldTypeString",
+          "alias": "MANAGING_BU"
+        },
+        {
+          "name": "OCCUPIED_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "OCCUPIED_AREA"
+        },
+        {
+          "name": "DATE_ADDED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_ADDED"
+        },
+        {
+          "name": "DATE_INACTIVATED",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_INACTIVATED"
+        },
+        {
+          "name": "LAND_VALUE",
+          "type": "esriFieldTypeString",
+          "alias": "LAND_VALUE"
+        },
+        {
+          "name": "IMPROVE_VALUE",
+          "type": "esriFieldTypeString",
+          "alias": "IMPROVE_VALUE"
+        },
+        {
+          "name": "VALUATION_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "VALUATION_DATE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Development Contributions Zone (2009)",
+      "title": "Development Contributions Zone (2009)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "zone",
+          "type": "esriFieldTypeString",
+          "alias": "zone"
+        },
+        {
+          "name": "label",
+          "type": "esriFieldTypeString",
+          "alias": "label"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Wellington City Council Boundary",
+      "title": "Wellington City Council Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TA_NO",
+          "type": "esriFieldTypeString",
+          "alias": "TA_NO"
+        },
+        {
+          "name": "TA_Name",
+          "type": "esriFieldTypeString",
+          "alias": "TA_NAME"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "Land_Area_km2",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 53,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

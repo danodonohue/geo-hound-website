@@ -1,0 +1,715 @@
+{
+  "slug": "gis-ecan-govt-nz-river-and-coastal-hazards-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ecan.govt.nz/arcgis/rest/services/Public/River_and_Coastal_Hazards/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ecan.govt.nz/arcgis/rest/services/Public/River_and_Coastal_Hazards/MapServer",
+  "title": "River_and_Coastal_Hazards",
+  "description": "Public GIS service providing geographic data and mapping.",
+  "abstract": "River Engineering's benchmark network",
+  "provider": "gis.ecan.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 2,
+      "name": "River Benchmarks",
+      "title": "River Benchmarks",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "HEIGHT",
+          "type": "esriFieldTypeDouble",
+          "alias": "HEIGHT"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPTION"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "DataSOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "DataSOURCE"
+        },
+        {
+          "name": "COMMENTS",
+          "type": "esriFieldTypeString",
+          "alias": "COMMENTS"
+        },
+        {
+          "name": "X_DISPLAY",
+          "type": "esriFieldTypeInteger",
+          "alias": "X_DISPLAY"
+        },
+        {
+          "name": "Y_DISPLAY",
+          "type": "esriFieldTypeInteger",
+          "alias": "Y_DISPLAY"
+        },
+        {
+          "name": "SpatialAccuracy",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SpatialAccuracy"
+        },
+        {
+          "name": "WGS84_LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_LONGITUDE"
+        },
+        {
+          "name": "WGS84_LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "WGS84_LATITUDE"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreatedDate"
+        },
+        {
+          "name": "ModifiedBy",
+          "type": "esriFieldTypeString",
+          "alias": "ModifiedBy"
+        },
+        {
+          "name": "ModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ModifiedDate"
+        },
+        {
+          "name": "PublishedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "PublishedDate"
+        },
+        {
+          "name": "ProcessDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ProcessDate"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Q__POINT",
+          "type": "esriFieldTypeString",
+          "alias": "Q__POINT"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Code",
+          "type": "esriFieldTypeString",
+          "alias": "Code"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SUBTYPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Fairway and Berm Condition Editor",
+      "title": "Fairway and Berm Condition Editor",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Condition",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "Reach",
+          "type": "esriFieldTypeString",
+          "alias": "Reach"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeString",
+          "alias": "Position"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "YearGroup",
+          "type": "esriFieldTypeString",
+          "alias": "YearGroup"
+        },
+        {
+          "name": "River",
+          "type": "esriFieldTypeString",
+          "alias": "River"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Reassessment_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Reassessment_Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Fairway and Berm Condition 2017 - 2023",
+      "title": "Fairway and Berm Condition 2017 - 2023",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Condition",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "Reach",
+          "type": "esriFieldTypeString",
+          "alias": "Reach"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeString",
+          "alias": "Position"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "YearGroup",
+          "type": "esriFieldTypeString",
+          "alias": "YearGroup"
+        },
+        {
+          "name": "River",
+          "type": "esriFieldTypeString",
+          "alias": "River"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Reassessment_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Reassessment_Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Fairway and Berm Condition 2024 - 2028",
+      "title": "Fairway and Berm Condition 2024 - 2028",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Id",
+          "type": "esriFieldTypeInteger",
+          "alias": "Id"
+        },
+        {
+          "name": "Condition",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "Reach",
+          "type": "esriFieldTypeString",
+          "alias": "Reach"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "Position",
+          "type": "esriFieldTypeString",
+          "alias": "Position"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "YearGroup",
+          "type": "esriFieldTypeString",
+          "alias": "YearGroup"
+        },
+        {
+          "name": "River",
+          "type": "esriFieldTypeString",
+          "alias": "River"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Reassessment_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Reassessment_Date"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "Survey Cross Sections",
+      "title": "Survey Cross Sections",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreatedDate"
+        },
+        {
+          "name": "ModifiedBy",
+          "type": "esriFieldTypeString",
+          "alias": "ModifiedBy"
+        },
+        {
+          "name": "ModifiedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ModifiedDate"
+        },
+        {
+          "name": "PublishedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "PublishedDate"
+        },
+        {
+          "name": "ProcessDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ProcessDate"
+        },
+        {
+          "name": "ProcessID",
+          "type": "esriFieldTypeString",
+          "alias": "ProcessID"
+        },
+        {
+          "name": "Label1",
+          "type": "esriFieldTypeString",
+          "alias": "Label1"
+        },
+        {
+          "name": "Label2",
+          "type": "esriFieldTypeString",
+          "alias": "Label2"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Survey_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Survey_Area"
+        },
+        {
+          "name": "Coastal_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Coastal_Area"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Calculated Cross Sections",
+      "title": "Calculated Cross Sections",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "River_Branch",
+          "type": "esriFieldTypeString",
+          "alias": "River_Branch"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "CreatedBy",
+          "type": "esriFieldTypeString",
+          "alias": "CreatedBy"
+        },
+        {
+          "name": "CreatedDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreatedDate"
+        },
+        {
+          "name": "DataSource",
+          "type": "esriFieldTypeString",
+          "alias": "DataSource"
+        },
+        {
+          "name": "Chainage",
+          "type": "esriFieldTypeSingle",
+          "alias": "Chainage"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Gravel Availability",
+      "title": "Gravel Availability",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeDouble",
+          "alias": "id"
+        },
+        {
+          "name": "csid",
+          "type": "esriFieldTypeString",
+          "alias": "csid"
+        },
+        {
+          "name": "rivername",
+          "type": "esriFieldTypeString",
+          "alias": "rivername"
+        },
+        {
+          "name": "distance_m",
+          "type": "esriFieldTypeString",
+          "alias": "distance_m"
+        },
+        {
+          "name": "avail",
+          "type": "esriFieldTypeString",
+          "alias": "avail"
+        },
+        {
+          "name": "colour",
+          "type": "esriFieldTypeString",
+          "alias": "colour"
+        },
+        {
+          "name": "message",
+          "type": "esriFieldTypeString",
+          "alias": "message"
+        },
+        {
+          "name": "link",
+          "type": "esriFieldTypeString",
+          "alias": "link"
+        },
+        {
+          "name": "last_surv",
+          "type": "esriFieldTypeString",
+          "alias": "last_surv"
+        },
+        {
+          "name": "last_calc",
+          "type": "esriFieldTypeString",
+          "alias": "last_calc"
+        },
+        {
+          "name": "next_calc",
+          "type": "esriFieldTypeString",
+          "alias": "next_calc"
+        },
+        {
+          "name": "consents",
+          "type": "esriFieldTypeString",
+          "alias": "consents"
+        },
+        {
+          "name": "shape_star",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_star"
+        },
+        {
+          "name": "shape_stle",
+          "type": "esriFieldTypeDouble",
+          "alias": "shape_stle"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 25,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.9,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

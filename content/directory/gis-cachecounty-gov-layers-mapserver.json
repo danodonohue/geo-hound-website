@@ -1,0 +1,606 @@
+{
+  "slug": "gis-cachecounty-gov-layers-mapserver",
+  "service_key": "ESRI MapServer:https://gis.cachecounty.gov/arcgis/rest/services/BaseMap/Parcels_Current/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.cachecounty.gov/arcgis/rest/services/BaseMap/Parcels_Current/MapServer",
+  "title": "Layers",
+  "description": "2014 parcel data with ownership and taxation information for Cache County.",
+  "abstract": "2014 Parcels",
+  "provider": "gis.cachecounty.gov",
+  "place": {
+    "country": "United States",
+    "state": "Utah",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Cache Parcels",
+      "title": "Cache Parcels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "giscache.sde.parcel_current.objectid"
+        },
+        {
+          "name": "tax_id",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel ID"
+        },
+        {
+          "name": "system_id",
+          "type": "esriFieldTypeInteger",
+          "alias": "System ID"
+        },
+        {
+          "name": "owner_name",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Name"
+        },
+        {
+          "name": "owner_address1",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Address"
+        },
+        {
+          "name": "owner_address2",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Address 2"
+        },
+        {
+          "name": "owner_city_state_zip",
+          "type": "esriFieldTypeString",
+          "alias": "Owner City State Zip"
+        },
+        {
+          "name": "owner_address_complete",
+          "type": "esriFieldTypeString",
+          "alias": "Owner Address Complete"
+        },
+        {
+          "name": "property_address",
+          "type": "esriFieldTypeString",
+          "alias": "Property Address"
+        },
+        {
+          "name": "property_city",
+          "type": "esriFieldTypeString",
+          "alias": "Property City"
+        },
+        {
+          "name": "address_complete",
+          "type": "esriFieldTypeString",
+          "alias": "Property Address Complete"
+        },
+        {
+          "name": "zone_primary",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Primary"
+        },
+        {
+          "name": "zone_primary_description",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Primary Description"
+        },
+        {
+          "name": "zone_secondary",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Secondary"
+        },
+        {
+          "name": "zone_secondary_description",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Secondary Description"
+        },
+        {
+          "name": "conservation_easement_entry",
+          "type": "esriFieldTypeInteger",
+          "alias": "Conservation Easement"
+        },
+        {
+          "name": "restricted",
+          "type": "esriFieldTypeString",
+          "alias": "Restricted"
+        },
+        {
+          "name": "comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "book_page",
+          "type": "esriFieldTypeString",
+          "alias": "Book & Page"
+        },
+        {
+          "name": "district_code",
+          "type": "esriFieldTypeString",
+          "alias": "District Code"
+        },
+        {
+          "name": "district_code_definition",
+          "type": "esriFieldTypeString",
+          "alias": "District Code Definition"
+        },
+        {
+          "name": "acreage",
+          "type": "esriFieldTypeDouble",
+          "alias": "Acreage"
+        },
+        {
+          "name": "land_type",
+          "type": "esriFieldTypeString",
+          "alias": "Land Type"
+        },
+        {
+          "name": "building_type",
+          "type": "esriFieldTypeString",
+          "alias": "Building Type"
+        },
+        {
+          "name": "building_specific_type",
+          "type": "esriFieldTypeString",
+          "alias": "Building Specific Type"
+        },
+        {
+          "name": "year_built",
+          "type": "esriFieldTypeInteger",
+          "alias": "Year Built"
+        },
+        {
+          "name": "building_sqr_feet",
+          "type": "esriFieldTypeInteger",
+          "alias": "Building Sqr Ft"
+        },
+        {
+          "name": "land_market_value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Market Value"
+        },
+        {
+          "name": "building_market_value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Building Market Value"
+        },
+        {
+          "name": "land_tax_value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Tax Value"
+        },
+        {
+          "name": "building_tax_value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Building Tax Value"
+        },
+        {
+          "name": "last_year_taxed_value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Last Year Tax Value"
+        },
+        {
+          "name": "proposed_tax_value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Proposed Tax Value"
+        },
+        {
+          "name": "certified_tax_value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Certified Tax Value"
+        },
+        {
+          "name": "freeze_year",
+          "type": "esriFieldTypeInteger",
+          "alias": "Freeze Year"
+        },
+        {
+          "name": "effective_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Effective Date"
+        },
+        {
+          "name": "tax_status",
+          "type": "esriFieldTypeInteger",
+          "alias": "Tax Status"
+        },
+        {
+          "name": "owner_plat_1",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #1"
+        },
+        {
+          "name": "owner_plat_2",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #2"
+        },
+        {
+          "name": "owner_plat_3",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #3"
+        },
+        {
+          "name": "owner_plat_4",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #4"
+        },
+        {
+          "name": "owner_plat_5",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #5"
+        },
+        {
+          "name": "owner_plat_6",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #6"
+        },
+        {
+          "name": "owner_plat_7",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #7"
+        },
+        {
+          "name": "owner_plat_8",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #8"
+        },
+        {
+          "name": "owner_plat_9",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #9"
+        },
+        {
+          "name": "owner_plat_10",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #10"
+        },
+        {
+          "name": "owner_plat_11",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #11"
+        },
+        {
+          "name": "owner_plat_12",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #12"
+        },
+        {
+          "name": "owner_plat_13",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #13"
+        },
+        {
+          "name": "owner_plat_14",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #14"
+        },
+        {
+          "name": "owner_plat_15",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #15"
+        },
+        {
+          "name": "owner_plat_16",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #16"
+        },
+        {
+          "name": "owner_plat_17",
+          "type": "esriFieldTypeString",
+          "alias": "Recorder Plat #17"
+        },
+        {
+          "name": "plat_1970",
+          "type": "esriFieldTypeString",
+          "alias": "1970 Recorder's Plat"
+        },
+        {
+          "name": "parcel_num_1970",
+          "type": "esriFieldTypeString",
+          "alias": "1970 Parcel ID"
+        },
+        {
+          "name": "plat_1978",
+          "type": "esriFieldTypeString",
+          "alias": "1978 Recorder's Plat"
+        },
+        {
+          "name": "parcel_num_1978",
+          "type": "esriFieldTypeString",
+          "alias": "1978 Parcel ID"
+        },
+        {
+          "name": "plats_2006",
+          "type": "esriFieldTypeString",
+          "alias": "2006 Plats"
+        },
+        {
+          "name": "legal",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "core_url",
+          "type": "esriFieldTypeString",
+          "alias": "Core Link"
+        },
+        {
+          "name": "acreage_gis",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS Acreage"
+        },
+        {
+          "name": "ext_min_x",
+          "type": "esriFieldTypeDouble",
+          "alias": "ext_min_x"
+        },
+        {
+          "name": "ext_min_y",
+          "type": "esriFieldTypeDouble",
+          "alias": "ext_min_y"
+        },
+        {
+          "name": "ext_max_x",
+          "type": "esriFieldTypeDouble",
+          "alias": "ext_max_x"
+        },
+        {
+          "name": "ext_max_y",
+          "type": "esriFieldTypeDouble",
+          "alias": "ext_max_y"
+        },
+        {
+          "name": "ortho_bounding_box_url",
+          "type": "esriFieldTypeString",
+          "alias": "ORTHO Bounding Box"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "giscache.sde.parcel_current.created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "giscache.sde.parcel_current.created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "giscache.sde.parcel_current.last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "giscache.sde.parcel_current.last_edited_date"
+        },
+        {
+          "name": "land_district",
+          "type": "esriFieldTypeString",
+          "alias": "Land District"
+        },
+        {
+          "name": "sfr",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR"
+        },
+        {
+          "name": "sfr_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR Future"
+        },
+        {
+          "name": "sfr_ad",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR ad"
+        },
+        {
+          "name": "sfr_ad_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR ad Future"
+        },
+        {
+          "name": "sfr_apt",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR Apt"
+        },
+        {
+          "name": "sfr_apt_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR Apt Future"
+        },
+        {
+          "name": "sfr_multi",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR Multi"
+        },
+        {
+          "name": "sfr_multi_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SFR Multi Future"
+        },
+        {
+          "name": "duplex",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Duplex"
+        },
+        {
+          "name": "duplex_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Duplex Future"
+        },
+        {
+          "name": "plex_3",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "3 Plex"
+        },
+        {
+          "name": "plex_3_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "3 Plex Future"
+        },
+        {
+          "name": "plex_4",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "4 Plex"
+        },
+        {
+          "name": "plex_4_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "4 Plex Future"
+        },
+        {
+          "name": "condo",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Condo"
+        },
+        {
+          "name": "condo_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Condo Future"
+        },
+        {
+          "name": "townhouse",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Townhouse"
+        },
+        {
+          "name": "townhouse_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Townhouse Future"
+        },
+        {
+          "name": "twin_home",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Twin Home"
+        },
+        {
+          "name": "twin_home_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Twin Home Future"
+        },
+        {
+          "name": "low_rise_multi",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Low Rise Multi"
+        },
+        {
+          "name": "low_rise_multi_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Low Rise Multi Future"
+        },
+        {
+          "name": "mixed_use",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Mixed Use"
+        },
+        {
+          "name": "mixed_use_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Mixed Use Future"
+        },
+        {
+          "name": "mobile_home_park",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Mobile Home Park"
+        },
+        {
+          "name": "mobile_home_park_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Mobile Home Park Future"
+        },
+        {
+          "name": "cabin",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Cabin"
+        },
+        {
+          "name": "cabin_future",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Cabin Future"
+        },
+        {
+          "name": "fire_zone",
+          "type": "esriFieldTypeString",
+          "alias": "Fire Zone"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "giscache.sde.parcel_current.shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "giscache.sde.parcel_current.st_area(shape)"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "giscache.sde.parcel_current.st_length(shape)"
+        },
+        {
+          "name": "parcel_history",
+          "type": "esriFieldTypeString",
+          "alias": "Parcel History"
+        },
+        {
+          "name": "property_city_hs",
+          "type": "esriFieldTypeString",
+          "alias": "Property City Housing Stock"
+        },
+        {
+          "name": "building_specific_type_hs",
+          "type": "esriFieldTypeString",
+          "alias": "Building Specific Type Housing Stock"
+        },
+        {
+          "name": "core_owner_maps_url",
+          "type": "esriFieldTypeString",
+          "alias": "CORE Owner Maps"
+        },
+        {
+          "name": "taz_id",
+          "type": "esriFieldTypeString",
+          "alias": "taz_id"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102742"
+  ],
+  "cors_enabled": true,
+  "response_ms": 610,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

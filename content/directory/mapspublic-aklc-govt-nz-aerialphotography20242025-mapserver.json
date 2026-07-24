@@ -1,0 +1,215 @@
+{
+  "slug": "mapspublic-aklc-govt-nz-aerialphotography20242025-mapserver",
+  "service_key": "ESRI MapServer:https://mapspublic.aklc.govt.nz/arcgis/rest/services/Raster/AerialPhotography20242025/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aklc.govt.nz/arcgis/rest/services/Raster/AerialPhotography20242025/MapServer",
+  "title": "AerialPhotography20242025",
+  "description": "Recent aerial photography of Auckland and Waikato districts from 2023-2024.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><DIV><P><SPAN>Phase 1: Aerial photography was captured over the Auckland and Waikato Districts covering approximately 2,051 km². The data was captured between September 2023 – April 2024.</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Phase 2: Aerial photography was captured over the Auckland District, covering approximately 1,949 km². The data was captured between September 2023 – April 2024.</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Phase 3 (To be delivered in September 2025) : Aerial photography was captured for the Auckland District covering approximately 2,129 km². Data capture took place between March 2024 – April 2025.</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Ortho Specification</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Ortho imagery: Three-band</SPAN></P><P><SPAN /></P><P><SPAN>Spectral resolution: Red, Green, Blue</SPAN></P><P><SPAN /></P><P><SPAN>Pixel resolution: 0.075 m GSD (7.5 cm)</SPAN></P><P><SPAN /></P><P><SPAN>Tile index: Tile index for the project area</SPAN></P><P><SPAN /></P><P><SPAN>Spatial accuracy: ±0.15 m @ 95% confidence level in clear flat open spaces (2 sigma)</SPAN></P><P><SPAN /></P><P><SPAN>Aligned to LINZ 1:1,000 map sheet layout (480 m x 720 m)</SPAN></P><P><SPAN /></P><P><SPAN>Tiles supplied: 17,739 (1:1,000 map sheet tiles)</SPAN></P><P><SPAN /></P><P><SPAN>Tile size: approx. 10MB / tile</SPAN></P><P><SPAN /></P><P><SPAN>Image format: JPEG</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Note: Auckland Council can provide R-G-B-NIR imagery for the area in GEOTIFF format as well</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Map Projection</SPAN></P><P><SPAN /></P><P><SPAN>All spatial data for this project provided in terms of New Zealand Transverse Mercator 2000 map projection (NZTM2000). The ellipsoidal datum is New Zealand Geodetic Datum 2000 (NZGD2000). The airborne GPS and ground control GPS data was converted from ellipsoidal heights into orthometric heights using the LINZ NZGeoid16 separation model. For this project the orthometric vertical datum is New Zealand Vertical Datum 2016 (NZVD2016).</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Equipment</SPAN></P><P><SPAN /></P><P><SPAN>The majority of the photography was captured using Vexcel's digital UltraCam Eagle Mark 3 (UCE-3) camera fitted with the 100 mm lens and flown at an altitude of approximately 4,732 ft (1,442 m) with the lowest ground GSD set at 0.075 m. This camera was fitted to a GSM 3000 gyro-stabilised mount and IGI AEROcontrol GNSS/IMU positioning system. Some portions were flown using Vexcel's digital UltraCam Lp (UCLp) camera fitted with the 70 mm lens and flown at an altitude of approximately 2,952 ft (900m).</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Sun Angle</SPAN></P><P><SPAN /></P><P><SPAN>Imagery captured with a minimum sun angle of +40 degrees subject to a 5-degree tolerance when capture is in progress. It was agreed (February 2024) to lower the sun angle to +30 degrees over rural areas and +40 degrees over urban/city areas. The sun angle of the imagery used for the orthorectification ranged from 32 to 59 degrees.</SPAN></P><P><SPAN /></P><P><SPAN /></P><P><SPAN>Urban Building Displacement Specification</SPAN></P><P><SPAN /></P><P><SPAN>Urban 0.075 m GSD imagery – using the UCE-3 camera and by flying with 60% forward overlap and with 35% sidelap (standard stereo coverage) will achieve &lt;1 m building lean per 3 m height in the corners of the imagery used. Tall structures inwards of the corner of the frame will have less lean the closer to the nadir they are.</SPAN></P><P><SPAN /></P><P><SPAN>&lt;0.37 m building lean per 3 m of height in the corners of the imagery using increased 80/80 overlap in the CBD area. Very tall buildings have been further straightened using manual techniques. To help reduce building lean in the CBD area additional processing has been applied to produce true orthos for building verticality.</SPAN></P><P><SPAN /></P><P><SPAN>Ground Control</SPAN></P><P><SPAN /></P><P><SPAN>A combination of existing control and LINZ benchmarks were observed for use with the aerial triangulation and bundle adjustment.</SPAN></P><P><SPAN /></P><P><SPAN>DTM for Ortho Production</SPAN></P><P><SPAN /></P><P><SPAN>The digital terrain model used for this project was derived from LiDAR DTM data flown in 2015. Outside the LiDAR DTM a new DTM was collected from the 0.075 m GSD stereo imagery using photogrammetric techniques, largely automated pixel matching and autocorrelation process. The DTM data was merged seamlessly and accuracy checked to meet the ortho imagery specification. The DTM was further processed and edited suitable for the ortho production.</SPAN></P></DIV></DIV>",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "imagery",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Aerial Photography 2024 2025",
+      "title": "Aerial Photography 2024 2025",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Boundary",
+      "title": "Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Footprint",
+      "title": "Footprint",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Uri",
+          "type": "esriFieldTypeBlob",
+          "alias": "Uri"
+        },
+        {
+          "name": "Folder",
+          "type": "esriFieldTypeString",
+          "alias": "Folder"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Image",
+      "title": "Image",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 31,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

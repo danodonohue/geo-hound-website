@@ -1,0 +1,967 @@
+{
+  "slug": "maps-norfolk-gov-uk-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://maps.norfolk.gov.uk/arcgis/rest/services/layers_ext/crm/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.norfolk.gov.uk/arcgis/rest/services/layers_ext/crm/MapServer",
+  "title": "Layers",
+  "description": "Road maintenance, infrastructure and rights of way management for Norfolk County",
+  "abstract": "Norfolk CRM data",
+  "provider": "maps.norfolk.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Maintenance Areas",
+      "title": "Maintenance Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ident"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Inspector Sectors",
+      "title": "Inspector Sectors",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SECTOR",
+          "type": "esriFieldTypeString",
+          "alias": "SECTOR"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Streetworks Area",
+      "title": "Streetworks Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "STREETWORK",
+          "type": "esriFieldTypeString",
+          "alias": "STREETWORK"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Streetworks Sector Areas",
+      "title": "Streetworks Sector Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Sect_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Sect_Name"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Winter Gritting Route P1and P2",
+      "title": "Winter Gritting Route P1and P2",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Winter Gritting Route P3",
+      "title": "Winter Gritting Route P3",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROUTE",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTE"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Grit Bins",
+      "title": "Grit Bins",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Parish",
+          "type": "esriFieldTypeString",
+          "alias": "Parish"
+        },
+        {
+          "name": "Insp_Area",
+          "type": "esriFieldTypeString",
+          "alias": "Insp_Area"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Bridges",
+      "title": "Bridges",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BR_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ident"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Bridge Name"
+        },
+        {
+          "name": "OWNER_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Streetlights",
+      "title": "Streetlights",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "UNITID",
+          "type": "esriFieldTypeString",
+          "alias": "ident"
+        },
+        {
+          "name": "REGIME",
+          "type": "esriFieldTypeString",
+          "alias": "REGIME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "mayrise",
+      "title": "mayrise",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_NAME"
+        },
+        {
+          "name": "PARISH",
+          "type": "esriFieldTypeString",
+          "alias": "PARISH"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        },
+        {
+          "name": "TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN"
+        },
+        {
+          "name": "SUB_PARISH",
+          "type": "esriFieldTypeString",
+          "alias": "SUB_PARISH"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "ELEC_DIV",
+          "type": "esriFieldTypeString",
+          "alias": "ELEC_DIV"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "INSP_BY",
+          "type": "esriFieldTypeString",
+          "alias": "INSP_BY"
+        },
+        {
+          "name": "STREETID",
+          "type": "esriFieldTypeString",
+          "alias": "STREETID"
+        },
+        {
+          "name": "NSGID",
+          "type": "esriFieldTypeString",
+          "alias": "NSGID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "SECT_REF",
+          "type": "esriFieldTypeString",
+          "alias": "SECT_REF"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "DESCRIPT"
+        },
+        {
+          "name": "START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "START_DATE"
+        },
+        {
+          "name": "ADMIN_UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "ADMIN_UNIT"
+        },
+        {
+          "name": "ROAD_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_NUM"
+        },
+        {
+          "name": "SECTION",
+          "type": "esriFieldTypeString",
+          "alias": "SECTION"
+        },
+        {
+          "name": "ADOPTED",
+          "type": "esriFieldTypeDate",
+          "alias": "ADOPTED"
+        },
+        {
+          "name": "OLD_SR",
+          "type": "esriFieldTypeString",
+          "alias": "OLD_SR"
+        },
+        {
+          "name": "SECTOR",
+          "type": "esriFieldTypeString",
+          "alias": "SECTOR"
+        },
+        {
+          "name": "LAYOUT",
+          "type": "esriFieldTypeString",
+          "alias": "LAYOUT"
+        },
+        {
+          "name": "CONSTRUCT",
+          "type": "esriFieldTypeString",
+          "alias": "CONSTRUCT"
+        },
+        {
+          "name": "ENVIRO",
+          "type": "esriFieldTypeString",
+          "alias": "ENVIRO"
+        },
+        {
+          "name": "SPEED_LIM",
+          "type": "esriFieldTypeString",
+          "alias": "SPEED_LIM"
+        },
+        {
+          "name": "TOWN_CENT",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN_CENT"
+        },
+        {
+          "name": "SURV_LEN",
+          "type": "esriFieldTypeString",
+          "alias": "SURV_LEN"
+        },
+        {
+          "name": "ROAD_HIER",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_HIER"
+        },
+        {
+          "name": "FWY_HIER",
+          "type": "esriFieldTypeString",
+          "alias": "FWY_HIER"
+        },
+        {
+          "name": "CYC_HIER",
+          "type": "esriFieldTypeString",
+          "alias": "CYC_HIER"
+        },
+        {
+          "name": "XTRAILS",
+          "type": "esriFieldTypeString",
+          "alias": "XTRAILS"
+        },
+        {
+          "name": "XCIRC_WALK",
+          "type": "esriFieldTypeString",
+          "alias": "XCIRC_WALK"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Intelligent Transport Systems",
+      "title": "Intelligent Transport Systems",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "LOCATION"
+        },
+        {
+          "name": "INST_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "INST_TYPE"
+        },
+        {
+          "name": "INST_NO",
+          "type": "esriFieldTypeString",
+          "alias": "ident"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Public Rights of Way",
+      "title": "Public Rights of Way",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "NE_UNIQUE",
+          "type": "esriFieldTypeString",
+          "alias": "NE_UNIQUE"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_NAME"
+        },
+        {
+          "name": "LINKCODE",
+          "type": "esriFieldTypeString",
+          "alias": "LINKCODE"
+        },
+        {
+          "name": "PARISH",
+          "type": "esriFieldTypeString",
+          "alias": "PARISH"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        },
+        {
+          "name": "TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN"
+        },
+        {
+          "name": "DATE_ADOPT",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_ADOPT"
+        },
+        {
+          "name": "OLD_SECTIO",
+          "type": "esriFieldTypeString",
+          "alias": "OLD_SECTIO"
+        },
+        {
+          "name": "SUB_PARISH",
+          "type": "esriFieldTypeString",
+          "alias": "SUB_PARISH"
+        },
+        {
+          "name": "DISTRICT",
+          "type": "esriFieldTypeString",
+          "alias": "DISTRICT"
+        },
+        {
+          "name": "ELEC_DIV",
+          "type": "esriFieldTypeString",
+          "alias": "ELEC_DIV"
+        },
+        {
+          "name": "LAYOUT_TYP",
+          "type": "esriFieldTypeString",
+          "alias": "LAYOUT_TYP"
+        },
+        {
+          "name": "SPEED_LIMI",
+          "type": "esriFieldTypeString",
+          "alias": "SPEED_LIMI"
+        },
+        {
+          "name": "ENVIRONMEN",
+          "type": "esriFieldTypeString",
+          "alias": "ENVIRONMEN"
+        },
+        {
+          "name": "TOWN_CENTR",
+          "type": "esriFieldTypeString",
+          "alias": "TOWN_CENTR"
+        },
+        {
+          "name": "SURVEYED_L",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYED_L"
+        },
+        {
+          "name": "IIT_NEW_RO",
+          "type": "esriFieldTypeString",
+          "alias": "IIT_NEW_RO"
+        },
+        {
+          "name": "IIT_NEW_FO",
+          "type": "esriFieldTypeString",
+          "alias": "IIT_NEW_FO"
+        },
+        {
+          "name": "IIT_NEW_CY",
+          "type": "esriFieldTypeString",
+          "alias": "IIT_NEW_CY"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "INSP_BY",
+          "type": "esriFieldTypeString",
+          "alias": "INSP_BY"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NE_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NE_ID"
+        },
+        {
+          "name": "NE_LENGTH",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NE_LENGTH"
+        },
+        {
+          "name": "NE_DESCR",
+          "type": "esriFieldTypeString",
+          "alias": "NE_DESCR"
+        },
+        {
+          "name": "NE_START_D",
+          "type": "esriFieldTypeDate",
+          "alias": "NE_START_D"
+        },
+        {
+          "name": "NE_ADMIN_U",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NE_ADMIN_U"
+        },
+        {
+          "name": "ADMIN_UNIT",
+          "type": "esriFieldTypeString",
+          "alias": "ADMIN_UNIT"
+        },
+        {
+          "name": "NE_GTY_GRO",
+          "type": "esriFieldTypeString",
+          "alias": "NE_GTY_GRO"
+        },
+        {
+          "name": "SECTION_NU",
+          "type": "esriFieldTypeString",
+          "alias": "SECTION_NU"
+        },
+        {
+          "name": "PRIMARY_RO",
+          "type": "esriFieldTypeString",
+          "alias": "PRIMARY_RO"
+        },
+        {
+          "name": "SECTOR",
+          "type": "esriFieldTypeString",
+          "alias": "SECTOR"
+        },
+        {
+          "name": "PURPOSE",
+          "type": "esriFieldTypeString",
+          "alias": "PURPOSE"
+        },
+        {
+          "name": "CONSTRUCTI",
+          "type": "esriFieldTypeString",
+          "alias": "CONSTRUCTI"
+        },
+        {
+          "name": "CLASSIFICA",
+          "type": "esriFieldTypeString",
+          "alias": "CLASSIFICA"
+        },
+        {
+          "name": "HIERARCHY",
+          "type": "esriFieldTypeString",
+          "alias": "HIERARCHY"
+        },
+        {
+          "name": "NOMINATED",
+          "type": "esriFieldTypeString",
+          "alias": "NOMINATED"
+        },
+        {
+          "name": "ENGINEERIN",
+          "type": "esriFieldTypeString",
+          "alias": "ENGINEERIN"
+        },
+        {
+          "name": "REINST_CAT",
+          "type": "esriFieldTypeString",
+          "alias": "REINST_CAT"
+        },
+        {
+          "name": "TRAFFIC_SE",
+          "type": "esriFieldTypeString",
+          "alias": "TRAFFIC_SE"
+        },
+        {
+          "name": "FWY_CYC_IN",
+          "type": "esriFieldTypeString",
+          "alias": "FWY_CYC_IN"
+        },
+        {
+          "name": "WINTER_MAI",
+          "type": "esriFieldTypeString",
+          "alias": "WINTER_MAI"
+        },
+        {
+          "name": "GRITTING_R",
+          "type": "esriFieldTypeString",
+          "alias": "GRITTING_R"
+        },
+        {
+          "name": "PAI_VALIDA",
+          "type": "esriFieldTypeString",
+          "alias": "PAI_VALIDA"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Main Trails",
+      "title": "Main Trails",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "XTRAILS",
+          "type": "esriFieldTypeString",
+          "alias": "XTRAILS"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "NCC Owned Permissive",
+      "title": "NCC Owned Permissive",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROUTECODE",
+          "type": "esriFieldTypeString",
+          "alias": "ROUTECODE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "PROW on Norfolk Trails",
+      "title": "PROW on Norfolk Trails",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "XTRAILS",
+          "type": "esriFieldTypeString",
+          "alias": "XTRAILS"
+        },
+        {
+          "name": "XCIRC_WALK",
+          "type": "esriFieldTypeString",
+          "alias": "XCIRC_WALK"
+        },
+        {
+          "name": "ROAD_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_NAME"
+        },
+        {
+          "name": "ROAD_CLASS",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD_CLASS"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Norfolk Trails Circular Walks",
+      "title": "Norfolk Trails Circular Walks",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Norfolk County Council Maintained Unsurfaced Roads",
+      "title": "Norfolk County Council Maintained Unsurfaced Roads",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Norfolk County Council Maintained Roads",
+      "title": "Norfolk County Council Maintained Roads",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Non Maintained Public Highway",
+      "title": "Non Maintained Public Highway",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Norwich City Council Maintained Roads",
+      "title": "Norwich City Council Maintained Roads",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Highways Agency Maintained Roads",
+      "title": "Highways Agency Maintained Roads",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Public Rights of Way - Cutting",
+      "title": "Public Rights of Way - Cutting",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1201,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

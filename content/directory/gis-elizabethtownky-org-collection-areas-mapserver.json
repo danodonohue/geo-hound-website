@@ -1,0 +1,131 @@
+{
+  "slug": "gis-elizabethtownky-org-collection-areas-mapserver",
+  "service_key": "ESRI MapServer:https://gis.elizabethtownky.org/server/rest/services/PW/CleanupZones/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.elizabethtownky.org/server/rest/services/PW/CleanupZones/MapServer",
+  "title": "Collection Areas",
+  "description": "Elizabethtown Kentucky brush pickup and cleanup service collection zones.",
+  "abstract": "Brush Pickup/Cleanup Zones",
+  "provider": "gis.elizabethtownky.org",
+  "place": {
+    "country": "United States",
+    "state": "Kentucky",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Area",
+      "title": "Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "BndName",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeString",
+          "alias": "GIS_ID"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "FEA_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Status"
+        },
+        {
+          "name": "StartDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Start Date"
+        },
+        {
+          "name": "EndDate",
+          "type": "esriFieldTypeDate",
+          "alias": "End Date"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102680"
+  ],
+  "cors_enabled": true,
+  "response_ms": 869,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

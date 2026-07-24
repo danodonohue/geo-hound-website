@@ -1,0 +1,145 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-18",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_HLC/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_HLC/MapServer",
+  "title": "Layers",
+  "description": "Historic landscape character and land use patterns over time.",
+  "abstract": "Heritage - Historic Landscape Use",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "land-cover",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 20,
+      "name": "Heritage - Historic Landscape Use",
+      "title": "Heritage - Historic Landscape Use",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "REF_NO",
+          "type": "esriFieldTypeString",
+          "alias": "Ref No"
+        },
+        {
+          "name": "CUR_TYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Current type"
+        },
+        {
+          "name": "OLD_USE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Old use"
+        },
+        {
+          "name": "CUR_SUBTYPE",
+          "type": "esriFieldTypeInteger",
+          "alias": "Current subtype"
+        },
+        {
+          "name": "CON_LEVEL",
+          "type": "esriFieldTypeInteger",
+          "alias": "Con levelL"
+        },
+        {
+          "name": "PARISH",
+          "type": "esriFieldTypeString",
+          "alias": "Parish"
+        },
+        {
+          "name": "ARCHIVE",
+          "type": "esriFieldTypeString",
+          "alias": "Archive"
+        },
+        {
+          "name": "TYPE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Type description"
+        },
+        {
+          "name": "PASTTYPE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Past type description"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "SUBTYPE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Subtype description"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "NOTES",
+          "type": "esriFieldTypeString",
+          "alias": "NOTES"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 309,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

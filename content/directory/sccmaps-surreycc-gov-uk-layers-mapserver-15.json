@@ -1,0 +1,115 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-15",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_AONB/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_AONB/MapServer",
+  "title": "Layers",
+  "description": "Areas of Outstanding Natural Beauty designations for landscape protection.",
+  "abstract": "Environment - Areas of Outstanding Natural Beauty (AONB)",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 9,
+      "name": "Environment - Areas of Outstanding Natural Beauty (AONB)",
+      "title": "Environment - Areas of Outstanding Natural Beauty (AONB)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "CODE",
+          "type": "esriFieldTypeString",
+          "alias": "code"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "DESIG_DATE",
+          "type": "esriFieldTypeString",
+          "alias": "Designation date"
+        },
+        {
+          "name": "HOTLINK",
+          "type": "esriFieldTypeString",
+          "alias": "hotlink"
+        },
+        {
+          "name": "STAT_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "stat_area"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "scc_update_date",
+          "type": "esriFieldTypeString",
+          "alias": "scc_update_date"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 306,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

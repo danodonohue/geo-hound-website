@@ -1,0 +1,301 @@
+{
+  "slug": "logis-loudoun-gov-overview-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL_cache/LoMap/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL_cache/LoMap/MapServer",
+  "title": "Overview",
+  "description": "Overview map of Loudoun County with roads and town boundaries.",
+  "abstract": "Loudoun County, Virginia overview map",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Major Roads",
+      "title": "Major Roads",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CE_CHAIN_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CE_CHAIN_ID"
+        },
+        {
+          "name": "CE_LOUD_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CE_LOUD_ID"
+        },
+        {
+          "name": "ST_CHAIN_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ST_CHAIN_ID"
+        },
+        {
+          "name": "ST_DIR_PREF",
+          "type": "esriFieldTypeString",
+          "alias": "ST_DIR_PREF"
+        },
+        {
+          "name": "ST_STR_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ST_STR_NAME"
+        },
+        {
+          "name": "ST_DIR_SUF",
+          "type": "esriFieldTypeString",
+          "alias": "ST_DIR_SUF"
+        },
+        {
+          "name": "ST_STR_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ST_STR_TYPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "CE_RTNO",
+          "type": "esriFieldTypeString",
+          "alias": "CE_RTNO"
+        },
+        {
+          "name": "CE_CFCC",
+          "type": "esriFieldTypeString",
+          "alias": "CE_CFCC"
+        },
+        {
+          "name": "ST_FULLNAME",
+          "type": "esriFieldTypeString",
+          "alias": "ST_FULLNAME"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "County boundary",
+      "title": "County boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CO_COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "CO_COUNTY"
+        },
+        {
+          "name": "CO_ED",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CO_ED"
+        },
+        {
+          "name": "CO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Towns",
+      "title": "Towns",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TO_TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TO_TOWN"
+        },
+        {
+          "name": "TO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Towns fill",
+      "title": "Towns fill",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "TO_TOWN",
+          "type": "esriFieldTypeString",
+          "alias": "TO_TOWN"
+        },
+        {
+          "name": "TO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "TO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "County fill",
+      "title": "County fill",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "CO_COUNTY",
+          "type": "esriFieldTypeString",
+          "alias": "CO_COUNTY"
+        },
+        {
+          "name": "CO_ED",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CO_ED"
+        },
+        {
+          "name": "CO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 658,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

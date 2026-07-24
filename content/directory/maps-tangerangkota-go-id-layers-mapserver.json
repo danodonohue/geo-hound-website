@@ -1,0 +1,91 @@
+{
+  "slug": "maps-tangerangkota-go-id-layers-mapserver",
+  "service_key": "ESRI MapServer:https://maps.tangerangkota.go.id/arcgis/rest/services/web/statistik_pengunjung_tsp/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.tangerangkota.go.id/arcgis/rest/services/web/statistik_pengunjung_tsp/MapServer",
+  "title": "Layers",
+  "description": "Visitor statistics for Tangerang tourism service points.",
+  "abstract": "Statistik Pengunjung TSP",
+  "provider": "maps.tangerangkota.go.id",
+  "place": {
+    "country": "Indonesia",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "statistik_pengunjung_tsp",
+      "title": "statistik_pengunjung_tsp",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "objectid"
+        },
+        {
+          "name": "pengunjung_hari_ini",
+          "type": "esriFieldTypeInteger",
+          "alias": "pengunjung_hari_ini"
+        },
+        {
+          "name": "total_pengunjung",
+          "type": "esriFieldTypeInteger",
+          "alias": "total_pengunjung"
+        },
+        {
+          "name": "pengunjung_online",
+          "type": "esriFieldTypeInteger",
+          "alias": "pengunjung_online"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "shape"
+        },
+        {
+          "name": "id_statistik",
+          "type": "esriFieldTypeInteger",
+          "alias": "id_statistik"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 885,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

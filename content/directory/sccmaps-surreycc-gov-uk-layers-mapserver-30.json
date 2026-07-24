@@ -1,0 +1,185 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-30",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_FireStation/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/PeopleCommunity_FireStation/MapServer",
+  "title": "Layers",
+  "description": "Fire station locations and emergency response infrastructure.",
+  "abstract": "People & Community - Fire statione",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "safety",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 14,
+      "name": "People & Community - Fire station",
+      "title": "People & Community - Fire station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Road",
+          "type": "esriFieldTypeString",
+          "alias": "Road"
+        },
+        {
+          "name": "Town",
+          "type": "esriFieldTypeString",
+          "alias": "Town"
+        },
+        {
+          "name": "Postcode",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Crews_Wholetime_current",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_Wholetime_current"
+        },
+        {
+          "name": "Crews_Wholetime_proposed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_Wholetime_proposed"
+        },
+        {
+          "name": "Crews_Day_current",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_Day_current"
+        },
+        {
+          "name": "Crews_Day_proposed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_Day_proposed"
+        },
+        {
+          "name": "Crews_Variable_current",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_Variable_current"
+        },
+        {
+          "name": "Crews_Variable_proposed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_Variable_proposed"
+        },
+        {
+          "name": "Crews_OnCall247_current",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_OnCall247_current"
+        },
+        {
+          "name": "Crews_OnCall247_proposed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_OnCall247_proposed"
+        },
+        {
+          "name": "Crews_OnCallNightWknd_current",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_OnCallNightWknd"
+        },
+        {
+          "name": "Crews_OnCallNightWknd_proposed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Crews_OnCallNightWknd_proposed"
+        },
+        {
+          "name": "Special_WaterRescue",
+          "type": "esriFieldTypeString",
+          "alias": "Special Unit - Water Rescue"
+        },
+        {
+          "name": "Special_Flooding",
+          "type": "esriFieldTypeString",
+          "alias": "Special Unit - Flooding"
+        },
+        {
+          "name": "Special_Wildfire",
+          "type": "esriFieldTypeString",
+          "alias": "Special Unit - Wildfire"
+        },
+        {
+          "name": "Special_AnimalRescue",
+          "type": "esriFieldTypeString",
+          "alias": "Special Unit - Animal Rescue"
+        },
+        {
+          "name": "Special_HazardousMaterials",
+          "type": "esriFieldTypeString",
+          "alias": "Special Unit - Hazardous Materials"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 311,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

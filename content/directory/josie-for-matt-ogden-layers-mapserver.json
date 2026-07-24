@@ -1,0 +1,713 @@
+{
+  "slug": "josie-for-matt-ogden-layers-mapserver",
+  "service_key": "ESRI MapServer:https://webapps.tonkinandtaylorgroup.com/server/rest/services/TTG/TTG_P871193_0900_NelsonRetainingWalls/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://webapps.tonkinandtaylorgroup.com/server/rest/services/TTG/TTG_P871193_0900_NelsonRetainingWalls/MapServer",
+  "title": "Layers",
+  "description": "Road retaining wall locations and inspection data for Nelson City infrastructure",
+  "abstract": "This data has been prepared by Tonkin & Taylor Ltd. (T+T) for Nelson City Council (the \"Client\") with respect to the particular brief given to us and may not be relied upon in other contexts or for any other purpose, or by any person other than our client, without our prior written agreement. The sole purpose of this data is to inform the general location of road retaining walls assessed by T+T. Interpretation and application of this data in specific circumstances is outside the control of T+T and is the sole responsibility of the Client. This data should be read and applied in conjunction with the T+T report (Assessment of Nelson City Council Roading Retaining Walls, April 2019).Please credit T+T as the source of the data in any derivative works, and ensure that any third parties that you provide this data to are aware of these terms.",
+  "provider": "Josie for Matt Ogden",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Road Walls",
+      "title": "Road Walls",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHORTNAME",
+          "type": "esriFieldTypeString",
+          "alias": "SHORTNAME"
+        },
+        {
+          "name": "NCC_Wall_Number",
+          "type": "esriFieldTypeString",
+          "alias": "NCC_Wall_Number"
+        },
+        {
+          "name": "Short_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Short_Name"
+        },
+        {
+          "name": "Start_Address",
+          "type": "esriFieldTypeString",
+          "alias": "Start_Address"
+        },
+        {
+          "name": "Finish_Address",
+          "type": "esriFieldTypeString",
+          "alias": "Finish_Address"
+        },
+        {
+          "name": "Disp_Distance",
+          "type": "esriFieldTypeString",
+          "alias": "Disp_Distance"
+        },
+        {
+          "name": "Side_of_Road",
+          "type": "esriFieldTypeString",
+          "alias": "Side_of_Road"
+        },
+        {
+          "name": "Wall_Viewed",
+          "type": "esriFieldTypeString",
+          "alias": "Wall_Viewed"
+        },
+        {
+          "name": "Centreline_Offset",
+          "type": "esriFieldTypeString",
+          "alias": "Centreline_Offset"
+        },
+        {
+          "name": "GPS_Start_South",
+          "type": "esriFieldTypeDouble",
+          "alias": "GPS_Start_South"
+        },
+        {
+          "name": "GPS_Start_East",
+          "type": "esriFieldTypeDouble",
+          "alias": "GPS_Start_East"
+        },
+        {
+          "name": "GPS_Start_Error",
+          "type": "esriFieldTypeDouble",
+          "alias": "GPS_Start_Error"
+        },
+        {
+          "name": "GPS_Finish_South",
+          "type": "esriFieldTypeDouble",
+          "alias": "GPS_Finish_South"
+        },
+        {
+          "name": "GPS_Finish_East",
+          "type": "esriFieldTypeDouble",
+          "alias": "GPS_Finish_East"
+        },
+        {
+          "name": "GPS_Finish_Error",
+          "type": "esriFieldTypeDouble",
+          "alias": "GPS_Finish_Error"
+        },
+        {
+          "name": "Inspection_Date",
+          "type": "esriFieldTypeDouble",
+          "alias": "Inspection_Date"
+        },
+        {
+          "name": "Inspected_By",
+          "type": "esriFieldTypeString",
+          "alias": "Inspected_By"
+        },
+        {
+          "name": "Number_Of_Photos",
+          "type": "esriFieldTypeDouble",
+          "alias": "Number_Of_Photos"
+        },
+        {
+          "name": "Slope_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Slope_Type"
+        },
+        {
+          "name": "Wall_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Wall_Length"
+        },
+        {
+          "name": "Max_Height",
+          "type": "esriFieldTypeDouble",
+          "alias": "Max_Height"
+        },
+        {
+          "name": "Average_Height",
+          "type": "esriFieldTypeDouble",
+          "alias": "Average_Height"
+        },
+        {
+          "name": "Face_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Face_Area"
+        },
+        {
+          "name": "Back_tilt",
+          "type": "esriFieldTypeDouble",
+          "alias": "Back_tilt"
+        },
+        {
+          "name": "Face_Thickness",
+          "type": "esriFieldTypeDouble",
+          "alias": "Face_Thickness"
+        },
+        {
+          "name": "Surcharge",
+          "type": "esriFieldTypeDouble",
+          "alias": "Surcharge"
+        },
+        {
+          "name": "Slope_Above_Wall",
+          "type": "esriFieldTypeDouble",
+          "alias": "Slope_Above_Wall"
+        },
+        {
+          "name": "Slope_Below_Wall",
+          "type": "esriFieldTypeDouble",
+          "alias": "Slope_Below_Wall"
+        },
+        {
+          "name": "General_Description",
+          "type": "esriFieldTypeString",
+          "alias": "General_Description"
+        },
+        {
+          "name": "Tie_System",
+          "type": "esriFieldTypeString",
+          "alias": "Tie_System"
+        },
+        {
+          "name": "Restraint_Mechanism",
+          "type": "esriFieldTypeString",
+          "alias": "Restraint_Mechanism"
+        },
+        {
+          "name": "Drainage",
+          "type": "esriFieldTypeString",
+          "alias": "Drainage"
+        },
+        {
+          "name": "Face_Material",
+          "type": "esriFieldTypeString",
+          "alias": "Face_Material"
+        },
+        {
+          "name": "Above_Wall",
+          "type": "esriFieldTypeString",
+          "alias": "Above_Wall"
+        },
+        {
+          "name": "Below_Wall",
+          "type": "esriFieldTypeString",
+          "alias": "Below_Wall"
+        },
+        {
+          "name": "Fixtures",
+          "type": "esriFieldTypeString",
+          "alias": "Fixtures"
+        },
+        {
+          "name": "Graffitti__Extent_",
+          "type": "esriFieldTypeString",
+          "alias": "Graffitti__Extent_"
+        },
+        {
+          "name": "Overgrown_Vegetation__Extent_",
+          "type": "esriFieldTypeString",
+          "alias": "Overgrown_Vegetation__Extent_"
+        },
+        {
+          "name": "Damaged_Handrails",
+          "type": "esriFieldTypeString",
+          "alias": "Damaged_Handrails"
+        },
+        {
+          "name": "Damaged_Utilities",
+          "type": "esriFieldTypeString",
+          "alias": "Damaged_Utilities"
+        },
+        {
+          "name": "Blocked_Drainage",
+          "type": "esriFieldTypeString",
+          "alias": "Blocked_Drainage"
+        },
+        {
+          "name": "Post_Cond_Surface_Prep",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Cond_Surface_Prep"
+        },
+        {
+          "name": "Post_Extnt_Surface_Prep",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Extnt_Surface_Prep"
+        },
+        {
+          "name": "Post_Cond_Decay",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Cond_Decay"
+        },
+        {
+          "name": "Post_Extnt_Decay",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Extnt_Decay"
+        },
+        {
+          "name": "Post_Cond_Cracking",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Cond_Cracking"
+        },
+        {
+          "name": "Post_Extnt_Cracking",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Extnt_Cracking"
+        },
+        {
+          "name": "Post_Cond_Corrosion",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Cond_Corrosion"
+        },
+        {
+          "name": "Post_Extnt_Corrosion",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Extnt_Corrosion"
+        },
+        {
+          "name": "Post_Cond_Spalling",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Cond_Spalling"
+        },
+        {
+          "name": "Post_Extnt_Spalling",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Extnt_Spalling"
+        },
+        {
+          "name": "Post_Cond_Bolts_Fixing",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Cond_Bolts_Fixing"
+        },
+        {
+          "name": "Post_Extnt_Bolts_Fixing",
+          "type": "esriFieldTypeString",
+          "alias": "Post_Extnt_Bolts_Fixing"
+        },
+        {
+          "name": "Facing_Cond_Surface_Protection",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Surface_Protection"
+        },
+        {
+          "name": "Facing_Cond_Surface_Prep",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Surface_Prep"
+        },
+        {
+          "name": "Facing_Extnt_Surface_Prep",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Surface_Prep"
+        },
+        {
+          "name": "Facing_Cond_Decay",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Decay"
+        },
+        {
+          "name": "Facing_Extnt_Decay",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Decay"
+        },
+        {
+          "name": "Facing_Cond_Cracking",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Cracking"
+        },
+        {
+          "name": "Facing_Extnt_Cracking",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Cracking"
+        },
+        {
+          "name": "Facing_Cond_Loss_of_Mortar",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Loss_of_Mortar"
+        },
+        {
+          "name": "Facing_Extnt_Loss_of_Mortar",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Loss_of_Mortar"
+        },
+        {
+          "name": "Facing_Cond_Wear",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Wear"
+        },
+        {
+          "name": "Facing_Extnt_Wear",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Wear"
+        },
+        {
+          "name": "Facing_Cond_Tearing",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Tearing"
+        },
+        {
+          "name": "Facing_Extnt_Tearing",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Tearing"
+        },
+        {
+          "name": "Facing_Cond_Spalling",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Cond_Spalling"
+        },
+        {
+          "name": "Facing_Extnt_Spalling",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Spalling"
+        },
+        {
+          "name": "Anchors_Cond_Corrosion",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Cond_Corrosion"
+        },
+        {
+          "name": "Anchors_Extnt_Corrosion",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Extnt_Corrosion"
+        },
+        {
+          "name": "Anchors_Cond_Spalling",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Cond_Spalling"
+        },
+        {
+          "name": "Anchors_Extnt_Spalling",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Extnt_Spalling"
+        },
+        {
+          "name": "Anchors_Cond_Geotextile",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Cond_Geotextile"
+        },
+        {
+          "name": "Anchors_Extnt_Geotextlie",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Extnt_Geotextlie"
+        },
+        {
+          "name": "Anchors_Cond_Loss_of_Mortar",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Cond_Loss_of_Mortar"
+        },
+        {
+          "name": "Anchors_Extnt_Loss_of_Mortar",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Extnt_Loss_of_Mortar"
+        },
+        {
+          "name": "Anchors_Cond_Bolts_Fixing",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Cond_Bolts_Fixing"
+        },
+        {
+          "name": "Anchors_Extnt_Bolts_Fixing",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Extnt_Bolts_Fixing"
+        },
+        {
+          "name": "Geo_Cond_Global_Stability",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Global_Stability"
+        },
+        {
+          "name": "Geo_Extnt_Global_Stability",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Global_Stability"
+        },
+        {
+          "name": "Geo_Cond_Foundation",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Foundation"
+        },
+        {
+          "name": "Geo_Extnt_Foundation",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Foundation"
+        },
+        {
+          "name": "Geo_Cond_Slide",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Slide"
+        },
+        {
+          "name": "Geo_Extnt_Slide",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Slide"
+        },
+        {
+          "name": "Geo_Cond_Overturn",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Overturn"
+        },
+        {
+          "name": "Geo_Extnt_Overturn",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Overturn"
+        },
+        {
+          "name": "Geo_Cond_Settlement",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Settlement"
+        },
+        {
+          "name": "Geo_Extnt_Settlement",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Settlement"
+        },
+        {
+          "name": "Geo_Cond_Undermine",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Undermine"
+        },
+        {
+          "name": "Geo_Extnt_Undermine",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Undermine"
+        },
+        {
+          "name": "Geo_Cond_Bulging",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Bulging"
+        },
+        {
+          "name": "Geo_Extnt_Bulging",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Bulging"
+        },
+        {
+          "name": "Geo_Cond_CrackAdjacentSurface",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_CrackAdjacentSurface"
+        },
+        {
+          "name": "Geo_Extnt_CrakcAdjacentSurface",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_CrakcAdjacentSurface"
+        },
+        {
+          "name": "Geo_Cond_Scour",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Scour"
+        },
+        {
+          "name": "Geo_Extnt_Scour",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Scour"
+        },
+        {
+          "name": "Geo_Cond_Erosion_Protection",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_Erosion_Protection"
+        },
+        {
+          "name": "Geo_Extnt_Erosion_Protection",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_Erosion_Protection"
+        },
+        {
+          "name": "Geo_Cond_OvertoppingOfWaves",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Cond_OvertoppingOfWaves"
+        },
+        {
+          "name": "Geo_Extnt_OvertoppingOfWaves",
+          "type": "esriFieldTypeString",
+          "alias": "Geo_Extnt_OvertoppingOfWaves"
+        },
+        {
+          "name": "General_Condition_Comments",
+          "type": "esriFieldTypeString",
+          "alias": "General_Condition_Comments"
+        },
+        {
+          "name": "Overall_Condition",
+          "type": "esriFieldTypeString",
+          "alias": "Overall_Condition"
+        },
+        {
+          "name": "Failure_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Failure_Type"
+        },
+        {
+          "name": "Road__Affected",
+          "type": "esriFieldTypeString",
+          "alias": "Road__Affected"
+        },
+        {
+          "name": "Rating",
+          "type": "esriFieldTypeString",
+          "alias": "Rating"
+        },
+        {
+          "name": "Risk_Consequence",
+          "type": "esriFieldTypeString",
+          "alias": "Risk_Consequence"
+        },
+        {
+          "name": "Description_of_Consequences",
+          "type": "esriFieldTypeString",
+          "alias": "Description_of_Consequences"
+        },
+        {
+          "name": "Risk_Likelihood",
+          "type": "esriFieldTypeString",
+          "alias": "Risk_Likelihood"
+        },
+        {
+          "name": "Risk_Level",
+          "type": "esriFieldTypeString",
+          "alias": "Risk_Level"
+        },
+        {
+          "name": "Private_Property_Damage",
+          "type": "esriFieldTypeString",
+          "alias": "Private_Property_Damage"
+        },
+        {
+          "name": "Maintenance_Repairs",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance_Repairs"
+        },
+        {
+          "name": "Inspection_Cycle",
+          "type": "esriFieldTypeString",
+          "alias": "Inspection_Cycle"
+        },
+        {
+          "name": "Estimated_Constuction_Date",
+          "type": "esriFieldTypeDouble",
+          "alias": "Estimated_Constuction_Date"
+        },
+        {
+          "name": "Remaining_Asset_Life",
+          "type": "esriFieldTypeDouble",
+          "alias": "Remaining_Asset_Life"
+        },
+        {
+          "name": "Total_Asset_Life",
+          "type": "esriFieldTypeDouble",
+          "alias": "Total_Asset_Life"
+        },
+        {
+          "name": "Replacement_Priority",
+          "type": "esriFieldTypeString",
+          "alias": "Replacement_Priority"
+        },
+        {
+          "name": "July19_Amend",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "July19_Amend"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        },
+        {
+          "name": "Leaning_or_damage_utilitly_Po",
+          "type": "esriFieldTypeString",
+          "alias": "Leaning_or_damage_utilitly_pole"
+        },
+        {
+          "name": "Facing_Extnt_Surface_Protect",
+          "type": "esriFieldTypeString",
+          "alias": "Facing_Extnt_Surface_Protection"
+        },
+        {
+          "name": "Anchors_Cond_Surface_Protect",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Cond_Surface_Protection"
+        },
+        {
+          "name": "Anchors_Extnt_Surface_Protect",
+          "type": "esriFieldTypeString",
+          "alias": "Anchors_Extnt_Surface_Protectio"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [],
+  "cors_enabled": true,
+  "response_ms": 2706,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

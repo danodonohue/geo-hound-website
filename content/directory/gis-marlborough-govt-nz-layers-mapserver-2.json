@@ -1,0 +1,1269 @@
+{
+  "slug": "gis-marlborough-govt-nz-layers-mapserver-2",
+  "service_key": "ESRI MapServer:https://gis.marlborough.govt.nz/server/rest/services/OpenData/OpenData2/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.marlborough.govt.nz/server/rest/services/OpenData/OpenData2/MapServer",
+  "title": "Layers",
+  "description": "GIS service providing recreation, coastal, elevation data.",
+  "abstract": "Data for use in the MDC Open Data website.\nData includes\n- alcohol control areas\n- biosecurity\n- foreshore structures\n- heritage sites\n- LIDAR coverage\n- moorings\n- parks/playgrounds",
+  "provider": "gis.marlborough.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Marlborough",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Alcohol Control Areas",
+      "title": "Alcohol Control Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Hours",
+          "type": "esriFieldTypeString",
+          "alias": "Hours"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Biosecurity Plant Pest Containment",
+      "title": "Biosecurity Plant Pest Containment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Scientific_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Scientific_Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Find_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Find_Date"
+        },
+        {
+          "name": "Financial_Year",
+          "type": "esriFieldTypeString",
+          "alias": "Financial_Year"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Biosecurity Plant Pest Surveillance",
+      "title": "Biosecurity Plant Pest Surveillance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Scientific_Name",
+          "type": "esriFieldTypeString",
+          "alias": "ScientificName"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "Find_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "FindDate"
+        },
+        {
+          "name": "Financial_Year",
+          "type": "esriFieldTypeString",
+          "alias": "FinancialYear"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Facilities and Attractions",
+      "title": "Facilities and Attractions",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Food Premise Licences",
+      "title": "Food Premise Licences",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Foreshore Structures (Point)",
+      "title": "Foreshore Structures (Point)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ModuleKey",
+          "type": "esriFieldTypeInteger",
+          "alias": "ModuleKey"
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureType"
+        },
+        {
+          "name": "ShapeStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ShapeStatus"
+        },
+        {
+          "name": "LocationName",
+          "type": "esriFieldTypeString",
+          "alias": "LocationName"
+        },
+        {
+          "name": "SoundName",
+          "type": "esriFieldTypeString",
+          "alias": "SoundName"
+        },
+        {
+          "name": "HarbourID",
+          "type": "esriFieldTypeString",
+          "alias": "HarbourID"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "LicenceeName",
+          "type": "esriFieldTypeString",
+          "alias": "LicenceeName"
+        },
+        {
+          "name": "ReferenceNo",
+          "type": "esriFieldTypeString",
+          "alias": "ReferenceNo"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeInteger",
+          "alias": "Northing"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeInteger",
+          "alias": "Easting"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Foreshore Structures (Line)",
+      "title": "Foreshore Structures (Line)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ModuleKey",
+          "type": "esriFieldTypeInteger",
+          "alias": "ModuleKey"
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureType"
+        },
+        {
+          "name": "ShapeStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ShapeStatus"
+        },
+        {
+          "name": "LocationName",
+          "type": "esriFieldTypeString",
+          "alias": "LocationName"
+        },
+        {
+          "name": "SoundName",
+          "type": "esriFieldTypeString",
+          "alias": "SoundName"
+        },
+        {
+          "name": "HarbourID",
+          "type": "esriFieldTypeString",
+          "alias": "HarbourID"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "LicenceeName",
+          "type": "esriFieldTypeString",
+          "alias": "LicenceeName"
+        },
+        {
+          "name": "ReferenceNo",
+          "type": "esriFieldTypeString",
+          "alias": "ReferenceNo"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeInteger",
+          "alias": "Northing"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeInteger",
+          "alias": "Easting"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Foreshore Structures (Polygon)",
+      "title": "Foreshore Structures (Polygon)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ModuleKey",
+          "type": "esriFieldTypeInteger",
+          "alias": "ModuleKey"
+        },
+        {
+          "name": "FeatureType",
+          "type": "esriFieldTypeString",
+          "alias": "FeatureType"
+        },
+        {
+          "name": "ShapeStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ShapeStatus"
+        },
+        {
+          "name": "LocationName",
+          "type": "esriFieldTypeString",
+          "alias": "LocationName"
+        },
+        {
+          "name": "SoundName",
+          "type": "esriFieldTypeString",
+          "alias": "SoundName"
+        },
+        {
+          "name": "HarbourID",
+          "type": "esriFieldTypeString",
+          "alias": "HarbourID"
+        },
+        {
+          "name": "Ownership",
+          "type": "esriFieldTypeString",
+          "alias": "Ownership"
+        },
+        {
+          "name": "LicenceeName",
+          "type": "esriFieldTypeString",
+          "alias": "LicenceeName"
+        },
+        {
+          "name": "ReferenceNo",
+          "type": "esriFieldTypeString",
+          "alias": "ReferenceNo"
+        },
+        {
+          "name": "Northing",
+          "type": "esriFieldTypeInteger",
+          "alias": "Northing"
+        },
+        {
+          "name": "Easting",
+          "type": "esriFieldTypeInteger",
+          "alias": "Easting"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeString",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeString",
+          "alias": "Longitude"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Freedom Camping Sites",
+      "title": "Freedom Camping Sites",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "FullySelfContainedVehicles",
+          "type": "esriFieldTypeString",
+          "alias": "FullySelfContainedVehicles"
+        },
+        {
+          "name": "NonSelfContainedVehicles",
+          "type": "esriFieldTypeString",
+          "alias": "NonSelfContainedVehicles"
+        },
+        {
+          "name": "TentsPermitted",
+          "type": "esriFieldTypeString",
+          "alias": "TentsPermitted"
+        },
+        {
+          "name": "SpacesAvailable",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SpacesAvailable"
+        },
+        {
+          "name": "NightsAllowed",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NightsAllowed"
+        },
+        {
+          "name": "PermittedTimes",
+          "type": "esriFieldTypeString",
+          "alias": "PermittedTimes"
+        },
+        {
+          "name": "Hyperlink",
+          "type": "esriFieldTypeString",
+          "alias": "Hyperlink"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "Conditions",
+          "type": "esriFieldTypeString",
+          "alias": "Conditions"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Freespot Wireless Zone",
+      "title": "Freespot Wireless Zone",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeString",
+          "alias": "Class"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "LIDAR Datasets",
+      "title": "LIDAR Datasets",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AreaName",
+          "type": "esriFieldTypeString",
+          "alias": "Area Name"
+        },
+        {
+          "name": "CaptureDates",
+          "type": "esriFieldTypeString",
+          "alias": "Capture Dates"
+        },
+        {
+          "name": "DEMAvailable",
+          "type": "esriFieldTypeString",
+          "alias": "DEM Available"
+        },
+        {
+          "name": "DEMURL",
+          "type": "esriFieldTypeString",
+          "alias": "DEM URL"
+        },
+        {
+          "name": "DSMAvailable",
+          "type": "esriFieldTypeString",
+          "alias": "DSM Available"
+        },
+        {
+          "name": "DSMURL",
+          "type": "esriFieldTypeString",
+          "alias": "DSM URL"
+        },
+        {
+          "name": "ContoursAvailable",
+          "type": "esriFieldTypeString",
+          "alias": "Contours Available"
+        },
+        {
+          "name": "ContoursURL",
+          "type": "esriFieldTypeString",
+          "alias": "ContoursURL"
+        },
+        {
+          "name": "LASAvailable",
+          "type": "esriFieldTypeString",
+          "alias": "LAS Available"
+        },
+        {
+          "name": "LASURL",
+          "type": "esriFieldTypeString",
+          "alias": "LAS URL"
+        },
+        {
+          "name": "VerticalDatum",
+          "type": "esriFieldTypeString",
+          "alias": "VerticalDatum"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Marine Farms",
+      "title": "Marine Farms",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MarineFarmNo",
+          "type": "esriFieldTypeInteger",
+          "alias": "MarineFarmNo"
+        },
+        {
+          "name": "MarineFarmOwners",
+          "type": "esriFieldTypeString",
+          "alias": "MarineFarmOwners"
+        },
+        {
+          "name": "MarineFarmArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "MarineFarmArea"
+        },
+        {
+          "name": "MarineFarmStatus",
+          "type": "esriFieldTypeString",
+          "alias": "MarineFarmStatus"
+        },
+        {
+          "name": "Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Reference"
+        },
+        {
+          "name": "DecisionStatus",
+          "type": "esriFieldTypeString",
+          "alias": "DecisionStatus"
+        },
+        {
+          "name": "DecisionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecisionDate"
+        },
+        {
+          "name": "PermitExpiryDate",
+          "type": "esriFieldTypeDate",
+          "alias": "PermitExpiryDate"
+        },
+        {
+          "name": "PermitStatus",
+          "type": "esriFieldTypeString",
+          "alias": "PermitStatus"
+        },
+        {
+          "name": "PermitArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "PermitArea"
+        },
+        {
+          "name": "ShapeKey",
+          "type": "esriFieldTypeInteger",
+          "alias": "ShapeKey"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "Locality",
+          "type": "esriFieldTypeString",
+          "alias": "Locality"
+        },
+        {
+          "name": "StructureType",
+          "type": "esriFieldTypeString",
+          "alias": "Structure Type"
+        },
+        {
+          "name": "SpeciesName",
+          "type": "esriFieldTypeString",
+          "alias": "Species Name"
+        },
+        {
+          "name": "StructureTotalLineLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "Total Line Length (m)"
+        },
+        {
+          "name": "CoastalManagementUnit",
+          "type": "esriFieldTypeString",
+          "alias": "Coastal Management Unit"
+        },
+        {
+          "name": "RelatedConsentsNo",
+          "type": "esriFieldTypeString",
+          "alias": "Related Consents No"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "MDC Property",
+      "title": "MDC Property",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "property_no",
+          "type": "esriFieldTypeInteger",
+          "alias": "Property No"
+        },
+        {
+          "name": "assessment_no",
+          "type": "esriFieldTypeString",
+          "alias": "Assessment No"
+        },
+        {
+          "name": "PropertyAddress",
+          "type": "esriFieldTypeString",
+          "alias": "Property Address"
+        },
+        {
+          "name": "LegalDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "ValuationImprovements",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation Improvements"
+        },
+        {
+          "name": "ValuationBldgDecade",
+          "type": "esriFieldTypeString",
+          "alias": "Valuation Building Decade"
+        },
+        {
+          "name": "DiffGroup",
+          "type": "esriFieldTypeString",
+          "alias": "Diff Group"
+        },
+        {
+          "name": "LandArea",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Area"
+        },
+        {
+          "name": "LandValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Land Value"
+        },
+        {
+          "name": "ImprovementValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Improvement Value"
+        },
+        {
+          "name": "CapitalValue",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capital Value"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "StreetViewURL",
+          "type": "esriFieldTypeString",
+          "alias": "StreetViewURL"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "PostalAddress",
+          "type": "esriFieldTypeString",
+          "alias": "Postal Address"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Mooring",
+      "title": "Mooring",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MooringNo",
+          "type": "esriFieldTypeString",
+          "alias": "Mooring No"
+        },
+        {
+          "name": "ConsentNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Consent Number"
+        },
+        {
+          "name": "ApplicantNames",
+          "type": "esriFieldTypeString",
+          "alias": "Applicant Names"
+        },
+        {
+          "name": "DecisionMadeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Decision"
+        },
+        {
+          "name": "ExpiryDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry Date"
+        },
+        {
+          "name": "ConsentStatusDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Consent Status"
+        },
+        {
+          "name": "ApplicationLocationEasting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "ApplicationLocationNorthing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "WaterDepthAtMHW",
+          "type": "esriFieldTypeDouble",
+          "alias": "Water Depth at MHW (m)"
+        },
+        {
+          "name": "WaterDepthAtMLWS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Water Depth at MLWS (m)"
+        },
+        {
+          "name": "VesselLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "Vessel Length (m)"
+        },
+        {
+          "name": "LengthOfTackle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length of Tackle (m)"
+        },
+        {
+          "name": "SwingCircleRadius",
+          "type": "esriFieldTypeDouble",
+          "alias": "Swing Circle Radius (m)"
+        },
+        {
+          "name": "IsSternTieMooring",
+          "type": "esriFieldTypeString",
+          "alias": "Is Stern Tie Mooring"
+        },
+        {
+          "name": "ClubMooring",
+          "type": "esriFieldTypeString",
+          "alias": "Club Mooring"
+        },
+        {
+          "name": "VesselName",
+          "type": "esriFieldTypeString",
+          "alias": "Vessel Name"
+        },
+        {
+          "name": "VesselType",
+          "type": "esriFieldTypeString",
+          "alias": "Vessel Type"
+        },
+        {
+          "name": "WeightOfMooringBlock",
+          "type": "esriFieldTypeDouble",
+          "alias": "Weight of Mooring Block (kg)"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PropertyFilesLink",
+          "type": "esriFieldTypeString",
+          "alias": "Property Files Link"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Mooring Swing Circle",
+      "title": "Mooring Swing Circle",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MooringNo",
+          "type": "esriFieldTypeString",
+          "alias": "Mooring No"
+        },
+        {
+          "name": "ConsentNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Consent Number"
+        },
+        {
+          "name": "ApplicantNames",
+          "type": "esriFieldTypeString",
+          "alias": "Applicant Names"
+        },
+        {
+          "name": "DecisionMadeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Decision"
+        },
+        {
+          "name": "ExpiryDate",
+          "type": "esriFieldTypeDate",
+          "alias": "Expiry Date"
+        },
+        {
+          "name": "ConsentStatusDescription",
+          "type": "esriFieldTypeString",
+          "alias": "Consent Status"
+        },
+        {
+          "name": "ApplicationLocationEasting",
+          "type": "esriFieldTypeDouble",
+          "alias": "Easting"
+        },
+        {
+          "name": "ApplicationLocationNorthing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Northing"
+        },
+        {
+          "name": "WaterDepthAtMHW",
+          "type": "esriFieldTypeDouble",
+          "alias": "Water Depth at MHW (m)"
+        },
+        {
+          "name": "WaterDepthAtMLWS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Water Depth at MLWS (m)"
+        },
+        {
+          "name": "VesselLength",
+          "type": "esriFieldTypeDouble",
+          "alias": "Vessel Length (m)"
+        },
+        {
+          "name": "LengthOfTackle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length of Tackle (m)"
+        },
+        {
+          "name": "SwingCircleRadius",
+          "type": "esriFieldTypeDouble",
+          "alias": "Swing Circle Radius (m)"
+        },
+        {
+          "name": "IsSternTieMooring",
+          "type": "esriFieldTypeString",
+          "alias": "Is Stern Tie Mooring"
+        },
+        {
+          "name": "ClubMooring",
+          "type": "esriFieldTypeString",
+          "alias": "Club Mooring"
+        },
+        {
+          "name": "VesselType",
+          "type": "esriFieldTypeString",
+          "alias": "Vessel Type"
+        },
+        {
+          "name": "VesselName",
+          "type": "esriFieldTypeString",
+          "alias": "Vessel Name"
+        },
+        {
+          "name": "WeightOfMooringBlock",
+          "type": "esriFieldTypeDouble",
+          "alias": "Weight of Mooring Block (kg)"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.area"
+        },
+        {
+          "name": "SHAPE.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.len"
+        },
+        {
+          "name": "PropertyFilesLink",
+          "type": "esriFieldTypeString",
+          "alias": "Property Files Link"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Parks and Reserves",
+      "title": "Parks and Reserves",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Playgrounds",
+      "title": "Playgrounds",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Property",
+      "title": "Property",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 47,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

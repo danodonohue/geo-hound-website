@@ -1,0 +1,150 @@
+{
+  "slug": "same-layer-layers-mapserver",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Induction_Map/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Induction_Map/MapServer",
+  "title": "Layers",
+  "description": "HR induction map and housing estates for City of London.",
+  "abstract": "Layer for HR induction map plus housing estates ()from same layer)",
+  "provider": "same layer)",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Take a look at what we do...",
+      "title": "Take a look at what we do...",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "IMAGE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "IMAGE_NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "THUMBAIL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "THUMBAIL_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "IBASE_ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "IBASE_ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Housing Estates",
+      "title": "Housing Estates",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "TEXT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "IMAGE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "IMAGE_NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "THUMBAIL_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "THUMBAIL_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "IBASE_ID",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "IBASE_ID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 289,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

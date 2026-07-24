@@ -1,0 +1,262 @@
+{
+  "slug": "j-gibson-layers-mapserver-3",
+  "service_key": "ESRI MapServer:https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Sea_Level_Rise/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapping1.gw.govt.nz/arcgis/rest/services/Hazards/Sea_Level_Rise/MapServer",
+  "title": "Layers",
+  "description": "GIS service providing coastal, elevation data.",
+  "abstract": "Sea Level Rise model grids - 1m to 5m above MHWS10. Grids based off the WAGGIS 2013 LIDAR DEM. Wellington Harbour area updated in May 2021 using updated LIDAR DEM data from WCC (2020) and HCC (2016). Coverage is Wgtn Region. 17 Apr 2019, updated 21 May 2021.",
+  "provider": "J Gibson",
+  "place": {
+    "country": "New Zealand",
+    "state": "Wellington",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "coastal",
+      "confidence": "high"
+    },
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "MHWS10 DEM Surfaces",
+      "title": "MHWS10 DEM Surfaces",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "MHWS10_DEM_20",
+      "title": "MHWS10_DEM_20",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "MHWS10_DEM_40",
+      "title": "MHWS10_DEM_40",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "MHWS10_DEM_60",
+      "title": "MHWS10_DEM_60",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "MHWS10_DEM_80",
+      "title": "MHWS10_DEM_80",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "MHWS10_DEM_100",
+      "title": "MHWS10_DEM_100",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "MHWS10_DEM_120",
+      "title": "MHWS10_DEM_120",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "MHWS10_DEM_140",
+      "title": "MHWS10_DEM_140",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "MHWS10_DEM_160",
+      "title": "MHWS10_DEM_160",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "MHWS10_DEM_180",
+      "title": "MHWS10_DEM_180",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "MHWS10_DEM_200",
+      "title": "MHWS10_DEM_200",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "MHWS10_DEM_220",
+      "title": "MHWS10_DEM_220",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "MHWS10_DEM_240",
+      "title": "MHWS10_DEM_240",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "MHWS10_DEM_260",
+      "title": "MHWS10_DEM_260",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "MHWS10_DEM_280",
+      "title": "MHWS10_DEM_280",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "MHWS10_DEM_300",
+      "title": "MHWS10_DEM_300",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "MHWS10_DEM_320",
+      "title": "MHWS10_DEM_320",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "MHWS10_DEM_340",
+      "title": "MHWS10_DEM_340",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "MHWS10_DEM_360",
+      "title": "MHWS10_DEM_360",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "MHWS10_DEM_380",
+      "title": "MHWS10_DEM_380",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "MHWS10_DEM_400",
+      "title": "MHWS10_DEM_400",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "MHWS10_DEM_420",
+      "title": "MHWS10_DEM_420",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "MHWS10_DEM_440",
+      "title": "MHWS10_DEM_440",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "MHWS10_DEM_460",
+      "title": "MHWS10_DEM_460",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "MHWS10_DEM_480",
+      "title": "MHWS10_DEM_480",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "MHWS10_DEM_500",
+      "title": "MHWS10_DEM_500",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [],
+  "cors_enabled": true,
+  "response_ms": 15,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

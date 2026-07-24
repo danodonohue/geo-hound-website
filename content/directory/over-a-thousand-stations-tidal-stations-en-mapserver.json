@@ -1,0 +1,338 @@
+{
+  "slug": "over-a-thousand-stations-tidal-stations-en-mapserver",
+  "service_key": "ESRI MapServer:https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/tidal_stations_en/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://egisp.dfo-mpo.gc.ca/arcgis/rest/services/open_data_donnees_ouvertes/tidal_stations_en/MapServer",
+  "title": "tidal_stations_en",
+  "description": "Canadian tidal and water level stations with archives spanning 1848 to present.",
+  "abstract": "The Canadian tide and water level data archive presently holds water level observations reported from over a thousand stations, with the earliest dating back to 1848. The number of observations spans on average 6 years per station, with 60 stations measuring water levels for over 50 years. Over 800 stations are subjected to appreciable effect of tides, and for most of these stations, the Canadian Hydrographic Service (CHS) calculates and publishes predictions of the water levels associated with the vertical movement of the tide. Observations from the CHS Permanent Water Level Network are added on a daily to monthly basis. Data are also exchanged annually with the Water Survey of Canada.Open DataLearn more or download this dataset from the Government of Canada's Open data portal.Apprenez-en plus ou téléchargez cet ensemble de données à partir du portail de données ouvertes du gouvernement du Canada.",
+  "provider": "over a thousand stations",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "coastal",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Permanent Water Level Network Station",
+      "title": "Permanent Water Level Network Station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "STATION_NUMBER",
+          "type": "esriFieldTypeOID",
+          "alias": "STATION_NUMBER"
+        },
+        {
+          "name": "STATION_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "STATION_NAME"
+        },
+        {
+          "name": "SYMBOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "SYMBOLOGY"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "ARCHIVE_LINK_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "ARCHIVE_LINK_ENG"
+        },
+        {
+          "name": "ARCHIVE_LINK_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "ARCHIVE_LINK_FRA"
+        },
+        {
+          "name": "BENCHMARK_LINK_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "BENCHMARK_LINK_ENG"
+        },
+        {
+          "name": "BENCHMARK_LINK_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "BENCHMARK_LINK_FRA"
+        },
+        {
+          "name": "MEDS_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "MEDS_STATUS"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "TIME_ZONE_TWL",
+          "type": "esriFieldTypeString",
+          "alias": "TIME_ZONE_TWL"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "REGION_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "REGION_ENG"
+        },
+        {
+          "name": "REGION_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "REGION_FRA"
+        },
+        {
+          "name": "DATUM_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "DATUM_CODE"
+        },
+        {
+          "name": "GEOM",
+          "type": "esriFieldTypeGeometry",
+          "alias": "GEOM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Tidal Bore Station",
+      "title": "Tidal Bore Station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "STATION_NUMBER",
+          "type": "esriFieldTypeOID",
+          "alias": "STATION_NUMBER"
+        },
+        {
+          "name": "STATION_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "STATION_NAME"
+        },
+        {
+          "name": "SYMBOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "SYMBOLOGY"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "ARCHIVE_LINK_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "ARCHIVE_LINK_ENG"
+        },
+        {
+          "name": "ARCHIVE_LINK_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "ARCHIVE_LINK_FRA"
+        },
+        {
+          "name": "BENCHMARK_LINK_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "BENCHMARK_LINK_ENG"
+        },
+        {
+          "name": "BENCHMARK_LINK_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "BENCHMARK_LINK_FRA"
+        },
+        {
+          "name": "MEDS_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "MEDS_STATUS"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "TIME_ZONE_TWL",
+          "type": "esriFieldTypeString",
+          "alias": "TIME_ZONE_TWL"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "REGION_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "REGION_ENG"
+        },
+        {
+          "name": "REGION_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "REGION_FRA"
+        },
+        {
+          "name": "DATUM_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "DATUM_CODE"
+        },
+        {
+          "name": "GEOM",
+          "type": "esriFieldTypeGeometry",
+          "alias": "GEOM"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Tide and Water Level Station",
+      "title": "Tide and Water Level Station",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "STATION_NUMBER",
+          "type": "esriFieldTypeOID",
+          "alias": "STATION_NUMBER"
+        },
+        {
+          "name": "STATION_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "STATION_NAME"
+        },
+        {
+          "name": "SYMBOLOGY",
+          "type": "esriFieldTypeString",
+          "alias": "SYMBOLOGY"
+        },
+        {
+          "name": "LATITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LATITUDE"
+        },
+        {
+          "name": "LONGITUDE",
+          "type": "esriFieldTypeDouble",
+          "alias": "LONGITUDE"
+        },
+        {
+          "name": "ARCHIVE_LINK_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "ARCHIVE_LINK_ENG"
+        },
+        {
+          "name": "ARCHIVE_LINK_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "ARCHIVE_LINK_FRA"
+        },
+        {
+          "name": "BENCHMARK_LINK_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "BENCHMARK_LINK_ENG"
+        },
+        {
+          "name": "BENCHMARK_LINK_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "BENCHMARK_LINK_FRA"
+        },
+        {
+          "name": "MEDS_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "MEDS_STATUS"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "TIME_ZONE_TWL",
+          "type": "esriFieldTypeString",
+          "alias": "TIME_ZONE_TWL"
+        },
+        {
+          "name": "REGION",
+          "type": "esriFieldTypeString",
+          "alias": "REGION"
+        },
+        {
+          "name": "REGION_ENG",
+          "type": "esriFieldTypeString",
+          "alias": "REGION_ENG"
+        },
+        {
+          "name": "REGION_FRA",
+          "type": "esriFieldTypeString",
+          "alias": "REGION_FRA"
+        },
+        {
+          "name": "DATUM_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "DATUM_CODE"
+        },
+        {
+          "name": "GEOM",
+          "type": "esriFieldTypeGeometry",
+          "alias": "GEOM"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4326"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1417,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

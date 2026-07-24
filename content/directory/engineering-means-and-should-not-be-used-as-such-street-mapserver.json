@@ -1,0 +1,245 @@
+{
+  "slug": "engineering-means-and-should-not-be-used-as-such-street-mapserver",
+  "service_key": "ESRI MapServer:https://gis.maricopa.gov/arcgis/rest/services/IndividualService/Street/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.maricopa.gov/arcgis/rest/services/IndividualService/Street/MapServer",
+  "title": "Street",
+  "description": "Street centerlines for Maricopa County used for mapping and routing applications.",
+  "abstract": "<DIV STYLE=\"text-align:Left;font-size:12pt\"><DIV><DIV><P><SPAN>This feature contains all of the street centerlines for Maricopa County. The street centerline is not necessarily the centerline of the road or engineering plans. It was initially created to support the Base Road Network (BRN) that is used in the MCDOT Roadrunner application. The streets are also used for general map production purposes as well. The line work is adjusted using aerial orthorectified photography.</SPAN></P><P><SPAN /></P><P><SPAN>This data does not represent a legal record. The data was not created by engineering means and should not be used as such.</SPAN></P></DIV></DIV></DIV>",
+  "provider": "engineering means and should not be used as such",
+  "place": {
+    "country": "United States",
+    "state": "Arizona",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    },
+    {
+      "name": "addresses",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Street & Highway",
+      "title": "Street & Highway",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Mile Post",
+      "title": "Mile Post",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "MilePostNumber",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MilePostNumber"
+        },
+        {
+          "name": "MilePostSource",
+          "type": "esriFieldTypeString",
+          "alias": "MilePostSource"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Highway",
+      "title": "Highway",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "HighwayName",
+          "type": "esriFieldTypeString",
+          "alias": "HighwayName"
+        },
+        {
+          "name": "HighwayNameAlternate",
+          "type": "esriFieldTypeString",
+          "alias": "HighwayNameAlternate"
+        },
+        {
+          "name": "HighwayNumber",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HighwayNumber"
+        },
+        {
+          "name": "HighwayType",
+          "type": "esriFieldTypeString",
+          "alias": "HighwayType"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Arterial",
+      "title": "Arterial",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FullStreetName",
+          "type": "esriFieldTypeString",
+          "alias": "FullStreetName"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "PrefixDirection",
+          "type": "esriFieldTypeString",
+          "alias": "PrefixDirection"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "StreetName"
+        },
+        {
+          "name": "StreetType",
+          "type": "esriFieldTypeString",
+          "alias": "StreetType"
+        },
+        {
+          "name": "PostDirection",
+          "type": "esriFieldTypeString",
+          "alias": "PostDirection"
+        },
+        {
+          "name": "Classification",
+          "type": "esriFieldTypeString",
+          "alias": "Classification"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Local",
+      "title": "Local",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FullStreetName",
+          "type": "esriFieldTypeString",
+          "alias": "FullStreetName"
+        },
+        {
+          "name": "Classification",
+          "type": "esriFieldTypeString",
+          "alias": "Classification"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "PrefixDirection",
+          "type": "esriFieldTypeString",
+          "alias": "PrefixDirection"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "StreetName"
+        },
+        {
+          "name": "StreetType",
+          "type": "esriFieldTypeString",
+          "alias": "StreetType"
+        },
+        {
+          "name": "PostDirection",
+          "type": "esriFieldTypeString",
+          "alias": "PostDirection"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1066,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

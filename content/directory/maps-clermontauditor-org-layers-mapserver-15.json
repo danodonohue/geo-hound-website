@@ -1,0 +1,452 @@
+{
+  "slug": "maps-clermontauditor-org-layers-mapserver-15",
+  "service_key": "ESRI MapServer:https://maps.clermontauditor.org/arcgis/rest/services/WMAS/Soils_Dynamic/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.clermontauditor.org/arcgis/rest/services/WMAS/Soils_Dynamic/MapServer",
+  "title": "Layers",
+  "description": "Clermont County soil types and mapping units.",
+  "abstract": "Clermont County",
+  "provider": "maps.clermontauditor.org",
+  "place": {
+    "country": "United States",
+    "state": "Ohio",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "soils",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Clermont County Soils",
+      "title": "Clermont County Soils",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Soils_Boundary",
+      "title": "Soils_Boundary",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Soils_Boundary5",
+      "title": "Soils_Boundary5",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREASYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "AREASYMBOL"
+        },
+        {
+          "name": "MUSYM",
+          "type": "esriFieldTypeString",
+          "alias": "MUSYM"
+        },
+        {
+          "name": "MUKEY",
+          "type": "esriFieldTypeString",
+          "alias": "MUKEY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "mapunit_muname",
+          "type": "esriFieldTypeString",
+          "alias": "Mapunit Name"
+        },
+        {
+          "name": "mapunit_mukind",
+          "type": "esriFieldTypeString",
+          "alias": "Kind"
+        },
+        {
+          "name": "mapunit_farmlndcl",
+          "type": "esriFieldTypeString",
+          "alias": "Farm Class"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Soils_Boundary4",
+      "title": "Soils_Boundary4",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREASYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "AREASYMBOL"
+        },
+        {
+          "name": "MUSYM",
+          "type": "esriFieldTypeString",
+          "alias": "MUSYM"
+        },
+        {
+          "name": "MUKEY",
+          "type": "esriFieldTypeString",
+          "alias": "MUKEY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "mapunit_muname",
+          "type": "esriFieldTypeString",
+          "alias": "Mapunit Name"
+        },
+        {
+          "name": "mapunit_mukind",
+          "type": "esriFieldTypeString",
+          "alias": "Kind"
+        },
+        {
+          "name": "mapunit_farmlndcl",
+          "type": "esriFieldTypeString",
+          "alias": "Farm Class"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Soils_Boundary3",
+      "title": "Soils_Boundary3",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREASYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "AREASYMBOL"
+        },
+        {
+          "name": "MUSYM",
+          "type": "esriFieldTypeString",
+          "alias": "MUSYM"
+        },
+        {
+          "name": "MUKEY",
+          "type": "esriFieldTypeString",
+          "alias": "MUKEY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "mapunit_muname",
+          "type": "esriFieldTypeString",
+          "alias": "Mapunit Name"
+        },
+        {
+          "name": "mapunit_mukind",
+          "type": "esriFieldTypeString",
+          "alias": "Kind"
+        },
+        {
+          "name": "mapunit_farmlndcl",
+          "type": "esriFieldTypeString",
+          "alias": "Farm Class"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Soils_Boundary2",
+      "title": "Soils_Boundary2",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREASYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "AREASYMBOL"
+        },
+        {
+          "name": "MUSYM",
+          "type": "esriFieldTypeString",
+          "alias": "MUSYM"
+        },
+        {
+          "name": "MUKEY",
+          "type": "esriFieldTypeString",
+          "alias": "MUKEY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "mapunit_muname",
+          "type": "esriFieldTypeString",
+          "alias": "Mapunit Name"
+        },
+        {
+          "name": "mapunit_mukind",
+          "type": "esriFieldTypeString",
+          "alias": "Kind"
+        },
+        {
+          "name": "mapunit_farmlndcl",
+          "type": "esriFieldTypeString",
+          "alias": "Farm Class"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Soils_Boundary1",
+      "title": "Soils_Boundary1",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREASYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "AREASYMBOL"
+        },
+        {
+          "name": "MUSYM",
+          "type": "esriFieldTypeString",
+          "alias": "MUSYM"
+        },
+        {
+          "name": "MUKEY",
+          "type": "esriFieldTypeString",
+          "alias": "MUKEY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "mapunit_muname",
+          "type": "esriFieldTypeString",
+          "alias": "Mapunit Name"
+        },
+        {
+          "name": "mapunit_mukind",
+          "type": "esriFieldTypeString",
+          "alias": "Kind"
+        },
+        {
+          "name": "mapunit_farmlndcl",
+          "type": "esriFieldTypeString",
+          "alias": "Farm Class"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Soils_Fill",
+      "title": "Soils_Fill",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREASYMBOL",
+          "type": "esriFieldTypeString",
+          "alias": "AREASYMBOL"
+        },
+        {
+          "name": "MUSYM",
+          "type": "esriFieldTypeString",
+          "alias": "MUSYM"
+        },
+        {
+          "name": "MUKEY",
+          "type": "esriFieldTypeString",
+          "alias": "MUKEY"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "mapunit_muname",
+          "type": "esriFieldTypeString",
+          "alias": "Mapunit Name"
+        },
+        {
+          "name": "mapunit_mukind",
+          "type": "esriFieldTypeString",
+          "alias": "Kind"
+        },
+        {
+          "name": "mapunit_farmlndcl",
+          "type": "esriFieldTypeString",
+          "alias": "Farm Class"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 362,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

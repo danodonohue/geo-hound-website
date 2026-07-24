@@ -1,0 +1,247 @@
+{
+  "slug": "mahere-at-govt-nz-publictruckroutesviewer-mapserver",
+  "service_key": "ESRI MapServer:https://mahere.at.govt.nz/server/rest/services/NetworkOperations/PublicTruckRoutesViewer/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mahere.at.govt.nz/server/rest/services/NetworkOperations/PublicTruckRoutesViewer/MapServer",
+  "title": "PublicTruckRoutesViewer",
+  "description": "GIS service providing roads data.",
+  "abstract": "<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>There are national rules regulating the maximum length, width, height, mass and axle loadings of all vehicles that travel on our roads and bridges. In some situations, it's necessary to exceed these limits and you must obtain a special permit to do so in advance.</span><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><br /></div><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><div style='font-family:inherit;'>In addition to State Highways, there is an established network of Overweight (sometimes called Overweight Bypass Routes) and Over-dimension routes through the AT network. These routes are shown on 3 sets of maps on our website:</div><div style='font-family:inherit;'><ul><li><b>Over-dimension</b> routes that are generally maintained clear of obstructions that could hinder the travel of over-dimension vehicles/loads.</li><li><b>Overweight</b> and <b>HPMV</b> routes where the bridges and roads are generally strong enough to accommodate overweight vehicles/loads.</li></ul></div><div style='font-family:inherit;'>Truck operators are still required to obtain Over-dimension, Overweight and HPMV permits to use these routes as normal.</div></div>",
+  "provider": "mahere.at.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Auckland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "roads",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Overdimension",
+      "title": "Overdimension",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "route_type_desc",
+          "type": "esriFieldTypeString",
+          "alias": "Route Type"
+        },
+        {
+          "name": "start_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start (m)"
+        },
+        {
+          "name": "end_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "End (m)"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Overweight",
+      "title": "Overweight",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "route_type_desc",
+          "type": "esriFieldTypeString",
+          "alias": "Route Type"
+        },
+        {
+          "name": "start_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start (m)"
+        },
+        {
+          "name": "end_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "End (m)"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "HPMV (Approved)",
+      "title": "HPMV (Approved)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "route_type_desc",
+          "type": "esriFieldTypeString",
+          "alias": "Route Type"
+        },
+        {
+          "name": "start_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start (m)"
+        },
+        {
+          "name": "end_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "End (m)"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "HPMV Zones",
+      "title": "HPMV Zones",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "route_type_desc",
+          "type": "esriFieldTypeString",
+          "alias": "Route Type"
+        },
+        {
+          "name": "start_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start (m)"
+        },
+        {
+          "name": "end_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "End (m)"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "HPMV Detours",
+      "title": "HPMV Detours",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "road_name",
+          "type": "esriFieldTypeString",
+          "alias": "Road Name"
+        },
+        {
+          "name": "route_type_desc",
+          "type": "esriFieldTypeString",
+          "alias": "Route Type"
+        },
+        {
+          "name": "start_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "Start (m)"
+        },
+        {
+          "name": "end_m",
+          "type": "esriFieldTypeInteger",
+          "alias": "End (m)"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 334,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

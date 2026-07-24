@@ -1,0 +1,905 @@
+{
+  "slug": "maps-cartes-services-geo-ca-indigenous-geographical-names-mapserver",
+  "service_key": "ESRI MapServer:https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GNBC_CTC_indigenous_toponymy_en/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps-cartes.services.geo.ca/server_serveur/rest/services/NRCan/GNBC_CTC_indigenous_toponymy_en/MapServer",
+  "title": "Indigenous Geographical Names",
+  "description": "Indigenous geographical names across Canada from CGNDB.",
+  "abstract": "The Indigenous Geographical Names dataset presents an extract from the Canadian Geographical Names Data Base (CGNDB) of geographical names with roots in Indigenous cultures. These geographical names reflect heritage, language, personal names, and cultural practices.  Terrain and water features, populated places and culturally relevant places are geographical feature types present in the dataset. The Geographical Names Board of Canada (GNBC) is working to increase awareness of existing Indigenous place names and help promote the revitalization of Indigenous cultures and languages. Many more Indigenous place names exist in Canada, and this dataset will be constantly evolving as additional Indigenous place names are officially recognized and identified.",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Indigenous Geographical Names",
+      "title": "Indigenous Geographical Names",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Indigenous Geographical Names (labels only)",
+      "title": "Indigenous Geographical Names (labels only)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Labeled features (scale dependent)",
+      "title": "Labeled features (scale dependent)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Scale 25,000 and up",
+      "title": "Scale 25,000 and up",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Scale 80,000 and up",
+      "title": "Scale 80,000 and up",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Scale 350,000 and up",
+      "title": "Scale 350,000 and up",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Scale 1,500,000 and up",
+      "title": "Scale 1,500,000 and up",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Scale 2,750,000 and up",
+      "title": "Scale 2,750,000 and up",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Scale 6,500,000 and up",
+      "title": "Scale 6,500,000 and up",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Scale 12,500,000 and up",
+      "title": "Scale 12,500,000 and up",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "cgndb_id",
+          "type": "esriFieldTypeString",
+          "alias": "CGNDB ID"
+        },
+        {
+          "name": "geographical_name",
+          "type": "esriFieldTypeString",
+          "alias": "Geographical Name"
+        },
+        {
+          "name": "language",
+          "type": "esriFieldTypeString",
+          "alias": "Language"
+        },
+        {
+          "name": "syllabic_form",
+          "type": "esriFieldTypeString",
+          "alias": "Syllabic Form"
+        },
+        {
+          "name": "generic_term",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Term"
+        },
+        {
+          "name": "generic_category",
+          "type": "esriFieldTypeString",
+          "alias": "Generic Category"
+        },
+        {
+          "name": "concise_code",
+          "type": "esriFieldTypeString",
+          "alias": "Concise Code"
+        },
+        {
+          "name": "toponymic_feature_id",
+          "type": "esriFieldTypeString",
+          "alias": "Toponymic Feature ID"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "province_territory",
+          "type": "esriFieldTypeString",
+          "alias": "Province - Territory"
+        },
+        {
+          "name": "relevance_at_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Relevance at Scale"
+        },
+        {
+          "name": "decision_date",
+          "type": "esriFieldTypeString",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3978"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1034,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

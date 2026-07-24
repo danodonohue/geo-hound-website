@@ -1,0 +1,200 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-13",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_SSSI/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Enviro_SSSI/MapServer",
+  "title": "Layers",
+  "description": "Sites of Special Scientific Interest for conservation and environmental management.",
+  "abstract": "Environment - Sites of Special Scientific Interest (SSSI)",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "environment",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 13,
+      "name": "Environment - Sites of Special Scientific Interest (SSSI)",
+      "title": "Environment - Sites of Special Scientific Interest (SSSI)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SSSI_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "EASTING",
+          "type": "esriFieldTypeDouble",
+          "alias": "easting"
+        },
+        {
+          "name": "NORTHING",
+          "type": "esriFieldTypeDouble",
+          "alias": "northing"
+        },
+        {
+          "name": "REFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "Reference"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "GID",
+          "type": "esriFieldTypeDouble",
+          "alias": "gid"
+        },
+        {
+          "name": "GIS_FILE",
+          "type": "esriFieldTypeString",
+          "alias": "gis_file"
+        },
+        {
+          "name": "EASTING0",
+          "type": "esriFieldTypeDouble",
+          "alias": "easting0"
+        },
+        {
+          "name": "NORTHING0",
+          "type": "esriFieldTypeDouble",
+          "alias": "northing0"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ENSIS_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ENSIS_ID"
+        },
+        {
+          "name": "NUMBER",
+          "type": "esriFieldTypeInteger",
+          "alias": "NUMBER"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "ID"
+        },
+        {
+          "name": "UNIT_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_AREA"
+        },
+        {
+          "name": "UNIT_PERIM",
+          "type": "esriFieldTypeDouble",
+          "alias": "UNIT_PERIM"
+        },
+        {
+          "name": "GRID_REF",
+          "type": "esriFieldTypeString",
+          "alias": "GRID_REF"
+        },
+        {
+          "name": "POLY_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLY_AREA"
+        },
+        {
+          "name": "POLY_PERIM",
+          "type": "esriFieldTypeDouble",
+          "alias": "POLY_PERIM"
+        },
+        {
+          "name": "CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "CONDITION"
+        },
+        {
+          "name": "COND_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "COND_DATE"
+        },
+        {
+          "name": "MODIFIED",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIED"
+        },
+        {
+          "name": "DATAVERSION",
+          "type": "esriFieldTypeInteger",
+          "alias": "DATAVERSION"
+        },
+        {
+          "name": "GIS_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "GIS_DATE"
+        },
+        {
+          "name": "MAPVERSION",
+          "type": "esriFieldTypeInteger",
+          "alias": "MAPVERSION"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 305,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

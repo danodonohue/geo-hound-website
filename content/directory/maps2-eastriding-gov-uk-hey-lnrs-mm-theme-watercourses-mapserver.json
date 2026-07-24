@@ -1,0 +1,63 @@
+{
+  "slug": "maps2-eastriding-gov-uk-hey-lnrs-mm-theme-watercourses-mapserver",
+  "service_key": "ESRI MapServer:https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_LNRS_MM_Theme_WATERCOURSES/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_LNRS_MM_Theme_WATERCOURSES/MapServer",
+  "title": "HEY_LNRS_MM_Theme_WATERCOURSES",
+  "description": "Watercourse and freshwater bodies for East Riding of Yorkshire region",
+  "provider": "maps2.eastriding.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "WATER COURSES AND FRESHWATER BODIES",
+      "title": "WATER COURSES AND FRESHWATER BODIES",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 296,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "inspirepub-waterinfo-be-kadaster-mapserver",
+  "service_key": "ESRI MapServer:https://inspirepub.waterinfo.be/arcgis/rest/services/waterinfo/search_and_select/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://inspirepub.waterinfo.be/arcgis/rest/services/waterinfo/search_and_select/MapServer",
+  "title": "kadaster",
+  "description": "Cadastral parcels from LINZ for Belgium water authority.",
+  "abstract": "enkel voor gebruik via www.waterinfo.be",
+  "provider": "inspirepub.waterinfo.be",
+  "place": {
+    "country": "Belgium",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Kadastrale Percelen",
+      "title": "Kadastrale Percelen",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "OIDN",
+          "type": "esriFieldTypeDouble",
+          "alias": "OIDN"
+        },
+        {
+          "name": "CAPAKEY",
+          "type": "esriFieldTypeString",
+          "alias": "CAPAKEY"
+        },
+        {
+          "name": "NISCODE",
+          "type": "esriFieldTypeString",
+          "alias": "NISCODE"
+        },
+        {
+          "name": "OPPERVL",
+          "type": "esriFieldTypeDouble",
+          "alias": "OPPERVL"
+        },
+        {
+          "name": "NISCODE_kadaster",
+          "type": "esriFieldTypeString",
+          "alias": "NISCODE_kadaster"
+        },
+        {
+          "name": "gemeente",
+          "type": "esriFieldTypeString",
+          "alias": "gemeente"
+        },
+        {
+          "name": "afdeling",
+          "type": "esriFieldTypeString",
+          "alias": "afdeling"
+        },
+        {
+          "name": "sectie",
+          "type": "esriFieldTypeString",
+          "alias": "sectie"
+        },
+        {
+          "name": "perceelnummer",
+          "type": "esriFieldTypeString",
+          "alias": "perceelnummer"
+        },
+        {
+          "name": "kadaster",
+          "type": "esriFieldTypeString",
+          "alias": "kadaster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1166,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

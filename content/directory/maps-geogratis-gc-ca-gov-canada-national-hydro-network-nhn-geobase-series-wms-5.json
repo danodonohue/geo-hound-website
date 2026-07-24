@@ -1,0 +1,402 @@
+{
+  "slug": "maps-geogratis-gc-ca-gov-canada-national-hydro-network-nhn-geobase-series-wms-5",
+  "service_key": "OGC WMS:https://maps.geogratis.gc.ca/wms/hydro_network_en?SERVICE=WMS&LAYERS=nhn%3Anhn%3Ahydrography%3Ahydro20m_p%2Cnhn%3Anhn%3Ahydrography%3Ahydro20m_l%2Cnhn%3Anhn%3Ahydrography%3Ahydro10m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_10m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_water_10m_p%2Cnhn%3Anhn%3Ahydrography%3Ahydro10m_l%2Cnhn%3Anhn%3Ahydrography%3Ahydro1m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_1m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_water_1m_p%2Cnhn%3Anhn%3Ahydrography%3Ahydro1m_l%2Cnhn%3Anhn%3Ahydrography%3Awaterbody_2%2Cnhn%3Anhn%3Ahydrography%3Aisland_2%2Cnhn%3Anhn%3Ahydrography%3Awaterbody_2_intermittent%2Cnhn%3Anhn%3Ahydrography%3Aocean_intermittent%2Cnhn%3Anhn%3Ahydrography%3Aslwatercourse_1%2Cnhn%3Anhn%3Ahydrography%3Aslwatercourse_1_intermittent%2Cnhn%3Anhn%3Ahydrography%3Abank_1%2Cnhn%3Anhn%3Ahydrography%3Alittoral_1%2Cnhn%3Anhn%3Anetwork%3Anetworklinearflow_1%2Cnhn%3Anhn%3Anetwork%3Aflowdirection_1%2Cnhn%3Anhnda%2Cnhn%3Atoponyms%2Cnhn%3Anhn%3Atoponyms%3Awaterbody_5m%2Cnhn%3Anhn%3Atoponyms%3Aisland%2Cnhn%3Anhn%3Atoponyms%3Awaterbody_1m%2Cnhn%3Anhn%3Atoponyms%3Ariver_1m%2Cnhn%3Anhn%3Atoponyms%3Ariver_50k%2Cnhn%3Anhn%3Atoponyms%3Awaterbody_50k%2Cnhn%3Anhn%3Atoponyms%3Abay_channel_50k&REQUEST=GetCapabilities&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=null&CRS=EPSG%3A3857&TRANSPARENT=TRUE",
+  "type": "OGC WMS",
+  "url": "https://maps.geogratis.gc.ca/wms/hydro_network_en?SERVICE=WMS&LAYERS=nhn%3Anhn%3Ahydrography%3Ahydro20m_p%2Cnhn%3Anhn%3Ahydrography%3Ahydro20m_l%2Cnhn%3Anhn%3Ahydrography%3Ahydro10m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_10m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_water_10m_p%2Cnhn%3Anhn%3Ahydrography%3Ahydro10m_l%2Cnhn%3Anhn%3Ahydrography%3Ahydro1m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_1m_p%2Cnhn%3Anhn%3Ahydrography%3Aisland_water_1m_p%2Cnhn%3Anhn%3Ahydrography%3Ahydro1m_l%2Cnhn%3Anhn%3Ahydrography%3Awaterbody_2%2Cnhn%3Anhn%3Ahydrography%3Aisland_2%2Cnhn%3Anhn%3Ahydrography%3Awaterbody_2_intermittent%2Cnhn%3Anhn%3Ahydrography%3Aocean_intermittent%2Cnhn%3Anhn%3Ahydrography%3Aslwatercourse_1%2Cnhn%3Anhn%3Ahydrography%3Aslwatercourse_1_intermittent%2Cnhn%3Anhn%3Ahydrography%3Abank_1%2Cnhn%3Anhn%3Ahydrography%3Alittoral_1%2Cnhn%3Anhn%3Anetwork%3Anetworklinearflow_1%2Cnhn%3Anhn%3Anetwork%3Aflowdirection_1%2Cnhn%3Anhnda%2Cnhn%3Atoponyms%2Cnhn%3Anhn%3Atoponyms%3Awaterbody_5m%2Cnhn%3Anhn%3Atoponyms%3Aisland%2Cnhn%3Anhn%3Atoponyms%3Awaterbody_1m%2Cnhn%3Anhn%3Atoponyms%3Ariver_1m%2Cnhn%3Anhn%3Atoponyms%3Ariver_50k%2Cnhn%3Anhn%3Atoponyms%3Awaterbody_50k%2Cnhn%3Anhn%3Atoponyms%3Abay_channel_50k&REQUEST=GetCapabilities&VERSION=1.3.0&FORMAT=image%2Fpng&STYLES=null&CRS=EPSG%3A3857&TRANSPARENT=TRUE",
+  "title": "GOV Canada - National Hydro Network - NHN - GeoBase Series",
+  "description": "Canada's National Hydro Network with watercourses, lakes, islands, and geographic names.",
+  "abstract": "The National Hydro Network (NHN) focuses on providing a quality geometric description and a set of basic attributes describing Canada`s inland surface waters. It provides geospatial digital data compliant with the NHN Standard such as lakes, reservoirs, watercourses (rivers and streams), canals, islands, drainage linear network, toponyms or geographical names, constructions and obstacles related to surface waters, etc. The best available federal and provincial data are used for its production, which is done jointly by the federal and interested provincial and territorial partners. The NHN is created from existing data at the 1:50 000 scale or better.",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": "hydro_network",
+      "name": "hydro_network",
+      "title": "GOV Canada - National Hydro Network - NHN - GeoBase Series",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn",
+      "name": "nhn:nhn",
+      "title": "National Hydro Network (NHN)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:hydro20m_p",
+      "name": "nhn:nhn:hydrography:hydro20m_p",
+      "title": "Waterbody 1:20,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:hydro20m_l",
+      "name": "nhn:nhn:hydrography:hydro20m_l",
+      "title": "Single Line Watercourse 1:20,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:hydro10m_p",
+      "name": "nhn:nhn:hydrography:hydro10m_p",
+      "title": "Waterbody 1:10,000,000 (Atlas of Canada",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:island_10m_p",
+      "name": "nhn:nhn:hydrography:island_10m_p",
+      "title": "Island Ocean 1:10,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:island_water_10m_p",
+      "name": "nhn:nhn:hydrography:island_water_10m_p",
+      "title": "Waterbody on Island 1:10,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:hydro10m_l",
+      "name": "nhn:nhn:hydrography:hydro10m_l",
+      "title": "Single Line Watercourse 1:10,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:hydro1m_p",
+      "name": "nhn:nhn:hydrography:hydro1m_p",
+      "title": "Waterbody 1:1,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:island_1m_p",
+      "name": "nhn:nhn:hydrography:island_1m_p",
+      "title": "Island Ocean 1:1,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:island_water_1m_p",
+      "name": "nhn:nhn:hydrography:island_water_1m_p",
+      "title": "Waterbody on Island 1:1,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:hydro1m_l",
+      "name": "nhn:nhn:hydrography:hydro1m_l",
+      "title": "Single Line Watercourse 1:1,000,000 (Atlas of Canada)",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:waterbody_2",
+      "name": "nhn:nhn:hydrography:waterbody_2",
+      "title": "Permanent Waterbody",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:island_2",
+      "name": "nhn:nhn:hydrography:island_2",
+      "title": "Island",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:waterbody_2_intermittent",
+      "name": "nhn:nhn:hydrography:waterbody_2_intermittent",
+      "title": "Intermittent Waterbody",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:ocean_intermittent",
+      "name": "nhn:nhn:hydrography:ocean_intermittent",
+      "title": "Intermittent Ocean",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:slwatercourse_1",
+      "name": "nhn:nhn:hydrography:slwatercourse_1",
+      "title": "Permanent or Unknown Watercourse",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:slwatercourse_1_intermittent",
+      "name": "nhn:nhn:hydrography:slwatercourse_1_intermittent",
+      "title": "intermittent Watercourse",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:bank_1",
+      "name": "nhn:nhn:hydrography:bank_1",
+      "title": "Bank",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:hydrography:littoral_1",
+      "name": "nhn:nhn:hydrography:littoral_1",
+      "title": "Littoral",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:network:networklinearflow_1",
+      "name": "nhn:nhn:network:networklinearflow_1",
+      "title": "Network Linear Flow",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:network:flowdirection_1",
+      "name": "nhn:nhn:network:flowdirection_1",
+      "title": "Flow direction",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhnda",
+      "name": "nhn:nhnda",
+      "title": "nhn:nhnda",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:drainageareas:nhnda",
+      "name": "nhn:nhn:drainageareas:nhnda",
+      "title": "Boundaries of NHN Work Unit",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:drainageareas:nhnda:names",
+      "name": "nhn:nhn:drainageareas:nhnda:names",
+      "title": "Identifiers of NHN Work Units",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:toponyms",
+      "name": "nhn:toponyms",
+      "title": "nhn:toponyms",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:toponyms:waterbody_5m",
+      "name": "nhn:nhn:toponyms:waterbody_5m",
+      "title": "Waterbody Name, 18M-3M",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:toponyms:island",
+      "name": "nhn:nhn:toponyms:island",
+      "title": "Island name, 2M-500K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:toponyms:waterbody_1m",
+      "name": "nhn:nhn:toponyms:waterbody_1m",
+      "title": "Waterbody Name, 3M-500K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:toponyms:river_1m",
+      "name": "nhn:nhn:toponyms:river_1m",
+      "title": "Watercourse Name, 3M-500K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:toponyms:river_50k",
+      "name": "nhn:nhn:toponyms:river_50k",
+      "title": "Watercourse Name, 500K-0K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:toponyms:waterbody_50k",
+      "name": "nhn:nhn:toponyms:waterbody_50k",
+      "title": "Waterbody Name, 500K-0K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": "nhn:nhn:toponyms:bay_channel_50k",
+      "name": "nhn:nhn:toponyms:bay_channel_50k",
+      "title": "Bay/Channel Name, 18M-0K",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "image/png",
+    "image/gif",
+    "image/jpeg",
+    "image/png; mode=8bit",
+    "image/tiff"
+  ],
+  "crs": [
+    "EPSG:2019",
+    "EPSG:2294",
+    "EPSG:2295",
+    "EPSG:2952",
+    "EPSG:3347",
+    "EPSG:3348",
+    "EPSG:3395",
+    "EPSG:3400",
+    "EPSG:3401",
+    "EPSG:3571",
+    "EPSG:3572",
+    "EPSG:3573",
+    "EPSG:3574",
+    "EPSG:3575",
+    "EPSG:3576",
+    "EPSG:3578",
+    "EPSG:3579",
+    "EPSG:3799",
+    "EPSG:3857",
+    "EPSG:3978",
+    "EPSG:3979",
+    "EPSG:4269",
+    "EPSG:4326",
+    "EPSG:4617",
+    "EPSG:26707",
+    "EPSG:26708",
+    "EPSG:26709",
+    "EPSG:26710",
+    "EPSG:26711",
+    "EPSG:26712",
+    "EPSG:26713",
+    "EPSG:26714",
+    "EPSG:26715",
+    "EPSG:26716",
+    "EPSG:26717",
+    "EPSG:26718",
+    "EPSG:26719",
+    "EPSG:26720",
+    "EPSG:26721",
+    "EPSG:26722",
+    "EPSG:26907",
+    "EPSG:26908",
+    "EPSG:26909",
+    "EPSG:26910",
+    "EPSG:26911",
+    "EPSG:26912",
+    "EPSG:26913",
+    "EPSG:26914",
+    "EPSG:26915",
+    "EPSG:26916",
+    "EPSG:26917",
+    "EPSG:26918",
+    "EPSG:26919",
+    "EPSG:26920",
+    "EPSG:26921",
+    "EPSG:26922",
+    "EPSG:32181",
+    "EPSG:32182",
+    "EPSG:32183",
+    "EPSG:32184",
+    "EPSG:32185",
+    "EPSG:32186",
+    "EPSG:32187",
+    "EPSG:32188",
+    "EPSG:32189",
+    "EPSG:32190",
+    "EPSG:32191",
+    "EPSG:32192",
+    "EPSG:32193",
+    "EPSG:32194",
+    "EPSG:32195",
+    "EPSG:32196",
+    "EPSG:32197",
+    "EPSG:32198",
+    "EPSG:41001",
+    "EPSG:42101",
+    "EPSG:42304",
+    "EPSG:53016",
+    "EPSG:54003",
+    "EPSG:54004",
+    "EPSG:54008",
+    "EPSG:54009",
+    "EPSG:54016",
+    "EPSG:54030",
+    "EPSG:102001",
+    "EPSG:102002",
+    "EPSG:102008",
+    "EPSG:102009",
+    "EPSG:102016",
+    "EPSG:102017",
+    "EPSG:102018",
+    "EPSG:102100",
+    "EPSG:102184",
+    "EPSG:102185",
+    "EPSG:104306",
+    "EPSG:900913"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1374,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 0.8,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

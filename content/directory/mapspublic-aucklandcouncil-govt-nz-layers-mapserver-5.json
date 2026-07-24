@@ -1,0 +1,567 @@
+{
+  "slug": "mapspublic-aucklandcouncil-govt-nz-layers-mapserver-5",
+  "service_key": "ESRI MapServer:https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/LiveMaps/CulturalHeritageInventoryPublic/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aucklandcouncil.govt.nz/arcgis/rest/services/LiveMaps/CulturalHeritageInventoryPublic/MapServer",
+  "title": "Layers",
+  "description": "Heritage sites and archaeological areas with significance designations.",
+  "abstract": "Cultural Heriatge Inventory",
+  "provider": "mapspublic.aucklandcouncil.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 23,
+      "name": "Heritage Locations",
+      "title": "Heritage Locations",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Heritage Point",
+      "title": "Heritage Point",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "SiteCategory",
+          "type": "esriFieldTypeString",
+          "alias": "Site Category"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "Site Type"
+        },
+        {
+          "name": "TutangiReferenceNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Tūtangi Reference"
+        },
+        {
+          "name": "LegacyID",
+          "type": "esriFieldTypeString",
+          "alias": "LegacyID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Heritage Botanic Point",
+      "title": "Heritage Botanic Point",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "VernacularName",
+          "type": "esriFieldTypeString",
+          "alias": "Vernacular Name"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "Site Type"
+        },
+        {
+          "name": "TutangiReferenceNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Tūtangi Reference"
+        },
+        {
+          "name": "LegacyID",
+          "type": "esriFieldTypeString",
+          "alias": "Legacy ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Heritage Lines",
+      "title": "Heritage Lines",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Heritage Botanic Line",
+      "title": "Heritage Botanic Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ScientificName",
+          "type": "esriFieldTypeString",
+          "alias": "ScientificName"
+        },
+        {
+          "name": "VernacularName",
+          "type": "esriFieldTypeString",
+          "alias": "VernacularName"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "SiteType"
+        },
+        {
+          "name": "TutangiReferenceNumber",
+          "type": "esriFieldTypeString",
+          "alias": "TutangiReferenceNumber"
+        },
+        {
+          "name": "LegacyID",
+          "type": "esriFieldTypeString",
+          "alias": "LegacyID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Heritage Line",
+      "title": "Heritage Line",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "SiteName"
+        },
+        {
+          "name": "SiteCategory",
+          "type": "esriFieldTypeString",
+          "alias": "SiteCategory"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "SiteType"
+        },
+        {
+          "name": "TutangiReferenceNumber",
+          "type": "esriFieldTypeString",
+          "alias": "TutangiReferenceNumber"
+        },
+        {
+          "name": "LegacyID",
+          "type": "esriFieldTypeString",
+          "alias": "LegacyID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Heritage Extent",
+      "title": "Heritage Extent",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Heritage Botanic Extent",
+      "title": "Heritage Botanic Extent",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ScientificName",
+          "type": "esriFieldTypeString",
+          "alias": "Scientific Name"
+        },
+        {
+          "name": "VernacularName",
+          "type": "esriFieldTypeString",
+          "alias": "Vernacular Name"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeString",
+          "alias": "Category"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "Site Type"
+        },
+        {
+          "name": "TutangiReferenceNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Tūtangi Reference Number"
+        },
+        {
+          "name": "LegacyID",
+          "type": "esriFieldTypeString",
+          "alias": "Legacy ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Heritage Extent",
+      "title": "Heritage Extent",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SiteName",
+          "type": "esriFieldTypeString",
+          "alias": "Site Name"
+        },
+        {
+          "name": "SiteCategory",
+          "type": "esriFieldTypeString",
+          "alias": "Site Category"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "Site Type"
+        },
+        {
+          "name": "TutangiReferenceNumber",
+          "type": "esriFieldTypeString",
+          "alias": "Tūtangi Reference Number"
+        },
+        {
+          "name": "LegacyID",
+          "type": "esriFieldTypeString",
+          "alias": "Legacy ID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Priority Coastal Areas For Survey (only visible at 1:25000 and above)",
+      "title": "Priority Coastal Areas For Survey (only visible at 1:25000 and above)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "SURVEYSTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYSTATUS"
+        },
+        {
+          "name": "SURVEYDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SURVEYDATE"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREANAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREANAME"
+        },
+        {
+          "name": "CHI_COMPUTER_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "CHI_COMPUTER_NUMBER"
+        },
+        {
+          "name": "SURVEYMETHOD",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYMETHOD"
+        },
+        {
+          "name": "SURVEYQUALITY",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYQUALITY"
+        },
+        {
+          "name": "REPORTREFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "REPORTREFERENCE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Archaeological Surveyed (only visible at 1:25000 and above)",
+      "title": "Archaeological Surveyed (only visible at 1:25000 and above)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SURVEYSTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYSTATUS"
+        },
+        {
+          "name": "SURVEYDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SURVEYDATE"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREANAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREANAME"
+        },
+        {
+          "name": "CHI_COMPUTER_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "CHI_COMPUTER_NUMBER"
+        },
+        {
+          "name": "SURVEYMETHOD",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYMETHOD"
+        },
+        {
+          "name": "SURVEYQUALITY",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYQUALITY"
+        },
+        {
+          "name": "REPORTREFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "REPORTREFERENCE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Priority Areas For Survey (only visible at 1:25000 and above)",
+      "title": "Priority Areas For Survey (only visible at 1:25000 and above)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "SURVEYSTATUS",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYSTATUS"
+        },
+        {
+          "name": "SURVEYDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "SURVEYDATE"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "AREANAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREANAME"
+        },
+        {
+          "name": "CHI_COMPUTER_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "CHI_COMPUTER_NUMBER"
+        },
+        {
+          "name": "SURVEYMETHOD",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYMETHOD"
+        },
+        {
+          "name": "SURVEYQUALITY",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEYQUALITY"
+        },
+        {
+          "name": "REPORTREFERENCE",
+          "type": "esriFieldTypeString",
+          "alias": "REPORTREFERENCE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 33,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

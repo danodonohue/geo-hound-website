@@ -1,0 +1,562 @@
+{
+  "slug": "maps164-nottinghamcity-gov-uk-planning-mapserver",
+  "service_key": "ESRI MapServer:https://maps164.nottinghamcity.gov.uk/server/rest/services/Core_services/Planning/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps164.nottinghamcity.gov.uk/server/rest/services/Core_services/Planning/MapServer",
+  "title": "Planning",
+  "description": "Planning designations including listed buildings and conservation areas.",
+  "abstract": "Planning map service",
+  "provider": "maps164.nottinghamcity.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Nottinghamshire",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Planning",
+      "title": "Planning",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Listed Buildings",
+      "title": "Listed Buildings",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Listed Buildings Points",
+      "title": "Listed Buildings Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SE_ANNO_CA",
+          "type": "esriFieldTypeString",
+          "alias": "SE_ANNO_CA"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Listed Buildings Polygons",
+      "title": "Listed Buildings Polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "DESCRIPT",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "LISBGDE_DE",
+          "type": "esriFieldTypeString",
+          "alias": "LISBGDE_DE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Scheduled Ancient Monuments",
+      "title": "Scheduled Ancient Monuments",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area (Ha)"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Notifiable Pipeline",
+      "title": "Notifiable Pipeline",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Article 4 Direction Areas",
+      "title": "Article 4 Direction Areas",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Article 4 Directions – Historic Environment",
+      "title": "Article 4 Directions – Historic Environment",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "WEBSITE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Article 4 Directions – Houses in Multiple Occupation",
+      "title": "Article 4 Directions – Houses in Multiple Occupation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.AREA"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.LEN"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Conservation Areas",
+      "title": "Conservation Areas",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "Hectares"
+        },
+        {
+          "name": "MANAG_PLAN",
+          "type": "esriFieldTypeString",
+          "alias": "Management Plan?"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Development Management Area Teams",
+      "title": "Development Management Area Teams",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "WEBSITE",
+          "type": "esriFieldTypeString",
+          "alias": "Website"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Hazardous Installations (Internal)",
+      "title": "Hazardous Installations (Internal)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LPPOLICY",
+          "type": "esriFieldTypeString",
+          "alias": "Local Plan Policy"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Planning Applications",
+      "title": "Planning Applications",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Planning Application Points",
+      "title": "Planning Application Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVAL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APP_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Application Reference"
+        },
+        {
+          "name": "APP_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Application Address"
+        },
+        {
+          "name": "PROPOSAL",
+          "type": "esriFieldTypeString",
+          "alias": "Proposal"
+        },
+        {
+          "name": "DATE_APP_RECEIVED",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Application Received"
+        },
+        {
+          "name": "DATE_APP_VALID",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Application Valid"
+        },
+        {
+          "name": "APP_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Application Status"
+        },
+        {
+          "name": "DECISION_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "DECISION",
+          "type": "esriFieldTypeString",
+          "alias": "Decision"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Planning Application Polygons",
+      "title": "Planning Application Polygons",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "KEYVAL",
+          "type": "esriFieldTypeString",
+          "alias": "KEYVAL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APP_REF",
+          "type": "esriFieldTypeString",
+          "alias": "Application Reference"
+        },
+        {
+          "name": "APP_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Application Address"
+        },
+        {
+          "name": "PROPOSAL",
+          "type": "esriFieldTypeString",
+          "alias": "Proposal"
+        },
+        {
+          "name": "DATE_APP_RECEIVED",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Application Received"
+        },
+        {
+          "name": "DATE_APP_VALID",
+          "type": "esriFieldTypeDate",
+          "alias": "Date Application Valid"
+        },
+        {
+          "name": "APP_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Application Status"
+        },
+        {
+          "name": "DECISION_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Decision Date"
+        },
+        {
+          "name": "DECISION",
+          "type": "esriFieldTypeString",
+          "alias": "Decision"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Tree Preservation Orders",
+      "title": "Tree Preservation Orders",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Brownfield Register",
+      "title": "Brownfield Register",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "SHLAA Sites",
+      "title": "SHLAA Sites",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Local List",
+      "title": "Local List",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "SELAA Sites",
+      "title": "SELAA Sites",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Main Built-Up Area",
+      "title": "Main Built-Up Area",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Sites of Special Scientific Interest Impact Risk Zones (SSSI IRZ)",
+      "title": "Sites of Special Scientific Interest Impact Risk Zones (SSSI IRZ)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1216,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

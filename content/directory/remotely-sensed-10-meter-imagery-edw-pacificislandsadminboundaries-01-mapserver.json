@@ -1,0 +1,180 @@
+{
+  "slug": "remotely-sensed-10-meter-imagery-edw-pacificislandsadminboundaries-01-mapserver",
+  "service_key": "ESRI MapServer:https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_PacificIslandsAdminBoundaries_01/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_PacificIslandsAdminBoundaries_01/MapServer",
+  "title": "EDW_PacificIslandsAdminBoundaries_01",
+  "description": "Administrative boundaries for US Pacific Island territories and freely associated states.",
+  "abstract": "A map service on the www depicting the boundaries of the Pacific Island unincorporated territories (American Samoa, Commonwealth of the Northern Mariana Islands, and Guam) and freely associated states (Federated States of Micronesia, Marshall Islands, and Palau) of the United States and their county equivalents. The original dataset was derived from remotely sensed 10-meter imagery, converted to vectors, then generalized to reduce file size. The map service uses a File Geodatabase data source with Web Mercator projection.",
+  "provider": "remotely sensed 10-meter imagery",
+  "place": {
+    "country": "United States",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Pacific Islands State",
+      "title": "Pacific Islands State",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "statefips",
+          "type": "esriFieldTypeString",
+          "alias": "STATEFIPS"
+        },
+        {
+          "name": "stateabbr",
+          "type": "esriFieldTypeString",
+          "alias": "STATEABBR"
+        },
+        {
+          "name": "statename",
+          "type": "esriFieldTypeString",
+          "alias": "STATENAME"
+        },
+        {
+          "name": "gis_acres",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS_ACRES"
+        },
+        {
+          "name": "gis_miles",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS_MILES"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Pacific Islands County",
+      "title": "Pacific Islands County",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "fips",
+          "type": "esriFieldTypeString",
+          "alias": "FIPS"
+        },
+        {
+          "name": "statefips",
+          "type": "esriFieldTypeString",
+          "alias": "STATEFIPS"
+        },
+        {
+          "name": "countyfips",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTYFIPS"
+        },
+        {
+          "name": "stateabbr",
+          "type": "esriFieldTypeString",
+          "alias": "STATEABBR"
+        },
+        {
+          "name": "countyid",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTYID"
+        },
+        {
+          "name": "statename",
+          "type": "esriFieldTypeString",
+          "alias": "STATENAME"
+        },
+        {
+          "name": "gis_acres",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS_ACRES"
+        },
+        {
+          "name": "gis_miles",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS_MILES"
+        },
+        {
+          "name": "county_name",
+          "type": "esriFieldTypeString",
+          "alias": "COUNTY_NAME"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:4269"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1689,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

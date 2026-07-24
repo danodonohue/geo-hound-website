@@ -1,0 +1,441 @@
+{
+  "slug": "maps1-brampton-ca-layers-mapserver",
+  "service_key": "ESRI MapServer:https://maps1.brampton.ca/arcgis/rest/services/COB/Common/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps1.brampton.ca/arcgis/rest/services/COB/Common/MapServer",
+  "title": "Layers",
+  "description": "Address points and ward boundaries for City of Brampton.",
+  "abstract": "New wards as of December 1, 2014",
+  "provider": "maps1.brampton.ca",
+  "place": {
+    "country": "Canada",
+    "state": "Ontario",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "addresses",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Address Points",
+      "title": "Address Points",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "GIS_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "GIS ID"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "FULL_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Full Address"
+        },
+        {
+          "name": "CIVIC_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Civic Number"
+        },
+        {
+          "name": "STREET_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Street Name"
+        },
+        {
+          "name": "STREET_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Street Type"
+        },
+        {
+          "name": "STREET_DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "Street Direction"
+        },
+        {
+          "name": "UNIT_NO",
+          "type": "esriFieldTypeString",
+          "alias": "Unit Number"
+        },
+        {
+          "name": "CITY",
+          "type": "esriFieldTypeString",
+          "alias": "City"
+        },
+        {
+          "name": "PROVINCE",
+          "type": "esriFieldTypeString",
+          "alias": "Province"
+        },
+        {
+          "name": "POSTAL_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "Postal Code"
+        },
+        {
+          "name": "ADDRESS_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Address Type"
+        },
+        {
+          "name": "PROP_CODE",
+          "type": "esriFieldTypeDouble",
+          "alias": "Property Code"
+        },
+        {
+          "name": "PROP_CODE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Property Code Description"
+        },
+        {
+          "name": "WARD",
+          "type": "esriFieldTypeString",
+          "alias": "Ward"
+        },
+        {
+          "name": "CITY_GRID",
+          "type": "esriFieldTypeString",
+          "alias": "City Grid"
+        },
+        {
+          "name": "LOT_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "Lot Number"
+        },
+        {
+          "name": "CON_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "Concession Number"
+        },
+        {
+          "name": "SEC_PLAN_AREA",
+          "type": "esriFieldTypeString",
+          "alias": "Secondary Plan Area"
+        },
+        {
+          "name": "CITY_FILE",
+          "type": "esriFieldTypeString",
+          "alias": "City File Number"
+        },
+        {
+          "name": "DRAFT_PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Draft Plan Number"
+        },
+        {
+          "name": "REG_PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Registered Plan Number"
+        },
+        {
+          "name": "REG_PLAN_ASSUMP_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Registered Plan Assumption Date"
+        },
+        {
+          "name": "SITE_PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Site Plan Number"
+        },
+        {
+          "name": "CONDO_PLAN_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Condo Plan Number"
+        },
+        {
+          "name": "C_OF_A",
+          "type": "esriFieldTypeString",
+          "alias": "Committee of Adjustment Number"
+        },
+        {
+          "name": "TOWNSHIP",
+          "type": "esriFieldTypeString",
+          "alias": "Township"
+        },
+        {
+          "name": "BLOCK_PLAN",
+          "type": "esriFieldTypeString",
+          "alias": "Block Plan"
+        },
+        {
+          "name": "HERITAGE",
+          "type": "esriFieldTypeString",
+          "alias": "Heritage"
+        },
+        {
+          "name": "PERMIT_ISSUEDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Permit Issue Date"
+        },
+        {
+          "name": "PERMIT_NO",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Number"
+        },
+        {
+          "name": "PERMIT_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Type"
+        },
+        {
+          "name": "SUB_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Sub-Type"
+        },
+        {
+          "name": "WORK_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Permit Work Type"
+        },
+        {
+          "name": "OCCUPANCY_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "Occupancy Date"
+        },
+        {
+          "name": "PROPERTY_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Property Description"
+        },
+        {
+          "name": "LEGAL_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Legal Description"
+        },
+        {
+          "name": "ROLL_NO_DISP",
+          "type": "esriFieldTypeString",
+          "alias": "Roll Number"
+        },
+        {
+          "name": "PIN",
+          "type": "esriFieldTypeString",
+          "alias": "PIN"
+        },
+        {
+          "name": "ADDRESS_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "Address ID"
+        },
+        {
+          "name": "GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Geometry"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Streets",
+      "title": "Streets",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "SEARCH_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SEARCH NAME"
+        },
+        {
+          "name": "STREET_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "STREET NAME"
+        },
+        {
+          "name": "STREET_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "STREET TYPE"
+        },
+        {
+          "name": "DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTION"
+        },
+        {
+          "name": "JURISDICTION",
+          "type": "esriFieldTypeString",
+          "alias": "JURISDICTION"
+        },
+        {
+          "name": "LENGTH_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "SEGMENT LENGTH IN METRES"
+        },
+        {
+          "name": "ROAD_CLASSIFICATION",
+          "type": "esriFieldTypeString",
+          "alias": "ROAD CLASSIFICATION"
+        },
+        {
+          "name": "DEVEL_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "DEVELOPMENT STATUS"
+        },
+        {
+          "name": "CONSTRUC_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "CONSTRUCTION STATUS"
+        },
+        {
+          "name": "SERVICING",
+          "type": "esriFieldTypeDate",
+          "alias": "SERVICING DATE"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LF_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT FROM ADDRESS"
+        },
+        {
+          "name": "LT_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "LEFT TO ADDRESS"
+        },
+        {
+          "name": "RF_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT FROM ADDRESS"
+        },
+        {
+          "name": "RT_ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "RIGHT TO ADDRESS"
+        },
+        {
+          "name": "MAJ_MIN",
+          "type": "esriFieldTypeString",
+          "alias": "MAJOR MINOR CLASSIFICATION"
+        },
+        {
+          "name": "TRAFFIC_DIRECTION",
+          "type": "esriFieldTypeDouble",
+          "alias": "TRAFFIC DIRECTION"
+        },
+        {
+          "name": "T_ELEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "TO ELEVATION"
+        },
+        {
+          "name": "F_ELEV",
+          "type": "esriFieldTypeDouble",
+          "alias": "FROM ELEVATION"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "City Limit",
+      "title": "City Limit",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Brampton Grid",
+      "title": "Brampton Grid",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ID",
+          "type": "esriFieldTypeOID",
+          "alias": "ID"
+        },
+        {
+          "name": "ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZONE"
+        },
+        {
+          "name": "GEOMETRY",
+          "type": "esriFieldTypeGeometry",
+          "alias": "GEOMETRY"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Downtown Special Policy Area",
+      "title": "Downtown Special Policy Area",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 687,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

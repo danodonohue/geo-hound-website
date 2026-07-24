@@ -1,0 +1,165 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-29",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_CSAI/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Heritage_CSAI/MapServer",
+  "title": "Layers",
+  "description": "County archaeological sites and areas of importance.",
+  "abstract": "Heritage - County Sites of Archaeological Importance (CSAI)",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 11,
+      "name": "Heritage - County Sites of Archaeological Importance (CSAI)",
+      "title": "Heritage - County Sites of Archaeological Importance (CSAI)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "Ref_No",
+          "type": "esriFieldTypeString",
+          "alias": "Ref_No"
+        },
+        {
+          "name": "Area_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Area_Type"
+        },
+        {
+          "name": "Area_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Local_Authority",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Related_Monuments",
+          "type": "esriFieldTypeString",
+          "alias": "Related monuments"
+        },
+        {
+          "name": "Contact",
+          "type": "esriFieldTypeString",
+          "alias": "Contact"
+        },
+        {
+          "name": "Date_Assigned",
+          "type": "esriFieldTypeString",
+          "alias": "Date assigned"
+        },
+        {
+          "name": "Last_Amended",
+          "type": "esriFieldTypeDate",
+          "alias": "Last amended"
+        },
+        {
+          "name": "Review_by",
+          "type": "esriFieldTypeDate",
+          "alias": "Review_by"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "contact_email",
+          "type": "esriFieldTypeString",
+          "alias": "Contact email"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STArea()"
+        },
+        {
+          "name": "SHAPE.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE.STLength()"
+        },
+        {
+          "name": "Boundary_Reasoning",
+          "type": "esriFieldTypeString",
+          "alias": "Boundary_Reasoning"
+        },
+        {
+          "name": "Curator_Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Curator_Notes"
+        },
+        {
+          "name": "Significance",
+          "type": "esriFieldTypeString",
+          "alias": "Significance"
+        },
+        {
+          "name": "Summary_Description",
+          "type": "esriFieldTypeString",
+          "alias": "Summary_Description"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 305,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -1,0 +1,961 @@
+{
+  "slug": "ws-lioservices-lrc-gov-on-ca-flood-monitoring-4-2-mapserver",
+  "service_key": "ESRI MapServer:https://ws.lioservices.lrc.gov.on.ca/arcgis1/rest/services/Flood_Monitoring/Flood_Monitoring_Map/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://ws.lioservices.lrc.gov.on.ca/arcgis1/rest/services/Flood_Monitoring/Flood_Monitoring_Map/MapServer",
+  "title": "Flood Monitoring 4.2",
+  "description": "Flood monitoring including warnings, watches, and water level conditions.",
+  "abstract": "<div><p id='serviceVersion'>Version: n/a</p><p id='serviceBuild'>Build: 2024-08-19 14:25:26</p></div>",
+  "provider": "ws.lioservices.lrc.gov.on.ca",
+  "place": {
+    "country": "Canada",
+    "state": "Ontario",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "flood",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Local",
+      "title": "Local",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Flood Warning - CA",
+      "title": "Flood Warning - CA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "MESSAGE_EN",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_EN"
+        },
+        {
+          "name": "MESSAGE_FR",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_FR"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "LOCAL_MESSAGE_FO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_FO"
+        },
+        {
+          "name": "LOCAL_MESSAGE_WS",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_WS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Flood Warning - MNRF",
+      "title": "Flood Warning - MNRF",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "MESSAGE_EN",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_EN"
+        },
+        {
+          "name": "MESSAGE_FR",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_FR"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "LOCAL_MESSAGE_FO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_FO"
+        },
+        {
+          "name": "LOCAL_MESSAGE_WS",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_WS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Surge Warning",
+      "title": "Surge Warning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LAKE",
+          "type": "esriFieldTypeString",
+          "alias": "LAKE"
+        },
+        {
+          "name": "LOCAL_MESSAGE",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Static Lake Level Warning",
+      "title": "Static Lake Level Warning",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LAKE",
+          "type": "esriFieldTypeString",
+          "alias": "LAKE"
+        },
+        {
+          "name": "LOCAL_MESSAGE",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Flood Watch - CA",
+      "title": "Flood Watch - CA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "MESSAGE_EN",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_EN"
+        },
+        {
+          "name": "MESSAGE_FR",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_FR"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "LOCAL_MESSAGE_FO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_FO"
+        },
+        {
+          "name": "LOCAL_MESSAGE_WS",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_WS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Flood Watch - MNRF",
+      "title": "Flood Watch - MNRF",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "MESSAGE_EN",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_EN"
+        },
+        {
+          "name": "MESSAGE_FR",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_FR"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "LOCAL_MESSAGE_FO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_FO"
+        },
+        {
+          "name": "LOCAL_MESSAGE_WS",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_WS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Surge Watch",
+      "title": "Surge Watch",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LAKE",
+          "type": "esriFieldTypeString",
+          "alias": "LAKE"
+        },
+        {
+          "name": "LOCAL_MESSAGE",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Static Lake Level Watch",
+      "title": "Static Lake Level Watch",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LAKE",
+          "type": "esriFieldTypeString",
+          "alias": "LAKE"
+        },
+        {
+          "name": "LOCAL_MESSAGE",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Condition Statement - CA",
+      "title": "Condition Statement - CA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "MESSAGE_EN",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_EN"
+        },
+        {
+          "name": "MESSAGE_FR",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_FR"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "LOCAL_MESSAGE_FO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_FO"
+        },
+        {
+          "name": "LOCAL_MESSAGE_WS",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_WS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Condition Statement - MNRF",
+      "title": "Condition Statement - MNRF",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "MESSAGE_EN",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_EN"
+        },
+        {
+          "name": "MESSAGE_FR",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_FR"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "LOCAL_MESSAGE_FO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_FO"
+        },
+        {
+          "name": "LOCAL_MESSAGE_WS",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_WS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Surge Condition Statement Message",
+      "title": "Surge Condition Statement Message",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LAKE",
+          "type": "esriFieldTypeString",
+          "alias": "LAKE"
+        },
+        {
+          "name": "LOCAL_MESSAGE",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Static Lake Level Message",
+      "title": "Static Lake Level Message",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LAKE",
+          "type": "esriFieldTypeString",
+          "alias": "LAKE"
+        },
+        {
+          "name": "LOCAL_MESSAGE",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Provincial",
+      "title": "Provincial",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Flood Watch - CA",
+      "title": "Flood Watch - CA",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "PROV_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_WATCH"
+        },
+        {
+          "name": "PROV_CONDITION",
+          "type": "esriFieldTypeString",
+          "alias": "PROV_CONDITION"
+        },
+        {
+          "name": "LOCAL_WARNING",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WARNING"
+        },
+        {
+          "name": "LOCAL_WATCH",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_WATCH"
+        },
+        {
+          "name": "MESSAGE_EN",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_EN"
+        },
+        {
+          "name": "MESSAGE_FR",
+          "type": "esriFieldTypeString",
+          "alias": "MESSAGE_FR"
+        },
+        {
+          "name": "AREA_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "AREA_NAME"
+        },
+        {
+          "name": "URL",
+          "type": "esriFieldTypeString",
+          "alias": "URL"
+        },
+        {
+          "name": "LOCAL_MESSAGE_FO",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_FO"
+        },
+        {
+          "name": "LOCAL_MESSAGE_WS",
+          "type": "esriFieldTypeString",
+          "alias": "LOCAL_MESSAGE_WS"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Flood Watch - MNRF",
+      "title": "Flood Watch - MNRF",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Surge Watch",
+      "title": "Surge Watch",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Static Lake Level Watch",
+      "title": "Static Lake Level Watch",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Condition Statement Message - CA",
+      "title": "Condition Statement Message - CA",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Condition Statement Message - MNRF",
+      "title": "Condition Statement Message - MNRF",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Surge Condition Statement Message",
+      "title": "Surge Condition Statement Message",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Static Lake Level Message",
+      "title": "Static Lake Level Message",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1050,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

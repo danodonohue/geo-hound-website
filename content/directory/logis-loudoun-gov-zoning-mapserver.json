@@ -1,0 +1,625 @@
+{
+  "slug": "logis-loudoun-gov-zoning-mapserver",
+  "service_key": "ESRI MapServer:https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://logis.loudoun.gov/gis/rest/services/COL/Zoning/MapServer",
+  "title": "Zoning",
+  "description": "Zoning districts and rezoning requests for Leesburg and Loudoun County.",
+  "abstract": "Loudoun County, Virginia zoning",
+  "provider": "logis.loudoun.gov",
+  "place": {
+    "country": "United States",
+    "state": "Virginia",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "zoning",
+      "confidence": "high"
+    },
+    {
+      "name": "planning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Leesburg Zoning",
+      "title": "Leesburg Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LB_ID",
+          "type": "esriFieldTypeDouble",
+          "alias": "LB_ID"
+        },
+        {
+          "name": "LB_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "LB_ZONE"
+        },
+        {
+          "name": "LB_ZONE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LB_ZONE_DATE"
+        },
+        {
+          "name": "LB_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "LB_UPD_DATE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "1972 Zoning Ordinance",
+      "title": "1972 Zoning Ordinance",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ZO_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE"
+        },
+        {
+          "name": "ZO_ORDINANCE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ORDINANCE"
+        },
+        {
+          "name": "ZO_SPEC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_SPEC_CODE"
+        },
+        {
+          "name": "ZO_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_PROJ_NUM"
+        },
+        {
+          "name": "ZO_UPDATE_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_UPDATE_NUM"
+        },
+        {
+          "name": "ZO_ZONE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_ZONE_DATE"
+        },
+        {
+          "name": "ZO_ZONE_ORD",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE_ORD"
+        },
+        {
+          "name": "ZO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_UPD_DATE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "ZO_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_MAINT_TASK_ID"
+        },
+        {
+          "name": "ZO_GIS_START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_START_DATE"
+        },
+        {
+          "name": "ZO_GIS_END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_END_DATE"
+        },
+        {
+          "name": "NEW_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NEW_ID"
+        },
+        {
+          "name": "ZD_ZONE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_NAME"
+        },
+        {
+          "name": "ZD_ZONE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_DESC"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Zoning: Labels",
+      "title": "Zoning: Labels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ZO_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE"
+        },
+        {
+          "name": "ZO_ORDINANCE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ORDINANCE"
+        },
+        {
+          "name": "ZO_SPEC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_SPEC_CODE"
+        },
+        {
+          "name": "ZO_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_PROJ_NUM"
+        },
+        {
+          "name": "ZO_UPDATE_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_UPDATE_NUM"
+        },
+        {
+          "name": "ZO_ZONE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_ZONE_DATE"
+        },
+        {
+          "name": "ZO_ZONE_ORD",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE_ORD"
+        },
+        {
+          "name": "ZO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_UPD_DATE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "ZO_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_MAINT_TASK_ID"
+        },
+        {
+          "name": "ZO_GIS_START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_START_DATE"
+        },
+        {
+          "name": "ZO_GIS_END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_END_DATE"
+        },
+        {
+          "name": "NEW_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NEW_ID"
+        },
+        {
+          "name": "ZD_ZONE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_NAME"
+        },
+        {
+          "name": "ZD_ZONE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_DESC"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Zoning",
+      "title": "Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ZO_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE"
+        },
+        {
+          "name": "ZO_ORDINANCE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ORDINANCE"
+        },
+        {
+          "name": "ZO_SPEC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_SPEC_CODE"
+        },
+        {
+          "name": "ZO_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_PROJ_NUM"
+        },
+        {
+          "name": "ZO_UPDATE_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_UPDATE_NUM"
+        },
+        {
+          "name": "ZO_ZONE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_ZONE_DATE"
+        },
+        {
+          "name": "ZO_ZONE_ORD",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE_ORD"
+        },
+        {
+          "name": "ZO_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_MAINT_TASK_ID"
+        },
+        {
+          "name": "ZO_GIS_START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_START_DATE"
+        },
+        {
+          "name": "ZO_GIS_END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_END_DATE"
+        },
+        {
+          "name": "ZO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_UPD_DATE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        },
+        {
+          "name": "NEW_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NEW_ID"
+        },
+        {
+          "name": "ZD_ZONE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_NAME"
+        },
+        {
+          "name": "ZD_ZONE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_DESC"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Rezoning - ZMAP: Labels",
+      "title": "Rezoning - ZMAP: Labels",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ZO_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE"
+        },
+        {
+          "name": "ZO_ORDINANCE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ORDINANCE"
+        },
+        {
+          "name": "ZO_SPEC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_SPEC_CODE"
+        },
+        {
+          "name": "ZO_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_PROJ_NUM"
+        },
+        {
+          "name": "ZO_UPDATE_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_UPDATE_NUM"
+        },
+        {
+          "name": "ZO_ZONE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_ZONE_DATE"
+        },
+        {
+          "name": "ZO_ZONE_ORD",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE_ORD"
+        },
+        {
+          "name": "ZO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_UPD_DATE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "ZO_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_MAINT_TASK_ID"
+        },
+        {
+          "name": "ZO_GIS_START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_START_DATE"
+        },
+        {
+          "name": "ZO_GIS_END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_END_DATE"
+        },
+        {
+          "name": "NEW_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NEW_ID"
+        },
+        {
+          "name": "ZD_ZONE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_NAME"
+        },
+        {
+          "name": "ZD_ZONE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_DESC"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Rezoning - ZMAP",
+      "title": "Rezoning - ZMAP",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "ZO_ZONE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE"
+        },
+        {
+          "name": "ZO_ORDINANCE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ORDINANCE"
+        },
+        {
+          "name": "ZO_SPEC_CODE",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_SPEC_CODE"
+        },
+        {
+          "name": "ZO_PROJ_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_PROJ_NUM"
+        },
+        {
+          "name": "ZO_UPDATE_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_UPDATE_NUM"
+        },
+        {
+          "name": "ZO_ZONE_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_ZONE_DATE"
+        },
+        {
+          "name": "ZO_ZONE_ORD",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_ZONE_ORD"
+        },
+        {
+          "name": "ZO_UPD_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_UPD_DATE"
+        },
+        {
+          "name": "agstype",
+          "type": "esriFieldTypeString",
+          "alias": "agstype"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "ZO_MAINT_TASK_ID",
+          "type": "esriFieldTypeString",
+          "alias": "ZO_MAINT_TASK_ID"
+        },
+        {
+          "name": "ZO_GIS_START_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_START_DATE"
+        },
+        {
+          "name": "ZO_GIS_END_DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "ZO_GIS_END_DATE"
+        },
+        {
+          "name": "NEW_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NEW_ID"
+        },
+        {
+          "name": "ZD_ZONE_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_NAME"
+        },
+        {
+          "name": "ZD_ZONE_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "ZD_ZONE_DESC"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2924"
+  ],
+  "cors_enabled": true,
+  "response_ms": 220,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

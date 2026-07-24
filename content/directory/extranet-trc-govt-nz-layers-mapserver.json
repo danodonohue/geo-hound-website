@@ -1,0 +1,91 @@
+{
+  "slug": "extranet-trc-govt-nz-layers-mapserver",
+  "service_key": "ESRI MapServer:https://extranet.trc.govt.nz/getgis_ssl/arcgis/rest/services/Rivers_Management/10mContours/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://extranet.trc.govt.nz/getgis_ssl/arcgis/rest/services/Rivers_Management/10mContours/MapServer",
+  "title": "Layers",
+  "description": "10-meter elevation contour lines for Taranaki Region.",
+  "abstract": "10m Contour lines for the Taranaki Region NZ. ",
+  "provider": "extranet.trc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "elevation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "10m Contour Lines",
+      "title": "10m Contour Lines",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ELEVATION",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ELEVATION"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "InLine_FID",
+          "type": "esriFieldTypeInteger",
+          "alias": "InLine_FID"
+        },
+        {
+          "name": "SimLnFLag",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SimLnFLag"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 341,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

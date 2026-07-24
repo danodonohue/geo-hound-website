@@ -1,0 +1,1300 @@
+{
+  "slug": "mapspublic-aklc-govt-nz-layers-mapserver",
+  "service_key": "ESRI MapServer:https://mapspublic.aklc.govt.nz/arcgis/rest/services/LiveMaps/Planning/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://mapspublic.aklc.govt.nz/arcgis/rest/services/LiveMaps/Planning/MapServer",
+  "title": "Layers",
+  "description": "Auckland planning information, development plans, urban boundaries, and treaty settlements.",
+  "abstract": "Planning Information\nUnitary Plan Non Statutory Information\nUrban Area 2016",
+  "provider": "mapspublic.aklc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Auckland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "planning",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "land-cover",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Unitary Plan Rural Urban Boundary",
+      "title": "Unitary Plan Rural Urban Boundary",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "STATUS"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Auckland Council Development Plans",
+      "title": "Auckland Council Development Plans",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Panuku Unlock and Transform",
+      "title": "Panuku Unlock and Transform",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ProjectOwner",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectOwner"
+        },
+        {
+          "name": "ProjectTitle",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectTitle"
+        },
+        {
+          "name": "ProjectSection",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectSection"
+        },
+        {
+          "name": "ProjectType",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectType"
+        },
+        {
+          "name": "ProjectStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectStatus"
+        },
+        {
+          "name": "ProjectLocation",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectLocation"
+        },
+        {
+          "name": "DocumentLink",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentLink"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "ProjectStart",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectStart"
+        },
+        {
+          "name": "ProjectEnd",
+          "type": "esriFieldTypeString",
+          "alias": "ProjectEnd"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Plans and Places",
+      "title": "Plans and Places",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "PlanTitle",
+          "type": "esriFieldTypeString",
+          "alias": "PlanTitle"
+        },
+        {
+          "name": "PlanType",
+          "type": "esriFieldTypeString",
+          "alias": "PlanType"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "LocalBoard",
+          "type": "esriFieldTypeString",
+          "alias": "LocalBoard"
+        },
+        {
+          "name": "Author",
+          "type": "esriFieldTypeString",
+          "alias": "Author"
+        },
+        {
+          "name": "ContactEmail",
+          "type": "esriFieldTypeString",
+          "alias": "ContactEmail"
+        },
+        {
+          "name": "DocumentLink",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentLink"
+        },
+        {
+          "name": "YearAdopted",
+          "type": "esriFieldTypeInteger",
+          "alias": "YearAdopted"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "PlanReference",
+          "type": "esriFieldTypeString",
+          "alias": "PlanReference"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Tamaki Transformation",
+      "title": "Tamaki Transformation",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Auckland Plan Sequencing and Timing of Growth",
+      "title": "Auckland Plan Sequencing and Timing of Growth",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Node (Years 1 - 30)",
+      "title": "Node (Years 1 - 30)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Outcome",
+          "type": "esriFieldTypeString",
+          "alias": "Outcome"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SubType",
+          "type": "esriFieldTypeString",
+          "alias": "SubType"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeInteger",
+          "alias": "Class"
+        },
+        {
+          "name": "Map",
+          "type": "esriFieldTypeString",
+          "alias": "Map"
+        },
+        {
+          "name": "Version",
+          "type": "esriFieldTypeString",
+          "alias": "Version"
+        },
+        {
+          "name": "Scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scale"
+        },
+        {
+          "name": "Planner",
+          "type": "esriFieldTypeString",
+          "alias": "Planner"
+        },
+        {
+          "name": "LocalBoard",
+          "type": "esriFieldTypeString",
+          "alias": "LocalBoard"
+        },
+        {
+          "name": "Strat_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Type"
+        },
+        {
+          "name": "Strat_Time",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Time"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "LabelRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "LabelRule"
+        },
+        {
+          "name": "SymbolRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolRule"
+        },
+        {
+          "name": "Strat_Time_Class",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Strat_Time_Class"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "DocumentLink",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentLink"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Years 1-3",
+      "title": "Years 1-3",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Outcome",
+          "type": "esriFieldTypeString",
+          "alias": "Outcome"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SubType",
+          "type": "esriFieldTypeString",
+          "alias": "SubType"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeInteger",
+          "alias": "Class"
+        },
+        {
+          "name": "Map",
+          "type": "esriFieldTypeString",
+          "alias": "Map"
+        },
+        {
+          "name": "Version",
+          "type": "esriFieldTypeString",
+          "alias": "Version"
+        },
+        {
+          "name": "Scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scale"
+        },
+        {
+          "name": "Planner",
+          "type": "esriFieldTypeString",
+          "alias": "Planner"
+        },
+        {
+          "name": "LocalBoard",
+          "type": "esriFieldTypeString",
+          "alias": "LocalBoard"
+        },
+        {
+          "name": "Strat_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Type"
+        },
+        {
+          "name": "Strat_Time",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Time"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "LabelRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "LabelRule"
+        },
+        {
+          "name": "SymbolRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolRule"
+        },
+        {
+          "name": "Strat_Time_Class",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Strat_Time_Class"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "DocumentLink",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentLink"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Years 4-10",
+      "title": "Years 4-10",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Outcome",
+          "type": "esriFieldTypeString",
+          "alias": "Outcome"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SubType",
+          "type": "esriFieldTypeString",
+          "alias": "SubType"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeInteger",
+          "alias": "Class"
+        },
+        {
+          "name": "Map",
+          "type": "esriFieldTypeString",
+          "alias": "Map"
+        },
+        {
+          "name": "Version",
+          "type": "esriFieldTypeString",
+          "alias": "Version"
+        },
+        {
+          "name": "Scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scale"
+        },
+        {
+          "name": "Planner",
+          "type": "esriFieldTypeString",
+          "alias": "Planner"
+        },
+        {
+          "name": "LocalBoard",
+          "type": "esriFieldTypeString",
+          "alias": "LocalBoard"
+        },
+        {
+          "name": "Strat_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Type"
+        },
+        {
+          "name": "Strat_Time",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Time"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "LabelRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "LabelRule"
+        },
+        {
+          "name": "SymbolRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolRule"
+        },
+        {
+          "name": "Strat_Time_Class",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Strat_Time_Class"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "DocumentLink",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentLink"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Years 11-30",
+      "title": "Years 11-30",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Outcome",
+          "type": "esriFieldTypeString",
+          "alias": "Outcome"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "SubType",
+          "type": "esriFieldTypeString",
+          "alias": "SubType"
+        },
+        {
+          "name": "Class",
+          "type": "esriFieldTypeInteger",
+          "alias": "Class"
+        },
+        {
+          "name": "Map",
+          "type": "esriFieldTypeString",
+          "alias": "Map"
+        },
+        {
+          "name": "Version",
+          "type": "esriFieldTypeString",
+          "alias": "Version"
+        },
+        {
+          "name": "Scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Scale"
+        },
+        {
+          "name": "Planner",
+          "type": "esriFieldTypeString",
+          "alias": "Planner"
+        },
+        {
+          "name": "LocalBoard",
+          "type": "esriFieldTypeString",
+          "alias": "LocalBoard"
+        },
+        {
+          "name": "Strat_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Type"
+        },
+        {
+          "name": "Strat_Time",
+          "type": "esriFieldTypeString",
+          "alias": "Strat_Time"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Label",
+          "type": "esriFieldTypeString",
+          "alias": "Label"
+        },
+        {
+          "name": "LabelRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "LabelRule"
+        },
+        {
+          "name": "SymbolRule",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolRule"
+        },
+        {
+          "name": "Strat_Time_Class",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Strat_Time_Class"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ValidationState"
+        },
+        {
+          "name": "DocumentLink",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentLink"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Additional Information - Unitary Plan",
+      "title": "Additional Information - Unitary Plan",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Urban Area 2016",
+      "title": "Urban Area 2016",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeDouble",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "SCHEDULE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHEDULE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "WORKFLOWID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WORKFLOWID"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "VERSIONSTATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "VERSIONSTATUS"
+        },
+        {
+          "name": "DocumentURL",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentURL"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Coastal Protection Yard",
+      "title": "Coastal Protection Yard",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "SUBTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "SUBTYPE"
+        },
+        {
+          "name": "SCHEDULE",
+          "type": "esriFieldTypeString",
+          "alias": "SCHEDULE"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "NAME"
+        },
+        {
+          "name": "WORKFLOWID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WORKFLOWID"
+        },
+        {
+          "name": "VALIDATIONSTATE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VALIDATIONSTATE"
+        },
+        {
+          "name": "created_user",
+          "type": "esriFieldTypeString",
+          "alias": "created_user"
+        },
+        {
+          "name": "last_edited_user",
+          "type": "esriFieldTypeString",
+          "alias": "last_edited_user"
+        },
+        {
+          "name": "last_edited_date",
+          "type": "esriFieldTypeDate",
+          "alias": "last_edited_date"
+        },
+        {
+          "name": "created_date",
+          "type": "esriFieldTypeDate",
+          "alias": "created_date"
+        },
+        {
+          "name": "VERSIONSTATUS",
+          "type": "esriFieldTypeDouble",
+          "alias": "VERSIONSTATUS"
+        },
+        {
+          "name": "DocumentURL",
+          "type": "esriFieldTypeString",
+          "alias": "DocumentURL"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeGlobalID",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Treaty Settlements – Statutory Acknowledgments",
+      "title": "Treaty Settlements – Statutory Acknowledgments",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Ngati Manuhiri",
+      "title": "Ngati Manuhiri",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "LocationName",
+          "type": "esriFieldTypeString",
+          "alias": "Location name"
+        },
+        {
+          "name": "SettlementType",
+          "type": "esriFieldTypeString",
+          "alias": "Settlement type"
+        },
+        {
+          "name": "SettlementParty",
+          "type": "esriFieldTypeString",
+          "alias": "Settlement party"
+        },
+        {
+          "name": "PlanReference",
+          "type": "esriFieldTypeString",
+          "alias": "VersionStatus"
+        },
+        {
+          "name": "VersionStatus",
+          "type": "esriFieldTypeDouble",
+          "alias": "VersionStatus"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Ngai Tai ki Tamaki",
+      "title": "Ngai Tai ki Tamaki",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Ngati Tamaoho",
+      "title": "Ngati Tamaoho",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Ngati Whatua Orakei",
+      "title": "Ngati Whatua Orakei",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Ngati Whatua o Kaipara",
+      "title": "Ngati Whatua o Kaipara",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Te Kawerau a Maki",
+      "title": "Te Kawerau a Maki",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Te Uri O Hau",
+      "title": "Te Uri O Hau",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Highly Productive Land - Transitional definition from NPS-HPL (i)",
+      "title": "Highly Productive Land - Transitional definition from NPS-HPL (i)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "NZLRI Land Use Capability (LUC)",
+      "title": "NZLRI Land Use Capability (LUC)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Soil Type",
+      "title": "Soil Type",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Bathing beach Water Quality (2011-2014)",
+      "title": "Bathing beach Water Quality (2011-2014)",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Marine Degraded Areas",
+      "title": "Marine Degraded Areas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Flood Plains",
+      "title": "Flood Plains",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Coastal Inundation",
+      "title": "Coastal Inundation",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 113,
+  "last_verified": "2026-07-24",
+  "discovery_count": 3,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

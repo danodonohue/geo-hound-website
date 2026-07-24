@@ -1,0 +1,527 @@
+{
+  "slug": "spatial-gis-information-qld-gov-au-administrativeboundaries-mapserver",
+  "service_key": "ESRI MapServer:https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://spatial-gis.information.qld.gov.au/arcgis/rest/services/Boundaries/AdministrativeBoundaries/MapServer",
+  "title": "AdministrativeBoundaries",
+  "description": "Administrative boundaries from state to land parcel level for Queensland",
+  "abstract": "This service displays common administrative boundaries of interest to most Queensland Globe users.  They are aimed at informing the user what locality, postcode or electorate their area of interest falls within. The boundaries display at relevant scale levels to show the extent of Queensland through to land parcel level.",
+  "provider": "spatial-gis.information.qld.gov.au",
+  "place": {
+    "country": "Australia",
+    "state": "Queensland",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 50,
+      "name": "State border",
+      "title": "State border",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "feature_type",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Type"
+        },
+        {
+          "name": "attribute_source",
+          "type": "esriFieldTypeString",
+          "alias": "Attribute Source"
+        },
+        {
+          "name": "attribute_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Attribute Date"
+        },
+        {
+          "name": "feature_source",
+          "type": "esriFieldTypeString",
+          "alias": "Feature Source"
+        },
+        {
+          "name": "feature_date",
+          "type": "esriFieldTypeDate",
+          "alias": "Feature Date"
+        },
+        {
+          "name": "pfi",
+          "type": "esriFieldTypeString",
+          "alias": "PFI"
+        },
+        {
+          "name": "ufi",
+          "type": "esriFieldTypeString",
+          "alias": "UFI"
+        },
+        {
+          "name": "dimension_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Dimension (m)"
+        },
+        {
+          "name": "upper_scale",
+          "type": "esriFieldTypeInteger",
+          "alias": "Upper Scale"
+        },
+        {
+          "name": "text_note",
+          "type": "esriFieldTypeString",
+          "alias": "Text Note"
+        },
+        {
+          "name": "add_information",
+          "type": "esriFieldTypeString",
+          "alias": "Additional Information"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "st_length(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_length(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Local government",
+      "title": "Local government",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "lga",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "abbrev_name",
+          "type": "esriFieldTypeString",
+          "alias": "Name abbreviated"
+        },
+        {
+          "name": "lga_code",
+          "type": "esriFieldTypeString",
+          "alias": "Local government area code"
+        },
+        {
+          "name": "ca_area_sqkm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area sq km"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Locality",
+      "title": "Locality",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "locality",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "loc_code",
+          "type": "esriFieldTypeString",
+          "alias": "Locality code"
+        },
+        {
+          "name": "lga",
+          "type": "esriFieldTypeString",
+          "alias": "Local government area"
+        },
+        {
+          "name": "ca_area_sqkm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area sq km"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Postcode",
+      "title": "Postcode",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "pc_pid",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode ID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "st_area(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_area(shape)"
+        },
+        {
+          "name": "st_perimeter(shape)",
+          "type": "esriFieldTypeDouble",
+          "alias": "st_perimeter(shape)"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Federal electorate",
+      "title": "Federal electorate",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "elect_div",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "div_number",
+          "type": "esriFieldTypeDouble",
+          "alias": "Division number"
+        },
+        {
+          "name": "area_sqkm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Area SqKm"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "State electorate boundaries",
+      "title": "State electorate boundaries",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "State electorate",
+      "title": "State electorate",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "adminareaname",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "ECQ Id"
+        },
+        {
+          "name": "date_effective",
+          "type": "esriFieldTypeDate",
+          "alias": "Date effective"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "State electorate future",
+      "title": "State electorate future",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "adminareaname",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "id",
+          "type": "esriFieldTypeString",
+          "alias": "ECQ Id"
+        },
+        {
+          "name": "date_effective",
+          "type": "esriFieldTypeDate",
+          "alias": "Date effective"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Local government divisions and wards",
+      "title": "Local government divisions and wards",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Local government division",
+      "title": "Local government division",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "elect_div",
+          "type": "esriFieldTypeString",
+          "alias": "Division"
+        },
+        {
+          "name": "div_name",
+          "type": "esriFieldTypeString",
+          "alias": "Division name"
+        },
+        {
+          "name": "lga",
+          "type": "esriFieldTypeString",
+          "alias": "Local government"
+        },
+        {
+          "name": "elect_yr",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Election year"
+        },
+        {
+          "name": "act",
+          "type": "esriFieldTypeString",
+          "alias": "Legislation"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Local government division - superseded",
+      "title": "Local government division - superseded",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "elect_div",
+          "type": "esriFieldTypeString",
+          "alias": "Division"
+        },
+        {
+          "name": "div_name",
+          "type": "esriFieldTypeString",
+          "alias": "Division name"
+        },
+        {
+          "name": "lga",
+          "type": "esriFieldTypeString",
+          "alias": "Local government"
+        },
+        {
+          "name": "elect_yr",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Election year"
+        },
+        {
+          "name": "act",
+          "type": "esriFieldTypeString",
+          "alias": "Legislation"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Brisbane City Council ward",
+      "title": "Brisbane City Council ward",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ward_name",
+          "type": "esriFieldTypeString",
+          "alias": "Ward name"
+        },
+        {
+          "name": "lga",
+          "type": "esriFieldTypeString",
+          "alias": "Local government"
+        },
+        {
+          "name": "elect_yr",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Election year"
+        },
+        {
+          "name": "act",
+          "type": "esriFieldTypeString",
+          "alias": "Legislation"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Brisbane City Council ward - superseded",
+      "title": "Brisbane City Council ward - superseded",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "ward_name",
+          "type": "esriFieldTypeString",
+          "alias": "Ward name"
+        },
+        {
+          "name": "lga",
+          "type": "esriFieldTypeString",
+          "alias": "Local government"
+        },
+        {
+          "name": "elect_yr",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Election year"
+        },
+        {
+          "name": "act",
+          "type": "esriFieldTypeString",
+          "alias": "Legislation"
+        },
+        {
+          "name": "objectid",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 268,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

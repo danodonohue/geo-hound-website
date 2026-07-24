@@ -1,0 +1,293 @@
+{
+  "slug": "ministry-of-civil-defence-and-emergency-management-christchurch-imager-mapserver",
+  "service_key": "ESRI MapServer:https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Imagery/Christchurch_Post_Earthquake_Sep_2010_Imagery/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gisbasemap.ecan.govt.nz/arcgis/rest/services/Imagery/Christchurch_Post_Earthquake_Sep_2010_Imagery/MapServer",
+  "title": "Christchurch Imagery 2011",
+  "description": "GIS service providing boundaries, imagery, geology data.",
+  "abstract": "10cm colour orthophotography of the area affected by the 22 February 2011 Christchurch earthquake.\nFlown on 24 February 2011 by NZ Aerial Mapping for the Christchurch Response Centre (CRC).\nProvided under Creative Commons Attribution 3.0 New Zealand license http://creativecommons.org/licenses/by/3.0/nz/",
+  "provider": "Ministry of Civil Defence and Emergency Management",
+  "place": {
+    "country": "New Zealand",
+    "state": "Canterbury",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    },
+    {
+      "name": "imagery",
+      "confidence": "high"
+    },
+    {
+      "name": "geology",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Sep2010_Boundary",
+      "title": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Sep2010_Boundary",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SURVEY_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "SURVEY_NAME"
+        },
+        {
+          "name": "DATE_FLOWN",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE_FLOWN"
+        },
+        {
+          "name": "ALTITUDE",
+          "type": "esriFieldTypeString",
+          "alias": "ALTITUDE"
+        },
+        {
+          "name": "COORD_SYSTEM_XY",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_XY"
+        },
+        {
+          "name": "COORD_SYSTEM_Z",
+          "type": "esriFieldTypeString",
+          "alias": "COORD_SYSTEM_Z"
+        },
+        {
+          "name": "ACCURACY_XY",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_XY"
+        },
+        {
+          "name": "ACCURACY_Z",
+          "type": "esriFieldTypeString",
+          "alias": "ACCURACY_Z"
+        },
+        {
+          "name": "OWNER",
+          "type": "esriFieldTypeString",
+          "alias": "OWNER"
+        },
+        {
+          "name": "LICENSE",
+          "type": "esriFieldTypeString",
+          "alias": "LICENSE"
+        },
+        {
+          "name": "SOURCECODE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCECODE"
+        },
+        {
+          "name": "QARCODE",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "QARCODE"
+        },
+        {
+          "name": "CREATEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "CREATEDBY"
+        },
+        {
+          "name": "CREATEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATEDDATE"
+        },
+        {
+          "name": "MODIFIEDBY",
+          "type": "esriFieldTypeString",
+          "alias": "MODIFIEDBY"
+        },
+        {
+          "name": "MODIFIEDDATE",
+          "type": "esriFieldTypeDate",
+          "alias": "MODIFIEDDATE"
+        },
+        {
+          "name": "PERIMETER_M",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER_M"
+        },
+        {
+          "name": "AREA_M2",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_M2"
+        },
+        {
+          "name": "AREA_HA",
+          "type": "esriFieldTypeDouble",
+          "alias": "AREA_HA"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Sep2010_Footprints",
+      "title": "AERIAL_IMAGERY_ChCh_PostEQ_NZAM_Sep2010_Footprints",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Raster",
+          "type": "esriFieldTypeRaster",
+          "alias": "Raster"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "MinPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MinPS"
+        },
+        {
+          "name": "MaxPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "MaxPS"
+        },
+        {
+          "name": "LowPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "LowPS"
+        },
+        {
+          "name": "HighPS",
+          "type": "esriFieldTypeDouble",
+          "alias": "HighPS"
+        },
+        {
+          "name": "Category",
+          "type": "esriFieldTypeInteger",
+          "alias": "Category"
+        },
+        {
+          "name": "Tag",
+          "type": "esriFieldTypeString",
+          "alias": "Tag"
+        },
+        {
+          "name": "GroupName",
+          "type": "esriFieldTypeString",
+          "alias": "GroupName"
+        },
+        {
+          "name": "ProductName",
+          "type": "esriFieldTypeString",
+          "alias": "ProductName"
+        },
+        {
+          "name": "CenterX",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterX"
+        },
+        {
+          "name": "CenterY",
+          "type": "esriFieldTypeDouble",
+          "alias": "CenterY"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "TypeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "Raster Type ID"
+        },
+        {
+          "name": "ItemTS",
+          "type": "esriFieldTypeDouble",
+          "alias": "ItemTS"
+        },
+        {
+          "name": "UriHash",
+          "type": "esriFieldTypeString",
+          "alias": "UriHash"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 22,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

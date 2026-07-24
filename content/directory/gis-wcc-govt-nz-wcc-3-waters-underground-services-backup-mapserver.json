@@ -1,0 +1,2437 @@
+{
+  "slug": "gis-wcc-govt-nz-wcc-3-waters-underground-services-backup-mapserver",
+  "service_key": "ESRI MapServer:https://gis.wcc.govt.nz/arcgis/rest/services/WaterServices/WCC_3_Waters_Underground_Services_Backup/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.wcc.govt.nz/arcgis/rest/services/WaterServices/WCC_3_Waters_Underground_Services_Backup/MapServer",
+  "title": "WCC_3_Waters_Underground_Services_Backup",
+  "description": "Wastewater, water and stormwater infrastructure networks for Wellington City",
+  "abstract": "Backup service of Wellington Water data - updated monthly",
+  "provider": "gis.wcc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Abandoned Underground Services",
+      "title": "Abandoned Underground Services",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Abandoned Wastewater Node",
+      "title": "Abandoned Wastewater Node",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Valve_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Valve_Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Chamber_Material",
+          "type": "esriFieldTypeString",
+          "alias": "Chamber_Material"
+        },
+        {
+          "name": "Chamber_Shape",
+          "type": "esriFieldTypeString",
+          "alias": "Chamber_Shape"
+        },
+        {
+          "name": "Chamber_Dimension_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Chamber_Dimension_mm"
+        },
+        {
+          "name": "Chamber_Dimension_2_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Chamber_Dimension_2_mm"
+        },
+        {
+          "name": "Invert_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level_m"
+        },
+        {
+          "name": "Cover_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Cover_Level_m"
+        },
+        {
+          "name": "Depth_To_Invert_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_To_Invert_mm"
+        },
+        {
+          "name": "Cover_Shape",
+          "type": "esriFieldTypeString",
+          "alias": "Cover_Shape"
+        },
+        {
+          "name": "Cover_Material",
+          "type": "esriFieldTypeString",
+          "alias": "Cover_Material"
+        },
+        {
+          "name": "Cover_Dimension_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Cover_Dimension_mm"
+        },
+        {
+          "name": "Cover_Dimension_2_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Cover_Dimension_2_mm"
+        },
+        {
+          "name": "Toxic_Atmosphere",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Toxic_Atmosphere"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Abandoned Stormwater Node",
+      "title": "Abandoned Stormwater Node",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Valve_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Valve_Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Chamber_Material",
+          "type": "esriFieldTypeString",
+          "alias": "Chamber_Material"
+        },
+        {
+          "name": "Chamber_Shape",
+          "type": "esriFieldTypeString",
+          "alias": "Chamber_Shape"
+        },
+        {
+          "name": "Chamber_Dimension_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Chamber_Dimension_mm"
+        },
+        {
+          "name": "Chamber_Dimension_2_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Chamber_Dimension_2_mm"
+        },
+        {
+          "name": "Invert_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Invert_Level_m"
+        },
+        {
+          "name": "Cover_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Cover_Level_m"
+        },
+        {
+          "name": "Depth_To_Invert_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Depth_To_Invert_mm"
+        },
+        {
+          "name": "Cover_Shape",
+          "type": "esriFieldTypeString",
+          "alias": "Cover_Shape"
+        },
+        {
+          "name": "Cover_Material",
+          "type": "esriFieldTypeString",
+          "alias": "Cover_Material"
+        },
+        {
+          "name": "Cover_Dimension_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Cover_Dimension_mm"
+        },
+        {
+          "name": "Cover_Dimension_2_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Cover_Dimension_2_mm"
+        },
+        {
+          "name": "Toxic_Atmosphere",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Toxic_Atmosphere"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Abandoned Wastewater Pipe",
+      "title": "Abandoned Wastewater Pipe",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "US_Node_ID",
+          "type": "esriFieldTypeString",
+          "alias": "US_Node_ID"
+        },
+        {
+          "name": "DS_Node_ID",
+          "type": "esriFieldTypeString",
+          "alias": "DS_Node_ID"
+        },
+        {
+          "name": "Link_Suffix",
+          "type": "esriFieldTypeInteger",
+          "alias": "Link_Suffix"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Pipe_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Type"
+        },
+        {
+          "name": "Pipe_Use",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Use"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Pipe_Shape",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Shape"
+        },
+        {
+          "name": "Diameter_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter_mm"
+        },
+        {
+          "name": "Height_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height_mm"
+        },
+        {
+          "name": "Length_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length_m"
+        },
+        {
+          "name": "Gradient",
+          "type": "esriFieldTypeDouble",
+          "alias": "Gradient"
+        },
+        {
+          "name": "Capacity_m3",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capacity_m3"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Joint_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Joint_Type"
+        },
+        {
+          "name": "Lining_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Lining_Type"
+        },
+        {
+          "name": "Lining_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Lining_Date"
+        },
+        {
+          "name": "External_Protection",
+          "type": "esriFieldTypeString",
+          "alias": "External_Protection"
+        },
+        {
+          "name": "External_Protection_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "External_Protection_Date"
+        },
+        {
+          "name": "US_Depth_From_Cover_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "US_Depth_From_Cover_m"
+        },
+        {
+          "name": "DS_Depth_From_Cover_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "DS_Depth_From_Cover_m"
+        },
+        {
+          "name": "US_Invert_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "US_Invert_Level_m"
+        },
+        {
+          "name": "DS_Invert_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "DS_Invert_Level_m"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Criticality",
+          "type": "esriFieldTypeInteger",
+          "alias": "Criticality"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeString",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Abandoned Stormwater Pipe",
+      "title": "Abandoned Stormwater Pipe",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "US_Node_ID",
+          "type": "esriFieldTypeString",
+          "alias": "US_Node_ID"
+        },
+        {
+          "name": "DS_Node_ID",
+          "type": "esriFieldTypeString",
+          "alias": "DS_Node_ID"
+        },
+        {
+          "name": "Link_Suffix",
+          "type": "esriFieldTypeInteger",
+          "alias": "Link_Suffix"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Pipe_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Type"
+        },
+        {
+          "name": "Pipe_Use",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Use"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Pipe_Shape",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Shape"
+        },
+        {
+          "name": "Diameter_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter_mm"
+        },
+        {
+          "name": "Height_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height_mm"
+        },
+        {
+          "name": "Length_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length_m"
+        },
+        {
+          "name": "Gradient",
+          "type": "esriFieldTypeDouble",
+          "alias": "Gradient"
+        },
+        {
+          "name": "Capacity_m3",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capacity_m3"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Joint_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Joint_Type"
+        },
+        {
+          "name": "Lining_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Lining_Type"
+        },
+        {
+          "name": "Lining_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Lining_Date"
+        },
+        {
+          "name": "External_Protection",
+          "type": "esriFieldTypeString",
+          "alias": "External_Protection"
+        },
+        {
+          "name": "External_Protection_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "External_Protection_Date"
+        },
+        {
+          "name": "US_Depth_From_Cover_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "US_Depth_From_Cover_m"
+        },
+        {
+          "name": "DS_Depth_From_Cover_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "DS_Depth_From_Cover_m"
+        },
+        {
+          "name": "US_Invert_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "US_Invert_Level_m"
+        },
+        {
+          "name": "DS_Invert_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "DS_Invert_Level_m"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Criticality",
+          "type": "esriFieldTypeInteger",
+          "alias": "Criticality"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Water",
+      "title": "Water",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Water Hydrant",
+      "title": "Water Hydrant",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Sub_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Sub_Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Valve_Size_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Valve_Size_mm"
+        },
+        {
+          "name": "Open_Direction",
+          "type": "esriFieldTypeString",
+          "alias": "Open_Direction"
+        },
+        {
+          "name": "Elevation_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation_m"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Water Valve",
+      "title": "Water Valve",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Operational_Role",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Role"
+        },
+        {
+          "name": "Configuration",
+          "type": "esriFieldTypeString",
+          "alias": "Configuration"
+        },
+        {
+          "name": "Actuation",
+          "type": "esriFieldTypeString",
+          "alias": "Actuation"
+        },
+        {
+          "name": "Valve_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Valve_Status"
+        },
+        {
+          "name": "Open_Direction",
+          "type": "esriFieldTypeString",
+          "alias": "Open_Direction"
+        },
+        {
+          "name": "Diameter_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter_mm"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "uid",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Service_Address",
+          "type": "esriFieldTypeString",
+          "alias": "Service_Address"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Water Reservoir or Tank",
+      "title": "Water Reservoir or Tank",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Alias",
+          "type": "esriFieldTypeString",
+          "alias": "Alias"
+        },
+        {
+          "name": "Tag_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Tag_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Tank_Shape",
+          "type": "esriFieldTypeString",
+          "alias": "Tank_Shape"
+        },
+        {
+          "name": "Capacity_m3",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capacity_m3"
+        },
+        {
+          "name": "Inlet_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Inlet_Level_m"
+        },
+        {
+          "name": "Outlet_Level_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Outlet_Level_m"
+        },
+        {
+          "name": "TWL_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "TWL_m"
+        },
+        {
+          "name": "BWL_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "BWL_m"
+        },
+        {
+          "name": "Elevation_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation_m"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Liner",
+          "type": "esriFieldTypeString",
+          "alias": "Liner"
+        },
+        {
+          "name": "Buried",
+          "type": "esriFieldTypeString",
+          "alias": "Buried"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Water Pumpstation",
+      "title": "Water Pumpstation",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Alias",
+          "type": "esriFieldTypeString",
+          "alias": "Alias"
+        },
+        {
+          "name": "Tag_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Tag_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "No_Of_Pumps",
+          "type": "esriFieldTypeInteger",
+          "alias": "No_Of_Pumps"
+        },
+        {
+          "name": "Duty_Head_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Duty_Head_m"
+        },
+        {
+          "name": "Duty_Flow_ls",
+          "type": "esriFieldTypeDouble",
+          "alias": "Duty_Flow_ls"
+        },
+        {
+          "name": "Power_kw",
+          "type": "esriFieldTypeDouble",
+          "alias": "Power_kw"
+        },
+        {
+          "name": "Power_Consumption_kw",
+          "type": "esriFieldTypeDouble",
+          "alias": "Power_Consumption_kw"
+        },
+        {
+          "name": "ICP_Number",
+          "type": "esriFieldTypeString",
+          "alias": "ICP_Number"
+        },
+        {
+          "name": "Superstructure",
+          "type": "esriFieldTypeString",
+          "alias": "Superstructure"
+        },
+        {
+          "name": "Substructure",
+          "type": "esriFieldTypeString",
+          "alias": "Substructure"
+        },
+        {
+          "name": "Roof",
+          "type": "esriFieldTypeString",
+          "alias": "Roof"
+        },
+        {
+          "name": "Surroundings",
+          "type": "esriFieldTypeString",
+          "alias": "Surroundings"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Water Pump",
+      "title": "Water Pump",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Pump_Station_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Pump_Station_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Pump_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Pump_Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Pump_Impeller",
+          "type": "esriFieldTypeString",
+          "alias": "Pump_Impeller"
+        },
+        {
+          "name": "Control_Mechanism",
+          "type": "esriFieldTypeString",
+          "alias": "Control_Mechanism"
+        },
+        {
+          "name": "Power_kw",
+          "type": "esriFieldTypeDouble",
+          "alias": "Power_kw"
+        },
+        {
+          "name": "Nominal_Flow_ls",
+          "type": "esriFieldTypeDouble",
+          "alias": "Nominal_Flow_ls"
+        },
+        {
+          "name": "Nominal_Head_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Nominal_Head_m"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Water Meter",
+      "title": "Water Meter",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "Property_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Property_ID"
+        },
+        {
+          "name": "Account_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Account_Number"
+        },
+        {
+          "name": "Mechanism",
+          "type": "esriFieldTypeString",
+          "alias": "Mechanism"
+        },
+        {
+          "name": "Configuration",
+          "type": "esriFieldTypeString",
+          "alias": "Configuration"
+        },
+        {
+          "name": "Manufacturer",
+          "type": "esriFieldTypeString",
+          "alias": "Manufacturer"
+        },
+        {
+          "name": "Model",
+          "type": "esriFieldTypeString",
+          "alias": "Model"
+        },
+        {
+          "name": "Serial_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Serial_Number"
+        },
+        {
+          "name": "Diameter_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter_mm"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Water Fitting",
+      "title": "Water Fitting",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Elevation_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Elevation_m"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeInteger",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Location_Accuracy",
+          "type": "esriFieldTypeString",
+          "alias": "Location_Accuracy"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Water Pipe",
+      "title": "Water Pipe",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "Asset_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Asset_ID"
+        },
+        {
+          "name": "Start_Node_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Start_Node_ID"
+        },
+        {
+          "name": "End_Node_ID",
+          "type": "esriFieldTypeString",
+          "alias": "End_Node_ID"
+        },
+        {
+          "name": "Operational_Status",
+          "type": "esriFieldTypeString",
+          "alias": "Operational_Status"
+        },
+        {
+          "name": "System_Type",
+          "type": "esriFieldTypeString",
+          "alias": "System_Type"
+        },
+        {
+          "name": "Pipe_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Type"
+        },
+        {
+          "name": "Pipe_Use",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Use"
+        },
+        {
+          "name": "Pipe_Class",
+          "type": "esriFieldTypeString",
+          "alias": "Pipe_Class"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Maintenance",
+          "type": "esriFieldTypeString",
+          "alias": "Maintenance"
+        },
+        {
+          "name": "Date_Installed",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Installed"
+        },
+        {
+          "name": "Date_Decommissioned",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Decommissioned"
+        },
+        {
+          "name": "Diameter_mm",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter_mm"
+        },
+        {
+          "name": "Length_m",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length_m"
+        },
+        {
+          "name": "Capacity_m3",
+          "type": "esriFieldTypeDouble",
+          "alias": "Capacity_m3"
+        },
+        {
+          "name": "Material",
+          "type": "esriFieldTypeString",
+          "alias": "Material"
+        },
+        {
+          "name": "Joint_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Joint_Type"
+        },
+        {
+          "name": "Lining_Type",
+          "type": "esriFieldTypeString",
+          "alias": "Lining_Type"
+        },
+        {
+          "name": "Date_Lined",
+          "type": "esriFieldTypeDate",
+          "alias": "Date_Lined"
+        },
+        {
+          "name": "External_Protection",
+          "type": "esriFieldTypeString",
+          "alias": "External_Protection"
+        },
+        {
+          "name": "External_Protection_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "External_Protection_Date"
+        },
+        {
+          "name": "DMA_Zone",
+          "type": "esriFieldTypeString",
+          "alias": "DMA_Zone"
+        },
+        {
+          "name": "Condition_Grade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Condition_Grade"
+        },
+        {
+          "name": "Criticality",
+          "type": "esriFieldTypeInteger",
+          "alias": "Criticality"
+        },
+        {
+          "name": "Current_Value",
+          "type": "esriFieldTypeDouble",
+          "alias": "Current_Value"
+        },
+        {
+          "name": "Replacement_Cost",
+          "type": "esriFieldTypeDouble",
+          "alias": "Replacement_Cost"
+        },
+        {
+          "name": "Expected_Life",
+          "type": "esriFieldTypeInteger",
+          "alias": "Expected_Life"
+        },
+        {
+          "name": "Acquisition_Code",
+          "type": "esriFieldTypeString",
+          "alias": "Acquisition_Code"
+        },
+        {
+          "name": "Acquisition_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "Acquisition_Date"
+        },
+        {
+          "name": "Historic_ID",
+          "type": "esriFieldTypeString",
+          "alias": "Historic_ID"
+        },
+        {
+          "name": "Key_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Key_1"
+        },
+        {
+          "name": "Plan_Reference",
+          "type": "esriFieldTypeString",
+          "alias": "Plan_Reference"
+        },
+        {
+          "name": "Region",
+          "type": "esriFieldTypeString",
+          "alias": "Region"
+        },
+        {
+          "name": "Notes",
+          "type": "esriFieldTypeString",
+          "alias": "Notes"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Wastewater",
+      "title": "Wastewater",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Wastewater Pumpstation",
+      "title": "Wastewater Pumpstation",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Wastewater Pump",
+      "title": "Wastewater Pump",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Wastewater Node",
+      "title": "Wastewater Node",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Wastewater Pipe Directionality",
+      "title": "Wastewater Pipe Directionality",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Wastewater Pipe",
+      "title": "Wastewater Pipe",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Wastewater Connection Pipe",
+      "title": "Wastewater Connection Pipe",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Stormwater",
+      "title": "Stormwater",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Stormwater Pumpstation",
+      "title": "Stormwater Pumpstation",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Stormwater Node",
+      "title": "Stormwater Node",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Stormwater Pipe Directionality",
+      "title": "Stormwater Pipe Directionality",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Stormwater Pipe",
+      "title": "Stormwater Pipe",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Stormwater Open Channel",
+      "title": "Stormwater Open Channel",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Stormwater Connection Pipe",
+      "title": "Stormwater Connection Pipe",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 55,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

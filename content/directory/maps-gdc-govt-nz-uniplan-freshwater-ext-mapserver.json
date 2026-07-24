@@ -1,0 +1,364 @@
+{
+  "slug": "maps-gdc-govt-nz-uniplan-freshwater-ext-mapserver",
+  "service_key": "ESRI MapServer:https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_freshwater_ext/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps.gdc.govt.nz/hosting/rest/services/Planning/uniplan_freshwater_ext/MapServer",
+  "title": "uniplan_freshwater_ext",
+  "description": "Gisborne freshwater management areas including protected watercourses and scheduled water bodies.",
+  "abstract": "Freshwater Management  layers for the Tairawhiti Resource Management Plan of the Gisborne Distrcit Council",
+  "provider": "maps.gdc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": "Gisborne",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Freshwater",
+      "title": "Freshwater",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Significant Recreation Areas (Schedule G19)",
+      "title": "Significant Recreation Areas (Schedule G19)",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Number_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Number_"
+        },
+        {
+          "name": "site_name",
+          "type": "esriFieldTypeString",
+          "alias": "site_name"
+        },
+        {
+          "name": "north",
+          "type": "esriFieldTypeDouble",
+          "alias": "north"
+        },
+        {
+          "name": "east",
+          "type": "esriFieldTypeDouble",
+          "alias": "east"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "river_name",
+          "type": "esriFieldTypeString",
+          "alias": "river_name"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Protected Watercourses (Schedule G21)",
+      "title": "Protected Watercourses (Schedule G21)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "LENGTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH"
+        },
+        {
+          "name": "LENGTH50K",
+          "type": "esriFieldTypeDouble",
+          "alias": "LENGTH50K"
+        },
+        {
+          "name": "UPSTREAM",
+          "type": "esriFieldTypeDouble",
+          "alias": "UPSTREAM"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeDouble",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "MOUTH",
+          "type": "esriFieldTypeDouble",
+          "alias": "MOUTH"
+        },
+        {
+          "name": "DIRECTION",
+          "type": "esriFieldTypeDouble",
+          "alias": "DIRECTION"
+        },
+        {
+          "name": "STRAHLER",
+          "type": "esriFieldTypeDouble",
+          "alias": "STRAHLER"
+        },
+        {
+          "name": "River_name",
+          "type": "esriFieldTypeString",
+          "alias": "River_name"
+        },
+        {
+          "name": "Forest",
+          "type": "esriFieldTypeString",
+          "alias": "Forest"
+        },
+        {
+          "name": "Applicant",
+          "type": "esriFieldTypeString",
+          "alias": "Applicant"
+        },
+        {
+          "name": "Approval_Date",
+          "type": "esriFieldTypeString",
+          "alias": "Approval_Date"
+        },
+        {
+          "name": "Expiry_Date",
+          "type": "esriFieldTypeString",
+          "alias": "Expiry_Date"
+        },
+        {
+          "name": "Conditions",
+          "type": "esriFieldTypeString",
+          "alias": "Conditions"
+        },
+        {
+          "name": "Report_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Report_Number"
+        },
+        {
+          "name": "Consent_Number",
+          "type": "esriFieldTypeString",
+          "alias": "Consent_Number"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Scheduled Rivers and Streams (Schedules G15,G18 & G20)",
+      "title": "Scheduled Rivers and Streams (Schedules G15,G18 & G20)",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Schedule",
+          "type": "esriFieldTypeString",
+          "alias": "Schedule"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "River_name",
+          "type": "esriFieldTypeString",
+          "alias": "River_name"
+        },
+        {
+          "name": "Species",
+          "type": "esriFieldTypeString",
+          "alias": "Species"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Scheduled Water Bodies (Schedules G15,G17,G18 & G20)",
+      "title": "Scheduled Water Bodies (Schedules G15,G17,G18 & G20)",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OID",
+          "type": "esriFieldTypeOID",
+          "alias": "OID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Schedule",
+          "type": "esriFieldTypeString",
+          "alias": "Schedule"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "PMA",
+          "type": "esriFieldTypeString",
+          "alias": "PMA"
+        },
+        {
+          "name": "Name",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "Species",
+          "type": "esriFieldTypeString",
+          "alias": "Species"
+        },
+        {
+          "name": "Vegetation",
+          "type": "esriFieldTypeString",
+          "alias": "Vegetation"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Scheduled Rivers and Streams Buffer",
+      "title": "Scheduled Rivers and Streams Buffer",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "River_name",
+          "type": "esriFieldTypeString",
+          "alias": "River_name"
+        },
+        {
+          "name": "Species",
+          "type": "esriFieldTypeString",
+          "alias": "Species"
+        },
+        {
+          "name": "Catchment",
+          "type": "esriFieldTypeString",
+          "alias": "Catchment"
+        },
+        {
+          "name": "Schedule",
+          "type": "esriFieldTypeString",
+          "alias": "Schedule"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "Shape_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Area"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 215,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

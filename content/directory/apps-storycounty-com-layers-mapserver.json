@@ -1,0 +1,121 @@
+{
+  "slug": "apps-storycounty-com-layers-mapserver",
+  "service_key": "ESRI MapServer:https://apps.storycounty.com/arcgis/rest/services/Zoning/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://apps.storycounty.com/arcgis/rest/services/Zoning/MapServer",
+  "title": "Layers",
+  "description": "Zoning classification for Story County excluding incorporated cities.",
+  "abstract": "Story County Zoning (excludes cities)",
+  "provider": "apps.storycounty.com",
+  "place": {
+    "country": "United States",
+    "state": "Iowa",
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "zoning",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "gis_data.DBO.Zoning",
+      "title": "gis_data.DBO.Zoning",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "gis_data_GIS_Zoning_AREA",
+          "type": "esriFieldTypeDouble",
+          "alias": "gis_data_GIS_Zoning_AREA"
+        },
+        {
+          "name": "PERIMETER",
+          "type": "esriFieldTypeDouble",
+          "alias": "PERIMETER"
+        },
+        {
+          "name": "ACRES",
+          "type": "esriFieldTypeDouble",
+          "alias": "ACRES"
+        },
+        {
+          "name": "HECTARES",
+          "type": "esriFieldTypeDouble",
+          "alias": "HECTARES"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "Shape.area",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.area"
+        },
+        {
+          "name": "Shape.len",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.len"
+        },
+        {
+          "name": "OBJECTID_1",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID_1"
+        },
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "ID"
+        },
+        {
+          "name": "Zoning",
+          "type": "esriFieldTypeString",
+          "alias": "Zoning"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102675"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1051,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

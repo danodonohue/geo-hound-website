@@ -1,0 +1,109 @@
+{
+  "slug": "maps2-eastriding-gov-uk-hey-acbs-mapserver",
+  "service_key": "ESRI MapServer:https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_ACBs/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://maps2.eastriding.gov.uk/arcgis/rest/services/LNRS/HEY_ACBs/MapServer",
+  "title": "HEY_ACBs",
+  "description": "Protected conservation sites and biodiversity areas for East Riding of Yorkshire",
+  "provider": "maps2.eastriding.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "conservation",
+      "confidence": "high"
+    },
+    {
+      "name": "environment",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "HEY_ACBs",
+      "title": "HEY_ACBs",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "APIB_Name",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Name"
+        },
+        {
+          "name": "APIB_Site_",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Site_"
+        },
+        {
+          "name": "LNRS_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "LNRS_ID"
+        },
+        {
+          "name": "APIB_ID",
+          "type": "esriFieldTypeInteger",
+          "alias": "APIB_ID"
+        },
+        {
+          "name": "APIB_Type",
+          "type": "esriFieldTypeString",
+          "alias": "APIB_Type"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 885,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

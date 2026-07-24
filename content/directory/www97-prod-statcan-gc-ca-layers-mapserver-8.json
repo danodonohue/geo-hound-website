@@ -1,0 +1,866 @@
+{
+  "slug": "www97-prod-statcan-gc-ca-layers-mapserver-8",
+  "service_key": "ESRI MapServer:https://www97-prod.statcan.gc.ca/arcgis/rest/services/Basemaps/PLACES_HYDRO_FR/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www97-prod.statcan.gc.ca/arcgis/rest/services/Basemaps/PLACES_HYDRO_FR/MapServer",
+  "title": "Layers",
+  "description": "Basemap with place names and hydrology for Canada, no roads.",
+  "abstract": "CPDV / VDPR tile package basemap (no road features) of 202106 vintage data. French version. Z00-12.",
+  "provider": "www97-prod.statcan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Z00",
+      "title": "Z00",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Z01",
+      "title": "Z01",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "PLACENAME_Z01",
+      "title": "PLACENAME_Z01",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "PLACE_ID"
+        },
+        {
+          "name": "OFFNAME_EN",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_EN"
+        },
+        {
+          "name": "OFFNAME_FR",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_FR"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "RANK"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "CLASS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CLASS_NAME"
+        },
+        {
+          "name": "OFFNAME",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME"
+        },
+        {
+          "name": "POPULATION",
+          "type": "esriFieldTypeInteger",
+          "alias": "POPULATION"
+        },
+        {
+          "name": "CSD_UID_REP",
+          "type": "esriFieldTypeString",
+          "alias": "CSD_UID_REP"
+        },
+        {
+          "name": "PRCODE",
+          "type": "esriFieldTypeString",
+          "alias": "PRCODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Z02",
+      "title": "Z02",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "PLACENAME_Z02",
+      "title": "PLACENAME_Z02",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "PLACE_ID"
+        },
+        {
+          "name": "OFFNAME_EN",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_EN"
+        },
+        {
+          "name": "OFFNAME_FR",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_FR"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "RANK"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "CLASS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CLASS_NAME"
+        },
+        {
+          "name": "OFFNAME",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME"
+        },
+        {
+          "name": "POPULATION",
+          "type": "esriFieldTypeInteger",
+          "alias": "POPULATION"
+        },
+        {
+          "name": "CSD_UID_REP",
+          "type": "esriFieldTypeString",
+          "alias": "CSD_UID_REP"
+        },
+        {
+          "name": "PRCODE",
+          "type": "esriFieldTypeString",
+          "alias": "PRCODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Z03",
+      "title": "Z03",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "PLACENAME_Z03",
+      "title": "PLACENAME_Z03",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "PLACE_ID"
+        },
+        {
+          "name": "OFFNAME_EN",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_EN"
+        },
+        {
+          "name": "OFFNAME_FR",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_FR"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "RANK"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "CLASS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CLASS_NAME"
+        },
+        {
+          "name": "OFFNAME",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME"
+        },
+        {
+          "name": "POPULATION",
+          "type": "esriFieldTypeInteger",
+          "alias": "POPULATION"
+        },
+        {
+          "name": "CSD_UID_REP",
+          "type": "esriFieldTypeString",
+          "alias": "CSD_UID_REP"
+        },
+        {
+          "name": "PRCODE",
+          "type": "esriFieldTypeString",
+          "alias": "PRCODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "Z04",
+      "title": "Z04",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "PLACENAME_Z04",
+      "title": "PLACENAME_Z04",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "PLACE_ID"
+        },
+        {
+          "name": "OFFNAME_EN",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_EN"
+        },
+        {
+          "name": "OFFNAME_FR",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_FR"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "RANK"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "CLASS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CLASS_NAME"
+        },
+        {
+          "name": "OFFNAME",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME"
+        },
+        {
+          "name": "POPULATION",
+          "type": "esriFieldTypeInteger",
+          "alias": "POPULATION"
+        },
+        {
+          "name": "CSD_UID_REP",
+          "type": "esriFieldTypeString",
+          "alias": "CSD_UID_REP"
+        },
+        {
+          "name": "PRCODE",
+          "type": "esriFieldTypeString",
+          "alias": "PRCODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "Z05",
+      "title": "Z05",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "PLACENAME_Z05",
+      "title": "PLACENAME_Z05",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "PLACE_ID",
+          "type": "esriFieldTypeString",
+          "alias": "PLACE_ID"
+        },
+        {
+          "name": "OFFNAME_EN",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_EN"
+        },
+        {
+          "name": "OFFNAME_FR",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME_FR"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "TYPE"
+        },
+        {
+          "name": "RANK",
+          "type": "esriFieldTypeInteger",
+          "alias": "RANK"
+        },
+        {
+          "name": "SOURCE",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCE"
+        },
+        {
+          "name": "CLASS_NAME",
+          "type": "esriFieldTypeString",
+          "alias": "CLASS_NAME"
+        },
+        {
+          "name": "OFFNAME",
+          "type": "esriFieldTypeString",
+          "alias": "OFFNAME"
+        },
+        {
+          "name": "POPULATION",
+          "type": "esriFieldTypeInteger",
+          "alias": "POPULATION"
+        },
+        {
+          "name": "CSD_UID_REP",
+          "type": "esriFieldTypeString",
+          "alias": "CSD_UID_REP"
+        },
+        {
+          "name": "PRCODE",
+          "type": "esriFieldTypeString",
+          "alias": "PRCODE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "Z06",
+      "title": "Z06",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "PLACENAME_Z06",
+      "title": "PLACENAME_Z06",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "Z07",
+      "title": "Z07",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "PLACENAME_Z07",
+      "title": "PLACENAME_Z07",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Z08",
+      "title": "Z08",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "PLACENAME_Z08",
+      "title": "PLACENAME_Z08",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Z09",
+      "title": "Z09",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "PLACENAME_Z09",
+      "title": "PLACENAME_Z09",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "Z10",
+      "title": "Z10",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "PLACENAME_Z10",
+      "title": "PLACENAME_Z10",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "PLACE_NAME_GNBC_Z10",
+      "title": "PLACE_NAME_GNBC_Z10",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Z11",
+      "title": "Z11",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "PLACENAME_Z11",
+      "title": "PLACENAME_Z11",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "PLACE_NAME_GNBC_Z11",
+      "title": "PLACE_NAME_GNBC_Z11",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Z12",
+      "title": "Z12",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Labels",
+      "title": "Labels",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "PLACENAME_Z12",
+      "title": "PLACENAME_Z12",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "PLACE_NAME_GNBC_Z12",
+      "title": "PLACE_NAME_GNBC_Z12",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Z00_01_CANVEC",
+      "title": "Z00_01_CANVEC",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Hydro",
+      "title": "Hydro",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "OCEAN_5M",
+      "title": "OCEAN_5M",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "US_WATER_MASK",
+      "title": "US_WATER_MASK",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "HYDRO_A_CANADA_15M",
+      "title": "HYDRO_A_CANADA_15M",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Z02_04_CANVEC",
+      "title": "Z02_04_CANVEC",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Hydro",
+      "title": "Hydro",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "OCEAN_5M",
+      "title": "OCEAN_5M",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "HYDRO_A_5M_FINAL",
+      "title": "HYDRO_A_5M_FINAL",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "US_WATER_MASK",
+      "title": "US_WATER_MASK",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Z05_07_CANVEC",
+      "title": "Z05_07_CANVEC",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Hydro",
+      "title": "Hydro",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "OCEAN_1M",
+      "title": "OCEAN_1M",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "HYDRO_A_1M_FINAL",
+      "title": "HYDRO_A_1M_FINAL",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "US_WATER_MASK",
+      "title": "US_WATER_MASK",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Z08_09_CANVEC",
+      "title": "Z08_09_CANVEC",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "GREENLAND",
+      "title": "GREENLAND",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "Hydro",
+      "title": "Hydro",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "HYDRO_A_10_250K",
+      "title": "HYDRO_A_10_250K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "US_WATER_MASK",
+      "title": "US_WATER_MASK",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "HYDRO_A_11_250K",
+      "title": "HYDRO_A_11_250K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "HYDRO_A_12_250K",
+      "title": "HYDRO_A_12_250K",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3347"
+  ],
+  "cors_enabled": true,
+  "response_ms": 218,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

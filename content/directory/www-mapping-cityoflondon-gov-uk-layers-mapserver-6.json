@@ -1,0 +1,558 @@
+{
+  "slug": "www-mapping-cityoflondon-gov-uk-layers-mapserver-6",
+  "service_key": "ESRI MapServer:https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Heritage_Estate/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://www.mapping.cityoflondon.gov.uk/arcgis/rest/services/COMPASS_Heritage_Estate/MapServer",
+  "title": "Layers",
+  "description": "Heritage assets including buildings, monuments and historical landmarks.",
+  "abstract": "Heritage Estate items across the City",
+  "provider": "www.mapping.cityoflondon.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "England",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "heritage",
+      "confidence": "high"
+    },
+    {
+      "name": "conservation",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Coal Tax Posts",
+      "title": "Coal Tax Posts",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "POST_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "Post Number"
+        },
+        {
+          "name": "TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "ADDITIONAL_INFORMATION",
+          "type": "esriFieldTypeString",
+          "alias": "Additional Information"
+        },
+        {
+          "name": "LOCAL_AUTHORITY",
+          "type": "esriFieldTypeString",
+          "alias": "Local Authority"
+        },
+        {
+          "name": "LISTING_GRADE",
+          "type": "esriFieldTypeString",
+          "alias": "Listing Grade"
+        },
+        {
+          "name": "LAST_REPAIRED",
+          "type": "esriFieldTypeDate",
+          "alias": "Last Repaired"
+        },
+        {
+          "name": "LIST_ENTRY_NUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "List Entry Number"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Heritage Buildings",
+      "title": "Heritage Buildings",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ASSET_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "STRUCTURE_TYPE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "structure type category"
+        },
+        {
+          "name": "LISTED_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Listed status"
+        },
+        {
+          "name": "NUMBER_OF_ASSETS",
+          "type": "esriFieldTypeInteger",
+          "alias": "Number of assets"
+        },
+        {
+          "name": "BRIEF_ASSET_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Brief Asset Description"
+        },
+        {
+          "name": "VISUAL_INFORMATION",
+          "type": "esriFieldTypeString",
+          "alias": "visual information"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Heritage Bridges and Viaducts",
+      "title": "Heritage Bridges and Viaducts",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ASSET_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "STRUCTURE_TYPE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "structure type category"
+        },
+        {
+          "name": "LISTED_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Listed status"
+        },
+        {
+          "name": "NUMBER_OF_ASSETS",
+          "type": "esriFieldTypeInteger",
+          "alias": "Number of assets"
+        },
+        {
+          "name": "BRIEF_ASSET_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Brief Asset Description"
+        },
+        {
+          "name": "VISUAL_INFORMATION",
+          "type": "esriFieldTypeString",
+          "alias": "visual information"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Heritage Landscapes",
+      "title": "Heritage Landscapes",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ASSET_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "STRUCTURE_TYPE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "structure type category"
+        },
+        {
+          "name": "LISTED_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Listed status"
+        },
+        {
+          "name": "NUMBER_OF_ASSETS",
+          "type": "esriFieldTypeInteger",
+          "alias": "Number of assets"
+        },
+        {
+          "name": "BRIEF_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Brief Description"
+        },
+        {
+          "name": "VISUAL_INFORMATION",
+          "type": "esriFieldTypeString",
+          "alias": "visual information"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Heritage Monuments",
+      "title": "Heritage Monuments",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ASSET_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "STRUCTURE_TYPE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "structure type category"
+        },
+        {
+          "name": "LISTED_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Listed status"
+        },
+        {
+          "name": "NUMBER_OF_ASSETS",
+          "type": "esriFieldTypeInteger",
+          "alias": "Number of assets"
+        },
+        {
+          "name": "BRIEF_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Brief Description"
+        },
+        {
+          "name": "VISUAL_INFORMATION",
+          "type": "esriFieldTypeString",
+          "alias": "visual information"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Heritage Statuary",
+      "title": "Heritage Statuary",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ASSET_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Asset Location"
+        },
+        {
+          "name": "STRUCTURE_TYPE_CATEGORY",
+          "type": "esriFieldTypeString",
+          "alias": "structure type category"
+        },
+        {
+          "name": "LISTED_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Listed status"
+        },
+        {
+          "name": "NUMBER_OF_ASSETS",
+          "type": "esriFieldTypeDouble",
+          "alias": "Number of assets"
+        },
+        {
+          "name": "BRIEF_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Brief Description"
+        },
+        {
+          "name": "VISUAL_INFORMATION",
+          "type": "esriFieldTypeString",
+          "alias": "visual information"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Bunhill Fields Burial Grounds Listed Structures & Memorials",
+      "title": "Bunhill Fields Burial Grounds Listed Structures & Memorials",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "NAME",
+          "type": "esriFieldTypeString",
+          "alias": "Name"
+        },
+        {
+          "name": "ENCLOSURE_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Enclsoure Location"
+        },
+        {
+          "name": "ZONE_LOCATION",
+          "type": "esriFieldTypeString",
+          "alias": "Zone Location"
+        },
+        {
+          "name": "ASSET_REF_OR_BURIAL_NO",
+          "type": "esriFieldTypeString",
+          "alias": "Asset reference or Burial number"
+        },
+        {
+          "name": "ASSET_TYPE",
+          "type": "esriFieldTypeString",
+          "alias": "asset type"
+        },
+        {
+          "name": "LISTED_STATUS",
+          "type": "esriFieldTypeString",
+          "alias": "Listed status"
+        },
+        {
+          "name": "BRIEF_DESCRIPTION",
+          "type": "esriFieldTypeString",
+          "alias": "Brief Description"
+        },
+        {
+          "name": "VISUAL_INFORMATION",
+          "type": "esriFieldTypeString",
+          "alias": "visual information"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Blue Plaques",
+      "title": "Blue Plaques",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "x"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "y"
+        },
+        {
+          "name": "SUBJECT",
+          "type": "esriFieldTypeString",
+          "alias": "Subject"
+        },
+        {
+          "name": "WORDING",
+          "type": "esriFieldTypeString",
+          "alias": "Wording"
+        },
+        {
+          "name": "ADDRESS",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "PHOTO",
+          "type": "esriFieldTypeString",
+          "alias": "Photo"
+        },
+        {
+          "name": "DURATION",
+          "type": "esriFieldTypeString",
+          "alias": "Duration"
+        },
+        {
+          "name": "UPRN",
+          "type": "esriFieldTypeString",
+          "alias": "UPRN"
+        },
+        {
+          "name": "ACTIVE",
+          "type": "esriFieldTypeString",
+          "alias": "Active"
+        },
+        {
+          "name": "FM_COMMENT1",
+          "type": "esriFieldTypeString",
+          "alias": "Field Maps Comment"
+        },
+        {
+          "name": "POSTCODE",
+          "type": "esriFieldTypeString",
+          "alias": "Postcode"
+        },
+        {
+          "name": "CREATED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "CREATED_USER"
+        },
+        {
+          "name": "CREATED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "CREATED_DATE_UTC_TIME"
+        },
+        {
+          "name": "LAST_EDITED_USER",
+          "type": "esriFieldTypeString",
+          "alias": "LAST_EDITED_USER"
+        },
+        {
+          "name": "LAST_EDITED_DATE_UTC_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "LAST_EDITED_DATE_UTC_TIME"
+        },
+        {
+          "name": "AGO_GLOBALID_STRING",
+          "type": "esriFieldTypeString",
+          "alias": "ArcGIS Online Global ID String"
+        },
+        {
+          "name": "AGO_EDITED_BY",
+          "type": "esriFieldTypeString",
+          "alias": "ArcGIS Online Edited By"
+        },
+        {
+          "name": "AGO_EDITED_TIME",
+          "type": "esriFieldTypeDate",
+          "alias": "ArcGIS Online Edited Time"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 868,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

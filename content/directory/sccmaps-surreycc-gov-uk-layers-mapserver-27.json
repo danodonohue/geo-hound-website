@@ -1,0 +1,110 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-27",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Countryside_RightsOfWay/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Countryside_RightsOfWay/MapServer",
+  "title": "Layers",
+  "description": "Public rights of way footpaths and walking routes.",
+  "abstract": "Countryside - Rights of Way",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": "Surrey",
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "recreation",
+      "confidence": "high"
+    },
+    {
+      "name": "transport",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 14,
+      "name": "Countryside - Rights of Way",
+      "title": "Countryside - Rights of Way",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "ROUTECODE",
+          "type": "esriFieldTypeString",
+          "alias": "Route code"
+        },
+        {
+          "name": "Parish",
+          "type": "esriFieldTypeString",
+          "alias": "Parish"
+        },
+        {
+          "name": "STATUS_DESC",
+          "type": "esriFieldTypeString",
+          "alias": "Description"
+        },
+        {
+          "name": "STATUS_NUM",
+          "type": "esriFieldTypeString",
+          "alias": "Status number"
+        },
+        {
+          "name": "status_txt",
+          "type": "esriFieldTypeString",
+          "alias": "Status text"
+        },
+        {
+          "name": "Route",
+          "type": "esriFieldTypeString",
+          "alias": "Route"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 305,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

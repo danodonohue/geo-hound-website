@@ -1,0 +1,3545 @@
+{
+  "slug": "gis-ccc-govt-nz-watercourse-mapserver",
+  "service_key": "ESRI MapServer:https://gis.ccc.govt.nz/server/rest/services/OpenData/WaterCourse/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://gis.ccc.govt.nz/server/rest/services/OpenData/WaterCourse/MapServer",
+  "title": "WaterCourse",
+  "description": "Rivers, streams and water bodies with flow characteristics and attributes.",
+  "abstract": "This geospatial service provides essential information about Water Course datasets, which includes spatial data related to various water bodies such as rivers, streams, creeks, and other watercourses within the territorial local authority area of Christchurch City Council, New Zealand. The datasets offers comprehensive information about the geographical distribution, flow characteristics, attributes of these water features, between others. It is a valuable resource for hydrological analysis, environmental assessments, and land-use planning.",
+  "provider": "gis.ccc.govt.nz",
+  "place": {
+    "country": "New Zealand",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "hydrology",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "medium"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 42,
+      "name": "CREASPoint",
+      "title": "CREASPoint",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASPointID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASPointID"
+        },
+        {
+          "name": "CREASSiteID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CREASSiteID"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "NewExistSite",
+          "type": "esriFieldTypeString",
+          "alias": "NewExistSite"
+        },
+        {
+          "name": "RepeatedSite",
+          "type": "esriFieldTypeString",
+          "alias": "RepeatedSite"
+        },
+        {
+          "name": "PreviousSurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "PreviousSurveyYear"
+        },
+        {
+          "name": "SurverYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "SurverYear"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "SiteType"
+        },
+        {
+          "name": "OneOffSites",
+          "type": "esriFieldTypeString",
+          "alias": "OneOffSites"
+        },
+        {
+          "name": "OneOffSiteOther",
+          "type": "esriFieldTypeString",
+          "alias": "OneOffSiteOther"
+        },
+        {
+          "name": "Waterway",
+          "type": "esriFieldTypeString",
+          "alias": "Waterway"
+        },
+        {
+          "name": "WaterwayOther",
+          "type": "esriFieldTypeString",
+          "alias": "WaterwayOther"
+        },
+        {
+          "name": "RiverSystem",
+          "type": "esriFieldTypeString",
+          "alias": "RiverSystem"
+        },
+        {
+          "name": "RiverSystemOther",
+          "type": "esriFieldTypeString",
+          "alias": "RiverSystemOther"
+        },
+        {
+          "name": "LocationDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LocationDescription"
+        },
+        {
+          "name": "UpstreamPhotoURL",
+          "type": "esriFieldTypeString",
+          "alias": "UpstreamPhotoURL"
+        },
+        {
+          "name": "DownstreamPhotoURL",
+          "type": "esriFieldTypeString",
+          "alias": "DownstreamPhotoURL"
+        },
+        {
+          "name": "ObservingCompany",
+          "type": "esriFieldTypeString",
+          "alias": "ObservingCompany"
+        },
+        {
+          "name": "NewObservingCompany",
+          "type": "esriFieldTypeString",
+          "alias": "NewObservingCompany"
+        },
+        {
+          "name": "ObservingIndividual",
+          "type": "esriFieldTypeString",
+          "alias": "ObservingIndividual"
+        },
+        {
+          "name": "CaptureDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CaptureDate"
+        },
+        {
+          "name": "LLwBkHeight",
+          "type": "esriFieldTypeInteger",
+          "alias": "LLwBkHeight"
+        },
+        {
+          "name": "LLwBkAngle",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkAngle"
+        },
+        {
+          "name": "LUpBkHeight",
+          "type": "esriFieldTypeInteger",
+          "alias": "LUpBkHeight"
+        },
+        {
+          "name": "LUpBkAngle",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkAngle"
+        },
+        {
+          "name": "LBkUndercut",
+          "type": "esriFieldTypeInteger",
+          "alias": "LBkUndercut"
+        },
+        {
+          "name": "LBkOverhang",
+          "type": "esriFieldTypeInteger",
+          "alias": "LBkOverhang"
+        },
+        {
+          "name": "LLwBkMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkMaterial"
+        },
+        {
+          "name": "LLwBkMaterialOther",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkMaterialOther"
+        },
+        {
+          "name": "LLwBkStability",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkStability"
+        },
+        {
+          "name": "LUpBkStability",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkStability"
+        },
+        {
+          "name": "RLwBkHeight",
+          "type": "esriFieldTypeInteger",
+          "alias": "RLwBkHeight"
+        },
+        {
+          "name": "RLwBkAngle",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkAngle"
+        },
+        {
+          "name": "RUpBkHeight",
+          "type": "esriFieldTypeInteger",
+          "alias": "RUpBkHeight"
+        },
+        {
+          "name": "RUpBkAngle",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkAngle"
+        },
+        {
+          "name": "RBkUndercut",
+          "type": "esriFieldTypeInteger",
+          "alias": "RBkUndercut"
+        },
+        {
+          "name": "RBkOverhang",
+          "type": "esriFieldTypeInteger",
+          "alias": "RBkOverhang"
+        },
+        {
+          "name": "RLwBkMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkMaterial"
+        },
+        {
+          "name": "RLwBkMaterialOther",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkMaterialOther"
+        },
+        {
+          "name": "RLwBkStability",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkStability"
+        },
+        {
+          "name": "RUpBkStability",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkStability"
+        },
+        {
+          "name": "LBkTotalWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "LBkTotalWaterDepth"
+        },
+        {
+          "name": "LBkFreewaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "LBkFreewaterDepth"
+        },
+        {
+          "name": "LBkCumulativeSoftSedimentDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "LBkCumulativeSoftSedimentDepth"
+        },
+        {
+          "name": "LBkMacropyhteDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "LBkMacropyhteDepth"
+        },
+        {
+          "name": "LBkSoftSedimentDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "LBkSoftSedimentDepth"
+        },
+        {
+          "name": "MBkTotalWaterDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "MBkTotalWaterDepth"
+        },
+        {
+          "name": "MBkFreewaterDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "MBkFreewaterDepth"
+        },
+        {
+          "name": "MBkCumulativeSoftSedimentDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "MBkCumulativeSoftSedimentDepth"
+        },
+        {
+          "name": "MBkMacropyhteDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "MBkMacropyhteDepth"
+        },
+        {
+          "name": "MBkSoftSedimentDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "MBkSoftSedimentDepth"
+        },
+        {
+          "name": "RBkTotalWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "RBkTotalWaterDepth"
+        },
+        {
+          "name": "RBkFreewaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "RBkFreewaterDepth"
+        },
+        {
+          "name": "RBkCumulativeSoftSedimentDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "RBkCumulativeSoftSedimentDepth"
+        },
+        {
+          "name": "RBkMacropyhteDepth",
+          "type": "esriFieldTypeInteger",
+          "alias": "RBkMacropyhteDepth"
+        },
+        {
+          "name": "RBkSoftSedimentDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "RBkSoftSedimentDepth"
+        },
+        {
+          "name": "AvgFreeWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "AvgFreeWaterDepth"
+        },
+        {
+          "name": "AvgTotalWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "AvgTotalWaterDepth"
+        },
+        {
+          "name": "AvgCumulativeSoftSedimentDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "AvgCumulativeSoftSedimentDepth"
+        },
+        {
+          "name": "AvgMacrophyteDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "AvgMacrophyteDepth"
+        },
+        {
+          "name": "AvgSoftSedimentDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "AvgSoftSedimentDepth"
+        },
+        {
+          "name": "ChannelWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "ChannelWidth"
+        },
+        {
+          "name": "FlowDistance",
+          "type": "esriFieldTypeInteger",
+          "alias": "FlowDistance"
+        },
+        {
+          "name": "FlowTime",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlowTime"
+        },
+        {
+          "name": "VelocityCalculated",
+          "type": "esriFieldTypeDouble",
+          "alias": "VelocityCalculated"
+        },
+        {
+          "name": "DominantFlowHabitatType",
+          "type": "esriFieldTypeString",
+          "alias": "DominantFlowHabitatType"
+        },
+        {
+          "name": "LBkTotalCover",
+          "type": "esriFieldTypeString",
+          "alias": "LBkTotalCover"
+        },
+        {
+          "name": "RBkTotalCover",
+          "type": "esriFieldTypeString",
+          "alias": "RBkTotalCover"
+        },
+        {
+          "name": "LBkCanopyCover",
+          "type": "esriFieldTypeString",
+          "alias": "LBkCanopyCover"
+        },
+        {
+          "name": "RBkCanopyCover",
+          "type": "esriFieldTypeString",
+          "alias": "RBkCanopyCover"
+        },
+        {
+          "name": "LLwBkImpervious",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkImpervious"
+        },
+        {
+          "name": "LLwBkUnvegetated",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkUnvegetated"
+        },
+        {
+          "name": "LLwBkBryophyte",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkBryophyte"
+        },
+        {
+          "name": "LLwBkLawn",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkLawn"
+        },
+        {
+          "name": "LLwBkGrassAndHerbMix",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkGrassAndHerbMix"
+        },
+        {
+          "name": "LLwBkLowerGroundCover",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkLowerGroundCover"
+        },
+        {
+          "name": "LLwBkFerns",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkFerns"
+        },
+        {
+          "name": "LLwBkRushSedgeTussock",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkRushSedgeTussock"
+        },
+        {
+          "name": "LLwBkCoarserVegetationNative",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkCoarserVegetationNative"
+        },
+        {
+          "name": "LLwBkCoarserVegetationExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkCoarserVegetationExotic"
+        },
+        {
+          "name": "LLwBkShrubsNative",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkShrubsNative"
+        },
+        {
+          "name": "LLwBkShrubsExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkShrubsExotic"
+        },
+        {
+          "name": "LLwBkTreesNative",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkTreesNative"
+        },
+        {
+          "name": "LLwBkTreesDeciduousExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkTreesDeciduousExotic"
+        },
+        {
+          "name": "LLwBkTreesEvergreenExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkTreesEvergreenExotic"
+        },
+        {
+          "name": "LLwBkVinesClimbers",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkVinesClimbers"
+        },
+        {
+          "name": "LLwBkGeneralVegeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LLwBkGeneralVegeDescription"
+        },
+        {
+          "name": "LUpBkImpervious",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkImpervious"
+        },
+        {
+          "name": "LUpBkUnvegetated",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkUnvegetated"
+        },
+        {
+          "name": "LUpBkBryophyte",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkBryophyte"
+        },
+        {
+          "name": "LUpBkLawn",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkLawn"
+        },
+        {
+          "name": "LUpBkGrassAndHerbMix",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkGrassAndHerbMix"
+        },
+        {
+          "name": "LUpBkLowerGroundCover",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkLowerGroundCover"
+        },
+        {
+          "name": "LUpBkFerns",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkFerns"
+        },
+        {
+          "name": "LUpBkRushSedgeTussock",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkRushSedgeTussock"
+        },
+        {
+          "name": "LUpBkCoarserVegetationNative",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkCoarserVegetationNative"
+        },
+        {
+          "name": "LUpBkCoarserVegetationExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkCoarserVegetationExotic"
+        },
+        {
+          "name": "LUpBkShrubsNative",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkShrubsNative"
+        },
+        {
+          "name": "LUpBkShrubsExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkShrubsExotic"
+        },
+        {
+          "name": "LUpBkTreesNative",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkTreesNative"
+        },
+        {
+          "name": "LUpBkTreesDeciduousExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkTreesDeciduousExotic"
+        },
+        {
+          "name": "LUpBkTreesEvergreenExotic",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkTreesEvergreenExotic"
+        },
+        {
+          "name": "LUpBkVinesClimbers",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkVinesClimbers"
+        },
+        {
+          "name": "LUpBkGeneralVegeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LUpBkGeneralVegeDescription"
+        },
+        {
+          "name": "RLwBkImpervious",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkImpervious"
+        },
+        {
+          "name": "RLwBkUnvegetated",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkUnvegetated"
+        },
+        {
+          "name": "RLwBkBryophyte",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkBryophyte"
+        },
+        {
+          "name": "RLwBkLawn",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkLawn"
+        },
+        {
+          "name": "RLwBkGrassAndHerbMix",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkGrassAndHerbMix"
+        },
+        {
+          "name": "RLwBkLowerGroundCover",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkLowerGroundCover"
+        },
+        {
+          "name": "RLwBkFerns",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkFerns"
+        },
+        {
+          "name": "RLwBkRushSedgeTussock",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkRushSedgeTussock"
+        },
+        {
+          "name": "RLwBkCoarserVegetationNative",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkCoarserVegetationNative"
+        },
+        {
+          "name": "RLwBkCoarserVegetationExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkCoarserVegetationExotic"
+        },
+        {
+          "name": "RLwBkShrubsNative",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkShrubsNative"
+        },
+        {
+          "name": "RLwBkShrubsExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkShrubsExotic"
+        },
+        {
+          "name": "RLwBkTreesNative",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkTreesNative"
+        },
+        {
+          "name": "RLwBkTreesDeciduousExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkTreesDeciduousExotic"
+        },
+        {
+          "name": "RLwBkTreesEvergreenExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkTreesEvergreenExotic"
+        },
+        {
+          "name": "RLwBkVinesClimbers",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkVinesClimbers"
+        },
+        {
+          "name": "RLwBkGeneralVegeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "RLwBkGeneralVegeDescription"
+        },
+        {
+          "name": "RUpBkImpervious",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkImpervious"
+        },
+        {
+          "name": "RUpBkUnvegetated",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkUnvegetated"
+        },
+        {
+          "name": "RUpBkBryophyte",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkBryophyte"
+        },
+        {
+          "name": "RUpBkLawn",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkLawn"
+        },
+        {
+          "name": "RUpBkGrassAndHerbMix",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkGrassAndHerbMix"
+        },
+        {
+          "name": "RUpBkLowerGroundCover",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkLowerGroundCover"
+        },
+        {
+          "name": "RUpBkFerns",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkFerns"
+        },
+        {
+          "name": "RUpBkRushSedgeTussock",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkRushSedgeTussock"
+        },
+        {
+          "name": "RUpBkCoarserVegetationNative",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkCoarserVegetationNative"
+        },
+        {
+          "name": "RUpBkCoarserVegetationExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkCoarserVegetationExotic"
+        },
+        {
+          "name": "RUpBkShrubsNative",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkShrubsNative"
+        },
+        {
+          "name": "RUpBkShrubsExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkShrubsExotic"
+        },
+        {
+          "name": "RUpBkTreesNative",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkTreesNative"
+        },
+        {
+          "name": "RUpBkTreesDeciduousExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkTreesDeciduousExotic"
+        },
+        {
+          "name": "RUpBkTreesEvergreenExotic",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkTreesEvergreenExotic"
+        },
+        {
+          "name": "RUpBkVinesClimbers",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkVinesClimbers"
+        },
+        {
+          "name": "RUpBkGeneralVegeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "RUpBkGeneralVegeDescription"
+        },
+        {
+          "name": "SandSiltCover",
+          "type": "esriFieldTypeString",
+          "alias": "SandSiltCover"
+        },
+        {
+          "name": "Embeddedness",
+          "type": "esriFieldTypeString",
+          "alias": "Embeddedness"
+        },
+        {
+          "name": "Bedrock",
+          "type": "esriFieldTypeInteger",
+          "alias": "Bedrock"
+        },
+        {
+          "name": "Manmade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Manmade"
+        },
+        {
+          "name": "Boulder",
+          "type": "esriFieldTypeInteger",
+          "alias": "Boulder"
+        },
+        {
+          "name": "LargeCobble",
+          "type": "esriFieldTypeInteger",
+          "alias": "LargeCobble"
+        },
+        {
+          "name": "SmallCobble",
+          "type": "esriFieldTypeInteger",
+          "alias": "SmallCobble"
+        },
+        {
+          "name": "Gravel",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gravel"
+        },
+        {
+          "name": "Sand",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sand"
+        },
+        {
+          "name": "MudSiltClay",
+          "type": "esriFieldTypeInteger",
+          "alias": "MudSiltClay"
+        },
+        {
+          "name": "SubstrateSumPercentCalculated",
+          "type": "esriFieldTypeInteger",
+          "alias": "SubstrateSumPercentCalculated"
+        },
+        {
+          "name": "SubstrateScoreCalculated",
+          "type": "esriFieldTypeSingle",
+          "alias": "SubstrateScoreCalculated"
+        },
+        {
+          "name": "MacrophyteTotalCover",
+          "type": "esriFieldTypeInteger",
+          "alias": "MacrophyteTotalCover"
+        },
+        {
+          "name": "FilamentousTypeAlgae",
+          "type": "esriFieldTypeString",
+          "alias": "FilamentousTypeAlgae"
+        },
+        {
+          "name": "AlgaeMats",
+          "type": "esriFieldTypeString",
+          "alias": "AlgaeMats"
+        },
+        {
+          "name": "NitellaOrChara",
+          "type": "esriFieldTypeString",
+          "alias": "NitellaOrChara"
+        },
+        {
+          "name": "MossOrLiverworts",
+          "type": "esriFieldTypeString",
+          "alias": "MossOrLiverworts"
+        },
+        {
+          "name": "PotamogetonCrispus",
+          "type": "esriFieldTypeString",
+          "alias": "PotamogetonCrispus"
+        },
+        {
+          "name": "PotamogetonOchreatus",
+          "type": "esriFieldTypeString",
+          "alias": "PotamogetonOchreatus"
+        },
+        {
+          "name": "PotamogetonCheesmanil",
+          "type": "esriFieldTypeString",
+          "alias": "PotamogetonCheesmanil"
+        },
+        {
+          "name": "MyriophyllumPropinquum",
+          "type": "esriFieldTypeString",
+          "alias": "MyriophyllumPropinquum"
+        },
+        {
+          "name": "MyriophyllumTriphyllum",
+          "type": "esriFieldTypeString",
+          "alias": "MyriophyllumTriphyllum"
+        },
+        {
+          "name": "RanunculusTricophyllus",
+          "type": "esriFieldTypeString",
+          "alias": "RanunculusTricophyllus"
+        },
+        {
+          "name": "MyriophyllumAquaticum",
+          "type": "esriFieldTypeString",
+          "alias": "MyriophyllumAquaticum"
+        },
+        {
+          "name": "MyosotisScorpoioides",
+          "type": "esriFieldTypeString",
+          "alias": "MyosotisScorpoioides"
+        },
+        {
+          "name": "VeronicaAnagallisAquatica",
+          "type": "esriFieldTypeString",
+          "alias": "VeronicaAnagallisAquatica"
+        },
+        {
+          "name": "CallitricheStagnalis",
+          "type": "esriFieldTypeString",
+          "alias": "CallitricheStagnalis"
+        },
+        {
+          "name": "Lillaeopsis",
+          "type": "esriFieldTypeString",
+          "alias": "Lillaeopsis"
+        },
+        {
+          "name": "GlyceriaMaxima",
+          "type": "esriFieldTypeString",
+          "alias": "GlyceriaMaxima"
+        },
+        {
+          "name": "Rorippa",
+          "type": "esriFieldTypeString",
+          "alias": "Rorippa"
+        },
+        {
+          "name": "ElodeaCanadensis",
+          "type": "esriFieldTypeString",
+          "alias": "ElodeaCanadensis"
+        },
+        {
+          "name": "LagarosiphiomMajor",
+          "type": "esriFieldTypeString",
+          "alias": "LagarosiphiomMajor"
+        },
+        {
+          "name": "AlternantheraPhiloxeroides",
+          "type": "esriFieldTypeString",
+          "alias": "AlternantheraPhiloxeroides"
+        },
+        {
+          "name": "MimulusGuttatus",
+          "type": "esriFieldTypeString",
+          "alias": "MimulusGuttatus"
+        },
+        {
+          "name": "Lemna",
+          "type": "esriFieldTypeString",
+          "alias": "Lemna"
+        },
+        {
+          "name": "Azolla",
+          "type": "esriFieldTypeString",
+          "alias": "Azolla"
+        },
+        {
+          "name": "TerrestrialRoots",
+          "type": "esriFieldTypeString",
+          "alias": "TerrestrialRoots"
+        },
+        {
+          "name": "Detritus",
+          "type": "esriFieldTypeString",
+          "alias": "Detritus"
+        },
+        {
+          "name": "WoodyDerisOrDebrisJams",
+          "type": "esriFieldTypeString",
+          "alias": "WoodyDerisOrDebrisJams"
+        },
+        {
+          "name": "MenthaSpicata",
+          "type": "esriFieldTypeString",
+          "alias": "MenthaSpicata"
+        },
+        {
+          "name": "PersicariaHydropiper",
+          "type": "esriFieldTypeString",
+          "alias": "PersicariaHydropiper"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "NearestCREASSiteID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NearestCREASSiteID"
+        },
+        {
+          "name": "SpringobType",
+          "type": "esriFieldTypeString",
+          "alias": "SpringobType"
+        },
+        {
+          "name": "FishobType",
+          "type": "esriFieldTypeString",
+          "alias": "FishobType"
+        },
+        {
+          "name": "FishobTypeOther",
+          "type": "esriFieldTypeString",
+          "alias": "FishobTypeOther"
+        },
+        {
+          "name": "NotableWeed",
+          "type": "esriFieldTypeString",
+          "alias": "NotableWeed"
+        },
+        {
+          "name": "NotableWeedDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NotableWeedDescription"
+        },
+        {
+          "name": "NotableWeedOther",
+          "type": "esriFieldTypeString",
+          "alias": "NotableWeedOther"
+        },
+        {
+          "name": "OtherThingsOfNote",
+          "type": "esriFieldTypeString",
+          "alias": "OtherThingsOfNote"
+        },
+        {
+          "name": "Site25m",
+          "type": "esriFieldTypeString",
+          "alias": "Site25m"
+        },
+        {
+          "name": "OneoffPhotoURL",
+          "type": "esriFieldTypeString",
+          "alias": "OneoffPhotoURL"
+        },
+        {
+          "name": "SurveyCompleted",
+          "type": "esriFieldTypeString",
+          "alias": "SurveyCompleted"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "CREASPointSite",
+      "title": "CREASPointSite",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASPointSiteID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASPointSiteID"
+        },
+        {
+          "name": "CREASSiteID",
+          "type": "esriFieldTypeInteger",
+          "alias": "CREASSiteID"
+        },
+        {
+          "name": "SiteType",
+          "type": "esriFieldTypeString",
+          "alias": "SiteType"
+        },
+        {
+          "name": "Waterway",
+          "type": "esriFieldTypeString",
+          "alias": "Waterway"
+        },
+        {
+          "name": "RiverSystem",
+          "type": "esriFieldTypeString",
+          "alias": "RiverSystem"
+        },
+        {
+          "name": "SiteVisited",
+          "type": "esriFieldTypeString",
+          "alias": "SiteVisited"
+        },
+        {
+          "name": "PreviousSurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "PreviousSurveyYear"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "CREASSite",
+      "title": "CREASSite",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASSiteID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASSiteID"
+        },
+        {
+          "name": "WaterwayName",
+          "type": "esriFieldTypeString",
+          "alias": "WaterwayName"
+        },
+        {
+          "name": "CatchmentName",
+          "type": "esriFieldTypeString",
+          "alias": "CatchmentName"
+        },
+        {
+          "name": "SiteID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiteID"
+        },
+        {
+          "name": "UpstreamPhotoName",
+          "type": "esriFieldTypeString",
+          "alias": "UpstreamPhotoName"
+        },
+        {
+          "name": "UpStreamPhotoLink",
+          "type": "esriFieldTypeString",
+          "alias": "UpStreamPhotoLink"
+        },
+        {
+          "name": "DownstreamPhotoName",
+          "type": "esriFieldTypeString",
+          "alias": "DownstreamPhotoName"
+        },
+        {
+          "name": "DownStreamPhotoLink",
+          "type": "esriFieldTypeString",
+          "alias": "DownStreamPhotoLink"
+        },
+        {
+          "name": "SurveyCompleted",
+          "type": "esriFieldTypeString",
+          "alias": "SurveyCompleted"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "Comments"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Latitude"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "Longitude"
+        },
+        {
+          "name": "RecordObservationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "RecordObservationDate"
+        },
+        {
+          "name": "SurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "SurveyYear"
+        },
+        {
+          "name": "LeftLowerBankHeight",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerBankHeight"
+        },
+        {
+          "name": "LeftLowerBankSlopeAngle",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerBankSlopeAngle"
+        },
+        {
+          "name": "LeftUpperBankHeight",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperBankHeight"
+        },
+        {
+          "name": "LeftUpperBankSlopeAngle",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperBankSlopeAngle"
+        },
+        {
+          "name": "LeftBankUndercutDistance",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftBankUndercutDistance"
+        },
+        {
+          "name": "LeftLowGrowthOverhangDistance",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowGrowthOverhangDistance"
+        },
+        {
+          "name": "LeftLowerBankMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "LeftLowerBankMaterial"
+        },
+        {
+          "name": "LeftLowerBankStable",
+          "type": "esriFieldTypeString",
+          "alias": "LeftLowerBankStable"
+        },
+        {
+          "name": "LeftUpperBankStable",
+          "type": "esriFieldTypeString",
+          "alias": "LeftUpperBankStable"
+        },
+        {
+          "name": "RightLowerBankHeight",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerBankHeight"
+        },
+        {
+          "name": "RightLowerBankSlopeAngle",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerBankSlopeAngle"
+        },
+        {
+          "name": "RightUpperBankHeight",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperBankHeight"
+        },
+        {
+          "name": "RightUpperBankSlopeAngle",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperBankSlopeAngle"
+        },
+        {
+          "name": "RightBankUndercutDistance",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightBankUndercutDistance"
+        },
+        {
+          "name": "RightLowGrowthOverhangDistance",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowGrowthOverhangDistance"
+        },
+        {
+          "name": "RightLowerBankMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "RightLowerBankMaterial"
+        },
+        {
+          "name": "RightLowerBankStable",
+          "type": "esriFieldTypeString",
+          "alias": "RightLowerBankStable"
+        },
+        {
+          "name": "RightUpperBankStable",
+          "type": "esriFieldTypeString",
+          "alias": "RightUpperBankStable"
+        },
+        {
+          "name": "LeftTotalWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "LeftTotalWaterDepth"
+        },
+        {
+          "name": "LeftFreeWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "LeftFreeWaterDepth"
+        },
+        {
+          "name": "LeftSoftSedimentPlusTotalWaterDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftSoftSedimentPlusTotalWaterDepth"
+        },
+        {
+          "name": "LeftMacrophyteDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftMacrophyteDepth"
+        },
+        {
+          "name": "LeftSedimentDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "LeftSedimentDepth"
+        },
+        {
+          "name": "MidTotalWaterDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MidTotalWaterDepth"
+        },
+        {
+          "name": "MidFreeWaterDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MidFreeWaterDepth"
+        },
+        {
+          "name": "MidSoftSedimentPlusTotalWaterDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MidSoftSedimentPlusTotalWaterDepth"
+        },
+        {
+          "name": "MidMacrophyteDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MidMacrophyteDepth"
+        },
+        {
+          "name": "MidSedimentDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MidSedimentDepth"
+        },
+        {
+          "name": "RightTotalWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "RightTotalWaterDepth"
+        },
+        {
+          "name": "RightFreeWaterDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "RightFreeWaterDepth"
+        },
+        {
+          "name": "RightSoftSedimentPlusTotalWaterDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightSoftSedimentPlusTotalWaterDepth"
+        },
+        {
+          "name": "RightMacrophyteDepth",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightMacrophyteDepth"
+        },
+        {
+          "name": "RightSedimentDepth",
+          "type": "esriFieldTypeSingle",
+          "alias": "RightSedimentDepth"
+        },
+        {
+          "name": "RiverWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "RiverWidth"
+        },
+        {
+          "name": "VelocityTestDistance",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VelocityTestDistance"
+        },
+        {
+          "name": "VelocityTestTimeTaken",
+          "type": "esriFieldTypeDouble",
+          "alias": "VelocityTestTimeTaken"
+        },
+        {
+          "name": "drvVelocity",
+          "type": "esriFieldTypeDouble",
+          "alias": "drvVelocity"
+        },
+        {
+          "name": "WaterFlowType",
+          "type": "esriFieldTypeString",
+          "alias": "WaterFlowType"
+        },
+        {
+          "name": "LeftTotalCoverage",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftTotalCoverage"
+        },
+        {
+          "name": "RightTotalCoverage",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightTotalCoverage"
+        },
+        {
+          "name": "LeftCanopyCoverage",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftCanopyCoverage"
+        },
+        {
+          "name": "RightCanopyCoverage",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightCanopyCoverage"
+        },
+        {
+          "name": "LeftLowerImpervious",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerImpervious"
+        },
+        {
+          "name": "LeftLowerUnvegetated",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerUnvegetated"
+        },
+        {
+          "name": "LeftLowerBryophyte",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerBryophyte"
+        },
+        {
+          "name": "LeftLowerLawn",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerLawn"
+        },
+        {
+          "name": "LeftLowerGrassHerbMix",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerGrassHerbMix"
+        },
+        {
+          "name": "LeftLowerLowGroundCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerLowGroundCover"
+        },
+        {
+          "name": "LeftLowerFerns",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerFerns"
+        },
+        {
+          "name": "LeftLowerRushOrSedgeOrTussock",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerRushOrSedgeOrTussock"
+        },
+        {
+          "name": "LeftLowerCoarserVegetationNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerCoarserVegetationNative"
+        },
+        {
+          "name": "LeftLowerCoarserVegetationExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerCoarserVegetationExotic"
+        },
+        {
+          "name": "LeftLowerShrubsNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerShrubsNative"
+        },
+        {
+          "name": "LeftLowerShrubsExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerShrubsExotic"
+        },
+        {
+          "name": "LeftLowerNativeTrees",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerNativeTrees"
+        },
+        {
+          "name": "LeftLowerDeciduousExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerDeciduousExotic"
+        },
+        {
+          "name": "LeftLowerEvergreenExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftLowerEvergreenExotic"
+        },
+        {
+          "name": "LeftLowerVegetationTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LeftLowerVegetationTypeDescription"
+        },
+        {
+          "name": "LeftUpperImpervious",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperImpervious"
+        },
+        {
+          "name": "LeftUpperUnvegetated",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperUnvegetated"
+        },
+        {
+          "name": "LeftUpperBryophyte",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperBryophyte"
+        },
+        {
+          "name": "LeftUpperLawn",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperLawn"
+        },
+        {
+          "name": "LeftUpperGrassHerbMix",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperGrassHerbMix"
+        },
+        {
+          "name": "LeftUpperLowGroundCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperLowGroundCover"
+        },
+        {
+          "name": "LeftUpperFerns",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperFerns"
+        },
+        {
+          "name": "LeftUpperRushOrSedgeOrTussock",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperRushOrSedgeOrTussock"
+        },
+        {
+          "name": "LeftUpperCoarserVegetationNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperCoarserVegetationNative"
+        },
+        {
+          "name": "LeftUpperCoarserVegetationExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperCoarserVegetationExotic"
+        },
+        {
+          "name": "LeftUpperShrubsNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperShrubsNative"
+        },
+        {
+          "name": "LeftUpperShrubsExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperShrubsExotic"
+        },
+        {
+          "name": "LeftUpperNativeTrees",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperNativeTrees"
+        },
+        {
+          "name": "LeftUpperDeciduousExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperDeciduousExotic"
+        },
+        {
+          "name": "LeftUpperEvergreenExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LeftUpperEvergreenExotic"
+        },
+        {
+          "name": "LeftUpperVegetationTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "LeftUpperVegetationTypeDescription"
+        },
+        {
+          "name": "RightLowerImpervious",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerImpervious"
+        },
+        {
+          "name": "RightLowerUnvegetated",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerUnvegetated"
+        },
+        {
+          "name": "RightLowerBryophyte",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerBryophyte"
+        },
+        {
+          "name": "RightLowerLawn",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerLawn"
+        },
+        {
+          "name": "RightLowerGrassHerbMix",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerGrassHerbMix"
+        },
+        {
+          "name": "RightLowerLowGroundCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerLowGroundCover"
+        },
+        {
+          "name": "RightLowerFerns",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerFerns"
+        },
+        {
+          "name": "RightLowerRushOrSedgeOrTussock",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerRushOrSedgeOrTussock"
+        },
+        {
+          "name": "RightLowerCoarserVegetationNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerCoarserVegetationNative"
+        },
+        {
+          "name": "RightLowerCoarserVegetationExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerCoarserVegetationExotic"
+        },
+        {
+          "name": "RightLowerShrubsNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerShrubsNative"
+        },
+        {
+          "name": "RightLowerShrubsExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerShrubsExotic"
+        },
+        {
+          "name": "RightLowerNativeTrees",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerNativeTrees"
+        },
+        {
+          "name": "RightLowerDeciduousExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerDeciduousExotic"
+        },
+        {
+          "name": "RightLowerEvergreenExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightLowerEvergreenExotic"
+        },
+        {
+          "name": "RightLowerVegetationTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "RightLowerVegetationTypeDescription"
+        },
+        {
+          "name": "RightUpperImpervious",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperImpervious"
+        },
+        {
+          "name": "RightUpperUnvegetated",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperUnvegetated"
+        },
+        {
+          "name": "RightUpperBryophyte",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperBryophyte"
+        },
+        {
+          "name": "RightUpperLawn",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperLawn"
+        },
+        {
+          "name": "RightUpperGrassHerbMix",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperGrassHerbMix"
+        },
+        {
+          "name": "RightUpperLowGroundCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperLowGroundCover"
+        },
+        {
+          "name": "RightUpperFerns",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperFerns"
+        },
+        {
+          "name": "RightUpperRushOrSedgeOrTussock",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperRushOrSedgeOrTussock"
+        },
+        {
+          "name": "RightUpperCoarserVegetationNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperCoarserVegetationNative"
+        },
+        {
+          "name": "RightUpperCoarserVegetationExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperCoarserVegetationExotic"
+        },
+        {
+          "name": "RightUpperShrubsNative",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperShrubsNative"
+        },
+        {
+          "name": "RightUpperShrubsExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperShrubsExotic"
+        },
+        {
+          "name": "RightUpperNativeTrees",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperNativeTrees"
+        },
+        {
+          "name": "RightUpperDeciduousExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperDeciduousExotic"
+        },
+        {
+          "name": "RightUpperEvergreenExotic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RightUpperEvergreenExotic"
+        },
+        {
+          "name": "RightUpperVegetationTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "RightUpperVegetationTypeDescription"
+        },
+        {
+          "name": "SandSiltCoverage",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SandSiltCoverage"
+        },
+        {
+          "name": "SiltWithinMatrix",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SiltWithinMatrix"
+        },
+        {
+          "name": "Bedrock",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bedrock"
+        },
+        {
+          "name": "Manmade",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Manmade"
+        },
+        {
+          "name": "Boulder",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Boulder"
+        },
+        {
+          "name": "LargeCobble",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LargeCobble"
+        },
+        {
+          "name": "SmallCobble",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SmallCobble"
+        },
+        {
+          "name": "Gravel",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Gravel"
+        },
+        {
+          "name": "Sand",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Sand"
+        },
+        {
+          "name": "MudSiltClay",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MudSiltClay"
+        },
+        {
+          "name": "InorganicSubstrateSum",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "InorganicSubstrateSum"
+        },
+        {
+          "name": "InorganicSubstrateScore",
+          "type": "esriFieldTypeSingle",
+          "alias": "InorganicSubstrateScore"
+        },
+        {
+          "name": "MacrophyteCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MacrophyteCover"
+        },
+        {
+          "name": "FilamentousTypeAlgae",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "FilamentousTypeAlgae"
+        },
+        {
+          "name": "AlgalMats",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AlgalMats"
+        },
+        {
+          "name": "NitellaOrChara",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "NitellaOrChara"
+        },
+        {
+          "name": "MossLiverworts",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MossLiverworts"
+        },
+        {
+          "name": "PotamogetonCrispus",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PotamogetonCrispus"
+        },
+        {
+          "name": "PotamogetonOchreatus",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PotamogetonOchreatus"
+        },
+        {
+          "name": "PotamogetonCheesmanii",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "PotamogetonCheesmanii"
+        },
+        {
+          "name": "MyriophyllumPropinquum",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MyriophyllumPropinquum"
+        },
+        {
+          "name": "MyriophyllumTriphyllum",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MyriophyllumTriphyllum"
+        },
+        {
+          "name": "RanunculusTricophyllus",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "RanunculusTricophyllus"
+        },
+        {
+          "name": "MyriophyllumAquaticum",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MyriophyllumAquaticum"
+        },
+        {
+          "name": "CallitricheStagnalis",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "CallitricheStagnalis"
+        },
+        {
+          "name": "Lilaeopsis",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Lilaeopsis"
+        },
+        {
+          "name": "GlyceriaMaxima",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "GlyceriaMaxima"
+        },
+        {
+          "name": "Rorippa",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Rorippa"
+        },
+        {
+          "name": "ElodeaCanadensis",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ElodeaCanadensis"
+        },
+        {
+          "name": "LagarosiphonMajor",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "LagarosiphonMajor"
+        },
+        {
+          "name": "AlternantheraPhiloxeroids",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "AlternantheraPhiloxeroids"
+        },
+        {
+          "name": "MimulusGuttatus",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "MimulusGuttatus"
+        },
+        {
+          "name": "Lemna",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Lemna"
+        },
+        {
+          "name": "Azolla",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Azolla"
+        },
+        {
+          "name": "TerrestrialRoots",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "TerrestrialRoots"
+        },
+        {
+          "name": "Detritus",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Detritus"
+        },
+        {
+          "name": "WoodyDebrisOrJams",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "WoodyDebrisOrJams"
+        },
+        {
+          "name": "CreateUserName",
+          "type": "esriFieldTypeString",
+          "alias": "CreateUserName"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditUserName",
+          "type": "esriFieldTypeString",
+          "alias": "LastEditUserName"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "CREASSite2005",
+      "title": "CREASSite2005",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASSite2005ID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASSite2005ID"
+        },
+        {
+          "name": "WaterCourseName",
+          "type": "esriFieldTypeString",
+          "alias": "WaterCourseName"
+        },
+        {
+          "name": "RiverEnvironmentPhotoID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RiverEnvironmentPhotoID"
+        },
+        {
+          "name": "LinkToPhoto",
+          "type": "esriFieldTypeString",
+          "alias": "LinkToPhoto"
+        },
+        {
+          "name": "PhotoName",
+          "type": "esriFieldTypeString",
+          "alias": "PhotoName"
+        },
+        {
+          "name": "ObservationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ObservationDate"
+        },
+        {
+          "name": "SurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "SurveyYear"
+        },
+        {
+          "name": "InorganicSubstrateID",
+          "type": "esriFieldTypeInteger",
+          "alias": "InorganicSubstrateID"
+        },
+        {
+          "name": "Bedrock",
+          "type": "esriFieldTypeInteger",
+          "alias": "Bedrock"
+        },
+        {
+          "name": "Manmade",
+          "type": "esriFieldTypeInteger",
+          "alias": "Manmade"
+        },
+        {
+          "name": "Boulder",
+          "type": "esriFieldTypeInteger",
+          "alias": "Boulder"
+        },
+        {
+          "name": "LargeCobble",
+          "type": "esriFieldTypeInteger",
+          "alias": "LargeCobble"
+        },
+        {
+          "name": "SmallCobble",
+          "type": "esriFieldTypeInteger",
+          "alias": "SmallCobble"
+        },
+        {
+          "name": "Gravel",
+          "type": "esriFieldTypeInteger",
+          "alias": "Gravel"
+        },
+        {
+          "name": "Sand",
+          "type": "esriFieldTypeInteger",
+          "alias": "Sand"
+        },
+        {
+          "name": "MudSiltClay",
+          "type": "esriFieldTypeInteger",
+          "alias": "MudSiltClay"
+        },
+        {
+          "name": "SandSiltCover",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "SandSiltCover"
+        },
+        {
+          "name": "SandSiltCoverDesc",
+          "type": "esriFieldTypeString",
+          "alias": "SandSiltCoverDesc"
+        },
+        {
+          "name": "SandSiltCoverage",
+          "type": "esriFieldTypeString",
+          "alias": "SandSiltCoverage"
+        },
+        {
+          "name": "SandSiltCoverageMinimum",
+          "type": "esriFieldTypeInteger",
+          "alias": "SandSiltCoverageMinimum"
+        },
+        {
+          "name": "SandSiltCoverageMedian",
+          "type": "esriFieldTypeSingle",
+          "alias": "SandSiltCoverageMedian"
+        },
+        {
+          "name": "SandSiltCoverageMaximum",
+          "type": "esriFieldTypeInteger",
+          "alias": "SandSiltCoverageMaximum"
+        },
+        {
+          "name": "SiltWithinMatrix",
+          "type": "esriFieldTypeString",
+          "alias": "SiltWithinMatrix"
+        },
+        {
+          "name": "SiltWithinMatrixMinimum",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiltWithinMatrixMinimum"
+        },
+        {
+          "name": "SiltWithinMatrixMedian",
+          "type": "esriFieldTypeSingle",
+          "alias": "SiltWithinMatrixMedian"
+        },
+        {
+          "name": "SiltWithinMatrixMaximum",
+          "type": "esriFieldTypeInteger",
+          "alias": "SiltWithinMatrixMaximum"
+        },
+        {
+          "name": "OrganicSubstrateID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OrganicSubstrateID"
+        },
+        {
+          "name": "AquaticPlantType",
+          "type": "esriFieldTypeString",
+          "alias": "AquaticPlantType"
+        },
+        {
+          "name": "NoxiousSpecies",
+          "type": "esriFieldTypeInteger",
+          "alias": "NoxiousSpecies"
+        },
+        {
+          "name": "NoxiousSpeciesDesc",
+          "type": "esriFieldTypeString",
+          "alias": "NoxiousSpeciesDesc"
+        },
+        {
+          "name": "AquaticPlantCoverage",
+          "type": "esriFieldTypeString",
+          "alias": "AquaticPlantCoverage"
+        },
+        {
+          "name": "AquaticPlantCoverageMinimum",
+          "type": "esriFieldTypeDouble",
+          "alias": "AquaticPlantCoverageMinimum"
+        },
+        {
+          "name": "AquaticPlantCoverageMedian",
+          "type": "esriFieldTypeDouble",
+          "alias": "AquaticPlantCoverageMedian"
+        },
+        {
+          "name": "AquaticPlantCoverageMaximum",
+          "type": "esriFieldTypeDouble",
+          "alias": "AquaticPlantCoverageMaximum"
+        },
+        {
+          "name": "RiverChannelDepthID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RiverChannelDepthID"
+        },
+        {
+          "name": "FreeWaterDepth",
+          "type": "esriFieldTypeString",
+          "alias": "FreeWaterDepth"
+        },
+        {
+          "name": "TotalWaterDepth",
+          "type": "esriFieldTypeString",
+          "alias": "TotalWaterDepth"
+        },
+        {
+          "name": "SoftSedimentPlusTotalWaterDepth",
+          "type": "esriFieldTypeString",
+          "alias": "SoftSedimentPlusTotalWaterDepth"
+        },
+        {
+          "name": "drvMacrophyteDepth",
+          "type": "esriFieldTypeString",
+          "alias": "drvMacrophyteDepth"
+        },
+        {
+          "name": "drvSedimentDepth",
+          "type": "esriFieldTypeString",
+          "alias": "drvSedimentDepth"
+        },
+        {
+          "name": "RiverCoverID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RiverCoverID"
+        },
+        {
+          "name": "LowGrowthOverhangDistance",
+          "type": "esriFieldTypeString",
+          "alias": "LowGrowthOverhangDistance"
+        },
+        {
+          "name": "CanopyTreeCoverage",
+          "type": "esriFieldTypeString",
+          "alias": "CanopyTreeCoverage"
+        },
+        {
+          "name": "CanopyTreeCoverageMinimum",
+          "type": "esriFieldTypeDouble",
+          "alias": "CanopyTreeCoverageMinimum"
+        },
+        {
+          "name": "CanopyTreeCoverageMedian",
+          "type": "esriFieldTypeDouble",
+          "alias": "CanopyTreeCoverageMedian"
+        },
+        {
+          "name": "CanopyTreeCoverageMaximum",
+          "type": "esriFieldTypeDouble",
+          "alias": "CanopyTreeCoverageMaximum"
+        },
+        {
+          "name": "TotalCoverage",
+          "type": "esriFieldTypeString",
+          "alias": "TotalCoverage"
+        },
+        {
+          "name": "TotalCoverageMinimum",
+          "type": "esriFieldTypeDouble",
+          "alias": "TotalCoverageMinimum"
+        },
+        {
+          "name": "TotalCoverageMedian",
+          "type": "esriFieldTypeDouble",
+          "alias": "TotalCoverageMedian"
+        },
+        {
+          "name": "TotalCoverageMaximum",
+          "type": "esriFieldTypeDouble",
+          "alias": "TotalCoverageMaximum"
+        },
+        {
+          "name": "WaterFlowID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WaterFlowID"
+        },
+        {
+          "name": "WaterFlowType",
+          "type": "esriFieldTypeString",
+          "alias": "WaterFlowType"
+        },
+        {
+          "name": "WaterVolumeID",
+          "type": "esriFieldTypeInteger",
+          "alias": "WaterVolumeID"
+        },
+        {
+          "name": "VelocityTestDistance",
+          "type": "esriFieldTypeString",
+          "alias": "VelocityTestDistance"
+        },
+        {
+          "name": "VelocityTestTimeTaken",
+          "type": "esriFieldTypeString",
+          "alias": "VelocityTestTimeTaken"
+        },
+        {
+          "name": "RiverWidth",
+          "type": "esriFieldTypeString",
+          "alias": "RiverWidth"
+        },
+        {
+          "name": "drvVelocity",
+          "type": "esriFieldTypeString",
+          "alias": "drvVelocity"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CreateUserName",
+          "type": "esriFieldTypeString",
+          "alias": "CreateUserName"
+        },
+        {
+          "name": "LastEditUserName",
+          "type": "esriFieldTypeString",
+          "alias": "LastEditUserName"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "CREASSiteFishBarrier",
+      "title": "CREASSiteFishBarrier",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASSiteFishBarrierID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASSiteFishBarrierID"
+        },
+        {
+          "name": "fulcrum_id",
+          "type": "esriFieldTypeString",
+          "alias": "fulcrum_id"
+        },
+        {
+          "name": "created_at",
+          "type": "esriFieldTypeString",
+          "alias": "created_at"
+        },
+        {
+          "name": "updated_at",
+          "type": "esriFieldTypeString",
+          "alias": "updated_at"
+        },
+        {
+          "name": "version",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "version"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "longitude"
+        },
+        {
+          "name": "geometry_original",
+          "type": "esriFieldTypeString",
+          "alias": "geometry_original"
+        },
+        {
+          "name": "superior_functional_location",
+          "type": "esriFieldTypeString",
+          "alias": "superior_functional_location"
+        },
+        {
+          "name": "functional_location",
+          "type": "esriFieldTypeString",
+          "alias": "functional_location"
+        },
+        {
+          "name": "WaterWayName",
+          "type": "esriFieldTypeString",
+          "alias": "WaterWayName"
+        },
+        {
+          "name": "catchment",
+          "type": "esriFieldTypeString",
+          "alias": "catchment"
+        },
+        {
+          "name": "location_description",
+          "type": "esriFieldTypeString",
+          "alias": "location_description"
+        },
+        {
+          "name": "siteid",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "siteid"
+        },
+        {
+          "name": "nearest_siteid",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "nearest_siteid"
+        },
+        {
+          "name": "distance_to_nearest_site",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "distance_to_nearest_site"
+        },
+        {
+          "name": "comments",
+          "type": "esriFieldTypeString",
+          "alias": "comments"
+        },
+        {
+          "name": "company",
+          "type": "esriFieldTypeString",
+          "alias": "company"
+        },
+        {
+          "name": "individual",
+          "type": "esriFieldTypeString",
+          "alias": "individual"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "springobtype",
+          "type": "esriFieldTypeString",
+          "alias": "springobtype"
+        },
+        {
+          "name": "fishobtype",
+          "type": "esriFieldTypeString",
+          "alias": "fishobtype"
+        },
+        {
+          "name": "FishPhotoName",
+          "type": "esriFieldTypeString",
+          "alias": "FishPhotoName"
+        },
+        {
+          "name": "SurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "SurveyYear"
+        },
+        {
+          "name": "fish_barrier_photo",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo"
+        },
+        {
+          "name": "fish_barrier_photo_caption",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo_caption"
+        },
+        {
+          "name": "fish_barrier_photo_url",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo_url"
+        },
+        {
+          "name": "notableweed",
+          "type": "esriFieldTypeString",
+          "alias": "notableweed"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "CREASSiteFishBarrier2005",
+      "title": "CREASSiteFishBarrier2005",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASSiteFishBarrier2005ID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASSiteFishBarrier2005ID"
+        },
+        {
+          "name": "WaterCourseName",
+          "type": "esriFieldTypeString",
+          "alias": "WaterCourseName"
+        },
+        {
+          "name": "RiverEnvironmentPhotoID",
+          "type": "esriFieldTypeInteger",
+          "alias": "RiverEnvironmentPhotoID"
+        },
+        {
+          "name": "LinkToPhoto",
+          "type": "esriFieldTypeString",
+          "alias": "LinkToPhoto"
+        },
+        {
+          "name": "ObservationDate",
+          "type": "esriFieldTypeDate",
+          "alias": "ObservationDate"
+        },
+        {
+          "name": "SurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "SurveyYear"
+        },
+        {
+          "name": "FishObstructionID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FishObstructionID"
+        },
+        {
+          "name": "FishObstructionType",
+          "type": "esriFieldTypeString",
+          "alias": "FishObstructionType"
+        },
+        {
+          "name": "FishObstructionHeight",
+          "type": "esriFieldTypeString",
+          "alias": "FishObstructionHeight"
+        },
+        {
+          "name": "NotableWeedID",
+          "type": "esriFieldTypeInteger",
+          "alias": "NotableWeedID"
+        },
+        {
+          "name": "NotableWeedType",
+          "type": "esriFieldTypeString",
+          "alias": "NotableWeedType"
+        },
+        {
+          "name": "NotableWeedTypeDescription",
+          "type": "esriFieldTypeString",
+          "alias": "NotableWeedTypeDescription"
+        },
+        {
+          "name": "SpringID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SpringID"
+        },
+        {
+          "name": "EcanSpringID",
+          "type": "esriFieldTypeInteger",
+          "alias": "EcanSpringID"
+        },
+        {
+          "name": "EcanSpringNumber",
+          "type": "esriFieldTypeString",
+          "alias": "EcanSpringNumber"
+        },
+        {
+          "name": "SpringName",
+          "type": "esriFieldTypeString",
+          "alias": "SpringName"
+        },
+        {
+          "name": "SpringType",
+          "type": "esriFieldTypeString",
+          "alias": "SpringType"
+        },
+        {
+          "name": "SpringSource",
+          "type": "esriFieldTypeString",
+          "alias": "SpringSource"
+        },
+        {
+          "name": "Morphology",
+          "type": "esriFieldTypeString",
+          "alias": "Morphology"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "Owner"
+        },
+        {
+          "name": "Road",
+          "type": "esriFieldTypeString",
+          "alias": "Road"
+        },
+        {
+          "name": "Locality",
+          "type": "esriFieldTypeString",
+          "alias": "Locality"
+        },
+        {
+          "name": "Location",
+          "type": "esriFieldTypeString",
+          "alias": "Location"
+        },
+        {
+          "name": "GridReference",
+          "type": "esriFieldTypeString",
+          "alias": "GridReference"
+        },
+        {
+          "name": "Variability",
+          "type": "esriFieldTypeString",
+          "alias": "Variability"
+        },
+        {
+          "name": "GeologyType",
+          "type": "esriFieldTypeString",
+          "alias": "GeologyType"
+        },
+        {
+          "name": "PositionalAccuracy",
+          "type": "esriFieldTypeString",
+          "alias": "PositionalAccuracy"
+        },
+        {
+          "name": "GroundReducedLevel",
+          "type": "esriFieldTypeDouble",
+          "alias": "GroundReducedLevel"
+        },
+        {
+          "name": "AquifierType",
+          "type": "esriFieldTypeString",
+          "alias": "AquifierType"
+        },
+        {
+          "name": "SpringAquiferName",
+          "type": "esriFieldTypeString",
+          "alias": "SpringAquiferName"
+        },
+        {
+          "name": "WaterQualityChemicalTesting",
+          "type": "esriFieldTypeString",
+          "alias": "WaterQualityChemicalTesting"
+        },
+        {
+          "name": "Altitude",
+          "type": "esriFieldTypeString",
+          "alias": "Altitude"
+        },
+        {
+          "name": "UseCode",
+          "type": "esriFieldTypeString",
+          "alias": "UseCode"
+        },
+        {
+          "name": "Isotope",
+          "type": "esriFieldTypeString",
+          "alias": "Isotope"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "CREASSiteNotableWeed",
+      "title": "CREASSiteNotableWeed",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASSiteFishBarrierID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASSiteFishBarrierID"
+        },
+        {
+          "name": "fulcrum_id",
+          "type": "esriFieldTypeString",
+          "alias": "fulcrum_id"
+        },
+        {
+          "name": "created_at",
+          "type": "esriFieldTypeString",
+          "alias": "created_at"
+        },
+        {
+          "name": "updated_at",
+          "type": "esriFieldTypeString",
+          "alias": "updated_at"
+        },
+        {
+          "name": "version",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "version"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "longitude"
+        },
+        {
+          "name": "geometry_original",
+          "type": "esriFieldTypeString",
+          "alias": "geometry_original"
+        },
+        {
+          "name": "superior_functional_location",
+          "type": "esriFieldTypeString",
+          "alias": "superior_functional_location"
+        },
+        {
+          "name": "functional_location",
+          "type": "esriFieldTypeString",
+          "alias": "functional_location"
+        },
+        {
+          "name": "WaterWayName",
+          "type": "esriFieldTypeString",
+          "alias": "WaterWayName"
+        },
+        {
+          "name": "catchment",
+          "type": "esriFieldTypeString",
+          "alias": "catchment"
+        },
+        {
+          "name": "location_description",
+          "type": "esriFieldTypeString",
+          "alias": "location_description"
+        },
+        {
+          "name": "siteid",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "siteid"
+        },
+        {
+          "name": "nearest_siteid",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "nearest_siteid"
+        },
+        {
+          "name": "distance_to_nearest_site",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "distance_to_nearest_site"
+        },
+        {
+          "name": "comments",
+          "type": "esriFieldTypeString",
+          "alias": "comments"
+        },
+        {
+          "name": "company",
+          "type": "esriFieldTypeString",
+          "alias": "company"
+        },
+        {
+          "name": "individual",
+          "type": "esriFieldTypeString",
+          "alias": "individual"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "springobtype",
+          "type": "esriFieldTypeString",
+          "alias": "springobtype"
+        },
+        {
+          "name": "fishobtype",
+          "type": "esriFieldTypeString",
+          "alias": "fishobtype"
+        },
+        {
+          "name": "FishPhotoName",
+          "type": "esriFieldTypeString",
+          "alias": "FishPhotoName"
+        },
+        {
+          "name": "SurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "SurveyYear"
+        },
+        {
+          "name": "fish_barrier_photo",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo"
+        },
+        {
+          "name": "fish_barrier_photo_caption",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo_caption"
+        },
+        {
+          "name": "fish_barrier_photo_url",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo_url"
+        },
+        {
+          "name": "notableweed",
+          "type": "esriFieldTypeString",
+          "alias": "notableweed"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "CREASSiteSpring",
+      "title": "CREASSiteSpring",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "CREASSiteFishBarrierID",
+          "type": "esriFieldTypeOID",
+          "alias": "CREASSiteFishBarrierID"
+        },
+        {
+          "name": "fulcrum_id",
+          "type": "esriFieldTypeString",
+          "alias": "fulcrum_id"
+        },
+        {
+          "name": "created_at",
+          "type": "esriFieldTypeString",
+          "alias": "created_at"
+        },
+        {
+          "name": "updated_at",
+          "type": "esriFieldTypeString",
+          "alias": "updated_at"
+        },
+        {
+          "name": "version",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "version"
+        },
+        {
+          "name": "status",
+          "type": "esriFieldTypeString",
+          "alias": "status"
+        },
+        {
+          "name": "latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "latitude"
+        },
+        {
+          "name": "longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "longitude"
+        },
+        {
+          "name": "geometry_original",
+          "type": "esriFieldTypeString",
+          "alias": "geometry_original"
+        },
+        {
+          "name": "superior_functional_location",
+          "type": "esriFieldTypeString",
+          "alias": "superior_functional_location"
+        },
+        {
+          "name": "functional_location",
+          "type": "esriFieldTypeString",
+          "alias": "functional_location"
+        },
+        {
+          "name": "WaterwayName",
+          "type": "esriFieldTypeString",
+          "alias": "WaterwayName"
+        },
+        {
+          "name": "catchment",
+          "type": "esriFieldTypeString",
+          "alias": "catchment"
+        },
+        {
+          "name": "location_description",
+          "type": "esriFieldTypeString",
+          "alias": "location_description"
+        },
+        {
+          "name": "siteid",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "siteid"
+        },
+        {
+          "name": "nearest_siteid",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "nearest_siteid"
+        },
+        {
+          "name": "distance_to_nearest_site",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "distance_to_nearest_site"
+        },
+        {
+          "name": "comments",
+          "type": "esriFieldTypeString",
+          "alias": "comments"
+        },
+        {
+          "name": "company",
+          "type": "esriFieldTypeString",
+          "alias": "company"
+        },
+        {
+          "name": "individual",
+          "type": "esriFieldTypeString",
+          "alias": "individual"
+        },
+        {
+          "name": "DATE",
+          "type": "esriFieldTypeDate",
+          "alias": "DATE"
+        },
+        {
+          "name": "springobtype",
+          "type": "esriFieldTypeString",
+          "alias": "springobtype"
+        },
+        {
+          "name": "fishobtype",
+          "type": "esriFieldTypeString",
+          "alias": "fishobtype"
+        },
+        {
+          "name": "SurveyYear",
+          "type": "esriFieldTypeInteger",
+          "alias": "SurveyYear"
+        },
+        {
+          "name": "FishPhotoName",
+          "type": "esriFieldTypeString",
+          "alias": "FishPhotoName"
+        },
+        {
+          "name": "fish_barrier_photo",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo"
+        },
+        {
+          "name": "fish_barrier_photo_caption",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo_caption"
+        },
+        {
+          "name": "fish_barrier_photo_url",
+          "type": "esriFieldTypeString",
+          "alias": "fish_barrier_photo_url"
+        },
+        {
+          "name": "notableweed",
+          "type": "esriFieldTypeString",
+          "alias": "notableweed"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "WcAttributeChange",
+      "title": "WcAttributeChange",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WcAttributeChangeID",
+          "type": "esriFieldTypeOID",
+          "alias": "WcAttributeChangeID"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "WcChangeOfGrade",
+      "title": "WcChangeOfGrade",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WcChangeOfGradeID",
+          "type": "esriFieldTypeOID",
+          "alias": "WcChangeOfGradeID"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "WcClassificationChange",
+      "title": "WcClassificationChange",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WcClassificationChangeID",
+          "type": "esriFieldTypeOID",
+          "alias": "WcClassificationChangeID"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "WcConfluence",
+      "title": "WcConfluence",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WcConfluenceID",
+          "type": "esriFieldTypeOID",
+          "alias": "WcConfluenceID"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "WcDebrisPoles",
+      "title": "WcDebrisPoles",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WcDebrisPolesID",
+          "type": "esriFieldTypeOID",
+          "alias": "WcDebrisPolesID"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "PositionInChannel",
+          "type": "esriFieldTypeString",
+          "alias": "PositionInChannel"
+        },
+        {
+          "name": "Accessibility",
+          "type": "esriFieldTypeString",
+          "alias": "Accessibility"
+        },
+        {
+          "name": "SurveyGuideline",
+          "type": "esriFieldTypeString",
+          "alias": "SurveyGuideline"
+        },
+        {
+          "name": "ConstructionMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "ConstructionMaterial"
+        },
+        {
+          "name": "NumberOfPoles",
+          "type": "esriFieldTypeInteger",
+          "alias": "NumberOfPoles"
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter"
+        },
+        {
+          "name": "Spacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Spacing"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "DataCaptureDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DataCaptureDate"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "EDMPhotographLink",
+          "type": "esriFieldTypeString",
+          "alias": "EDMPhotographLink"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "WcDebrisRack",
+      "title": "WcDebrisRack",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WcDebrisRackID",
+          "type": "esriFieldTypeOID",
+          "alias": "WcDebrisRackID"
+        },
+        {
+          "name": "ServiceStatus",
+          "type": "esriFieldTypeString",
+          "alias": "ServiceStatus"
+        },
+        {
+          "name": "LocationCertainty",
+          "type": "esriFieldTypeString",
+          "alias": "LocationCertainty"
+        },
+        {
+          "name": "PositionInChannel",
+          "type": "esriFieldTypeString",
+          "alias": "PositionInChannel"
+        },
+        {
+          "name": "Accessibility",
+          "type": "esriFieldTypeString",
+          "alias": "Accessibility"
+        },
+        {
+          "name": "SurveyGuideline",
+          "type": "esriFieldTypeString",
+          "alias": "SurveyGuideline"
+        },
+        {
+          "name": "ConstructionMaterial",
+          "type": "esriFieldTypeString",
+          "alias": "ConstructionMaterial"
+        },
+        {
+          "name": "Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Length"
+        },
+        {
+          "name": "Width",
+          "type": "esriFieldTypeDouble",
+          "alias": "Width"
+        },
+        {
+          "name": "Height",
+          "type": "esriFieldTypeDouble",
+          "alias": "Height"
+        },
+        {
+          "name": "Spacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "Spacing"
+        },
+        {
+          "name": "CommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CommissionDate"
+        },
+        {
+          "name": "DecommissionDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DecommissionDate"
+        },
+        {
+          "name": "DataCaptureDate",
+          "type": "esriFieldTypeDate",
+          "alias": "DataCaptureDate"
+        },
+        {
+          "name": "Comment",
+          "type": "esriFieldTypeString",
+          "alias": "Comment"
+        },
+        {
+          "name": "ContractorExternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "ContractorExternalReference"
+        },
+        {
+          "name": "EDMPhotographLink",
+          "type": "esriFieldTypeString",
+          "alias": "EDMPhotographLink"
+        },
+        {
+          "name": "SAPInternalReference",
+          "type": "esriFieldTypeString",
+          "alias": "SAPInternalReference"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "WcDiffluence",
+      "title": "WcDiffluence",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "WcDiffluenceID",
+          "type": "esriFieldTypeOID",
+          "alias": "WcDiffluenceID"
+        },
+        {
+          "name": "DiffluenceType",
+          "type": "esriFieldTypeString",
+          "alias": "DiffluenceType"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "CreateDate",
+          "type": "esriFieldTypeDate",
+          "alias": "CreateDate"
+        },
+        {
+          "name": "LastEditDate",
+          "type": "esriFieldTypeDate",
+          "alias": "LastEditDate"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "WcEnergyDissipater",
+      "title": "WcEnergyDissipater",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "WcFlume",
+      "title": "WcFlume",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "WcFord",
+      "title": "WcFord",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "WcHeadwater",
+      "title": "WcHeadwater",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "WcInlet",
+      "title": "WcInlet",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "WcInstrumentation",
+      "title": "WcInstrumentation",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "WcLadder",
+      "title": "WcLadder",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "WcMouth",
+      "title": "WcMouth",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "WcOutlet",
+      "title": "WcOutlet",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "WcPumpStation",
+      "title": "WcPumpStation",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "WcRestriction",
+      "title": "WcRestriction",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "WcSpring",
+      "title": "WcSpring",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "WcValve",
+      "title": "WcValve",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "WcWeir",
+      "title": "WcWeir",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 0,
+      "name": "WcChannelBankLining",
+      "title": "WcChannelBankLining",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "WcChannelInvertLining",
+      "title": "WcChannelInvertLining",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "WcConstructedEarthChannel",
+      "title": "WcConstructedEarthChannel",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "WcLinedChannel",
+      "title": "WcLinedChannel",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "WcWaterCourse",
+      "title": "WcWaterCourse",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "WcWaterCourseCondition",
+      "title": "WcWaterCourseCondition",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "WaterCourseSegment",
+      "title": "WaterCourseSegment",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "WaterCourseSegmentQuery",
+      "title": "WaterCourseSegmentQuery",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "WcBridge",
+      "title": "WcBridge",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "WcEmbankment",
+      "title": "WcEmbankment",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "WcRetainingStructureQuery",
+      "title": "WcRetainingStructureQuery",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "WcSegmentCondition",
+      "title": "WcSegmentCondition",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "WcSurfaceWater",
+      "title": "WcSurfaceWater",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "WcWaterCourseSegmentConditionQuery",
+      "title": "WcWaterCourseSegmentConditionQuery",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:2193"
+  ],
+  "cors_enabled": true,
+  "response_ms": 28,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

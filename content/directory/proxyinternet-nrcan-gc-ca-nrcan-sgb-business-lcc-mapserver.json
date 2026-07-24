@@ -1,0 +1,2129 @@
+{
+  "slug": "proxyinternet-nrcan-gc-ca-nrcan-sgb-business-lcc-mapserver",
+  "service_key": "ESRI MapServer:https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/MB_NC_NEW/NRCan_SGB_Business_LCC/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://proxyinternet.nrcan.gc.ca/arcgis/rest/services/MB_NC_NEW/NRCan_SGB_Business_LCC/MapServer",
+  "title": "NRCan_SGB_Business_LCC",
+  "description": "Land parcels including Indian Reserves, mineral claims and oil and gas features",
+  "provider": "proxyinternet.nrcan.gc.ca",
+  "place": {
+    "country": "Canada",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "parcels",
+      "confidence": "high"
+    },
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "TEXT",
+      "title": "TEXT",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "Land Parcel Text Small Scale",
+      "title": "Land Parcel Text Small Scale",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "AnnotationClassID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "Element",
+          "type": "esriFieldTypeBlob",
+          "alias": "Element"
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TextString",
+          "type": "esriFieldTypeString",
+          "alias": "TextString"
+        },
+        {
+          "name": "FontName",
+          "type": "esriFieldTypeString",
+          "alias": "FontName"
+        },
+        {
+          "name": "FontSize",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontSize"
+        },
+        {
+          "name": "Bold",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "Italic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "Underline",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VerticalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HorizontalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOffset"
+        },
+        {
+          "name": "YOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOffset"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "FontLeading",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontLeading"
+        },
+        {
+          "name": "WordSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "WordSpacing"
+        },
+        {
+          "name": "CharacterWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterWidth"
+        },
+        {
+          "name": "CharacterSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterSpacing"
+        },
+        {
+          "name": "FlipAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlipAngle"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SCALE"
+        },
+        {
+          "name": "SHEET",
+          "type": "esriFieldTypeString",
+          "alias": "SHEET"
+        },
+        {
+          "name": "ANNOTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ANNOTYPE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "INFOTABLE",
+          "type": "esriFieldTypeString",
+          "alias": "INFOTABLE"
+        },
+        {
+          "name": "ANNOKEY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ANNOKEY"
+        },
+        {
+          "name": "ICMGUID",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID"
+        },
+        {
+          "name": "adminAreaID",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaID"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "quadNames",
+          "type": "esriFieldTypeString",
+          "alias": "quadNames"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "DDS",
+          "type": "esriFieldTypeString",
+          "alias": "DDS"
+        },
+        {
+          "name": "SHAPE_area_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_area_1"
+        },
+        {
+          "name": "SHAPE_len_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_len_1"
+        },
+        {
+          "name": "ICMGUID_1",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "Land Parcel Text Small Scale Leader",
+      "title": "Land Parcel Text Small Scale Leader",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GRIDDIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDIRECTION"
+        },
+        {
+          "name": "GRIDDISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDISTANCE"
+        },
+        {
+          "name": "GRIDRADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDRADIUS"
+        },
+        {
+          "name": "GRIDTANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDTANGENT"
+        },
+        {
+          "name": "GRIDARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDARCLENGTH"
+        },
+        {
+          "name": "DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTION"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "DISTANCE"
+        },
+        {
+          "name": "DELTA",
+          "type": "esriFieldTypeString",
+          "alias": "DELTA"
+        },
+        {
+          "name": "RADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "RADIUS"
+        },
+        {
+          "name": "TANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "TANGENT"
+        },
+        {
+          "name": "ARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "ARCLENGTH"
+        },
+        {
+          "name": "SIDE",
+          "type": "esriFieldTypeString",
+          "alias": "SIDE"
+        },
+        {
+          "name": "PROJECTNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTNUMBER"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "OriginOID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OriginOID"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "Land Parcel Text Large Scale",
+      "title": "Land Parcel Text Large Scale",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "AnnotationClassID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "Element",
+          "type": "esriFieldTypeBlob",
+          "alias": "Element"
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TextString",
+          "type": "esriFieldTypeString",
+          "alias": "TextString"
+        },
+        {
+          "name": "FontName",
+          "type": "esriFieldTypeString",
+          "alias": "FontName"
+        },
+        {
+          "name": "FontSize",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontSize"
+        },
+        {
+          "name": "Bold",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "Italic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "Underline",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VerticalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HorizontalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOffset"
+        },
+        {
+          "name": "YOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOffset"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "FontLeading",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontLeading"
+        },
+        {
+          "name": "WordSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "WordSpacing"
+        },
+        {
+          "name": "CharacterWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterWidth"
+        },
+        {
+          "name": "CharacterSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterSpacing"
+        },
+        {
+          "name": "FlipAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlipAngle"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SCALE"
+        },
+        {
+          "name": "SHEET",
+          "type": "esriFieldTypeString",
+          "alias": "SHEET"
+        },
+        {
+          "name": "ANNOTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ANNOTYPE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "INFOTABLE",
+          "type": "esriFieldTypeString",
+          "alias": "INFOTABLE"
+        },
+        {
+          "name": "ANNOKEY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ANNOKEY"
+        },
+        {
+          "name": "ICMGUID",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID"
+        },
+        {
+          "name": "adminAreaID",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaID"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "quadNames",
+          "type": "esriFieldTypeString",
+          "alias": "quadNames"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "DDS",
+          "type": "esriFieldTypeString",
+          "alias": "DDS"
+        },
+        {
+          "name": "SHAPE_area_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_area_1"
+        },
+        {
+          "name": "SHAPE_len_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_len_1"
+        },
+        {
+          "name": "ICMGUID_1",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "Land Parcel Text Large Scale Leader",
+      "title": "Land Parcel Text Large Scale Leader",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GRIDDIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDIRECTION"
+        },
+        {
+          "name": "GRIDDISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDISTANCE"
+        },
+        {
+          "name": "GRIDRADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDRADIUS"
+        },
+        {
+          "name": "GRIDTANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDTANGENT"
+        },
+        {
+          "name": "GRIDARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDARCLENGTH"
+        },
+        {
+          "name": "DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTION"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "DISTANCE"
+        },
+        {
+          "name": "DELTA",
+          "type": "esriFieldTypeString",
+          "alias": "DELTA"
+        },
+        {
+          "name": "RADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "RADIUS"
+        },
+        {
+          "name": "TANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "TANGENT"
+        },
+        {
+          "name": "ARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "ARCLENGTH"
+        },
+        {
+          "name": "SIDE",
+          "type": "esriFieldTypeString",
+          "alias": "SIDE"
+        },
+        {
+          "name": "PROJECTNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTNUMBER"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "OriginOID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OriginOID"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "Cree Naskapi Text",
+      "title": "Cree Naskapi Text",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "AnnotationClassID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "Element",
+          "type": "esriFieldTypeBlob",
+          "alias": "Element"
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TextString",
+          "type": "esriFieldTypeString",
+          "alias": "TextString"
+        },
+        {
+          "name": "FontName",
+          "type": "esriFieldTypeString",
+          "alias": "FontName"
+        },
+        {
+          "name": "FontSize",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontSize"
+        },
+        {
+          "name": "Bold",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "Italic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "Underline",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VerticalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HorizontalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOffset"
+        },
+        {
+          "name": "YOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOffset"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "FontLeading",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontLeading"
+        },
+        {
+          "name": "WordSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "WordSpacing"
+        },
+        {
+          "name": "CharacterWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterWidth"
+        },
+        {
+          "name": "CharacterSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterSpacing"
+        },
+        {
+          "name": "FlipAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlipAngle"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SCALE"
+        },
+        {
+          "name": "SHEET",
+          "type": "esriFieldTypeString",
+          "alias": "SHEET"
+        },
+        {
+          "name": "ANNOTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ANNOTYPE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "INFOTABLE",
+          "type": "esriFieldTypeString",
+          "alias": "INFOTABLE"
+        },
+        {
+          "name": "ANNOKEY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ANNOKEY"
+        },
+        {
+          "name": "ICMGUID",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID"
+        },
+        {
+          "name": "adminAreaID",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaID"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "quadNames",
+          "type": "esriFieldTypeString",
+          "alias": "quadNames"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "DDS",
+          "type": "esriFieldTypeString",
+          "alias": "DDS"
+        },
+        {
+          "name": "SHAPE_area_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_area_1"
+        },
+        {
+          "name": "SHAPE_len_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_len_1"
+        },
+        {
+          "name": "ICMGUID_1",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "1pt=1m",
+      "title": "1pt=1m",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "Cree Naskapi Text Leader",
+      "title": "Cree Naskapi Text Leader",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GRIDDIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDIRECTION"
+        },
+        {
+          "name": "GRIDDISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDISTANCE"
+        },
+        {
+          "name": "GRIDRADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDRADIUS"
+        },
+        {
+          "name": "GRIDTANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDTANGENT"
+        },
+        {
+          "name": "GRIDARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDARCLENGTH"
+        },
+        {
+          "name": "DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTION"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "DISTANCE"
+        },
+        {
+          "name": "DELTA",
+          "type": "esriFieldTypeString",
+          "alias": "DELTA"
+        },
+        {
+          "name": "RADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "RADIUS"
+        },
+        {
+          "name": "TANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "TANGENT"
+        },
+        {
+          "name": "ARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "ARCLENGTH"
+        },
+        {
+          "name": "SIDE",
+          "type": "esriFieldTypeString",
+          "alias": "SIDE"
+        },
+        {
+          "name": "PROJECTNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTNUMBER"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "OriginOID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OriginOID"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "Indian Reserve Lease Text",
+      "title": "Indian Reserve Lease Text",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "AnnotationClassID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "Element",
+          "type": "esriFieldTypeBlob",
+          "alias": "Element"
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TextString",
+          "type": "esriFieldTypeString",
+          "alias": "TextString"
+        },
+        {
+          "name": "FontName",
+          "type": "esriFieldTypeString",
+          "alias": "FontName"
+        },
+        {
+          "name": "FontSize",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontSize"
+        },
+        {
+          "name": "Bold",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "Italic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "Underline",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VerticalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HorizontalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOffset"
+        },
+        {
+          "name": "YOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOffset"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "FontLeading",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontLeading"
+        },
+        {
+          "name": "WordSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "WordSpacing"
+        },
+        {
+          "name": "CharacterWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterWidth"
+        },
+        {
+          "name": "CharacterSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterSpacing"
+        },
+        {
+          "name": "FlipAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlipAngle"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SCALE"
+        },
+        {
+          "name": "SHEET",
+          "type": "esriFieldTypeString",
+          "alias": "SHEET"
+        },
+        {
+          "name": "ANNOTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ANNOTYPE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "INFOTABLE",
+          "type": "esriFieldTypeString",
+          "alias": "INFOTABLE"
+        },
+        {
+          "name": "ANNOKEY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ANNOKEY"
+        },
+        {
+          "name": "ICMGUID",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID"
+        },
+        {
+          "name": "adminAreaID",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaID"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "quadNames",
+          "type": "esriFieldTypeString",
+          "alias": "quadNames"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "DDS",
+          "type": "esriFieldTypeString",
+          "alias": "DDS"
+        },
+        {
+          "name": "SHAPE_area_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_area_1"
+        },
+        {
+          "name": "SHAPE_len_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_len_1"
+        },
+        {
+          "name": "ICMGUID_1",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "1pt=1m",
+      "title": "1pt=1m",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "Indian Reserve Lease Text Leader",
+      "title": "Indian Reserve Lease Text Leader",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "GRIDDIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDIRECTION"
+        },
+        {
+          "name": "GRIDDISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDDISTANCE"
+        },
+        {
+          "name": "GRIDRADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDRADIUS"
+        },
+        {
+          "name": "GRIDTANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDTANGENT"
+        },
+        {
+          "name": "GRIDARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "GRIDARCLENGTH"
+        },
+        {
+          "name": "DIRECTION",
+          "type": "esriFieldTypeString",
+          "alias": "DIRECTION"
+        },
+        {
+          "name": "DISTANCE",
+          "type": "esriFieldTypeString",
+          "alias": "DISTANCE"
+        },
+        {
+          "name": "DELTA",
+          "type": "esriFieldTypeString",
+          "alias": "DELTA"
+        },
+        {
+          "name": "RADIUS",
+          "type": "esriFieldTypeString",
+          "alias": "RADIUS"
+        },
+        {
+          "name": "TANGENT",
+          "type": "esriFieldTypeString",
+          "alias": "TANGENT"
+        },
+        {
+          "name": "ARCLENGTH",
+          "type": "esriFieldTypeString",
+          "alias": "ARCLENGTH"
+        },
+        {
+          "name": "SIDE",
+          "type": "esriFieldTypeString",
+          "alias": "SIDE"
+        },
+        {
+          "name": "PROJECTNUMBER",
+          "type": "esriFieldTypeString",
+          "alias": "PROJECTNUMBER"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "GlobalID",
+          "type": "esriFieldTypeString",
+          "alias": "GlobalID"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "OriginOID",
+          "type": "esriFieldTypeInteger",
+          "alias": "OriginOID"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "Indian Reserve Designation Text",
+      "title": "Indian Reserve Designation Text",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "FeatureID",
+          "type": "esriFieldTypeInteger",
+          "alias": "FeatureID"
+        },
+        {
+          "name": "ZOrder",
+          "type": "esriFieldTypeInteger",
+          "alias": "ZOrder"
+        },
+        {
+          "name": "AnnotationClassID",
+          "type": "esriFieldTypeInteger",
+          "alias": "AnnotationClassID"
+        },
+        {
+          "name": "Element",
+          "type": "esriFieldTypeBlob",
+          "alias": "Element"
+        },
+        {
+          "name": "SymbolID",
+          "type": "esriFieldTypeInteger",
+          "alias": "SymbolID"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "TextString",
+          "type": "esriFieldTypeString",
+          "alias": "TextString"
+        },
+        {
+          "name": "FontName",
+          "type": "esriFieldTypeString",
+          "alias": "FontName"
+        },
+        {
+          "name": "FontSize",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontSize"
+        },
+        {
+          "name": "Bold",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Bold"
+        },
+        {
+          "name": "Italic",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Italic"
+        },
+        {
+          "name": "Underline",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "Underline"
+        },
+        {
+          "name": "VerticalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "VerticalAlignment"
+        },
+        {
+          "name": "HorizontalAlignment",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "HorizontalAlignment"
+        },
+        {
+          "name": "XOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "XOffset"
+        },
+        {
+          "name": "YOffset",
+          "type": "esriFieldTypeDouble",
+          "alias": "YOffset"
+        },
+        {
+          "name": "Angle",
+          "type": "esriFieldTypeDouble",
+          "alias": "Angle"
+        },
+        {
+          "name": "FontLeading",
+          "type": "esriFieldTypeDouble",
+          "alias": "FontLeading"
+        },
+        {
+          "name": "WordSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "WordSpacing"
+        },
+        {
+          "name": "CharacterWidth",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterWidth"
+        },
+        {
+          "name": "CharacterSpacing",
+          "type": "esriFieldTypeDouble",
+          "alias": "CharacterSpacing"
+        },
+        {
+          "name": "FlipAngle",
+          "type": "esriFieldTypeDouble",
+          "alias": "FlipAngle"
+        },
+        {
+          "name": "Override",
+          "type": "esriFieldTypeInteger",
+          "alias": "Override"
+        },
+        {
+          "name": "SHAPE_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Length"
+        },
+        {
+          "name": "SHAPE_Area",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_Area"
+        },
+        {
+          "name": "FEATUREGROUP",
+          "type": "esriFieldTypeString",
+          "alias": "FEATUREGROUP"
+        },
+        {
+          "name": "FEATURECODE",
+          "type": "esriFieldTypeString",
+          "alias": "FEATURECODE"
+        },
+        {
+          "name": "SCALE",
+          "type": "esriFieldTypeInteger",
+          "alias": "SCALE"
+        },
+        {
+          "name": "SHEET",
+          "type": "esriFieldTypeString",
+          "alias": "SHEET"
+        },
+        {
+          "name": "ANNOTYPE",
+          "type": "esriFieldTypeString",
+          "alias": "ANNOTYPE"
+        },
+        {
+          "name": "PUBLICIND",
+          "type": "esriFieldTypeString",
+          "alias": "PUBLICIND"
+        },
+        {
+          "name": "LAYER",
+          "type": "esriFieldTypeString",
+          "alias": "LAYER"
+        },
+        {
+          "name": "INFOTABLE",
+          "type": "esriFieldTypeString",
+          "alias": "INFOTABLE"
+        },
+        {
+          "name": "ANNOKEY",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "ANNOKEY"
+        },
+        {
+          "name": "ICMGUID",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID"
+        },
+        {
+          "name": "adminAreaID",
+          "type": "esriFieldTypeString",
+          "alias": "adminAreaID"
+        },
+        {
+          "name": "jurisdiction",
+          "type": "esriFieldTypeString",
+          "alias": "jurisdiction"
+        },
+        {
+          "name": "quadNames",
+          "type": "esriFieldTypeString",
+          "alias": "quadNames"
+        },
+        {
+          "name": "SOURCEDB",
+          "type": "esriFieldTypeString",
+          "alias": "SOURCEDB"
+        },
+        {
+          "name": "DDS",
+          "type": "esriFieldTypeString",
+          "alias": "DDS"
+        },
+        {
+          "name": "SHAPE_area_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_area_1"
+        },
+        {
+          "name": "SHAPE_len_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "SHAPE_len_1"
+        },
+        {
+          "name": "ICMGUID_1",
+          "type": "esriFieldTypeGUID",
+          "alias": "ICMGUID_1"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "1pt=1m",
+      "title": "1pt=1m",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "Indian Reserve Designation Text Leader",
+      "title": "Indian Reserve Designation Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "Settlement Land Text",
+      "title": "Settlement Land Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "1pt=1m",
+      "title": "1pt=1m",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "Settlement Land Text Leader",
+      "title": "Settlement Land Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "Mineral Claim Text",
+      "title": "Mineral Claim Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "Mineral Claim Text Leader",
+      "title": "Mineral Claim Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "Provisional Text",
+      "title": "Provisional Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "Provisional Text Leader",
+      "title": "Provisional Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "Oil and Gas Text",
+      "title": "Oil and Gas Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "1pt=1m",
+      "title": "1pt=1m",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "Oil and Gas Text Leader",
+      "title": "Oil and Gas Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "Easement Text",
+      "title": "Easement Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "Easement Text Leader",
+      "title": "Easement Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "Status Unknown Text",
+      "title": "Status Unknown Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "Status Unknown Text Leader",
+      "title": "Status Unknown Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "Condominium Text",
+      "title": "Condominium Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "Condominium Text Leader",
+      "title": "Condominium Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "Strata Text",
+      "title": "Strata Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "Strata Text Leader",
+      "title": "Strata Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "Protected Area Text",
+      "title": "Protected Area Text",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "Annotation Class 1",
+      "title": "Annotation Class 1",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "Protected Area Text Leader",
+      "title": "Protected Area Text Leader",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "Indian Reserve Lease",
+      "title": "Indian Reserve Lease",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "Indian Reserve Designation",
+      "title": "Indian Reserve Designation",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "Yukon First Nation Lot Within Settlement Land",
+      "title": "Yukon First Nation Lot Within Settlement Land",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "Yukon First Nation Parcel",
+      "title": "Yukon First Nation Parcel",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "Cree/Naskapi Right",
+      "title": "Cree/Naskapi Right",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "Cree - Naskapi Administrative Lot",
+      "title": "Cree - Naskapi Administrative Lot",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "Cree/Naskapi Block",
+      "title": "Cree/Naskapi Block",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "Cree - Naskapi Lot",
+      "title": "Cree - Naskapi Lot",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "Cree - Naskapi Lot (Other)",
+      "title": "Cree - Naskapi Lot (Other)",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "Placer Claim Base Line",
+      "title": "Placer Claim Base Line",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "Mineral Claim Location Line",
+      "title": "Mineral Claim Location Line",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "Mineral Claim",
+      "title": "Mineral Claim",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "Provisional Line",
+      "title": "Provisional Line",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "Project Envelope",
+      "title": "Project Envelope",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "Indian Reserve Surface Oil and Gas",
+      "title": "Indian Reserve Surface Oil and Gas",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "Sub-Surface Oil and Gas Surveyed Unit",
+      "title": "Sub-Surface Oil and Gas Surveyed Unit",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "Sub-Surface Oil and Gas Parcel",
+      "title": "Sub-Surface Oil and Gas Parcel",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:3978"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1124,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

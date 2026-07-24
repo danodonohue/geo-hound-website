@@ -1,0 +1,1932 @@
+{
+  "slug": "arcgis2-insight-gis-com-layers-mapserver",
+  "service_key": "ESRI MapServer:https://arcgis2.insight-gis.com/arcgis/rest/services/Insight/VectorWM_AgriWaterCM_Infra/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://arcgis2.insight-gis.com/arcgis/rest/services/Insight/VectorWM_AgriWaterCM_Infra/MapServer",
+  "title": "Layers",
+  "description": "Water and infrastructure systems including meters, hydrants, and pipes.",
+  "abstract": "INFRA",
+  "provider": "arcgis2.insight-gis.com",
+  "place": {
+    "country": "Israel",
+    "state": null,
+    "confidence": "medium"
+  },
+  "themes": [
+    {
+      "name": "utilities",
+      "confidence": "high"
+    },
+    {
+      "name": "infrastructure",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 0,
+      "name": "רחובות",
+      "title": "רחובות",
+      "geometry": "line",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Leng"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "StreetName"
+        },
+        {
+          "name": "Level",
+          "type": "esriFieldTypeDouble",
+          "alias": "Level"
+        },
+        {
+          "name": "Shape_Le_1",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Le_1"
+        },
+        {
+          "name": "Width_scal",
+          "type": "esriFieldTypeDouble",
+          "alias": "Width_scal"
+        },
+        {
+          "name": "Field",
+          "type": "esriFieldTypeInteger",
+          "alias": "Field"
+        },
+        {
+          "name": "Usability_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Usability_"
+        },
+        {
+          "name": "Rd_No",
+          "type": "esriFieldTypeInteger",
+          "alias": "Rd_No"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "Type"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeDouble",
+          "alias": "City_Code"
+        },
+        {
+          "name": "Shape_Length",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape_Length"
+        },
+        {
+          "name": "שם_רחוב",
+          "type": "esriFieldTypeString",
+          "alias": "שם_רחוב"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 1,
+      "name": "תשתיות",
+      "title": "תשתיות",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 2,
+      "name": "מים",
+      "title": "מים",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 3,
+      "name": "מדי מים MPLY",
+      "title": "מדי מים MPLY",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 4,
+      "name": "מדי מים",
+      "title": "מדי מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Main_Code",
+          "type": "esriFieldTypeDouble",
+          "alias": "קוד חיבור"
+        },
+        {
+          "name": "ClientName",
+          "type": "esriFieldTypeString",
+          "alias": "שם לקוח"
+        },
+        {
+          "name": "Flow",
+          "type": "esriFieldTypeDouble",
+          "alias": "ספיקה (מ_ק\\שעה)"
+        },
+        {
+          "name": "Daily_Qtty",
+          "type": "esriFieldTypeDouble",
+          "alias": "כמות (מ_ק\\יממה)"
+        },
+        {
+          "name": "Time_LastD",
+          "type": "esriFieldTypeDate",
+          "alias": "מועד עידכון אחרון"
+        },
+        {
+          "name": "ValueLastD",
+          "type": "esriFieldTypeDouble",
+          "alias": "ערך קריאה אחרונה"
+        },
+        {
+          "name": "Meter_Stat",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "מצב מונה"
+        },
+        {
+          "name": "Com_Stat",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "תקשורת"
+        },
+        {
+          "name": "Error_Cntr",
+          "type": "esriFieldTypeInteger",
+          "alias": "תקלות"
+        },
+        {
+          "name": "Com_Cntr",
+          "type": "esriFieldTypeInteger",
+          "alias": "מונה שדרים"
+        },
+        {
+          "name": "Reley_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר ממסר"
+        },
+        {
+          "name": "Water_Type",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "סוג מים"
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "קוטר"
+        },
+        {
+          "name": "Hierarchy",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "היררכיה"
+        },
+        {
+          "name": "Course",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "מסלול"
+        },
+        {
+          "name": "Meter_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר מונה"
+        },
+        {
+          "name": "Trnsmt_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר משדר"
+        },
+        {
+          "name": "Client_Num",
+          "type": "esriFieldTypeDouble",
+          "alias": "מספר לקוח"
+        },
+        {
+          "name": "Client_Add",
+          "type": "esriFieldTypeString",
+          "alias": "כתובת לקוח"
+        },
+        {
+          "name": "Farm_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר משק"
+        },
+        {
+          "name": "Parcel_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר חלקה"
+        },
+        {
+          "name": "Details",
+          "type": "esriFieldTypeString",
+          "alias": "פרטים"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "הערות"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "Z",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "קו אורך"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "קו רוחב"
+        },
+        {
+          "name": "MPLY_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר MPLY"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeInteger",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "MeterUpdate",
+          "type": "esriFieldTypeDate",
+          "alias": "MeterUpdate"
+        },
+        {
+          "name": "Active",
+          "type": "esriFieldTypeInteger",
+          "alias": "Active"
+        },
+        {
+          "name": "PayerName",
+          "type": "esriFieldTypeString",
+          "alias": "PayerName"
+        },
+        {
+          "name": "Cell_No",
+          "type": "esriFieldTypeString",
+          "alias": "Cell_No"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 5,
+      "name": "תוויות מדי מים",
+      "title": "תוויות מדי מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Main_Code",
+          "type": "esriFieldTypeDouble",
+          "alias": "קוד חיבור"
+        },
+        {
+          "name": "ClientName",
+          "type": "esriFieldTypeString",
+          "alias": "שם לקוח"
+        },
+        {
+          "name": "Flow",
+          "type": "esriFieldTypeDouble",
+          "alias": "ספיקה (מ_ק\\שעה)"
+        },
+        {
+          "name": "Daily_Qtty",
+          "type": "esriFieldTypeDouble",
+          "alias": "כמות (מ_ק\\יממה)"
+        },
+        {
+          "name": "Time_LastD",
+          "type": "esriFieldTypeDate",
+          "alias": "מועד עידכון אחרון"
+        },
+        {
+          "name": "ValueLastD",
+          "type": "esriFieldTypeDouble",
+          "alias": "ערך קריאה אחרונה"
+        },
+        {
+          "name": "Meter_Stat",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "מצב מונה"
+        },
+        {
+          "name": "Com_Stat",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "תקשורת"
+        },
+        {
+          "name": "Error_Cntr",
+          "type": "esriFieldTypeInteger",
+          "alias": "תקלות"
+        },
+        {
+          "name": "Com_Cntr",
+          "type": "esriFieldTypeInteger",
+          "alias": "מונה שדרים"
+        },
+        {
+          "name": "Reley_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר ממסר"
+        },
+        {
+          "name": "Water_Type",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "סוג מים"
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "קוטר"
+        },
+        {
+          "name": "Hierarchy",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "היררכיה"
+        },
+        {
+          "name": "Course",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "מסלול"
+        },
+        {
+          "name": "Meter_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר מונה"
+        },
+        {
+          "name": "Trnsmt_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר משדר"
+        },
+        {
+          "name": "Client_Num",
+          "type": "esriFieldTypeDouble",
+          "alias": "מספר לקוח"
+        },
+        {
+          "name": "Client_Add",
+          "type": "esriFieldTypeString",
+          "alias": "כתובת לקוח"
+        },
+        {
+          "name": "Farm_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר משק"
+        },
+        {
+          "name": "Parcel_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר חלקה"
+        },
+        {
+          "name": "Details",
+          "type": "esriFieldTypeString",
+          "alias": "פרטים"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "הערות"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "Z",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "קו אורך"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "קו רוחב"
+        },
+        {
+          "name": "MPLY_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר MPLY"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeInteger",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "MeterUpdate",
+          "type": "esriFieldTypeDate",
+          "alias": "MeterUpdate"
+        },
+        {
+          "name": "Active",
+          "type": "esriFieldTypeInteger",
+          "alias": "Active"
+        },
+        {
+          "name": "PayerName",
+          "type": "esriFieldTypeString",
+          "alias": "PayerName"
+        },
+        {
+          "name": "Cell_No",
+          "type": "esriFieldTypeString",
+          "alias": "Cell_No"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 6,
+      "name": "מדי מים לא פעילים",
+      "title": "מדי מים לא פעילים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Main_Code",
+          "type": "esriFieldTypeDouble",
+          "alias": "קוד חיבור"
+        },
+        {
+          "name": "ClientName",
+          "type": "esriFieldTypeString",
+          "alias": "שם לקוח"
+        },
+        {
+          "name": "Flow",
+          "type": "esriFieldTypeDouble",
+          "alias": "ספיקה (מ_ק\\שעה)"
+        },
+        {
+          "name": "Daily_Qtty",
+          "type": "esriFieldTypeDouble",
+          "alias": "כמות (מ_ק\\יממה)"
+        },
+        {
+          "name": "Time_LastD",
+          "type": "esriFieldTypeDate",
+          "alias": "מועד עידכון אחרון"
+        },
+        {
+          "name": "ValueLastD",
+          "type": "esriFieldTypeDouble",
+          "alias": "ערך קריאה אחרונה"
+        },
+        {
+          "name": "Meter_Stat",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "מצב מונה"
+        },
+        {
+          "name": "Com_Stat",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "תקשורת"
+        },
+        {
+          "name": "Error_Cntr",
+          "type": "esriFieldTypeInteger",
+          "alias": "תקלות"
+        },
+        {
+          "name": "Com_Cntr",
+          "type": "esriFieldTypeInteger",
+          "alias": "מונה שדרים"
+        },
+        {
+          "name": "Reley_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר ממסר"
+        },
+        {
+          "name": "Water_Type",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "סוג מים"
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "קוטר"
+        },
+        {
+          "name": "Hierarchy",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "היררכיה"
+        },
+        {
+          "name": "Course",
+          "type": "esriFieldTypeSmallInteger",
+          "alias": "מסלול"
+        },
+        {
+          "name": "Meter_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר מונה"
+        },
+        {
+          "name": "Trnsmt_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר משדר"
+        },
+        {
+          "name": "Client_Num",
+          "type": "esriFieldTypeDouble",
+          "alias": "מספר לקוח"
+        },
+        {
+          "name": "Client_Add",
+          "type": "esriFieldTypeString",
+          "alias": "כתובת לקוח"
+        },
+        {
+          "name": "Farm_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר משק"
+        },
+        {
+          "name": "Parcel_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר חלקה"
+        },
+        {
+          "name": "Details",
+          "type": "esriFieldTypeString",
+          "alias": "פרטים"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "הערות"
+        },
+        {
+          "name": "X",
+          "type": "esriFieldTypeDouble",
+          "alias": "X"
+        },
+        {
+          "name": "Y",
+          "type": "esriFieldTypeDouble",
+          "alias": "Y"
+        },
+        {
+          "name": "Z",
+          "type": "esriFieldTypeDouble",
+          "alias": "Z"
+        },
+        {
+          "name": "Longitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "קו אורך"
+        },
+        {
+          "name": "Latitude",
+          "type": "esriFieldTypeDouble",
+          "alias": "קו רוחב"
+        },
+        {
+          "name": "MPLY_Num",
+          "type": "esriFieldTypeInteger",
+          "alias": "מספר MPLY"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeInteger",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeInteger",
+          "alias": "Status"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "MeterUpdate",
+          "type": "esriFieldTypeDate",
+          "alias": "MeterUpdate"
+        },
+        {
+          "name": "Active",
+          "type": "esriFieldTypeInteger",
+          "alias": "Active"
+        },
+        {
+          "name": "PayerName",
+          "type": "esriFieldTypeString",
+          "alias": "PayerName"
+        },
+        {
+          "name": "Cell_No",
+          "type": "esriFieldTypeString",
+          "alias": "Cell_No"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 7,
+      "name": "מדי מים CM",
+      "title": "מדי מים CM",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 8,
+      "name": "CM תוויות מדי מים",
+      "title": "CM תוויות מדי מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MeterCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "MeterCount"
+        },
+        {
+          "name": "MeterID",
+          "type": "esriFieldTypeString",
+          "alias": "MeterID"
+        },
+        {
+          "name": "MeterSN",
+          "type": "esriFieldTypeString",
+          "alias": "MeterSN"
+        },
+        {
+          "name": "ConsumptionType",
+          "type": "esriFieldTypeString",
+          "alias": "ConsumptionType"
+        },
+        {
+          "name": "ConsumptionTypeDesc",
+          "type": "esriFieldTypeString",
+          "alias": "ConsumptionTypeDesc"
+        },
+        {
+          "name": "MeterCategory",
+          "type": "esriFieldTypeString",
+          "alias": "MeterCategory"
+        },
+        {
+          "name": "MeterCategoryDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MeterCategoryDesc"
+        },
+        {
+          "name": "CityName",
+          "type": "esriFieldTypeString",
+          "alias": "שם יישוב"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeString",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "שם רחוב"
+        },
+        {
+          "name": "Number_",
+          "type": "esriFieldTypeString",
+          "alias": "מספר"
+        },
+        {
+          "name": "Apartment",
+          "type": "esriFieldTypeString",
+          "alias": "דירה"
+        },
+        {
+          "name": "First_Name",
+          "type": "esriFieldTypeString",
+          "alias": "שם פרטי"
+        },
+        {
+          "name": "Last_Name",
+          "type": "esriFieldTypeString",
+          "alias": "שם משפחה"
+        },
+        {
+          "name": "ReadTime",
+          "type": "esriFieldTypeDate",
+          "alias": "זמן קריאה"
+        },
+        {
+          "name": "Read_",
+          "type": "esriFieldTypeDouble",
+          "alias": "קריאה"
+        },
+        {
+          "name": "MeterStatus",
+          "type": "esriFieldTypeInteger",
+          "alias": "סטטוס מד"
+        },
+        {
+          "name": "DailyCons",
+          "type": "esriFieldTypeDouble",
+          "alias": "DailyCons"
+        },
+        {
+          "name": "MonthlyCon",
+          "type": "esriFieldTypeDouble",
+          "alias": "MonthlyCon"
+        },
+        {
+          "name": "Alerts",
+          "type": "esriFieldTypeDouble",
+          "alias": "התראה"
+        },
+        {
+          "name": "Xcoordinate",
+          "type": "esriFieldTypeDouble",
+          "alias": "Xcoordinate"
+        },
+        {
+          "name": "Ycoordinate",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ycoordinate"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Active",
+          "type": "esriFieldTypeInteger",
+          "alias": "פעילות"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Cell_No",
+          "type": "esriFieldTypeString",
+          "alias": "מספר פלאפון"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 9,
+      "name": "CM מדי מים",
+      "title": "CM מדי מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MeterCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "MeterCount"
+        },
+        {
+          "name": "MeterID",
+          "type": "esriFieldTypeString",
+          "alias": "MeterID"
+        },
+        {
+          "name": "MeterSN",
+          "type": "esriFieldTypeString",
+          "alias": "MeterSN"
+        },
+        {
+          "name": "ConsumptionType",
+          "type": "esriFieldTypeString",
+          "alias": "ConsumptionType"
+        },
+        {
+          "name": "ConsumptionTypeDesc",
+          "type": "esriFieldTypeString",
+          "alias": "ConsumptionTypeDesc"
+        },
+        {
+          "name": "MeterCategory",
+          "type": "esriFieldTypeString",
+          "alias": "MeterCategory"
+        },
+        {
+          "name": "MeterCategoryDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MeterCategoryDesc"
+        },
+        {
+          "name": "CityName",
+          "type": "esriFieldTypeString",
+          "alias": "CityName"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeString",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "שם רחוב"
+        },
+        {
+          "name": "Number_",
+          "type": "esriFieldTypeString",
+          "alias": "מספר"
+        },
+        {
+          "name": "Apartment",
+          "type": "esriFieldTypeString",
+          "alias": "דירה"
+        },
+        {
+          "name": "First_Name",
+          "type": "esriFieldTypeString",
+          "alias": "שם פרטי"
+        },
+        {
+          "name": "Last_Name",
+          "type": "esriFieldTypeString",
+          "alias": "שם משפחה"
+        },
+        {
+          "name": "ReadTime",
+          "type": "esriFieldTypeDate",
+          "alias": "ReadTime"
+        },
+        {
+          "name": "Read_",
+          "type": "esriFieldTypeDouble",
+          "alias": "קריאה"
+        },
+        {
+          "name": "MeterStatus",
+          "type": "esriFieldTypeInteger",
+          "alias": "MeterStatus"
+        },
+        {
+          "name": "DailyCons",
+          "type": "esriFieldTypeDouble",
+          "alias": "DailyCons"
+        },
+        {
+          "name": "MonthlyCon",
+          "type": "esriFieldTypeDouble",
+          "alias": "MonthlyCon"
+        },
+        {
+          "name": "Alerts",
+          "type": "esriFieldTypeDouble",
+          "alias": "התראה"
+        },
+        {
+          "name": "Xcoordinate",
+          "type": "esriFieldTypeDouble",
+          "alias": "Xcoordinate"
+        },
+        {
+          "name": "Ycoordinate",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ycoordinate"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Active",
+          "type": "esriFieldTypeInteger",
+          "alias": "פעילות"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Cell_No",
+          "type": "esriFieldTypeString",
+          "alias": "מספר נייד"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 10,
+      "name": "לא פעילים CM מדי מים",
+      "title": "לא פעילים CM מדי מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "MeterCount",
+          "type": "esriFieldTypeInteger",
+          "alias": "MeterCount"
+        },
+        {
+          "name": "MeterID",
+          "type": "esriFieldTypeString",
+          "alias": "MeterID"
+        },
+        {
+          "name": "MeterSN",
+          "type": "esriFieldTypeString",
+          "alias": "MeterSN"
+        },
+        {
+          "name": "ConsumptionType",
+          "type": "esriFieldTypeString",
+          "alias": "ConsumptionType"
+        },
+        {
+          "name": "ConsumptionTypeDesc",
+          "type": "esriFieldTypeString",
+          "alias": "ConsumptionTypeDesc"
+        },
+        {
+          "name": "MeterCategory",
+          "type": "esriFieldTypeString",
+          "alias": "MeterCategory"
+        },
+        {
+          "name": "MeterCategoryDesc",
+          "type": "esriFieldTypeString",
+          "alias": "MeterCategoryDesc"
+        },
+        {
+          "name": "CityName",
+          "type": "esriFieldTypeString",
+          "alias": "CityName"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeString",
+          "alias": "City_Code"
+        },
+        {
+          "name": "StreetName",
+          "type": "esriFieldTypeString",
+          "alias": "StreetName"
+        },
+        {
+          "name": "Number_",
+          "type": "esriFieldTypeString",
+          "alias": "Number_"
+        },
+        {
+          "name": "Apartment",
+          "type": "esriFieldTypeString",
+          "alias": "Apartment"
+        },
+        {
+          "name": "First_Name",
+          "type": "esriFieldTypeString",
+          "alias": "First_Name"
+        },
+        {
+          "name": "Last_Name",
+          "type": "esriFieldTypeString",
+          "alias": "Last_Name"
+        },
+        {
+          "name": "ReadTime",
+          "type": "esriFieldTypeDate",
+          "alias": "ReadTime"
+        },
+        {
+          "name": "Read_",
+          "type": "esriFieldTypeDouble",
+          "alias": "Read_"
+        },
+        {
+          "name": "MeterStatus",
+          "type": "esriFieldTypeInteger",
+          "alias": "MeterStatus"
+        },
+        {
+          "name": "DailyCons",
+          "type": "esriFieldTypeDouble",
+          "alias": "DailyCons"
+        },
+        {
+          "name": "MonthlyCon",
+          "type": "esriFieldTypeDouble",
+          "alias": "MonthlyCon"
+        },
+        {
+          "name": "Alerts",
+          "type": "esriFieldTypeDouble",
+          "alias": "Alerts"
+        },
+        {
+          "name": "Xcoordinate",
+          "type": "esriFieldTypeDouble",
+          "alias": "Xcoordinate"
+        },
+        {
+          "name": "Ycoordinate",
+          "type": "esriFieldTypeDouble",
+          "alias": "Ycoordinate"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "Source"
+        },
+        {
+          "name": "Active",
+          "type": "esriFieldTypeInteger",
+          "alias": "Active"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Cell_No",
+          "type": "esriFieldTypeString",
+          "alias": "Cell_No"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 11,
+      "name": "מדי מים",
+      "title": "מדי מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "מקור נתונים"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeInteger",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "SHAPE",
+          "type": "esriFieldTypeGeometry",
+          "alias": "SHAPE"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "זיהוי פריט"
+        },
+        {
+          "name": "Serial_Number",
+          "type": "esriFieldTypeString",
+          "alias": "מספר סידורי"
+        },
+        {
+          "name": "Activity",
+          "type": "esriFieldTypeString",
+          "alias": "פעילות"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "תיאור/פרטים"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "הערות"
+        },
+        {
+          "name": "Lay_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "תאריך הנחה"
+        },
+        {
+          "name": "Validit_Time",
+          "type": "esriFieldTypeString",
+          "alias": "זמן תוקף"
+        },
+        {
+          "name": "Infra_Type",
+          "type": "esriFieldTypeString",
+          "alias": "סוג תשתית"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 12,
+      "name": "נקודות מים",
+      "title": "נקודות מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "מקור נתונים"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeInteger",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "גובה"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "תיאור"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "סוג תשתית"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "זיהוי פריט"
+        },
+        {
+          "name": "Secondary_Ttype",
+          "type": "esriFieldTypeString",
+          "alias": "סוג משני"
+        },
+        {
+          "name": "Lay_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "תאריך התקנה"
+        },
+        {
+          "name": "Validit_Time",
+          "type": "esriFieldTypeString",
+          "alias": "תוקף"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "הערות"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "בעלים"
+        },
+        {
+          "name": "Activity",
+          "type": "esriFieldTypeString",
+          "alias": "פעילות"
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "קוטר"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Attachments",
+          "type": "esriFieldTypeString",
+          "alias": "Attachments"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 13,
+      "name": "ברזים",
+      "title": "ברזים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "OBJECTID"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "מקור נתונים"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeInteger",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "Elevation",
+          "type": "esriFieldTypeDouble",
+          "alias": "גובה/עומק"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "תיאור/פרטים"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "Type",
+          "type": "esriFieldTypeString",
+          "alias": "סוג פריט"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "זיהוי פריט"
+        },
+        {
+          "name": "Secondary_Ttype",
+          "type": "esriFieldTypeString",
+          "alias": "סוג משני"
+        },
+        {
+          "name": "Lay_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "תאריך הנחה"
+        },
+        {
+          "name": "Validit_Time",
+          "type": "esriFieldTypeString",
+          "alias": "זמן תוקף"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "הערות"
+        },
+        {
+          "name": "Owner",
+          "type": "esriFieldTypeString",
+          "alias": "בעלים"
+        },
+        {
+          "name": "Activity",
+          "type": "esriFieldTypeString",
+          "alias": "פעילות"
+        },
+        {
+          "name": "Diameter",
+          "type": "esriFieldTypeDouble",
+          "alias": "Diameter"
+        },
+        {
+          "name": "Address",
+          "type": "esriFieldTypeString",
+          "alias": "Address"
+        },
+        {
+          "name": "Status",
+          "type": "esriFieldTypeString",
+          "alias": "Status"
+        },
+        {
+          "name": "Attachments",
+          "type": "esriFieldTypeString",
+          "alias": "Attachments"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 14,
+      "name": "ארונות מים",
+      "title": "ארונות מים",
+      "geometry": "point",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "מזהה מערכת"
+        },
+        {
+          "name": "Source",
+          "type": "esriFieldTypeString",
+          "alias": "מקור נתונים"
+        },
+        {
+          "name": "City_Code",
+          "type": "esriFieldTypeInteger",
+          "alias": "קוד ישוב"
+        },
+        {
+          "name": "Level_",
+          "type": "esriFieldTypeDouble",
+          "alias": "גובה"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "צורה"
+        },
+        {
+          "name": "Lay_Date",
+          "type": "esriFieldTypeDate",
+          "alias": "תאריך הנחה"
+        },
+        {
+          "name": "Validit_Time",
+          "type": "esriFieldTypeString",
+          "alias": "זמן תוקף"
+        },
+        {
+          "name": "Description",
+          "type": "esriFieldTypeString",
+          "alias": "תיאור/פרטים"
+        },
+        {
+          "name": "Comments",
+          "type": "esriFieldTypeString",
+          "alias": "הערות"
+        },
+        {
+          "name": "ID",
+          "type": "esriFieldTypeString",
+          "alias": "זיהוי פריט"
+        },
+        {
+          "name": "Secondary_Ttype",
+          "type": "esriFieldTypeString",
+          "alias": "סוג משני"
+        },
+        {
+          "name": "Infra_Type",
+          "type": "esriFieldTypeString",
+          "alias": "סוג תשתית"
+        },
+        {
+          "name": "Electric_Power",
+          "type": "esriFieldTypeString",
+          "alias": "סוג מתח"
+        },
+        {
+          "name": "Transformer_feed",
+          "type": "esriFieldTypeString",
+          "alias": "הזנת שנאי"
+        },
+        {
+          "name": "Comments2",
+          "type": "esriFieldTypeString",
+          "alias": "הערות 2"
+        },
+        {
+          "name": "Power",
+          "type": "esriFieldTypeDouble",
+          "alias": "מתח"
+        },
+        {
+          "name": "Voltage_board",
+          "type": "esriFieldTypeString",
+          "alias": "ארון מתח"
+        },
+        {
+          "name": "Costommer",
+          "type": "esriFieldTypeString",
+          "alias": "צרכן"
+        },
+        {
+          "name": "Supply_Source",
+          "type": "esriFieldTypeString",
+          "alias": "מקור הספקה"
+        }
+      ],
+      "feature_count": null
+    },
+    {
+      "id": 15,
+      "name": "ארונות השקייה",
+      "title": "ארונות השקייה",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 16,
+      "name": "שמות ברזים",
+      "title": "שמות ברזים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 17,
+      "name": "ארונות השקייה",
+      "title": "ארונות השקייה",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 18,
+      "name": "פילר מים",
+      "title": "פילר מים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 19,
+      "name": "חיבורי מים",
+      "title": "חיבורי מים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 20,
+      "name": "שסתומים",
+      "title": "שסתומים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 21,
+      "name": "גמל מים",
+      "title": "גמל מים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 22,
+      "name": "ממטרות",
+      "title": "ממטרות",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 23,
+      "name": "מז\"חים",
+      "title": "מז\"חים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 24,
+      "name": "משאבות",
+      "title": "משאבות",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 25,
+      "name": "מתקני מים",
+      "title": "מתקני מים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 26,
+      "name": "הידרנטים",
+      "title": "הידרנטים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 27,
+      "name": "גלגלון כיבוי אש",
+      "title": "גלגלון כיבוי אש",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 28,
+      "name": "שוחות מים",
+      "title": "שוחות מים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 29,
+      "name": "מגופים",
+      "title": "מגופים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 30,
+      "name": "שרוולים מים",
+      "title": "שרוולים מים",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 31,
+      "name": "כיווני זרימה מים",
+      "title": "כיווני זרימה מים",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 32,
+      "name": "צנרת מים",
+      "title": "צנרת מים",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 33,
+      "name": "קו מים כללי",
+      "title": "קו מים כללי",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 34,
+      "name": "שתיה",
+      "title": "שתיה",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 35,
+      "name": "מים פרטי",
+      "title": "מים פרטי",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 36,
+      "name": "מים ציבורי",
+      "title": "מים ציבורי",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 37,
+      "name": "מים ראשי",
+      "title": "מים ראשי",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 38,
+      "name": "מים משני",
+      "title": "מים משני",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 39,
+      "name": "מים קרים",
+      "title": "מים קרים",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 40,
+      "name": "קווי מים לחקלאות",
+      "title": "קווי מים לחקלאות",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 41,
+      "name": "מים חמים",
+      "title": "מים חמים",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 42,
+      "name": "מותפלים",
+      "title": "מותפלים",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 43,
+      "name": "קולחין",
+      "title": "קולחין",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 44,
+      "name": "כיבוי אש",
+      "title": "כיבוי אש",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 45,
+      "name": "מקורות",
+      "title": "מקורות",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 46,
+      "name": "מבוטל",
+      "title": "מבוטל",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 47,
+      "name": "מתוכנן",
+      "title": "מתוכנן",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 48,
+      "name": "השקייה",
+      "title": "השקייה",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 49,
+      "name": "עומקים מים",
+      "title": "עומקים מים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 50,
+      "name": "מים לחקלאות",
+      "title": "מים לחקלאות",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 51,
+      "name": "משאבות מים חקלאות",
+      "title": "משאבות מים חקלאות",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 52,
+      "name": "מפרטי מים חקלאות",
+      "title": "מפרטי מים חקלאות",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 53,
+      "name": "מגוף מים חקלאות",
+      "title": "מגוף מים חקלאות",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 54,
+      "name": "צנרת מים חקלאות",
+      "title": "צנרת מים חקלאות",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 55,
+      "name": "גינון רשות המים",
+      "title": "גינון רשות המים",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 56,
+      "name": "עצים",
+      "title": "עצים",
+      "geometry": "point",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 57,
+      "name": "צנרת מים גינון",
+      "title": "צנרת מים גינון",
+      "geometry": "line",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 58,
+      "name": "גנים",
+      "title": "גנים",
+      "geometry": "polygon",
+      "fields": [],
+      "feature_count": null
+    },
+    {
+      "id": 59,
+      "name": "ביוב",
+      "title": "ביוב",
+      "geometry": null,
+      "fields": [],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:102100"
+  ],
+  "cors_enabled": true,
+  "response_ms": 1472,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

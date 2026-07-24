@@ -1,0 +1,241 @@
+{
+  "slug": "sccmaps-surreycc-gov-uk-layers-mapserver-4",
+  "service_key": "ESRI MapServer:https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_ElectDivision/MapServer",
+  "type": "ESRI MapServer",
+  "url": "https://sccmaps.surreycc.gov.uk/webmaps/rest/services/Surrey_Interactive_Map/Boundary_ElectDivision/MapServer",
+  "title": "Layers",
+  "description": "Electoral division boundaries for Surrey local government.",
+  "abstract": "Layers associated with the 'Learning' theme",
+  "provider": "sccmaps.surreycc.gov.uk",
+  "place": {
+    "country": "United Kingdom",
+    "state": null,
+    "confidence": "high"
+  },
+  "themes": [
+    {
+      "name": "boundaries",
+      "confidence": "high"
+    }
+  ],
+  "bbox": null,
+  "layers": [
+    {
+      "id": 12,
+      "name": "Boundary - Electoral Division",
+      "title": "Boundary - Electoral Division",
+      "geometry": "polygon",
+      "fields": [
+        {
+          "name": "OBJECTID",
+          "type": "esriFieldTypeOID",
+          "alias": "Object ID"
+        },
+        {
+          "name": "Shape",
+          "type": "esriFieldTypeGeometry",
+          "alias": "Shape"
+        },
+        {
+          "name": "osid",
+          "type": "esriFieldTypeString",
+          "alias": "osid"
+        },
+        {
+          "name": "toid",
+          "type": "esriFieldTypeString",
+          "alias": "toid"
+        },
+        {
+          "name": "versiondate",
+          "type": "esriFieldTypeDate",
+          "alias": "versiondate"
+        },
+        {
+          "name": "versionavailablefromdate",
+          "type": "esriFieldTypeDate",
+          "alias": "versionavailablefromdate"
+        },
+        {
+          "name": "versionavailabletodate",
+          "type": "esriFieldTypeDate",
+          "alias": "versionavailabletodate"
+        },
+        {
+          "name": "changetype",
+          "type": "esriFieldTypeString",
+          "alias": "changetype"
+        },
+        {
+          "name": "geometry_area",
+          "type": "esriFieldTypeDouble",
+          "alias": "geometry_area"
+        },
+        {
+          "name": "theme",
+          "type": "esriFieldTypeString",
+          "alias": "theme"
+        },
+        {
+          "name": "name1_text",
+          "type": "esriFieldTypeString",
+          "alias": "name1_text"
+        },
+        {
+          "name": "name1_language",
+          "type": "esriFieldTypeString",
+          "alias": "name1_language"
+        },
+        {
+          "name": "name2_text",
+          "type": "esriFieldTypeString",
+          "alias": "name2_text"
+        },
+        {
+          "name": "name2_language",
+          "type": "esriFieldTypeString",
+          "alias": "name2_language"
+        },
+        {
+          "name": "gsscode",
+          "type": "esriFieldTypeString",
+          "alias": "gsscode"
+        },
+        {
+          "name": "boundarytype",
+          "type": "esriFieldTypeString",
+          "alias": "boundarytype"
+        },
+        {
+          "name": "boundaryparentreference1_id",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference1_id"
+        },
+        {
+          "name": "boundaryparentreference1_featur",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference1_featur"
+        },
+        {
+          "name": "boundaryparentreference1_classi",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference1_classi"
+        },
+        {
+          "name": "boundaryparentreference1_name1_",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference1_name1_"
+        },
+        {
+          "name": "boundaryparentreference1_name11",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference1_name11"
+        },
+        {
+          "name": "boundaryparentreference1_name2_",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference1_name2_"
+        },
+        {
+          "name": "boundaryparentreference1_name21",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference1_name21"
+        },
+        {
+          "name": "boundaryparentreference2_id",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference2_id"
+        },
+        {
+          "name": "boundaryparentreference2_featur",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference2_featur"
+        },
+        {
+          "name": "boundaryparentreference2_classi",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference2_classi"
+        },
+        {
+          "name": "boundaryparentreference2_name1_",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference2_name1_"
+        },
+        {
+          "name": "boundaryparentreference2_name11",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference2_name11"
+        },
+        {
+          "name": "boundaryparentreference2_name2_",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference2_name2_"
+        },
+        {
+          "name": "boundaryparentreference2_name21",
+          "type": "esriFieldTypeString",
+          "alias": "boundaryparentreference2_name21"
+        },
+        {
+          "name": "landareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "landareahectares"
+        },
+        {
+          "name": "tidalareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "tidalareahectares"
+        },
+        {
+          "name": "totalareahectares",
+          "type": "esriFieldTypeDouble",
+          "alias": "totalareahectares"
+        },
+        {
+          "name": "hasdetachedpart",
+          "type": "esriFieldTypeInteger",
+          "alias": "hasdetachedpart"
+        },
+        {
+          "name": "Shape.STArea()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STArea()"
+        },
+        {
+          "name": "Shape.STLength()",
+          "type": "esriFieldTypeDouble",
+          "alias": "Shape.STLength()"
+        }
+      ],
+      "feature_count": null
+    }
+  ],
+  "formats": [
+    "PNG32",
+    "PNG24",
+    "PNG",
+    "JPG",
+    "DIB",
+    "TIFF",
+    "EMF",
+    "PS",
+    "PDF",
+    "GIF",
+    "SVG",
+    "SVGZ",
+    "BMP"
+  ],
+  "crs": [
+    "EPSG:27700"
+  ],
+  "cors_enabled": true,
+  "response_ms": 329,
+  "last_verified": "2026-07-24",
+  "discovery_count": 1,
+  "quality_score": 1,
+  "enrichment": {
+    "model": "claude-haiku-4-5 (session agent)",
+    "date": "2026-07-24",
+    "notes": ""
+  }
+}

@@ -161,6 +161,8 @@
   flex-direction: column;
   gap: 0.4rem;
   height: 100%;
+  text-decoration: none;
+  color: var(--gh-text);
 }
 
 .cardMeta {

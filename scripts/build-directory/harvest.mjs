@@ -68,13 +68,31 @@ const rows = await loadRows();
 const candidates = selectCandidates(rows, TARGET);
 console.log(`rows: ${rows.length}, candidates after ranking: ${candidates.length}`);
 
+/* probeService carries its own per-request timeouts, but a rare hung socket
+   can still leave a promise unsettled forever, which kills the whole run
+   (Node exits on an unsettled top-level await). The race guarantees every
+   probe settles. */
+const PROBE_DEADLINE_MS = 45_000;
+const DEAD = { alive: false, response_ms: null, title: null, abstract: null,
+  layers: [], formats: [], crs: [], bbox: null };
+
+function probeWithDeadline(raw) {
+  let timer;
+  const deadline = new Promise((resolve) => {
+    timer = setTimeout(() => resolve(DEAD), PROBE_DEADLINE_MS);
+  });
+  return Promise.race([
+    probeService({ url: raw.normalized_url, type: raw.service_type }, fetch),
+    deadline,
+  ]).finally(() => clearTimeout(timer));
+}
+
 const results = [];
 let cursor = 0;
 async function worker() {
   while (cursor < candidates.length) {
     const raw = candidates[cursor++];
-    const url = raw.normalized_url;
-    const probe = await probeService({ url, type: raw.service_type }, fetch);
+    const probe = await probeWithDeadline(raw);
     results.push({ raw, probe });
     process.stdout.write(probe.alive ? '.' : 'x');
   }

@@ -19,12 +19,20 @@ export function typeShort(type) {
   return TYPE_SHORT.get(type) ?? 'service';
 }
 
+/* Windows paths cap out around 260 characters and some source titles are
+   entire HTML abstracts, so slugs are hard-capped. */
+const MAX_SLUG = 80;
+
 export function serviceSlug({ title, provider, url, type }) {
   let owner = provider;
   if (!owner) {
     try { owner = new URL(url).hostname; } catch { owner = ''; }
   }
-  return [slugify(owner), slugify(title), typeShort(type)].filter(Boolean).join('-');
+  const suffix = typeShort(type);
+  const budget = MAX_SLUG - suffix.length - 1;
+  const stem = [slugify(owner), slugify(title)].filter(Boolean).join('-')
+    .slice(0, budget).replace(/-+$/, '');
+  return [stem, suffix].filter(Boolean).join('-');
 }
 
 export function placeSlug({ country, state }) {

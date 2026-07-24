@@ -10,6 +10,9 @@ export function buildRecord({ raw, probe, meaning }, today) {
   const description = meaning.description
     ?? (meaning.abstract ? meaning.abstract.split(/(?<=\.)\s/)[0] : null);
   if (!title || !description) return null;
+  // A title that long is junk metadata (some services put whole HTML
+  // abstracts in the title field); not worth a page.
+  if (title.length > 160 || /<[a-z]+[^>]*>/i.test(title)) return null;
   if (probe.layers.length === 0 && !NO_LAYER_TYPES.has(raw.service_type)) return null;
 
   const bboxCandidate = probe.bbox ?? parseBbox(raw.bounding_box);

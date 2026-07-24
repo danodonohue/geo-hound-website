@@ -33,6 +33,15 @@ test('serviceSlug falls back to url host when provider missing', () => {
   assert.equal(s, 'gis-ecan-govt-nz-flood-hazard-mapserver');
 });
 
+test('serviceSlug is capped and never ends in a dash', () => {
+  const s = serviceSlug({
+    title: 'word '.repeat(120), provider: 'Some Very Long Provider Name Incorporated',
+    url: 'https://example.gov/arcgis/rest/services/X/MapServer', type: 'ESRI MapServer',
+  });
+  assert.ok(s.length <= 80, `slug too long: ${s.length}`);
+  assert.ok(!s.endsWith('-'));
+});
+
 test('placeSlug: country alone, and state qualified by country', () => {
   assert.equal(placeSlug({ country: 'New Zealand', state: null }), 'new-zealand');
   assert.equal(placeSlug({ country: 'New Zealand', state: 'Canterbury' }), 'canterbury-new-zealand');

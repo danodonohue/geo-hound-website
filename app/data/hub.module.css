@@ -1,0 +1,18 @@
+.lede {
+  max-width: 44rem;
+  color: var(--gh-text-muted);
+}
+
+.grid {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

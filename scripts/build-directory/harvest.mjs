@@ -5,6 +5,37 @@ import { probeService } from './lib/probe.mjs';
 const TARGET = Number(process.env.DIRECTORY_TARGET ?? 750);
 const seedIdx = process.argv.indexOf('--seed');
 
+/* The production table is 1.1M+ rows with no useful indexes for the anon
+   role: any ORDER BY or sparse filter exceeds the statement timeout. Dense
+   unordered filters return quickly because the planner stops at the limit,
+   so harvest pulls several dense slices (authoritative domains, major
+   service types) and ranks client-side. If migrations/004 (pg_trgm) and a
+   b-tree on discovery_count are ever applied, this can become a single
+   ordered query again. */
+const URL_PATTERNS = ['*.govt.nz*', '*.gov.au*', '*.gov.uk*', '*.gc.ca*', '*.gov/*'];
+const SERVICE_TYPES = ['ESRI MapServer', 'ESRI FeatureServer', 'ESRI ImageServer', 'OGC WMS', 'OGC WFS'];
+const COLS = 'normalized_url,service_type,service_title,service_abstract,provider_name,layer_names,bounding_box,cors_enabled,last_verified,discovery_count';
+const SLICE_LIMIT = 1000;
+
+async function fetchSlice(base, headers, filter, label) {
+  try {
+    const res = await fetch(
+      `${base}/rest/v1/global_service_directory?select=${COLS}&${filter}&limit=${SLICE_LIMIT}`,
+      { headers, signal: AbortSignal.timeout(30_000) },
+    );
+    if (!res.ok) {
+      console.warn(`slice ${label}: HTTP ${res.status}, skipped`);
+      return [];
+    }
+    const rows = await res.json();
+    console.log(`slice ${label}: ${rows.length} rows`);
+    return rows;
+  } catch (err) {
+    console.warn(`slice ${label}: ${err.name}, skipped`);
+    return [];
+  }
+}
+
 async function loadRows() {
   if (seedIdx !== -1) {
     const file = process.argv[seedIdx + 1];
@@ -16,12 +47,16 @@ async function loadRows() {
     console.error('Set SUPABASE_URL and SUPABASE_ANON_KEY, or pass --seed <file>.');
     process.exit(1);
   }
-  const res = await fetch(
-    `${SUPABASE_URL}/rest/v1/global_service_directory?select=*&order=discovery_count.desc.nullslast&limit=2000`,
-    { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` } },
-  );
-  if (!res.ok) { console.error(`Supabase ${res.status}: ${await res.text()}`); process.exit(1); }
-  return res.json();
+  const headers = { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` };
+  const rows = [];
+  for (const pattern of URL_PATTERNS) {
+    rows.push(...await fetchSlice(SUPABASE_URL, headers, `normalized_url=ilike.${encodeURIComponent(pattern)}`, pattern));
+  }
+  for (const type of SERVICE_TYPES) {
+    rows.push(...await fetchSlice(SUPABASE_URL, headers, `service_type=eq.${encodeURIComponent(type)}`, type));
+  }
+  if (rows.length === 0) { console.error('No rows fetched from any slice.'); process.exit(1); }
+  return rows;
 }
 
 const rows = await loadRows();

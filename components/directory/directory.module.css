@@ -1,0 +1,205 @@
+/* Shared styles for the data directory components. Structure comes from
+   borders, not shadows; mono for coordinates and URLs. */
+
+.extent {
+  margin: 0;
+  border: 1.5px solid var(--gh-border);
+  background: var(--gh-surface);
+}
+
+.extent svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.extentFrame {
+  fill: none;
+  stroke: var(--gh-hair);
+  stroke-width: 1;
+}
+
+.graticule {
+  stroke: var(--gh-hair);
+  stroke-width: 0.5;
+}
+
+.land {
+  fill: var(--gh-inset);
+  stroke: var(--gh-border-soft);
+  stroke-width: 0.75;
+}
+
+.extentBox {
+  fill: var(--gh-accent-tint);
+  stroke: var(--gh-accent-strong);
+  stroke-width: 2;
+}
+
+.extentCaption {
+  font-family: var(--gh-mono);
+  font-size: 0.75rem;
+  color: var(--gh-text-muted);
+  padding: 0.5rem 0.75rem;
+  border-top: 1.5px solid var(--gh-hair);
+}
+
+/* Live preview */
+
+.preview {
+  border: 1.5px solid var(--gh-border);
+  background: var(--gh-surface);
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.previewMap {
+  height: 360px;
+  border: 1.5px solid var(--gh-border);
+}
+
+.previewNote {
+  margin: 0;
+  color: var(--gh-text-muted);
+  font-size: 0.9rem;
+}
+
+/* Facts panel */
+
+.facts {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 1.25rem;
+  margin: 0;
+}
+
+.facts dt {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gh-text-muted);
+  align-self: center;
+}
+
+.facts dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.mono {
+  font-family: var(--gh-mono);
+  font-size: 0.85rem;
+}
+
+.urlRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Layers table */
+
+.layerTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.layerTable th {
+  text-align: left;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gh-text-muted);
+  border-bottom: 2px solid var(--gh-border);
+  padding: 0.4rem 0.75rem 0.4rem 0;
+}
+
+.layerTable td {
+  border-bottom: 1.5px solid var(--gh-hair);
+  padding: 0.4rem 0.75rem 0.4rem 0;
+  vertical-align: top;
+}
+
+.fieldTable {
+  margin: 0.5rem 0 0.75rem;
+}
+
+/* Connect snippets */
+
+.snippet {
+  margin: 0;
+}
+
+.snippet pre {
+  font-family: var(--gh-mono);
+  font-size: 0.8rem;
+  background: var(--gh-inset);
+  border: 1.5px solid var(--gh-hair);
+  padding: 0.75rem;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.snippetHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Cards and search */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  height: 100%;
+}
+
+.cardMeta {
+  color: var(--gh-text-muted);
+  font-size: 0.85rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.searchInput {
+  font: inherit;
+  padding: 0.6rem 0.75rem;
+  border: 2px solid var(--gh-border);
+  border-radius: var(--gh-r);
+  background: var(--gh-surface);
+  color: var(--gh-text);
+  width: 100%;
+  max-width: 32rem;
+}
+
+.searchInput:focus-visible {
+  outline: 2px solid var(--gh-focus);
+  outline-offset: 1px;
+}
+
+.searchResults {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
